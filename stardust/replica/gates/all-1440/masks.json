@@ -1,0 +1,10 @@
+{
+  "innovation-marathon-2027": {
+    "masks": [
+      "1341:747",
+      "3010:747",
+      "5443:747"
+    ],
+    "reason": "authored-volatile: the three video-block bands are autoplaying, muted, looping Vimeo players (source .video-block__container-wrapper.autoplay.automute.loop) — each capture lands on a different frame on both sides; band rects measured on the origin (measure.mjs .video-block --all-matches @1440: y 1341/3010/5443, h 747; EDS Δh 0 so the rows align). Layout of the bands is still covered (Δh 0, text 0.15 %)."
+  }
+}

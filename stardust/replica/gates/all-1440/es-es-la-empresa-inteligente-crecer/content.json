@@ -1,0 +1,4638 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T07:26:48.983Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/es-es/la-empresa-inteligente/crecer/",
+  "at": "2026-11-14T07:26:24.669Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5878,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.site-nav__menu-wrapper.site-nav__menu__labels > div.site-nav__logo > a.site-nav__logo__link",
+    "x": 24,
+    "y": 12,
+    "w": 159,
+    "h": 41,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 355,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "nuestro trabajo"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 355,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "label": "trigger",
+    "value": "nuestro trabajo",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 551,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "servicios"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 551,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "label": "trigger",
+    "value": "servicios",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 746,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "talento"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 746,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "label": "trigger",
+    "value": "talento",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item.active > button.site-nav__menu__title.active",
+    "x": 942,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "perspectivas"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item.active > button.site-nav__menu__title.active",
+    "x": 942,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "label": "trigger",
+    "value": "perspectivas",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 1138,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "sobre nosotros"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 1138,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "label": "trigger",
+    "value": "sobre nosotros",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.site-nav__menu-fixed > div.site-nav__icons > button.location-select.desktop",
+    "x": 1372,
+    "y": 16,
+    "w": 64,
+    "h": 40,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.site-nav__menu-fixed > div.site-nav__icons > button.location-select.desktop",
+    "x": 1372,
+    "y": 16,
+    "w": 64,
+    "h": 40,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.iehub-nav > nav.section__container.iehub-nav__container > a.iehub-nav__item",
+    "x": 595,
+    "y": 85,
+    "w": 114,
+    "h": 20,
+    "text": "visión general",
+    "href": "/es-es/la-empresa-inteligente/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.iehub-nav > nav.section__container.iehub-nav__container > a.iehub-nav__item",
+    "x": 748,
+    "y": 85,
+    "w": 56,
+    "h": 20,
+    "text": "operar",
+    "href": "/es-es/la-empresa-inteligente/operar/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.iehub-nav > nav.section__container.iehub-nav__container > a.iehub-nav__item",
+    "x": 844,
+    "y": 85,
+    "w": 78,
+    "h": 20,
+    "text": "organizar",
+    "href": "/es-es/la-empresa-inteligente/organizar/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.iehub-nav > nav.section__container.iehub-nav__container > span.iehub-nav__item.active",
+    "x": 962,
+    "y": 85,
+    "w": 53,
+    "h": 20,
+    "text": "Crecer"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.iehub-nav > nav.section__container.iehub-nav__container > a.iehub-nav__item",
+    "x": 1055,
+    "y": 85,
+    "w": 57,
+    "h": 20,
+    "text": "liderar",
+    "href": "/es-es/la-empresa-inteligente/liderar/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.iehub-nav > nav.section__container.iehub-nav__container > a.btn--white.iehub-nav__item",
+    "x": 1152,
+    "y": 75,
+    "w": 264,
+    "h": 40,
+    "text": "reserva una sesión ejecutiva",
+    "href": "/es-es/la-empresa-inteligente/crecer/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block__bg-image > picture > img",
+    "x": 0,
+    "y": 125,
+    "w": 1440,
+    "h": 720,
+    "text": "",
+    "file": "pillar_grow_header_desktop"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block__item__text-adapter__wrapper > div.hero-block__item__title > h1",
+    "x": 179,
+    "y": 212,
+    "w": 541,
+    "h": 387,
+    "level": 1,
+    "text": "ia generativa en experiencia de cliente"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block__item__text-adapter.js-hero-block__item__text-adapter > div.hero-block__item__text-adapter__wrapper > p.hero-block__item__text",
+    "x": 179,
+    "y": 607,
+    "w": 460,
+    "h": 75,
+    "text": "La eficiencia impulsa la innovación cuando las experiencias generativas crean nu"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block__item__text-adapter.js-hero-block__item__text-adapter > div.hero-block__item__text-adapter__wrapper > span.hero-block__item__tag",
+    "x": 179,
+    "y": 184,
+    "w": 1082,
+    "h": 20,
+    "text": "CRECER"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block__item__wrapper > div.hero-block__item__link-wrapper > a.hero-block__item__link.btn--white",
+    "x": 179,
+    "y": 738,
+    "w": 183,
+    "h": 49,
+    "text": "descubre crecer",
+    "href": "/es-es/la-empresa-inteligente/crecer/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section__container.case-rte__container > div.case-rte__header > h2.case-rte__header__title",
+    "x": 179,
+    "y": 965,
+    "w": 529,
+    "h": 28,
+    "level": 2,
+    "text": "¿por qué crecer es una capa esencial?"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section__container.case-rte__container > div.case-rte__body > h3.case-rte__body-title",
+    "x": 732,
+    "y": 962,
+    "w": 529,
+    "h": 144,
+    "level": 3,
+    "text": "los recorridos de cliente no siguen un camino predeterminado"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.case-rte__body > div > p",
+    "x": 732,
+    "y": 1138,
+    "w": 529,
+    "h": 180,
+    "text": "Las personas se mueven entre canales, muestran su intención en momentos clave y "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.case-visual-side-by-side__panel.panel--first > picture.case-visual-side-by-side__picture > img.case-visual-side-by-side__image",
+    "x": 179,
+    "y": 1558,
+    "w": 529,
+    "h": 529,
+    "text": "",
+    "file": "generate-experiences"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.case-visual-side-by-side__panel.panel--second > div.case-visual-side-by-side__text-content > h3.case-visual-side-by-side__title",
+    "x": 732,
+    "y": 1571,
+    "w": 529,
+    "h": 88,
+    "level": 3,
+    "text": "genera experiencias en tiempo real"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.case-visual-side-by-side__text-content > div.case-visual-side-by-side__copy > p",
+    "x": 732,
+    "y": 1691,
+    "w": 529,
+    "h": 360,
+    "text": "Crecer orquesta la capa de experiencia de la empresa. Al combinar IA generativa "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.case-visual-side-by-side__panel.panel--first > picture.case-visual-side-by-side__picture > img.case-visual-side-by-side__image",
+    "x": 179,
+    "y": 2207,
+    "w": 529,
+    "h": 529,
+    "text": "",
+    "file": "a-new-design-paradigm"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.case-visual-side-by-side__panel.panel--second > div.case-visual-side-by-side__text-content > h3.case-visual-side-by-side__title",
+    "x": 732,
+    "y": 2260,
+    "w": 529,
+    "h": 44,
+    "level": 3,
+    "text": "una nueva forma de diseñar"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.case-visual-side-by-side__text-content > div.case-visual-side-by-side__copy > p",
+    "x": 732,
+    "y": 2336,
+    "w": 529,
+    "h": 324,
+    "text": "Se trata de pasar de lo estático a lo dinámico. El diseño de experiencias de cli"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section__container.centralized > div.related-cases__header > h2.related-cases__title",
+    "x": 179,
+    "y": 2856,
+    "w": 76,
+    "h": 28,
+    "level": 2,
+    "text": "casos"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.related-cases__list > li.related-cases__item > a.related-cases__item-link",
+    "x": 179,
+    "y": 2932,
+    "w": 529,
+    "h": 529,
+    "text": "lexus europa y la ia agéntica: a vuestro servicio",
+    "href": "/es-es/casos/lexus-europa/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.related-cases__item__image-block > picture.related-cases__item__image-block--static > img",
+    "x": 179,
+    "y": 2932,
+    "w": 529,
+    "h": 457,
+    "text": "lexus europa y la ia agéntica: a vuestro servicio",
+    "file": "lexus-ai-concierge-digital-assistant-sea"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.related-cases__item-content > div.related-cases__item-content-wrapper > h3.related-cases__item-title",
+    "x": 195,
+    "y": 3397,
+    "w": 414,
+    "h": 54,
+    "level": 3,
+    "text": "lexus europa y la ia agéntica: a vuestro servicio"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.related-cases__list > li.related-cases__item > a.related-cases__item-link",
+    "x": 732,
+    "y": 2932,
+    "w": 529,
+    "h": 529,
+    "text": "valet",
+    "href": "/work/valet/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.related-cases__item__image-block > picture.related-cases__item__image-block--static > img",
+    "x": 732,
+    "y": 2932,
+    "w": 529,
+    "h": 457,
+    "text": "valet",
+    "file": "data-and-ai-luggage-chat-bot-valtech-hea"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.related-cases__item-content > div.related-cases__item-content-wrapper > h3.related-cases__item-title",
+    "x": 748,
+    "y": 3396,
+    "w": 414,
+    "h": 27,
+    "level": 3,
+    "text": "valet"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.section.ie-hub-page > div.section__container.centralized > h2.featured-verticals-block__title",
+    "x": 179,
+    "y": 3526,
+    "w": 1082,
+    "h": 28,
+    "level": 2,
+    "text": "cómo lo hacemos realidad"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__item__picture > picture > img.featured-verticals-block__item__image",
+    "x": 178,
+    "y": 3577,
+    "w": 437,
+    "h": 543,
+    "text": "",
+    "file": "operating-model-transformation-header"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__item__content > div.featured-verticals-block__item__header > span.featured-verticals-block__item__pretitle",
+    "x": 646,
+    "y": 3578,
+    "w": 101,
+    "h": 23,
+    "text": "Metodología"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__item__content > div.featured-verticals-block__item__header > h3.featured-verticals-block__item__title",
+    "x": 646,
+    "y": 3601,
+    "w": 519,
+    "h": 115,
+    "level": 3,
+    "text": "modelo operativo inteligente"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__item__content > div.featured-verticals-block__item__footer > p.featured-verticals-block__item__text",
+    "x": 646,
+    "y": 3912,
+    "w": 460,
+    "h": 134,
+    "text": "Nuestro enfoque de transformación del modelo operativo con IA desbloquea valor m"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__item__content > div.featured-verticals-block__item__footer > a.featured-verticals-block__item__link.btn--white",
+    "x": 646,
+    "y": 4070,
+    "w": 186,
+    "h": 49,
+    "text": "nuestro enfoque",
+    "href": "/es-es/la-empresa-inteligente/modelo-operativo/"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__item__picture > picture > img.featured-verticals-block__item__image",
+    "x": 1180,
+    "y": 3577,
+    "w": 518,
+    "h": 543,
+    "text": "",
+    "file": "valtech-one-nav-image"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__item__content > div.featured-verticals-block__item__header > h3.featured-verticals-block__item__title",
+    "x": -276,
+    "y": 3601,
+    "w": 439,
+    "h": 115,
+    "level": 3,
+    "text": "valtech content os"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__item__content > div.featured-verticals-block__item__footer > p.featured-verticals-block__item__text",
+    "x": -276,
+    "y": 3878,
+    "w": 439,
+    "h": 168,
+    "text": "Pasa de la producción al impacto creativo con Valtech Content OS, el acelerador "
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__container > div.featured-verticals-block__content.js-fv-slider-content > button.flickity-button.flickity-prev-next-button",
+    "x": 1061,
+    "y": 4075,
+    "w": 40,
+    "h": 40,
+    "text": "previous"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__container > div.featured-verticals-block__content.js-fv-slider-content > button.flickity-button.flickity-prev-next-button",
+    "x": 1125,
+    "y": 4075,
+    "w": 40,
+    "h": 40,
+    "text": "next"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.wrapper.section__container > div.podcast-speakers__wrapper > h2.podcast-speakers__title",
+    "x": 179,
+    "y": 4239,
+    "w": 234,
+    "h": 28,
+    "level": 2,
+    "text": "nuestros expertos"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > img.podcast-speakers__image",
+    "x": 179,
+    "y": 4307,
+    "w": 150,
+    "h": 152,
+    "text": "",
+    "file": "gabriel-laliberte"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__name",
+    "x": 179,
+    "y": 4483,
+    "w": 221,
+    "h": 80,
+    "text": "Gabriel Laliberte"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__company",
+    "x": 179,
+    "y": 4563,
+    "w": 120,
+    "h": 26,
+    "text": "EVP, Strategy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__info > div.podcast-speakers__social-links > a.podcast-speakers__link",
+    "x": 179,
+    "y": 4589,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/gabriel-laliberte-2ba42221/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > img.podcast-speakers__image",
+    "x": 449,
+    "y": 4307,
+    "w": 150,
+    "h": 152,
+    "text": "",
+    "file": "david-toma"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__name",
+    "x": 449,
+    "y": 4483,
+    "w": 167,
+    "h": 40,
+    "text": "David Toma"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__company",
+    "x": 449,
+    "y": 4523,
+    "w": 221,
+    "h": 52,
+    "text": "VP, Strategy and Consulting"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__info > div.podcast-speakers__social-links > a.podcast-speakers__link",
+    "x": 449,
+    "y": 4575,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/david-toma/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > img.podcast-speakers__image",
+    "x": 720,
+    "y": 4307,
+    "w": 150,
+    "h": 152,
+    "text": "",
+    "file": "matt_redman"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__name",
+    "x": 720,
+    "y": 4483,
+    "w": 192,
+    "h": 40,
+    "text": "Matt Redman"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__company",
+    "x": 720,
+    "y": 4523,
+    "w": 119,
+    "h": 26,
+    "text": "SVP, Strategy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__info > div.podcast-speakers__social-links > a.podcast-speakers__link",
+    "x": 720,
+    "y": 4549,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/mhredman/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > img.podcast-speakers__image",
+    "x": 991,
+    "y": 4307,
+    "w": 150,
+    "h": 152,
+    "text": "",
+    "file": "kristoffer-nielsen-refs"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__name",
+    "x": 991,
+    "y": 4483,
+    "w": 221,
+    "h": 80,
+    "text": "Kristoffer Nielsen-Refs"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__company",
+    "x": 991,
+    "y": 4563,
+    "w": 221,
+    "h": 52,
+    "text": "VP, Strategy & Consulting"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__info > div.podcast-speakers__social-links > a.podcast-speakers__link",
+    "x": 991,
+    "y": 4615,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/krisnielsenrefs/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.registration-form__header > div.registration-form__title > h2",
+    "x": 295,
+    "y": 4776,
+    "w": 587,
+    "h": 52,
+    "level": 2,
+    "text": "reserva una sesión ejecutiva"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldWrap.convertedField > div.mktoHtmlText.mktoHasWidth > span",
+    "x": 295,
+    "y": 4882,
+    "w": 577,
+    "h": 21,
+    "text": "Los campos marcados con un asterisco ( ) son obligatorios y deben completarse."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblFirstName",
+    "x": 295,
+    "y": 4944,
+    "w": 67,
+    "h": 16,
+    "text": "Nombre"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblLastName",
+    "x": 740,
+    "y": 4944,
+    "w": 76,
+    "h": 16,
+    "text": "Apellidos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblCompany",
+    "x": 295,
+    "y": 5012,
+    "w": 170,
+    "h": 16,
+    "text": "Nombre de la empresa"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#Industry",
+    "x": 740,
+    "y": 5001,
+    "w": 405,
+    "h": 38,
+    "label": "industria *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblIndustry",
+    "x": 740,
+    "y": 5012,
+    "w": 72,
+    "h": 16,
+    "text": "Industria"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#Lead_title__c",
+    "x": 295,
+    "y": 5069,
+    "w": 405,
+    "h": 38,
+    "label": "cargo *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblLead_title__c",
+    "x": 295,
+    "y": 5080,
+    "w": 52,
+    "h": 16,
+    "text": "Cargo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblEmail",
+    "x": 740,
+    "y": 5080,
+    "w": 224,
+    "h": 16,
+    "text": "Correo electrónico profesional"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#CountryCode",
+    "x": 295,
+    "y": 5137,
+    "w": 849,
+    "h": 38,
+    "label": "pais *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblCountryCode",
+    "x": 295,
+    "y": 5148,
+    "w": 39,
+    "h": 16,
+    "text": "Pais"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoLogicalField.mktoCheckboxList > label#LblmktoCheckbox_196484_0 > span",
+    "x": 321,
+    "y": 5205,
+    "w": 780,
+    "h": 42,
+    "text": "Acepto recibir noticias y comunicaciones de marketing relevantes por parte de Va"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoLogicalField.mktoCheckboxList > label#LblmktoCheckbox_196484_0 > a",
+    "x": 925,
+    "y": 5226,
+    "w": 152,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 295,
+    "y": 5278,
+    "w": 382,
+    "h": 21,
+    "text": "Este sitio está protegido por CAPTCHA y se aplican la"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893 > a",
+    "x": 677,
+    "y": 5278,
+    "w": 155,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/legal/privacy-end-users/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 832,
+    "y": 5278,
+    "w": 206,
+    "h": 21,
+    "text": "y los"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.NormalTextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893 > a",
+    "x": 867,
+    "y": 5278,
+    "w": 170,
+    "h": 21,
+    "text": "términos y condiciones",
+    "href": "/legal/terms/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 295,
+    "y": 5278,
+    "w": 811,
+    "h": 43,
+    "text": "de uso de Friendly Captcha."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoButtonRow > span.mktoButtonWrap.mktoInset > button.mktoButton.btn--white",
+    "x": 295,
+    "y": 5352,
+    "w": 282,
+    "h": 49,
+    "text": "reserva una sesión ejecutiva"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 402,
+    "y": 5629,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 514,
+    "y": 5629,
+    "w": 109,
+    "h": 21,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 699,
+    "y": 5629,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 831,
+    "y": 5629,
+    "w": 148,
+    "h": 21,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer__column.site-footer__stamp > picture > img",
+    "x": 1107,
+    "y": 5605,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "badge-no-outline"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 116,
+    "y": 5757,
+    "w": 153,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 320,
+    "y": 5757,
+    "w": 135,
+    "h": 21,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 548,
+    "y": 5757,
+    "w": 82,
+    "h": 21,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 678,
+    "y": 5757,
+    "w": 96,
+    "h": 21,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 116,
+    "y": 5798,
+    "w": 156,
+    "h": 21,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a.cookiebot-reset",
+    "x": 320,
+    "y": 5798,
+    "w": 180,
+    "h": 21,
+    "text": "configuración de cookies",
+    "href": "/es-es/la-empresa-inteligente/crecer/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 994,
+    "y": 5762,
+    "w": 23,
+    "h": 21,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 1049,
+    "y": 5762,
+    "w": 23,
+    "h": 21,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 1104,
+    "y": 5762,
+    "w": 23,
+    "h": 21,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 1159,
+    "y": 5762,
+    "w": 23,
+    "h": 21,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 1214,
+    "y": 5762,
+    "w": 23,
+    "h": 21,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 1269,
+    "y": 5762,
+    "w": 23,
+    "h": 21,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 2,
+    "offPage": 24,
+    "textNodes": 98,
+    "controls": 52,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT X-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.featured-verticals-block__item__content",
+     "path": "div.featured-verticals-block__item__wrapper > div.featured-verticals-block__item__content > div.featured-verticals-block__item__header > h3.featured-verticals-block__item__title",
+     "text": "valtech content os",
+     "cutMin": 0,
+     "cutMax": 0
+    },
+    {
+     "kind": "TEXT X-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.featured-verticals-block__item__content",
+     "path": "div.featured-verticals-block__item__wrapper > div.featured-verticals-block__item__content > div.featured-verticals-block__item__footer > p.featured-verticals-block__item__text",
+     "text": "pasa de la producción al impacto creativo con valtech conten",
+     "cutMin": 0,
+     "cutMax": 0
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/es-es/la-empresa-inteligente/crecer",
+  "at": "2026-11-14T07:26:48.800Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5878,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-nav-menu-wrapper.site-nav-menu-labels > div.site-nav-logo > a.site-nav-logo-link",
+    "x": 24,
+    "y": 12,
+    "w": 159,
+    "h": 41,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu-list > li.site-nav-menu-item > button.site-nav-menu-title",
+    "x": 355,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "nuestro trabajo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu-list > li.site-nav-menu-item > button.site-nav-menu-title",
+    "x": 551,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "servicios"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu-list > li.site-nav-menu-item > button.site-nav-menu-title",
+    "x": 746,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "talento"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu-list > li.site-nav-menu-item > button.site-nav-menu-title.active",
+    "x": 942,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "perspectivas"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu-list > li.site-nav-menu-item > button.site-nav-menu-title",
+    "x": 1138,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "sobre nosotros"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.desktop",
+    "x": 1372,
+    "y": 16,
+    "w": 64,
+    "h": 40,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.desktop",
+    "x": 1372,
+    "y": 16,
+    "w": 64,
+    "h": 40,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.hub-nav-list > li > a.hub-nav-item",
+    "x": 595,
+    "y": 85,
+    "w": 114,
+    "h": 20,
+    "text": "visión general",
+    "href": "/es-es/la-empresa-inteligente/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.hub-nav-list > li > a.hub-nav-item",
+    "x": 748,
+    "y": 85,
+    "w": 56,
+    "h": 20,
+    "text": "operar",
+    "href": "/es-es/la-empresa-inteligente/operar"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.hub-nav-list > li > a.hub-nav-item",
+    "x": 844,
+    "y": 85,
+    "w": 78,
+    "h": 20,
+    "text": "organizar",
+    "href": "/es-es/la-empresa-inteligente/organizar"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.hub-nav-list > li > span.hub-nav-item.active",
+    "x": 962,
+    "y": 85,
+    "w": 53,
+    "h": 20,
+    "label": "current",
+    "value": "crecer",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.hub-nav-list > li > span.hub-nav-item.active",
+    "x": 962,
+    "y": 85,
+    "w": 53,
+    "h": 20,
+    "text": "Crecer"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.hub-nav-list > li > a.hub-nav-item",
+    "x": 1055,
+    "y": 85,
+    "w": 57,
+    "h": 20,
+    "text": "liderar",
+    "href": "/es-es/la-empresa-inteligente/liderar"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.hub-nav-container > p.hub-nav-cta > a.btn-white.hub-nav-item",
+    "x": 1152,
+    "y": 75,
+    "w": 264,
+    "h": 40,
+    "text": "reserva una sesión ejecutiva",
+    "href": "/es-es/la-empresa-inteligente/crecer"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block-bg-image.is-selected > picture > img",
+    "x": 0,
+    "y": 125,
+    "w": 1440,
+    "h": 720,
+    "text": "",
+    "file": "media_12f53ff694768cc847655333eb242e8b6e"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block-item-text-adapter-wrapper > div.hero-block-item-title > h1#ia-generativa-en-experiencia-de-cliente",
+    "x": 140,
+    "y": 212,
+    "w": 580,
+    "h": 387,
+    "level": 1,
+    "text": "ia generativa en experiencia de cliente"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block-item-text-adapter-wrapper > div.hero-block-item-text > p",
+    "x": 140,
+    "y": 607,
+    "w": 460,
+    "h": 75,
+    "text": "La eficiencia impulsa la innovación cuando las experiencias generativas crean nu"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block-item-text-adapter-wrapper > div.hero-block-item-tag > p",
+    "x": 140,
+    "y": 184,
+    "w": 1160,
+    "h": 20,
+    "text": "CRECER"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block-item-link-wrapper > p > a.hero-block-item-link.btn-white",
+    "x": 140,
+    "y": 738,
+    "w": 183,
+    "h": 49,
+    "text": "descubre crecer",
+    "href": "/es-es/la-empresa-inteligente/crecer"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.case-rte-container > div.case-rte-header > h2#por-qué-crecer-es-una-capa-esencial",
+    "x": 172,
+    "y": 965,
+    "w": 504,
+    "h": 28,
+    "level": 2,
+    "text": "¿por qué crecer es una capa esencial?"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.case-rte-container > div.case-rte-body > h3#los-recorridos-de-cliente-no-siguen-un-camino-predeterminado",
+    "x": 700,
+    "y": 962,
+    "w": 504,
+    "h": 144,
+    "level": 3,
+    "text": "los recorridos de cliente no siguen un camino predeterminado"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.case-rte-body > div > p",
+    "x": 700,
+    "y": 1138,
+    "w": 504,
+    "h": 180,
+    "text": "Las personas se mueven entre canales, muestran su intención en momentos clave y "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.side-by-side-panel.panel-first > picture.side-by-side-picture > img",
+    "x": 179,
+    "y": 1558,
+    "w": 529,
+    "h": 529,
+    "text": "",
+    "file": "media_1bdadea5b6b0f25cb5182d0367f43825d9"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.side-by-side-panel.panel-second > div.side-by-side-text-content > h3#genera-experiencias-en-tiempo-real",
+    "x": 732,
+    "y": 1571,
+    "w": 529,
+    "h": 88,
+    "level": 3,
+    "text": "genera experiencias en tiempo real"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.side-by-side-text-content > div.side-by-side-copy > p",
+    "x": 732,
+    "y": 1691,
+    "w": 529,
+    "h": 360,
+    "text": "Crecer orquesta la capa de experiencia de la empresa. Al combinar IA generativa "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.side-by-side-panel.panel-first > picture.side-by-side-picture > img",
+    "x": 179,
+    "y": 2207,
+    "w": 529,
+    "h": 529,
+    "text": "",
+    "file": "media_135b0fb08887cde5e3784118b28e3487f5"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.side-by-side-panel.panel-second > div.side-by-side-text-content > h3#una-nueva-forma-de-diseñar",
+    "x": 732,
+    "y": 2260,
+    "w": 529,
+    "h": 44,
+    "level": 3,
+    "text": "una nueva forma de diseñar"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.side-by-side-text-content > div.side-by-side-copy > p",
+    "x": 732,
+    "y": 2336,
+    "w": 529,
+    "h": 324,
+    "text": "Se trata de pasar de lo estático a lo dinámico. El diseño de experiencias de cli"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.related-cases-container > div.related-cases-header > h2#casos",
+    "x": 179,
+    "y": 2856,
+    "w": 76,
+    "h": 28,
+    "level": 2,
+    "text": "casos"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.related-cases-list > li.related-cases-item > a.related-cases-item-link",
+    "x": 179,
+    "y": 2932,
+    "w": 529,
+    "h": 529,
+    "text": "lexus europa y la ia agéntica: a vuestro servicio",
+    "href": "/es-es/casos/lexus-europa"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.related-cases-item-image-block > picture.related-cases-item-image-block-static.desktop > img",
+    "x": 179,
+    "y": 2932,
+    "w": 529,
+    "h": 457,
+    "text": "lexus europa y la ia agéntica: a vuestro servicio",
+    "file": "media_161c26cfd1debc80dc7eb8b4edc1810a97"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.related-cases-item-content > div.related-cases-item-content-wrapper > h3#lexus-europa-y-la-ia-agéntica-a-vuestro-servicio",
+    "x": 195,
+    "y": 3397,
+    "w": 414,
+    "h": 54,
+    "level": 3,
+    "text": "lexus europa y la ia agéntica: a vuestro servicio"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.related-cases-list > li.related-cases-item > a.related-cases-item-link",
+    "x": 732,
+    "y": 2932,
+    "w": 529,
+    "h": 529,
+    "text": "valet",
+    "href": "/work/valet/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.related-cases-item-image-block > picture.related-cases-item-image-block-static.desktop > img",
+    "x": 732,
+    "y": 2932,
+    "w": 529,
+    "h": 457,
+    "text": "valet",
+    "file": "media_1582ad7f63557959484c1db5638e33285a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.related-cases-item-content > div.related-cases-item-content-wrapper > h3#valet",
+    "x": 748,
+    "y": 3396,
+    "w": 414,
+    "h": 27,
+    "level": 3,
+    "text": "valet"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block-inner > div.featured-verticals-block-title > h2#cómo-lo-hacemos-realidad",
+    "x": 179,
+    "y": 3526,
+    "w": 1082,
+    "h": 28,
+    "level": 2,
+    "text": "cómo lo hacemos realidad"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block-item-picture > picture.landscape > img",
+    "x": 178,
+    "y": 3577,
+    "w": 435,
+    "h": 543,
+    "text": "",
+    "file": "media_1ec5cce632e39a0e277f61df1ac05ba4b2"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block-item-header > div.featured-verticals-block-item-pretitle > p",
+    "x": 646,
+    "y": 3578,
+    "w": 101,
+    "h": 23,
+    "text": "Metodología"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block-item-header > div.featured-verticals-block-item-title > h3#modelo-operativo-inteligente",
+    "x": 646,
+    "y": 3601,
+    "w": 519,
+    "h": 115,
+    "level": 3,
+    "text": "modelo operativo inteligente"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block-item-footer > div.featured-verticals-block-item-text > p",
+    "x": 646,
+    "y": 3912,
+    "w": 460,
+    "h": 134,
+    "text": "Nuestro enfoque de transformación del modelo operativo con IA desbloquea valor m"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block-item-footer > p > a.featured-verticals-block-item-link.btn-white",
+    "x": 646,
+    "y": 4070,
+    "w": 186,
+    "h": 49,
+    "text": "nuestro enfoque",
+    "href": "/es-es/la-empresa-inteligente/modelo-operativo"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block-item-picture > picture.landscape > img",
+    "x": 1180,
+    "y": 3577,
+    "w": 516,
+    "h": 543,
+    "text": "",
+    "file": "media_13e7bbaa2015732b039efebf9641707584"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block-container > div.featured-verticals-block-content > button.carousel-btn.carousel-btn-long",
+    "x": 1061,
+    "y": 4075,
+    "w": 40,
+    "h": 40,
+    "text": "previous"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block-container > div.featured-verticals-block-content > button.carousel-btn.carousel-btn-long",
+    "x": 1125,
+    "y": 4075,
+    "w": 40,
+    "h": 40,
+    "text": "next"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-wrapper > div.podcast-speakers-title > h2#nuestros-expertos",
+    "x": 179,
+    "y": 4239,
+    "w": 234,
+    "h": 28,
+    "level": 2,
+    "text": "nuestros expertos"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-image > picture > img",
+    "x": 179,
+    "y": 4307,
+    "w": 150,
+    "h": 152,
+    "text": "",
+    "file": "media_12af1fca1c5b836762f939621a476380f0"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-name > p",
+    "x": 179,
+    "y": 4483,
+    "w": 221,
+    "h": 80,
+    "text": "Gabriel Laliberte"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-company > p",
+    "x": 179,
+    "y": 4563,
+    "w": 120,
+    "h": 26,
+    "text": "EVP, Strategy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-social-links > p > a.podcast-speakers-link",
+    "x": 179,
+    "y": 4589,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/gabriel-laliberte-2ba42221/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-image > picture > img",
+    "x": 449,
+    "y": 4307,
+    "w": 150,
+    "h": 152,
+    "text": "",
+    "file": "media_191c2f8ee8e91db45b19a237536e5cad43"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-name > p",
+    "x": 449,
+    "y": 4483,
+    "w": 167,
+    "h": 40,
+    "text": "David Toma"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-company > p",
+    "x": 449,
+    "y": 4523,
+    "w": 221,
+    "h": 52,
+    "text": "VP, Strategy and Consulting"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-social-links > p > a.podcast-speakers-link",
+    "x": 449,
+    "y": 4575,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/david-toma/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-image > picture > img",
+    "x": 720,
+    "y": 4307,
+    "w": 150,
+    "h": 152,
+    "text": "",
+    "file": "media_1b88cd34713dcc6a58ea6fa0bcae9731ad"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-name > p",
+    "x": 720,
+    "y": 4483,
+    "w": 192,
+    "h": 40,
+    "text": "Matt Redman"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-company > p",
+    "x": 720,
+    "y": 4523,
+    "w": 119,
+    "h": 26,
+    "text": "SVP, Strategy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-social-links > p > a.podcast-speakers-link",
+    "x": 720,
+    "y": 4549,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/mhredman/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-image > picture > img",
+    "x": 991,
+    "y": 4307,
+    "w": 150,
+    "h": 152,
+    "text": "",
+    "file": "media_186f43fd53733559b351a431972a40de67"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-name > p",
+    "x": 991,
+    "y": 4483,
+    "w": 221,
+    "h": 80,
+    "text": "Kristoffer Nielsen-Refs"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-company > p",
+    "x": 991,
+    "y": 4563,
+    "w": 221,
+    "h": 52,
+    "text": "VP, Strategy & Consulting"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-social-links > p > a.podcast-speakers-link",
+    "x": 991,
+    "y": 4615,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/krisnielsenrefs/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.registration-form-header > div.registration-form-title > h2#reserva-una-sesión-ejecutiva",
+    "x": 295,
+    "y": 4776,
+    "w": 587,
+    "h": 52,
+    "level": 2,
+    "text": "reserva una sesión ejecutiva"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-html > span",
+    "x": 295,
+    "y": 4882,
+    "w": 578,
+    "h": 21,
+    "text": "Los campos marcados con un asterisco ( ) son obligatorios y deben completarse."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 295,
+    "y": 4944,
+    "w": 67,
+    "h": 16,
+    "text": "Nombre"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 740,
+    "y": 4944,
+    "w": 76,
+    "h": 16,
+    "text": "Apellidos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 295,
+    "y": 5012,
+    "w": 170,
+    "h": 16,
+    "text": "Nombre de la empresa"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > select#Industry",
+    "x": 740,
+    "y": 5001,
+    "w": 405,
+    "h": 38,
+    "label": "industria *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 740,
+    "y": 5012,
+    "w": 72,
+    "h": 16,
+    "text": "Industria"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > select#Lead_title__c",
+    "x": 295,
+    "y": 5069,
+    "w": 405,
+    "h": 38,
+    "label": "cargo *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 295,
+    "y": 5080,
+    "w": 52,
+    "h": 16,
+    "text": "Cargo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 740,
+    "y": 5080,
+    "w": 224,
+    "h": 16,
+    "text": "Correo electrónico profesional"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-field.mkto-form-field-float > select#CountryCode",
+    "x": 295,
+    "y": 5137,
+    "w": 849,
+    "h": 38,
+    "label": "pais *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 295,
+    "y": 5148,
+    "w": 39,
+    "h": 16,
+    "text": "Pais"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-check > label > span",
+    "x": 321,
+    "y": 5205,
+    "w": 780,
+    "h": 42,
+    "text": "Acepto recibir noticias y comunicaciones de marketing relevantes por parte de Va"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-check > label > a",
+    "x": 925,
+    "y": 5226,
+    "w": 152,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 295,
+    "y": 5278,
+    "w": 382,
+    "h": 21,
+    "text": "Este sitio está protegido por CAPTCHA y se aplican la"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span > span > a",
+    "x": 677,
+    "y": 5278,
+    "w": 155,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/legal/privacy-end-users/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 832,
+    "y": 5278,
+    "w": 206,
+    "h": 21,
+    "text": "y los"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span > span > a",
+    "x": 867,
+    "y": 5278,
+    "w": 170,
+    "h": 21,
+    "text": "términos y condiciones",
+    "href": "/legal/terms/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 295,
+    "y": 5278,
+    "w": 811,
+    "h": 43,
+    "text": "de uso de Friendly Captcha."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-buttons > span.mkto-form-button-wrap > button.mktoButton.btn-white",
+    "x": 295,
+    "y": 5352,
+    "w": 282,
+    "h": 49,
+    "text": "reserva una sesión ejecutiva"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 402,
+    "y": 5629,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 514,
+    "y": 5629,
+    "w": 109,
+    "h": 21,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 699,
+    "y": 5629,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 831,
+    "y": 5629,
+    "w": 148,
+    "h": 21,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer-column.site-footer-stamp > picture > img",
+    "x": 1107,
+    "y": 5605,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "media_18686ce5d542e21460f5b9773dc388b150"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 116,
+    "y": 5757,
+    "w": 153,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 320,
+    "y": 5757,
+    "w": 135,
+    "h": 21,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 548,
+    "y": 5757,
+    "w": 82,
+    "h": 21,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 678,
+    "y": 5757,
+    "w": 96,
+    "h": 21,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 116,
+    "y": 5798,
+    "w": 156,
+    "h": 21,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a.cookiebot-reset",
+    "x": 320,
+    "y": 5798,
+    "w": 180,
+    "h": 21,
+    "text": "configuración de cookies",
+    "href": "/es-es/la-empresa-inteligente/crecer"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 994,
+    "y": 5762,
+    "w": 23,
+    "h": 21,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 1049,
+    "y": 5762,
+    "w": 23,
+    "h": 21,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 1104,
+    "y": 5762,
+    "w": 23,
+    "h": 21,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 1159,
+    "y": 5762,
+    "w": 23,
+    "h": 21,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 1214,
+    "y": 5762,
+    "w": 23,
+    "h": 21,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 1269,
+    "y": 5762,
+    "w": 23,
+    "h": 21,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 21,
+    "textNodes": 94,
+    "controls": 50,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 5,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 5,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "ia generativa en experiencia de cliente",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "los recorridos de cliente no siguen un camino predeterminado",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "¿por qué crecer es una capa esencial?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "genera experiencias en tiempo real",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "una nueva forma de diseñar",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "casos",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 2
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "valet",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "lexus europa y la ia agéntica: a vuestro servicio",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "cómo lo hacemos realidad",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 1
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "modelo operativo inteligente",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 2,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "nuestros expertos",
+   "variable": false,
+   "origin": {
+    "link": 4,
+    "button": 0,
+    "text": 8,
+    "image": 4
+   },
+   "eds": {
+    "link": 4,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 8,
+    "textHidden": 0,
+    "image": 4,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "reserva una sesión ejecutiva",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 1,
+    "text": 12,
+    "image": 0
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 12,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 355,
+    "y": 21,
+    "w": 125,
+    "h": 23
+   },
+   {
+    "x": 551,
+    "y": 21,
+    "w": 73,
+    "h": 23
+   },
+   {
+    "x": 746,
+    "y": 21,
+    "w": 59,
+    "h": 23
+   },
+   {
+    "x": 942,
+    "y": 21,
+    "w": 103,
+    "h": 23
+   },
+   {
+    "x": 1138,
+    "y": 21,
+    "w": 122,
+    "h": 23
+   },
+   {
+    "x": 595,
+    "y": 83,
+    "w": 114,
+    "h": 23
+   },
+   {
+    "x": 748,
+    "y": 83,
+    "w": 56,
+    "h": 23
+   },
+   {
+    "x": 844,
+    "y": 83,
+    "w": 78,
+    "h": 23
+   },
+   {
+    "x": 962,
+    "y": 83,
+    "w": 53,
+    "h": 23
+   },
+   {
+    "x": 1055,
+    "y": 83,
+    "w": 57,
+    "h": 23
+   },
+   {
+    "x": 1169,
+    "y": 83,
+    "w": 230,
+    "h": 23
+   },
+   {
+    "x": 179,
+    "y": 198,
+    "w": 531,
+    "h": 123
+   },
+   {
+    "x": 179,
+    "y": 295,
+    "w": 105,
+    "h": 123
+   },
+   {
+    "x": 179,
+    "y": 392,
+    "w": 485,
+    "h": 123
+   },
+   {
+    "x": 179,
+    "y": 488,
+    "w": 409,
+    "h": 123
+   },
+   {
+    "x": 179,
+    "y": 606,
+    "w": 405,
+    "h": 26
+   },
+   {
+    "x": 179,
+    "y": 631,
+    "w": 342,
+    "h": 26
+   },
+   {
+    "x": 179,
+    "y": 656,
+    "w": 134,
+    "h": 26
+   },
+   {
+    "x": 179,
+    "y": 181,
+    "w": 76,
+    "h": 26
+   },
+   {
+    "x": 203,
+    "y": 750,
+    "w": 135,
+    "h": 23
+   },
+   {
+    "x": 191,
+    "y": 966,
+    "w": 410,
+    "h": 26
+   },
+   {
+    "x": 732,
+    "y": 958,
+    "w": 521,
+    "h": 56
+   },
+   {
+    "x": 732,
+    "y": 1006,
+    "w": 330,
+    "h": 56
+   },
+   {
+    "x": 732,
+    "y": 1054,
+    "w": 308,
+    "h": 56
+   },
+   {
+    "x": 732,
+    "y": 1140,
+    "w": 459,
+    "h": 26
+   },
+   {
+    "x": 732,
+    "y": 1170,
+    "w": 487,
+    "h": 26
+   },
+   {
+    "x": 732,
+    "y": 1200,
+    "w": 499,
+    "h": 26
+   },
+   {
+    "x": 732,
+    "y": 1230,
+    "w": 493,
+    "h": 26
+   },
+   {
+    "x": 732,
+    "y": 1260,
+    "w": 403,
+    "h": 26
+   },
+   {
+    "x": 732,
+    "y": 1290,
+    "w": 163,
+    "h": 26
+   },
+   {
+    "x": 732,
+    "y": 1565,
+    "w": 446,
+    "h": 56
+   },
+   {
+    "x": 732,
+    "y": 1609,
+    "w": 215,
+    "h": 56
+   },
+   {
+    "x": 732,
+    "y": 1693,
+    "w": 468,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 1729,
+    "w": 455,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 1765,
+    "w": 458,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 1801,
+    "w": 526,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 1837,
+    "w": 482,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 1873,
+    "w": 431,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 1909,
+    "w": 476,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 1945,
+    "w": 489,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 1981,
+    "w": 408,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2017,
+    "w": 122,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2254,
+    "w": 525,
+    "h": 56
+   },
+   {
+    "x": 732,
+    "y": 2338,
+    "w": 501,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2374,
+    "w": 425,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2410,
+    "w": 525,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2446,
+    "w": 422,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2482,
+    "w": 504,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2518,
+    "w": 516,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2554,
+    "w": 444,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2590,
+    "w": 513,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2626,
+    "w": 91,
+    "h": 31
+   },
+   {
+    "x": 190,
+    "y": 2857,
+    "w": 65,
+    "h": 26
+   },
+   {
+    "x": 195,
+    "y": 3391,
+    "w": 393,
+    "h": 38
+   },
+   {
+    "x": 195,
+    "y": 3418,
+    "w": 201,
+    "h": 38
+   },
+   {
+    "x": 748,
+    "y": 3390,
+    "w": 64,
+    "h": 38
+   },
+   {
+    "x": 190,
+    "y": 3527,
+    "w": 289,
+    "h": 26
+   },
+   {
+    "x": 646,
+    "y": 3578,
+    "w": 101,
+    "h": 23
+   },
+   {
+    "x": 646,
+    "y": 3596,
+    "w": 398,
+    "h": 67
+   },
+   {
+    "x": 646,
+    "y": 3653,
+    "w": 236,
+    "h": 67
+   },
+   {
+    "x": 646,
+    "y": 3913,
+    "w": 416,
+    "h": 31
+   },
+   {
+    "x": 646,
+    "y": 3946,
+    "w": 447,
+    "h": 31
+   },
+   {
+    "x": 646,
+    "y": 3980,
+    "w": 371,
+    "h": 31
+   },
+   {
+    "x": 646,
+    "y": 4013,
+    "w": 232,
+    "h": 31
+   },
+   {
+    "x": 672,
+    "y": 4082,
+    "w": 134,
+    "h": 23
+   },
+   {
+    "x": -276,
+    "y": 3596,
+    "w": 366,
+    "h": 67
+   },
+   {
+    "x": -276,
+    "y": 3879,
+    "w": 349,
+    "h": 31
+   },
+   {
+    "x": -276,
+    "y": 3913,
+    "w": 371,
+    "h": 31
+   },
+   {
+    "x": -276,
+    "y": 3946,
+    "w": 382,
+    "h": 31
+   },
+   {
+    "x": -276,
+    "y": 3980,
+    "w": 404,
+    "h": 31
+   },
+   {
+    "x": 190,
+    "y": 4240,
+    "w": 207,
+    "h": 26
+   },
+   {
+    "x": 179,
+    "y": 4483,
+    "w": 102,
+    "h": 40
+   },
+   {
+    "x": 179,
+    "y": 4523,
+    "w": 126,
+    "h": 40
+   },
+   {
+    "x": 179,
+    "y": 4563,
+    "w": 120,
+    "h": 26
+   },
+   {
+    "x": 449,
+    "y": 4483,
+    "w": 167,
+    "h": 40
+   },
+   {
+    "x": 449,
+    "y": 4523,
+    "w": 146,
+    "h": 26
+   },
+   {
+    "x": 449,
+    "y": 4549,
+    "w": 96,
+    "h": 26
+   },
+   {
+    "x": 720,
+    "y": 4483,
+    "w": 192,
+    "h": 40
+   },
+   {
+    "x": 720,
+    "y": 4523,
+    "w": 119,
+    "h": 26
+   },
+   {
+    "x": 991,
+    "y": 4483,
+    "w": 132,
+    "h": 40
+   },
+   {
+    "x": 991,
+    "y": 4523,
+    "w": 181,
+    "h": 40
+   },
+   {
+    "x": 991,
+    "y": 4563,
+    "w": 126,
+    "h": 26
+   },
+   {
+    "x": 991,
+    "y": 4589,
+    "w": 96,
+    "h": 26
+   },
+   {
+    "x": 295,
+    "y": 4771,
+    "w": 587,
+    "h": 61
+   },
+   {
+    "x": 299,
+    "y": 4882,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 587,
+    "y": 4884,
+    "w": 6,
+    "h": 18
+   },
+   {
+    "x": 593,
+    "y": 4882,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 295,
+    "y": 4941,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 354,
+    "y": 4943,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 4941,
+    "w": 67,
+    "h": 21
+   },
+   {
+    "x": 807,
+    "y": 4943,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 295,
+    "y": 5009,
+    "w": 161,
+    "h": 21
+   },
+   {
+    "x": 457,
+    "y": 5011,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 5009,
+    "w": 63,
+    "h": 21
+   },
+   {
+    "x": 803,
+    "y": 5011,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 295,
+    "y": 5077,
+    "w": 43,
+    "h": 21
+   },
+   {
+    "x": 339,
+    "y": 5079,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 5077,
+    "w": 215,
+    "h": 21
+   },
+   {
+    "x": 955,
+    "y": 5079,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 295,
+    "y": 5145,
+    "w": 30,
+    "h": 21
+   },
+   {
+    "x": 325,
+    "y": 5147,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 321,
+    "y": 5205,
+    "w": 780,
+    "h": 21
+   },
+   {
+    "x": 321,
+    "y": 5226,
+    "w": 603,
+    "h": 21
+   },
+   {
+    "x": 925,
+    "y": 5226,
+    "w": 152,
+    "h": 21
+   },
+   {
+    "x": 1076,
+    "y": 5226,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 1080,
+    "y": 5228,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 295,
+    "y": 5278,
+    "w": 382,
+    "h": 21
+   },
+   {
+    "x": 677,
+    "y": 5278,
+    "w": 155,
+    "h": 21
+   },
+   {
+    "x": 832,
+    "y": 5278,
+    "w": 36,
+    "h": 21
+   },
+   {
+    "x": 867,
+    "y": 5278,
+    "w": 170,
+    "h": 21
+   },
+   {
+    "x": 1038,
+    "y": 5278,
+    "w": 69,
+    "h": 21
+   },
+   {
+    "x": 295,
+    "y": 5301,
+    "w": 124,
+    "h": 21
+   },
+   {
+    "x": 321,
+    "y": 5364,
+    "w": 230,
+    "h": 23
+   },
+   {
+    "x": 402,
+    "y": 5629,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 514,
+    "y": 5629,
+    "w": 109,
+    "h": 21
+   },
+   {
+    "x": 699,
+    "y": 5629,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 831,
+    "y": 5629,
+    "w": 148,
+    "h": 21
+   },
+   {
+    "x": 116,
+    "y": 5757,
+    "w": 153,
+    "h": 21
+   },
+   {
+    "x": 320,
+    "y": 5757,
+    "w": 135,
+    "h": 21
+   },
+   {
+    "x": 548,
+    "y": 5757,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 678,
+    "y": 5757,
+    "w": 96,
+    "h": 21
+   },
+   {
+    "x": 116,
+    "y": 5798,
+    "w": 156,
+    "h": 21
+   },
+   {
+    "x": 320,
+    "y": 5798,
+    "w": 180,
+    "h": 21
+   }
+  ],
+  "eds": [
+   {
+    "x": 355,
+    "y": 21,
+    "w": 125,
+    "h": 23
+   },
+   {
+    "x": 551,
+    "y": 21,
+    "w": 73,
+    "h": 23
+   },
+   {
+    "x": 746,
+    "y": 21,
+    "w": 59,
+    "h": 23
+   },
+   {
+    "x": 942,
+    "y": 21,
+    "w": 103,
+    "h": 23
+   },
+   {
+    "x": 1138,
+    "y": 21,
+    "w": 122,
+    "h": 23
+   },
+   {
+    "x": 595,
+    "y": 83,
+    "w": 114,
+    "h": 23
+   },
+   {
+    "x": 748,
+    "y": 83,
+    "w": 56,
+    "h": 23
+   },
+   {
+    "x": 844,
+    "y": 83,
+    "w": 78,
+    "h": 23
+   },
+   {
+    "x": 962,
+    "y": 83,
+    "w": 53,
+    "h": 23
+   },
+   {
+    "x": 1055,
+    "y": 83,
+    "w": 57,
+    "h": 23
+   },
+   {
+    "x": 1169,
+    "y": 83,
+    "w": 230,
+    "h": 23
+   },
+   {
+    "x": 140,
+    "y": 198,
+    "w": 531,
+    "h": 123
+   },
+   {
+    "x": 140,
+    "y": 295,
+    "w": 105,
+    "h": 123
+   },
+   {
+    "x": 140,
+    "y": 392,
+    "w": 485,
+    "h": 123
+   },
+   {
+    "x": 140,
+    "y": 488,
+    "w": 409,
+    "h": 123
+   },
+   {
+    "x": 140,
+    "y": 606,
+    "w": 405,
+    "h": 26
+   },
+   {
+    "x": 140,
+    "y": 631,
+    "w": 342,
+    "h": 26
+   },
+   {
+    "x": 140,
+    "y": 656,
+    "w": 134,
+    "h": 26
+   },
+   {
+    "x": 140,
+    "y": 181,
+    "w": 76,
+    "h": 26
+   },
+   {
+    "x": 164,
+    "y": 750,
+    "w": 135,
+    "h": 23
+   },
+   {
+    "x": 184,
+    "y": 966,
+    "w": 410,
+    "h": 26
+   },
+   {
+    "x": 700,
+    "y": 958,
+    "w": 463,
+    "h": 56
+   },
+   {
+    "x": 700,
+    "y": 1006,
+    "w": 388,
+    "h": 56
+   },
+   {
+    "x": 700,
+    "y": 1054,
+    "w": 308,
+    "h": 56
+   },
+   {
+    "x": 700,
+    "y": 1140,
+    "w": 459,
+    "h": 26
+   },
+   {
+    "x": 700,
+    "y": 1170,
+    "w": 487,
+    "h": 26
+   },
+   {
+    "x": 700,
+    "y": 1200,
+    "w": 499,
+    "h": 26
+   },
+   {
+    "x": 700,
+    "y": 1230,
+    "w": 493,
+    "h": 26
+   },
+   {
+    "x": 700,
+    "y": 1260,
+    "w": 403,
+    "h": 26
+   },
+   {
+    "x": 700,
+    "y": 1290,
+    "w": 163,
+    "h": 26
+   },
+   {
+    "x": 732,
+    "y": 1565,
+    "w": 446,
+    "h": 56
+   },
+   {
+    "x": 732,
+    "y": 1609,
+    "w": 215,
+    "h": 56
+   },
+   {
+    "x": 732,
+    "y": 1693,
+    "w": 468,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 1729,
+    "w": 455,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 1765,
+    "w": 458,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 1801,
+    "w": 526,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 1837,
+    "w": 482,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 1873,
+    "w": 431,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 1909,
+    "w": 476,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 1945,
+    "w": 489,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 1981,
+    "w": 408,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2017,
+    "w": 122,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2254,
+    "w": 525,
+    "h": 56
+   },
+   {
+    "x": 732,
+    "y": 2338,
+    "w": 501,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2374,
+    "w": 425,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2410,
+    "w": 525,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2446,
+    "w": 422,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2482,
+    "w": 504,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2518,
+    "w": 516,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2554,
+    "w": 444,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2590,
+    "w": 513,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2626,
+    "w": 91,
+    "h": 31
+   },
+   {
+    "x": 190,
+    "y": 2857,
+    "w": 65,
+    "h": 26
+   },
+   {
+    "x": 195,
+    "y": 3391,
+    "w": 393,
+    "h": 38
+   },
+   {
+    "x": 195,
+    "y": 3418,
+    "w": 201,
+    "h": 38
+   },
+   {
+    "x": 748,
+    "y": 3390,
+    "w": 64,
+    "h": 38
+   },
+   {
+    "x": 190,
+    "y": 3527,
+    "w": 289,
+    "h": 26
+   },
+   {
+    "x": 646,
+    "y": 3578,
+    "w": 101,
+    "h": 23
+   },
+   {
+    "x": 646,
+    "y": 3596,
+    "w": 398,
+    "h": 67
+   },
+   {
+    "x": 646,
+    "y": 3653,
+    "w": 236,
+    "h": 67
+   },
+   {
+    "x": 646,
+    "y": 3913,
+    "w": 416,
+    "h": 31
+   },
+   {
+    "x": 646,
+    "y": 3946,
+    "w": 447,
+    "h": 31
+   },
+   {
+    "x": 646,
+    "y": 3980,
+    "w": 371,
+    "h": 31
+   },
+   {
+    "x": 646,
+    "y": 4013,
+    "w": 232,
+    "h": 31
+   },
+   {
+    "x": 672,
+    "y": 4082,
+    "w": 134,
+    "h": 23
+   },
+   {
+    "x": 190,
+    "y": 4240,
+    "w": 207,
+    "h": 26
+   },
+   {
+    "x": 179,
+    "y": 4483,
+    "w": 102,
+    "h": 40
+   },
+   {
+    "x": 179,
+    "y": 4523,
+    "w": 126,
+    "h": 40
+   },
+   {
+    "x": 179,
+    "y": 4563,
+    "w": 120,
+    "h": 26
+   },
+   {
+    "x": 449,
+    "y": 4483,
+    "w": 167,
+    "h": 40
+   },
+   {
+    "x": 449,
+    "y": 4523,
+    "w": 146,
+    "h": 26
+   },
+   {
+    "x": 449,
+    "y": 4549,
+    "w": 96,
+    "h": 26
+   },
+   {
+    "x": 720,
+    "y": 4483,
+    "w": 192,
+    "h": 40
+   },
+   {
+    "x": 720,
+    "y": 4523,
+    "w": 119,
+    "h": 26
+   },
+   {
+    "x": 991,
+    "y": 4483,
+    "w": 132,
+    "h": 40
+   },
+   {
+    "x": 991,
+    "y": 4523,
+    "w": 181,
+    "h": 40
+   },
+   {
+    "x": 991,
+    "y": 4563,
+    "w": 126,
+    "h": 26
+   },
+   {
+    "x": 991,
+    "y": 4589,
+    "w": 96,
+    "h": 26
+   },
+   {
+    "x": 295,
+    "y": 4771,
+    "w": 587,
+    "h": 61
+   },
+   {
+    "x": 299,
+    "y": 4882,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 587,
+    "y": 4882,
+    "w": 7,
+    "h": 21
+   },
+   {
+    "x": 594,
+    "y": 4882,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 295,
+    "y": 4941,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 354,
+    "y": 4943,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 4941,
+    "w": 67,
+    "h": 21
+   },
+   {
+    "x": 807,
+    "y": 4943,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 295,
+    "y": 5009,
+    "w": 161,
+    "h": 21
+   },
+   {
+    "x": 457,
+    "y": 5011,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 5009,
+    "w": 63,
+    "h": 21
+   },
+   {
+    "x": 803,
+    "y": 5011,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 295,
+    "y": 5077,
+    "w": 43,
+    "h": 21
+   },
+   {
+    "x": 339,
+    "y": 5079,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 5077,
+    "w": 215,
+    "h": 21
+   },
+   {
+    "x": 955,
+    "y": 5079,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 295,
+    "y": 5145,
+    "w": 30,
+    "h": 21
+   },
+   {
+    "x": 325,
+    "y": 5147,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 321,
+    "y": 5205,
+    "w": 780,
+    "h": 21
+   },
+   {
+    "x": 321,
+    "y": 5226,
+    "w": 603,
+    "h": 21
+   },
+   {
+    "x": 925,
+    "y": 5226,
+    "w": 152,
+    "h": 21
+   },
+   {
+    "x": 1076,
+    "y": 5226,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 1080,
+    "y": 5228,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 295,
+    "y": 5278,
+    "w": 382,
+    "h": 21
+   },
+   {
+    "x": 677,
+    "y": 5278,
+    "w": 155,
+    "h": 21
+   },
+   {
+    "x": 832,
+    "y": 5278,
+    "w": 36,
+    "h": 21
+   },
+   {
+    "x": 867,
+    "y": 5278,
+    "w": 170,
+    "h": 21
+   },
+   {
+    "x": 1038,
+    "y": 5278,
+    "w": 69,
+    "h": 21
+   },
+   {
+    "x": 295,
+    "y": 5301,
+    "w": 124,
+    "h": 21
+   },
+   {
+    "x": 321,
+    "y": 5364,
+    "w": 230,
+    "h": 23
+   },
+   {
+    "x": 402,
+    "y": 5629,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 514,
+    "y": 5629,
+    "w": 109,
+    "h": 21
+   },
+   {
+    "x": 699,
+    "y": 5629,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 831,
+    "y": 5629,
+    "w": 148,
+    "h": 21
+   },
+   {
+    "x": 116,
+    "y": 5757,
+    "w": 153,
+    "h": 21
+   },
+   {
+    "x": 320,
+    "y": 5757,
+    "w": 135,
+    "h": 21
+   },
+   {
+    "x": 548,
+    "y": 5757,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 678,
+    "y": 5757,
+    "w": 96,
+    "h": 21
+   },
+   {
+    "x": 116,
+    "y": 5798,
+    "w": 156,
+    "h": 21
+   },
+   {
+    "x": 320,
+    "y": 5798,
+    "w": 180,
+    "h": 21
+   }
+  ]
+ }
+}

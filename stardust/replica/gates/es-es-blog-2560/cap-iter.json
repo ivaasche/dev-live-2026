@@ -1,0 +1,426 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-13T13:20:28.111Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.valtech.com/es-es/blog/",
+      "http://localhost:8791/es-es-blog-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.valtech.com/es-es/blog/",
+    "http://localhost:8791/es-es-blog-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#valtech-content",
+      "isBody": false,
+      "leaves": 136,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1282,
+        "via": "other",
+        "selector": "div.masthead-insights__inner > div.masthead-insights__text.masthead-insights__text--light > hgroup.masthead-insights__hgroup > h2",
+        "tier": 9,
+        "share": 0.01,
+        "section": 1,
+        "w1": 1021,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 622,
+        "via": "other",
+        "selector": "div.masthead-insights__inner > div.masthead-insights__text.masthead-insights__text--light > div.masthead-insights__meta > span.masthead-insights__meta__tags",
+        "tier": 9,
+        "share": 0.07,
+        "section": 1,
+        "w1": 473,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 292,
+        "via": "fixed",
+        "selector": "div.sc-bqqMSY.fUtjlo > div.sc-kEbgWM.musOl > div.sc-iqkkDd.bZKA-dx > div.sc-qdQOe.daiWqn",
+        "tier": 8,
+        "share": 0.13,
+        "section": 2,
+        "w1": 292,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 266,
+        "via": "fixed",
+        "selector": "div.sc-iqkkDd.bZKA-dx > div.sc-qdQOe.daiWqn > button.sc-eCQgVK.himtpz > div.sc-jSppWd.esrMYJ",
+        "tier": 10,
+        "share": 0.01,
+        "section": 2,
+        "w1": 266,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 280,
+        "via": "fixed",
+        "selector": "div.sc-bqqMSY.fUtjlo > div.sc-kEbgWM.musOl > div.sc-iqkkDd.bZKA-dx > div.sc-qdQOe.daiWqn",
+        "tier": 8,
+        "share": 0.05,
+        "section": 2,
+        "w1": 280,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 254,
+        "via": "fixed",
+        "selector": "div.sc-iqkkDd.bZKA-dx > div.sc-qdQOe.daiWqn > button.sc-eCQgVK.himtpz > div.sc-jSppWd.esrMYJ",
+        "tier": 10,
+        "share": 0.01,
+        "section": 2,
+        "w1": 254,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 320,
+        "via": "fixed",
+        "selector": "div.sc-bqqMSY.fUtjlo > div.sc-kEbgWM.musOl > div.sc-iqkkDd.bZKA-dx > div.sc-qdQOe.daiWqn",
+        "tier": 8,
+        "share": 0.13,
+        "section": 2,
+        "w1": 320,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 294,
+        "via": "fixed",
+        "selector": "div.sc-iqkkDd.bZKA-dx > div.sc-qdQOe.daiWqn > button.sc-eCQgVK.himtpz > div.sc-jSppWd.esrMYJ",
+        "tier": 10,
+        "share": 0.01,
+        "section": 2,
+        "w1": 294,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 304,
+        "via": "fixed",
+        "selector": "div.sc-bqqMSY.fUtjlo > div.sc-kEbgWM.musOl > div.sc-iqkkDd.bZKA-dx > div.sc-qdQOe.daiWqn",
+        "tier": 8,
+        "share": 0.07,
+        "section": 2,
+        "w1": 304,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 278,
+        "via": "fixed",
+        "selector": "div.sc-iqkkDd.bZKA-dx > div.sc-qdQOe.daiWqn > button.sc-eCQgVK.himtpz > div.sc-jSppWd.esrMYJ",
+        "tier": 10,
+        "share": 0.01,
+        "section": 2,
+        "w1": 278,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 137,
+        "via": "other",
+        "selector": "a.sc-bdDsCe.cJVcwm > div.ii__meta > span.ii__meta-item.ii__tags > span.tag",
+        "tier": 8,
+        "share": 0.01,
+        "section": 2,
+        "w1": 381,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 483,
+        "via": "other",
+        "selector": "div.sc-folSZX.fGwqqz > a.sc-bdDsCe.cJVcwm > div.ii__meta > span.ii__meta-item.ii__tags",
+        "tier": 7,
+        "share": 0.04,
+        "section": 2,
+        "w1": 403,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 1408,
+        "via": "max-width",
+        "selector": "#contact-us-form > div.contact-us-form__container.js-accordion",
+        "tier": 4,
+        "share": 0,
+        "section": -1,
+        "w1": 1208,
+        "maxWidth": "1408px"
+      },
+      {
+        "kind": "other",
+        "px": 252,
+        "via": "fixed",
+        "selector": "#frCap-widget",
+        "tier": 3,
+        "share": 0,
+        "section": -1,
+        "w1": 252,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#valtech-content > div.site-breadcrumbs",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#valtech-content > section.insight-header",
+        "px": 1282,
+        "capSelector": "div.masthead-insights__inner > div.masthead-insights__text.masthead-insights__text--light > hgroup.masthead-insights__hgroup > h2"
+      },
+      {
+        "index": 2,
+        "selector": "#valtech-content > react",
+        "px": 483,
+        "capSelector": "div.sc-folSZX.fGwqqz > a.sc-bdDsCe.cJVcwm > div.ii__meta > span.ii__meta-item.ii__tags"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1282,
+    "contentFrom": "module",
+    "maxCap": 1408,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 219
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#valtech-content",
+      "isBody": false,
+      "leaves": 136,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1282,
+        "via": "other",
+        "selector": "div.masthead-insights__inner > div.masthead-insights__text.masthead-insights__text--light > hgroup.masthead-insights__hgroup > h2",
+        "tier": 9,
+        "share": 0.01,
+        "section": 1,
+        "w1": 1021,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 622,
+        "via": "other",
+        "selector": "div.masthead-insights__inner > div.masthead-insights__text.masthead-insights__text--light > div.masthead-insights__meta > span.masthead-insights__meta__tags",
+        "tier": 9,
+        "share": 0.07,
+        "section": 1,
+        "w1": 473,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 292,
+        "via": "fixed",
+        "selector": "div.insights-filter__sticky > div.filters-block__content > div.insights-filter__selects > div.react-select",
+        "tier": 7,
+        "share": 0.13,
+        "section": 2,
+        "w1": 292,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 266,
+        "via": "fixed",
+        "selector": "div.insights-filter__selects > div.react-select > button.react-select__button > div.react-select__label",
+        "tier": 9,
+        "share": 0.01,
+        "section": 2,
+        "w1": 266,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 280,
+        "via": "fixed",
+        "selector": "div.insights-filter__sticky > div.filters-block__content > div.insights-filter__selects > div.react-select",
+        "tier": 7,
+        "share": 0.05,
+        "section": 2,
+        "w1": 280,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 254,
+        "via": "fixed",
+        "selector": "div.insights-filter__selects > div.react-select > button.react-select__button > div.react-select__label",
+        "tier": 9,
+        "share": 0.01,
+        "section": 2,
+        "w1": 254,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 320,
+        "via": "fixed",
+        "selector": "div.insights-filter__sticky > div.filters-block__content > div.insights-filter__selects > div.react-select",
+        "tier": 7,
+        "share": 0.13,
+        "section": 2,
+        "w1": 320,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 294,
+        "via": "fixed",
+        "selector": "div.insights-filter__selects > div.react-select > button.react-select__button > div.react-select__label",
+        "tier": 9,
+        "share": 0.01,
+        "section": 2,
+        "w1": 294,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 304,
+        "via": "fixed",
+        "selector": "div.insights-filter__sticky > div.filters-block__content > div.insights-filter__selects > div.react-select",
+        "tier": 7,
+        "share": 0.07,
+        "section": 2,
+        "w1": 304,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 278,
+        "via": "fixed",
+        "selector": "div.insights-filter__selects > div.react-select > button.react-select__button > div.react-select__label",
+        "tier": 9,
+        "share": 0.01,
+        "section": 2,
+        "w1": 278,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 137,
+        "via": "other",
+        "selector": "a.insight-item > div.ii__meta > span.ii__meta-item.ii__tags > span.tag",
+        "tier": 7,
+        "share": 0.01,
+        "section": 2,
+        "w1": 381,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 483,
+        "via": "other",
+        "selector": "div.insights-overview__grid > a.insight-item > div.ii__meta > span.ii__meta-item.ii__tags",
+        "tier": 6,
+        "share": 0.04,
+        "section": 2,
+        "w1": 403,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 1408,
+        "via": "max-width",
+        "selector": "#contact-us-form > div.contact-us-form__container.js-accordion",
+        "tier": 4,
+        "share": 0,
+        "section": -1,
+        "w1": 1208,
+        "maxWidth": "1408px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#valtech-content > div.site-breadcrumbs",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#valtech-content > section.insight-header",
+        "px": 1282,
+        "capSelector": "div.masthead-insights__inner > div.masthead-insights__text.masthead-insights__text--light > hgroup.masthead-insights__hgroup > h2"
+      },
+      {
+        "index": 2,
+        "selector": "#valtech-content > div.insights-overview",
+        "px": 483,
+        "capSelector": "div.insights-overview__grid > a.insight-item > div.ii__meta > span.ii__meta-item.ii__tags"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1282,
+    "contentFrom": "module",
+    "maxCap": 1408,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 205
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 1282px = build 1282px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/3",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/3",
+        "detail": "1282px = 1282px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/3",
+        "detail": "483px = 483px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/es-es-blog-2560/cap-iter.json"
+}

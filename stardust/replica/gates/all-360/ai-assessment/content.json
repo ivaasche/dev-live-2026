@@ -1,0 +1,2572 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T07:40:11.008Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/ai-assessment/",
+  "at": "2026-11-14T07:39:52.524Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3222,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.site-nav__menu-wrapper.site-nav__menu__labels > div.site-nav__logo > a.site-nav__logo__link",
+    "x": 24,
+    "y": 25,
+    "w": 80,
+    "h": 21,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > a.search-select.mobile",
+    "x": 232,
+    "y": 24,
+    "w": 22,
+    "h": 23,
+    "text": "go to search page",
+    "href": "/search/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open main menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open main menu",
+    "value": "open main menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > a",
+    "x": 24,
+    "y": 75,
+    "w": 41,
+    "h": 21,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 78,
+    "y": 75,
+    "w": 101,
+    "h": 21,
+    "label": "current",
+    "value": "ai assessment",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 78,
+    "y": 75,
+    "w": 101,
+    "h": 21,
+    "text": "AI assessment"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary__text.masthead-primary__text--light > hgroup.masthead-primary__hgroup > h1.masthead-primary__hgroup__title",
+    "x": 46,
+    "y": 337,
+    "w": 269,
+    "h": 55,
+    "level": 1,
+    "text": "is your organization ready for ai at scale?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary__text.masthead-primary__text--light > div.masthead-primary__lead > p",
+    "x": 46,
+    "y": 412,
+    "w": 269,
+    "h": 45,
+    "text": "Most companies experiment with AI. Few scale it. Find out where you stand."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary__media > picture > img",
+    "x": 24,
+    "y": 121,
+    "w": 312,
+    "h": 176,
+    "text": "",
+    "file": "large_png-valtech-brand-abstract-render-"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 537,
+    "w": 312,
+    "h": 134,
+    "text": "AI is transforming industries — but adoption doesn’t equal readiness. While near"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 684,
+    "w": 312,
+    "h": 157,
+    "text": "Our AI Readiness Assessment helps you understand where your organization is toda"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p > img",
+    "x": 24,
+    "y": 873,
+    "w": 312,
+    "h": 152,
+    "text": "",
+    "file": "ai-assessment-image"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p > em",
+    "x": 24,
+    "y": 1043,
+    "w": 310,
+    "h": 66,
+    "text": "On top of that, you’ll receive tailored recommendations for your AI strategy and"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > h3",
+    "x": 24,
+    "y": 1170,
+    "w": 312,
+    "h": 58,
+    "level": 3,
+    "text": "take the ai readiness assessment"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p > em",
+    "x": 48,
+    "y": 1244,
+    "w": 265,
+    "h": 66,
+    "text": "Fill in your contact details and you will receive an email with a link to the as"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldWrap.convertedField > div.mktoHtmlText.mktoHasWidth > span",
+    "x": 22,
+    "y": 1381,
+    "w": 250,
+    "h": 42,
+    "text": "Fields marked with an asterisk are mandatory and must be filled in."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblFirstName",
+    "x": 22,
+    "y": 1464,
+    "w": 84,
+    "h": 16,
+    "text": "First name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblLastName",
+    "x": 22,
+    "y": 1532,
+    "w": 86,
+    "h": 16,
+    "text": "Last Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblEmail",
+    "x": 22,
+    "y": 1600,
+    "w": 111,
+    "h": 16,
+    "text": "Email Address"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblCompany",
+    "x": 22,
+    "y": 1668,
+    "w": 124,
+    "h": 16,
+    "text": "Company Name"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#Title",
+    "x": 22,
+    "y": 1725,
+    "w": 317,
+    "h": 38,
+    "label": "job title *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblTitle",
+    "x": 22,
+    "y": 1736,
+    "w": 69,
+    "h": 16,
+    "text": "Job Title"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#Industry",
+    "x": 22,
+    "y": 1793,
+    "w": 317,
+    "h": 38,
+    "label": "industry *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblIndustry",
+    "x": 22,
+    "y": 1804,
+    "w": 68,
+    "h": 16,
+    "text": "Industry"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#CountryCode",
+    "x": 22,
+    "y": 1861,
+    "w": 317,
+    "h": 38,
+    "label": "country *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblCountryCode",
+    "x": 22,
+    "y": 1872,
+    "w": 66,
+    "h": 16,
+    "text": "Country"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.convertedField > label#LblcommentCapture",
+    "x": 22,
+    "y": 1929,
+    "w": 317,
+    "h": 42,
+    "text": "Share your comments (Optional)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoLogicalField.mktoCheckboxList > label#LblmktoCheckbox_197528_0 > span",
+    "x": 48,
+    "y": 2185,
+    "w": 283,
+    "h": 105,
+    "text": "I accept to receive relevant news and marketing communication from Valtech and I"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoLogicalField.mktoCheckboxList > label#LblmktoCheckbox_197528_0 > a",
+    "x": 103,
+    "y": 2269,
+    "w": 102,
+    "h": 21,
+    "text": "privacy notice",
+    "href": "/privacy-notice/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 22,
+    "y": 2322,
+    "w": 302,
+    "h": 42,
+    "text": "This site is protected by CAPTCHA and the Friendly Captcha"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893 > a",
+    "x": 145,
+    "y": 2343,
+    "w": 98,
+    "h": 21,
+    "text": "privacy policy",
+    "href": "/legal/privacy-end-users/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 22,
+    "y": 2343,
+    "w": 316,
+    "h": 43,
+    "text": "and"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.NormalTextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893 > a",
+    "x": 22,
+    "y": 2343,
+    "w": 316,
+    "h": 43,
+    "text": "terms of use",
+    "href": "/legal/terms/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 49,
+    "y": 2365,
+    "w": 45,
+    "h": 21,
+    "text": "apply."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoButtonRow > span.mktoButtonWrap.mktoSimple > button.mktoButton.button",
+    "x": 57,
+    "y": 2417,
+    "w": 247,
+    "h": 59,
+    "text": "take the assessment"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 16,
+    "y": 2604,
+    "w": 43,
+    "h": 21,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 226,
+    "y": 2604,
+    "w": 44,
+    "h": 21,
+    "text": "about",
+    "href": "/about/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 16,
+    "y": 2644,
+    "w": 50,
+    "h": 21,
+    "text": "offices",
+    "href": "/about/offices/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 226,
+    "y": 2644,
+    "w": 87,
+    "h": 21,
+    "text": "who we are",
+    "href": "/career/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer__column.site-footer__stamp > picture > img",
+    "x": 16,
+    "y": 2683,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "badge-no-outline"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer__links > aside.site-footer__column.site-footer__stamp > a",
+    "x": 274,
+    "y": 2683,
+    "w": 64,
+    "h": 70,
+    "text": "sustainability stamp",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 274,
+    "y": 2683,
+    "w": 64,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "cdp_discloser_2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 2824,
+    "w": 90,
+    "h": 18,
+    "text": "privacy notice",
+    "href": "/privacy-notice/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 2865,
+    "w": 111,
+    "h": 18,
+    "text": "cookie statement",
+    "href": "/cookie-statement/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 2906,
+    "w": 83,
+    "h": 18,
+    "text": "legal notices",
+    "href": "/legal-notices/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 2947,
+    "w": 79,
+    "h": 18,
+    "text": "accessibility",
+    "href": "/about/accessibility/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 2988,
+    "w": 80,
+    "h": 18,
+    "text": "stay in touch",
+    "href": "/about/stay-in-touch/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a.cookiebot-reset",
+    "x": 16,
+    "y": 3029,
+    "w": 149,
+    "h": 18,
+    "text": "change cookie settings",
+    "href": "/ai-assessment/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 16,
+    "y": 3110,
+    "w": 23,
+    "h": 18,
+    "text": "linkedin footer",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 87,
+    "y": 3110,
+    "w": 23,
+    "h": 18,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 158,
+    "y": 3110,
+    "w": 23,
+    "h": 18,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 229,
+    "y": 3110,
+    "w": 23,
+    "h": 18,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 16,
+    "y": 3155,
+    "w": 23,
+    "h": 18,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 87,
+    "y": 3155,
+    "w": 23,
+    "h": 18,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 6,
+    "textNodes": 51,
+    "controls": 32,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/ai-assessment",
+  "at": "2026-11-14T07:40:10.823Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3223,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-nav-menu-wrapper.site-nav-menu-labels > div.site-nav-logo > a.site-nav-logo-link",
+    "x": 24,
+    "y": 25,
+    "w": 80,
+    "h": 21,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > a.search-select.mobile",
+    "x": 232,
+    "y": 24,
+    "w": 22,
+    "h": 23,
+    "text": "go to search page",
+    "href": "/search/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open main menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open main menu",
+    "value": "open main menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 24,
+    "y": 75,
+    "w": 41,
+    "h": 21,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 65,
+    "y": 75,
+    "w": 114,
+    "h": 22,
+    "label": "current",
+    "value": "ai assessment",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 65,
+    "y": 75,
+    "w": 114,
+    "h": 22,
+    "text": "AI assessment"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary-text.masthead-primary-text-light > hgroup.masthead-primary-hgroup > h1#is-your-organization-ready-for-ai-at-scale",
+    "x": 46,
+    "y": 337,
+    "w": 269,
+    "h": 55,
+    "level": 1,
+    "text": "is your organization ready for ai at scale?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary-text.masthead-primary-text-light > div.masthead-primary-lead > p",
+    "x": 46,
+    "y": 412,
+    "w": 269,
+    "h": 45,
+    "text": "Most companies experiment with AI. Few scale it. Find out where you stand."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary-media > picture.masthead-primary-narrow > img",
+    "x": 24,
+    "y": 121,
+    "w": 312,
+    "h": 176,
+    "text": "",
+    "file": "media_1201980ca8c016ff07954f4a8412caa51e"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.heading-center > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 537,
+    "w": 312,
+    "h": 134,
+    "text": "AI is transforming industries — but adoption doesn’t equal readiness. While near"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.heading-center > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 684,
+    "w": 312,
+    "h": 157,
+    "text": "Our AI Readiness Assessment helps you understand where your organization is toda"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 24,
+    "y": 873,
+    "w": 312,
+    "h": 152,
+    "text": "",
+    "file": "media_110370eaef0d8b89ead8a55f0e2c804187"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > em",
+    "x": 24,
+    "y": 1043,
+    "w": 310,
+    "h": 66,
+    "text": "On top of that, you’ll receive tailored recommendations for your AI strategy and"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.heading-center > div.default-content-wrapper > h3#take-the-ai-readiness-assessment",
+    "x": 24,
+    "y": 1171,
+    "w": 312,
+    "h": 58,
+    "level": 3,
+    "text": "take the ai readiness assessment"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > em",
+    "x": 24,
+    "y": 1244,
+    "w": 265,
+    "h": 66,
+    "text": "Fill in your contact details and you will receive an email with a link to the as"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-html > span",
+    "x": 22,
+    "y": 1381,
+    "w": 251,
+    "h": 42,
+    "text": "Fields marked with an asterisk are mandatory and must be filled in."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 1464,
+    "w": 84,
+    "h": 16,
+    "text": "First name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 1532,
+    "w": 86,
+    "h": 16,
+    "text": "Last Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 1600,
+    "w": 111,
+    "h": 16,
+    "text": "Email Address"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 1668,
+    "w": 124,
+    "h": 16,
+    "text": "Company Name"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > select#Title",
+    "x": 22,
+    "y": 1725,
+    "w": 317,
+    "h": 38,
+    "label": "job title *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 1736,
+    "w": 69,
+    "h": 16,
+    "text": "Job Title"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > select#Industry",
+    "x": 22,
+    "y": 1793,
+    "w": 317,
+    "h": 38,
+    "label": "industry *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 1804,
+    "w": 68,
+    "h": 16,
+    "text": "Industry"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-field.mkto-form-field-float > select#CountryCode",
+    "x": 22,
+    "y": 1861,
+    "w": 317,
+    "h": 38,
+    "label": "country *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 1872,
+    "w": 66,
+    "h": 16,
+    "text": "Country"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-field > label.mkto-form-textlabel",
+    "x": 22,
+    "y": 1929,
+    "w": 317,
+    "h": 42,
+    "text": "Share your comments (Optional)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-check > label > span",
+    "x": 48,
+    "y": 2185,
+    "w": 283,
+    "h": 105,
+    "text": "I accept to receive relevant news and marketing communication from Valtech and I"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-check > label > a",
+    "x": 103,
+    "y": 2269,
+    "w": 102,
+    "h": 21,
+    "text": "privacy notice",
+    "href": "/privacy-notice/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 22,
+    "y": 2322,
+    "w": 302,
+    "h": 42,
+    "text": "This site is protected by CAPTCHA and the Friendly Captcha"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span > span > a",
+    "x": 145,
+    "y": 2343,
+    "w": 98,
+    "h": 21,
+    "text": "privacy policy",
+    "href": "/legal/privacy-end-users/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 22,
+    "y": 2343,
+    "w": 316,
+    "h": 43,
+    "text": "and"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span > span > a",
+    "x": 22,
+    "y": 2343,
+    "w": 316,
+    "h": 43,
+    "text": "terms of use",
+    "href": "/legal/terms/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 49,
+    "y": 2365,
+    "w": 45,
+    "h": 21,
+    "text": "apply."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-buttons > span.mkto-form-button-wrap > button.mktoButton.button",
+    "x": 57,
+    "y": 2418,
+    "w": 247,
+    "h": 59,
+    "text": "take the assessment"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 16,
+    "y": 2605,
+    "w": 43,
+    "h": 21,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 226,
+    "y": 2605,
+    "w": 44,
+    "h": 21,
+    "text": "about",
+    "href": "/about/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 16,
+    "y": 2645,
+    "w": 50,
+    "h": 21,
+    "text": "offices",
+    "href": "/about/offices/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 226,
+    "y": 2645,
+    "w": 87,
+    "h": 21,
+    "text": "who we are",
+    "href": "/career/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "p > picture > img",
+    "x": 16,
+    "y": 2684,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "media_18686ce5d542e21460f5b9773dc388b150"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer-column.site-footer-stamp > p > a",
+    "x": 274,
+    "y": 2684,
+    "w": 64,
+    "h": 70,
+    "text": "sustainability stamp",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 274,
+    "y": 2684,
+    "w": 64,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "media_147addfc96d6d3db8ad2ecb6422a634aed"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 2825,
+    "w": 90,
+    "h": 18,
+    "text": "privacy notice",
+    "href": "/privacy-notice/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 2866,
+    "w": 111,
+    "h": 18,
+    "text": "cookie statement",
+    "href": "/cookie-statement/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 2907,
+    "w": 83,
+    "h": 18,
+    "text": "legal notices",
+    "href": "/legal-notices/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 2948,
+    "w": 79,
+    "h": 18,
+    "text": "accessibility",
+    "href": "/about/accessibility/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 2989,
+    "w": 80,
+    "h": 18,
+    "text": "stay in touch",
+    "href": "/about/stay-in-touch/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a.cookiebot-reset",
+    "x": 16,
+    "y": 3030,
+    "w": 149,
+    "h": 18,
+    "text": "change cookie settings",
+    "href": "/ai-assessment"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 16,
+    "y": 3111,
+    "w": 23,
+    "h": 18,
+    "text": "linkedin footer",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 87,
+    "y": 3111,
+    "w": 23,
+    "h": 18,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 158,
+    "y": 3111,
+    "w": 23,
+    "h": 18,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 229,
+    "y": 3111,
+    "w": 23,
+    "h": 18,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 16,
+    "y": 3156,
+    "w": 23,
+    "h": 18,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 87,
+    "y": 3156,
+    "w": 23,
+    "h": 18,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 1,
+    "textNodes": 47,
+    "controls": 30,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "is your organization ready for ai at scale?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 4,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "take the ai readiness assessment",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 1,
+    "text": 14,
+    "image": 0
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 14,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 24,
+    "y": 75,
+    "w": 41,
+    "h": 21
+   },
+   {
+    "x": 78,
+    "y": 75,
+    "w": 101,
+    "h": 21
+   },
+   {
+    "x": 46,
+    "y": 333,
+    "w": 231,
+    "h": 35
+   },
+   {
+    "x": 46,
+    "y": 361,
+    "w": 254,
+    "h": 35
+   },
+   {
+    "x": 46,
+    "y": 412,
+    "w": 251,
+    "h": 21
+   },
+   {
+    "x": 46,
+    "y": 434,
+    "w": 203,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 537,
+    "w": 246,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 559,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 582,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 604,
+    "w": 277,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 626,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 649,
+    "w": 213,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 684,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 706,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 729,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 751,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 773,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 796,
+    "w": 303,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 818,
+    "w": 166,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1043,
+    "w": 252,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1066,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1088,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 63,
+    "y": 1168,
+    "w": 234,
+    "h": 31
+   },
+   {
+    "x": 114,
+    "y": 1197,
+    "w": 132,
+    "h": 31
+   },
+   {
+    "x": 48,
+    "y": 1244,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 1266,
+    "w": 232,
+    "h": 21
+   },
+   {
+    "x": 136,
+    "y": 1289,
+    "w": 88,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 1383,
+    "w": 6,
+    "h": 18
+   },
+   {
+    "x": 31,
+    "y": 1381,
+    "w": 240,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 1402,
+    "w": 227,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 1461,
+    "w": 75,
+    "h": 21
+   },
+   {
+    "x": 97,
+    "y": 1463,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1529,
+    "w": 77,
+    "h": 21
+   },
+   {
+    "x": 98,
+    "y": 1531,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1597,
+    "w": 102,
+    "h": 21
+   },
+   {
+    "x": 124,
+    "y": 1599,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1665,
+    "w": 114,
+    "h": 21
+   },
+   {
+    "x": 136,
+    "y": 1667,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1733,
+    "w": 60,
+    "h": 21
+   },
+   {
+    "x": 82,
+    "y": 1735,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1801,
+    "w": 59,
+    "h": 21
+   },
+   {
+    "x": 81,
+    "y": 1803,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1869,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 79,
+    "y": 1871,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1934,
+    "w": 230,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 2185,
+    "w": 260,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 2206,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 2227,
+    "w": 283,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 2248,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 2269,
+    "w": 56,
+    "h": 21
+   },
+   {
+    "x": 103,
+    "y": 2269,
+    "w": 102,
+    "h": 21
+   },
+   {
+    "x": 205,
+    "y": 2269,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 209,
+    "y": 2271,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 2322,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 2343,
+    "w": 120,
+    "h": 21
+   },
+   {
+    "x": 145,
+    "y": 2343,
+    "w": 98,
+    "h": 21
+   },
+   {
+    "x": 243,
+    "y": 2343,
+    "w": 34,
+    "h": 21
+   },
+   {
+    "x": 277,
+    "y": 2343,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 2365,
+    "w": 28,
+    "h": 21
+   },
+   {
+    "x": 49,
+    "y": 2365,
+    "w": 45,
+    "h": 21
+   },
+   {
+    "x": 97,
+    "y": 2435,
+    "w": 167,
+    "h": 23
+   },
+   {
+    "x": 16,
+    "y": 2604,
+    "w": 43,
+    "h": 21
+   },
+   {
+    "x": 226,
+    "y": 2604,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2644,
+    "w": 50,
+    "h": 21
+   },
+   {
+    "x": 226,
+    "y": 2644,
+    "w": 87,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2824,
+    "w": 90,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 2865,
+    "w": 111,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 2906,
+    "w": 83,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 2947,
+    "w": 79,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 2988,
+    "w": 80,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 3029,
+    "w": 149,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 24,
+    "y": 75,
+    "w": 41,
+    "h": 21
+   },
+   {
+    "x": 78,
+    "y": 75,
+    "w": 101,
+    "h": 21
+   },
+   {
+    "x": 46,
+    "y": 333,
+    "w": 231,
+    "h": 35
+   },
+   {
+    "x": 46,
+    "y": 361,
+    "w": 254,
+    "h": 35
+   },
+   {
+    "x": 46,
+    "y": 412,
+    "w": 251,
+    "h": 21
+   },
+   {
+    "x": 46,
+    "y": 434,
+    "w": 203,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 537,
+    "w": 246,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 559,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 582,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 604,
+    "w": 277,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 626,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 649,
+    "w": 213,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 684,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 706,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 729,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 751,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 773,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 796,
+    "w": 303,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 818,
+    "w": 166,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1043,
+    "w": 252,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1066,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1088,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 63,
+    "y": 1169,
+    "w": 234,
+    "h": 31
+   },
+   {
+    "x": 114,
+    "y": 1197,
+    "w": 132,
+    "h": 31
+   },
+   {
+    "x": 24,
+    "y": 1244,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1267,
+    "w": 232,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1289,
+    "w": 88,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 1381,
+    "w": 7,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1381,
+    "w": 240,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 1402,
+    "w": 227,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 1461,
+    "w": 75,
+    "h": 21
+   },
+   {
+    "x": 97,
+    "y": 1463,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1529,
+    "w": 77,
+    "h": 21
+   },
+   {
+    "x": 98,
+    "y": 1531,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1597,
+    "w": 102,
+    "h": 21
+   },
+   {
+    "x": 124,
+    "y": 1599,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1665,
+    "w": 114,
+    "h": 21
+   },
+   {
+    "x": 136,
+    "y": 1667,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1733,
+    "w": 60,
+    "h": 21
+   },
+   {
+    "x": 82,
+    "y": 1735,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1801,
+    "w": 59,
+    "h": 21
+   },
+   {
+    "x": 81,
+    "y": 1803,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1869,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 79,
+    "y": 1871,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1934,
+    "w": 230,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 2185,
+    "w": 260,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 2206,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 2227,
+    "w": 283,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 2248,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 2269,
+    "w": 56,
+    "h": 21
+   },
+   {
+    "x": 103,
+    "y": 2269,
+    "w": 102,
+    "h": 21
+   },
+   {
+    "x": 205,
+    "y": 2269,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 209,
+    "y": 2271,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 2322,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 2343,
+    "w": 120,
+    "h": 21
+   },
+   {
+    "x": 145,
+    "y": 2343,
+    "w": 98,
+    "h": 21
+   },
+   {
+    "x": 243,
+    "y": 2343,
+    "w": 34,
+    "h": 21
+   },
+   {
+    "x": 277,
+    "y": 2343,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 2365,
+    "w": 28,
+    "h": 21
+   },
+   {
+    "x": 49,
+    "y": 2365,
+    "w": 45,
+    "h": 21
+   },
+   {
+    "x": 97,
+    "y": 2436,
+    "w": 167,
+    "h": 23
+   },
+   {
+    "x": 16,
+    "y": 2605,
+    "w": 43,
+    "h": 21
+   },
+   {
+    "x": 226,
+    "y": 2605,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2645,
+    "w": 50,
+    "h": 21
+   },
+   {
+    "x": 226,
+    "y": 2645,
+    "w": 87,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2825,
+    "w": 90,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 2866,
+    "w": 111,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 2907,
+    "w": 83,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 2948,
+    "w": 79,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 2989,
+    "w": 80,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 3030,
+    "w": 149,
+    "h": 18
+   }
+  ]
+ }
+}

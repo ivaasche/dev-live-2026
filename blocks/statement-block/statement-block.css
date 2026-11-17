@@ -1,0 +1,200 @@
+/* stylelint-disable no-descending-specificity */
+
+/* statement-block — source section.statement-block.section (main.css statement-block rules + the source
+   .section / .section__container.centralized utilities it carries; values verbatim) */
+
+.statement-block {
+  padding: clamp(5rem, 5rem + 28 * (100vw - 52.125rem) / 446, 6.75rem) 0;
+}
+
+@media (width >= 80rem) {
+  .statement-block {
+    padding: clamp(6.75rem, 6.75rem + 12 * (100vw - 80rem) / 160, 7.5rem) 0;
+  }
+}
+
+@media (width >= 90rem) {
+  .statement-block {
+    padding: clamp(7.5rem, 7.5rem + 24 * (100vw - 90rem) / 288, 9rem) 0;
+  }
+}
+
+@media (width >= 108rem) {
+  .statement-block {
+    padding: clamp(9rem, 9rem + 16 * (100vw - 108rem) / 192, 10rem) 0;
+  }
+}
+
+@media (width >= 64rem) {
+  .statement-block {
+    margin-right: 64px;
+  }
+}
+
+.statement-block .section-container {
+  padding: 0 1rem;
+}
+
+@media (width >= 39rem) {
+  .statement-block .section-container {
+    padding: 0 1.5rem;
+  }
+}
+
+.statement-block .section-container.centralized {
+  margin: 0 auto;
+}
+
+@media (width >= 52.125rem) {
+  .statement-block .section-container.centralized {
+    max-width: 77.5%;
+  }
+}
+
+@media (width >= 80rem) {
+  .statement-block .section-container.centralized {
+    max-width: 79.5%;
+  }
+}
+
+@media (width >= 90rem) {
+  .statement-block .section-container.centralized {
+    max-width: 78.5%;
+  }
+}
+
+@media (width >= 108rem) {
+  .statement-block .section-container.centralized {
+    max-width: 77%;
+  }
+}
+
+@media (width >= 120rem) {
+  .statement-block .section-container.centralized {
+    max-width: 1440px;
+  }
+}
+
+@media (width >= 39rem) {
+  .statement-block .section-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.statement-block .statement-block-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (width >= 39rem) {
+  .statement-block .statement-block-wrapper {
+    width: clamp(26.0625rem,26.0625rem + 63*(100vw - 39rem)/210,30rem);
+  }
+}
+
+@media (width >= 52.125rem) {
+  .statement-block .statement-block-wrapper {
+    width: clamp(30rem,30rem + 145*(100vw - 52.125rem)/446,39.0625rem);
+  }
+}
+
+@media (width >= 80rem) {
+  .statement-block .statement-block-wrapper {
+    width: clamp(39.0625rem,39.0625rem + 90*(100vw - 80rem)/160,44.6875rem);
+  }
+}
+
+@media (width >= 90rem) {
+  .statement-block .statement-block-wrapper {
+    width: clamp(44.6875rem,44.6875rem + 280*(100vw - 90rem)/288,62.1875rem);
+  }
+}
+
+.statement-block .statement-block-title {
+  color: #4c4c49;
+  font-family: Soehne,sans-serif;
+  font-size: clamp(.75rem,.75rem + 2*(100vw - 26.875rem)/194,.875rem);
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0 0 1.5rem;
+  text-transform: uppercase;
+}
+
+@media (width >= 52.125rem) {
+  .statement-block .statement-block-title {
+    font-size: clamp(.875rem,.875rem + 6*(100vw - 52.125rem)/446,1.25rem);
+  }
+}
+
+.statement-block .statement-block-title::before {
+  content: "/";
+  margin-right: .25rem;
+}
+
+.statement-block .statement-block-title+.statement-block-description .statement-block-description-text {
+  margin-top: 0;
+}
+
+.statement-block .statement-block-icon {
+  align-self: start;
+}
+
+.statement-block .statement-block-icon svg {
+  height: auto;
+  width: 3.8125rem;
+}
+
+@media (width >= 52.125rem) {
+  .statement-block .statement-block-icon svg {
+    width: clamp(3.8125rem,3.8125rem + 19*(100vw - 52.125rem)/446,5rem);
+  }
+}
+
+@media (width >= 80rem) {
+  .statement-block .statement-block-icon svg {
+    width: clamp(5rem,5rem + 42*(100vw - 80rem)/448,7.625rem);
+  }
+}
+
+.statement-block .statement-block-description-text {
+  font-family: ValtechNeue,sans-serif;
+  font-size: clamp(1.5rem,1.5rem + 4*(100vw - 24.375rem)/234,1.75rem);
+  font-weight: 350;
+  line-height: 1.2;
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+
+@media (width >= 39rem) {
+  .statement-block .statement-block-description-text {
+    font-size: clamp(1.75rem,1.75rem + 4*(100vw - 39rem)/210,2rem);
+  }
+}
+
+@media (width >= 52.125rem) {
+  .statement-block .statement-block-description-text {
+    font-size: clamp(2rem,2rem + 10*(100vw - 52.125rem)/446,2.625rem);
+  }
+}
+
+@media (width >= 80rem) {
+  .statement-block .statement-block-description-text {
+    font-size: clamp(2.625rem,2.625rem + 6*(100vw - 80rem)/160,3rem);
+    margin-top: 1rem;
+  }
+}
+
+@media (width >= 90rem) {
+  .statement-block .statement-block-description-text {
+    font-size: clamp(3rem,3rem + 16*(100vw - 90rem)/288,4rem);
+  }
+}
+
+@media (width >= 108rem) {
+  .statement-block .statement-block-description-text {
+    margin-top: 1.5rem;
+  }
+}

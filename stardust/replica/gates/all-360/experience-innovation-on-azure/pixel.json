@@ -1,0 +1,61 @@
+{
+  "a": "stardust/replica/gates/all-360/experience-innovation-on-azure/origin.png",
+  "b": "stardust/replica/gates/all-360/experience-innovation-on-azure/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3478,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 9669,
+  "pct": 0.77,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/experience-innovation-on-azure/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 1.7,
+  "textBoxes": 57,
+  "textPixels": 272480,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.6
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 1.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 2.2
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0.3
+    },
+    {
+      "y0": 3000,
+      "y1": 3478,
+      "pct": 0
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--c87ac39f--aemcoder.aem.page/experience-innovation-on-azure"
+  }
+}

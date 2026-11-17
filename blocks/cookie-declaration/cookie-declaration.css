@@ -1,0 +1,171 @@
+/* cookie-declaration — source .cookie-manager (main.css @230103–231815), the Cookiebot
+   declaration's own injected rules, and the global table rules (main.css @34479–34943) */
+
+.cookie-declaration {
+  padding-bottom: 2.5rem;
+}
+
+@media (width >= 58.75rem) {
+  .cookie-declaration {
+    padding-bottom: 7.5rem;
+  }
+}
+
+.cookie-declaration .cookie-declaration-inner {
+  margin: 0 auto;
+  max-width: 58.75rem;
+  padding: 0 6vw;
+}
+
+.cookie-declaration a:not(.button) {
+  text-decoration: underline;
+}
+
+.cookie-declaration a:not(.button):hover {
+  text-decoration: none;
+}
+
+/* Cookiebot: #CookieDeclarationUserStatusPanel margin 18px 0 0, then a <br> line; its
+   label / change-consent lines are plain 16px text (no paragraph rhythm) */
+.cookie-declaration .cookie-declaration-status {
+  font-size: 16px;
+  margin-top: 18px;
+}
+
+.cookie-declaration .cookie-declaration-status p {
+  font: inherit;
+  margin: 0 0 21px; /* one 16px line: the gap before the links, then the <br> */
+}
+
+.cookie-declaration .cookie-declaration-last-updated p {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* authored cell text may arrive wrapped in <p> (DA): cells keep the table's 14px text */
+.cookie-declaration .cookie-declaration-table :is(td, th) p {
+  font: inherit;
+  margin: 0;
+}
+
+.cookie-declaration .cookie-declaration-type {
+  margin-bottom: 40px;
+}
+
+.cookie-declaration .cookie-declaration-type-header {
+  font-weight: 700;
+}
+
+.cookie-declaration .cookie-declaration-table {
+  border: none;
+  border-collapse: collapse;
+  font-size: 14px;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.cookie-declaration .cookie-declaration-table :is(td, th) {
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding: .3125rem 6.25px; /* .390625rem */
+  text-align: left;
+}
+
+.cookie-declaration .cookie-declaration-table :is(td, th):last-child {
+  border-right: none;
+}
+
+.cookie-declaration .cookie-declaration-table tr:last-child td {
+  border-bottom: none;
+}
+
+.cookie-declaration .cookie-declaration-table tr:nth-child(2n) {
+  background-color: #ececec;
+}
+
+.cookie-declaration .cookie-declaration-table-cell {
+  overflow-wrap: break-word;
+  text-overflow: ellipsis;
+  vertical-align: top;
+}
+
+.cookie-declaration .cookie-declaration-action {
+  display: flex;
+  justify-content: center;
+}
+
+.cookie-declaration .cookie-declaration-action button > p {
+  font: inherit;
+  margin: 0;
+}
+
+
+@media (width <= 58.75rem) {
+  .cookie-declaration .cookie-declaration-table {
+    border-top: 2px solid #000;
+  }
+
+  .cookie-declaration .cookie-declaration-table col {
+    width: auto !important;
+  }
+
+  .cookie-declaration .cookie-declaration-table,
+  .cookie-declaration .cookie-declaration-table :is(tbody, td, th, thead, tr) {
+    display: block;
+  }
+
+  .cookie-declaration .cookie-declaration-table thead {
+    left: -9999px;
+    position: absolute;
+    top: -9999px;
+  }
+
+  .cookie-declaration .cookie-declaration-table tr {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+  }
+
+  .cookie-declaration .cookie-declaration-table tr td {
+    border-left: 0;
+    border-right: 0;
+    padding-left: 30%;
+    position: relative;
+  }
+
+  .cookie-declaration .cookie-declaration-table tr td::before {
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    left: 12px;
+    padding-right: 10px;
+    position: absolute;
+    text-align: left;
+    white-space: nowrap;
+    width: 30%;
+  }
+
+  .cookie-declaration .cookie-declaration-table tr td:first-child::before {
+    content: "Name";
+  }
+
+  .cookie-declaration .cookie-declaration-table tr td:nth-child(2)::before {
+    content: "Provider";
+  }
+
+  .cookie-declaration .cookie-declaration-table tr td:nth-child(3)::before {
+    content: "Purpose";
+  }
+
+  .cookie-declaration .cookie-declaration-table tr td:nth-child(4)::before {
+    content: "Expiry";
+  }
+
+  .cookie-declaration .cookie-declaration-table tr td:nth-child(5) {
+    border-bottom: 2px solid #000;
+  }
+
+  .cookie-declaration .cookie-declaration-table tr td:nth-child(5)::before {
+    content: "Type";
+  }
+}

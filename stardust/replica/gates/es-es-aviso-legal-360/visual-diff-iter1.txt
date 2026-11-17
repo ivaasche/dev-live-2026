@@ -1,0 +1,122 @@
+[live-session] waiting to pace live navigations to www.valtech.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/es-es-aviso-legal-360/vdiff-iter1/
+
+build red flags (advisory): 
+  • IMAGERY GAP: source renders 5 images, build renders 1. The build renders far fewer images than the source — confirm intended (CSS backgrounds) vs missing assets.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 2297,
+  "textLen": 2530,
+  "images": [
+   {
+    "src": "badge-no-outline.png?width=442&height=128&rmode=max&rsampler=bicubic&compand=true&format=jpg",
+    "natural": "435x128",
+    "rendered": "218x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=4f724966-68b9-4f69-b194-17efdbcf1e8e&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=a6a9da8b-a098-4b58-91ad-d19e49449e2d&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fes-es%2Faviso-legal%2F&tw_engaged_ms=22&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=4f724966-68b9-4f69-b194-17efdbcf1e8e&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=a6a9da8b-a098-4b58-91ad-d19e49449e2d&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fes-es%2Faviso-legal%2F&tw_engaged_ms=22&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=2&event_id=e079ed4c-49b5-4373-8418-98372a2250c9&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=a6a9da8b-a098-4b58-91ad-d19e49449e2d&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fes-es%2Faviso-legal%2F&tw_engaged_ms=10019&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=2&event_id=e079ed4c-49b5-4373-8418-98372a2250c9&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=a6a9da8b-a098-4b58-91ad-d19e49449e2d&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fes-es%2Faviso-legal%2F&tw_engaged_ms=10019&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Aviso Legal",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "30px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "masthead-big-title__text",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "rte-block__container",
+    "width": 360,
+    "left": 0
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 2297,
+  "textLen": 2530,
+  "images": [
+   {
+    "src": "badge-no-outline.png",
+    "natural": "435x128",
+    "rendered": "218x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Aviso Legal",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "30px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "masthead-big-title__text",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "rte-block__container",
+    "width": 360,
+    "left": 0
+   }
+  ]
+ }
+}

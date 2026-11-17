@@ -1,0 +1,3775 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T08:50:37.898Z",
+  "width": 360,
+  "variable": [
+   ".js-flickity-teaser"
+  ],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/es-es/podcasts/",
+  "at": "2026-11-14T08:50:14.959Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5882,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.site-nav__menu-wrapper.site-nav__menu__labels > div.site-nav__logo > a.site-nav__logo__link",
+    "x": 24,
+    "y": 25,
+    "w": 80,
+    "h": 21,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > a.search-select.mobile",
+    "x": 232,
+    "y": 24,
+    "w": 22,
+    "h": 23,
+    "text": "go to search page",
+    "href": "/es-es/search/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open main menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open main menu",
+    "value": "open main menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > a",
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 75,
+    "y": 75,
+    "w": 66,
+    "h": 21,
+    "label": "current",
+    "value": "pódcasts",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 75,
+    "y": 75,
+    "w": 66,
+    "h": 21,
+    "text": "Pódcasts"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.masthead-services > div.masthead-services_content > h1.masthead-services_content-title",
+    "x": 24,
+    "y": 121,
+    "w": 312,
+    "h": 37,
+    "level": 1,
+    "text": "valtech café"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.masthead-services > div.masthead-services_content > div.masthead-services_content-description",
+    "x": 24,
+    "y": 166,
+    "w": 312,
+    "h": 36,
+    "text": "El podcast premiado que habla de todo lo digital"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.video-block__container > picture > img.video-block__image",
+    "x": 24,
+    "y": 226,
+    "w": 312,
+    "h": 163,
+    "text": "",
+    "file": "podcast-page-header-desktop-half-width"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "main#valtech-content > div.podcast-subscribe > p.podcast-subscribe__title",
+    "x": 24,
+    "y": 434,
+    "w": 312,
+    "h": 22,
+    "text": "Suscríbete a los pódcasts de Valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-subscribe > div.podcast-subscribe__list > a.podcast-subscribe__item",
+    "x": 24,
+    "y": 472,
+    "w": 150,
+    "h": 112,
+    "text": "apple podcast",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.podcast-subscribe__item > div.podcast-subscribe__item__image > img.podcast-subscribe__image",
+    "x": 50,
+    "y": 491,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "apple-podcast"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-subscribe > div.podcast-subscribe__list > a.podcast-subscribe__item",
+    "x": 186,
+    "y": 472,
+    "w": 150,
+    "h": 112,
+    "text": "soundcloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.podcast-subscribe__item > div.podcast-subscribe__item__image > img.podcast-subscribe__image",
+    "x": 212,
+    "y": 491,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "soundcloud"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-subscribe > div.podcast-subscribe__list > a.podcast-subscribe__item",
+    "x": 24,
+    "y": 596,
+    "w": 150,
+    "h": 90,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.podcast-subscribe__item > div.podcast-subscribe__item__image > img.podcast-subscribe__image",
+    "x": 50,
+    "y": 615,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "spotify"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.latest-podcast-block.dark-theme > div.latest-podcast-block__container > h2.latest-podcast-block__title",
+    "x": 24,
+    "y": 766,
+    "w": 312,
+    "h": 42,
+    "level": 2,
+    "text": "último pódcast"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.latest-podcast-block__row.row > div.latest-podcast-block__column.one-half > h5.latest-podcast-block__podcast-title",
+    "x": 24,
+    "y": 1144,
+    "w": 312,
+    "h": 86,
+    "level": 5,
+    "text": "rethinking digital care: how pfa is unlocking the future of health insurance services"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.latest-podcast-block__column.one-half > div.latest-podcast-block__text > div.latest-podcast-block__text__name",
+    "x": 24,
+    "y": 1246,
+    "w": 312,
+    "h": 21,
+    "text": "Jan Lundquist"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.latest-podcast-block__column.one-half > div.latest-podcast-block__text > div.latest-podcast-block__text__company",
+    "x": 24,
+    "y": 1277,
+    "w": 312,
+    "h": 42,
+    "text": "Head of Digital Services & Apps, PFA Pension"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.latest-podcast-block__row.row > div.latest-podcast-block__column.one-half > a.latest-podcast-block__link",
+    "x": 24,
+    "y": 1351,
+    "w": 312,
+    "h": 67,
+    "text": "read more about rethinking digital care: how pfa is unlocking the future of heal",
+    "href": "/es-es/podcasts/podcast-rethinking-digital-care-with-pfa-pension/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "main#valtech-content > div.podcast_filter_list > h4.podcast_filter_list--title",
+    "x": 0,
+    "y": 1498,
+    "w": 360,
+    "h": 34,
+    "level": 4,
+    "text": "pódcast"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-kgohyr.crgIlA > div.sc-krVzYl.heFqlK > h5.sc-bjLslk.ktKCIv",
+    "x": 24,
+    "y": 1548,
+    "w": 312,
+    "h": 54,
+    "level": 5,
+    "text": "por favor, filtra los pódcast según tus preferencias."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-kEbgWM.fJaMpU > div.sc-fuztkK.eMSyXk > button.sc-hKVpXn.jjFbHR",
+    "x": 24,
+    "y": 1634,
+    "w": 202,
+    "h": 26,
+    "text": "todas las industrias"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-kEbgWM.fJaMpU > div.sc-fuztkK.eMSyXk > button.sc-hKVpXn.jjFbHR",
+    "x": 24,
+    "y": 1669,
+    "w": 193,
+    "h": 26,
+    "text": "todos los servicios"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-kEbgWM.fJaMpU > div.sc-fuztkK.eMSyXk > button.sc-hKVpXn.jjFbHR",
+    "x": 24,
+    "y": 1705,
+    "w": 222,
+    "h": 26,
+    "text": "todas las plataformas"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-kEbgWM.fJaMpU > div.sc-fuztkK.eMSyXk > button.sc-hKVpXn.jjFbHR",
+    "x": 24,
+    "y": 1740,
+    "w": 210,
+    "h": 26,
+    "text": "todo sobre nosotros"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-kgohyr.crgIlA > div.sc-krVzYl.heFqlK > div.sc-dILkzW.ivNNFQ",
+    "x": 24,
+    "y": 1819,
+    "w": 312,
+    "h": 18,
+    "text": "6 resultados de un total de 85"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-hCcPtG.iiXUdQ > div.sc-hHopjF.eKJXSI > a.card-button_wrapper",
+    "x": 24,
+    "y": 1853,
+    "w": 312,
+    "h": 379,
+    "text": "podcast: rethinking digital care with pfa pension listen to the podcast",
+    "href": "/es-es/podcasts/podcast-rethinking-digital-care-with-pfa-pension/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-button__picture-wrapper > picture > img.card-button__picture",
+    "x": 24,
+    "y": 1853,
+    "w": 312,
+    "h": 210,
+    "text": "podcast: rethinking digital care with pfa pension",
+    "file": "tsk-7652-global---fsihealth---vodcast---"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-hCcPtG.iiXUdQ > div.sc-hHopjF.eKJXSI > a.card-button_wrapper",
+    "x": 24,
+    "y": 2256,
+    "w": 312,
+    "h": 379,
+    "text": "the customer experience odyssey: valtech podcast listen to the podcast",
+    "href": "/es-es/podcasts/the-customer-experience-odyssey/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-button__picture-wrapper > picture > img.card-button__picture",
+    "x": 24,
+    "y": 2256,
+    "w": 312,
+    "h": 210,
+    "text": "the customer experience odyssey: valtech podcast",
+    "file": "tsk-5727-gl-mobility-podcast-the-custome"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-hCcPtG.iiXUdQ > div.sc-hHopjF.eKJXSI > a.card-button_wrapper",
+    "x": 24,
+    "y": 2659,
+    "w": 312,
+    "h": 379,
+    "text": "driving experience innovation with ai listen to the podcast",
+    "href": "/es-es/podcasts/driving-experience-innovation-with-ai/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-button__picture-wrapper > picture > img.card-button__picture",
+    "x": 24,
+    "y": 2659,
+    "w": 312,
+    "h": 210,
+    "text": "driving experience innovation with ai",
+    "file": "mobility-move-nav"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-hCcPtG.iiXUdQ > div.sc-hHopjF.eKJXSI > a.card-button_wrapper",
+    "x": 24,
+    "y": 3062,
+    "w": 312,
+    "h": 379,
+    "text": "driving retail innovation with fountain tire and valtech listen to the podcast",
+    "href": "/es-es/podcasts/fountain-tire-retail-innovation/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-button__picture-wrapper > picture > img.card-button__picture",
+    "x": 24,
+    "y": 3062,
+    "w": 312,
+    "h": 210,
+    "text": "driving retail innovation with fountain tire and valtech",
+    "file": "tsk-5018-navigation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-hCcPtG.iiXUdQ > div.sc-hHopjF.eKJXSI > a.card-button_wrapper",
+    "x": 24,
+    "y": 3465,
+    "w": 312,
+    "h": 379,
+    "text": "ds smith: becoming a connected manufacturer listen to the podcast",
+    "href": "/es-es/podcasts/ds-smith-becoming-a-connected-manufacturer/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-button__picture-wrapper > picture > img.card-button__picture",
+    "x": 24,
+    "y": 3465,
+    "w": 312,
+    "h": 210,
+    "text": "ds smith: becoming a connected manufacturer",
+    "file": "tsk-4668-dssmith-podcast-nav"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-hCcPtG.iiXUdQ > div.sc-hHopjF.eKJXSI > a.card-button_wrapper",
+    "x": 24,
+    "y": 3868,
+    "w": 312,
+    "h": 379,
+    "text": "the voice of digital leaders in manufacturing listen to the podcast",
+    "href": "/es-es/podcasts/the-voice-of-digital-leaders-in-manufacturing/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-button__picture-wrapper > picture > img.card-button__picture",
+    "x": 24,
+    "y": 3868,
+    "w": 312,
+    "h": 210,
+    "text": "the voice of digital leaders in manufacturing",
+    "file": "tsk-2252-repackage-manufacturing-webinar"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-folSZX.hWHzDn > div.sc-bdDsCe.jmYRXb > button.--secondary-hollow.--small",
+    "x": 24,
+    "y": 4271,
+    "w": 266,
+    "h": 46,
+    "text": "mostrar más pódcasts"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block > div.teaser-block__header > h4.teaser-block__header__title",
+    "x": 24,
+    "y": 4357,
+    "w": 292,
+    "h": 67,
+    "level": 4,
+    "text": "centro de contenidos"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flickity-slider > div.teaser-block__teaser.is-selected > a.teaser-block__teaser__inner",
+    "x": 24,
+    "y": 4440,
+    "w": 270,
+    "h": 420,
+    "text": "insight la era de los agentes personales",
+    "href": "/es-es/blog/la-era-de-los-agentes-de-ia/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block__teaser.is-selected > a.teaser-block__teaser__inner > h4.teaser-block__teaser__pretitle.insight",
+    "x": 24,
+    "y": 4440,
+    "w": 113,
+    "h": 43,
+    "level": 4,
+    "text": "insight"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.teaser-block__teaser__inner > hgroup.teaser-block__teaser__hgroup > h5.teaser-block__teaser__title",
+    "x": 48,
+    "y": 4758,
+    "w": 212,
+    "h": 40,
+    "level": 5,
+    "text": "la era de los agentes personales"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block__teaser__image-wrapper > picture > img",
+    "x": -48,
+    "y": 4439,
+    "w": 415,
+    "h": 311,
+    "text": "",
+    "file": "tsk-9700-personal-agents--customer-relat"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flickity-slider > div.teaser-block__teaser > a.teaser-block__teaser__inner",
+    "x": 314,
+    "y": 4440,
+    "w": 270,
+    "h": 420,
+    "text": "insight el geo como nueva frontera de la visibilidad digital",
+    "href": "/es-es/blog/el-geo-como-la-nueva-frontera-de-la-visibilidad-digital/"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block__teaser > a.teaser-block__teaser__inner > h4.teaser-block__teaser__pretitle.insight",
+    "x": 314,
+    "y": 4440,
+    "w": 113,
+    "h": 43,
+    "level": 4,
+    "text": "insight"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.teaser-block__teaser__inner > hgroup.teaser-block__teaser__hgroup > h5.teaser-block__teaser__title",
+    "x": 338,
+    "y": 4758,
+    "w": 212,
+    "h": 40,
+    "level": 5,
+    "text": "el geo como nueva frontera de la visibilidad digital"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block__teaser__image-wrapper > picture > img",
+    "x": 242,
+    "y": 4439,
+    "w": 415,
+    "h": 311,
+    "text": "",
+    "file": "tsk-8246-geo-blog-1-updates---adobe-navi"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block__container.js-flickity-teaser > ol.flickity-page-dots > li.dot.is-selected",
+    "x": 24,
+    "y": 4892,
+    "w": 13,
+    "h": 4,
+    "label": "current",
+    "value": "slide 1",
+    "via": "aria-current"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block > div.teaser-block__container.js-flickity-teaser > button.flickity-button.flickity-prev-next-button",
+    "x": 240,
+    "y": 4874,
+    "w": 40,
+    "h": 40,
+    "text": "previous"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block > div.teaser-block__container.js-flickity-teaser > button.flickity-button.flickity-prev-next-button",
+    "x": 296,
+    "y": 4874,
+    "w": 40,
+    "h": 40,
+    "text": "next"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "main#valtech-content > div.teaser-block > a.button.teaser-block__show-more-button-mobile",
+    "x": 24,
+    "y": 4930,
+    "w": 286,
+    "h": 59,
+    "text": "ir al centro de contenidos",
+    "href": "/es-es/content-hub/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.contact-us-form__container.js-accordion > div.contact-us-form__column > button.contact-us-form__accordion-button.js-accordion-button",
+    "x": 0,
+    "y": 5029,
+    "w": 360,
+    "h": 89,
+    "text": "contáctanos"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.contact-us-form__container.js-accordion > div.contact-us-form__column > button.contact-us-form__accordion-button.js-accordion-button",
+    "x": 0,
+    "y": 5029,
+    "w": 360,
+    "h": 89,
+    "label": "trigger",
+    "value": "contáctanos",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 16,
+    "y": 5216,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 242,
+    "y": 5216,
+    "w": 58,
+    "h": 45,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 16,
+    "y": 5280,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 242,
+    "y": 5280,
+    "w": 82,
+    "h": 45,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer__column.site-footer__stamp > picture > img",
+    "x": 16,
+    "y": 5343,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "badge-no-outline"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 5484,
+    "w": 134,
+    "h": 18,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 5525,
+    "w": 118,
+    "h": 18,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 5566,
+    "w": 71,
+    "h": 18,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 5607,
+    "w": 84,
+    "h": 18,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 5648,
+    "w": 136,
+    "h": 18,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a.cookiebot-reset",
+    "x": 16,
+    "y": 5689,
+    "w": 158,
+    "h": 18,
+    "text": "configuración de cookies",
+    "href": "/es-es/podcasts/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 16,
+    "y": 5770,
+    "w": 23,
+    "h": 18,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 87,
+    "y": 5770,
+    "w": 23,
+    "h": 18,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 158,
+    "y": 5770,
+    "w": 23,
+    "h": 18,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 229,
+    "y": 5770,
+    "w": 23,
+    "h": 18,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 16,
+    "y": 5815,
+    "w": 23,
+    "h": 18,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 87,
+    "y": 5815,
+    "w": 23,
+    "h": 18,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 5,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 2,
+    "offPage": 22,
+    "textNodes": 67,
+    "controls": 50,
+    "total": 5
+   },
+   "groups": [
+    {
+     "kind": "TEXT CLIPPED",
+     "advisory": false,
+     "n": 5,
+     "clipper": "div.card-button__title--wrapper",
+     "path": "a.card-button_wrapper > div.card-button__content > div.card-button__title--wrapper > p.card-button__title",
+     "text": "podcast: rethinking digital care with pfa pension",
+     "cutMin": 35,
+     "cutMax": 35
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.teaser-block__teaser",
+     "path": "div.flickity-viewport > div.flickity-slider > div.teaser-block__teaser > a.teaser-block__teaser__inner",
+     "text": "insight el geo como nueva frontera de la visibilidad digital",
+     "cutMin": 224,
+     "cutMax": 224
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.teaser-block__teaser",
+     "path": "div.teaser-block__teaser > a.teaser-block__teaser__inner > hgroup.teaser-block__teaser__hgroup > h5.teaser-block__teaser__title",
+     "text": "el geo como nueva frontera de la visibilidad digital",
+     "cutMin": 180,
+     "cutMax": 180
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/es-es/podcasts",
+  "at": "2026-11-14T08:50:37.689Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5855,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-nav-menu-wrapper.site-nav-menu-labels > div.site-nav-logo > a.site-nav-logo-link",
+    "x": 24,
+    "y": 25,
+    "w": 80,
+    "h": 21,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > a.search-select.mobile",
+    "x": 232,
+    "y": 24,
+    "w": 22,
+    "h": 23,
+    "text": "go to search page",
+    "href": "/es-es/search/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open main menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open main menu",
+    "value": "open main menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 62,
+    "y": 75,
+    "w": 79,
+    "h": 22,
+    "label": "current",
+    "value": "pódcasts",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 62,
+    "y": 75,
+    "w": 79,
+    "h": 22,
+    "text": "Pódcasts"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-services.block > div.masthead-services-content > h1#valtech-café",
+    "x": 24,
+    "y": 121,
+    "w": 312,
+    "h": 37,
+    "level": 1,
+    "text": "valtech café"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-services-content > div.masthead-services-description > p",
+    "x": 24,
+    "y": 166,
+    "w": 312,
+    "h": 36,
+    "text": "El podcast premiado que habla de todo lo digital"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-services-media > picture > img",
+    "x": 24,
+    "y": 226,
+    "w": 312,
+    "h": 163,
+    "text": "",
+    "file": "media_13cbf54fb43f44c4ff564cc1765400acd7"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-subscribe-wrapper > div.podcast-subscribe.block > p.podcast-subscribe-title",
+    "x": 24,
+    "y": 434,
+    "w": 312,
+    "h": 22,
+    "text": "Suscríbete a los pódcasts de Valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-subscribe.block > div.podcast-subscribe-list > a.podcast-subscribe-item",
+    "x": 24,
+    "y": 472,
+    "w": 150,
+    "h": 112,
+    "text": "apple podcast",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-subscribe-image > picture > img",
+    "x": 50,
+    "y": 491,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "media_11a75b2e9c11e2c2a55d4830d92f1650a6"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-subscribe.block > div.podcast-subscribe-list > a.podcast-subscribe-item",
+    "x": 186,
+    "y": 472,
+    "w": 150,
+    "h": 112,
+    "text": "soundcloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-subscribe-image > picture > img",
+    "x": 212,
+    "y": 491,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "media_17ba03af61f4231326f34ce6f68b2be48f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-subscribe.block > div.podcast-subscribe-list > a.podcast-subscribe-item",
+    "x": 24,
+    "y": 596,
+    "w": 150,
+    "h": 90,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-subscribe-image > picture > img",
+    "x": 50,
+    "y": 615,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "file": "media_1dddb1e2c1ebb46575d73496833399509f"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.latest-podcast-block.dark > div.latest-podcast-block-container > h2#último-pódcast",
+    "x": 24,
+    "y": 766,
+    "w": 312,
+    "h": 42,
+    "level": 2,
+    "text": "último pódcast"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.latest-podcast-block-row > div.latest-podcast-block-column > h3#rethinking-digital-care-how-pfa-is-unlocking-the-future-of-health-insurance-services",
+    "x": 24,
+    "y": 1144,
+    "w": 312,
+    "h": 86,
+    "level": 3,
+    "text": "rethinking digital care: how pfa is unlocking the future of health insurance services"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.latest-podcast-block-column > div.latest-podcast-block-text > p.latest-podcast-block-name",
+    "x": 24,
+    "y": 1246,
+    "w": 312,
+    "h": 21,
+    "text": "Jan Lundquist"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.latest-podcast-block-column > div.latest-podcast-block-text > p.latest-podcast-block-company",
+    "x": 24,
+    "y": 1277,
+    "w": 312,
+    "h": 42,
+    "text": "Head of Digital Services & Apps, PFA Pension"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.latest-podcast-block-column > p > a.latest-podcast-block-link",
+    "x": 24,
+    "y": 1351,
+    "w": 312,
+    "h": 67,
+    "text": "read more about rethinking digital care: how pfa is unlocking the future of heal",
+    "href": "/es-es/podcasts/podcast-rethinking-digital-care-with-pfa-pension/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-overview-inner > div.insights-overview-title > h4#pódcast",
+    "x": 24,
+    "y": 1498,
+    "w": 312,
+    "h": 34,
+    "level": 4,
+    "text": "pódcast"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-overview-inner > div.insights-overview-title > h5#por-favor-filtra-los-pódcast-según-tus-preferencias",
+    "x": 24,
+    "y": 1548,
+    "w": 312,
+    "h": 54,
+    "level": 5,
+    "text": "por favor, filtra los pódcast según tus preferencias."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-filter-selects > div.react-select > button.react-select-button",
+    "x": 24,
+    "y": 1634,
+    "w": 202,
+    "h": 26,
+    "text": "todas las industrias"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-filter-selects > div.react-select > button.react-select-button",
+    "x": 24,
+    "y": 1634,
+    "w": 202,
+    "h": 26,
+    "label": "trigger",
+    "value": "todas las industrias",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-filter-selects > div.react-select > button.react-select-button",
+    "x": 24,
+    "y": 1670,
+    "w": 193,
+    "h": 26,
+    "text": "todos los servicios"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-filter-selects > div.react-select > button.react-select-button",
+    "x": 24,
+    "y": 1670,
+    "w": 193,
+    "h": 26,
+    "label": "trigger",
+    "value": "todos los servicios",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-filter-selects > div.react-select > button.react-select-button",
+    "x": 24,
+    "y": 1705,
+    "w": 222,
+    "h": 26,
+    "text": "todas las plataformas"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-filter-selects > div.react-select > button.react-select-button",
+    "x": 24,
+    "y": 1705,
+    "w": 222,
+    "h": 26,
+    "label": "trigger",
+    "value": "todas las plataformas",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-filter-selects > div.react-select > button.react-select-button",
+    "x": 24,
+    "y": 1741,
+    "w": 210,
+    "h": 26,
+    "text": "todo sobre nosotros"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-filter-selects > div.react-select > button.react-select-button",
+    "x": 24,
+    "y": 1741,
+    "w": 210,
+    "h": 26,
+    "label": "trigger",
+    "value": "todo sobre nosotros",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-overview-inner > div.insights-overview-count > p",
+    "x": 24,
+    "y": 1819,
+    "w": 312,
+    "h": 18,
+    "text": "6 resultados de un total de 85"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-overview-inner > div.insights-overview-grid > a.insight-item",
+    "x": 24,
+    "y": 1853,
+    "w": 312,
+    "h": 379,
+    "text": "podcast: rethinking digital care with pfa pension listen to the podcast",
+    "href": "/es-es/podcasts/podcast-rethinking-digital-care-with-pfa-pension/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ii-image-wrapper > picture > img",
+    "x": 24,
+    "y": 1853,
+    "w": 312,
+    "h": 210,
+    "text": "podcast: rethinking digital care with pfa pension",
+    "file": "media_1df05b07b1d58227208537d09f60ba4f64"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ii-content > div.ii-title > h2#podcast-rethinking-digital-care-with-pfa-pension",
+    "x": 54,
+    "y": 2102,
+    "w": 252,
+    "h": 68,
+    "level": 2,
+    "text": "podcast: rethinking digital care with pfa pension"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-overview-inner > div.insights-overview-grid > a.insight-item",
+    "x": 24,
+    "y": 2256,
+    "w": 312,
+    "h": 379,
+    "text": "the customer experience odyssey: valtech podcast listen to the podcast",
+    "href": "/es-es/podcasts/the-customer-experience-odyssey/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ii-image-wrapper > picture > img",
+    "x": 24,
+    "y": 2256,
+    "w": 312,
+    "h": 210,
+    "text": "the customer experience odyssey: valtech podcast",
+    "file": "media_10e8f32daa6395147d72b3e86daa674cef"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ii-content > div.ii-title > h2#the-customer-experience-odyssey-valtech-podcast",
+    "x": 54,
+    "y": 2505,
+    "w": 252,
+    "h": 68,
+    "level": 2,
+    "text": "the customer experience odyssey: valtech podcast"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-overview-inner > div.insights-overview-grid > a.insight-item",
+    "x": 24,
+    "y": 2659,
+    "w": 312,
+    "h": 379,
+    "text": "driving experience innovation with ai listen to the podcast",
+    "href": "/es-es/podcasts/driving-experience-innovation-with-ai/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ii-image-wrapper > picture > img",
+    "x": 24,
+    "y": 2659,
+    "w": 312,
+    "h": 210,
+    "text": "driving experience innovation with ai",
+    "file": "media_1b0490fa750ec2c5b1850081d8232f59ee"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ii-content > div.ii-title > h2#driving-experience-innovation-with-ai",
+    "x": 54,
+    "y": 2908,
+    "w": 252,
+    "h": 68,
+    "level": 2,
+    "text": "driving experience innovation with ai"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-overview-inner > div.insights-overview-grid > a.insight-item",
+    "x": 24,
+    "y": 3062,
+    "w": 312,
+    "h": 379,
+    "text": "driving retail innovation with fountain tire and valtech listen to the podcast",
+    "href": "/es-es/podcasts/fountain-tire-retail-innovation/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ii-image-wrapper > picture > img",
+    "x": 24,
+    "y": 3062,
+    "w": 312,
+    "h": 210,
+    "text": "driving retail innovation with fountain tire and valtech",
+    "file": "media_1c496a8a813276235001411ad2afcbb5a2"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ii-content > div.ii-title > h2#driving-retail-innovation-with-fountain-tire-and-valtech",
+    "x": 54,
+    "y": 3311,
+    "w": 252,
+    "h": 68,
+    "level": 2,
+    "text": "driving retail innovation with fountain tire and valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-overview-inner > div.insights-overview-grid > a.insight-item",
+    "x": 24,
+    "y": 3465,
+    "w": 312,
+    "h": 379,
+    "text": "ds smith: becoming a connected manufacturer listen to the podcast",
+    "href": "/es-es/podcasts/ds-smith-becoming-a-connected-manufacturer/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ii-image-wrapper > picture > img",
+    "x": 24,
+    "y": 3465,
+    "w": 312,
+    "h": 210,
+    "text": "ds smith: becoming a connected manufacturer",
+    "file": "media_17d1b1e29aad427fe2a3192a7a3d0f7f29"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ii-content > div.ii-title > h2#ds-smith-becoming-a-connected-manufacturer",
+    "x": 54,
+    "y": 3714,
+    "w": 252,
+    "h": 68,
+    "level": 2,
+    "text": "ds smith: becoming a connected manufacturer"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-overview-inner > div.insights-overview-grid > a.insight-item",
+    "x": 24,
+    "y": 3868,
+    "w": 312,
+    "h": 379,
+    "text": "the voice of digital leaders in manufacturing listen to the podcast",
+    "href": "/es-es/podcasts/the-voice-of-digital-leaders-in-manufacturing/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ii-image-wrapper > picture > img",
+    "x": 24,
+    "y": 3868,
+    "w": 312,
+    "h": 210,
+    "text": "the voice of digital leaders in manufacturing",
+    "file": "media_1ab58afc9c3255ec77b293998a80f85168"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ii-content > div.ii-title > h2#the-voice-of-digital-leaders-in-manufacturing",
+    "x": 54,
+    "y": 4117,
+    "w": 252,
+    "h": 68,
+    "level": 2,
+    "text": "the voice of digital leaders in manufacturing"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-overview-more > div.insights-overview-more-wrap > button.load-more",
+    "x": 24,
+    "y": 4271,
+    "w": 266,
+    "h": 46,
+    "text": "mostrar más pódcasts"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block.block > div.teaser-block-header > h4#centro-de-contenidos",
+    "x": 24,
+    "y": 4357,
+    "w": 292,
+    "h": 67,
+    "level": 4,
+    "text": "centro de contenidos"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flickity-slider > div.teaser-block-teaser.is-selected > a.teaser-block-teaser-inner",
+    "x": 24,
+    "y": 4440,
+    "w": 270,
+    "h": 420,
+    "text": "insight la era de los agentes personales",
+    "href": "/es-es/blog/la-era-de-los-agentes-de-ia"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-teaser.is-selected > a.teaser-block-teaser-inner > h4#teaser-insight-insight",
+    "x": 24,
+    "y": 4440,
+    "w": 113,
+    "h": 43,
+    "level": 4,
+    "text": "insight"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h4#teaser-insight-insight > span.icon.icon-teaser-insight > img",
+    "x": 23,
+    "y": 4405,
+    "w": 114,
+    "h": 114,
+    "text": "",
+    "file": "teaser-insight"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#la-era-de-los-agentes-personales",
+    "x": 48,
+    "y": 4758,
+    "w": 215,
+    "h": 40,
+    "level": 5,
+    "text": "la era de los agentes personales"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-teaser-image-wrapper > picture > img",
+    "x": -205,
+    "y": 4378,
+    "w": 727,
+    "h": 545,
+    "text": "",
+    "file": "media_1ffe6dd0ae991332a47bc508a2831c3c6f"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flickity-slider > div.teaser-block-teaser > a.teaser-block-teaser-inner",
+    "x": 314,
+    "y": 4440,
+    "w": 270,
+    "h": 420,
+    "text": "insight el geo como nueva frontera de la visibilidad digital",
+    "href": "/es-es/blog/el-geo-como-la-nueva-frontera-de-la-visibilidad-digital"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-teaser > a.teaser-block-teaser-inner > h4#teaser-insight-insight-1",
+    "x": 314,
+    "y": 4440,
+    "w": 113,
+    "h": 43,
+    "level": 4,
+    "text": "insight"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h4#teaser-insight-insight-1 > span.icon.icon-teaser-insight > img",
+    "x": 313,
+    "y": 4405,
+    "w": 114,
+    "h": 114,
+    "text": "",
+    "file": "teaser-insight"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#el-geo-como-nueva-frontera-de-la-visibilidad-digital",
+    "x": 338,
+    "y": 4758,
+    "w": 215,
+    "h": 40,
+    "level": 5,
+    "text": "el geo como nueva frontera de la visibilidad digital"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-teaser-image-wrapper > picture > img",
+    "x": 85,
+    "y": 4378,
+    "w": 727,
+    "h": 545,
+    "text": "",
+    "file": "media_13da0682d6dcd4be3c21d748cfdef02d2f"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block.block > div.teaser-block-container.flickity-enabled > button.carousel-btn.carousel-btn-long",
+    "x": 240,
+    "y": 4874,
+    "w": 40,
+    "h": 40,
+    "text": "previous"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block.block > div.teaser-block-container.flickity-enabled > button.carousel-btn.carousel-btn-long",
+    "x": 296,
+    "y": 4874,
+    "w": 40,
+    "h": 40,
+    "text": "next"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > a",
+    "x": 0,
+    "y": 4955,
+    "w": 183,
+    "h": 21,
+    "text": "ir al centro de contenidos",
+    "href": "/es-es/content-hub"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-us-form-container.js-accordion > div.contact-us-form-column > button.contact-us-form-accordion-button",
+    "x": 0,
+    "y": 5002,
+    "w": 360,
+    "h": 89,
+    "text": "contáctanos"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-us-form-container.js-accordion > div.contact-us-form-column > button.contact-us-form-accordion-button",
+    "x": 0,
+    "y": 5002,
+    "w": 360,
+    "h": 89,
+    "label": "trigger",
+    "value": "contáctanos",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 16,
+    "y": 5189,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 242,
+    "y": 5189,
+    "w": 58,
+    "h": 45,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 16,
+    "y": 5253,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 242,
+    "y": 5253,
+    "w": 82,
+    "h": 45,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer-column.site-footer-stamp > picture > img",
+    "x": 16,
+    "y": 5316,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "media_18686ce5d542e21460f5b9773dc388b150"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 5457,
+    "w": 134,
+    "h": 18,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 5498,
+    "w": 118,
+    "h": 18,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 5539,
+    "w": 71,
+    "h": 18,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 5580,
+    "w": 84,
+    "h": 18,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 5621,
+    "w": 136,
+    "h": 18,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a.cookiebot-reset",
+    "x": 16,
+    "y": 5662,
+    "w": 158,
+    "h": 18,
+    "text": "configuración de cookies",
+    "href": "/es-es/podcasts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 16,
+    "y": 5743,
+    "w": 23,
+    "h": 18,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 87,
+    "y": 5743,
+    "w": 23,
+    "h": 18,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 158,
+    "y": 5743,
+    "w": 23,
+    "h": 18,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 229,
+    "y": 5743,
+    "w": 23,
+    "h": 18,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 16,
+    "y": 5788,
+    "w": 23,
+    "h": 18,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 87,
+    "y": 5788,
+    "w": 23,
+    "h": 18,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 5,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 2,
+    "offPage": 8,
+    "textNodes": 55,
+    "controls": 45,
+    "total": 5
+   },
+   "groups": [
+    {
+     "kind": "TEXT CLIPPED",
+     "advisory": false,
+     "n": 1,
+     "clipper": "h2#podcast-rethinking-digital-care-with-pfa-pension",
+     "path": "a.insight-item > div.ii-content > div.ii-title > h2#podcast-rethinking-digital-care-with-pfa-pension",
+     "text": "podcast: rethinking digital care with pfa pension",
+     "cutMin": 35,
+     "cutMax": 35
+    },
+    {
+     "kind": "TEXT CLIPPED",
+     "advisory": false,
+     "n": 1,
+     "clipper": "h2#the-customer-experience-odyssey-valtech-podcast",
+     "path": "a.insight-item > div.ii-content > div.ii-title > h2#the-customer-experience-odyssey-valtech-podcast",
+     "text": "the customer experience odyssey: valtech podcast",
+     "cutMin": 35,
+     "cutMax": 35
+    },
+    {
+     "kind": "TEXT CLIPPED",
+     "advisory": false,
+     "n": 1,
+     "clipper": "h2#driving-retail-innovation-with-fountain-tire-and-valtech",
+     "path": "a.insight-item > div.ii-content > div.ii-title > h2#driving-retail-innovation-with-fountain-tire-and-valtech",
+     "text": "driving retail innovation with fountain tire and valtech",
+     "cutMin": 35,
+     "cutMax": 35
+    },
+    {
+     "kind": "TEXT CLIPPED",
+     "advisory": false,
+     "n": 1,
+     "clipper": "h2#ds-smith-becoming-a-connected-manufacturer",
+     "path": "a.insight-item > div.ii-content > div.ii-title > h2#ds-smith-becoming-a-connected-manufacturer",
+     "text": "ds smith: becoming a connected manufacturer",
+     "cutMin": 35,
+     "cutMax": 35
+    },
+    {
+     "kind": "TEXT CLIPPED",
+     "advisory": false,
+     "n": 1,
+     "clipper": "h2#the-voice-of-digital-leaders-in-manufacturing",
+     "path": "a.insight-item > div.ii-content > div.ii-title > h2#the-voice-of-digital-leaders-in-manufacturing",
+     "text": "the voice of digital leaders in manufacturing",
+     "cutMin": 35,
+     "cutMax": 35
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.teaser-block-teaser",
+     "path": "div.flickity-viewport > div.flickity-slider > div.teaser-block-teaser > a.teaser-block-teaser-inner",
+     "text": "insightel geo como nueva frontera de la visibilidad digital",
+     "cutMin": 224,
+     "cutMax": 224
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.teaser-block-teaser",
+     "path": "div.teaser-block-teaser > a.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#el-geo-como-nueva-frontera-de-la-visibilidad-digital",
+     "text": "el geo como nueva frontera de la visibilidad digital",
+     "cutMin": 180,
+     "cutMax": 180
+    }
+   ],
+   "findings": [
+    {
+     "kind": "TEXT CLIPPED",
+     "cut": 35,
+     "hiddenLines": 0,
+     "path": "a.insight-item > div.ii-content > div.ii-title > h2#podcast-rethinking-digital-care-with-pfa-pension",
+     "text": "podcast: rethinking digital care with pfa pension",
+     "clipper": "h2#podcast-rethinking-digital-care-with-pfa-pension",
+     "rect": {
+      "l": 54,
+      "t": 2101,
+      "r": 302,
+      "b": 2137,
+      "w": 248,
+      "h": 36
+     },
+     "clip": {
+      "l": 54,
+      "t": 2102,
+      "r": 306,
+      "b": 2170,
+      "w": 252,
+      "h": 68
+     },
+     "lines": 4
+    },
+    {
+     "kind": "TEXT CLIPPED",
+     "cut": 35,
+     "hiddenLines": 1,
+     "path": "a.insight-item > div.ii-content > div.ii-title > h2#the-customer-experience-odyssey-valtech-podcast",
+     "text": "the customer experience odyssey: valtech podcast",
+     "clipper": "h2#the-customer-experience-odyssey-valtech-podcast",
+     "rect": {
+      "l": 54,
+      "t": 2504,
+      "r": 230,
+      "b": 2540,
+      "w": 176,
+      "h": 36
+     },
+     "clip": {
+      "l": 54,
+      "t": 2505,
+      "r": 306,
+      "b": 2573,
+      "w": 252,
+      "h": 68
+     },
+     "lines": 4
+    },
+    {
+     "kind": "TEXT CLIPPED",
+     "cut": 35,
+     "hiddenLines": 1,
+     "path": "a.insight-item > div.ii-content > div.ii-title > h2#driving-retail-innovation-with-fountain-tire-and-valtech",
+     "text": "driving retail innovation with fountain tire and valtech",
+     "clipper": "h2#driving-retail-innovation-with-fountain-tire-and-valtech",
+     "rect": {
+      "l": 54,
+      "t": 3310,
+      "r": 212,
+      "b": 3346,
+      "w": 158,
+      "h": 36
+     },
+     "clip": {
+      "l": 54,
+      "t": 3311,
+      "r": 306,
+      "b": 3379,
+      "w": 252,
+      "h": 68
+     },
+     "lines": 4
+    },
+    {
+     "kind": "TEXT CLIPPED",
+     "cut": 35,
+     "hiddenLines": 1,
+     "path": "a.insight-item > div.ii-content > div.ii-title > h2#ds-smith-becoming-a-connected-manufacturer",
+     "text": "ds smith: becoming a connected manufacturer",
+     "clipper": "h2#ds-smith-becoming-a-connected-manufacturer",
+     "rect": {
+      "l": 54,
+      "t": 3713,
+      "r": 175,
+      "b": 3749,
+      "w": 121,
+      "h": 36
+     },
+     "clip": {
+      "l": 54,
+      "t": 3714,
+      "r": 306,
+      "b": 3782,
+      "w": 252,
+      "h": 68
+     },
+     "lines": 4
+    },
+    {
+     "kind": "TEXT CLIPPED",
+     "cut": 35,
+     "hiddenLines": 0,
+     "path": "a.insight-item > div.ii-content > div.ii-title > h2#the-voice-of-digital-leaders-in-manufacturing",
+     "text": "the voice of digital leaders in manufacturing",
+     "clipper": "h2#the-voice-of-digital-leaders-in-manufacturing",
+     "rect": {
+      "l": 54,
+      "t": 4116,
+      "r": 293,
+      "b": 4152,
+      "w": 239,
+      "h": 36
+     },
+     "clip": {
+      "l": 54,
+      "t": 4117,
+      "r": 306,
+      "b": 4185,
+      "w": 252,
+      "h": 68
+     },
+     "lines": 3
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 224,
+     "path": "div.flickity-viewport > div.flickity-slider > div.teaser-block-teaser > a.teaser-block-teaser-inner",
+     "text": "insightel geo como nueva frontera de la visibilidad digital",
+     "clipper": "div.teaser-block-teaser",
+     "rect": {
+      "l": 314,
+      "t": 4440,
+      "r": 584,
+      "b": 4860,
+      "w": 270,
+      "h": 420
+     },
+     "clip": {
+      "l": 314,
+      "t": 4440,
+      "r": 584,
+      "b": 4860,
+      "w": 270,
+      "h": 420
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 180,
+     "path": "div.teaser-block-teaser > a.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#el-geo-como-nueva-frontera-de-la-visibilidad-digital",
+     "text": "el geo como nueva frontera de la visibilidad digital",
+     "clipper": "div.teaser-block-teaser",
+     "rect": {
+      "l": 341,
+      "t": 4757,
+      "r": 540,
+      "b": 4778,
+      "w": 199,
+      "h": 21
+     },
+     "clip": {
+      "l": 314,
+      "t": 4440,
+      "r": 584,
+      "b": 4860,
+      "w": 270,
+      "h": 420
+     },
+     "lines": 3
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "valtech café",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 2,
+    "image": 4
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 4,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "último pódcast",
+   "variable": true,
+   "origin": {
+    "link": 9,
+    "button": 7,
+    "text": 3,
+    "image": 7
+   },
+   "eds": {
+    "link": 9,
+    "linkHidden": 1,
+    "button": 8,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 7,
+    "imageHidden": 3
+   },
+   "findings": [
+    "HIDDEN LINK",
+    "EXTRA LINK",
+    "COUNT IMAGES",
+    "CONTROL MISSING"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🔴",
+   "kind": "HIDDEN LINK",
+   "msg": "×1 links clipped away inside the session-variable region of band \"último pódcast\"",
+   "band": 2,
+   "n": 1,
+   "variable": true
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"rethinking digital care: how pfa is unlocking the future of health insurance services\" (y 1144) has no origin heading",
+   "text": "rethinking digital care: how pfa is unlocking the future of health insurance services"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"podcast: rethinking digital care with pfa pension\" (y 2102) has no origin heading",
+   "text": "podcast: rethinking digital care with pfa pension"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"the customer experience odyssey: valtech podcast\" (y 2505) has no origin heading",
+   "text": "the customer experience odyssey: valtech podcast"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"driving experience innovation with ai\" (y 2908) has no origin heading",
+   "text": "driving experience innovation with ai"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"driving retail innovation with fountain tire and valtech\" (y 3311) has no origin heading",
+   "text": "driving retail innovation with fountain tire and valtech"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"ds smith: becoming a connected manufacturer\" (y 3714) has no origin heading",
+   "text": "ds smith: becoming a connected manufacturer"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"the voice of digital leaders in manufacturing\" (y 4117) has no origin heading",
+   "text": "the voice of digital leaders in manufacturing"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"contáctanos\" served in band \"último pódcast\", no origin link or button",
+   "band": 2,
+   "n": 1,
+   "text": "contáctanos"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT IMAGES",
+   "msg": "band \"último pódcast\": 7 origin → 7 served visible (+3 clipped away)",
+   "band": 2,
+   "origin": 7,
+   "eds": 7,
+   "hidden": 3
+  },
+  {
+   "sev": "🟡",
+   "kind": "CONTROL MISSING",
+   "msg": "current = \"slide 1\" (band \"último pódcast\") has no served counterpart",
+   "band": 2,
+   "label": "current",
+   "value": "slide 1"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 7,
+  "missingLinks": 0,
+  "hiddenLinks": 1,
+  "movedLinks": 0,
+  "extraLinks": 1,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 1,
+  "findings": 11,
+  "structural": 1,
+  "missing": 0,
+  "hidden": 1
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 75,
+    "y": 75,
+    "w": 66,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 117,
+    "w": 191,
+    "h": 45
+   },
+   {
+    "x": 24,
+    "y": 164,
+    "w": 293,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 182,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 434,
+    "w": 259,
+    "h": 21
+   },
+   {
+    "x": 50,
+    "y": 520,
+    "w": 42,
+    "h": 21
+   },
+   {
+    "x": 50,
+    "y": 543,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 212,
+    "y": 520,
+    "w": 86,
+    "h": 21
+   },
+   {
+    "x": 50,
+    "y": 645,
+    "w": 50,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 771,
+    "w": 204,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1142,
+    "w": 297,
+    "h": 31
+   },
+   {
+    "x": 24,
+    "y": 1170,
+    "w": 311,
+    "h": 31
+   },
+   {
+    "x": 24,
+    "y": 1199,
+    "w": 270,
+    "h": 31
+   },
+   {
+    "x": 24,
+    "y": 1246,
+    "w": 99,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1277,
+    "w": 261,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1298,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1351,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1373,
+    "w": 290,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1396,
+    "w": 132,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1495,
+    "w": 112,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1551,
+    "w": 260,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1578,
+    "w": 92,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1632,
+    "w": 187,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 1667,
+    "w": 178,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 1703,
+    "w": 207,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 1738,
+    "w": 195,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 1819,
+    "w": 8,
+    "h": 18
+   },
+   {
+    "x": 35,
+    "y": 1819,
+    "w": 153,
+    "h": 18
+   },
+   {
+    "x": 191,
+    "y": 1819,
+    "w": 16,
+    "h": 18
+   },
+   {
+    "x": 54,
+    "y": 2101,
+    "w": 248,
+    "h": 36
+   },
+   {
+    "x": 302,
+    "y": 2101,
+    "w": 6,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 2135,
+    "w": 251,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 2135,
+    "w": 232,
+    "h": 36
+   },
+   {
+    "x": 305,
+    "y": 2135,
+    "w": 6,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 2169,
+    "w": 99,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 2186,
+    "w": 149,
+    "h": 21
+   },
+   {
+    "x": 54,
+    "y": 2504,
+    "w": 176,
+    "h": 36
+   },
+   {
+    "x": 230,
+    "y": 2504,
+    "w": 6,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 2538,
+    "w": 140,
+    "h": 36
+   },
+   {
+    "x": 194,
+    "y": 2538,
+    "w": 6,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 2572,
+    "w": 212,
+    "h": 36
+   },
+   {
+    "x": 266,
+    "y": 2572,
+    "w": 6,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 2589,
+    "w": 149,
+    "h": 21
+   },
+   {
+    "x": 54,
+    "y": 2907,
+    "w": 233,
+    "h": 36
+   },
+   {
+    "x": 287,
+    "y": 2907,
+    "w": 6,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 2941,
+    "w": 220,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 2992,
+    "w": 149,
+    "h": 21
+   },
+   {
+    "x": 54,
+    "y": 3310,
+    "w": 158,
+    "h": 36
+   },
+   {
+    "x": 212,
+    "y": 3310,
+    "w": 6,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 3344,
+    "w": 188,
+    "h": 36
+   },
+   {
+    "x": 242,
+    "y": 3344,
+    "w": 6,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 3378,
+    "w": 216,
+    "h": 36
+   },
+   {
+    "x": 270,
+    "y": 3378,
+    "w": 6,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 3395,
+    "w": 149,
+    "h": 21
+   },
+   {
+    "x": 54,
+    "y": 3713,
+    "w": 121,
+    "h": 36
+   },
+   {
+    "x": 175,
+    "y": 3713,
+    "w": 6,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 3747,
+    "w": 148,
+    "h": 36
+   },
+   {
+    "x": 202,
+    "y": 3747,
+    "w": 6,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 3781,
+    "w": 137,
+    "h": 36
+   },
+   {
+    "x": 191,
+    "y": 3781,
+    "w": 6,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 3798,
+    "w": 149,
+    "h": 21
+   },
+   {
+    "x": 54,
+    "y": 4116,
+    "w": 239,
+    "h": 36
+   },
+   {
+    "x": 293,
+    "y": 4116,
+    "w": 6,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 4150,
+    "w": 128,
+    "h": 36
+   },
+   {
+    "x": 182,
+    "y": 4150,
+    "w": 6,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 4184,
+    "w": 182,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 4201,
+    "w": 149,
+    "h": 21
+   },
+   {
+    "x": 45,
+    "y": 4282,
+    "w": 224,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 4354,
+    "w": 132,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 4388,
+    "w": 154,
+    "h": 39
+   },
+   {
+    "x": 72,
+    "y": 4451,
+    "w": 49,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 4757,
+    "w": 149,
+    "h": 21
+   },
+   {
+    "x": 200,
+    "y": 4757,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 4777,
+    "w": 78,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 4757,
+    "w": 199,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 4777,
+    "w": 156,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4948,
+    "w": 206,
+    "h": 23
+   },
+   {
+    "x": 16,
+    "y": 5053,
+    "w": 173,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 5216,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 5216,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 5240,
+    "w": 47,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5280,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 5280,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 5304,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5484,
+    "w": 134,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 5525,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 5566,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 5607,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 5648,
+    "w": 136,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 5689,
+    "w": 158,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 75,
+    "y": 75,
+    "w": 66,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 117,
+    "w": 191,
+    "h": 45
+   },
+   {
+    "x": 24,
+    "y": 164,
+    "w": 293,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 182,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 434,
+    "w": 259,
+    "h": 21
+   },
+   {
+    "x": 50,
+    "y": 521,
+    "w": 42,
+    "h": 21
+   },
+   {
+    "x": 50,
+    "y": 543,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 212,
+    "y": 521,
+    "w": 86,
+    "h": 21
+   },
+   {
+    "x": 50,
+    "y": 645,
+    "w": 50,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 771,
+    "w": 204,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1142,
+    "w": 297,
+    "h": 31
+   },
+   {
+    "x": 24,
+    "y": 1171,
+    "w": 311,
+    "h": 31
+   },
+   {
+    "x": 24,
+    "y": 1199,
+    "w": 270,
+    "h": 31
+   },
+   {
+    "x": 24,
+    "y": 1246,
+    "w": 99,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1277,
+    "w": 261,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1298,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1351,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1374,
+    "w": 290,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1396,
+    "w": 132,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1495,
+    "w": 112,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1551,
+    "w": 260,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1578,
+    "w": 92,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1632,
+    "w": 187,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 1668,
+    "w": 178,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 1703,
+    "w": 207,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 1739,
+    "w": 195,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 1819,
+    "w": 183,
+    "h": 18
+   },
+   {
+    "x": 54,
+    "y": 2101,
+    "w": 248,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 2135,
+    "w": 251,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 2135,
+    "w": 232,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 2169,
+    "w": 99,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 2186,
+    "w": 149,
+    "h": 21
+   },
+   {
+    "x": 54,
+    "y": 2504,
+    "w": 176,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 2538,
+    "w": 140,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 2572,
+    "w": 212,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 2589,
+    "w": 149,
+    "h": 21
+   },
+   {
+    "x": 54,
+    "y": 2907,
+    "w": 233,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 2941,
+    "w": 220,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 2992,
+    "w": 149,
+    "h": 21
+   },
+   {
+    "x": 54,
+    "y": 3310,
+    "w": 158,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 3344,
+    "w": 188,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 3378,
+    "w": 216,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 3395,
+    "w": 149,
+    "h": 21
+   },
+   {
+    "x": 54,
+    "y": 3713,
+    "w": 121,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 3747,
+    "w": 148,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 3781,
+    "w": 137,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 3798,
+    "w": 149,
+    "h": 21
+   },
+   {
+    "x": 54,
+    "y": 4116,
+    "w": 239,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 4150,
+    "w": 128,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 4184,
+    "w": 182,
+    "h": 36
+   },
+   {
+    "x": 54,
+    "y": 4201,
+    "w": 149,
+    "h": 21
+   },
+   {
+    "x": 45,
+    "y": 4282,
+    "w": 224,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 4354,
+    "w": 132,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 4388,
+    "w": 154,
+    "h": 39
+   },
+   {
+    "x": 72,
+    "y": 4451,
+    "w": 49,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 4757,
+    "w": 149,
+    "h": 21
+   },
+   {
+    "x": 200,
+    "y": 4757,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 4777,
+    "w": 78,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 4757,
+    "w": 199,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 4777,
+    "w": 156,
+    "h": 21
+   },
+   {
+    "x": 0,
+    "y": 4955,
+    "w": 183,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5026,
+    "w": 173,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 5189,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 5189,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 5213,
+    "w": 47,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5253,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 5253,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 5277,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5457,
+    "w": 134,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 5498,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 5539,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 5580,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 5621,
+    "w": 136,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 5662,
+    "w": 158,
+    "h": 18
+   }
+  ]
+ }
+}

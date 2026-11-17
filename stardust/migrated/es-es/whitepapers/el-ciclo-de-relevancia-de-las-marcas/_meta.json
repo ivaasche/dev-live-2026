@@ -1,0 +1,229 @@
+{
+  "slug": "es-es-whitepapers-el-ciclo-de-relevancia-de-las-marcas",
+  "type": "offering",
+  "renderBranch": "A'",
+  "template": "valtech-conversion-engine",
+  "modules": [
+    "breadcrumbs",
+    "masthead-blurred",
+    "two-columns",
+    "teaser-block-unu",
+    "faq-block",
+    "marketo-form"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "site-breadcrumbs",
+    "masthead-blurred",
+    "rte-block",
+    "rte-block",
+    "rte-block",
+    "two-columns",
+    "rte-block",
+    "teaser-block-unu",
+    "rte-block",
+    "faq-block",
+    "rte-block",
+    "marketo-form-block",
+    "site-footer",
+    "site-slope",
+    "site-slope",
+    "site-slope",
+    "modal",
+    "modal",
+    "modal",
+    "modal"
+  ],
+  "canonShas": {
+    "header": "73cff066609b",
+    "footer": "d3f0cc1ef9d5",
+    "css": "8876c0e8d8d1"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "El ciclo de relevancia de las marcas | Valtech",
+    "description": "El ciclo de relevancia de las marcas es el modelo desarrollado por Valtech para conseguir que la IA preste atención a una marca, confíe en ella y la recomiende.",
+    "canonical": "https://www.valtech.com/es-es/whitepapers/el-ciclo-de-relevancia-de-las-marcas/",
+    "lang": "es"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Report",
+    "headline": "El ciclo de relevancia de las marcas",
+    "description": "El ciclo de relevancia de las marcas es el modelo desarrollado por Valtech para conseguir que la IA preste atención a una marca, confíe en ella y la recomiende.",
+    "publisher": {
+      "@id": "https://www.valtech.com/#corporation"
+    }
+  },
+  "migratedAt": "2026-11-13T22:56:21Z",
+  "designMdSha": "9dc5e8267a4e",
+  "designJsonSha": "ec9a36425b28",
+  "sourceCurrentSha": "c31f92a58c1e",
+  "sourceProposedSha": "415c15b4f9b6",
+  "fidelityTier": "sibling",
+  "archetypeSource": "valtech-conversion-engine",
+  "archetypeSha": "6faf444abaa7",
+  "variants": [
+    "table.signature table.plain rte.image-center two-columns.dark"
+  ],
+  "gatesPassed": [
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "verbatim sibling encode of stardust/current/pages/es-es-whitepapers-el-ciclo-de-relevancia-de-las-marcas.html into content/es-es/whitepapers/el-ciclo-de-relevancia-de-las-marcas.html (archetype valtech-conversion-engine shape, stardust/.work/cluster-offering/build-content.py); published-origin gate 1440 3.39 % Δh -41 PASS / 360 5.61 % Δh -15 PASS"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 11,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/es-es/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/servicios/elevacion-de-la-experiencia/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/aceleracion-comercio/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/transformacion-empresarial/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/servicios-creativos-de-marketing-performance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/carrera/ofertas-de-empleo/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/trabajar-en-valtech/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/diversidad-e-inclusion/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/oficinas/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/contacto/keep-in-touch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de-de/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-dk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr-fr/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nl-nl/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-gb/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sv-se/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ca/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-ar/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt-br/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-mx/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-sg/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/seo-had-rank-geo-has-frequency/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/geo-quick-start/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/adobe-optimizing-your-content-supply-chain/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/migrating-to-adobe-experience-manager-cloud/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/seo-had-rank-geo-has-frequency/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/content-costs-rising-ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/nuestros-partners/adobe/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/oficinas/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/carrera/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/accesibilidad/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/mantente-en-contacto/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "es-es/whitepapers/el-ciclo-de-relevancia-de-las-marcas/index.html",
+  "outputPathDefault": null,
+  "sidecar": "es-es/whitepapers/el-ciclo-de-relevancia-de-las-marcas/_meta.json",
+  "driverVersion": "1"
+}

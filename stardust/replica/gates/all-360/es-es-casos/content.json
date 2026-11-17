@@ -1,0 +1,2872 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T06:59:01.798Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/es-es/casos/",
+  "at": "2026-11-14T06:58:40.970Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4439,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.site-nav__menu-wrapper.site-nav__menu__labels > div.site-nav__logo > a.site-nav__logo__link",
+    "x": 24,
+    "y": 25,
+    "w": 80,
+    "h": 21,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > a.search-select.mobile",
+    "x": 232,
+    "y": 24,
+    "w": 22,
+    "h": 23,
+    "text": "go to search page",
+    "href": "/es-es/search/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open main menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open main menu",
+    "value": "open main menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > a",
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 75,
+    "y": 75,
+    "w": 41,
+    "h": 21,
+    "label": "current",
+    "value": "casos",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 75,
+    "y": 75,
+    "w": 41,
+    "h": 21,
+    "text": "Casos"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "main#valtech-content > div.radon-masthead > h1",
+    "x": 0,
+    "y": 168,
+    "w": 360,
+    "h": 35,
+    "level": 1,
+    "text": "casos"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-kEbgWM.fJaMpU > div.sc-fuztkK.eMSyXk > button.sc-hKVpXn.jjFbHR",
+    "x": 24,
+    "y": 297,
+    "w": 202,
+    "h": 26,
+    "text": "todas las industrias"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-kEbgWM.fJaMpU > div.sc-fuztkK.eMSyXk > button.sc-hKVpXn.jjFbHR",
+    "x": 24,
+    "y": 333,
+    "w": 193,
+    "h": 26,
+    "text": "todos los servicios"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-kEbgWM.fJaMpU > div.sc-fuztkK.eMSyXk > button.sc-hKVpXn.jjFbHR",
+    "x": 24,
+    "y": 368,
+    "w": 222,
+    "h": 26,
+    "text": "todas las plataformas"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-hHopjF.kJmmVK > div.sc-krVzYl.heFqlK > div.sc-dILkzW.ivNNFQ",
+    "x": 24,
+    "y": 447,
+    "w": 312,
+    "h": 18,
+    "text": "6 Resultados de un total de 230"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-hCcPtG.iiXUdQ > section.sc-dlwHGs.iLIIYj > a.sc-fKwzVe.xgiKk",
+    "x": 24,
+    "y": 481,
+    "w": 312,
+    "h": 431,
+    "text": "operador mundial de cruceros descubre cómo creamos para nuestro cliente una solu",
+    "href": "/es-es/casos/operador-mundial-de-cruceros/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.sc-fKwzVe.xgiKk > picture > img.case-item__image",
+    "x": 24,
+    "y": 481,
+    "w": 312,
+    "h": 207,
+    "text": "operador mundial de cruceros",
+    "file": "royal-caribbean-case-study-header-naviga"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.sc-dlwHGs.iLIIYj > a.sc-fKwzVe.xgiKk > h2.sc-kgohyr.fhXFuT",
+    "x": 24,
+    "y": 718,
+    "w": 312,
+    "h": 19,
+    "level": 2,
+    "text": "operador mundial de cruceros"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-hCcPtG.iiXUdQ > section.sc-dlwHGs.iLIIYj > a.sc-fKwzVe.xgiKk",
+    "x": 24,
+    "y": 932,
+    "w": 312,
+    "h": 402,
+    "text": "ford: reparto de última milla el servicio multimodal de reparto de ford benefici",
+    "href": "/es-es/casos/ford/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.sc-fKwzVe.xgiKk > picture > img.case-item__image",
+    "x": 24,
+    "y": 932,
+    "w": 312,
+    "h": 207,
+    "text": "ford: reparto de última milla",
+    "file": "tsk-2053-ford-case-study-lp-seo"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.sc-dlwHGs.iLIIYj > a.sc-fKwzVe.xgiKk > h2.sc-kgohyr.fhXFuT",
+    "x": 24,
+    "y": 1169,
+    "w": 312,
+    "h": 19,
+    "level": 2,
+    "text": "ford: reparto de última milla"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-hCcPtG.iiXUdQ > section.sc-dlwHGs.iLIIYj > a.sc-fKwzVe.xgiKk",
+    "x": 24,
+    "y": 1354,
+    "w": 312,
+    "h": 447,
+    "text": "grupo volkswagen valtech colaboró con volkswagen group para crear una plataforma",
+    "href": "/es-es/casos/grupo-volkswagen/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.sc-fKwzVe.xgiKk > picture > img.case-item__image",
+    "x": 24,
+    "y": 1354,
+    "w": 312,
+    "h": 207,
+    "text": "grupo volkswagen",
+    "file": "mobility-vw-valtech-nav"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.sc-dlwHGs.iLIIYj > a.sc-fKwzVe.xgiKk > h2.sc-kgohyr.fhXFuT",
+    "x": 24,
+    "y": 1590,
+    "w": 312,
+    "h": 19,
+    "level": 2,
+    "text": "grupo volkswagen"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-hCcPtG.iiXUdQ > section.sc-dlwHGs.iLIIYj > a.sc-fKwzVe.xgiKk",
+    "x": 24,
+    "y": 1820,
+    "w": 312,
+    "h": 431,
+    "text": "maison francesa de lujo descubre cómo valtech ayudó a una maison de lujo a unifi",
+    "href": "/es-es/casos/maison-francesa-de-lujo/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.sc-fKwzVe.xgiKk > picture > img.case-item__image",
+    "x": 24,
+    "y": 1820,
+    "w": 312,
+    "h": 207,
+    "text": "maison francesa de lujo",
+    "file": "luxury-multi-image-dam-valtech-nav"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.sc-dlwHGs.iLIIYj > a.sc-fKwzVe.xgiKk > h2.sc-kgohyr.fhXFuT",
+    "x": 24,
+    "y": 2057,
+    "w": 312,
+    "h": 19,
+    "level": 2,
+    "text": "maison francesa de lujo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-hCcPtG.iiXUdQ > section.sc-dlwHGs.iLIIYj > a.sc-fKwzVe.xgiKk",
+    "x": 24,
+    "y": 2272,
+    "w": 312,
+    "h": 424,
+    "text": "marketplace de lujo descubre cómo valtech y google cloud renovaron el buscador d",
+    "href": "/es-es/casos/marketplace-de-lujo/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.sc-fKwzVe.xgiKk > picture > img.case-item__image",
+    "x": 24,
+    "y": 2272,
+    "w": 312,
+    "h": 207,
+    "text": "marketplace de lujo",
+    "file": "retail-luxury-retail-marketplace-luxury-"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.sc-dlwHGs.iLIIYj > a.sc-fKwzVe.xgiKk > h2.sc-kgohyr.fhXFuT",
+    "x": 24,
+    "y": 2508,
+    "w": 312,
+    "h": 19,
+    "level": 2,
+    "text": "marketplace de lujo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-hCcPtG.iiXUdQ > section.sc-dlwHGs.iLIIYj > a.sc-fKwzVe.xgiKk",
+    "x": 24,
+    "y": 2716,
+    "w": 312,
+    "h": 447,
+    "text": "tienda de regalos líder en el mercado cómo valtech y google cloud convirtieron l",
+    "href": "/es-es/casos/lider-en-regalos/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.sc-fKwzVe.xgiKk > picture > img.case-item__image",
+    "x": 24,
+    "y": 2716,
+    "w": 312,
+    "h": 207,
+    "text": "tienda de regalos líder en el mercado",
+    "file": "retail-leading-gifts-retailer-man-with-r"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.sc-dlwHGs.iLIIYj > a.sc-fKwzVe.xgiKk > h2.sc-kgohyr.fhXFuT",
+    "x": 24,
+    "y": 2952,
+    "w": 312,
+    "h": 19,
+    "level": 2,
+    "text": "tienda de regalos líder en el mercado"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-folSZX.hWHzDn > div.sc-bdDsCe.jmYRXb > button.--secondary-hollow.--small",
+    "x": 104,
+    "y": 3186,
+    "w": 153,
+    "h": 54,
+    "text": "cargar más"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.subscription-block__container > div.subscription-block__wrapper > h2.subscription-block__title",
+    "x": 24,
+    "y": 3400,
+    "w": 312,
+    "h": 56,
+    "level": 2,
+    "text": "haz frente a los retos de la economía digital actual"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.subscription-block__wrapper > div > a.subscription-block__button.button",
+    "x": 61,
+    "y": 3488,
+    "w": 238,
+    "h": 58,
+    "text": "habla con nosotros",
+    "href": "/es-es/quienes-somos/contacto/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.contact-us-form__container.js-accordion > div.contact-us-form__column > button.contact-us-form__accordion-button.js-accordion-button",
+    "x": 0,
+    "y": 3586,
+    "w": 360,
+    "h": 89,
+    "text": "contáctanos"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.contact-us-form__container.js-accordion > div.contact-us-form__column > button.contact-us-form__accordion-button.js-accordion-button",
+    "x": 0,
+    "y": 3586,
+    "w": 360,
+    "h": 89,
+    "label": "trigger",
+    "value": "contáctanos",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 16,
+    "y": 3773,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 242,
+    "y": 3773,
+    "w": 58,
+    "h": 45,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 16,
+    "y": 3837,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 242,
+    "y": 3837,
+    "w": 82,
+    "h": 45,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer__column.site-footer__stamp > picture > img",
+    "x": 16,
+    "y": 3900,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "badge-no-outline"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 4041,
+    "w": 134,
+    "h": 18,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 4082,
+    "w": 118,
+    "h": 18,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 4123,
+    "w": 71,
+    "h": 18,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 4164,
+    "w": 84,
+    "h": 18,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 4205,
+    "w": 136,
+    "h": 18,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a.cookiebot-reset",
+    "x": 16,
+    "y": 4246,
+    "w": 158,
+    "h": 18,
+    "text": "configuración de cookies",
+    "href": "/es-es/casos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 16,
+    "y": 4327,
+    "w": 23,
+    "h": 18,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 87,
+    "y": 4327,
+    "w": 23,
+    "h": 18,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 158,
+    "y": 4327,
+    "w": 23,
+    "h": 18,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 229,
+    "y": 4327,
+    "w": 23,
+    "h": 18,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 16,
+    "y": 4372,
+    "w": 23,
+    "h": 18,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 87,
+    "y": 4372,
+    "w": 23,
+    "h": 18,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 6,
+    "textNodes": 72,
+    "controls": 36,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/es-es/casos",
+  "at": "2026-11-14T06:59:01.536Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4439,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-nav-menu-wrapper.site-nav-menu-labels > div.site-nav-logo > a.site-nav-logo-link",
+    "x": 24,
+    "y": 25,
+    "w": 80,
+    "h": 21,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > a.search-select.mobile",
+    "x": 232,
+    "y": 24,
+    "w": 22,
+    "h": 23,
+    "text": "go to search page",
+    "href": "/es-es/search/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open main menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open main menu",
+    "value": "open main menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 62,
+    "y": 75,
+    "w": 55,
+    "h": 22,
+    "label": "current",
+    "value": "casos",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 62,
+    "y": 75,
+    "w": 55,
+    "h": 22,
+    "text": "Casos"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.radon-masthead-wrapper > div.radon-masthead.block > h1#casos",
+    "x": 0,
+    "y": 168,
+    "w": 360,
+    "h": 35,
+    "level": 1,
+    "text": "casos"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-filter-selects > div.react-select > button.react-select-button",
+    "x": 24,
+    "y": 297,
+    "w": 202,
+    "h": 26,
+    "text": "todas las industrias"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-filter-selects > div.react-select > button.react-select-button",
+    "x": 24,
+    "y": 297,
+    "w": 202,
+    "h": 26,
+    "label": "trigger",
+    "value": "todas las industrias",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-filter-selects > div.react-select > button.react-select-button",
+    "x": 24,
+    "y": 333,
+    "w": 193,
+    "h": 26,
+    "text": "todos los servicios"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-filter-selects > div.react-select > button.react-select-button",
+    "x": 24,
+    "y": 333,
+    "w": 193,
+    "h": 26,
+    "label": "trigger",
+    "value": "todos los servicios",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-filter-selects > div.react-select > button.react-select-button",
+    "x": 24,
+    "y": 368,
+    "w": 222,
+    "h": 26,
+    "text": "todas las plataformas"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-filter-selects > div.react-select > button.react-select-button",
+    "x": 24,
+    "y": 368,
+    "w": 222,
+    "h": 26,
+    "label": "trigger",
+    "value": "todas las plataformas",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-overview-inner > div.insights-overview-count > p",
+    "x": 24,
+    "y": 447,
+    "w": 312,
+    "h": 18,
+    "text": "6 Resultados de un total de 230"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-overview-inner > div.insights-overview-grid > a.insight-item",
+    "x": 24,
+    "y": 481,
+    "w": 312,
+    "h": 431,
+    "text": "operador mundial de cruceros descubre cómo creamos para nuestro cliente una solu",
+    "href": "/es-es/casos/operador-mundial-de-cruceros/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ii-image-wrapper > picture > img",
+    "x": 24,
+    "y": 481,
+    "w": 312,
+    "h": 207,
+    "text": "operador mundial de cruceros",
+    "file": "media_1b14d50e613f3dae429b57ff9908216994"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.insight-item > div.ii-title > h2#operador-mundial-de-cruceros",
+    "x": 24,
+    "y": 718,
+    "w": 312,
+    "h": 19,
+    "level": 2,
+    "text": "operador mundial de cruceros"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-overview-inner > div.insights-overview-grid > a.insight-item",
+    "x": 24,
+    "y": 932,
+    "w": 312,
+    "h": 402,
+    "text": "ford: reparto de última milla el servicio multimodal de reparto de ford benefici",
+    "href": "/es-es/casos/ford/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ii-image-wrapper > picture > img",
+    "x": 24,
+    "y": 932,
+    "w": 312,
+    "h": 207,
+    "text": "ford: reparto de última milla",
+    "file": "media_1711455fd51edd9c02efa2a736067f5996"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.insight-item > div.ii-title > h2#ford-reparto-de-última-milla",
+    "x": 24,
+    "y": 1169,
+    "w": 312,
+    "h": 19,
+    "level": 2,
+    "text": "ford: reparto de última milla"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-overview-inner > div.insights-overview-grid > a.insight-item",
+    "x": 24,
+    "y": 1354,
+    "w": 312,
+    "h": 447,
+    "text": "grupo volkswagen valtech colaboró con volkswagen group para crear una plataforma",
+    "href": "/es-es/casos/grupo-volkswagen/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ii-image-wrapper > picture > img",
+    "x": 24,
+    "y": 1354,
+    "w": 312,
+    "h": 207,
+    "text": "grupo volkswagen",
+    "file": "media_183482803bbe267efd8448d851f2683e59"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.insight-item > div.ii-title > h2#grupo-volkswagen",
+    "x": 24,
+    "y": 1590,
+    "w": 312,
+    "h": 19,
+    "level": 2,
+    "text": "grupo volkswagen"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-overview-inner > div.insights-overview-grid > a.insight-item",
+    "x": 24,
+    "y": 1820,
+    "w": 312,
+    "h": 431,
+    "text": "maison francesa de lujo descubre cómo valtech ayudó a una maison de lujo a unifi",
+    "href": "/es-es/casos/maison-francesa-de-lujo/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ii-image-wrapper > picture > img",
+    "x": 24,
+    "y": 1820,
+    "w": 312,
+    "h": 207,
+    "text": "maison francesa de lujo",
+    "file": "media_13a1befbc0718700a4ab677af61cbf0414"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.insight-item > div.ii-title > h2#maison-francesa-de-lujo",
+    "x": 24,
+    "y": 2057,
+    "w": 312,
+    "h": 19,
+    "level": 2,
+    "text": "maison francesa de lujo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-overview-inner > div.insights-overview-grid > a.insight-item",
+    "x": 24,
+    "y": 2272,
+    "w": 312,
+    "h": 424,
+    "text": "marketplace de lujo descubre cómo valtech y google cloud renovaron el buscador d",
+    "href": "/es-es/casos/marketplace-de-lujo/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ii-image-wrapper > picture > img",
+    "x": 24,
+    "y": 2272,
+    "w": 312,
+    "h": 207,
+    "text": "marketplace de lujo",
+    "file": "media_13b15e345552e4349d0308488d2db96347"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.insight-item > div.ii-title > h2#marketplace-de-lujo",
+    "x": 24,
+    "y": 2508,
+    "w": 312,
+    "h": 19,
+    "level": 2,
+    "text": "marketplace de lujo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-overview-inner > div.insights-overview-grid > a.insight-item",
+    "x": 24,
+    "y": 2716,
+    "w": 312,
+    "h": 447,
+    "text": "tienda de regalos líder en el mercado cómo valtech y google cloud convirtieron l",
+    "href": "/es-es/casos/lider-en-regalos/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ii-image-wrapper > picture > img",
+    "x": 24,
+    "y": 2716,
+    "w": 312,
+    "h": 207,
+    "text": "tienda de regalos líder en el mercado",
+    "file": "media_128a5f5f2f8a51683f12ad5b50d5747f87"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.insight-item > div.ii-title > h2#tienda-de-regalos-líder-en-el-mercado",
+    "x": 24,
+    "y": 2952,
+    "w": 312,
+    "h": 19,
+    "level": 2,
+    "text": "tienda de regalos líder en el mercado"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.insights-overview-more > div.insights-overview-more-wrap > button.load-more",
+    "x": 101,
+    "y": 3186,
+    "w": 157,
+    "h": 46,
+    "text": "cargar más"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.subscription-block-inner > div.subscription-block-band > h2#haz-frente-a-los-retos-de-la-economía-digital-actual",
+    "x": 24,
+    "y": 3400,
+    "w": 312,
+    "h": 56,
+    "level": 2,
+    "text": "haz frente a los retos de la economía digital actual"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.subscription-block-band > p.subscription-block-action > a.subscription-block-button",
+    "x": 61,
+    "y": 3488,
+    "w": 238,
+    "h": 58,
+    "text": "habla con nosotros",
+    "href": "/es-es/quienes-somos/contacto/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-us-form-container.js-accordion > div.contact-us-form-column > button.contact-us-form-accordion-button",
+    "x": 0,
+    "y": 3586,
+    "w": 360,
+    "h": 89,
+    "text": "contáctanos"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-us-form-container.js-accordion > div.contact-us-form-column > button.contact-us-form-accordion-button",
+    "x": 0,
+    "y": 3586,
+    "w": 360,
+    "h": 89,
+    "label": "trigger",
+    "value": "contáctanos",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 16,
+    "y": 3773,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 242,
+    "y": 3773,
+    "w": 58,
+    "h": 45,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 16,
+    "y": 3837,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 242,
+    "y": 3837,
+    "w": 82,
+    "h": 45,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer-column.site-footer-stamp > picture > img",
+    "x": 16,
+    "y": 3900,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "media_18686ce5d542e21460f5b9773dc388b150"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 4041,
+    "w": 134,
+    "h": 18,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 4082,
+    "w": 118,
+    "h": 18,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 4123,
+    "w": 71,
+    "h": 18,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 4164,
+    "w": 84,
+    "h": 18,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 4205,
+    "w": 136,
+    "h": 18,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a.cookiebot-reset",
+    "x": 16,
+    "y": 4246,
+    "w": 158,
+    "h": 18,
+    "text": "configuración de cookies",
+    "href": "/es-es/casos"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 16,
+    "y": 4327,
+    "w": 23,
+    "h": 18,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 87,
+    "y": 4327,
+    "w": 23,
+    "h": 18,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 158,
+    "y": 4327,
+    "w": 23,
+    "h": 18,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 229,
+    "y": 4327,
+    "w": 23,
+    "h": 18,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 16,
+    "y": 4372,
+    "w": 23,
+    "h": 18,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 87,
+    "y": 4372,
+    "w": 23,
+    "h": 18,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 1,
+    "textNodes": 53,
+    "controls": 34,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "casos",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 3,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 3,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "operador mundial de cruceros",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "ford: reparto de última milla",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "grupo volkswagen",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "maison francesa de lujo",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "marketplace de lujo",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "tienda de regalos líder en el mercado",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "haz frente a los retos de la economía digital actual",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"contáctanos\" served in band \"haz frente a los retos de la economía digital actual\", no origin link or button",
+   "band": 8,
+   "n": 1,
+   "text": "contáctanos"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 1,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 1,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 75,
+    "y": 75,
+    "w": 41,
+    "h": 21
+   },
+   {
+    "x": 0,
+    "y": 163,
+    "w": 103,
+    "h": 45
+   },
+   {
+    "x": 24,
+    "y": 295,
+    "w": 187,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 331,
+    "w": 178,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 366,
+    "w": 207,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 447,
+    "w": 8,
+    "h": 18
+   },
+   {
+    "x": 35,
+    "y": 447,
+    "w": 157,
+    "h": 18
+   },
+   {
+    "x": 195,
+    "y": 447,
+    "w": 24,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 716,
+    "w": 231,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 761,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 783,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 806,
+    "w": 301,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 828,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 850,
+    "w": 263,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 897,
+    "w": 90,
+    "h": 14
+   },
+   {
+    "x": 114,
+    "y": 897,
+    "w": 5,
+    "h": 14
+   },
+   {
+    "x": 119,
+    "y": 897,
+    "w": 132,
+    "h": 14
+   },
+   {
+    "x": 24,
+    "y": 1167,
+    "w": 211,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 1212,
+    "w": 290,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1234,
+    "w": 259,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1257,
+    "w": 115,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1303,
+    "w": 47,
+    "h": 14
+   },
+   {
+    "x": 71,
+    "y": 1303,
+    "w": 5,
+    "h": 14
+   },
+   {
+    "x": 76,
+    "y": 1303,
+    "w": 188,
+    "h": 14
+   },
+   {
+    "x": 265,
+    "y": 1303,
+    "w": 5,
+    "h": 14
+   },
+   {
+    "x": 269,
+    "y": 1303,
+    "w": 62,
+    "h": 14
+   },
+   {
+    "x": 24,
+    "y": 1318,
+    "w": 68,
+    "h": 14
+   },
+   {
+    "x": 24,
+    "y": 1588,
+    "w": 140,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 1634,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1656,
+    "w": 275,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1678,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1701,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1723,
+    "w": 64,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1770,
+    "w": 47,
+    "h": 14
+   },
+   {
+    "x": 71,
+    "y": 1770,
+    "w": 5,
+    "h": 14
+   },
+   {
+    "x": 76,
+    "y": 1770,
+    "w": 137,
+    "h": 14
+   },
+   {
+    "x": 213,
+    "y": 1770,
+    "w": 5,
+    "h": 14
+   },
+   {
+    "x": 218,
+    "y": 1770,
+    "w": 116,
+    "h": 14
+   },
+   {
+    "x": 24,
+    "y": 1785,
+    "w": 10,
+    "h": 14
+   },
+   {
+    "x": 24,
+    "y": 2055,
+    "w": 177,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 2100,
+    "w": 258,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2123,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2145,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2167,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2190,
+    "w": 203,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2236,
+    "w": 21,
+    "h": 14
+   },
+   {
+    "x": 45,
+    "y": 2236,
+    "w": 5,
+    "h": 14
+   },
+   {
+    "x": 49,
+    "y": 2236,
+    "w": 132,
+    "h": 14
+   },
+   {
+    "x": 181,
+    "y": 2236,
+    "w": 5,
+    "h": 14
+   },
+   {
+    "x": 186,
+    "y": 2236,
+    "w": 32,
+    "h": 14
+   },
+   {
+    "x": 24,
+    "y": 2506,
+    "w": 148,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 2551,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2574,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2596,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2618,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2665,
+    "w": 28,
+    "h": 14
+   },
+   {
+    "x": 52,
+    "y": 2665,
+    "w": 5,
+    "h": 14
+   },
+   {
+    "x": 56,
+    "y": 2665,
+    "w": 128,
+    "h": 14
+   },
+   {
+    "x": 185,
+    "y": 2665,
+    "w": 5,
+    "h": 14
+   },
+   {
+    "x": 190,
+    "y": 2665,
+    "w": 124,
+    "h": 14
+   },
+   {
+    "x": 314,
+    "y": 2665,
+    "w": 2,
+    "h": 14
+   },
+   {
+    "x": 24,
+    "y": 2680,
+    "w": 35,
+    "h": 14
+   },
+   {
+    "x": 24,
+    "y": 2950,
+    "w": 283,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 2995,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3018,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3040,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3063,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3085,
+    "w": 91,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3131,
+    "w": 28,
+    "h": 14
+   },
+   {
+    "x": 52,
+    "y": 3131,
+    "w": 5,
+    "h": 14
+   },
+   {
+    "x": 56,
+    "y": 3131,
+    "w": 128,
+    "h": 14
+   },
+   {
+    "x": 185,
+    "y": 3131,
+    "w": 5,
+    "h": 14
+   },
+   {
+    "x": 190,
+    "y": 3131,
+    "w": 124,
+    "h": 14
+   },
+   {
+    "x": 314,
+    "y": 3131,
+    "w": 2,
+    "h": 14
+   },
+   {
+    "x": 24,
+    "y": 3147,
+    "w": 35,
+    "h": 14
+   },
+   {
+    "x": 142,
+    "y": 3205,
+    "w": 77,
+    "h": 15
+   },
+   {
+    "x": 25,
+    "y": 3396,
+    "w": 310,
+    "h": 34
+   },
+   {
+    "x": 47,
+    "y": 3424,
+    "w": 266,
+    "h": 34
+   },
+   {
+    "x": 103,
+    "y": 3505,
+    "w": 154,
+    "h": 23
+   },
+   {
+    "x": 16,
+    "y": 3610,
+    "w": 173,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 3773,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 3773,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 3797,
+    "w": 47,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3837,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 3837,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 3861,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4041,
+    "w": 134,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4082,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4123,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4164,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4205,
+    "w": 136,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4246,
+    "w": 158,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 75,
+    "y": 75,
+    "w": 41,
+    "h": 21
+   },
+   {
+    "x": 0,
+    "y": 163,
+    "w": 103,
+    "h": 45
+   },
+   {
+    "x": 24,
+    "y": 295,
+    "w": 187,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 331,
+    "w": 178,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 366,
+    "w": 207,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 447,
+    "w": 196,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 716,
+    "w": 231,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 761,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 783,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 806,
+    "w": 301,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 828,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 850,
+    "w": 263,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 897,
+    "w": 90,
+    "h": 14
+   },
+   {
+    "x": 119,
+    "y": 897,
+    "w": 132,
+    "h": 14
+   },
+   {
+    "x": 24,
+    "y": 1167,
+    "w": 211,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 1212,
+    "w": 290,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1234,
+    "w": 259,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1257,
+    "w": 115,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1303,
+    "w": 47,
+    "h": 14
+   },
+   {
+    "x": 76,
+    "y": 1303,
+    "w": 188,
+    "h": 14
+   },
+   {
+    "x": 269,
+    "y": 1303,
+    "w": 62,
+    "h": 14
+   },
+   {
+    "x": 24,
+    "y": 1318,
+    "w": 68,
+    "h": 14
+   },
+   {
+    "x": 24,
+    "y": 1588,
+    "w": 140,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 1634,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1656,
+    "w": 275,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1678,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1701,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1723,
+    "w": 64,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1770,
+    "w": 47,
+    "h": 14
+   },
+   {
+    "x": 76,
+    "y": 1770,
+    "w": 137,
+    "h": 14
+   },
+   {
+    "x": 218,
+    "y": 1770,
+    "w": 116,
+    "h": 14
+   },
+   {
+    "x": 24,
+    "y": 1785,
+    "w": 10,
+    "h": 14
+   },
+   {
+    "x": 24,
+    "y": 2055,
+    "w": 177,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 2100,
+    "w": 258,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2123,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2145,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2167,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2190,
+    "w": 203,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2236,
+    "w": 21,
+    "h": 14
+   },
+   {
+    "x": 49,
+    "y": 2236,
+    "w": 132,
+    "h": 14
+   },
+   {
+    "x": 186,
+    "y": 2236,
+    "w": 32,
+    "h": 14
+   },
+   {
+    "x": 24,
+    "y": 2506,
+    "w": 148,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 2551,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2574,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2596,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2618,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2665,
+    "w": 28,
+    "h": 14
+   },
+   {
+    "x": 56,
+    "y": 2665,
+    "w": 128,
+    "h": 14
+   },
+   {
+    "x": 190,
+    "y": 2665,
+    "w": 124,
+    "h": 14
+   },
+   {
+    "x": 24,
+    "y": 2680,
+    "w": 35,
+    "h": 14
+   },
+   {
+    "x": 24,
+    "y": 2950,
+    "w": 283,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 2995,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3018,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3040,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3063,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3085,
+    "w": 91,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3131,
+    "w": 28,
+    "h": 14
+   },
+   {
+    "x": 56,
+    "y": 3131,
+    "w": 128,
+    "h": 14
+   },
+   {
+    "x": 190,
+    "y": 3131,
+    "w": 124,
+    "h": 14
+   },
+   {
+    "x": 24,
+    "y": 3147,
+    "w": 35,
+    "h": 14
+   },
+   {
+    "x": 123,
+    "y": 3197,
+    "w": 115,
+    "h": 23
+   },
+   {
+    "x": 25,
+    "y": 3396,
+    "w": 310,
+    "h": 34
+   },
+   {
+    "x": 47,
+    "y": 3424,
+    "w": 266,
+    "h": 34
+   },
+   {
+    "x": 103,
+    "y": 3505,
+    "w": 154,
+    "h": 23
+   },
+   {
+    "x": 16,
+    "y": 3610,
+    "w": 173,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 3773,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 3773,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 3797,
+    "w": 47,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3837,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 3837,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 3861,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4041,
+    "w": 134,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4082,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4123,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4164,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4205,
+    "w": 136,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4246,
+    "w": 158,
+    "h": 18
+   }
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.valtech.com/es-es/blog/ (live side from cache stardust/replica/gates/es-es-blog-1440/chrome-live.json, probed 2026-11-13T13:11:20.719Z — delete the file to re-probe)
+  build: http://localhost:8791/es-es-blog-proposed.html
+
+■ header: ✓ parity — 0 paired of 0/0 texts, 0/0 icons
+
+■ footer: ✓ parity — 10 paired of 10/10 texts, 8/8 icons
+  OFFSET       the region and its 10 paired text(s) sit Δy +579px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+
+✓ chrome parity within tolerance — run crop-compare (pass bar item 5) to confirm in pixels.

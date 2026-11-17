@@ -1,0 +1,52 @@
+{
+  "type": "landing",
+  "slug": "index",
+  "liveUrl": "https://www.valtech.com/",
+  "prototype": "stardust/prototypes/index-proposed.html",
+  "css": ["stardust/prototypes/css/canon.css", "stardust/prototypes/css/landing.css"],
+  "js": ["stardust/prototypes/js/chrome.js", "stardust/prototypes/js/landing.js"],
+  "regime": "prototype",
+  "iterations": { "1440": 3, "360": 3 },
+  "gates": {
+    "1440": { "pixel": "0.00%", "heightDelta": 0, "contentDiff": "0 🔴 · 1 nothing-lost 🟡 (nondeterministic carousel sr status, residual)", "visualDiff": "0 flags", "clip": 0, "overflow": "ok", "chromeParity": "✓ (header/footer + nav=nav.site-nav + side=.side-button)", "chromeCrops": { "header": "100.00%", "footer": "100.00%" }, "units": "PASS 16 units (units-iter3b)", "evidence": "stardust/replica/gates/index-1440/verdict-iter3.json" },
+    "360": { "pixel": "0.00%", "heightDelta": 0, "contentDiff": "0 🔴 · 1 nothing-lost 🟡 (nondeterministic carousel sr status, residual)", "visualDiff": "0 flags", "clip": 0, "overflow": "ok", "chromeParity": "✓ (header/footer + nav + side)", "chromeCrops": { "header": "100.00%", "footer": "100.00%" }, "units": "PASS 16 units (units-iter3b)", "evidence": "stardust/replica/gates/index-360/verdict-iter3.json" }
+  },
+  "capProbe": "PASS (2560: content cap 1408 = 1408, 7/7 modules)",
+  "residuals": [
+    {
+      "zone": "hero carousel — span[role=status] screen-reader text",
+      "cause": "nondeterministic",
+      "evidence": "content-diff-iter2/iter3: live read 'Slide 2 of 4' at 1440 and 'Slide 3 of 4' at 360 (autoplay advanced a different number of 6 s ticks before each probe read the page); the build renders the same element, empty until the first change, then 'Slide n of N' exactly like the source",
+      "permanent": true,
+      "note": "the only nothing-lost 🟡 in both rounds; not written to accepted.json (owner decision)"
+    }
+  ],
+  "captureState": [
+    { "zone": "hero carousel (4 slides)", "gate": "frozen on slide 1 by stitch-shot's timer clear", "restoreAtDelivery": "autoplay rotates every 6 s (wrapAround; background track slides, copy cross-fades .3 s; hover on the copy pauses), dots + round prev/next", "implementedInPrototype": true }
+  ],
+  "liftNotes": [
+    "featured-verticals link + hero/CTA buttons: .btn--* is loaded after the block rules on the source (homepage.css), so the pill spec wins — mirrored by leaving only margin/text-decoration on .featured-verticals-block__item__link",
+    "side tab: overflow:visible instead of .button's overflow:hidden (no visual change; a rotated clipper reads as clipped text to clip-probe)",
+    "font fallback: local() alias 'LiberationFallback' (Liberation Sans / Arimo) so no quoted fallback name precedes the brand family",
+    "images: 1x renditions of the source srcsets rehosted under media/index/, same <source media> conditions; stamps keep their source file names",
+    "units.json declared: featured-case-study-item ×5, partners-logo ×4, featured-verticals-item (selected cell) ×1, footer-menu-link ×6"
+  ],
+  "motion": {
+    "observed": ["header ready-to-fixed-menu / fixed-menu on scroll (≥64rem)", "nav label → drop-down (.site-nav__menu__container.active)", "location button → .opened + full-screen wipe + chooser (body.no-scroll.menu-open)", "mobile burger → menu (body.no-scroll.menu-open)", "contact band accordion < 940 (.active)", "hero carousel autoplay 6 s + next", "industries slider next (wrapAround; mobile controls at picture height + 12px)", "hover: case-study image scale / arrow width, footer link underline, partner logo bar (CSS)"],
+    "implemented": ["header ready-to-fixed-menu / fixed-menu (chrome.js, thresholds lifted)", "drop-down", "location chooser + wipe", "mobile menu + wipe + accordions", "contact accordion", "hero autoplay/dots/prev-next + title fit (landing.js)", "industries slider + mobile control offset + title fit (landing.js)", "hover states (CSS)"],
+    "dead": ["flickity-enabled / is-draggable init classes", "Marketo form hydration classes + 1 s fade-in (static form rendered in its post-load state)", "dummy skeleton form .played/.hide", "side-button .hide at < 64rem (element already display:none)", "featured-verticals image height transitions on init"]
+  },
+  "blocks": [
+    { "section": "nav.site-nav + side tab + modals", "block": "header (fragment)", "variant": "en" },
+    { "section": "section.hero-block", "block": "hero-carousel", "variant": "autoplay" },
+    { "section": "section.quote-block", "block": "quote", "variant": "dark (h1)" },
+    { "section": "div.featured-case-study", "block": "featured-work", "variant": "mosaic-5" },
+    { "section": "section.homepage-cta-block ×2", "block": "cta-band", "variant": "default" },
+    { "section": "div.partners-block.homepage-partners-block", "block": "partners", "variant": "homepage dark" },
+    { "section": "section.featured-verticals-block", "block": "industries-slider", "variant": "default" },
+    { "section": "div.contact-us-form", "block": "contact-form (marketo-form)", "variant": "band" },
+    { "section": "footer.site-footer", "block": "footer (fragment)", "variant": "default" }
+  ],
+  "canon": { "owner": true, "frozen": true, "doc": "stardust/prototypes/css/CANON.md", "requestsFiled": 0 },
+  "verdict": "residual"
+}

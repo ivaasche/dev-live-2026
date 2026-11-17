@@ -1,0 +1,134 @@
+/* offering-list — source main.css .offering-list* (values verbatim; BEM -> kebab-case) */
+.offering-list {
+  margin: 2.5rem 0;
+  padding: 0 1.5rem;
+}
+
+@media (width >= 64rem) {
+  .offering-list {
+    margin: 5rem 1.5rem;
+    padding: 0 64px 0 0;
+  }
+}
+
+@media (width >= 120.001rem) {
+  .offering-list {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 84vw;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .offering-list .offering-list-header {
+    margin-bottom: 2rem;
+    padding-left: 0;
+  }
+}
+
+.offering-list .offering-list-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+}
+
+@media (width >= 33.75rem) {
+  .offering-list .offering-list-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem 1.25rem;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .offering-list .offering-list-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .offering-list .offering-list-item {
+    padding: 0;
+  }
+}
+
+.offering-list .offering-list-item > a,
+.offering-list .offering-list-item > div {
+  color: inherit;
+  display: block;
+  text-decoration: none;
+}
+
+.offering-list .offering-list-item-title {
+  color: #000;
+  font-family: Soehne, sans-serif;
+  font-size: max(1.25rem, 3vw); /* source global h4: 3vw, 20px floor */
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0 0 1.5rem; /* source global h3, h4 */
+}
+
+.offering-list .offering-list-item-title:hover {
+  text-decoration: underline;
+}
+
+@media (width >= 64rem) {
+  .offering-list .offering-list-item-title {
+    font-size: 1.5rem;
+  }
+}
+
+.offering-list .offering-list-item-media {
+  display: block;
+  margin-bottom: 1.25rem;
+  position: relative;
+}
+
+.offering-list .offering-list-item-media picture {
+  display: block;
+}
+
+.offering-list .offering-list-item-media-text {
+  align-items: center;
+  background-color: rgb(0 0 0 / 50%);
+  color: #fff;
+  display: flex;
+  font-size: 1.5rem;
+  height: 100%;
+  justify-content: center;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: opacity 0.5s ease-in-out;
+  width: 100%;
+}
+
+.offering-list .offering-list-item-media:hover .offering-list-item-media-text {
+  opacity: 1;
+}
+
+.offering-list .offering-list-item-media:hover ~ .offering-list-item-title {
+  text-decoration: underline;
+}
+
+.offering-list .offering-list-item-media-image {
+  display: block;
+  object-fit: contain;
+  width: 100%;
+}
+
+.offering-list .offering-list-item-description {
+  color: #000;
+  font-family: Soehne, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0 0 1.25rem;
+}
+
+.offering-list .offering-list-item-description:last-child {
+  margin-bottom: 0;
+}
+
+@media (width >= 58.75rem) {
+  .offering-list .offering-list-item-description {
+    font-size: 1.25rem;
+  }
+}
+

@@ -1,0 +1,194 @@
+/* table — source global table rules (main.css @34479–34943); inside an rte-block section the
+   table wrapper takes the rich-text column (styles.css rte-block default-content-wrapper) */
+
+@media (width <= 58.749rem) {
+  main .section.rte-block > .table-wrapper {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (width >= 58.75rem) {
+  main .section.rte-block > .table-wrapper {
+    margin: 0 auto;
+    max-width: 50.625rem;
+  }
+}
+
+.table table {
+  border: none;
+  border-collapse: collapse;
+  font-size: 1.5vw;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+@media (width <= 933.3333px) {
+  .table table {
+    font-size: 14px;
+  }
+}
+
+@media (width >= 1066.6667px) {
+  .table table {
+    font-size: 16px;
+  }
+}
+
+.table :is(td, th) {
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding: .3125rem 6.25px; /* .390625rem */
+  text-align: left;
+}
+
+.table :is(td, th):last-child {
+  border-right: none;
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+.table tr:nth-child(2n) {
+  background-color: #ececec;
+}
+
+/* variant `word` — a Word-pasted rich-text table (article siblings, e.g. /es-es/blog/como-marcas-…):
+   the source's inline styles win over the global table rules — fixed layout from the first row's
+   cell widths (112 / 220 / 289px), no cell padding, 1px #ddd grid, white rows, tinted header row,
+   12pt Aptos (sans-serif fallback) text at 22.0083px, paragraphs 10.6667px apart */
+.table.word table {
+  font-family: Aptos, sans-serif;
+  font-size: 16px;
+  line-height: 22.0083px;
+  table-layout: fixed;
+  width: 0;
+}
+
+.table.word :is(td, th) {
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ddd;
+  font-weight: 400;
+  padding: 0;
+  vertical-align: top;
+}
+
+.table.word th {
+  background-color: rgb(247 232 225);
+  font-weight: 700;
+}
+
+.table.word tr:nth-child(2n) {
+  background-color: transparent;
+}
+
+.table.word :is(td, th):nth-child(1) {
+  width: 112px;
+}
+
+.table.word :is(td, th):nth-child(2) {
+  width: 220px;
+}
+
+.table.word :is(td, th):nth-child(3) {
+  width: 289px;
+}
+
+.table.word :is(td, th) p {
+  margin: 0 0 10.6667px;
+}
+
+/* variant `logos` — a one-row rich-text table of partner logos (article siblings, e.g.
+   /leap-into-composable-commerce): source inline styles — no table border, 122px row, three
+   33.3333% cells without right rules; logo 1 inline at its 300px box, logos 2–3 centred blocks
+   at their 100px / 200px boxes */
+.table.logos table {
+  border-style: none;
+  height: 122px;
+  width: 100%;
+}
+
+.table.logos :is(td, th) {
+  border-bottom: 0; /* the source's single row is the last row (tr:last-child td) */
+  border-right: 0;
+  font-weight: 400;
+  height: 122px;
+  width: 33.3333%;
+}
+
+.table.logos img {
+  height: auto;
+  max-width: 100%;
+}
+
+.table.logos :is(td, th):nth-child(1) img {
+  width: 300px;
+}
+
+.table.logos :is(td, th):nth-child(2) img {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.table.logos :is(td, th):nth-child(3) img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+
+/* variant `no-header` — a one-cell rich-text panel (editorial Amazon block, source
+   .rte-block__container:last-child p:not(.lead):last-child { margin-bottom: 0 } reaches the
+   cell's last paragraph) */
+main .section.rte-block > .table-wrapper:last-child .table.no-header p:last-child {
+  margin-bottom: 0;
+}
+
+/* variant `plain` (with no-header) — an rte table authored by the editor without rules (offering siblings:
+   stat columns, a two-column intro; source inline styles border-width 0 + colgroup of equal columns):
+   no grid, equal fixed columns, cells at their default middle alignment; cell paragraphs margin-free
+   (source td p margin 0), cell headings as rich-text h2 */
+.table.plain table {
+  table-layout: fixed;
+}
+
+.table.plain :is(td, th) {
+  border: 0;
+  font-weight: 400;
+}
+
+.table.plain tr:nth-child(2n) {
+  background-color: transparent;
+}
+
+.table.plain :is(td, th) p {
+  margin: 0;
+}
+
+/* + `bare-first` — the source first cell holds its text bare after the heading (no <p>), so it
+   renders in the table's own font (16px @1440 / 14px @360, line-height normal) while the other
+   cells' <p> keep the global p metrics; DA wraps every cell text in a <p>, the variant restores
+   the source metric for the first column (/enterprise-ai-foundations-financial-services stat row:
+   cell text 4 lines in the source, 7 lines as a p — row +84 px at 1440 / +86 px at 360) */
+.table.plain.bare-first :is(td, th):first-child p {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* + `signature` — a quote byline: 80 / 20 columns, right-aligned byline, square portrait
+   (source img 100x100 at margin-top 20px, max-width 100% of the 20% column) */
+.table.plain.signature :is(td, th):first-child {
+  width: 80%;
+}
+
+.table.plain.signature :is(td, th):first-child p {
+  text-align: right;
+}
+
+.table.plain.signature img {
+  height: auto;
+  margin-top: 20px;
+  max-width: 100%;
+  width: 100px;
+}

@@ -1,0 +1,61 @@
+{
+  "type": "offering",
+  "slug": "valtech-conversion-engine",
+  "liveUrl": "https://www.valtech.com/valtech-conversion-engine/",
+  "prototype": "stardust/prototypes/valtech-conversion-engine-proposed.html",
+  "css": ["stardust/prototypes/css/canon.css", "stardust/prototypes/css/offering.css"],
+  "js": ["stardust/prototypes/js/chrome.js", "stardust/prototypes/js/offering.js"],
+  "regime": "prototype",
+  "iterations": { "1440": 3, "360": 3 },
+  "gates": {
+    "1440": { "pixel": "0.03%", "heightDelta": 0, "contentDiff": "0 🔴 · 0 nothing-lost 🟡", "visualDiff": "0 flags", "clip": 0, "overflow": "ok", "chromeParity": "✓", "chromeCrops": { "header": "100.00%", "footer": "100.00%" }, "units": "PASS 29 units (vce-units-1440, after two-columns family narrowed to .two-columns__item__text)", "evidence": "stardust/replica/gates/valtech-conversion-engine-1440/verdict-iter3.json" },
+    "360": { "pixel": "0.03%", "heightDelta": 0, "contentDiff": "0 🔴 · 0 nothing-lost 🟡", "visualDiff": "0 flags", "clip": 0, "overflow": "ok", "chromeParity": "✓", "chromeCrops": { "header": "100.00%", "footer": "100.00%" }, "units": "PASS 27 units, advisory deltas on teaser-block-teaser (vce-units-360)", "evidence": "stardust/replica/gates/valtech-conversion-engine-360/verdict-iter3.json" }
+  },
+  "capProbe": "PASS (2560: 0 of 16 rows failed — stardust/replica/gates/valtech-conversion-engine-2560/cap-iter.json)",
+  "residuals": [
+    {
+      "zone": "units.json families two-columns-item / teaser-block-teaser",
+      "cause": "instrument-asymmetry",
+      "evidence": "units-iter3 (both widths): unit-geometry flags build-side clipping only — the two-columns CTA's hover-wipe span.after (translateX(-100%) inside overflow:hidden, computed styles identical live/build per vce-btn measure) and the teaser cover images / off-screen Flickity cells (overflow:hidden on both sides) read 'hidden' on the build while every rect is Δ0. Family two-columns-item re-pointed to .two-columns__item__text; teaser-block-teaser set required:false with a note. Re-run vce-units-1440/360 → PASS.",
+      "permanent": true
+    }
+  ],
+  "captureState": [
+    { "zone": "related-content teaser slider (< 58.75rem)", "gate": "slide 1 (static at load)", "restoreAtDelivery": "Flickity slider: prev/next + 4-segment dots, cells/dots .is-selected", "implementedInPrototype": true },
+    { "zone": "Marketo form 7797 (in main)", "gate": "rendered in its post-hydration state", "restoreAtDelivery": "live Marketo embed (form id 7797, munchkin 353-SAE-487) with its 1 s fade-in", "implementedInPrototype": false }
+  ],
+  "liftNotes": [
+    "template has NO side 'Contact us' tab and NO contact band (live DOM: 0 matches) — chrome = EN nav + footer + slopes + redirect modals from index-proposed.html",
+    "masthead-two-columns-cta__inner__wrap.right → flex-direction: row ≥ 58.75rem (@299820; text left, image right) on top of the whitepaper masthead rules",
+    "breadcrumb separator \"\\00a0/\" plus the source's whitespace text node before each item ('home / conversion…')",
+    "verbatim U+202F narrow no-break spaces in features copy, CTA labels, speaker name and the highlighted-CTA description (they drive the 360 wraps: 7 vs 6 lines)",
+    "FAQ: first <details> open on load (live); native details/summary with plus/minus thin icons",
+    "form: canon .mkto-form structure on the white page — inputs/selects 1rem/500, textarea 1rem/500/normal, submit = .button--tertiary centred with its 10px margin-bottom",
+    "teaser-block: flex row ≥ 58.75rem (Flickity not enabled live), Flickity slider < 58.75rem rebuilt in offering.js (viewport 420, slider inset 1.5rem, 270px cells 20px apart, dots @48355, arrow buttons @48686–49654, hidden native twins)",
+    "images: 1x renditions per live srcset rehosted under media/valtech-conversion-engine/ (hero 1000×720 / 800×576 / 600×600, two-columns 584×388 / 350×230, teasers 480×360 / 320×240, speakers 152×154)",
+    "interim sprite media/valtech-conversion-engine/offering-sprite.svg (icon-plus-thin, icon-minus-thin, icon-insight, icon-news, icon-email, icon-linkedin) — canon-requested",
+    "units.json declared: offering-features-showcase-item ×6, two-columns-item ×4, partners-logo-inline ×5, offering-podcast-speakers-info ×3, teaser-block-teaser ×2 (advisory), faq-block-item ×3"
+  ],
+  "motion": {
+    "observed": ["header ready-to-fixed-menu / fixed-menu on scroll", "teaser header .slide-fade-in → .played on scroll", "teaser slider next (< 58.75rem): cell + dot .is-selected", "FAQ details toggle icon plus/minus opacity+rotate .3s", "hover: teaser flex-grow .8s + image brightness .3s, partner logo bar, highlighted CTA bg/colour .2s"],
+    "implemented": ["header morph (chrome.js)", "slide-fade-in reveal (offering.js)", "teaser Flickity slider + dots + prev/next (offering.js)", "FAQ icons (CSS)", "hover states (CSS)"],
+    "dead": ["Marketo hydration classes (mktoForm/convertedField/singleCol/…) + 1 s form fade-in — static form rendered post-load", "dummy skeleton form .played/.hide", "masthead .reveal-box (no mutation observed)"]
+  },
+  "blocks": [
+    { "section": "nav.site-nav + modals", "block": "header (fragment)", "variant": "en" },
+    { "section": "div.site-breadcrumbs", "block": "breadcrumbs", "variant": "default" },
+    { "section": "section.masthead-two-columns-cta", "block": "masthead-two-columns", "variant": "right (text left)" },
+    { "section": "section.rte-block ×2", "block": "default content (rte)", "variant": "default" },
+    { "section": "section.features-showcase", "block": "features-showcase", "variant": "dark" },
+    { "section": "div.two-columns ×4", "block": "two-columns", "variant": "text-only / image-left / reverse" },
+    { "section": "div.partners-block", "block": "partners", "variant": "inline dark" },
+    { "section": "div.podcast-speakers", "block": "speakers", "variant": "blue" },
+    { "section": "section.highlighted-cta-block", "block": "highlighted-cta", "variant": "blue" },
+    { "section": "div.marketo-form-block", "block": "contact-form (marketo-form)", "variant": "in-main white" },
+    { "section": "div.teaser-block", "block": "teaser-slider", "variant": "related content" },
+    { "section": "div.faq-block", "block": "faq", "variant": "default" },
+    { "section": "footer.site-footer", "block": "footer (fragment)", "variant": "default" }
+  ],
+  "canon": { "owner": false, "requestsFiled": 2 },
+  "verdict": "pass"
+}

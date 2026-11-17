@@ -1,0 +1,222 @@
+/* results-statistics — main.css @415900–419926 (prototype css/campaign.css), values verbatim;
+   carousel-btn / carousel-dots base rules are canon (styles.css). Authored figure and
+   description paragraphs are styled through descendant selectors (EW2). */
+
+.results-statistics {
+  margin-top: 2.5rem;
+  overflow: hidden;
+  padding: 0 1.5rem 2.5rem;
+  position: relative;
+}
+
+@media (width >= 58.75rem) {
+  .results-statistics {
+    margin: 5rem 0;
+    padding-bottom: 0;
+  }
+}
+
+@media (width >= 64rem) {
+  .results-statistics {
+    margin-right: 64px;
+  }
+}
+
+@media (width >= 70.25rem) {
+  .results-statistics {
+    margin-bottom: 4rem;
+  }
+}
+
+@media (width >= 120.001rem) {
+  .results-statistics {
+    margin-right: 0;
+  }
+}
+
+.results-statistics .results-statistics-container {
+  margin: 0 0 3.125rem;
+  position: relative;
+}
+
+.results-statistics .results-statistics-viewport {
+  position: relative;
+}
+
+.results-statistics .results-statistics-track {
+  display: flex;
+  gap: 1rem;
+  transition: transform .4s ease;
+}
+
+.results-statistics .results-statistics-item {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 320px;
+  min-width: calc(60% - 1rem);
+  width: 16.875rem;
+}
+
+@media (width <= 40rem) {
+  .results-statistics .results-statistics-item {
+    min-width: calc(84% - 1rem);
+  }
+}
+
+@media (width <= 25.625rem) {
+  .results-statistics .results-statistics-item {
+    min-width: calc(100% - 1rem);
+  }
+}
+
+@media (width >= 64rem) {
+  .results-statistics .results-statistics-container {
+    margin: 0;
+  }
+
+  .results-statistics .results-statistics-track {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(var(--stat-cols, 4), 1fr);
+    grid-template-rows: auto auto;
+    transform: none !important;
+  }
+
+  .results-statistics .results-statistics-item {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .results-statistics .results-statistics-dots,
+  .results-statistics .results-statistics-btn {
+    display: none !important;
+  }
+}
+
+@media (width >= 120.001rem) {
+  .results-statistics .results-statistics-container {
+    margin: 0 auto;
+    max-width: 84vw;
+  }
+}
+
+.results-statistics .results-statistics-item-container {
+  background-color: #0d241e;
+  display: grid;
+  height: 100%;
+  min-height: 16.125rem;
+  position: relative;
+}
+
+.results-statistics .results-statistics-item-title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 300;
+  height: 120px;
+  padding: 16px;
+}
+
+.results-statistics .results-statistics-item-title :is(p, h2, h3, h4) {
+  display: inline;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  margin: 0;
+}
+
+.results-statistics .two-types-title .results-statistics-item-title :is(p, h2, h3, h4) {
+  position: relative;
+  top: -.625rem;
+}
+
+.results-statistics .results-statistics-item-content {
+  align-items: start;
+  color: #fff;
+  font-weight: 300;
+  padding: 16px 20px;
+}
+
+.results-statistics .results-statistics-item-content p {
+  margin: 0 0 1.5rem;
+}
+
+/* slider controls (main.css @48355–49926 + block overrides @419870) */
+.results-statistics .results-statistics-dots {
+  bottom: -2.375rem;
+  left: 0;
+  pointer-events: none;
+  width: 90px;
+}
+
+.results-statistics .results-statistics-dots .dot {
+  background: linear-gradient(180deg, transparent 3px, #000);
+  height: 4px;
+  transition: background-color .2s ease;
+  width: 25%;
+}
+
+.results-statistics .results-statistics-dots .dot.is-selected {
+  background: #000;
+}
+
+.results-statistics .results-statistics-btn {
+  bottom: -3.375rem;
+}
+
+.results-statistics .results-statistics-btn.carousel-btn-next {
+  right: 0;
+}
+
+.results-statistics .results-statistics-btn.carousel-btn-prev {
+  right: 3.5rem;
+}
+
+.results-statistics .results-statistics-btn[aria-disabled="true"] {
+  cursor: default;
+  opacity: .2;
+}
+
+.results-statistics .results-statistics-btn[aria-disabled="true"]:hover {
+  background: #fff;
+}
+
+/* header row — source div.results-statistics-block_header (main.css, values verbatim) */
+.results-statistics .results-statistics-header :is(h1, h2, h3, h4, h5, h6) {
+  color: #000;
+  font-family: var(--font-display);
+  font-size: 3vw;
+  font-weight: 300;
+  line-height: normal;
+  margin: 0 1.25rem 1.25rem 0;
+}
+
+@media (width <= 933.3333px) {
+  .results-statistics .results-statistics-header :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 28px;
+  }
+}
+
+@media (width >= 1600px) {
+  .results-statistics .results-statistics-header :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 48px;
+  }
+}
+
+@media (width <= 58.749rem) {
+  .results-statistics .results-statistics-header :is(h1, h2, h3, h4, h5, h6) {
+    margin-bottom: 1rem;
+  }
+}
+
+/* variant `smaller-title` — source .smaller-title (inline font-size: 36px; no -.625rem lift) */
+.results-statistics.smaller-title .results-statistics-item-title {
+  font-size: 36px;
+}
+
+.results-statistics.smaller-title .two-types-title .results-statistics-item-title :is(p, h2, h3, h4) {
+  top: 0;
+}

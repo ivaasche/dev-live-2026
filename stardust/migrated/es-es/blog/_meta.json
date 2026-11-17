@@ -1,0 +1,304 @@
+{
+  "slug": "es-es-blog",
+  "type": "listing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "insight-header",
+    "insights-filter"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "site-breadcrumbs",
+    "insight-header",
+    "insights-overview"
+  ],
+  "canonShas": {
+    "header": "1bfd2ab0825f",
+    "footer": "3f22f1abc0b0",
+    "css": "8876c0e8d8d1"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Blog | Valtech",
+    "description": "Nuestros expertos en la industria están liderando la conversación en el ámbito digital. Esto es lo que están diciendo.",
+    "canonical": null,
+    "lang": "es"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Blog | Valtech",
+    "description": "Nuestros expertos en la industria están liderando la conversación en el ámbito digital. Esto es lo que están diciendo.",
+    "url": "https://www.valtech.com/es-es/blog/"
+  },
+  "migratedAt": "2026-11-13T15:07:43Z",
+  "designMdSha": "9dc5e8267a4e",
+  "designJsonSha": "ec9a36425b28",
+  "sourceCurrentSha": "7542a13a5bf3",
+  "sourceProposedSha": "f3e7d7ac7d49",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "gate-all published origin 2026-11-13: 1440 0.01% Δh 0 clip 0, 360 0.75% Δh 0 clip 10 (allow 10, source line-clamp); content MISSING 0 / HIDDEN 0; units off 0 hidden 0 missing 0 both widths; stardust/replica/gates/all-{1440,360}/runs/*-es-es-blog.json"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 26,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/casos/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/industrias/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/nuestros-partners/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/servicios/elevacion-de-la-experiencia/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/aceleracion-comercio/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/transformacion-empresarial/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/servicios-creativos-de-marketing-performance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/revolucion-del-dato-y-ia/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/carrera/ofertas-de-empleo/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/trabajar-en-valtech/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/diversidad-e-inclusion/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/podcasts/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/whitepapers/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/content-hub/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/eventos/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/la-empresa-inteligente/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/noticias/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/oficinas/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/contacto/keep-in-touch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de-de/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-dk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/fr-fr/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nl-nl/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-gb/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sv-se/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ca/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-ar/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt-br/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-mx/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-sg/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/blog/six-years-of-creativity-curiosity-and-gen-ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/the-agent-factory/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/el-geo-como-la-nueva-frontera-de-la-visibilidad-digital/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/blog/ia-transforma-busquedas-y-webs-de-marca/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/blog/presentamos-el-muro-de-datos-b2b/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/blog/takeaways-from-the-intelligent-enterprise-live-in-utrecht/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/takeaways-from-the-intelligent-enterprise-live-in-london/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/opening-the-door-owning-the-room/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/bridge-the-divide-from-pilot-to-production/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/asi-se-creo-valtech-concierge/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/blog/estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/blog/agentic-ai-challenges-enterprise/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.valtech.com/es-es/politica-privacidad/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.valtech.com/es-es/politica-privacidad",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/oficinas/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/carrera/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/politica-privacidad/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/politica-de-cookies/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/accesibilidad/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/mantente-en-contacto/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "es-es/blog/index.html",
+  "outputPathDefault": null,
+  "sidecar": "es-es/blog/_meta.json",
+  "driverVersion": "1"
+}

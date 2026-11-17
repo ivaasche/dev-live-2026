@@ -1,0 +1,4981 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T07:51:21.341Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/es-es/thread-magazine/",
+  "at": "2026-11-14T07:50:56.404Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 7806,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.site-nav__menu-wrapper.site-nav__menu__labels > div.site-nav__logo > a.site-nav__logo__link",
+    "x": 24,
+    "y": 25,
+    "w": 80,
+    "h": 21,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > a.search-select.mobile",
+    "x": 232,
+    "y": 24,
+    "w": 22,
+    "h": 23,
+    "text": "go to search page",
+    "href": "/es-es/search/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open main menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open main menu",
+    "value": "open main menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > a",
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 75,
+    "y": 75,
+    "w": 98,
+    "h": 21,
+    "label": "current",
+    "value": "revista thread",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 75,
+    "y": 75,
+    "w": 98,
+    "h": 21,
+    "text": "Revista Thread"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary__text.masthead-primary__text--dark > hgroup.masthead-primary__hgroup > h1.masthead-primary__hgroup__title",
+    "x": 46,
+    "y": 473,
+    "w": 269,
+    "h": 28,
+    "level": 1,
+    "text": "revista thread"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary__text.masthead-primary__text--dark > div.masthead-primary__lead > p",
+    "x": 46,
+    "y": 521,
+    "w": 269,
+    "h": 45,
+    "text": "Tu guía sobre las últimas innovaciones en datos e inteligencia artificial"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary__media > picture > img",
+    "x": 24,
+    "y": 121,
+    "w": 312,
+    "h": 312,
+    "text": "",
+    "file": "thread-ed10_2_masthead--1"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p > a.button.button--secondary",
+    "x": 45,
+    "y": 681,
+    "w": 270,
+    "h": 63,
+    "text": "descarga thread ahora",
+    "href": "/globalassets/00-global/02-images/19-thread/10-edition/thread-magazine-issue-10.pdf"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 789,
+    "w": 312,
+    "h": 246,
+    "text": "Thread es tu guía hacia el futuro: diseñada para ir al grano con insights estrat"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-unu.teaser-block-unu--dark > div.teaser-block-unu__container > a.teaser-block-unu__teaser",
+    "x": 0,
+    "y": 1071,
+    "w": 360,
+    "h": 408,
+    "text": "nueva edición: nº 10 the experience loop ¡descarga thread ya!",
+    "href": "/es-es/thread-magazine/edition-10-the-experience-loop/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-unu_media > picture > img",
+    "x": 24,
+    "y": 1095,
+    "w": 312,
+    "h": 234,
+    "text": "",
+    "file": "thread-ed10_2_masthead-"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.teaser-block-unu__teaser > div.teaser-block-unu__teaser-description > h2.teaser-block-unu__teaser-description--title",
+    "x": 24,
+    "y": 1358,
+    "w": 186,
+    "h": 24,
+    "level": 2,
+    "text": "nueva edición: nº 10"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new_services-block__container > div.new_services-block_row > a.new_services-block__service-link-wrapper",
+    "x": 24,
+    "y": 1519,
+    "w": 312,
+    "h": 341,
+    "text": "edition 9 genai’s next frontier: scaling for lasting impact",
+    "href": "/es-es/thread-magazine/start-scaling-genai-for-impact/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new_services-block__service-content > div.new_services-block__service-title-wrapper > h2.new_services-block__service-title",
+    "x": 40,
+    "y": 1753,
+    "w": 276,
+    "h": 30,
+    "level": 2,
+    "text": "edition 9"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new_services-block__service-image > picture > img.new_services-block__service_pictures",
+    "x": 24,
+    "y": 1519,
+    "w": 312,
+    "h": 210,
+    "text": "",
+    "file": "masthead_thread-1"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new_services-block__container > div.new_services-block_row > a.new_services-block__service-link-wrapper",
+    "x": 24,
+    "y": 1880,
+    "w": 312,
+    "h": 408,
+    "text": "genai’s next frontier discover practical tips for maximizing genai’s potential t",
+    "href": "/es-es/thread-magazine/scaling-genai-for-transformative-impact/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new_services-block__service-content > div.new_services-block__service-title-wrapper > h2.new_services-block__service-title",
+    "x": 40,
+    "y": 2114,
+    "w": 276,
+    "h": 30,
+    "level": 2,
+    "text": "genai’s next frontier"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new_services-block__service-image > picture > img.new_services-block__service_pictures",
+    "x": 24,
+    "y": 1880,
+    "w": 312,
+    "h": 210,
+    "text": "",
+    "file": "navigation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new_services-block__container > div.new_services-block_row > a.new_services-block__service-link-wrapper",
+    "x": 24,
+    "y": 2308,
+    "w": 312,
+    "h": 386,
+    "text": "look before you leap genai adoption is accelerating, but it’s not a one-size-fit",
+    "href": "/es-es/thread-magazine/look-before-you-leap/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new_services-block__service-content > div.new_services-block__service-title-wrapper > h2.new_services-block__service-title",
+    "x": 40,
+    "y": 2542,
+    "w": 276,
+    "h": 30,
+    "level": 2,
+    "text": "look before you leap"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new_services-block__service-image > picture > img.new_services-block__service_pictures",
+    "x": 24,
+    "y": 2308,
+    "w": 312,
+    "h": 210,
+    "text": "",
+    "file": "navigation-2"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new_services-block__container > div.new_services-block_row > a.new_services-block__service-link-wrapper",
+    "x": 24,
+    "y": 2713,
+    "w": 312,
+    "h": 386,
+    "text": "the new creative wave find out how leading brands are using genai as a growth en",
+    "href": "/es-es/thread-magazine/the-new-creative-wave/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new_services-block__service-content > div.new_services-block__service-title-wrapper > h2.new_services-block__service-title",
+    "x": 40,
+    "y": 2947,
+    "w": 276,
+    "h": 30,
+    "level": 2,
+    "text": "the new creative wave"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new_services-block__service-image > picture > img.new_services-block__service_pictures",
+    "x": 24,
+    "y": 2713,
+    "w": 312,
+    "h": 210,
+    "text": "",
+    "file": "navigation-4"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new_services-block__container > div.new_services-block_row > a.new_services-block__service-link-wrapper",
+    "x": 24,
+    "y": 3119,
+    "w": 312,
+    "h": 438,
+    "text": "ai glossary: from gpt to rag stay ahead with our ai glossary. learn essential te",
+    "href": "/es-es/thread-magazine/ai-glossary/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new_services-block__service-content > div.new_services-block__service-title-wrapper > h2.new_services-block__service-title",
+    "x": 40,
+    "y": 3353,
+    "w": 276,
+    "h": 60,
+    "level": 2,
+    "text": "ai glossary: from gpt to rag"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new_services-block__service-image > picture > img.new_services-block__service_pictures",
+    "x": 24,
+    "y": 3119,
+    "w": 312,
+    "h": 210,
+    "text": "",
+    "file": "navigation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new_services-block__container > div.new_services-block_row > a.new_services-block__service-link-wrapper",
+    "x": 24,
+    "y": 3577,
+    "w": 312,
+    "h": 438,
+    "text": "enterprise ai predictions for 2025 predictions on personalization, efficiency an",
+    "href": "/es-es/thread-magazine/enterprise-ai-predictions/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new_services-block__service-content > div.new_services-block__service-title-wrapper > h2.new_services-block__service-title",
+    "x": 40,
+    "y": 3811,
+    "w": 276,
+    "h": 60,
+    "level": 2,
+    "text": "enterprise ai predictions for 2025"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new_services-block__service-image > picture > img.new_services-block__service_pictures",
+    "x": 24,
+    "y": 3577,
+    "w": 312,
+    "h": 210,
+    "text": "",
+    "file": "masthead"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new_services-block__container > div.new_services-block_row > a.new_services-block__service-link-wrapper",
+    "x": 24,
+    "y": 4035,
+    "w": 312,
+    "h": 416,
+    "text": "genai and the ux revolution discover how ai in ux design is transforming expecta",
+    "href": "/es-es/thread-magazine/genai-and-the-ux-revolution/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new_services-block__service-content > div.new_services-block__service-title-wrapper > h2.new_services-block__service-title",
+    "x": 40,
+    "y": 4268,
+    "w": 276,
+    "h": 60,
+    "level": 2,
+    "text": "genai and the ux revolution"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new_services-block__service-image > picture > img.new_services-block__service_pictures",
+    "x": 24,
+    "y": 4035,
+    "w": 312,
+    "h": 210,
+    "text": "",
+    "file": "masthead"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new_services-block__container > div.new_services-block_row > a.new_services-block__service-link-wrapper",
+    "x": 24,
+    "y": 4470,
+    "w": 312,
+    "h": 408,
+    "text": "responsible ai discover how enterprises can set the standard for responsible ai,",
+    "href": "/es-es/thread-magazine/responsible-ai/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new_services-block__service-content > div.new_services-block__service-title-wrapper > h2.new_services-block__service-title",
+    "x": 40,
+    "y": 4704,
+    "w": 276,
+    "h": 30,
+    "level": 2,
+    "text": "responsible ai"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new_services-block__service-image > picture > img.new_services-block__service_pictures",
+    "x": 24,
+    "y": 4470,
+    "w": 312,
+    "h": 210,
+    "text": "",
+    "file": "masthead-1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > h2",
+    "x": 24,
+    "y": 4938,
+    "w": 312,
+    "h": 134,
+    "level": 2,
+    "text": "recibe nuevas perspectivas directamente en tu bandeja de entrada"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 5088,
+    "w": 312,
+    "h": 112,
+    "text": "Suscríbete ahora y sé de los primeros en acceder a historias inspiradoras sobre "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldWrap.convertedField > div.mktoHtmlText.mktoHasWidth > span",
+    "x": 22,
+    "y": 5270,
+    "w": 299,
+    "h": 42,
+    "text": "Los campos marcados con un asterisco ( ) son obligatorios y deben completarse."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblFirstName",
+    "x": 22,
+    "y": 5353,
+    "w": 67,
+    "h": 16,
+    "text": "Nombre"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblLastName",
+    "x": 22,
+    "y": 5421,
+    "w": 76,
+    "h": 16,
+    "text": "Apellidos"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#Lead_title__c",
+    "x": 22,
+    "y": 5478,
+    "w": 317,
+    "h": 38,
+    "label": "cargo *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblLead_title__c",
+    "x": 22,
+    "y": 5489,
+    "w": 52,
+    "h": 16,
+    "text": "Cargo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblEmail",
+    "x": 22,
+    "y": 5557,
+    "w": 224,
+    "h": 16,
+    "text": "Correo electrónico profesional"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblCompany",
+    "x": 22,
+    "y": 5625,
+    "w": 170,
+    "h": 16,
+    "text": "Nombre de la empresa"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#Industry",
+    "x": 22,
+    "y": 5682,
+    "w": 317,
+    "h": 38,
+    "label": "industria *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblIndustry",
+    "x": 22,
+    "y": 5693,
+    "w": 72,
+    "h": 16,
+    "text": "Industria"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#CountryCode",
+    "x": 22,
+    "y": 5750,
+    "w": 317,
+    "h": 38,
+    "label": "pais *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblCountryCode",
+    "x": 22,
+    "y": 5761,
+    "w": 39,
+    "h": 16,
+    "text": "Pais"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldWrap.mktoRequiredField > div.mktoLogicalField.mktoCheckboxList > label#LblmktoCheckbox_197347_0",
+    "x": 48,
+    "y": 5818,
+    "w": 291,
+    "h": 150,
+    "text": "Acepto recibir noticias y comunicaciones de marketing relevantes por parte de Va"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoLogicalField.mktoCheckboxList > label#LblmktoCheckbox_197347_0 > a",
+    "x": 48,
+    "y": 5923,
+    "w": 287,
+    "h": 43,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 22,
+    "y": 5998,
+    "w": 308,
+    "h": 42,
+    "text": "Este sitio está protegido por CAPTCHA y se aplican la"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893 > a",
+    "x": 92,
+    "y": 6019,
+    "w": 155,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/legal/privacy-end-users/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 22,
+    "y": 6019,
+    "w": 258,
+    "h": 43,
+    "text": "y los"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.NormalTextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893 > a",
+    "x": 22,
+    "y": 6041,
+    "w": 170,
+    "h": 21,
+    "text": "términos y condiciones",
+    "href": "/legal/terms/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 22,
+    "y": 6041,
+    "w": 300,
+    "h": 43,
+    "text": "de uso de Friendly Captcha."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoButtonRow > span.mktoButtonWrap.mktoShadow > button.mktoButton.button",
+    "x": 85,
+    "y": 6145,
+    "w": 190,
+    "h": 59,
+    "text": "enviar"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block > div.teaser-block__header > h4.teaser-block__header__title",
+    "x": 24,
+    "y": 6254,
+    "w": 292,
+    "h": 67,
+    "level": 4,
+    "text": "contenido relacionado"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flickity-slider > div.teaser-block__teaser.is-selected > a.teaser-block__teaser__inner",
+    "x": 24,
+    "y": 6337,
+    "w": 270,
+    "h": 420,
+    "text": "insight risky business",
+    "href": "/es-es/blog/thread-risky-business/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block__teaser.is-selected > a.teaser-block__teaser__inner > h4.teaser-block__teaser__pretitle.insight",
+    "x": 24,
+    "y": 6337,
+    "w": 113,
+    "h": 43,
+    "level": 4,
+    "text": "insight"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.teaser-block__teaser__inner > hgroup.teaser-block__teaser__hgroup > h5.teaser-block__teaser__title",
+    "x": 48,
+    "y": 6655,
+    "w": 212,
+    "h": 20,
+    "level": 5,
+    "text": "risky business"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block__teaser__image-wrapper > picture > img",
+    "x": -48,
+    "y": 6335,
+    "w": 415,
+    "h": 311,
+    "text": "two coworkes in conversation.",
+    "file": "genai-risks-and-challenges-coworkers-in-"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flickity-slider > div.teaser-block__teaser > a.teaser-block__teaser__inner",
+    "x": 314,
+    "y": 6337,
+    "w": 270,
+    "h": 420,
+    "text": "insight elevating experiences: a new spin on personalization",
+    "href": "/es-es/blog/thread-elevating-experiences/"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block__teaser > a.teaser-block__teaser__inner > h4.teaser-block__teaser__pretitle.insight",
+    "x": 314,
+    "y": 6337,
+    "w": 113,
+    "h": 43,
+    "level": 4,
+    "text": "insight"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.teaser-block__teaser__inner > hgroup.teaser-block__teaser__hgroup > h5.teaser-block__teaser__title",
+    "x": 338,
+    "y": 6655,
+    "w": 212,
+    "h": 40,
+    "level": 5,
+    "text": "elevating experiences: a new spin on personalization"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block__teaser__image-wrapper > picture > img",
+    "x": 242,
+    "y": 6335,
+    "w": 415,
+    "h": 311,
+    "text": "a man sitting on a couch smiles while shopping online using ",
+    "file": "thread-man-shopping-online-experience"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block__container.js-flickity-teaser > ol.flickity-page-dots > li.dot.is-selected",
+    "x": 24,
+    "y": 6789,
+    "w": 11,
+    "h": 4,
+    "label": "current",
+    "value": "slide 1",
+    "via": "aria-current"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block > div.teaser-block__container.js-flickity-teaser > button.flickity-button.flickity-prev-next-button",
+    "x": 240,
+    "y": 6771,
+    "w": 40,
+    "h": 40,
+    "text": "previous"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block > div.teaser-block__container.js-flickity-teaser > button.flickity-button.flickity-prev-next-button",
+    "x": 296,
+    "y": 6771,
+    "w": 40,
+    "h": 40,
+    "text": "next"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "main#valtech-content > div.teaser-block > a.button.teaser-block__show-more-button-mobile",
+    "x": 24,
+    "y": 6827,
+    "w": 312,
+    "h": 86,
+    "text": "descubre más en nuestro centro de contenido",
+    "href": "/es-es/content-hub/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.contact-us-form__container.js-accordion > div.contact-us-form__column > button.contact-us-form__accordion-button.js-accordion-button",
+    "x": 0,
+    "y": 6953,
+    "w": 360,
+    "h": 89,
+    "text": "contáctanos"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.contact-us-form__container.js-accordion > div.contact-us-form__column > button.contact-us-form__accordion-button.js-accordion-button",
+    "x": 0,
+    "y": 6953,
+    "w": 360,
+    "h": 89,
+    "label": "trigger",
+    "value": "contáctanos",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 16,
+    "y": 7140,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 242,
+    "y": 7140,
+    "w": 58,
+    "h": 45,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 16,
+    "y": 7204,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 242,
+    "y": 7204,
+    "w": 82,
+    "h": 45,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer__column.site-footer__stamp > picture > img",
+    "x": 16,
+    "y": 7267,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "badge-no-outline"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 7408,
+    "w": 134,
+    "h": 18,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 7449,
+    "w": 118,
+    "h": 18,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 7490,
+    "w": 71,
+    "h": 18,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 7531,
+    "w": 84,
+    "h": 18,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 7572,
+    "w": 136,
+    "h": 18,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a.cookiebot-reset",
+    "x": 16,
+    "y": 7613,
+    "w": 158,
+    "h": 18,
+    "text": "configuración de cookies",
+    "href": "/es-es/thread-magazine/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 16,
+    "y": 7694,
+    "w": 23,
+    "h": 18,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 87,
+    "y": 7694,
+    "w": 23,
+    "h": 18,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 158,
+    "y": 7694,
+    "w": 23,
+    "h": 18,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 229,
+    "y": 7694,
+    "w": 23,
+    "h": 18,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 16,
+    "y": 7739,
+    "w": 23,
+    "h": 18,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 87,
+    "y": 7739,
+    "w": 23,
+    "h": 18,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 2,
+    "offPage": 25,
+    "textNodes": 88,
+    "controls": 53,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.teaser-block__teaser",
+     "path": "div.flickity-viewport > div.flickity-slider > div.teaser-block__teaser > a.teaser-block__teaser__inner",
+     "text": "insight elevating experiences: a new spin on personalization",
+     "cutMin": 224,
+     "cutMax": 224
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.teaser-block__teaser",
+     "path": "div.teaser-block__teaser > a.teaser-block__teaser__inner > hgroup.teaser-block__teaser__hgroup > h5.teaser-block__teaser__title",
+     "text": "elevating experiences: a new spin on personalization",
+     "cutMin": 187,
+     "cutMax": 187
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/es-es/thread-magazine",
+  "at": "2026-11-14T07:51:21.152Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 7806,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-nav-menu-wrapper.site-nav-menu-labels > div.site-nav-logo > a.site-nav-logo-link",
+    "x": 24,
+    "y": 25,
+    "w": 80,
+    "h": 21,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > a.search-select.mobile",
+    "x": 232,
+    "y": 24,
+    "w": 22,
+    "h": 23,
+    "text": "go to search page",
+    "href": "/es-es/search/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open main menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open main menu",
+    "value": "open main menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 62,
+    "y": 75,
+    "w": 111,
+    "h": 22,
+    "label": "current",
+    "value": "revista thread",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 62,
+    "y": 75,
+    "w": 111,
+    "h": 22,
+    "text": "Revista Thread"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary-text.masthead-primary-text-dark > hgroup.masthead-primary-hgroup > h1#revista-thread",
+    "x": 46,
+    "y": 473,
+    "w": 269,
+    "h": 28,
+    "level": 1,
+    "text": "revista thread"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary-text.masthead-primary-text-dark > div.masthead-primary-lead > p",
+    "x": 46,
+    "y": 521,
+    "w": 269,
+    "h": 45,
+    "text": "Tu guía sobre las últimas innovaciones en datos e inteligencia artificial"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary-media > picture.masthead-primary-narrow > img",
+    "x": 24,
+    "y": 121,
+    "w": 312,
+    "h": 312,
+    "text": "",
+    "file": "media_120ce5f58d7ccda1ea1633e3cad38d4840"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p.button-wrapper > a.button.secondary",
+    "x": 45,
+    "y": 681,
+    "w": 270,
+    "h": 63,
+    "text": "descarga thread ahora",
+    "href": "/globalassets/00-global/02-images/19-thread/10-edition/thread-magazine-issue-10.pdf"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 789,
+    "w": 312,
+    "h": 246,
+    "text": "Thread es tu guía hacia el futuro: diseñada para ir al grano con insights estrat"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-unu.dark > div.teaser-block-unu-inner > a.teaser-block-unu-teaser",
+    "x": 0,
+    "y": 1071,
+    "w": 360,
+    "h": 408,
+    "text": "nueva edición: nº 10 the experience loop ¡descarga thread ya!",
+    "href": "/es-es/thread-magazine/edition-10-the-experience-loop"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-unu-media > picture > img",
+    "x": 24,
+    "y": 1095,
+    "w": 312,
+    "h": 234,
+    "text": "",
+    "file": "media_1ad24624ca0489ab4f952bcad6ae9b3b8f"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-unu-description > div.teaser-block-unu-title > h2#nueva-edición-nº-10",
+    "x": 24,
+    "y": 1358,
+    "w": 186,
+    "h": 24,
+    "level": 2,
+    "text": "nueva edición: nº 10"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new-services-block-inner > div.new-services-block-row > a.new-services-block-service-link-wrapper",
+    "x": 24,
+    "y": 1519,
+    "w": 312,
+    "h": 341,
+    "text": "edition 9 genai’s next frontier: scaling for lasting impact",
+    "href": "/es-es/thread-magazine/start-scaling-genai-for-impact/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new-services-block-service-content > div.new-services-block-service-title-wrapper > h2#edition-9",
+    "x": 40,
+    "y": 1753,
+    "w": 276,
+    "h": 30,
+    "level": 2,
+    "text": "edition 9"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new-services-block-service-image > picture > img.new-services-block-service-pictures",
+    "x": 24,
+    "y": 1519,
+    "w": 312,
+    "h": 210,
+    "text": "",
+    "file": "media_1bcf9654e1fb164b10e0008bf4a506be98"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new-services-block-inner > div.new-services-block-row > a.new-services-block-service-link-wrapper",
+    "x": 24,
+    "y": 1880,
+    "w": 312,
+    "h": 408,
+    "text": "genai’s next frontier discover practical tips for maximizing genai’s potential t",
+    "href": "/es-es/thread-magazine/scaling-genai-for-transformative-impact/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new-services-block-service-content > div.new-services-block-service-title-wrapper > h2#genais-next-frontier",
+    "x": 40,
+    "y": 2114,
+    "w": 276,
+    "h": 30,
+    "level": 2,
+    "text": "genai’s next frontier"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new-services-block-service-image > picture > img.new-services-block-service-pictures",
+    "x": 24,
+    "y": 1880,
+    "w": 312,
+    "h": 210,
+    "text": "",
+    "file": "media_1632debff2e8a8ed8742e6f3c93b59c780"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new-services-block-inner > div.new-services-block-row > a.new-services-block-service-link-wrapper",
+    "x": 24,
+    "y": 2308,
+    "w": 312,
+    "h": 386,
+    "text": "look before you leap genai adoption is accelerating, but it’s not a one-size-fit",
+    "href": "/es-es/thread-magazine/look-before-you-leap/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new-services-block-service-content > div.new-services-block-service-title-wrapper > h2#look-before-you-leap",
+    "x": 40,
+    "y": 2542,
+    "w": 276,
+    "h": 30,
+    "level": 2,
+    "text": "look before you leap"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new-services-block-service-image > picture > img.new-services-block-service-pictures",
+    "x": 24,
+    "y": 2308,
+    "w": 312,
+    "h": 210,
+    "text": "",
+    "file": "media_187849df974f3afe98d77619b253aa1e29"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new-services-block-inner > div.new-services-block-row > a.new-services-block-service-link-wrapper",
+    "x": 24,
+    "y": 2713,
+    "w": 312,
+    "h": 386,
+    "text": "the new creative wave find out how leading brands are using genai as a growth en",
+    "href": "/es-es/thread-magazine/the-new-creative-wave/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new-services-block-service-content > div.new-services-block-service-title-wrapper > h2#the-new-creative-wave",
+    "x": 40,
+    "y": 2947,
+    "w": 276,
+    "h": 30,
+    "level": 2,
+    "text": "the new creative wave"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new-services-block-service-image > picture > img.new-services-block-service-pictures",
+    "x": 24,
+    "y": 2713,
+    "w": 312,
+    "h": 210,
+    "text": "",
+    "file": "media_18c24bcd4d1027be16d88c7535dc2f472e"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new-services-block-inner > div.new-services-block-row > a.new-services-block-service-link-wrapper",
+    "x": 24,
+    "y": 3119,
+    "w": 312,
+    "h": 438,
+    "text": "ai glossary: from gpt to rag stay ahead with our ai glossary. learn essential te",
+    "href": "/es-es/thread-magazine/ai-glossary/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new-services-block-service-content > div.new-services-block-service-title-wrapper > h2#ai-glossary-from-gpt-to-rag",
+    "x": 40,
+    "y": 3353,
+    "w": 276,
+    "h": 60,
+    "level": 2,
+    "text": "ai glossary: from gpt to rag"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new-services-block-service-image > picture > img.new-services-block-service-pictures",
+    "x": 24,
+    "y": 3119,
+    "w": 312,
+    "h": 210,
+    "text": "",
+    "file": "media_1632debff2e8a8ed8742e6f3c93b59c780"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new-services-block-inner > div.new-services-block-row > a.new-services-block-service-link-wrapper",
+    "x": 24,
+    "y": 3577,
+    "w": 312,
+    "h": 438,
+    "text": "enterprise ai predictions for 2025 predictions on personalization, efficiency an",
+    "href": "/es-es/thread-magazine/enterprise-ai-predictions/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new-services-block-service-content > div.new-services-block-service-title-wrapper > h2#enterprise-ai-predictions-for-2025",
+    "x": 40,
+    "y": 3811,
+    "w": 276,
+    "h": 60,
+    "level": 2,
+    "text": "enterprise ai predictions for 2025"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new-services-block-service-image > picture > img.new-services-block-service-pictures",
+    "x": 24,
+    "y": 3577,
+    "w": 312,
+    "h": 210,
+    "text": "",
+    "file": "media_1c65df82acf036e78efe30d877db3aff22"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new-services-block-inner > div.new-services-block-row > a.new-services-block-service-link-wrapper",
+    "x": 24,
+    "y": 4035,
+    "w": 312,
+    "h": 416,
+    "text": "genai and the ux revolution discover how ai in ux design is transforming expecta",
+    "href": "/es-es/thread-magazine/genai-and-the-ux-revolution/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new-services-block-service-content > div.new-services-block-service-title-wrapper > h2#genai-and-the-ux-revolution",
+    "x": 40,
+    "y": 4268,
+    "w": 276,
+    "h": 60,
+    "level": 2,
+    "text": "genai and the ux revolution"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new-services-block-service-image > picture > img.new-services-block-service-pictures",
+    "x": 24,
+    "y": 4035,
+    "w": 312,
+    "h": 210,
+    "text": "",
+    "file": "media_1c65df82acf036e78efe30d877db3aff22"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new-services-block-inner > div.new-services-block-row > a.new-services-block-service-link-wrapper",
+    "x": 24,
+    "y": 4470,
+    "w": 312,
+    "h": 408,
+    "text": "responsible ai discover how enterprises can set the standard for responsible ai,",
+    "href": "/es-es/thread-magazine/responsible-ai/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new-services-block-service-content > div.new-services-block-service-title-wrapper > h2#responsible-ai",
+    "x": 40,
+    "y": 4704,
+    "w": 276,
+    "h": 30,
+    "level": 2,
+    "text": "responsible ai"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.new-services-block-service-image > picture > img.new-services-block-service-pictures",
+    "x": 24,
+    "y": 4470,
+    "w": 312,
+    "h": 210,
+    "text": "",
+    "file": "media_160d9f9299d4930d1efc71a5050a4321e0"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > h2#recibe-nuevas-perspectivas-directamente-en-tu-bandeja-de-entrada",
+    "x": 24,
+    "y": 4938,
+    "w": 312,
+    "h": 134,
+    "level": 2,
+    "text": "recibe nuevas perspectivas directamente en tu bandeja de entrada"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 5088,
+    "w": 312,
+    "h": 112,
+    "text": "Suscríbete ahora y sé de los primeros en acceder a historias inspiradoras sobre "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-html > span",
+    "x": 22,
+    "y": 5270,
+    "w": 300,
+    "h": 42,
+    "text": "Los campos marcados con un asterisco ( ) son obligatorios y deben completarse."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 5353,
+    "w": 67,
+    "h": 16,
+    "text": "Nombre"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 5421,
+    "w": 76,
+    "h": 16,
+    "text": "Apellidos"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > select#Lead_title__c",
+    "x": 22,
+    "y": 5478,
+    "w": 317,
+    "h": 38,
+    "label": "cargo *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 5489,
+    "w": 52,
+    "h": 16,
+    "text": "Cargo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 5557,
+    "w": 224,
+    "h": 16,
+    "text": "Correo electrónico profesional"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 5625,
+    "w": 170,
+    "h": 16,
+    "text": "Nombre de la empresa"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > select#Industry",
+    "x": 22,
+    "y": 5682,
+    "w": 317,
+    "h": 38,
+    "label": "industria *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 5693,
+    "w": 72,
+    "h": 16,
+    "text": "Industria"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-field.mkto-form-field-float > select#CountryCode",
+    "x": 22,
+    "y": 5750,
+    "w": 317,
+    "h": 38,
+    "label": "pais *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 5761,
+    "w": 39,
+    "h": 16,
+    "text": "Pais"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-check > label",
+    "x": 48,
+    "y": 5818,
+    "w": 291,
+    "h": 150,
+    "text": "Acepto recibir noticias y comunicaciones de marketing relevantes por parte de Va"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-check > label > a",
+    "x": 48,
+    "y": 5923,
+    "w": 287,
+    "h": 43,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 22,
+    "y": 5998,
+    "w": 308,
+    "h": 42,
+    "text": "Este sitio está protegido por CAPTCHA y se aplican la"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span > span > a",
+    "x": 92,
+    "y": 6019,
+    "w": 155,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/legal/privacy-end-users/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 22,
+    "y": 6019,
+    "w": 258,
+    "h": 43,
+    "text": "y los"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span > span > a",
+    "x": 22,
+    "y": 6041,
+    "w": 170,
+    "h": 21,
+    "text": "términos y condiciones",
+    "href": "/legal/terms/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 22,
+    "y": 6041,
+    "w": 300,
+    "h": 43,
+    "text": "de uso de Friendly Captcha."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-buttons > span.mkto-form-button-wrap > button.mktoButton.button",
+    "x": 85,
+    "y": 6145,
+    "w": 190,
+    "h": 59,
+    "text": "enviar"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block.block > div.teaser-block-header > h4#contenido-relacionado",
+    "x": 24,
+    "y": 6254,
+    "w": 292,
+    "h": 67,
+    "level": 4,
+    "text": "contenido relacionado"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flickity-slider > div.teaser-block-teaser.is-selected > a.teaser-block-teaser-inner",
+    "x": 24,
+    "y": 6337,
+    "w": 270,
+    "h": 420,
+    "text": "insight risky business",
+    "href": "/es-es/blog/thread-risky-business/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-teaser.is-selected > a.teaser-block-teaser-inner > h2#insight",
+    "x": 24,
+    "y": 6337,
+    "w": 113,
+    "h": 43,
+    "level": 2,
+    "text": "insight"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#risky-business",
+    "x": 48,
+    "y": 6655,
+    "w": 215,
+    "h": 20,
+    "level": 5,
+    "text": "risky business"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-teaser-image-wrapper > picture > img",
+    "x": -124,
+    "y": 6335,
+    "w": 566,
+    "h": 424,
+    "text": "two coworkes in conversation.",
+    "file": "media_1a3315104b30d9670a9bd78cd6a3cffd0f"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flickity-slider > div.teaser-block-teaser > a.teaser-block-teaser-inner",
+    "x": 314,
+    "y": 6337,
+    "w": 270,
+    "h": 420,
+    "text": "insight elevating experiences: a new spin on personalization",
+    "href": "/es-es/blog/thread-elevating-experiences/"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-teaser > a.teaser-block-teaser-inner > h2#insight-1",
+    "x": 314,
+    "y": 6337,
+    "w": 113,
+    "h": 43,
+    "level": 2,
+    "text": "insight"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#elevating-experiences-a-new-spin-on-personalization",
+    "x": 338,
+    "y": 6655,
+    "w": 215,
+    "h": 40,
+    "level": 5,
+    "text": "elevating experiences: a new spin on personalization"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-teaser-image-wrapper > picture > img",
+    "x": 166,
+    "y": 6335,
+    "w": 566,
+    "h": 424,
+    "text": "a man sitting on a couch smiles while shopping online using ",
+    "file": "media_19717a879297d280a889dc6aa845d4d69e"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block.block > div.teaser-block-container.flickity-enabled > button.carousel-btn.carousel-btn-long",
+    "x": 240,
+    "y": 6771,
+    "w": 40,
+    "h": 40,
+    "text": "previous"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block.block > div.teaser-block-container.flickity-enabled > button.carousel-btn.carousel-btn-long",
+    "x": 296,
+    "y": 6771,
+    "w": 40,
+    "h": 40,
+    "text": "next"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-wrapper > div.teaser-block.block > a.button.button-tertiary",
+    "x": 24,
+    "y": 6827,
+    "w": 312,
+    "h": 86,
+    "text": "descubre más en nuestro centro de contenido",
+    "href": "/es-es/content-hub"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-us-form-container.js-accordion > div.contact-us-form-column > button.contact-us-form-accordion-button",
+    "x": 0,
+    "y": 6953,
+    "w": 360,
+    "h": 89,
+    "text": "contáctanos"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-us-form-container.js-accordion > div.contact-us-form-column > button.contact-us-form-accordion-button",
+    "x": 0,
+    "y": 6953,
+    "w": 360,
+    "h": 89,
+    "label": "trigger",
+    "value": "contáctanos",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 16,
+    "y": 7140,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 242,
+    "y": 7140,
+    "w": 58,
+    "h": 45,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 16,
+    "y": 7204,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 242,
+    "y": 7204,
+    "w": 82,
+    "h": 45,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer-column.site-footer-stamp > picture > img",
+    "x": 16,
+    "y": 7267,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "media_18686ce5d542e21460f5b9773dc388b150"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 7408,
+    "w": 134,
+    "h": 18,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 7449,
+    "w": 118,
+    "h": 18,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 7490,
+    "w": 71,
+    "h": 18,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 7531,
+    "w": 84,
+    "h": 18,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 7572,
+    "w": 136,
+    "h": 18,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a.cookiebot-reset",
+    "x": 16,
+    "y": 7613,
+    "w": 158,
+    "h": 18,
+    "text": "configuración de cookies",
+    "href": "/es-es/thread-magazine"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 16,
+    "y": 7694,
+    "w": 23,
+    "h": 18,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 87,
+    "y": 7694,
+    "w": 23,
+    "h": 18,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 158,
+    "y": 7694,
+    "w": 23,
+    "h": 18,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 229,
+    "y": 7694,
+    "w": 23,
+    "h": 18,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 16,
+    "y": 7739,
+    "w": 23,
+    "h": 18,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 87,
+    "y": 7739,
+    "w": 23,
+    "h": 18,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 2,
+    "offPage": 8,
+    "textNodes": 76,
+    "controls": 47,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.teaser-block-teaser",
+     "path": "div.flickity-viewport > div.flickity-slider > div.teaser-block-teaser > a.teaser-block-teaser-inner",
+     "text": "insightelevating experiences: a new spin on personalization",
+     "cutMin": 224,
+     "cutMax": 224
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.teaser-block-teaser",
+     "path": "div.teaser-block-teaser > a.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#elevating-experiences-a-new-spin-on-personalization",
+     "text": "elevating experiences: a new spin on personalization",
+     "cutMin": 187,
+     "cutMax": 187
+    }
+   ],
+   "findings": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 224,
+     "path": "div.flickity-viewport > div.flickity-slider > div.teaser-block-teaser > a.teaser-block-teaser-inner",
+     "text": "insightelevating experiences: a new spin on personalization",
+     "clipper": "div.teaser-block-teaser",
+     "rect": {
+      "l": 314,
+      "t": 6337,
+      "r": 584,
+      "b": 6757,
+      "w": 270,
+      "h": 420
+     },
+     "clip": {
+      "l": 314,
+      "t": 6337,
+      "r": 584,
+      "b": 6757,
+      "w": 270,
+      "h": 420
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 187,
+     "path": "div.teaser-block-teaser > a.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#elevating-experiences-a-new-spin-on-personalization",
+     "text": "elevating experiences: a new spin on personalization",
+     "clipper": "div.teaser-block-teaser",
+     "rect": {
+      "l": 341,
+      "t": 6654,
+      "r": 547,
+      "b": 6675,
+      "w": 206,
+      "h": 21
+     },
+     "clip": {
+      "l": 314,
+      "t": 6337,
+      "r": 584,
+      "b": 6757,
+      "w": 270,
+      "h": 420
+     },
+     "lines": 3
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "revista thread",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "nueva edición: nº 10",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "edition 9",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "genai’s next frontier",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "look before you leap",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "the new creative wave",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "ai glossary: from gpt to rag",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "enterprise ai predictions for 2025",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "genai and the ux revolution",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "responsible ai",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "recibe nuevas perspectivas directamente en tu bandeja de entrada",
+   "variable": false,
+   "origin": {
+    "link": 5,
+    "button": 3,
+    "text": 13,
+    "image": 1
+   },
+   "eds": {
+    "link": 5,
+    "linkHidden": 1,
+    "button": 4,
+    "buttonHidden": 0,
+    "text": 13,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 2
+   },
+   "findings": [
+    "EXTRA LINK",
+    "CONTROL MISSING"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"insight\" (y 6337) has no origin heading",
+   "text": "insight"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"contáctanos\" served in band \"recibe nuevas perspectivas directamente en tu bandeja de entrada\", no origin link or button",
+   "band": 11,
+   "n": 1,
+   "text": "contáctanos"
+  },
+  {
+   "sev": "🟡",
+   "kind": "CONTROL MISSING",
+   "msg": "current = \"slide 1\" (band \"recibe nuevas perspectivas directamente en tu bandeja de entrada\") has no served counterpart",
+   "band": 11,
+   "label": "current",
+   "value": "slide 1"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 1,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 1,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 3,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 75,
+    "y": 75,
+    "w": 98,
+    "h": 21
+   },
+   {
+    "x": 46,
+    "y": 469,
+    "w": 175,
+    "h": 35
+   },
+   {
+    "x": 46,
+    "y": 521,
+    "w": 251,
+    "h": 21
+   },
+   {
+    "x": 46,
+    "y": 543,
+    "w": 166,
+    "h": 21
+   },
+   {
+    "x": 87,
+    "y": 701,
+    "w": 186,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 789,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 811,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 834,
+    "w": 261,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 856,
+    "w": 293,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 879,
+    "w": 301,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 901,
+    "w": 248,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 923,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 946,
+    "w": 259,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 968,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 991,
+    "w": 273,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1013,
+    "w": 46,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1357,
+    "w": 186,
+    "h": 26
+   },
+   {
+    "x": 24,
+    "y": 1399,
+    "w": 150,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1437,
+    "w": 130,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1752,
+    "w": 91,
+    "h": 31
+   },
+   {
+    "x": 40,
+    "y": 1791,
+    "w": 226,
+    "h": 21
+   },
+   {
+    "x": 266,
+    "y": 1791,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 1813,
+    "w": 100,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2113,
+    "w": 212,
+    "h": 31
+   },
+   {
+    "x": 40,
+    "y": 2152,
+    "w": 180,
+    "h": 21
+   },
+   {
+    "x": 220,
+    "y": 2152,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2174,
+    "w": 206,
+    "h": 21
+   },
+   {
+    "x": 246,
+    "y": 2174,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2196,
+    "w": 223,
+    "h": 21
+   },
+   {
+    "x": 263,
+    "y": 2196,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2219,
+    "w": 188,
+    "h": 21
+   },
+   {
+    "x": 228,
+    "y": 2219,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2241,
+    "w": 96,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2541,
+    "w": 216,
+    "h": 31
+   },
+   {
+    "x": 40,
+    "y": 2580,
+    "w": 221,
+    "h": 21
+   },
+   {
+    "x": 261,
+    "y": 2580,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2602,
+    "w": 200,
+    "h": 21
+   },
+   {
+    "x": 240,
+    "y": 2602,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2624,
+    "w": 228,
+    "h": 21
+   },
+   {
+    "x": 268,
+    "y": 2624,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2647,
+    "w": 211,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2946,
+    "w": 234,
+    "h": 31
+   },
+   {
+    "x": 40,
+    "y": 2985,
+    "w": 226,
+    "h": 21
+   },
+   {
+    "x": 266,
+    "y": 2985,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3007,
+    "w": 223,
+    "h": 21
+   },
+   {
+    "x": 263,
+    "y": 3007,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3030,
+    "w": 213,
+    "h": 21
+   },
+   {
+    "x": 253,
+    "y": 3030,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3052,
+    "w": 170,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3352,
+    "w": 251,
+    "h": 31
+   },
+   {
+    "x": 291,
+    "y": 3352,
+    "w": 5,
+    "h": 31
+   },
+   {
+    "x": 40,
+    "y": 3382,
+    "w": 45,
+    "h": 31
+   },
+   {
+    "x": 40,
+    "y": 3421,
+    "w": 223,
+    "h": 21
+   },
+   {
+    "x": 263,
+    "y": 3421,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3443,
+    "w": 216,
+    "h": 21
+   },
+   {
+    "x": 256,
+    "y": 3443,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3465,
+    "w": 207,
+    "h": 21
+   },
+   {
+    "x": 247,
+    "y": 3465,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3488,
+    "w": 226,
+    "h": 21
+   },
+   {
+    "x": 266,
+    "y": 3488,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3510,
+    "w": 158,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3810,
+    "w": 257,
+    "h": 31
+   },
+   {
+    "x": 297,
+    "y": 3810,
+    "w": 5,
+    "h": 31
+   },
+   {
+    "x": 40,
+    "y": 3840,
+    "w": 84,
+    "h": 31
+   },
+   {
+    "x": 40,
+    "y": 3879,
+    "w": 217,
+    "h": 21
+   },
+   {
+    "x": 257,
+    "y": 3879,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3901,
+    "w": 200,
+    "h": 21
+   },
+   {
+    "x": 240,
+    "y": 3901,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3923,
+    "w": 209,
+    "h": 21
+   },
+   {
+    "x": 249,
+    "y": 3923,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3946,
+    "w": 181,
+    "h": 21
+   },
+   {
+    "x": 221,
+    "y": 3946,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3968,
+    "w": 147,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 4267,
+    "w": 184,
+    "h": 31
+   },
+   {
+    "x": 224,
+    "y": 4267,
+    "w": 5,
+    "h": 31
+   },
+   {
+    "x": 40,
+    "y": 4297,
+    "w": 115,
+    "h": 31
+   },
+   {
+    "x": 40,
+    "y": 4336,
+    "w": 220,
+    "h": 21
+   },
+   {
+    "x": 260,
+    "y": 4336,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 4359,
+    "w": 217,
+    "h": 21
+   },
+   {
+    "x": 257,
+    "y": 4359,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 4381,
+    "w": 224,
+    "h": 21
+   },
+   {
+    "x": 264,
+    "y": 4381,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 4404,
+    "w": 153,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 4703,
+    "w": 153,
+    "h": 31
+   },
+   {
+    "x": 40,
+    "y": 4742,
+    "w": 208,
+    "h": 21
+   },
+   {
+    "x": 248,
+    "y": 4742,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 4764,
+    "w": 224,
+    "h": 21
+   },
+   {
+    "x": 264,
+    "y": 4764,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 4787,
+    "w": 202,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 4787,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 4809,
+    "w": 143,
+    "h": 21
+   },
+   {
+    "x": 183,
+    "y": 4809,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 4832,
+    "w": 99,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4935,
+    "w": 193,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 4969,
+    "w": 173,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 5002,
+    "w": 255,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 5036,
+    "w": 260,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 5088,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5111,
+    "w": 312,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5133,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5156,
+    "w": 249,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5178,
+    "w": 159,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 5270,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 310,
+    "y": 5272,
+    "w": 6,
+    "h": 18
+   },
+   {
+    "x": 316,
+    "y": 5270,
+    "w": 5,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 5291,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 5350,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 5352,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5418,
+    "w": 67,
+    "h": 21
+   },
+   {
+    "x": 89,
+    "y": 5420,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5486,
+    "w": 43,
+    "h": 21
+   },
+   {
+    "x": 65,
+    "y": 5488,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5554,
+    "w": 215,
+    "h": 21
+   },
+   {
+    "x": 236,
+    "y": 5556,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5622,
+    "w": 161,
+    "h": 21
+   },
+   {
+    "x": 183,
+    "y": 5624,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5690,
+    "w": 63,
+    "h": 21
+   },
+   {
+    "x": 85,
+    "y": 5692,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5758,
+    "w": 30,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 5760,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 48,
+    "y": 5818,
+    "w": 171,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 5839,
+    "w": 214,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 5860,
+    "w": 254,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 5881,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 5902,
+    "w": 232,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 5923,
+    "w": 214,
+    "h": 21
+   },
+   {
+    "x": 261,
+    "y": 5923,
+    "w": 73,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 5946,
+    "w": 75,
+    "h": 21
+   },
+   {
+    "x": 122,
+    "y": 5946,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 126,
+    "y": 5948,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5998,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 6019,
+    "w": 70,
+    "h": 21
+   },
+   {
+    "x": 92,
+    "y": 6019,
+    "w": 155,
+    "h": 21
+   },
+   {
+    "x": 247,
+    "y": 6019,
+    "w": 32,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 6041,
+    "w": 170,
+    "h": 21
+   },
+   {
+    "x": 192,
+    "y": 6041,
+    "w": 130,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 6064,
+    "w": 63,
+    "h": 21
+   },
+   {
+    "x": 155,
+    "y": 6163,
+    "w": 50,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 6251,
+    "w": 139,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 6284,
+    "w": 156,
+    "h": 39
+   },
+   {
+    "x": 72,
+    "y": 6348,
+    "w": 49,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 6654,
+    "w": 104,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 6654,
+    "w": 206,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 6674,
+    "w": 164,
+    "h": 21
+   },
+   {
+    "x": 78,
+    "y": 6845,
+    "w": 204,
+    "h": 23
+   },
+   {
+    "x": 97,
+    "y": 6872,
+    "w": 165,
+    "h": 23
+   },
+   {
+    "x": 16,
+    "y": 6977,
+    "w": 173,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 7140,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 7140,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 7164,
+    "w": 47,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7204,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 7204,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 7228,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7408,
+    "w": 134,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 7449,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 7490,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 7531,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 7572,
+    "w": 136,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 7613,
+    "w": 158,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 75,
+    "y": 75,
+    "w": 98,
+    "h": 21
+   },
+   {
+    "x": 46,
+    "y": 469,
+    "w": 175,
+    "h": 35
+   },
+   {
+    "x": 46,
+    "y": 521,
+    "w": 251,
+    "h": 21
+   },
+   {
+    "x": 46,
+    "y": 543,
+    "w": 166,
+    "h": 21
+   },
+   {
+    "x": 87,
+    "y": 701,
+    "w": 186,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 789,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 811,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 834,
+    "w": 261,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 856,
+    "w": 293,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 879,
+    "w": 301,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 901,
+    "w": 248,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 923,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 946,
+    "w": 259,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 968,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 991,
+    "w": 273,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1013,
+    "w": 46,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1357,
+    "w": 186,
+    "h": 26
+   },
+   {
+    "x": 24,
+    "y": 1399,
+    "w": 150,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1437,
+    "w": 130,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1752,
+    "w": 91,
+    "h": 31
+   },
+   {
+    "x": 40,
+    "y": 1791,
+    "w": 226,
+    "h": 21
+   },
+   {
+    "x": 266,
+    "y": 1791,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 1813,
+    "w": 100,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2113,
+    "w": 212,
+    "h": 31
+   },
+   {
+    "x": 40,
+    "y": 2152,
+    "w": 180,
+    "h": 21
+   },
+   {
+    "x": 220,
+    "y": 2152,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2174,
+    "w": 206,
+    "h": 21
+   },
+   {
+    "x": 246,
+    "y": 2174,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2196,
+    "w": 223,
+    "h": 21
+   },
+   {
+    "x": 263,
+    "y": 2196,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2219,
+    "w": 188,
+    "h": 21
+   },
+   {
+    "x": 228,
+    "y": 2219,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2241,
+    "w": 96,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2541,
+    "w": 216,
+    "h": 31
+   },
+   {
+    "x": 40,
+    "y": 2580,
+    "w": 221,
+    "h": 21
+   },
+   {
+    "x": 261,
+    "y": 2580,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2602,
+    "w": 200,
+    "h": 21
+   },
+   {
+    "x": 240,
+    "y": 2602,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2624,
+    "w": 228,
+    "h": 21
+   },
+   {
+    "x": 268,
+    "y": 2624,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2647,
+    "w": 211,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2946,
+    "w": 234,
+    "h": 31
+   },
+   {
+    "x": 40,
+    "y": 2985,
+    "w": 226,
+    "h": 21
+   },
+   {
+    "x": 266,
+    "y": 2985,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3007,
+    "w": 223,
+    "h": 21
+   },
+   {
+    "x": 263,
+    "y": 3007,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3030,
+    "w": 213,
+    "h": 21
+   },
+   {
+    "x": 253,
+    "y": 3030,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3052,
+    "w": 166,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3352,
+    "w": 251,
+    "h": 31
+   },
+   {
+    "x": 291,
+    "y": 3352,
+    "w": 5,
+    "h": 31
+   },
+   {
+    "x": 40,
+    "y": 3382,
+    "w": 45,
+    "h": 31
+   },
+   {
+    "x": 40,
+    "y": 3421,
+    "w": 223,
+    "h": 21
+   },
+   {
+    "x": 263,
+    "y": 3421,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3443,
+    "w": 216,
+    "h": 21
+   },
+   {
+    "x": 256,
+    "y": 3443,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3465,
+    "w": 207,
+    "h": 21
+   },
+   {
+    "x": 247,
+    "y": 3465,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3488,
+    "w": 226,
+    "h": 21
+   },
+   {
+    "x": 266,
+    "y": 3488,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3510,
+    "w": 156,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3810,
+    "w": 257,
+    "h": 31
+   },
+   {
+    "x": 297,
+    "y": 3810,
+    "w": 5,
+    "h": 31
+   },
+   {
+    "x": 40,
+    "y": 3840,
+    "w": 83,
+    "h": 31
+   },
+   {
+    "x": 40,
+    "y": 3879,
+    "w": 217,
+    "h": 21
+   },
+   {
+    "x": 257,
+    "y": 3879,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3901,
+    "w": 200,
+    "h": 21
+   },
+   {
+    "x": 240,
+    "y": 3901,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3923,
+    "w": 209,
+    "h": 21
+   },
+   {
+    "x": 249,
+    "y": 3923,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3946,
+    "w": 181,
+    "h": 21
+   },
+   {
+    "x": 221,
+    "y": 3946,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3968,
+    "w": 145,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 4267,
+    "w": 184,
+    "h": 31
+   },
+   {
+    "x": 224,
+    "y": 4267,
+    "w": 5,
+    "h": 31
+   },
+   {
+    "x": 40,
+    "y": 4297,
+    "w": 110,
+    "h": 31
+   },
+   {
+    "x": 40,
+    "y": 4336,
+    "w": 220,
+    "h": 21
+   },
+   {
+    "x": 260,
+    "y": 4336,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 4359,
+    "w": 217,
+    "h": 21
+   },
+   {
+    "x": 257,
+    "y": 4359,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 4381,
+    "w": 224,
+    "h": 21
+   },
+   {
+    "x": 264,
+    "y": 4381,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 4404,
+    "w": 150,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 4703,
+    "w": 153,
+    "h": 31
+   },
+   {
+    "x": 40,
+    "y": 4742,
+    "w": 208,
+    "h": 21
+   },
+   {
+    "x": 248,
+    "y": 4742,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 4764,
+    "w": 224,
+    "h": 21
+   },
+   {
+    "x": 264,
+    "y": 4764,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 4787,
+    "w": 202,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 4787,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 4809,
+    "w": 143,
+    "h": 21
+   },
+   {
+    "x": 183,
+    "y": 4809,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 4832,
+    "w": 96,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4935,
+    "w": 193,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 4969,
+    "w": 173,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 5002,
+    "w": 255,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 5036,
+    "w": 260,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 5088,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5111,
+    "w": 312,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5133,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5156,
+    "w": 249,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5178,
+    "w": 159,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 5270,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 310,
+    "y": 5270,
+    "w": 7,
+    "h": 21
+   },
+   {
+    "x": 317,
+    "y": 5270,
+    "w": 5,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 5291,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 5350,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 5352,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5418,
+    "w": 67,
+    "h": 21
+   },
+   {
+    "x": 89,
+    "y": 5420,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5486,
+    "w": 43,
+    "h": 21
+   },
+   {
+    "x": 65,
+    "y": 5488,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5554,
+    "w": 215,
+    "h": 21
+   },
+   {
+    "x": 236,
+    "y": 5556,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5622,
+    "w": 161,
+    "h": 21
+   },
+   {
+    "x": 183,
+    "y": 5624,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5690,
+    "w": 63,
+    "h": 21
+   },
+   {
+    "x": 85,
+    "y": 5692,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5758,
+    "w": 30,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 5760,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 48,
+    "y": 5818,
+    "w": 171,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 5839,
+    "w": 214,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 5860,
+    "w": 254,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 5881,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 5902,
+    "w": 232,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 5923,
+    "w": 214,
+    "h": 21
+   },
+   {
+    "x": 261,
+    "y": 5923,
+    "w": 73,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 5946,
+    "w": 75,
+    "h": 21
+   },
+   {
+    "x": 122,
+    "y": 5946,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 126,
+    "y": 5948,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5998,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 6019,
+    "w": 70,
+    "h": 21
+   },
+   {
+    "x": 92,
+    "y": 6019,
+    "w": 155,
+    "h": 21
+   },
+   {
+    "x": 247,
+    "y": 6019,
+    "w": 32,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 6041,
+    "w": 170,
+    "h": 21
+   },
+   {
+    "x": 192,
+    "y": 6041,
+    "w": 130,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 6064,
+    "w": 63,
+    "h": 21
+   },
+   {
+    "x": 155,
+    "y": 6163,
+    "w": 50,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 6251,
+    "w": 139,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 6284,
+    "w": 156,
+    "h": 39
+   },
+   {
+    "x": 72,
+    "y": 6348,
+    "w": 49,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 6654,
+    "w": 104,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 6654,
+    "w": 206,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 6674,
+    "w": 164,
+    "h": 21
+   },
+   {
+    "x": 78,
+    "y": 6845,
+    "w": 204,
+    "h": 23
+   },
+   {
+    "x": 97,
+    "y": 6872,
+    "w": 165,
+    "h": 23
+   },
+   {
+    "x": 16,
+    "y": 6977,
+    "w": 173,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 7140,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 7140,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 7164,
+    "w": 47,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7204,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 7204,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 7228,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7408,
+    "w": 134,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 7449,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 7490,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 7531,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 7572,
+    "w": 136,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 7613,
+    "w": 158,
+    "h": 18
+   }
+  ]
+ }
+}

@@ -1,0 +1,26 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.valtech.com/valtech-conversion-engine/
+  other    1 capped box(es) outside the section tier (in the JSON) — e.g. 252px #frCap-widget
+  modules  15 sections: capped 872 ×5, 810 ×3, 1440 ×1, 546 ×1, 244 ×1 · full-bleed ×4
+  contentMaxWidth fluid · shellMaxWidth fluid · root #valtech-content
+build  http://localhost:8791/valtech-conversion-engine-proposed.html
+  modules  15 sections: capped 872 ×5, 810 ×3, 1440 ×1, 546 ×1, 244 ×1 · full-bleed ×4
+  contentMaxWidth fluid · shellMaxWidth fluid · root #valtech-content
+rows
+  ✓ content cap: fluid on both sides — no wrapper, no shared module cap
+  ✓ module 1/15: full-bleed on both
+  ✓ module 2/15: 244px = 244px
+  ✓ module 3/15: 810px = 810px
+  ✓ module 4/15: full-bleed on both
+  ✓ module 5/15: 872px = 872px
+  ✓ module 6/15: 872px = 872px
+  ✓ module 7/15: 872px = 872px
+  ✓ module 8/15: 872px = 872px
+  ✓ module 9/15: full-bleed on both
+  ✓ module 10/15: 546px = 546px
+  ✓ module 11/15: 1440px = 1440px
+  ✓ module 12/15: 810px = 810px
+  ✓ module 13/15: 810px = 810px
+  ✓ module 14/15: full-bleed on both
+  ✓ module 15/15: 855px = 855px
+cap-probe: PASS at 2560 — 0 of 16 rows failed (evidence stardust/replica/gates/valtech-conversion-engine-2560/cap-iter.json)

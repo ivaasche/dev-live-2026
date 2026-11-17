@@ -1,0 +1,375 @@
+/* stylelint-disable no-descending-specificity -- the source cascade order is lifted verbatim */
+
+/* detail-text-block — main.css @detail-text-block rules, values verbatim (BEM -> kebab-case); the rich-text column carries the source .text-content rules, scoped below */
+
+.detail-text-block {
+  margin-bottom: 1.25rem;
+}
+
+@media (width >= 58.75rem) {
+  .detail-text-block {
+    margin-bottom: 3.75rem;
+  }
+}
+
+@media (width >= 76.25rem) {
+  .detail-text-block {
+    margin-bottom: 5rem;
+  }
+}
+
+.detail-text-block:not(.wide) .detail-text-block-container::before {
+  display: none;
+}
+
+@media (width >= 58.75rem) {
+  .detail-text-block:not(.wide) .detail-text-block-container::before {
+    background-color: #ff5959;
+    content: "";
+    display: flex;
+    flex-shrink: 0;
+    height: 2px;
+    margin-top: .5625rem;
+    width: 2vw;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .detail-text-block:not(.wide) .detail-text-block-inner {
+    margin-left: 2.5rem;
+    max-width: 38em;
+  }
+}
+
+.detail-text-block .detail-text-block-container {
+  display: flex;
+  padding: 0 1.5rem;
+  position: relative;
+}
+
+@media (width >= 64rem) {
+  .detail-text-block .detail-text-block-container {
+    margin-right: 64px;
+  }
+}
+
+@media (width >= 120.001rem) {
+  .detail-text-block .detail-text-block-container {
+    margin: 0 auto;
+    max-width: 84vw;
+  }
+}
+
+.detail-text-block .detail-text-block-inner {
+  width: 100%;
+}
+
+.detail-text-block .detail-text-block-inner p {
+  font-size: 1.5vw;
+}
+
+@media (width <= 933.3333px) {
+  .detail-text-block .detail-text-block-inner p {
+    font-size: 14px;
+  }
+}
+
+@media (width >= 1333.3333px) {
+  .detail-text-block .detail-text-block-inner p {
+    font-size: 20px;
+  }
+}
+
+.detail-text-block .detail-text-block-hgroup {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.detail-text-block .detail-text-block-hgroup-pretitle {
+  font-size: 1rem;
+  order: 1;
+  position: relative;
+  width: 100%;
+}
+
+.detail-text-block .detail-text-block-hgroup-title {
+  font-size: 3vw;
+  line-height: 1.2;
+  order: 2;
+  width: 100%;
+}
+
+@media (width <= 833.3333px) {
+  .detail-text-block .detail-text-block-hgroup-title {
+    font-size: 25px;
+  }
+}
+
+@media (width >= 1400px) {
+  .detail-text-block .detail-text-block-hgroup-title {
+    font-size: 42px;
+  }
+}
+
+.detail-text-block .detail-text-block-hgroup-subtitle {
+  font-size: 2vw;
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: -.0625rem;
+  line-height: 1.5;
+  width: 100%;
+}
+
+@media (width <= 800px) {
+  .detail-text-block .detail-text-block-hgroup-subtitle {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1500px) {
+  .detail-text-block .detail-text-block-hgroup-subtitle {
+    font-size: 30px;
+  }
+}
+
+.detail-text-block .detail-text-block-rte li {
+  font-size: 1.5vw;
+}
+
+@media (width <= 933.3333px) {
+  .detail-text-block .detail-text-block-rte li {
+    font-size: 14px;
+  }
+}
+
+@media (width >= 1333.3333px) {
+  .detail-text-block .detail-text-block-rte li {
+    font-size: 20px;
+  }
+}
+
+/* source .text-content rich-text rules (main.css), scoped to the block's rte column */
+
+.detail-text-block .text-content h1 {
+  margin-bottom: .2em;
+}
+
+.detail-text-block .text-content h2 {
+  margin-bottom: 1rem;
+}
+
+@media (width >= 58.75rem) {
+  .detail-text-block .text-content h2 {
+    margin-bottom: 2rem;
+  }
+}
+
+.detail-text-block .text-content h3 {
+  margin-bottom: 1rem;
+}
+
+@media (width >= 58.75rem) {
+  .detail-text-block .text-content h3 {
+    margin-bottom: 2rem;
+  }
+}
+
+.detail-text-block .text-content h4 {
+  margin-bottom: .4em;
+}
+
+.detail-text-block .text-content h5 {
+  margin-bottom: .5em;
+}
+
+.detail-text-block .text-content h6,
+.detail-text-block .text-content p {
+  margin-bottom: .8em;
+}
+
+.detail-text-block .text-content .lead {
+  font-size: 2vw;
+}
+
+@media (width <= 800px) {
+  .detail-text-block .text-content .lead {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1300px) {
+  .detail-text-block .text-content .lead {
+    font-size: 26px;
+  }
+}
+
+.detail-text-block .text-content ol,
+.detail-text-block .text-content p,
+.detail-text-block .text-content ul {
+  max-width: 38em;
+}
+
+.detail-text-block .text-content ol+h2,
+.detail-text-block .text-content ol+h3,
+.detail-text-block .text-content ol+h4,
+.detail-text-block .text-content ol+h5,
+.detail-text-block .text-content ol+h6,
+.detail-text-block .text-content p+h2,
+.detail-text-block .text-content p+h3,
+.detail-text-block .text-content p+h4,
+.detail-text-block .text-content p+h5,
+.detail-text-block .text-content p+h6,
+.detail-text-block .text-content ul+h2,
+.detail-text-block .text-content ul+h3,
+.detail-text-block .text-content ul+h4,
+.detail-text-block .text-content ul+h5,
+.detail-text-block .text-content ul+h6 {
+  margin-top: 3.75rem;
+}
+
+.detail-text-block .text-content li {
+  font-size: 1.5vw;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+@media (width <= 1066.6667px) {
+  .detail-text-block .text-content li {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1333.3333px) {
+  .detail-text-block .text-content li {
+    font-size: 20px;
+  }
+}
+
+.detail-text-block .text-content small {
+  font-size: 1rem;
+}
+
+.detail-text-block .text-content a:not(.button) {
+  text-decoration: underline;
+}
+
+.detail-text-block .text-content a:not(.button):hover {
+  text-decoration: none;
+}
+
+.detail-text-block .text-content img {
+  height: auto;
+  margin: 1.25rem 0 3.75rem;
+  max-width: 100%;
+}
+
+@media (width <= 58.75rem) {
+  .detail-text-block .text-content img {
+    float: none!important;
+    margin-bottom: 1.25rem;
+  }
+}
+
+.detail-text-block .text-content img.margin-bottom-null {
+  margin-bottom: 0;
+}
+
+.detail-text-block .text-content ol,
+.detail-text-block .text-content ul {
+  line-height: 1.4;
+  margin: 0 0 .8em;
+  padding-left: 1.25rem;
+}
+
+.detail-text-block .text-content ol li+li,
+.detail-text-block .text-content ul li+li {
+  margin-top: .8rem;
+}
+
+/* source global blockquote rules (main.css @32052–32819), scoped to the block's rich text and to
+   rte-block sections (a page carrying this block; foundation request filed for the global rule) */
+
+:is(.detail-text-block, main .section.rte-block) blockquote {
+  border-right: 2px solid #002fa7;
+  color: #363636;
+  display: inline-block;
+  flex-direction: column;
+  font-size: 2vw;
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: -.0625rem;
+  line-height: 1.4;
+  margin: 5rem 0;
+  padding: 0 1.875rem;
+  position: relative;
+  quotes: "“" "„" "‘" "‚";
+  text-align: right;
+  white-space: pre-line;
+}
+
+@media (width <= 800px) {
+  :is(.detail-text-block, main .section.rte-block) blockquote {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1500px) {
+  :is(.detail-text-block, main .section.rte-block) blockquote {
+    font-size: 30px;
+  }
+}
+
+:is(.detail-text-block, main .section.rte-block) blockquote::before {
+  content: open-quote;
+  left: 3.375rem;
+  top: -3.125rem;
+}
+
+:is(.detail-text-block, main .section.rte-block) blockquote::after {
+  bottom: -3.125rem;
+  content: close-quote;
+  right: 1.875rem;
+}
+
+:is(.detail-text-block, main .section.rte-block) blockquote::after,
+:is(.detail-text-block, main .section.rte-block) blockquote::before {
+  color: #002fa7;
+  font-size: 6.25rem;
+  font-size: 5vw;
+  font-weight: 700;
+  line-height: 1;
+  position: absolute;
+}
+
+@media (width <= 1000px) {
+  :is(.detail-text-block, main .section.rte-block) blockquote::after,
+  :is(.detail-text-block, main .section.rte-block) blockquote::before {
+    font-size: 50px;
+  }
+}
+
+@media (width >= 2000px) {
+  :is(.detail-text-block, main .section.rte-block) blockquote::after,
+  :is(.detail-text-block, main .section.rte-block) blockquote::before {
+    font-size: 100px;
+  }
+}
+
+/* variant valign-top: a rich-text table whose source cells carry the inline style
+   vertical-align: top (DA drops inline styles; the variant restores it) — and equal inline cell
+   widths (`width: 33.3333%` on each of 3 cells, /es-es/diversidad-e-inclusion: auto layout with
+   percentage cells — 202.66 px columns at 1440, min-content wins at 360: 105 / 91 / 105) */
+.detail-text-block.valign-top td:first-child:nth-last-child(2),
+.detail-text-block.valign-top td:first-child:nth-last-child(2) ~ td {
+  width: 50%;
+}
+
+.detail-text-block.valign-top td:first-child:nth-last-child(3),
+.detail-text-block.valign-top td:first-child:nth-last-child(3) ~ td {
+  width: 33.3333%;
+}
+
+.detail-text-block.valign-top td {
+  padding: 5px 6.25px; /* source cell box (measured 1440: 203 px cell, 190 px text) */
+  vertical-align: top;
+}

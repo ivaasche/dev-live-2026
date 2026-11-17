@@ -1,0 +1,1786 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-14T08:37:08.081Z",
+  "tol": 4,
+  "n": 6,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/",
+  "at": "2026-11-14T08:36:35.659Z",
+  "docH": 5143
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/",
+  "at": "2026-11-14T08:37:07.940Z",
+  "docH": 5143
+ },
+ "results": [
+  {
+   "sel": ".featured-case-study__item=.featured-case-study-item",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.featured-case-study__container > div.featured-case-study__items.--5 > a.featured-case-study__item"
+     },
+     "eds": {
+      "path": "div.featured-case-study-container > div.featured-case-study-items.featured-case-study-items-5 > a.featured-case-study-item"
+     },
+     "rows": [
+      {
+       "key": "image:picture.featured-case-study__item__picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 191
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 191,
+        "sel": "picture.mobile",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:silhouette of a person on a stool before",
+       "role": "image",
+       "text": "silhouette of a person on a stool before a blue screen fille",
+       "edsText": "silhouette of a person on a stool before a blue screen fille",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 191
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 191,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:eton shirts: the index shirt",
+       "role": "heading",
+       "text": "eton shirts: the index shirt",
+       "edsText": "eton shirts: the index shirt",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 199,
+        "w": 238,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 199,
+        "w": 238,
+        "h": 48,
+        "sel": "h3#eton-shirts-the-index-shirt",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 246,
+        "y": 203,
+        "w": 18,
+        "h": 13
+       },
+       "eds": {
+        "x": 246,
+        "y": 203,
+        "w": 18,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:creating the first-ever garment with its",
+       "role": "text",
+       "text": "creating the first-ever garment with its price pegged to the",
+       "edsText": "creating the first-ever garment with its price pegged to the",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 255,
+        "w": 328,
+        "h": 45
+       },
+       "eds": {
+        "x": 0,
+        "y": 255,
+        "w": 328,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 1143,
+       "w": 328,
+       "h": 300
+      },
+      "eds": {
+       "x": 16,
+       "y": 1143,
+       "w": 328,
+       "h": 300
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.featured-case-study__container > div.featured-case-study__items.--5 > a.featured-case-study__item"
+     },
+     "eds": {
+      "path": "div.featured-case-study-container > div.featured-case-study-items.featured-case-study-items-5 > a.featured-case-study-item"
+     },
+     "rows": [
+      {
+       "key": "image:picture.featured-case-study__item__picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 191
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 191,
+        "sel": "picture.mobile",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:hand holding a smartphone with the disco",
+       "role": "image",
+       "text": "hand holding a smartphone with the discover banking app show",
+       "edsText": "hand holding a smartphone with the discover banking app show",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 191
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 191,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:$75 million+ for discover. unlocked",
+       "role": "heading",
+       "text": "$75 million+ for discover. unlocked",
+       "edsText": "$75 million+ for discover. unlocked",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 199,
+        "w": 238,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 199,
+        "w": 238,
+        "h": 48,
+        "sel": "h3#million-for-discover-unlocked",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 246,
+        "y": 203,
+        "w": 18,
+        "h": 13
+       },
+       "eds": {
+        "x": 246,
+        "y": 203,
+        "w": 18,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:solving complex transformation challenge",
+       "role": "text",
+       "text": "solving complex transformation challenges for a financial se",
+       "edsText": "solving complex transformation challenges for a financial se",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 255,
+        "w": 328,
+        "h": 45
+       },
+       "eds": {
+        "x": 0,
+        "y": 255,
+        "w": 328,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 1467,
+       "w": 328,
+       "h": 300
+      },
+      "eds": {
+       "x": 16,
+       "y": 1467,
+       "w": 328,
+       "h": 300
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.featured-case-study__container > div.featured-case-study__items.--5 > a.featured-case-study__item"
+     },
+     "eds": {
+      "path": "div.featured-case-study-container > div.featured-case-study-items.featured-case-study-items-5 > a.featured-case-study-item"
+     },
+     "rows": [
+      {
+       "key": "image:picture.featured-case-study__item__picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 191
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 191,
+        "sel": "picture.mobile",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:lexus ai concierge screen: ‘can we help ",
+       "role": "image",
+       "text": "lexus ai concierge screen: ‘can we help you find something?’",
+       "edsText": "lexus ai concierge screen: ‘can we help you find something?’",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 191
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 191,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:the lexus ai concierge",
+       "role": "heading",
+       "text": "the lexus ai concierge",
+       "edsText": "the lexus ai concierge",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 199,
+        "w": 206,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 199,
+        "w": 206,
+        "h": 24,
+        "sel": "h3#the-lexus-ai-concierge",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 214,
+        "y": 203,
+        "w": 18,
+        "h": 13
+       },
+       "eds": {
+        "x": 214,
+        "y": 203,
+        "w": 18,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:transforming the lexus website into a pe",
+       "role": "text",
+       "text": "transforming the lexus website into a personalized, adaptive",
+       "edsText": "transforming the lexus website into a personalized, adaptive",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 231,
+        "w": 328,
+        "h": 45
+       },
+       "eds": {
+        "x": 0,
+        "y": 231,
+        "w": 328,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 1791,
+       "w": 328,
+       "h": 276
+      },
+      "eds": {
+       "x": 16,
+       "y": 1791,
+       "w": 328,
+       "h": 276
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.featured-case-study__container > div.featured-case-study__items.--5 > a.featured-case-study__item"
+     },
+     "eds": {
+      "path": "div.featured-case-study-container > div.featured-case-study-items.featured-case-study-items-5 > a.featured-case-study-item"
+     },
+     "rows": [
+      {
+       "key": "image:picture.featured-case-study__item__picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 191
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 191,
+        "sel": "picture.mobile",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:couple walking into a dimly lit hotel co",
+       "role": "image",
+       "text": "couple walking into a dimly lit hotel corridor; woman looks ",
+       "edsText": "couple walking into a dimly lit hotel corridor; woman looks ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 191
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 191,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:mandarin oriental",
+       "role": "heading",
+       "text": "mandarin oriental",
+       "edsText": "mandarin oriental",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 199,
+        "w": 159,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 199,
+        "w": 159,
+        "h": 24,
+        "sel": "h3#mandarin-oriental",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 167,
+        "y": 203,
+        "w": 18,
+        "h": 13
+       },
+       "eds": {
+        "x": 167,
+        "y": 203,
+        "w": 18,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:driving bookings and crafting a luxury d",
+       "role": "text",
+       "text": "driving bookings and crafting a luxury digital experience.",
+       "edsText": "driving bookings and crafting a luxury digital experience.",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 231,
+        "w": 328,
+        "h": 45
+       },
+       "eds": {
+        "x": 0,
+        "y": 231,
+        "w": 328,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 2091,
+       "w": 328,
+       "h": 276
+      },
+      "eds": {
+       "x": 16,
+       "y": 2091,
+       "w": 328,
+       "h": 276
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.featured-case-study__container > div.featured-case-study__items.--5 > a.featured-case-study__item"
+     },
+     "eds": {
+      "path": "div.featured-case-study-container > div.featured-case-study-items.featured-case-study-items-5 > a.featured-case-study-item"
+     },
+     "rows": [
+      {
+       "key": "image:picture.featured-case-study__item__picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 191
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 191,
+        "sel": "picture.mobile",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:large yellow m&m candy with white ‘m’ on",
+       "role": "image",
+       "text": "large yellow m&m candy with white ‘m’ on a yellow background",
+       "edsText": "large yellow m&m candy with white ‘m’ on a yellow background",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 191
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 191,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:enterprise d2c reinvented for mars",
+       "role": "heading",
+       "text": "enterprise d2c reinvented for mars",
+       "edsText": "enterprise d2c reinvented for mars",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 199,
+        "w": 238,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 199,
+        "w": 238,
+        "h": 48,
+        "sel": "h3#enterprise-d2c-reinvented-for-mars",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 246,
+        "y": 203,
+        "w": 18,
+        "h": 13
+       },
+       "eds": {
+        "x": 246,
+        "y": 203,
+        "w": 18,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:composable commerce scaled for a 50+ bra",
+       "role": "text",
+       "text": "composable commerce scaled for a 50+ brand ecosystem.",
+       "edsText": "composable commerce scaled for a 50+ brand ecosystem.",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 255,
+        "w": 328,
+        "h": 45
+       },
+       "eds": {
+        "x": 0,
+        "y": 255,
+        "w": 328,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 2391,
+       "w": 328,
+       "h": 300
+      },
+      "eds": {
+       "x": 16,
+       "y": 2391,
+       "w": 328,
+       "h": 300
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".partners-block__logo=.partners-block-logo",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.partners-block__section > div.partners-block__list > a.partners-block__logo"
+     },
+     "eds": {
+      "path": "div.partners-block-list > p > a.partners-block-logo"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 16,
+        "w": 91,
+        "h": 49
+       },
+       "eds": {
+        "x": 33,
+        "y": 16,
+        "w": 91,
+        "h": 49,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 3231,
+       "w": 156,
+       "h": 80
+      },
+      "eds": {
+       "x": 16,
+       "y": 3231,
+       "w": 156,
+       "h": 80
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.partners-block__section > div.partners-block__list > a.partners-block__logo"
+     },
+     "eds": {
+      "path": "div.partners-block-list > p > a.partners-block-logo"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 23,
+        "y": 31,
+        "w": 109,
+        "h": 19
+       },
+       "eds": {
+        "x": 23,
+        "y": 31,
+        "w": 109,
+        "h": 19,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 188,
+       "y": 3231,
+       "w": 156,
+       "h": 80
+      },
+      "eds": {
+       "x": 188,
+       "y": 3231,
+       "w": 156,
+       "h": 80
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.partners-block__section > div.partners-block__list > a.partners-block__logo"
+     },
+     "eds": {
+      "path": "div.partners-block-list > p > a.partners-block-logo"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 23,
+        "y": 28,
+        "w": 109,
+        "h": 24
+       },
+       "eds": {
+        "x": 23,
+        "y": 28,
+        "w": 109,
+        "h": 24,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 3327,
+       "w": 156,
+       "h": 80
+      },
+      "eds": {
+       "x": 16,
+       "y": 3327,
+       "w": 156,
+       "h": 80
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.partners-block__section > div.partners-block__list > a.partners-block__logo"
+     },
+     "eds": {
+      "path": "div.partners-block-list > p > a.partners-block-logo"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 23,
+        "y": 27,
+        "w": 109,
+        "h": 26
+       },
+       "eds": {
+        "x": 23,
+        "y": 27,
+        "w": 109,
+        "h": 26,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 188,
+       "y": 3327,
+       "w": 156,
+       "h": 80
+      },
+      "eds": {
+       "x": 188,
+       "y": 3327,
+       "w": 156,
+       "h": 80
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".featured-verticals-block__item.is-selected=.featured-verticals-block-item.is-selected",
+   "family": null,
+   "required": true,
+   "originMatches": 1,
+   "edsMatches": 1,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.flickity-viewport > div.flickity-slider > div.featured-verticals-block__item.is-selected"
+     },
+     "eds": {
+      "path": "div.featured-verticals-block-viewport > div.featured-verticals-block-track > div.featured-verticals-block-item.is-selected"
+     },
+     "rows": [
+      {
+       "key": "image:audi cockpit with dual touchscreens and ",
+       "role": "image",
+       "text": "audi cockpit with dual touchscreens and pink ambient lightin",
+       "edsText": "audi cockpit with dual touchscreens and pink ambient lightin",
+       "byPosition": false,
+       "origin": {
+        "x": -1,
+        "y": -1,
+        "w": 268,
+        "h": 268
+       },
+       "eds": {
+        "x": -1,
+        "y": -1,
+        "w": 266,
+        "h": 268,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": -1,
+        "w": 266,
+        "h": 268
+       },
+       "eds": {
+        "x": 0,
+        "y": -1,
+        "w": 266,
+        "h": 268,
+        "sel": "picture.portrait",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:industries",
+       "role": "text",
+       "text": "industries",
+       "edsText": "industries",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 326,
+        "w": 80,
+        "h": 23
+       },
+       "eds": {
+        "x": 0,
+        "y": 326,
+        "w": 80,
+        "h": 23,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/400",
+        "eds": "18/0/400"
+       }
+      },
+      {
+       "key": "heading:mobility",
+       "role": "heading",
+       "text": "mobility",
+       "edsText": "mobility",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 349,
+        "w": 266,
+        "h": 38
+       },
+       "eds": {
+        "x": 0,
+        "y": 349,
+        "w": 266,
+        "h": 38,
+        "sel": "h3#mobility",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "32/38/350",
+        "eds": "32/38/350"
+       }
+      },
+      {
+       "key": "text:shaping the future of mobility with ai, ",
+       "role": "text",
+       "text": "shaping the future of mobility with ai, data and connected e",
+       "edsText": "shaping the future of mobility with ai, data and connected e",
+       "byPosition": false,
+       "origin": {
+        "x": 2,
+        "y": 404,
+        "w": 264,
+        "h": 45
+       },
+       "eds": {
+        "x": 2,
+        "y": 404,
+        "w": 264,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      },
+      {
+       "key": "link:explore",
+       "role": "link",
+       "text": "explore",
+       "edsText": "explore",
+       "byPosition": false,
+       "origin": {
+        "x": 2,
+        "y": 465,
+        "w": 120,
+        "h": 49
+       },
+       "eds": {
+        "x": 2,
+        "y": 465,
+        "w": 120,
+        "h": 49,
+        "sel": "a.featured-verticals-block-item-link.btn-white",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/21/400",
+        "eds": "18/21/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 3502,
+       "w": 266,
+       "h": 513
+      },
+      "eds": {
+       "x": 16,
+       "y": 3502,
+       "w": 266,
+       "h": 513
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".site-footer__menu__list a=.site-footer-menu-list a",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "ul.site-footer__menu__list > li > a"
+     },
+     "eds": {
+      "path": "ul.site-footer-menu-list > li > a"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 4745,
+       "w": 90,
+       "h": 18
+      },
+      "eds": {
+       "x": 16,
+       "y": 4745,
+       "w": 90,
+       "h": 18
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "ul.site-footer__menu__list > li > a"
+     },
+     "eds": {
+      "path": "ul.site-footer-menu-list > li > a"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 4786,
+       "w": 111,
+       "h": 18
+      },
+      "eds": {
+       "x": 16,
+       "y": 4786,
+       "w": 111,
+       "h": 18
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "ul.site-footer__menu__list > li > a"
+     },
+     "eds": {
+      "path": "ul.site-footer-menu-list > li > a"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 4827,
+       "w": 83,
+       "h": 18
+      },
+      "eds": {
+       "x": 16,
+       "y": 4827,
+       "w": 83,
+       "h": 18
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "ul.site-footer__menu__list > li > a"
+     },
+     "eds": {
+      "path": "ul.site-footer-menu-list > li > a"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 4868,
+       "w": 79,
+       "h": 18
+      },
+      "eds": {
+       "x": 16,
+       "y": 4868,
+       "w": 79,
+       "h": 18
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "ul.site-footer__menu__list > li > a"
+     },
+     "eds": {
+      "path": "ul.site-footer-menu-list > li > a"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 4909,
+       "w": 80,
+       "h": 18
+      },
+      "eds": {
+       "x": 16,
+       "y": 4909,
+       "w": 80,
+       "h": 18
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "ul.site-footer__menu__list > li > a.cookiebot-reset"
+     },
+     "eds": {
+      "path": "ul.site-footer-menu-list > li > a.cookiebot-reset"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 4950,
+       "w": 149,
+       "h": 18
+      },
+      "eds": {
+       "x": 16,
+       "y": 4950,
+       "w": 149,
+       "h": 18
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 16,
+  "within": 35,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

@@ -1,0 +1,226 @@
+{
+  "slug": "es-es-retail-en-la-encrucijada-2026",
+  "type": "offering",
+  "renderBranch": "A'",
+  "template": "valtech-conversion-engine",
+  "modules": [
+    "breadcrumbs",
+    "offering-masthead",
+    "success-stories",
+    "tile-images",
+    "podcast-speakers",
+    "teaser-block",
+    "contact-form"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "site-breadcrumbs",
+    "offering-masthead",
+    "rte-block",
+    "success-stories",
+    "rte-block",
+    "tile-images",
+    "rte-block",
+    "tile-images",
+    "rte-block",
+    "podcast-speakers",
+    "rte-block",
+    "teaser-block",
+    "contact-us-form",
+    "site-footer",
+    "site-slope",
+    "site-slope",
+    "site-slope",
+    "modal",
+    "modal",
+    "modal",
+    "modal"
+  ],
+  "canonShas": {
+    "header": "73cff066609b",
+    "footer": "d3f0cc1ef9d5",
+    "css": "8876c0e8d8d1"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Descubre en detalle el informe Retail 2026 de Valtech | Valtech",
+    "description": "Descubre cómo las marcas líderes aprovechan la IA y la transformación para crear experiencias de cliente conectadas, según el informe Retail 2026 de Valtech.",
+    "canonical": "https://www.valtech.com/es-es/retail-en-la-encrucijada-2026/",
+    "lang": "es"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Descubre en detalle el informe Retail 2026 de Valtech | Valtech",
+    "description": "Descubre cómo las marcas líderes aprovechan la IA y la transformación para crear experiencias de cliente conectadas, según el informe Retail 2026 de Valtech.",
+    "url": "https://www.valtech.com/es-es/retail-en-la-encrucijada-2026/"
+  },
+  "migratedAt": "2026-11-13T22:56:20Z",
+  "designMdSha": "9dc5e8267a4e",
+  "designJsonSha": "ec9a36425b28",
+  "sourceCurrentSha": "b94c2c4cc41a",
+  "sourceProposedSha": "1fc51610d122",
+  "fidelityTier": "sibling",
+  "archetypeSource": "valtech-conversion-engine",
+  "archetypeSha": "6faf444abaa7",
+  "variants": [],
+  "gatesPassed": [
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "verbatim sibling encode of stardust/current/pages/es-es-retail-en-la-encrucijada-2026.html into content/es-es/retail-en-la-encrucijada-2026.html (archetype valtech-conversion-engine shape, stardust/.work/cluster-offering/build-content.py); published-origin gate 1440 0.04 % Δh 0 PASS / 360 0.82 % Δh 0 PASS"
+  },
+  "contentDeviations": [
+    {
+      "kind": "nav-active",
+      "source": "no active top-nav item in the source header",
+      "target": "no nav-active row",
+      "reason": "the source marks no section on this page (C0 rule: as the source shows it)"
+    }
+  ],
+  "assetsBundled": 11,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/es-es/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/servicios/elevacion-de-la-experiencia/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/aceleracion-comercio/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/transformacion-empresarial/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/servicios-creativos-de-marketing-performance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/revolucion-del-dato-y-ia/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/carrera/ofertas-de-empleo/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/trabajar-en-valtech/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/diversidad-e-inclusion/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/oficinas/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/contacto/keep-in-touch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de-de/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-dk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr-fr/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nl-nl/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-gb/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sv-se/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ca/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-ar/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt-br/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-mx/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-sg/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/closing-the-ai-readiness-gap/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/creating-emotion-connections-with-consumers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/complexity-commerce-in-retail/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/power-of-hyper-personalization-retail-cpg/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/oficinas/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/carrera/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/accesibilidad/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/mantente-en-contacto/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "es-es/retail-en-la-encrucijada-2026/index.html",
+  "outputPathDefault": null,
+  "sidecar": "es-es/retail-en-la-encrucijada-2026/_meta.json",
+  "driverVersion": "1"
+}

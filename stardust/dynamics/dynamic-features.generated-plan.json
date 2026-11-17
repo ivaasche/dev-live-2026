@@ -1,0 +1,1093 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-11-13T15:09:28.227Z",
+  "input": "stardust/current/_dynamics.json",
+  "target": "https://main--c87ac39f--aemcoder.aem.page",
+  "migrated": "stardust/migrated",
+  "knowledge": null,
+  "chrome": null
+ },
+ "rows": [
+  {
+   "id": "a-unknown-third-party-host-consentcdn-cookiebot-eu",
+   "class": "A",
+   "feature": "unknown third-party host consentcdn.cookiebot.eu",
+   "pages": 9,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "consentcdn.cookiebot.eu"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "pages": 9,
+   "probed": 9,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "a-unknown-third-party-host-www-google-com",
+   "class": "A",
+   "feature": "unknown third-party host www.google.com",
+   "pages": 8,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "www.google.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-experimentation-a-b-personalisation",
+   "class": "A",
+   "feature": "experimentation: A/B / personalisation",
+   "pages": 8,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "cdn.optimizely.com",
+    "a21806970019.cdn.optimizely.com",
+    "logx.optimizely.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which experiments move to the new host"
+  },
+  {
+   "id": "a-unknown-third-party-host-px-ads-linkedin-com",
+   "class": "A",
+   "feature": "unknown third-party host px.ads.linkedin.com",
+   "pages": 8,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "px.ads.linkedin.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-dc-services-visualstudio-com",
+   "class": "A",
+   "feature": "unknown third-party host dc.services.visualstudio.com",
+   "pages": 8,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "dc.services.visualstudio.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-c-6sc-co",
+   "class": "A",
+   "feature": "unknown third-party host c.6sc.co",
+   "pages": 8,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "c.6sc.co"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-ipv6-6sc-co",
+   "class": "A",
+   "feature": "unknown third-party host ipv6.6sc.co",
+   "pages": 8,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "ipv6.6sc.co"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-epsilon-6sense-com",
+   "class": "A",
+   "feature": "unknown third-party host epsilon.6sense.com",
+   "pages": 8,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "epsilon.6sense.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "cr-client-rendered-slot-modal-micromodal-slide-modal-redirec",
+   "class": "CR",
+   "feature": "client-rendered slot modal micromodal-slide modal-redirect",
+   "pages": 9,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "data-url=revonic.com",
+    "data-url=www.evident.nl",
+    "data-url=www.berndtgroup.net",
+    "data-url=www.appsolutely.nl"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-contact-us-form-container-js-accordi",
+   "class": "CR",
+   "feature": "client-rendered slot contact-us-form__container js-accordion",
+   "pages": 5,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "Let’s connect Let’s connect Fill in your details and kicksta",
+    "Contáctanos Contáctanos Nos encantaría saber de ti. Rellena "
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-contact-us-form-column-contact-us-fo",
+   "class": "CR",
+   "feature": "client-rendered slot contact-us-form__column contact-us-form__accordion-column js-accordion-content",
+   "pages": 3,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    ".mktoForm .mktoButtonWrap.mktoShadow .mktoButton { color:#00"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-hero-block-item-text-adapter-js-hero",
+   "class": "CR",
+   "feature": "client-rendered slot hero-block__item__text-adapter js-hero-block__item__text-adapter",
+   "pages": 2,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "Unlock trapped value in your business Orchestrate data, deci",
+    "Valtech OneacceleratesAI adoption Your platforms, your data,",
+    "Lexus AI Concierge Meet the future of shopping online Case s",
+    "Best Workplacesfor Innovators Proud to be recognized by Fast"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-featured-verticals-block-content-js-",
+   "class": "CR",
+   "feature": "client-rendered slot featured-verticals-block__content js-fv-slider-content flickity-enabled",
+   "pages": 2,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "Explore Industries Mobility Shaping the future of mobility w",
+    "Nuestro enfoque Metodología Modelo operativo inteligente Nue"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-hero-block-content-js-hero-slider-co",
+   "class": "CR",
+   "feature": "client-rendered slot hero-block__content js-hero-slider-content flickity-enabled",
+   "pages": 1,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "Unlock trapped value in your business Orchestrate data, deci"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-pdf-view-block-viewer-toolbar-off",
+   "class": "CR",
+   "feature": "client-rendered slot pdf-view-block__viewer toolbar-off",
+   "pages": 1,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "data-url=/globalassets/00-global/02-images/04-insights/02-whitepapers"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-results-statistics-block-container-r",
+   "class": "CR",
+   "feature": "client-rendered slot results-statistics-block_container results-statistics-block_container--4 js-flickity-result-statistic",
+   "pages": 1,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "80% of customers are more likely to purchase from brands off"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-teaser-block-container-js-flickity-t",
+   "class": "CR",
+   "feature": "client-rendered slot teaser-block__container  js-flickity-teaser",
+   "pages": 1,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "Insight The Intelligent Enterprise News The Era of Conversat"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-section-iehub-nav",
+   "class": "CR",
+   "feature": "client-rendered slot section iehub-nav ",
+   "pages": 1,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "Visión general Operar Organizar Crecer Liderar Reserva una s"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-hero-block-content-js-hero-slider-co",
+   "class": "CR",
+   "feature": "client-rendered slot hero-block__content js-hero-slider-content",
+   "pages": 1,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "IA agéntica para IT Optimiza tu ecosistema digital con la co"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "f-form-mktoform-3404-no-action-js-wired-12-fields",
+   "class": "F",
+   "feature": "form \"mktoForm_3404\" → no action (JS-wired) (12 fields)",
+   "pages": 2,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "text:FirstName,text:LastName,select:Lead_title__c,email:Email,text:Company,select:Industry,select:CountryCode,tel:Phone,select:mKTOWhyContact,textarea:commentCapture,checkbox:Privacy_Policy_opt_in__c,checkbox:Email_Opt_In__c",
+    "utmcampaign__c,utmcontent__c,utmmedium__c,utmsource__c,utmterm__c,utmtopic__c,formid,munchkinId"
+   ],
+   "pattern": "client-compute",
+   "disposition": "client-only",
+   "target": "widget",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "client tools",
+   "decision": "none"
+  },
+  {
+   "id": "f-form-mktoform-7474-no-action-js-wired-12-fields",
+   "class": "F",
+   "feature": "form \"mktoForm_7474\" → no action (JS-wired) (12 fields)",
+   "pages": 1,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "text:FirstName,text:LastName,select:Lead_title__c,email:Email,text:Company,select:Industry,select:CountryCode,tel:Phone,select:mKTOWhyContact,textarea:commentCapture,checkbox:Privacy_Policy_opt_in__c,checkbox:Email_Opt_In__c",
+    "utmcampaign__c,utmcontent__c,utmmedium__c,utmsource__c,utmterm__c,utmtopic__c,formid,munchkinId"
+   ],
+   "pattern": "client-compute",
+   "disposition": "client-only",
+   "target": "widget",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "client tools",
+   "decision": "none"
+  },
+  {
+   "id": "f-form-mktoform-7718-no-action-js-wired-8-fields",
+   "class": "F",
+   "feature": "form \"mktoForm_7718\" → no action (JS-wired) (8 fields)",
+   "pages": 1,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "text:FirstName,text:LastName,text:Company,select:Industry,select:Lead_title__c,email:Email,select:CountryCode,checkbox:Email_Opt_In__c",
+    "utmsource__c,utmmedium__c,utmcampaign__c,utmterm__c,utmcontent__c,utmtopic__c,formid,munchkinId"
+   ],
+   "pattern": "client-compute",
+   "disposition": "client-only",
+   "target": "widget",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "client tools",
+   "decision": "none"
+  },
+  {
+   "id": "f-form-mktoform-7520-no-action-js-wired-9-fields",
+   "class": "F",
+   "feature": "form \"mktoForm_7520\" → no action (JS-wired) (9 fields)",
+   "pages": 1,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "text:FirstName,text:LastName,select:Lead_title__c,email:Email,text:Company,select:Industry,select:CountryCode,textarea:commentCapture,checkbox:Email_Opt_In__c",
+    "utmcampaign__c,utmsource__c,utmmedium__c,utmcontent__c,utmterm__c,utmtopic__c,formid,munchkinId"
+   ],
+   "pattern": "client-compute",
+   "disposition": "client-only",
+   "target": "widget",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "client tools",
+   "decision": "none"
+  },
+  {
+   "id": "f-form-mktoform-7797-no-action-js-wired-9-fields",
+   "class": "F",
+   "feature": "form \"mktoForm_7797\" → no action (JS-wired) (9 fields)",
+   "pages": 1,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "text:FirstName,text:LastName,select:Lead_title__c,email:Email,text:Company,select:Industry,select:CountryCode,textarea:commentCapture,checkbox:Email_Opt_In__c",
+    "utmcampaign__c,utmsource__c,utmmedium__c,utmcontent__c,utmterm__c,utmtopic__c,formid,munchkinId"
+   ],
+   "pattern": "client-compute",
+   "disposition": "client-only",
+   "target": "widget",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "client tools",
+   "decision": "none"
+  },
+  {
+   "id": "f-form-mktoform-10078-no-action-js-wired-8-fields",
+   "class": "F",
+   "feature": "form \"mktoForm_10078\" → no action (JS-wired) (8 fields)",
+   "pages": 1,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "text:FirstName,text:LastName,text:Company,select:Industry,select:Lead_title__c,email:Email,select:CountryCode,checkbox:Email_Opt_In__c",
+    "websiteEvents,utmsource__c,utmmedium__c,utmcampaign__c,utmterm__c,utmcontent__c,utmtopic__c,formid,munchkinId"
+   ],
+   "pattern": "client-compute",
+   "disposition": "client-only",
+   "target": "widget",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "client tools",
+   "decision": "none"
+  },
+  {
+   "id": "i18n-locale-variants-en-x-default",
+   "class": "I18N",
+   "feature": "locale variants en,x-default",
+   "pages": 3,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "https://www.valtech.com/en-dk/",
+    "https://www.valtech.com/fr-fr/",
+    "https://www.valtech.com/de-de/"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees"
+  },
+  {
+   "id": "i18n-locale-variants-en-es-fr-fr-x-default",
+   "class": "I18N",
+   "feature": "locale variants en,es,fr-fr,x-default",
+   "pages": 2,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "https://www.valtech.com/de-de/",
+    "https://www.valtech.com/en-dk/",
+    "https://www.valtech.com/fr-fr/",
+    "https://www.valtech.com/es-ar/configuracion-de-cookies/"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees"
+  },
+  {
+   "id": "i18n-locale-variants-en-nl-nl-en-gb-en-us-es-pt-br-en-ca-fr-",
+   "class": "I18N",
+   "feature": "locale variants en,nl-nl,en-gb,en-us,es,pt-br,en-ca,fr-ca,zh-cn,en-dk,fr-fr,de-de,en-sg,sv-se,es-ar,en-cn,es-mx,en-ch,x-default",
+   "pages": 1,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "https://www.valtech.com/en-dk/",
+    "https://www.valtech.com/fr-fr/",
+    "https://www.valtech.com/de-de/"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees"
+  },
+  {
+   "id": "i18n-locale-variants-en-es-x-default",
+   "class": "I18N",
+   "feature": "locale variants en,es,x-default",
+   "pages": 1,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "https://www.valtech.com/de-de/",
+    "https://www.valtech.com/en-dk/",
+    "https://www.valtech.com/fr-fr/"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees"
+  },
+  {
+   "id": "i18n-locale-variants-en-nl-nl-en-gb-en-us-es-pt-br-en-ca-fr-",
+   "class": "I18N",
+   "feature": "locale variants en,nl-nl,en-gb,en-us,es,pt-br,en-ca,fr-ca,zh-cn,en-dk,fr-fr,de-de,en-sg,sv-se,en-in,es-ar,en-cn,es-mx,en-ch,x-default",
+   "pages": 1,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "https://www.valtech.com/de-de/",
+    "https://www.valtech.com/en-dk/",
+    "https://www.valtech.com/fr-fr/"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees"
+  },
+  {
+   "id": "i18n-locale-variants-en-es-pt-br-fr-ca-fr-fr-de-de-es-ar-es-",
+   "class": "I18N",
+   "feature": "locale variants en,es,pt-br,fr-ca,fr-fr,de-de,es-ar,es-mx,x-default",
+   "pages": 1,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "https://www.valtech.com/de-de/",
+    "https://www.valtech.com/en-dk/",
+    "https://www.valtech.com/fr-fr/"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees"
+  },
+  {
+   "id": "l-listing-candidate-flickity-slider-11-cards",
+   "class": "L",
+   "feature": "listing candidate flickity-slider (11 cards)",
+   "pages": 1,
+   "probed": 9,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-ul-11-cards",
+   "class": "L",
+   "feature": "listing candidate ul (11 cards)",
+   "pages": 1,
+   "probed": 9,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "m-modal-trigger-thank-you-popup-button-target-outside-dom-at",
+   "class": "M",
+   "feature": "modal trigger thank-you-popup__button → target outside DOM at capture",
+   "pages": 1,
+   "probed": 9,
+   "reach": {
+    "pages": 7,
+    "of": 100
+   },
+   "evidence": [
+    "Volver"
+   ],
+   "pattern": "modal-loader",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none"
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "pages": 9,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-consent-cookiebot-eu",
+   "class": "T",
+   "feature": "unknown third-party host consent.cookiebot.eu",
+   "pages": 9,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "consent.cookiebot.eu"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "CMP domain script reuse on the new host"
+  },
+  {
+   "id": "t-marketing-marketo-munchkin",
+   "class": "T",
+   "feature": "marketing: Marketo Munchkin",
+   "pages": 8,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "munchkin.marketo.net",
+    "353-sae-487.mktoresp.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-static-ads-twitter-com",
+   "class": "T",
+   "feature": "unknown third-party host static.ads-twitter.com",
+   "pages": 8,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "static.ads-twitter.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "pages": 8,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "snap.licdn.com",
+    "connect.facebook.net",
+    "ad.doubleclick.net",
+    "googleads.g.doubleclick.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-s-emea01-idio-episerver-net",
+   "class": "T",
+   "feature": "unknown third-party host s.emea01.idio.episerver.net",
+   "pages": 8,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "s.emea01.idio.episerver.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-siteimproveanalytics-com",
+   "class": "T",
+   "feature": "unknown third-party host siteimproveanalytics.com",
+   "pages": 8,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "siteimproveanalytics.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-az416426-vo-msecnd-net",
+   "class": "T",
+   "feature": "unknown third-party host az416426.vo.msecnd.net",
+   "pages": 8,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "az416426.vo.msecnd.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-analytics-twitter-com",
+   "class": "T",
+   "feature": "unknown third-party host analytics.twitter.com",
+   "pages": 8,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "analytics.twitter.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-t-co",
+   "class": "T",
+   "feature": "unknown third-party host t.co",
+   "pages": 8,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "t.co"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-ws-zoominfo-com",
+   "class": "T",
+   "feature": "unknown third-party host ws.zoominfo.com",
+   "pages": 8,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "ws.zoominfo.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-j-6sc-co",
+   "class": "T",
+   "feature": "unknown third-party host j.6sc.co",
+   "pages": 8,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "j.6sc.co"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-analytics-session-replay",
+   "class": "T",
+   "feature": "analytics: session replay",
+   "pages": 8,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "www.clarity.ms",
+    "scripts.clarity.ms",
+    "c.clarity.ms",
+    "j.clarity.ms"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-6009581-global-siteimproveanalyti",
+   "class": "T",
+   "feature": "unknown third-party host 6009581.global.siteimproveanalytics.io",
+   "pages": 8,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "6009581.global.siteimproveanalytics.io"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-b-6sc-co",
+   "class": "T",
+   "feature": "unknown third-party host b.6sc.co",
+   "pages": 8,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "b.6sc.co"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-a-emea01-idio-episerver-net",
+   "class": "T",
+   "feature": "unknown third-party host a.emea01.idio.episerver.net",
+   "pages": 8,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "a.emea01.idio.episerver.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-px4-ads-linkedin-com",
+   "class": "T",
+   "feature": "unknown third-party host px4.ads.linkedin.com",
+   "pages": 8,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "px4.ads.linkedin.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-www-facebook-com",
+   "class": "T",
+   "feature": "unknown third-party host www.facebook.com",
+   "pages": 8,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "www.facebook.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-third-party-mount-div-data-testid-tag-manager-injected-wid",
+   "class": "T",
+   "feature": "third-party mount <div data-testid> (tag-manager-injected widget)",
+   "pages": 7,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "data-testid"
+   ],
+   "pattern": "embed-passthrough",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-credential",
+   "status": "pending",
+   "phase": "embeds",
+   "decision": "vendor account ids stay the owner's"
+  },
+  {
+   "id": "t-unknown-third-party-host-c-bing-com",
+   "class": "T",
+   "feature": "unknown third-party host c.bing.com",
+   "pages": 6,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "c.bing.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-www-linkedin-com",
+   "class": "T",
+   "feature": "unknown third-party host www.linkedin.com",
+   "pages": 3,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "www.linkedin.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "delivered-by-capture",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids",
+   "alreadyDelivered": "output already carries \"www.linkedin.com\""
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "pages": 9,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "Blank",
+    "0×0"
+   ],
+   "pattern": "embed-passthrough",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "embeds",
+   "decision": "resolve the runtime src from a rendered capture"
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "pages": 1,
+   "probed": 9,
+   "reach": null,
+   "evidence": [
+    "https://www.valtech.com/es-es/la-empresa-inteligente/operar/#register-form",
+    "https://www.valtech.com/es-es/casos/national-veterinary-associates-accelerated-software-delivery/"
+   ],
+   "pattern": "decided-out",
+   "disposition": "decided-out",
+   "target": null,
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "register",
+   "decision": "auth / commerce on the new host?"
+  }
+ ]
+}

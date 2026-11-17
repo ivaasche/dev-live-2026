@@ -1,0 +1,1522 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-13T13:47:41.668Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.valtech.com/valtech-conversion-engine/",
+      "http://localhost:8791/valtech-conversion-engine-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.valtech.com/valtech-conversion-engine/",
+    "http://localhost:8791/valtech-conversion-engine-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#valtech-content",
+      "isBody": false,
+      "leaves": 145,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 244,
+        "via": "fixed",
+        "selector": "div.right > div.masthead-two-columns-cta__text > div.masthead-two-columns-cta__cta > a.button.button--primary-hollow",
+        "tier": 7,
+        "share": 0.01,
+        "section": 1,
+        "w1": 244,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 810,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content",
+        "tier": 2,
+        "share": 0.1,
+        "section": 2,
+        "w1": 810,
+        "maxWidth": "810px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > ul",
+        "tier": 3,
+        "share": 0.03,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 872,
+        "via": "max-width",
+        "selector": "div.two-columns__container > div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text",
+        "tier": 5,
+        "share": 0.04,
+        "section": 4,
+        "w1": 696,
+        "maxWidth": "872.199px"
+      },
+      {
+        "kind": "module",
+        "px": 872,
+        "via": "max-width",
+        "selector": "div.two-columns__container > div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text",
+        "tier": 5,
+        "share": 0.06,
+        "section": 5,
+        "w1": 632,
+        "maxWidth": "872.199px"
+      },
+      {
+        "kind": "module",
+        "px": 872,
+        "via": "max-width",
+        "selector": "div.two-columns__container > div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text",
+        "tier": 5,
+        "share": 0.04,
+        "section": 6,
+        "w1": 672,
+        "maxWidth": "872.199px"
+      },
+      {
+        "kind": "module",
+        "px": 872,
+        "via": "max-width",
+        "selector": "div.two-columns__container > div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text",
+        "tier": 5,
+        "share": 0.04,
+        "section": 7,
+        "w1": 632,
+        "maxWidth": "872.199px"
+      },
+      {
+        "kind": "module",
+        "px": 244,
+        "via": "fixed",
+        "selector": "div.two-columns__container > div.two-columns__item > div.two-columns__item__column > a.button.button--tertiary",
+        "tier": 5,
+        "share": 0.01,
+        "section": 7,
+        "w1": 244,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 546,
+        "via": "other",
+        "selector": "div.podcast-speakers.podcast-speakers--default > div.wrapper > div.podcast-speakers__wrapper > h2.podcast-speakers__title",
+        "tier": 4,
+        "share": 0.01,
+        "section": 9,
+        "w1": 493,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 400,
+        "via": "max-width",
+        "selector": "div.podcast-speakers.podcast-speakers--default > div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info",
+        "tier": 4,
+        "share": 0.01,
+        "section": 9,
+        "w1": 282,
+        "maxWidth": "400px"
+      },
+      {
+        "kind": "module",
+        "px": 400,
+        "via": "max-width",
+        "selector": "div.podcast-speakers.podcast-speakers--default > div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info",
+        "tier": 4,
+        "share": 0.01,
+        "section": 9,
+        "w1": 282,
+        "maxWidth": "400px"
+      },
+      {
+        "kind": "module",
+        "px": 400,
+        "via": "max-width",
+        "selector": "div.podcast-speakers.podcast-speakers--default > div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info",
+        "tier": 4,
+        "share": 0.01,
+        "section": 9,
+        "w1": 282,
+        "maxWidth": "400px"
+      },
+      {
+        "kind": "module",
+        "px": 265,
+        "via": "fixed",
+        "selector": "div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__company",
+        "tier": 5,
+        "share": 0.01,
+        "section": 9,
+        "w1": 265,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1440,
+        "via": "max-width",
+        "selector": "#valtech-content > section.highlighted-cta-block.section > div.section__container.centralized",
+        "tier": 2,
+        "share": 0.02,
+        "section": 10,
+        "w1": 1080,
+        "maxWidth": "1440px"
+      },
+      {
+        "kind": "module",
+        "px": 810,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-top-indent > div.rte-block__container.text-content",
+        "tier": 2,
+        "share": 0.01,
+        "section": 11,
+        "w1": 810,
+        "maxWidth": "810px"
+      },
+      {
+        "kind": "module",
+        "px": 810,
+        "via": "fixed",
+        "selector": "#basic-marketo-block",
+        "tier": 2,
+        "share": 0.18,
+        "section": 12,
+        "w1": 810,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "#basic-marketo-block > form.mktoForm.mktoHasWidth > div.mktoFormRow > div.mktoFieldDescriptor.mktoFormCol",
+        "tier": 5,
+        "share": 0.01,
+        "section": 12,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "#basic-marketo-block > form.mktoForm.mktoHasWidth > div.mktoFormRow > div.mktoFieldDescriptor.mktoFormCol",
+        "tier": 5,
+        "share": 0.01,
+        "section": 12,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "#basic-marketo-block > form.mktoForm.mktoHasWidth > div.mktoFormRow > div.mktoFieldDescriptor.mktoFormCol",
+        "tier": 5,
+        "share": 0.01,
+        "section": 12,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "#basic-marketo-block > form.mktoForm.mktoHasWidth > div.mktoFormRow > div.mktoFieldDescriptor.mktoFormCol",
+        "tier": 5,
+        "share": 0.01,
+        "section": 12,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "#basic-marketo-block > form.mktoForm.mktoHasWidth > div.mktoFormRow > div.mktoFieldDescriptor.mktoFormCol",
+        "tier": 5,
+        "share": 0.01,
+        "section": 12,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "#basic-marketo-block > form.mktoForm.mktoHasWidth > div.mktoFormRow > div.mktoFieldDescriptor.mktoFormCol",
+        "tier": 5,
+        "share": 0.01,
+        "section": 12,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 448,
+        "via": "fixed",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 448,
+        "maxWidth": "1792px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > div.text-content > p",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 566,
+        "via": "fixed",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 566,
+        "maxWidth": "1792px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > div.text-content > p",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 693,
+        "via": "fixed",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 693,
+        "maxWidth": "1792px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > div.text-content > p",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 684,
+        "via": "fixed",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 684,
+        "maxWidth": "1792px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > div.text-content > p",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 563,
+        "via": "fixed",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 563,
+        "maxWidth": "1792px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > div.text-content > p",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 469,
+        "via": "fixed",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 469,
+        "maxWidth": "1792px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > div.text-content > p",
+        "tier": 7,
+        "share": 0.03,
+        "section": 14,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 755,
+        "via": "fixed",
+        "selector": "details.faq-block__list__item__dropdown > div.text-content > p > span",
+        "tier": 8,
+        "share": 0.03,
+        "section": 14,
+        "w1": 755,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 721,
+        "via": "fixed",
+        "selector": "div.text-content > p > span > span",
+        "tier": 9,
+        "share": 0.01,
+        "section": 14,
+        "w1": 721,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 715,
+        "via": "fixed",
+        "selector": "div.text-content > p > span > span",
+        "tier": 9,
+        "share": 0.01,
+        "section": 14,
+        "w1": 715,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 436,
+        "via": "fixed",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 436,
+        "maxWidth": "1792px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > div.text-content > p",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 342,
+        "via": "fixed",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 342,
+        "maxWidth": "1792px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > div.text-content > p",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 855,
+        "via": "fixed",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 855,
+        "maxWidth": "1792px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > div.text-content > p",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 651,
+        "via": "fixed",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 651,
+        "maxWidth": "1792px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > div.text-content > p",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "other",
+        "px": 252,
+        "via": "fixed",
+        "selector": "#frCap-widget",
+        "tier": 3,
+        "share": 0,
+        "section": -1,
+        "w1": 252,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#valtech-content > div.site-breadcrumbs",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#valtech-content > section.masthead-two-columns-cta",
+        "px": 244,
+        "capSelector": "div.right > div.masthead-two-columns-cta__text > div.masthead-two-columns-cta__cta > a.button.button--primary-hollow"
+      },
+      {
+        "index": 2,
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent",
+        "px": 810,
+        "capSelector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content"
+      },
+      {
+        "index": 3,
+        "selector": "#valtech-content > section.features-showcase.dark-theme",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 4,
+        "selector": "#valtech-content > div.two-columns.light-theme",
+        "px": 872,
+        "capSelector": "div.two-columns__container > div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+      },
+      {
+        "index": 5,
+        "selector": "#valtech-content > div.two-columns.light-theme",
+        "px": 872,
+        "capSelector": "div.two-columns__container > div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+      },
+      {
+        "index": 6,
+        "selector": "#valtech-content > div.two-columns.light-theme",
+        "px": 872,
+        "capSelector": "div.two-columns__container > div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+      },
+      {
+        "index": 7,
+        "selector": "#valtech-content > div.two-columns.light-theme",
+        "px": 872,
+        "capSelector": "div.two-columns__container > div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+      },
+      {
+        "index": 8,
+        "selector": "#valtech-content > div.partners-block.dark-theme",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 9,
+        "selector": "#valtech-content > div.podcast-speakers.podcast-speakers--default",
+        "px": 546,
+        "capSelector": "div.podcast-speakers.podcast-speakers--default > div.wrapper > div.podcast-speakers__wrapper > h2.podcast-speakers__title"
+      },
+      {
+        "index": 10,
+        "selector": "#valtech-content > section.highlighted-cta-block.section",
+        "px": 1440,
+        "capSelector": "#valtech-content > section.highlighted-cta-block.section > div.section__container.centralized"
+      },
+      {
+        "index": 11,
+        "selector": "#valtech-content > section.rte-block.base-top-indent",
+        "px": 810,
+        "capSelector": "#valtech-content > section.rte-block.base-top-indent > div.rte-block__container.text-content"
+      },
+      {
+        "index": 12,
+        "selector": "#valtech-content > div.marketo-form-block",
+        "px": 810,
+        "capSelector": "#basic-marketo-block"
+      },
+      {
+        "index": 13,
+        "selector": "#valtech-content > div.teaser-block",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 14,
+        "selector": "#valtech-content > div.faq-block.faq-block--default",
+        "px": 855,
+        "capSelector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": null,
+    "contentFrom": null,
+    "maxCap": 1440,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 325
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#valtech-content",
+      "isBody": false,
+      "leaves": 145,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 244,
+        "via": "fixed",
+        "selector": "div.right > div.masthead-two-columns-cta__text > div.masthead-two-columns-cta__cta > a.button.button--primary-hollow",
+        "tier": 7,
+        "share": 0.01,
+        "section": 1,
+        "w1": 244,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 810,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content",
+        "tier": 2,
+        "share": 0.1,
+        "section": 2,
+        "w1": 810,
+        "maxWidth": "810px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > ul",
+        "tier": 3,
+        "share": 0.03,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 872,
+        "via": "max-width",
+        "selector": "div.two-columns__container > div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text",
+        "tier": 5,
+        "share": 0.04,
+        "section": 4,
+        "w1": 696,
+        "maxWidth": "872.199px"
+      },
+      {
+        "kind": "module",
+        "px": 872,
+        "via": "max-width",
+        "selector": "div.two-columns__container > div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text",
+        "tier": 5,
+        "share": 0.06,
+        "section": 5,
+        "w1": 632,
+        "maxWidth": "872.199px"
+      },
+      {
+        "kind": "module",
+        "px": 872,
+        "via": "max-width",
+        "selector": "div.two-columns__container > div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text",
+        "tier": 5,
+        "share": 0.04,
+        "section": 6,
+        "w1": 672,
+        "maxWidth": "872.199px"
+      },
+      {
+        "kind": "module",
+        "px": 872,
+        "via": "max-width",
+        "selector": "div.two-columns__container > div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text",
+        "tier": 5,
+        "share": 0.04,
+        "section": 7,
+        "w1": 632,
+        "maxWidth": "872.199px"
+      },
+      {
+        "kind": "module",
+        "px": 244,
+        "via": "fixed",
+        "selector": "div.two-columns__container > div.two-columns__item > div.two-columns__item__column > a.button.button--tertiary",
+        "tier": 5,
+        "share": 0.01,
+        "section": 7,
+        "w1": 244,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 546,
+        "via": "other",
+        "selector": "div.podcast-speakers.podcast-speakers--default > div.wrapper > div.podcast-speakers__wrapper > h2.podcast-speakers__title",
+        "tier": 4,
+        "share": 0.01,
+        "section": 9,
+        "w1": 493,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 400,
+        "via": "max-width",
+        "selector": "div.podcast-speakers.podcast-speakers--default > div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info",
+        "tier": 4,
+        "share": 0.01,
+        "section": 9,
+        "w1": 282,
+        "maxWidth": "400px"
+      },
+      {
+        "kind": "module",
+        "px": 400,
+        "via": "max-width",
+        "selector": "div.podcast-speakers.podcast-speakers--default > div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info",
+        "tier": 4,
+        "share": 0.01,
+        "section": 9,
+        "w1": 282,
+        "maxWidth": "400px"
+      },
+      {
+        "kind": "module",
+        "px": 400,
+        "via": "max-width",
+        "selector": "div.podcast-speakers.podcast-speakers--default > div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info",
+        "tier": 4,
+        "share": 0.01,
+        "section": 9,
+        "w1": 282,
+        "maxWidth": "400px"
+      },
+      {
+        "kind": "module",
+        "px": 265,
+        "via": "fixed",
+        "selector": "div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__company",
+        "tier": 5,
+        "share": 0.01,
+        "section": 9,
+        "w1": 265,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1440,
+        "via": "max-width",
+        "selector": "#valtech-content > section.highlighted-cta-block.section > div.section__container.centralized",
+        "tier": 2,
+        "share": 0.02,
+        "section": 10,
+        "w1": 1080,
+        "maxWidth": "1440px"
+      },
+      {
+        "kind": "module",
+        "px": 810,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-top-indent > div.rte-block__container.text-content",
+        "tier": 2,
+        "share": 0.01,
+        "section": 11,
+        "w1": 810,
+        "maxWidth": "810px"
+      },
+      {
+        "kind": "module",
+        "px": 810,
+        "via": "fixed",
+        "selector": "#basic-marketo-block",
+        "tier": 2,
+        "share": 0.18,
+        "section": 12,
+        "w1": 810,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "#basic-marketo-block > form.mkto-form > div.mkto-form__row > div.mkto-form__col",
+        "tier": 5,
+        "share": 0.01,
+        "section": 12,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "#basic-marketo-block > form.mkto-form > div.mkto-form__row > div.mkto-form__col",
+        "tier": 5,
+        "share": 0.01,
+        "section": 12,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "#basic-marketo-block > form.mkto-form > div.mkto-form__row > div.mkto-form__col",
+        "tier": 5,
+        "share": 0.01,
+        "section": 12,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "#basic-marketo-block > form.mkto-form > div.mkto-form__row > div.mkto-form__col",
+        "tier": 5,
+        "share": 0.01,
+        "section": 12,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "#basic-marketo-block > form.mkto-form > div.mkto-form__row > div.mkto-form__col",
+        "tier": 5,
+        "share": 0.01,
+        "section": 12,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "#basic-marketo-block > form.mkto-form > div.mkto-form__row > div.mkto-form__col",
+        "tier": 5,
+        "share": 0.01,
+        "section": 12,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 448,
+        "via": "fixed",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 448,
+        "maxWidth": "1792px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > div.text-content > p",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 566,
+        "via": "fixed",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 566,
+        "maxWidth": "1792px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > div.text-content > p",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 693,
+        "via": "fixed",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 693,
+        "maxWidth": "1792px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > div.text-content > p",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 684,
+        "via": "fixed",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 684,
+        "maxWidth": "1792px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > div.text-content > p",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 563,
+        "via": "fixed",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 563,
+        "maxWidth": "1792px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > div.text-content > p",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 469,
+        "via": "fixed",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 469,
+        "maxWidth": "1792px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > div.text-content > p",
+        "tier": 7,
+        "share": 0.03,
+        "section": 14,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 755,
+        "via": "fixed",
+        "selector": "details.faq-block__list__item__dropdown > div.text-content > p > span",
+        "tier": 8,
+        "share": 0.03,
+        "section": 14,
+        "w1": 755,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 721,
+        "via": "fixed",
+        "selector": "div.text-content > p > span > span",
+        "tier": 9,
+        "share": 0.01,
+        "section": 14,
+        "w1": 721,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 715,
+        "via": "fixed",
+        "selector": "div.text-content > p > span > span",
+        "tier": 9,
+        "share": 0.01,
+        "section": 14,
+        "w1": 715,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 436,
+        "via": "fixed",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 436,
+        "maxWidth": "1792px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > div.text-content > p",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 342,
+        "via": "fixed",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 342,
+        "maxWidth": "1792px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > div.text-content > p",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 855,
+        "via": "fixed",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 855,
+        "maxWidth": "1792px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > div.text-content > p",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 651,
+        "via": "fixed",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 651,
+        "maxWidth": "1792px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > div.text-content > p",
+        "tier": 7,
+        "share": 0.01,
+        "section": 14,
+        "w1": 760,
+        "maxWidth": "760px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#valtech-content > div.site-breadcrumbs",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#valtech-content > section.masthead-two-columns-cta",
+        "px": 244,
+        "capSelector": "div.right > div.masthead-two-columns-cta__text > div.masthead-two-columns-cta__cta > a.button.button--primary-hollow"
+      },
+      {
+        "index": 2,
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent",
+        "px": 810,
+        "capSelector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content"
+      },
+      {
+        "index": 3,
+        "selector": "#valtech-content > section.features-showcase.dark-theme",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 4,
+        "selector": "#valtech-content > div.two-columns.light-theme",
+        "px": 872,
+        "capSelector": "div.two-columns__container > div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+      },
+      {
+        "index": 5,
+        "selector": "#valtech-content > div.two-columns.light-theme",
+        "px": 872,
+        "capSelector": "div.two-columns__container > div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+      },
+      {
+        "index": 6,
+        "selector": "#valtech-content > div.two-columns.light-theme",
+        "px": 872,
+        "capSelector": "div.two-columns__container > div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+      },
+      {
+        "index": 7,
+        "selector": "#valtech-content > div.two-columns.light-theme",
+        "px": 872,
+        "capSelector": "div.two-columns__container > div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+      },
+      {
+        "index": 8,
+        "selector": "#valtech-content > div.partners-block.dark-theme",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 9,
+        "selector": "#valtech-content > div.podcast-speakers.podcast-speakers--default",
+        "px": 546,
+        "capSelector": "div.podcast-speakers.podcast-speakers--default > div.wrapper > div.podcast-speakers__wrapper > h2.podcast-speakers__title"
+      },
+      {
+        "index": 10,
+        "selector": "#valtech-content > section.highlighted-cta-block.section",
+        "px": 1440,
+        "capSelector": "#valtech-content > section.highlighted-cta-block.section > div.section__container.centralized"
+      },
+      {
+        "index": 11,
+        "selector": "#valtech-content > section.rte-block.base-top-indent",
+        "px": 810,
+        "capSelector": "#valtech-content > section.rte-block.base-top-indent > div.rte-block__container.text-content"
+      },
+      {
+        "index": 12,
+        "selector": "#valtech-content > div.marketo-form-block",
+        "px": 810,
+        "capSelector": "#basic-marketo-block"
+      },
+      {
+        "index": 13,
+        "selector": "#valtech-content > div.teaser-block",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 14,
+        "selector": "#valtech-content > div.faq-block.faq-block--default",
+        "px": 855,
+        "capSelector": "li.faq-block__list__item > details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": null,
+    "contentFrom": null,
+    "maxCap": 1440,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 322
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "fluid on both sides — no wrapper, no shared module cap",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/15",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/15",
+        "detail": "244px = 244px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/15",
+        "detail": "810px = 810px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 4/15",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 5/15",
+        "detail": "872px = 872px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 6/15",
+        "detail": "872px = 872px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 7/15",
+        "detail": "872px = 872px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 8/15",
+        "detail": "872px = 872px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 9/15",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 10/15",
+        "detail": "546px = 546px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 11/15",
+        "detail": "1440px = 1440px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 12/15",
+        "detail": "810px = 810px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 13/15",
+        "detail": "810px = 810px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 14/15",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 15/15",
+        "detail": "855px = 855px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/valtech-conversion-engine-2560/cap-iter.json"
+}

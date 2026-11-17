@@ -1,0 +1,443 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:dynamics",
+    "writtenAt": "2026-11-14T09:00:40.456Z"
+  },
+  "method": "blocks rebuilt natively (header, FAQ, carousels, forms, listings document-first), media as vendor embeds, martech scaffolded all-off; flows probed on the published origin",
+  "features": [
+    {
+      "id": "x-header-mobile-nav",
+      "feature": "Header mega-menu, mobile nav, locations accordion",
+      "class": "M",
+      "pages": 100,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "first menu button opens its dropdown (21 links visible); 23 nav buttons, 13 aria-expanded controls; header contract chrome-compare exit 0 at C0",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "header button.site-nav-menu-title",
+          "min": 5
+        }
+      ]
+    },
+    {
+      "id": "m-faq-accordion",
+      "feature": "FAQ accordion",
+      "class": "M",
+      "pages": 18,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "details/summary: open state 100000 → 110000 after a click on question 2, its answer visible; 6 items on /content-supply-chain",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/content-supply-chain",
+          "selector": ".faq-block-list-item-toggle",
+          "min": 6
+        }
+      ]
+    },
+    {
+      "id": "cr-hero-carousel",
+      "feature": "Homepage / landing hero carousel",
+      "class": "CR",
+      "pages": 6,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "autoplay restored: selected slide 0 → 1 after 7 s unpoked, next button → 2; 4 slides",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".hero-block-item",
+          "min": 4
+        }
+      ]
+    },
+    {
+      "id": "cr-flickity-carousels",
+      "feature": "Featured verticals, teaser, results-statistics, offering sliders",
+      "class": "CR",
+      "pages": 38,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "featured-verticals on / 22 links; sliders gated at both widths in the published-origin table (100/100)",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".featured-verticals-block a",
+          "min": 10
+        }
+      ]
+    },
+    {
+      "id": "cr-iehub-nav",
+      "feature": "Intelligent-enterprise microsite sub-nav",
+      "class": "CR",
+      "pages": 7,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "6 hub-nav items + CTA, active item marked",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/the-intelligent-enterprise",
+          "selector": ".hub-nav-item",
+          "min": 6
+        }
+      ]
+    },
+    {
+      "id": "v-pdf-preview",
+      "feature": "PDF preview viewer",
+      "class": "CR",
+      "pages": 15,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "pdf viewer is-loaded, 7 pages, 3 canvases rendered on /es-es/whitepapers/el-giro-hacia-la-ia",
+      "owner": "D5 — PDF hosting (interim: PDFs read from the source host)",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/es-es/whitepapers/el-giro-hacia-la-ia",
+          "selector": ".pdf-view-block canvas",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "v-video-23video",
+      "feature": "Video players (TwentyThree) + autoplay background video",
+      "class": "V",
+      "pages": 21,
+      "disposition": "embed",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "TwentyThree player iframe on /lead-scoring (videos.valtech.com player.html)",
+      "checks": [
+        {
+          "type": "video-plays",
+          "path": "/lead-scoring",
+          "iframeSelector": ".video-block iframe",
+          "playbackHost": "videos.valtech.com"
+        }
+      ]
+    },
+    {
+      "id": "v-soundcloud",
+      "feature": "SoundCloud podcast player",
+      "class": "V",
+      "pages": 1,
+      "disposition": "embed",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "w.soundcloud.com player iframe for the latest track on /es-es/podcasts",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/es-es/podcasts",
+          "selector": ".latest-podcast-block iframe[src*=\"soundcloud.com\"]",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "f-marketo-contact-en",
+      "feature": "Contact form (Marketo 3404)",
+      "class": "F",
+      "pages": 22,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "mkto-form-3404 on / with 13 inputs; submission through Marketo Forms 2.0 — filled submit not replayed (no production lead from QA)",
+      "owner": "D4 — confirm Marketo stays production intake and name a test form id for the filled-submit replay",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".contact-form form.mkto-form input",
+          "min": 8
+        }
+      ]
+    },
+    {
+      "id": "f-marketo-contact-es",
+      "feature": "Contact form (Marketo 7474)",
+      "class": "F",
+      "pages": 32,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "mkto-form-7474 on /es-es/ ; same block as 3404",
+      "owner": "D4",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/es-es/",
+          "selector": "form.mkto-form input",
+          "min": 8
+        }
+      ]
+    },
+    {
+      "id": "f-marketo-download",
+      "feature": "Whitepaper download gate (Marketo 7718 + long tail)",
+      "class": "F",
+      "pages": 22,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "marketo-form block on 41 pages",
+      "owner": "D4",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/content-supply-chain",
+          "selector": ".marketo-form form.mkto-form input",
+          "min": 8
+        }
+      ]
+    },
+    {
+      "id": "f-marketo-registration",
+      "feature": "Campaign / event registration forms",
+      "class": "F",
+      "pages": 45,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "registration-form block on 7 pages",
+      "owner": "D4",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/the-intelligent-enterprise",
+          "selector": ".registration-form form, .registration-form a",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "m-thank-you-popup",
+      "feature": "Post-submit thank-you modal",
+      "class": "M",
+      "pages": 7,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "opens on Marketo success only; not replayable without a test form id",
+      "owner": "D4 — test form id",
+      "checks": []
+    },
+    {
+      "id": "m-side-modal",
+      "feature": "Side modal",
+      "class": "M",
+      "pages": 3,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "pending G-aem",
+      "verifiedBy": "loader deferred at C-final (foundation request queue); page content renders statically",
+      "checks": []
+    },
+    {
+      "id": "m-redirect-notice",
+      "feature": "Acquired-brand redirect notice",
+      "class": "M",
+      "pages": 100,
+      "disposition": "decided-out",
+      "reproducibility": "self",
+      "status": "decided-out",
+      "verifiedBy": "hidden on the source unless a visitor arrives from an acquired-brand domain; those domains keep redirecting to www.valtech.com",
+      "checks": []
+    },
+    {
+      "id": "l-blog",
+      "feature": "Blog listing",
+      "class": "L",
+      "pages": 1,
+      "disposition": "listing-document-first",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "10 authored cards = the source first page; 4 facet drop-downs (47 options) filter the authored rows client-side (Automoción → 0 of 10); \"Cargar más\" present; /query-index.json 404 — index top-up awaits D6",
+      "owner": "D6 index vs curated, D7 corpus scope (out-of-scope cards link to www.valtech.com)",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/es-es/blog",
+          "selector": ".insights-filter a.insight-item",
+          "min": 10
+        }
+      ]
+    },
+    {
+      "id": "l-casos",
+      "feature": "Cases listing",
+      "class": "L",
+      "pages": 1,
+      "disposition": "listing-document-first",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "6 authored cards",
+      "owner": "D6, D7",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/es-es/casos",
+          "selector": ".insights-filter a.insight-item",
+          "min": 6
+        }
+      ]
+    },
+    {
+      "id": "l-whitepapers",
+      "feature": "Whitepapers listing",
+      "class": "L",
+      "pages": 1,
+      "disposition": "listing-document-first",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "6 authored cards",
+      "owner": "D6, D7",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/es-es/whitepapers",
+          "selector": ".insights-filter a.insight-item",
+          "min": 6
+        }
+      ]
+    },
+    {
+      "id": "l-eventos",
+      "feature": "Events listing",
+      "class": "L",
+      "pages": 1,
+      "disposition": "listing-document-first",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "9 event links",
+      "owner": "D6, D7",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/es-es/eventos",
+          "selector": "main a[href*='/es-es/eventos/']",
+          "min": 5
+        }
+      ]
+    },
+    {
+      "id": "l-noticias",
+      "feature": "News listing",
+      "class": "L",
+      "pages": 1,
+      "disposition": "listing-document-first",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "27 news links",
+      "owner": "D6, D7",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/es-es/noticias",
+          "selector": ".news-overview a[href]",
+          "min": 10
+        }
+      ]
+    },
+    {
+      "id": "l-podcasts",
+      "feature": "Podcasts listing + filter",
+      "class": "L",
+      "pages": 1,
+      "disposition": "listing-document-first",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "latest episode + authored episode rows",
+      "owner": "D6, D7",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/es-es/podcasts",
+          "selector": "main a[href*='podcast']",
+          "min": 3
+        }
+      ]
+    },
+    {
+      "id": "l-content-hub",
+      "feature": "Content hub",
+      "class": "L",
+      "pages": 1,
+      "disposition": "listing-document-first",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "authored hub rows (static snapshot)",
+      "owner": "D6",
+      "checks": []
+    },
+    {
+      "id": "l-related-rails",
+      "feature": "Curated card rails",
+      "class": "L",
+      "pages": 2,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "related-cases rail 2 links on /es-es/la-empresa-inteligente/liderar",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/es-es/la-empresa-inteligente/liderar",
+          "selector": ".related-cases a",
+          "min": 2
+        }
+      ]
+    },
+    {
+      "id": "i18n-locale-tree",
+      "feature": "Locale trees, hreflang + switcher",
+      "class": "I18N",
+      "pages": 100,
+      "disposition": "interim",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "en root + es-es delivered; header location menu kept; no hreflang alternates yet (0 link[hreflang])",
+      "owner": "D8 — locale scope",
+      "checks": []
+    },
+    {
+      "id": "martech",
+      "feature": "Analytics, tags and consent (GTM-WNBZ8QD, Cookiebot, GA4, …) — rows 1–17",
+      "class": "T",
+      "pages": 100,
+      "disposition": "scaffold",
+      "reproducibility": "owner",
+      "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "scripts/martech.js shipped, every contract part enabled:false; / requests no GTM / Cookiebot host",
+      "owner": "D1 tag manager on, D2 consent model, D3 server-side collector",
+      "checks": [
+        {
+          "type": "martech",
+          "path": "/",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "www.googletagmanager.com",
+            "consent.cookiebot.com",
+            "consentcdn.cookiebot.com"
+          ]
+        }
+      ]
+    }
+  ]
+}

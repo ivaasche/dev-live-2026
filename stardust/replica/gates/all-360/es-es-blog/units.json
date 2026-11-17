@@ -1,0 +1,2047 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-14T08:27:20.526Z",
+  "tol": 4,
+  "n": 3,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/es-es/blog/",
+  "at": "2026-11-14T08:26:57.039Z",
+  "docH": 7377
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/es-es/blog",
+  "at": "2026-11-14T08:27:20.335Z",
+  "docH": 7377
+ },
+ "results": [
+  {
+   "sel": "a:has(> .ii__image-wrapper)=.insight-item",
+   "family": null,
+   "required": true,
+   "originMatches": 10,
+   "edsMatches": 10,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.sc-hCcPtG.bcsgSM > div.sc-folSZX.fGwqqz > a.sc-bdDsCe.cJVcwm"
+     },
+     "eds": {
+      "path": "div.insights-overview-inner > div.insights-overview-grid > a.insight-item"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:la era de los agentes personales",
+       "role": "image",
+       "text": "la era de los agentes personales",
+       "edsText": "la era de los agentes personales",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:la era de los agentes personales",
+       "role": "heading",
+       "text": "la era de los agentes personales",
+       "edsText": "la era de los agentes personales",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 237,
+        "w": 312,
+        "h": 19
+       },
+       "eds": {
+        "x": 0,
+        "y": 237,
+        "w": 312,
+        "h": 19,
+        "sel": "h2#la-era-de-los-agentes-personales",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/19/300",
+        "eds": "16/19/300"
+       }
+      },
+      {
+       "key": "text:los agentes personales son sistemas de i",
+       "role": "text",
+       "text": "los agentes personales son sistemas de ia que conservan el c",
+       "edsText": "los agentes personales son sistemas de ia que conservan el c",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 280,
+        "w": 312,
+        "h": 112
+       },
+       "eds": {
+        "x": 0,
+        "y": 280,
+        "w": 312,
+        "h": 112,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:noviembre 11, 2026",
+       "role": "text",
+       "text": "noviembre 11, 2026",
+       "edsText": "noviembre 11, 2026",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 416,
+        "w": 127,
+        "h": 18
+       },
+       "eds": {
+        "x": 0,
+        "y": 416,
+        "w": 127,
+        "h": 18,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/700",
+        "eds": "14/20/700"
+       }
+      },
+      {
+       "key": "text:bienes de gran consumo",
+       "role": "text",
+       "text": "bienes de gran consumo",
+       "edsText": "bienes de gran consumo",
+       "byPosition": false,
+       "origin": {
+        "x": 127,
+        "y": 416,
+        "w": 159,
+        "h": 18
+       },
+       "eds": {
+        "x": 127,
+        "y": 416,
+        "w": 159,
+        "h": 18,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:servicios financieros",
+       "role": "text",
+       "text": "servicios financieros",
+       "edsText": "servicios financieros",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 435,
+        "w": 137,
+        "h": 18
+       },
+       "eds": {
+        "x": 0,
+        "y": 435,
+        "w": 137,
+        "h": 18,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:sector industrial",
+       "role": "text",
+       "text": "sector industrial",
+       "edsText": "sector industrial",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 435,
+        "w": 252,
+        "h": 38
+       },
+       "eds": {
+        "x": 0,
+        "y": 435,
+        "w": 252,
+        "h": 38,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:salud",
+       "role": "text",
+       "text": "salud",
+       "edsText": "salud",
+       "byPosition": false,
+       "origin": {
+        "x": 137,
+        "y": 435,
+        "w": 41,
+        "h": 18
+       },
+       "eds": {
+        "x": 137,
+        "y": 435,
+        "w": 41,
+        "h": 18,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:lujo",
+       "role": "text",
+       "text": "lujo",
+       "edsText": "lujo",
+       "byPosition": false,
+       "origin": {
+        "x": 178,
+        "y": 435,
+        "w": 32,
+        "h": 18
+       },
+       "eds": {
+        "x": 178,
+        "y": 435,
+        "w": 32,
+        "h": 18,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:viajes y hostelería",
+       "role": "text",
+       "text": "viajes y hostelería",
+       "edsText": "viajes y hostelería",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 455,
+        "w": 305,
+        "h": 38
+       },
+       "eds": {
+        "x": 0,
+        "y": 455,
+        "w": 305,
+        "h": 38,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:movilidad",
+       "role": "text",
+       "text": "movilidad",
+       "edsText": "movilidad",
+       "byPosition": false,
+       "origin": {
+        "x": 64,
+        "y": 455,
+        "w": 67,
+        "h": 18
+       },
+       "eds": {
+        "x": 64,
+        "y": 455,
+        "w": 67,
+        "h": 18,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:sector público",
+       "role": "text",
+       "text": "sector público",
+       "edsText": "sector público",
+       "byPosition": false,
+       "origin": {
+        "x": 131,
+        "y": 455,
+        "w": 96,
+        "h": 18
+       },
+       "eds": {
+        "x": 131,
+        "y": 455,
+        "w": 96,
+        "h": 18,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:retail",
+       "role": "text",
+       "text": "retail",
+       "edsText": "retail",
+       "byPosition": false,
+       "origin": {
+        "x": 227,
+        "y": 455,
+        "w": 41,
+        "h": 18
+       },
+       "eds": {
+        "x": 227,
+        "y": 455,
+        "w": 41,
+        "h": 18,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:aceleración del comercio",
+       "role": "text",
+       "text": "aceleración del comercio",
+       "edsText": "aceleración del comercio",
+       "byPosition": false,
+       "origin": {
+        "x": 80,
+        "y": 474,
+        "w": 161,
+        "h": 18
+       },
+       "eds": {
+        "x": 80,
+        "y": 474,
+        "w": 161,
+        "h": 18,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:connected experiences",
+       "role": "text",
+       "text": "connected experiences",
+       "edsText": "connected experiences",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 494,
+        "w": 154,
+        "h": 18
+       },
+       "eds": {
+        "x": 0,
+        "y": 494,
+        "w": 154,
+        "h": 18,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:revolución del dato y la ia",
+       "role": "text",
+       "text": "revolución del dato y la ia",
+       "edsText": "revolución del dato y la ia",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 494,
+        "w": 301,
+        "h": 38
+       },
+       "eds": {
+        "x": 0,
+        "y": 494,
+        "w": 301,
+        "h": 38,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:elevación de la experiencia",
+       "role": "text",
+       "text": "elevación de la experiencia",
+       "edsText": "elevación de la experiencia",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 514,
+        "w": 292,
+        "h": 38
+       },
+       "eds": {
+        "x": 0,
+        "y": 514,
+        "w": 292,
+        "h": 38,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:transformación empresarial",
+       "role": "text",
+       "text": "transformación empresarial",
+       "edsText": "transformación empresarial",
+       "byPosition": false,
+       "origin": {
+        "x": 19,
+        "y": 514,
+        "w": 180,
+        "h": 18
+       },
+       "eds": {
+        "x": 19,
+        "y": 514,
+        "w": 180,
+        "h": 18,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 1531,
+       "w": 312,
+       "h": 553
+      },
+      "eds": {
+       "x": 24,
+       "y": 1531,
+       "w": 312,
+       "h": 553
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 19,
+      "within": 19,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.sc-hCcPtG.bcsgSM > div.sc-folSZX.fGwqqz > a.sc-bdDsCe.cJVcwm"
+     },
+     "eds": {
+      "path": "div.insights-overview-inner > div.insights-overview-grid > a.insight-item"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:el geo como nueva frontera de la visibil",
+       "role": "image",
+       "text": "el geo como nueva frontera de la visibilidad digital",
+       "edsText": "el geo como nueva frontera de la visibilidad digital",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:el geo como nueva frontera de la visibil",
+       "role": "heading",
+       "text": "el geo como nueva frontera de la visibilidad digital",
+       "edsText": "el geo como nueva frontera de la visibilidad digital",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 237,
+        "w": 312,
+        "h": 38
+       },
+       "eds": {
+        "x": 0,
+        "y": 237,
+        "w": 312,
+        "h": 38,
+        "sel": "h2#el-geo-como-nueva-frontera-de-la-visibilidad-digital",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/19/300",
+        "eds": "16/19/300"
+       }
+      },
+      {
+       "key": "text:durante décadas, los equipos de marketin",
+       "role": "text",
+       "text": "durante décadas, los equipos de marketing han buscado mejora",
+       "edsText": "durante décadas, los equipos de marketing han buscado mejora",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 299,
+        "w": 312,
+        "h": 112
+       },
+       "eds": {
+        "x": 0,
+        "y": 299,
+        "w": 312,
+        "h": 112,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:noviembre 10, 2026",
+       "role": "text",
+       "text": "noviembre 10, 2026",
+       "edsText": "noviembre 10, 2026",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 435,
+        "w": 130,
+        "h": 18
+       },
+       "eds": {
+        "x": 0,
+        "y": 435,
+        "w": 130,
+        "h": 18,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/700",
+        "eds": "14/20/700"
+       }
+      },
+      {
+       "key": "text:sector público",
+       "role": "text",
+       "text": "sector público",
+       "edsText": "sector público",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 435,
+        "w": 270,
+        "h": 38
+       },
+       "eds": {
+        "x": 0,
+        "y": 435,
+        "w": 270,
+        "h": 38,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:movilidad",
+       "role": "text",
+       "text": "movilidad",
+       "edsText": "movilidad",
+       "byPosition": false,
+       "origin": {
+        "x": 130,
+        "y": 435,
+        "w": 67,
+        "h": 18
+       },
+       "eds": {
+        "x": 130,
+        "y": 435,
+        "w": 67,
+        "h": 18,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:lujo",
+       "role": "text",
+       "text": "lujo",
+       "edsText": "lujo",
+       "byPosition": false,
+       "origin": {
+        "x": 196,
+        "y": 435,
+        "w": 32,
+        "h": 18
+       },
+       "eds": {
+        "x": 196,
+        "y": 435,
+        "w": 32,
+        "h": 18,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:bienes de gran consumo",
+       "role": "text",
+       "text": "bienes de gran consumo",
+       "edsText": "bienes de gran consumo",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 454,
+        "w": 283,
+        "h": 38
+       },
+       "eds": {
+        "x": 0,
+        "y": 454,
+        "w": 283,
+        "h": 38,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:servicios financieros",
+       "role": "text",
+       "text": "servicios financieros",
+       "edsText": "servicios financieros",
+       "byPosition": false,
+       "origin": {
+        "x": 52,
+        "y": 454,
+        "w": 137,
+        "h": 18
+       },
+       "eds": {
+        "x": 52,
+        "y": 454,
+        "w": 137,
+        "h": 18,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:viajes y hostelería",
+       "role": "text",
+       "text": "viajes y hostelería",
+       "edsText": "viajes y hostelería",
+       "byPosition": false,
+       "origin": {
+        "x": 65,
+        "y": 474,
+        "w": 121,
+        "h": 18
+       },
+       "eds": {
+        "x": 65,
+        "y": 474,
+        "w": 121,
+        "h": 18,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:salud",
+       "role": "text",
+       "text": "salud",
+       "edsText": "salud",
+       "byPosition": false,
+       "origin": {
+        "x": 186,
+        "y": 474,
+        "w": 41,
+        "h": 18
+       },
+       "eds": {
+        "x": 186,
+        "y": 474,
+        "w": 41,
+        "h": 18,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:retail",
+       "role": "text",
+       "text": "retail",
+       "edsText": "retail",
+       "byPosition": false,
+       "origin": {
+        "x": 227,
+        "y": 474,
+        "w": 38,
+        "h": 18
+       },
+       "eds": {
+        "x": 227,
+        "y": 474,
+        "w": 38,
+        "h": 18,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:revolución del dato y la ia",
+       "role": "text",
+       "text": "revolución del dato y la ia",
+       "edsText": "revolución del dato y la ia",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 494,
+        "w": 163,
+        "h": 18
+       },
+       "eds": {
+        "x": 0,
+        "y": 494,
+        "w": 163,
+        "h": 18,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 2104,
+       "w": 312,
+       "h": 513
+      },
+      "eds": {
+       "x": 24,
+       "y": 2104,
+       "w": 312,
+       "h": 513
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 14,
+      "within": 14,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.sc-hCcPtG.bcsgSM > div.sc-folSZX.fGwqqz > a.sc-bdDsCe.cJVcwm"
+     },
+     "eds": {
+      "path": "div.insights-overview-inner > div.insights-overview-grid > a.insight-item"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:cómo la ia transforma las búsquedas y la",
+       "role": "image",
+       "text": "cómo la ia transforma las búsquedas y las webs de marca",
+       "edsText": "cómo la ia transforma las búsquedas y las webs de marca",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:cómo la ia transforma las búsquedas y la",
+       "role": "heading",
+       "text": "cómo la ia transforma las búsquedas y las webs de marca",
+       "edsText": "cómo la ia transforma las búsquedas y las webs de marca",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 237,
+        "w": 312,
+        "h": 38
+       },
+       "eds": {
+        "x": 0,
+        "y": 237,
+        "w": 312,
+        "h": 38,
+        "sel": "h2#cómo-la-ia-transforma-las-búsquedas-y-las-webs-de-marca",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/19/300",
+        "eds": "16/19/300"
+       }
+      },
+      {
+       "key": "text:la brecha de expectativas es cada vez ma",
+       "role": "text",
+       "text": "la brecha de expectativas es cada vez mayor entre las experi",
+       "edsText": "la brecha de expectativas es cada vez mayor entre las experi",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 299,
+        "w": 312,
+        "h": 112
+       },
+       "eds": {
+        "x": 0,
+        "y": 299,
+        "w": 312,
+        "h": 112,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:noviembre 10, 2026",
+       "role": "text",
+       "text": "noviembre 10, 2026",
+       "edsText": "noviembre 10, 2026",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 435,
+        "w": 130,
+        "h": 18
+       },
+       "eds": {
+        "x": 0,
+        "y": 435,
+        "w": 130,
+        "h": 18,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/700",
+        "eds": "14/20/700"
+       }
+      },
+      {
+       "key": "text:revolución del dato y la ia",
+       "role": "text",
+       "text": "revolución del dato y la ia",
+       "edsText": "revolución del dato y la ia",
+       "byPosition": false,
+       "origin": {
+        "x": 130,
+        "y": 435,
+        "w": 163,
+        "h": 18
+       },
+       "eds": {
+        "x": 130,
+        "y": 435,
+        "w": 163,
+        "h": 18,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 2637,
+       "w": 312,
+       "h": 454
+      },
+      "eds": {
+       "x": 24,
+       "y": 2637,
+       "w": 312,
+       "h": 454
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".insight-secondary .masthead-insights__container=.insight-secondary .masthead-insights__container",
+   "family": null,
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.grid__column.fr-row-1 > a.masthead-insights > div.masthead-insights__container.reveal-box"
+     },
+     "eds": {
+      "path": "div.grid-column.insight-secondary > a.masthead-insights > div.masthead-insights-container.masthead-insights__container"
+     },
+     "rows": [
+      {
+       "key": "image:img#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 203
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 203,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 186,
+        "w": 360,
+        "h": 21
+       },
+       "eds": {
+        "x": 0,
+        "y": 186,
+        "w": 360,
+        "h": 21,
+        "sel": "picture.portrait",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:diana chavez - six years of creativity, ",
+       "role": "heading",
+       "text": "diana chavez - six years of creativity, curiosity and genai",
+       "edsText": "diana chavez - six years of creativity, curiosity and genai",
+       "byPosition": false,
+       "origin": {
+        "x": 22,
+        "y": 230,
+        "w": 317,
+        "h": 43
+       },
+       "eds": {
+        "x": 22,
+        "y": 230,
+        "w": 317,
+        "h": 43,
+        "sel": "h2#diana-chavez---six-years-of-creativity-curiosity-and-genai",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/22/300",
+        "eds": "18/22/300"
+       }
+      },
+      {
+       "key": "text:noviembre 02, 2026",
+       "role": "text",
+       "text": "noviembre 02, 2026",
+       "edsText": "noviembre 02, 2026",
+       "byPosition": false,
+       "origin": {
+        "x": 22,
+        "y": 314,
+        "w": 105,
+        "h": 14
+       },
+       "eds": {
+        "x": 22,
+        "y": 314,
+        "w": 105,
+        "h": 14,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/700",
+        "eds": "11/15/700"
+       }
+      },
+      {
+       "key": "text:diversity & inclusion",
+       "role": "text",
+       "text": "diversity & inclusion",
+       "edsText": "diversity & inclusion",
+       "byPosition": false,
+       "origin": {
+        "x": 126,
+        "y": 314,
+        "w": 99,
+        "h": 14
+       },
+       "eds": {
+        "x": 126,
+        "y": 314,
+        "w": 99,
+        "h": 14,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 517,
+       "w": 360,
+       "h": 349
+      },
+      "eds": {
+       "x": 0,
+       "y": 517,
+       "w": 360,
+       "h": 349
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.grid__column.fr-row-1 > a.masthead-insights > div.masthead-insights__container.reveal-box"
+     },
+     "eds": {
+      "path": "div.grid-column.insight-secondary > a.masthead-insights > div.masthead-insights-container.masthead-insights__container"
+     },
+     "rows": [
+      {
+       "key": "image:img#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 203
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 203,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 186,
+        "w": 360,
+        "h": 21
+       },
+       "eds": {
+        "x": 0,
+        "y": 186,
+        "w": 360,
+        "h": 21,
+        "sel": "picture.portrait",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:introducing the agent factory for agenti",
+       "role": "heading",
+       "text": "introducing the agent factory for agentic workforces",
+       "edsText": "introducing the agent factory for agentic workforces",
+       "byPosition": false,
+       "origin": {
+        "x": 22,
+        "y": 230,
+        "w": 317,
+        "h": 43
+       },
+       "eds": {
+        "x": 22,
+        "y": 230,
+        "w": 317,
+        "h": 43,
+        "sel": "h2#introducing-the-agent-factory-for-agentic-workforces",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/22/300",
+        "eds": "18/22/300"
+       }
+      },
+      {
+       "key": "text:octubre 27, 2026",
+       "role": "text",
+       "text": "octubre 27, 2026",
+       "edsText": "octubre 27, 2026",
+       "byPosition": false,
+       "origin": {
+        "x": 22,
+        "y": 314,
+        "w": 88,
+        "h": 14
+       },
+       "eds": {
+        "x": 22,
+        "y": 314,
+        "w": 88,
+        "h": 14,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/700",
+        "eds": "11/15/700"
+       }
+      },
+      {
+       "key": "text:manufacturing",
+       "role": "text",
+       "text": "manufacturing",
+       "edsText": "manufacturing",
+       "byPosition": false,
+       "origin": {
+        "x": 110,
+        "y": 314,
+        "w": 76,
+        "h": 14
+       },
+       "eds": {
+        "x": 110,
+        "y": 314,
+        "w": 76,
+        "h": 14,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:mobility",
+       "role": "text",
+       "text": "mobility",
+       "edsText": "mobility",
+       "byPosition": false,
+       "origin": {
+        "x": 186,
+        "y": 314,
+        "w": 43,
+        "h": 14
+       },
+       "eds": {
+        "x": 186,
+        "y": 314,
+        "w": 43,
+        "h": 14,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:retail",
+       "role": "text",
+       "text": "retail",
+       "edsText": "retail",
+       "byPosition": false,
+       "origin": {
+        "x": 229,
+        "y": 314,
+        "w": 32,
+        "h": 14
+       },
+       "eds": {
+        "x": 229,
+        "y": 314,
+        "w": 32,
+        "h": 14,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:luxury",
+       "role": "text",
+       "text": "luxury",
+       "edsText": "luxury",
+       "byPosition": false,
+       "origin": {
+        "x": 261,
+        "y": 314,
+        "w": 37,
+        "h": 14
+       },
+       "eds": {
+        "x": 261,
+        "y": 314,
+        "w": 37,
+        "h": 14,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:health",
+       "role": "text",
+       "text": "health",
+       "edsText": "health",
+       "byPosition": false,
+       "origin": {
+        "x": 299,
+        "y": 314,
+        "w": 35,
+        "h": 14
+       },
+       "eds": {
+        "x": 299,
+        "y": 314,
+        "w": 35,
+        "h": 14,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:financial services",
+       "role": "text",
+       "text": "financial services",
+       "edsText": "financial services",
+       "byPosition": false,
+       "origin": {
+        "x": 22,
+        "y": 329,
+        "w": 92,
+        "h": 14
+       },
+       "eds": {
+        "x": 22,
+        "y": 329,
+        "w": 92,
+        "h": 14,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:public sector",
+       "role": "text",
+       "text": "public sector",
+       "edsText": "public sector",
+       "byPosition": false,
+       "origin": {
+        "x": 114,
+        "y": 329,
+        "w": 69,
+        "h": 14
+       },
+       "eds": {
+        "x": 114,
+        "y": 329,
+        "w": 69,
+        "h": 14,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:travel and hospitality",
+       "role": "text",
+       "text": "travel and hospitality",
+       "edsText": "travel and hospitality",
+       "byPosition": false,
+       "origin": {
+        "x": 183,
+        "y": 329,
+        "w": 109,
+        "h": 14
+       },
+       "eds": {
+        "x": 183,
+        "y": 329,
+        "w": 109,
+        "h": 14,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:cpg",
+       "role": "text",
+       "text": "cpg",
+       "edsText": "cpg",
+       "byPosition": false,
+       "origin": {
+        "x": 291,
+        "y": 329,
+        "w": 24,
+        "h": 14
+       },
+       "eds": {
+        "x": 291,
+        "y": 329,
+        "w": 24,
+        "h": 14,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:data & ai revolution",
+       "role": "text",
+       "text": "data & ai revolution",
+       "edsText": "data & ai revolution",
+       "byPosition": false,
+       "origin": {
+        "x": 22,
+        "y": 344,
+        "w": 100,
+        "h": 14
+       },
+       "eds": {
+        "x": 22,
+        "y": 344,
+        "w": 100,
+        "h": 14,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 868,
+       "w": 360,
+       "h": 380
+      },
+      "eds": {
+       "x": 0,
+       "y": 868,
+       "w": 360,
+       "h": 380
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 14,
+      "within": 14,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 5,
+  "within": 58,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

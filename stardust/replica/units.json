@@ -1,0 +1,302 @@
+{
+  "featured-case-study-item": {
+    "origin": ".featured-case-study__item",
+    "build": ".featured-case-study-item",
+    "n": 5,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "partners-logo": {
+    "origin": ".partners-block__logo",
+    "build": ".partners-block-logo",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "featured-verticals-item": {
+    "origin": ".featured-verticals-block__item.is-selected",
+    "build": ".featured-verticals-block-item.is-selected",
+    "n": 1,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "footer-menu-link": {
+    "origin": ".site-footer__menu__list a",
+    "build": ".site-footer-menu-list a",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "features-showcase-item": {
+    "origin": ".features-showcase__item",
+    "build": ".features-showcase-item",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "es-es-blog-la-era-de-los-agentes-de-ia"
+    ],
+    "templates": [],
+    "note": "page-scoped: no article sibling carries .features-showcase__item"
+  },
+  "author-details": {
+    "origin": ".author-details",
+    "build": ".author-details-item",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "es-es-blog-la-era-de-los-agentes-de-ia",
+      "es-es-blog-como-marcas-locales-escalan-de-forma-diferente",
+      "es-es-blog-el-geo-como-la-nueva-frontera-de-la-visibilidad-digital",
+      "es-es-blog-embedding-ai-in-government-case-management",
+      "es-es-blog-ia-transforma-busquedas-y-webs-de-marca",
+      "es-es-blog-presentamos-el-muro-de-datos-b2b"
+    ],
+    "templates": [],
+    "note": "page-scoped: only the article pages whose source carries .author-details (siblings without the component have 0 origin units)"
+  },
+  "insight-item": {
+    "origin": "a:has(> .ii__image-wrapper)",
+    "build": ".insight-item",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "es-es-blog"
+    ],
+    "templates": [],
+    "note": "origin selector carries no \"=\": unit-geometry splits --unit on \"=\" (a[data-component-name=...] broke into a bad selector); the ii__image-wrapper child marks exactly the 10 feed cards; scoped to the blog page only (cluster-listing): the sibling listings render other card islands"
+  },
+  "masthead-insights-secondary": {
+    "origin": ".insight-secondary .masthead-insights__container",
+    "build": ".insight-secondary .masthead-insights__container",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "es-es-blog"
+    ],
+    "templates": [],
+    "note": "scoped to the blog page only (cluster-listing): the sibling listings render other card islands"
+  },
+  "results-statistics-item": {
+    "origin": ".results-statistics-block_item:nth-child(1 of .results-statistics-block_item) .results-statistics-block_item_title",
+    "build": ".results-statistics-item:nth-child(1 of .results-statistics-item) .results-statistics-item-title",
+    "n": 1,
+    "required": true,
+    "pages": [
+      "ai-searchandizing-workshop"
+    ],
+    "templates": [],
+    "note": "required check on the first stat card figure (the selected slide < 64rem, grid cell 1 >= 64rem). Below 64rem the source is a one-card slider: cards 2-4 sit outside the overflow-hidden viewport and read hidden on origin AND EDS alike (2026-11-13 360 run: card 2 hidden both sides, dx/dy/dw/dh 0) — the gate counts the served side only. The card description is an Office-Online paste on the source (p > span.TextRun > span.NormalTextRun runs split mid-sentence), keyed by unit-geometry as separate text elements no authored EDS paragraph can pair (card-level run: off 2 / missing 4 while every card box sat at dx/dy/dw/dh 0); card geometry stays covered by the pixel row. Page-scoped (cluster-campaign): template scope made every campaign sibling without the component error 0/0 DOM matches."
+  },
+  "podcast-speakers-info": {
+    "origin": ".podcast-speakers__info",
+    "build": ".podcast-speakers-info",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "ai-searchandizing-workshop"
+    ],
+    "templates": [],
+    "note": "Page-scoped (cluster-campaign): template scope made every campaign sibling without the component error 0/0 DOM matches."
+  },
+  "columns-rte-row": {
+    "origin": ".columns-rte__content-row",
+    "build": ".columns-rte-content-row",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "digital-media-performance-marketing",
+      "brand-strategy-design-agency",
+      "creative-content",
+      "valtech-ukraine-in-media"
+    ],
+    "templates": [],
+    "note": "page-scoped: only these editorial pages carry columns-rte"
+  },
+  "offering-features-showcase-item": {
+    "origin": ".features-showcase__item",
+    "build": ".features-showcase-item",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "valtech-conversion-engine"
+    ],
+    "templates": [],
+    "note": "cluster-offering: page-scoped to the archetype (siblings carry other counts / no instance → 0-match errors)."
+  },
+  "two-columns-item": {
+    "origin": ".two-columns__item__text",
+    "build": ".two-columns-item-text",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "valtech-conversion-engine"
+    ],
+    "templates": [],
+    "note": "cluster-offering: page-scoped to the archetype (siblings carry other counts / no instance → 0-match errors)."
+  },
+  "partners-logo-inline": {
+    "origin": ".partners-block__section.inline .partners-block__logo",
+    "build": ".partners-block-section.inline .partners-block-logo",
+    "n": 5,
+    "required": true,
+    "pages": [
+      "valtech-conversion-engine"
+    ],
+    "templates": [],
+    "note": "cluster-offering: page-scoped to the archetype (siblings carry other counts / no instance → 0-match errors)."
+  },
+  "offering-podcast-speakers-info": {
+    "origin": ".podcast-speakers__info",
+    "build": ".podcast-speakers-info",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "valtech-conversion-engine"
+    ],
+    "templates": [],
+    "note": "cluster-offering: page-scoped to the archetype (siblings carry other counts / no instance → 0-match errors)."
+  },
+  "faq-block-item": {
+    "origin": ".faq-block__list__item:nth-child(-n+5)",
+    "build": ".faq-block-list-item:nth-child(-n+5)",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "valtech-conversion-engine"
+    ],
+    "templates": [],
+    "note": "first 5 questions: the 6th answer is an Office-Online paste (p > span runs split mid-sentence) that unit-geometry keys as separate text elements no authored paragraph can pair (DA drops <span>); item geometry stays on the pixel row cluster-offering: page-scoped to the archetype (siblings carry other counts / no instance → 0-match errors)."
+  },
+  "microsite-features-showcase-item": {
+    "origin": ".features-showcase__item",
+    "build": ".features-showcase-item",
+    "n": 5,
+    "required": true,
+    "pages": [
+      "es-es-la-empresa-inteligente-operar",
+      "es-es-la-empresa-inteligente-organizar"
+    ],
+    "templates": [],
+    "note": "page-scoped: build = EDS kebab class (archetype-microsite)"
+  },
+  "microsite-related-case": {
+    "origin": ".related-cases__item",
+    "build": ".related-cases-item",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "es-es-la-empresa-inteligente-operar",
+      "es-es-la-empresa-inteligente-organizar"
+    ],
+    "templates": [],
+    "note": "page-scoped: build = EDS kebab class (archetype-microsite); cluster-microsite: crecer/liderar dropped — their two-line card titles leave 44 % of the hover content band inside the card clip, so unit-geometry flags the served box hidden (<50 % visible) at Δ0 geometry (source identical: --move-up -97/-88 measured live; r1-1440 all rows dx=dy=dw=dh=0)"
+  },
+  "microsite-speaker": {
+    "origin": ".podcast-speakers__info",
+    "build": ".podcast-speakers-info",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "es-es-la-empresa-inteligente-operar",
+      "es-es-la-empresa-inteligente-crecer"
+    ],
+    "templates": [],
+    "note": "page-scoped: build = EDS kebab class (archetype-microsite)"
+  },
+  "microsite-featured-verticals-item": {
+    "origin": ".featured-verticals-block__item.is-selected",
+    "build": ".featured-verticals-block-item.is-selected",
+    "n": 1,
+    "required": true,
+    "pages": [
+      "es-es-la-empresa-inteligente-operar",
+      "es-es-la-empresa-inteligente-organizar",
+      "es-es-la-empresa-inteligente-crecer",
+      "es-es-la-empresa-inteligente-liderar"
+    ],
+    "templates": [],
+    "note": "page-scoped: build = EDS kebab class (archetype-microsite)"
+  },
+  "microsite-iehub-nav-item": {
+    "origin": ".iehub-nav__item",
+    "build": ".hub-nav-item",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "es-es-la-empresa-inteligente-operar",
+      "es-es-la-empresa-inteligente-organizar",
+      "es-es-la-empresa-inteligente-crecer",
+      "es-es-la-empresa-inteligente-liderar",
+      "es-es-la-empresa-inteligente-modelo-operativo",
+      "es-es-la-empresa-inteligente",
+      "the-intelligent-enterprise"
+    ],
+    "templates": [],
+    "note": "page-scoped: build = EDS kebab class (archetype-microsite)"
+  },
+  "microsite-features-showcase-item-4": {
+    "origin": ".features-showcase__item",
+    "build": ".features-showcase-item",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "es-es-la-empresa-inteligente-modelo-operativo"
+    ],
+    "templates": [],
+    "note": "page-scoped: build = EDS kebab class (cluster-microsite; count differs from the archetype)"
+  },
+  "microsite-speaker-3": {
+    "origin": ".podcast-speakers__info",
+    "build": ".podcast-speakers-info",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "es-es-la-empresa-inteligente-organizar"
+    ],
+    "templates": [],
+    "note": "page-scoped: build = EDS kebab class (cluster-microsite; count differs from the archetype)"
+  },
+  "microsite-speaker-5": {
+    "origin": ".podcast-speakers__info",
+    "build": ".podcast-speakers-info",
+    "n": 5,
+    "required": true,
+    "pages": [
+      "es-es-la-empresa-inteligente-liderar"
+    ],
+    "templates": [],
+    "note": "page-scoped: build = EDS kebab class (cluster-microsite; count differs from the archetype)"
+  },
+  "microsite-speaker-9": {
+    "origin": ".podcast-speakers__info",
+    "build": ".podcast-speakers-info",
+    "n": 9,
+    "required": true,
+    "pages": [
+      "es-es-la-empresa-inteligente",
+      "the-intelligent-enterprise"
+    ],
+    "templates": [],
+    "note": "page-scoped: build = EDS kebab class (cluster-microsite; count differs from the archetype)"
+  }
+}

@@ -1,0 +1,1825 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-13T11:59:01.841Z",
+    "readArtifacts": [
+      "https://www.valtech.com/",
+      "stardust/current/_computed-styles.json",
+      "stardust/current/pages/*.json (100)",
+      "stardust/current/pages/*.html (100)",
+      "stardust/.work/blocks.json",
+      "stardust/current/assets/css/main.css",
+      "stardust/current/assets/css/critical-homepage.css",
+      "stardust/current/assets/css/critical-iehub.css",
+      "stardust/current/assets/css/homepage.css"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.10.0",
+    "notes": [
+      "palette capped at 8; dropped census clusters: #999999(1678), #0d241e(94), #171717(86), #363636(62), #ffffff80(46), #dddddd(40), #888888(24), #666666(18), #ffffffcc(8)",
+      "background: census picked #000000 by painted area (black bands/footers/dark mastheads); every page body is #f3f2ef, used as background and #000 recorded as text-primary + dark ground",
+      "accent #00c8ff comes from the fetched CSS (.side-button .button), not the census — the census does not sample the rotated fixed side tab",
+      "radius: census mode (non-pill) is 2px (×183), but pills (100px ×607) dominate by count — every button is a pill; area mode 23.6078px. Home matches cross-page (pill buttons).",
+      "heading per-level sizes mix 1440 and 360 measurements (census levels); desktop sizes listed in type.headingFamily.sizes come from 1440 records",
+      "heroMedium null: the home hero is a Flickity fade carousel of 4 still images (no video/canvas/lottie captured: media.videos=[], iframes=[])",
+      "iconFont null (census aggregate.iconFont null)",
+      "no embed-dominated pages detected (pages/*.json carry no embedDominance flag); the 7 es-es listing pages render a client-side React app inside main (react element)"
+    ]
+  },
+  "site": {
+    "name": "Valtech",
+    "tagline": "The experience innovation company",
+    "description": "At Valtech, we offer solutions designed to achieve the exceptional, helping our clients leap beyond sameness and maximize their full potential.",
+    "originUrl": "https://www.valtech.com"
+  },
+  "origins": [
+    {
+      "origin": "https://www.valtech.com",
+      "role": "primary",
+      "pagesCaptured": 100,
+      "contributedSignals": []
+    }
+  ],
+  "logo": {
+    "source": "inline-svg",
+    "sourceSelector": "nav.site-nav .site-nav__logo__link > svg",
+    "censusSelector": "nav > div:nth-of-type(1) > div > div > div > a > svg",
+    "localPath": "stardust/current/assets/logo.svg",
+    "format": "svg",
+    "intrinsicWidth": 159,
+    "intrinsicHeight": 36,
+    "title": "Valtech, go back to homepage",
+    "desc": "The Experience Innovation Company",
+    "synthesized": false,
+    "synthesizedBasis": null,
+    "variantsCaptured": [
+      "header inline SVG (black wordmark on #f3f2ef)"
+    ],
+    "variantsNotCaptured": [
+      "inverse/white",
+      ".site-logo__secondary rotated logo (CSS reference only)",
+      ".site-footer__brand-logo"
+    ],
+    "evidence": "_computed-styles.json#aggregate.logo (inline-svg, rect 159×36 at 24,12, inHomeLink) + pages/index.html .site-nav__logo"
+  },
+  "favicon": {
+    "localPath": "stardust/current/assets/favicon.ico",
+    "sourceUrl": "https://www.valtech.com/public/dist/img/favicon/favicon.ico",
+    "variantsReferenced": [
+      "apple-touch-icon.png 180",
+      "favicon-32x32.png",
+      "favicon-16x16.png",
+      "safari-pinned-tab.svg (mask, #000000)"
+    ]
+  },
+  "palette": [
+    {
+      "role": "background",
+      "value": "#f3f2ef",
+      "occurrences": 754,
+      "sourceSelectors": [
+        "body"
+      ],
+      "sources": [
+        "es-es-politica-de-cookies",
+        "experience-innovation3",
+        "es-es-servicios-revolucion-del-dato-y-ia"
+      ],
+      "usedAs": [
+        "background",
+        "text"
+      ],
+      "evidence": "body background rgb(243, 242, 239) on 100/100 pages (_computed-styles.json pages[*][1440].bgColors source \"body\"); census cluster representative is #ececec (members rgb(236, 236, 236) | rgb(243, 242, 239) | rgb(247, 232, 225) | rgb(242, 242, 242)); main.css body{background:#f3f2ef}"
+    },
+    {
+      "role": "text-primary",
+      "value": "#000000",
+      "occurrences": 14095,
+      "sourceSelectors": [
+        "nav > div:nth-of-type(1) > div > div > ul > li:nth-of-type(1) > button",
+        "nav > ul > li:nth-of-type(2) > span",
+        "nav > div:nth-of-type(1) > div > div > ul > li:nth-of-type(1) > button"
+      ],
+      "sources": [
+        "es-es-politica-de-cookies",
+        "es-es-content-hub",
+        "es-es-politica-privacidad"
+      ],
+      "usedAs": [
+        "text",
+        "border",
+        "background"
+      ],
+      "evidence": "_computed-styles.json#aggregate.colors[hex=#000000] censusRoles=[\"background\",\"text\",\"heading\"]",
+      "note": "also the dominant dark section ground (contact band, footer, dark mastheads) — census assigned it background by area"
+    },
+    {
+      "role": "primary",
+      "value": "#002fa7",
+      "occurrences": 1614,
+      "sourceSelectors": [
+        "#valtech-content > div:nth-of-type(1) > section > a:nth-of-type(1)",
+        "#valtech-content > section:nth-of-type(1)",
+        "#valtech-content > section:nth-of-type(1)"
+      ],
+      "sources": [
+        "es-es-servicios-revolucion-del-dato-y-ia",
+        "es-es-la-empresa-inteligente",
+        "the-intelligent-enterprise"
+      ],
+      "usedAs": [
+        "text",
+        "background",
+        "border"
+      ],
+      "evidence": "_computed-styles.json#aggregate.colors[hex=#002fa7] censusRoles=[\"primary\"]"
+    },
+    {
+      "role": "surface",
+      "value": "#ffffff",
+      "occurrences": 6673,
+      "sourceSelectors": [
+        "react > div > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a",
+        "#valtech-content > react > div > div > div > div:nth-of-type(2) > div:nth-of-type(1) > a",
+        "#valtech-content > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > a"
+      ],
+      "sources": [
+        "es-es-content-hub",
+        "es-es-servicios-revolucion-del-dato-y-ia",
+        "es-es-blog"
+      ],
+      "usedAs": [
+        "background",
+        "text",
+        "border"
+      ],
+      "evidence": "_computed-styles.json#aggregate.colors[hex=#ffffff] censusRoles=[\"secondary\"]"
+    },
+    {
+      "role": "border",
+      "value": "#cccccc",
+      "occurrences": 1626,
+      "sourceSelectors": [
+        "div > div:nth-of-type(1) > div > div:nth-of-type(2) > table > thead > tr > th:nth-of-type(1)",
+        "div:nth-of-type(2) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > table > tbody > tr:nth-of-type(1)",
+        "#valtech-content > react > section > div > div:nth-of-type(1) > ul > li:nth-of-type(1)"
+      ],
+      "sources": [
+        "es-es-politica-de-cookies",
+        "es-es-noticias",
+        "es-es-politica-privacidad"
+      ],
+      "usedAs": [
+        "border",
+        "text",
+        "background"
+      ],
+      "evidence": "_computed-styles.json#aggregate.colors[hex=#cccccc] censusRoles=[\"border\"]"
+    },
+    {
+      "role": "accent",
+      "value": "#00c8ff",
+      "occurrences": 24,
+      "sourceSelectors": [
+        ".side-button .button"
+      ],
+      "sources": [
+        "index",
+        "ai-assessment",
+        "content-supply-chain"
+      ],
+      "usedAs": [
+        "background"
+      ],
+      "evidence": "not measured by the census (the rotated fixed side tab is outside its button/link sampling); main.css: .side-button .button{background-color:#00c8ff;color:#000} — 24 occurrences of #00c8ff in assets/css/main.css; .side-button present on 41 captured pages"
+    },
+    {
+      "role": "text-secondary",
+      "value": "#484848",
+      "occurrences": 88,
+      "sourceSelectors": [
+        "#valtech-content > div:nth-of-type(2) > ul > li:nth-of-type(1) > a",
+        "#valtech-content > div:nth-of-type(2) > ul > li:nth-of-type(1) > a > span",
+        "react > div > div > div > div:nth-of-type(2) > section:nth-of-type(1) > a > p:nth-of-type(1)"
+      ],
+      "sources": [
+        "es-es-industrias",
+        "es-es-eventos",
+        "es-es-la-empresa-inteligente-crecer"
+      ],
+      "usedAs": [
+        "text"
+      ],
+      "evidence": "_computed-styles.json#aggregate.colors[hex=#484848] censusRoles=[\"accent\"]"
+    },
+    {
+      "role": "error",
+      "value": "#ff5959",
+      "occurrences": 248,
+      "sourceSelectors": [
+        "#valtech-content > div:nth-of-type(3) > div > div > div:nth-of-type(1) > a",
+        "#basic-marketo-block > form > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+        "#basic-marketo-block > form > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(3)"
+      ],
+      "sources": [
+        "es-es-podcasts",
+        "becoming-a-connected-manufacturer",
+        "es-es-nuestros-partners"
+      ],
+      "usedAs": [
+        "text",
+        "border"
+      ],
+      "evidence": "_computed-styles.json#aggregate.colors[hex=#ff5959] censusRoles=[]",
+      "note": "Marketo form validation/required-field text"
+    }
+  ],
+  "type": {
+    "headingFamily": {
+      "name": "ValtechNeue",
+      "stack": "ValtechNeue, sans-serif",
+      "weights": [
+        300,
+        400
+      ],
+      "sizes": [
+        "72px",
+        "64px",
+        "50.4px",
+        "43.2px",
+        "28px"
+      ],
+      "lineHeights": [
+        1.1,
+        1.2,
+        1.1,
+        1.2,
+        1.2
+      ],
+      "letterSpacing": [
+        "normal"
+      ],
+      "sourceSelectors": [
+        "h1",
+        "h2",
+        "h3"
+      ],
+      "census": {
+        "family": "ValtechNeue",
+        "count": 1600,
+        "headings": 1541,
+        "text": 10,
+        "buttons": 49
+      },
+      "evidence": "_computed-styles.json#aggregate.type.headingFamily = ValtechNeue (1541 heading measurements); 1440 records: h1 72px/79.2px w300, h1 50.4px/55.44px, h2 64px/76.8px, h2 43.2px/51.84px, h3 28px/33.6px"
+    },
+    "bodyFamily": {
+      "name": "Soehne",
+      "displayName": "Söhne",
+      "stack": "Soehne, sans-serif",
+      "weights": [
+        300,
+        400,
+        700
+      ],
+      "sizes": [
+        "20px",
+        "16px",
+        "24px",
+        "14px"
+      ],
+      "lineHeights": [
+        1.4,
+        1.4,
+        1.5,
+        1.4
+      ],
+      "letterSpacing": [
+        "normal",
+        "-1px"
+      ],
+      "sourceSelectors": [
+        "p",
+        "li",
+        "h4",
+        "h5",
+        ".button"
+      ],
+      "census": {
+        "family": "Soehne",
+        "count": 3482,
+        "headings": 1139,
+        "text": 2126,
+        "buttons": 217
+      },
+      "evidence": "_computed-styles.json#aggregate.type.bodyFamily = Soehne; 1440 p 20px/28px w300 (614 samples), 360 p 16px/22.4px w300 (575); also secondary headings h3 36px/43.2px w400, h4/h2-eyebrow 16px/19.2px w400, h5 20px/24px w300"
+    },
+    "monoFamily": null,
+    "levels": {
+      "h1": {
+        "fontSize": 72,
+        "fontWeight": "300",
+        "count": 32,
+        "score": 305.47
+      },
+      "h2": {
+        "fontSize": 43.2,
+        "fontWeight": "300",
+        "count": 312,
+        "score": 572.3
+      },
+      "h3": {
+        "fontSize": 28,
+        "fontWeight": "300",
+        "count": 198,
+        "score": 295.5
+      },
+      "h4": {
+        "fontSize": 16,
+        "fontWeight": "400",
+        "count": 116,
+        "score": 172.33
+      },
+      "h5": {
+        "fontSize": 20,
+        "fontWeight": "300",
+        "count": 119,
+        "score": 163.63
+      },
+      "h6": {
+        "fontSize": 20,
+        "fontWeight": "400",
+        "count": 1,
+        "score": 20
+      }
+    },
+    "weights": [
+      {
+        "weight": "300",
+        "count": 4051,
+        "headings": 1992,
+        "text": 1869,
+        "buttons": 190
+      },
+      {
+        "weight": "400",
+        "count": 969,
+        "headings": 636,
+        "text": 257,
+        "buttons": 76
+      },
+      {
+        "weight": "350",
+        "count": 32,
+        "headings": 28,
+        "text": 4,
+        "buttons": 0
+      },
+      {
+        "weight": "700",
+        "count": 30,
+        "headings": 24,
+        "text": 6,
+        "buttons": 0
+      }
+    ],
+    "scaleRatio": null,
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "ratios": [
+        1.667,
+        1.543,
+        1.4,
+        1.25
+      ],
+      "matchedScale": null,
+      "sizesPx": [
+        72,
+        43.2,
+        28,
+        20,
+        16
+      ],
+      "basis": "_computed-styles.json#aggregate.type.levels (h1,h2,h3,h5,h4 weighted-score winners, both widths)"
+    },
+    "loadStrategy": "swap",
+    "preloaded": [
+      "soehne-buch.woff2",
+      "soehne-leicht.woff2",
+      "soehne-leicht-kursiv.woff2",
+      "soehne-halbfett.woff2",
+      "FFF-ValtechNeue-Light.woff2"
+    ],
+    "files": [
+      {
+        "url": "https://www.valtech.com/public/dist/fonts/soehne-leicht.woff2",
+        "family": "Soehne",
+        "weight": 300,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/soehne-leicht.woff2",
+        "sourceCss": "stardust/current/assets/css/main.css (identical rule in critical-homepage.css, critical-iehub.css)",
+        "sourceCssRule": "@font-face{font-display:swap;font-family:Soehne;font-style:normal;font-weight:300;src:url(../fonts/soehne-leicht.woff2) format(\"woff2\")}",
+        "licensingFlag": "private",
+        "licenceNote": "Söhne — Klim Type Foundry commercial typeface (not on Google Fonts/fontsource); verify licence before redeploying"
+      },
+      {
+        "url": "https://www.valtech.com/public/dist/fonts/soehne-leicht-kursiv.woff2",
+        "family": "Soehne",
+        "weight": 300,
+        "style": "italic",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/soehne-leicht-kursiv.woff2",
+        "sourceCss": "stardust/current/assets/css/main.css (identical rule in critical-homepage.css, critical-iehub.css)",
+        "sourceCssRule": "@font-face{font-display:swap;font-family:Soehne;font-style:italic;font-weight:300;src:url(../fonts/soehne-leicht-kursiv.woff2) format(\"woff2\")}",
+        "licensingFlag": "private",
+        "licenceNote": "Söhne — Klim Type Foundry commercial typeface (not on Google Fonts/fontsource); verify licence before redeploying"
+      },
+      {
+        "url": "https://www.valtech.com/public/dist/fonts/soehne-buch.woff2",
+        "family": "Soehne",
+        "weight": 400,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/soehne-buch.woff2",
+        "sourceCss": "stardust/current/assets/css/main.css (identical rule in critical-homepage.css, critical-iehub.css)",
+        "sourceCssRule": "@font-face{font-display:swap;font-family:Soehne;font-style:normal;font-weight:400;src:url(../fonts/soehne-buch.woff2) format(\"woff2\")}",
+        "licensingFlag": "private",
+        "licenceNote": "Söhne — Klim Type Foundry commercial typeface (not on Google Fonts/fontsource); verify licence before redeploying"
+      },
+      {
+        "url": "https://www.valtech.com/public/dist/fonts/soehne-halbfett.woff2",
+        "family": "Soehne",
+        "weight": 700,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/soehne-halbfett.woff2",
+        "sourceCss": "stardust/current/assets/css/main.css (identical rule in critical-homepage.css, critical-iehub.css)",
+        "sourceCssRule": "@font-face{font-display:swap;font-family:Soehne;font-style:normal;font-weight:700;src:url(../fonts/soehne-halbfett.woff2) format(\"woff2\")}",
+        "licensingFlag": "private",
+        "licenceNote": "Söhne — Klim Type Foundry commercial typeface (not on Google Fonts/fontsource); verify licence before redeploying"
+      },
+      {
+        "url": "https://www.valtech.com/public/dist/fonts/FFF-ValtechNeue-Light.woff2",
+        "family": "ValtechNeue",
+        "weight": 300,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/FFF-ValtechNeue-Light.woff2",
+        "sourceCss": "stardust/current/assets/css/main.css (identical rule in critical-homepage.css, critical-iehub.css)",
+        "sourceCssRule": "@font-face{font-display:swap;font-family:ValtechNeue;font-style:normal;font-weight:300;src:url(../fonts/FFF-ValtechNeue-Light.woff2) format(\"woff2\"),url(../fonts/FFF-ValtechNeue-Light.woff) format(\"woff\")}",
+        "licensingFlag": "private",
+        "licenceNote": "ValtechNeue (files prefixed FFF-) — proprietary brand typeface; not in any open-licence catalogue; verify licence before redeploying"
+      },
+      {
+        "url": "https://www.valtech.com/public/dist/fonts/FFF-ValtechNeue-Light.woff",
+        "family": "ValtechNeue",
+        "weight": 300,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/FFF-ValtechNeue-Light.woff",
+        "sourceCss": "stardust/current/assets/css/main.css (identical rule in critical-homepage.css, critical-iehub.css)",
+        "sourceCssRule": "@font-face{font-display:swap;font-family:ValtechNeue;font-style:normal;font-weight:300;src:url(../fonts/FFF-ValtechNeue-Light.woff2) format(\"woff2\"),url(../fonts/FFF-ValtechNeue-Light.woff) format(\"woff\")}",
+        "licensingFlag": "private",
+        "licenceNote": "ValtechNeue (files prefixed FFF-) — proprietary brand typeface; not in any open-licence catalogue; verify licence before redeploying"
+      },
+      {
+        "url": "https://www.valtech.com/public/dist/fonts/FFF-ValtechNeue-Book.woff2",
+        "family": "ValtechNeue",
+        "weight": 400,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/FFF-ValtechNeue-Book.woff2",
+        "sourceCss": "stardust/current/assets/css/main.css (identical rule in critical-homepage.css, critical-iehub.css)",
+        "sourceCssRule": "@font-face{font-display:swap;font-family:ValtechNeue;font-style:normal;font-weight:400;src:url(../fonts/FFF-ValtechNeue-Book.woff2) format(\"woff2\"),url(../fonts/FFF-ValtechNeue-Book.woff) format(\"woff\")}",
+        "licensingFlag": "private",
+        "licenceNote": "ValtechNeue (files prefixed FFF-) — proprietary brand typeface; not in any open-licence catalogue; verify licence before redeploying"
+      },
+      {
+        "url": "https://www.valtech.com/public/dist/fonts/FFF-ValtechNeue-Book.woff",
+        "family": "ValtechNeue",
+        "weight": 400,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/FFF-ValtechNeue-Book.woff",
+        "sourceCss": "stardust/current/assets/css/main.css (identical rule in critical-homepage.css, critical-iehub.css)",
+        "sourceCssRule": "@font-face{font-display:swap;font-family:ValtechNeue;font-style:normal;font-weight:400;src:url(../fonts/FFF-ValtechNeue-Book.woff2) format(\"woff2\"),url(../fonts/FFF-ValtechNeue-Book.woff) format(\"woff\")}",
+        "licensingFlag": "private",
+        "licenceNote": "ValtechNeue (files prefixed FFF-) — proprietary brand typeface; not in any open-licence catalogue; verify licence before redeploying"
+      }
+    ]
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "scale": [
+      5,
+      8,
+      10,
+      16,
+      20,
+      24,
+      30,
+      32,
+      40,
+      60,
+      64,
+      80
+    ],
+    "sectionPadding": "80px",
+    "containerMaxWidth": "1440px",
+    "gridGap": "24px",
+    "histogram": {
+      "24px": 284,
+      "40px": 209,
+      "16px": 204,
+      "20px": 181,
+      "80px": 113,
+      "10px": 105,
+      "64px": 89,
+      "8px": 79,
+      "60px": 62,
+      "30px": 61,
+      "32px": 50,
+      "5px": 43
+    },
+    "evidence": "padding/gap/margin length values in stardust/current/assets/css/main.css (rem×16); top values 24px(1.5rem) 40px 16px 20px 80px(5rem) — all multiples of 4, with a secondary 5/10px rhythm (10px, 30px, 5px). containerMaxWidth is filled from cap-probe (extensions.breakpoints).",
+    "containerMaxWidthEvidence": "cap-probe → DESIGN.json#extensions.breakpoints.containerMaxWidth (probe 2560; home 1408px module cap, article 1440px, valtech-conversion-engine fluid — inconsistent, see capRegister)"
+  },
+  "motifs": {
+    "borderRadius": {
+      "primary": "2px",
+      "secondary": "14px",
+      "pill": "100px",
+      "circle": "50%",
+      "areaMode": "23.6078px",
+      "primarySources": [
+        "index",
+        "ai-assessment",
+        "ai-first-product-operating-model"
+      ],
+      "occurrences": {
+        "100px": 607,
+        "50%": 256,
+        "2px": 183,
+        "14px": 16,
+        "23.6078px": 16
+      },
+      "sources": {
+        "100px": [
+          {
+            "page": "index",
+            "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > a"
+          },
+          {
+            "page": "index",
+            "selector": "#valtech-content > section:nth-of-type(3) > div > div > a"
+          },
+          {
+            "page": "index",
+            "selector": "div > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > a"
+          }
+        ],
+        "50%": [
+          {
+            "page": "index",
+            "selector": "#valtech-content > section:nth-of-type(1) > div > div:nth-of-type(1) > ol > li:nth-of-type(1)"
+          },
+          {
+            "page": "index",
+            "selector": "#valtech-content > section:nth-of-type(1) > div > div:nth-of-type(1) > ol > li:nth-of-type(2)"
+          },
+          {
+            "page": "index",
+            "selector": "#valtech-content > section:nth-of-type(1) > div > div:nth-of-type(1) > ol > li:nth-of-type(3)"
+          }
+        ],
+        "2px": [
+          {
+            "page": "index",
+            "selector": "div > div > div > div:nth-of-type(7) > div > div > div > div:nth-of-type(2)"
+          },
+          {
+            "page": "index",
+            "selector": "div > div > div > div:nth-of-type(8) > div > div > div > div:nth-of-type(2)"
+          },
+          {
+            "page": "ai-assessment",
+            "selector": "#basic-marketo-block > div > div:nth-of-type(7) > div > div > div > div:nth-of-type(2)"
+          }
+        ],
+        "14px": [
+          {
+            "page": "es-es-la-empresa-inteligente",
+            "selector": "#valtech-content > section:nth-of-type(3) > div > div:nth-of-type(1) > button:nth-of-type(1)"
+          },
+          {
+            "page": "es-es-la-empresa-inteligente",
+            "selector": "#valtech-content > section:nth-of-type(3) > div > div:nth-of-type(1) > button:nth-of-type(1) > span"
+          },
+          {
+            "page": "es-es-la-empresa-inteligente",
+            "selector": "#valtech-content > section:nth-of-type(3) > div > div:nth-of-type(1) > button:nth-of-type(2)"
+          }
+        ],
+        "23.6078px": [
+          {
+            "page": "es-es-la-empresa-inteligente",
+            "selector": "#valtech-content > section:nth-of-type(3) > div > div:nth-of-type(1) > button:nth-of-type(1)"
+          },
+          {
+            "page": "es-es-la-empresa-inteligente",
+            "selector": "#valtech-content > section:nth-of-type(3) > div > div:nth-of-type(1) > button:nth-of-type(1) > span"
+          },
+          {
+            "page": "es-es-la-empresa-inteligente",
+            "selector": "#valtech-content > section:nth-of-type(3) > div > div:nth-of-type(1) > button:nth-of-type(2)"
+          }
+        ]
+      }
+    },
+    "shadows": [
+      {
+        "value": "rgb(0, 47, 167) 0px 0px 0px 2px inset",
+        "count": 319,
+        "uses": "button outline ring (2px inset box-shadow instead of border)",
+        "sources": [
+          {
+            "page": "ai-first-product-operating-model",
+            "selector": "#valtech-content > section:nth-of-type(1) > div > div > div > div:nth-of-type(1) > div:nth-of-type(2) > a"
+          },
+          {
+            "page": "ai-first-product-operating-model",
+            "selector": "section:nth-of-type(1) > div > div > div > div:nth-of-type(1) > div:nth-of-type(2) > a > span:nth-of-type(1)"
+          },
+          {
+            "page": "ai-first-product-operating-model",
+            "selector": "section:nth-of-type(1) > div > div > div > div:nth-of-type(1) > div:nth-of-type(2) > a > span:nth-of-type(2)"
+          }
+        ]
+      },
+      {
+        "value": "rgb(255, 255, 255) 0px 0px 0px 2px inset",
+        "count": 16,
+        "uses": "button outline ring (2px inset box-shadow instead of border)",
+        "sources": [
+          {
+            "page": "es-es-carrera",
+            "selector": "#valtech-content > section:nth-of-type(2) > div > div > div > a"
+          },
+          {
+            "page": "es-es-casos",
+            "selector": "#valtech-content > section > div > div > div > a"
+          },
+          {
+            "page": "es-es-la-empresa-inteligente-modelo-operativo",
+            "selector": "#valtech-content > section:nth-of-type(5) > div > div > div > a"
+          }
+        ]
+      },
+      {
+        "value": "rgb(0, 0, 0) 0px 0px 0px 2px inset",
+        "count": 8,
+        "uses": "button outline ring (2px inset box-shadow instead of border)",
+        "sources": [
+          {
+            "page": "digitalxelerate",
+            "selector": "#valtech-content > div:nth-of-type(3) > div > div > div:nth-of-type(1) > div:nth-of-type(5) > a"
+          },
+          {
+            "page": "es-es-nuestros-partners-oracle",
+            "selector": "#valtech-content > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(5) > a"
+          },
+          {
+            "page": "es-es-nuestros-partners-oracle",
+            "selector": "#valtech-content > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div:nth-of-type(5) > a"
+          }
+        ]
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(rgba(0, 0, 0, 0) 3px, rgb(0, 0, 0))",
+        "count": 140,
+        "sources": [
+          {
+            "page": "ai-first-product-operating-model",
+            "selector": "#valtech-content > div:nth-of-type(8) > div:nth-of-type(2) > ol > li:nth-of-type(2)"
+          },
+          {
+            "page": "ai-first-product-operating-model",
+            "selector": "#valtech-content > div:nth-of-type(8) > div:nth-of-type(2) > ol > li:nth-of-type(3)"
+          },
+          {
+            "page": "ai-readiness-starts-here",
+            "selector": "#valtech-content > div:nth-of-type(2) > div:nth-of-type(2) > ol > li:nth-of-type(2)"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(360deg, rgb(72, 72, 72), rgba(0, 0, 0, 0))",
+        "count": 7,
+        "sources": [
+          {
+            "page": "es-es-la-empresa-inteligente",
+            "selector": "nav"
+          },
+          {
+            "page": "es-es-la-empresa-inteligente-crecer",
+            "selector": "nav"
+          },
+          {
+            "page": "es-es-la-empresa-inteligente-liderar",
+            "selector": "nav"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0))",
+        "count": 7,
+        "sources": [
+          {
+            "page": "es-es-blog",
+            "selector": "div:nth-of-type(1) > div > a > div > div > div:nth-of-type(1) > hgroup > h2"
+          },
+          {
+            "page": "es-es-carrera",
+            "selector": "#valtech-content > div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > hgroup > h1"
+          },
+          {
+            "page": "es-es-quienes-somos",
+            "selector": "article > section > div > div > div > div:nth-of-type(1) > hgroup > h1"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255))",
+        "count": 6,
+        "sources": [
+          {
+            "page": "es-es-blog",
+            "selector": "div:nth-of-type(1) > div > a > div > div > div:nth-of-type(1) > hgroup > h2"
+          },
+          {
+            "page": "es-es-quienes-somos",
+            "selector": "article > section > div > div > div > div:nth-of-type(1) > hgroup > h1"
+          },
+          {
+            "page": "es-es-trabajar-en-valtech",
+            "selector": "#valtech-content > section:nth-of-type(1) > div > div > div > div:nth-of-type(1) > hgroup > h1"
+          }
+        ]
+      }
+    ],
+    "patterns": [
+      {
+        "name": "hero-carousel",
+        "evidence": "index + es-es: .hero-block Flickity fade slider, 4 slides (.hero-block__bg-image ×4), full-bleed image + 88px ValtechNeue headline"
+      },
+      {
+        "name": "split-masthead-with-cta",
+        "evidence": ".masthead-two-columns-cta on 28 pages, .masthead-primary on 17 (stardust/.work/blocks.json)"
+      },
+      {
+        "name": "pill-buttons",
+        "evidence": "radius 100px ×607 (census radius histogram), buttons 15px 40px #002fa7"
+      },
+      {
+        "name": "card-grid",
+        "evidence": ".teaser-block on 24 pages (eyebrow h3 \"Insight\"/\"Case\"/\"News\" + title)"
+      },
+      {
+        "name": "cta-band",
+        "evidence": ".contact-us-form black band (41 pages) and .highlighted-cta-block (7 pages)"
+      },
+      {
+        "name": "stat-row",
+        "evidence": ".results-statistics-block on 10 pages"
+      },
+      {
+        "name": "social-proof-logos",
+        "evidence": ".partners-block on 12 pages (Adobe, Google, Microsoft, Optimizely … on index)"
+      },
+      {
+        "name": "faq-accordion",
+        "evidence": ".faq-block on 13 pages (details/summary with plus/minus icon)"
+      },
+      {
+        "name": "gated-pdf",
+        "evidence": ".pdf-view-block + .marketo-form-block on 14 whitepaper pages"
+      },
+      {
+        "name": "side-rail-cta",
+        "evidence": ".side-button fixed 64px rail at the right edge with rotated \"Contact us\" tab (41 pages)"
+      }
+    ]
+  },
+  "componentStyle": {
+    "buttons": {
+      "primary": {
+        "background": "#002fa7",
+        "color": "#ffffff",
+        "borderRadius": "100px",
+        "padding": "15px 40px",
+        "fontSize": "20px",
+        "fontWeight": 300,
+        "shadow": "none",
+        "hoverDelta": "inverts to white ground with #002fa7 text + rgb(0,47,167) 2px inset ring (census hover: button from {#fff,#002fa7} ↔ {#002fa7,#fff}, 8 hits)",
+        "evidence": "_computed-styles.json pages[*][1440].buttons: rgb(0,47,167)|#fff|r100px|p15px 40px|20px/300 (29 hits)"
+      },
+      "secondary": {
+        "background": "#f3f2ef",
+        "color": "#002fa7",
+        "borderRadius": "100px",
+        "padding": "15px 40px",
+        "fontSize": "20px",
+        "fontWeight": 300,
+        "shadow": "rgb(0, 47, 167) 0px 0px 0px 2px inset",
+        "evidence": "1440 buttons rgb(243,242,239)|rgb(0,47,167)|r100px|p15px 40px (15 hits); inset ring shadow ×319"
+      },
+      "outline": {
+        "background": "#ffffff",
+        "color": "#000000",
+        "border": "2px solid #000000",
+        "borderRadius": "100px",
+        "padding": "12px 24px",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "hoverDelta": "invert to #000 ground / #fff text (census hover ×34, index)",
+        "evidence": "index \"Experience Valtech One\" button; 1440 buttons rgb(255,255,255)|#000|2px solid #000|r100px|p12px 24px"
+      },
+      "sideTab": {
+        "background": "#00c8ff",
+        "color": "#000000",
+        "padding": ".3rem 2.5rem",
+        "transform": "rotate(-90deg)",
+        "fontSize": "1rem",
+        "evidence": "main.css .side-button .button"
+      }
+    },
+    "dualCTAPattern": null,
+    "cards": {
+      "background": "#ffffff",
+      "borderRadius": "2px",
+      "padding": null,
+      "shadow": null,
+      "border": null,
+      "evidence": "2px radius ×183 (census); teaser cards on white/#f3f2ef grounds"
+    },
+    "inputs": {
+      "borderRadius": "0px",
+      "border": "bottom rule on black contact band (Marketo forms2, theme overridden in main.css .contact-us-form .marketo-form-block)",
+      "focusRing": null,
+      "evidence": "main.css .contact-us-form .marketo-form-block rules; #999999 field rules in #contact_us_container (census bgColors)"
+    }
+  },
+  "systemComponents": [
+    {
+      "name": "site-header",
+      "kind": "header",
+      "occurrences": 100,
+      "headingSequence": [],
+      "ctaLabels": [
+        "Valtech, go back to homepage The Experience Innovation Company",
+        "Our work",
+        "Offerings",
+        "Careers",
+        "Our insights",
+        "About us",
+        "Cases",
+        "Industries",
+        "Our Partners",
+        "Experience Elevation",
+        "Commerce Acceleration",
+        "Enterprise Transformation",
+        "Marketing Creativity & Performance",
+        "Data & AI Revolution",
+        "Joblist",
+        "Valtech as workplace",
+        "Diversity & Inclusion",
+        "Podcasts",
+        "Whitepapers",
+        "Content Hub",
+        "Blog",
+        "Events",
+        "The Intelligent Enterprise",
+        "Newsroom",
+        "About"
+      ],
+      "domFingerprintHash": "sha256:cf412030a8d6c225",
+      "fingerprintVariants": {
+        "sha256:6c04ba8de619d161": 40,
+        "sha256:cf412030a8d6c225": 60
+      },
+      "exampleSlug": "index",
+      "exampleSelector": "nav.site-nav",
+      "examplePages": [
+        "ai-assessment",
+        "ai-first-product-operating-model",
+        "ai-mythbusting",
+        "ai-readiness-starts-here",
+        "ai-searchandizing-workshop",
+        "b2b-portal-discovery-workshop"
+      ],
+      "exampleBlock": null,
+      "exampleBlockRef": "node stardust/scripts/replica/html-slice.mjs stardust/current/pages/index.html nav.site-nav",
+      "note": "two locale variants: EN (40 pages) and es-es (60 pages) labels"
+    },
+    {
+      "name": "site-footer",
+      "kind": "footer",
+      "occurrences": 100,
+      "headingSequence": [],
+      "ctaLabels": [
+        "Home",
+        "About",
+        "Offices",
+        "Who We Are",
+        "Privacy Notice",
+        "Cookie Statement",
+        "Legal notices",
+        "Accessibility",
+        "Stay in touch",
+        "Change Cookie Settings"
+      ],
+      "domFingerprintHash": "sha256:f54e84367b04a941",
+      "fingerprintVariants": {
+        "sha256:fd744a013a2f9d5f": 40,
+        "sha256:f54e84367b04a941": 60
+      },
+      "exampleSlug": "index",
+      "exampleSelector": "footer.site-footer",
+      "examplePages": [
+        "ai-assessment",
+        "ai-first-product-operating-model",
+        "ai-mythbusting",
+        "ai-readiness-starts-here",
+        "ai-searchandizing-workshop",
+        "b2b-portal-discovery-workshop"
+      ],
+      "exampleBlock": null,
+      "exampleBlockRef": "node stardust/scripts/replica/html-slice.mjs stardust/current/pages/index.html footer.site-footer",
+      "note": "two locale variants: EN (40 pages) and es-es (60 pages) labels"
+    },
+    {
+      "name": "contact-side-tab",
+      "kind": "cta-band",
+      "occurrences": 41,
+      "headingSequence": [],
+      "ctaLabels": [
+        "Contact us"
+      ],
+      "domFingerprintHash": "sha256:64a16af8e8cb2d6e",
+      "fingerprintVariants": {
+        "sha256:29d5ebf8167f745c": 15,
+        "sha256:64a16af8e8cb2d6e": 26
+      },
+      "exampleSlug": "index",
+      "exampleSelector": ".side-button",
+      "examplePages": [
+        "brand-strategy-design-agency",
+        "creative-content",
+        "dataprod",
+        "digital-media-performance-marketing",
+        "es-es-aviso-legal",
+        "es-es-blog-asi-se-creo-valtech-concierge"
+      ],
+      "exampleBlock": "<div class=\"side-button\"> <a id=\"side-button\" href=\"#contact-us-form\" class=\"button\" data-uid=\"button_1\" button-animation--created=\"\" button-animation--events-added=\"\">Contact us<span class=\"before\" data-label=\"Contact us\"></span><span class=\"after\"></span></a> </div>",
+      "exampleBlockRef": "node stardust/scripts/replica/html-slice.mjs stardust/current/pages/index.html .side-button",
+      "note": "desktop (≥64rem) fixed 64px #f3f2ef rail on the right; \"Contact us\" tab rotated -90deg, #00c8ff ground, anchors to #contact-us-form"
+    },
+    {
+      "name": "contact-mobile-bar",
+      "kind": "cta-band",
+      "occurrences": 100,
+      "headingSequence": [],
+      "ctaLabels": [],
+      "domFingerprintHash": "sha256:334359b90efed75d",
+      "fingerprintVariants": {
+        "sha256:334359b90efed75d": 100
+      },
+      "exampleSlug": "index",
+      "exampleSelector": ".site-nav__contact-us-button",
+      "examplePages": [
+        "ai-assessment",
+        "ai-first-product-operating-model",
+        "ai-mythbusting",
+        "ai-readiness-starts-here",
+        "ai-searchandizing-workshop",
+        "b2b-portal-discovery-workshop"
+      ],
+      "exampleBlock": "<a href=\"/about/contact-us/keep-in-touch/\" class=\"site-nav__contact-us-button\">Contact Us</a>",
+      "exampleBlockRef": "node stardust/scripts/replica/html-slice.mjs stardust/current/pages/index.html .site-nav__contact-us-button",
+      "note": "mobile fixed bottom bar (80px, #f3f2ef, 1px #002fa7 top border); display:none at desktop"
+    },
+    {
+      "name": "contact-band",
+      "kind": "cta-band",
+      "occurrences": 41,
+      "headingSequence": [
+        "Let’s connect"
+      ],
+      "ctaLabels": [
+        "Let’s connect",
+        "Sheree Atcheson.",
+        "Privacy Notice",
+        "Privacy Policy",
+        "Terms of Use",
+        "Contact Us"
+      ],
+      "domFingerprintHash": "sha256:1e0abffa75da59ed",
+      "fingerprintVariants": {
+        "sha256:0df3d25d09601595": 11,
+        "sha256:c33d6999738af762": 4,
+        "sha256:1e0abffa75da59ed": 17,
+        "sha256:de60b4664fc1786f": 9
+      },
+      "exampleSlug": "index",
+      "exampleSelector": ".contact-us-form",
+      "examplePages": [
+        "brand-strategy-design-agency",
+        "creative-content",
+        "dataprod",
+        "digital-media-performance-marketing",
+        "es-es-aviso-legal",
+        "es-es-blog-asi-se-creo-valtech-concierge"
+      ],
+      "exampleBlock": null,
+      "exampleBlockRef": "node stardust/scripts/replica/html-slice.mjs stardust/current/pages/index.html .contact-us-form",
+      "note": "black (#000/#fff) \"Contáctanos\"/\"Let’s connect\" band with Marketo form + accordion; ValtechNeue 300 64px title"
+    },
+    {
+      "name": "breadcrumbs",
+      "kind": "breadcrumb",
+      "occurrences": 90,
+      "headingSequence": [],
+      "ctaLabels": [
+        "Home"
+      ],
+      "domFingerprintHash": "sha256:bcdc52c3be2cdea1",
+      "fingerprintVariants": {
+        "sha256:bcdc52c3be2cdea1": 38,
+        "sha256:088b4e55054f59ec": 21,
+        "sha256:7dfa46a341635240": 8,
+        "sha256:f49305a141b2e436": 1,
+        "sha256:dedc8d4f5290dea5": 4,
+        "sha256:3b8acbab0bf9aa3c": 2,
+        "sha256:65ac52490a8496a5": 1,
+        "sha256:aefd7729d94fd4ef": 1,
+        "sha256:17af50934a3651ad": 14
+      },
+      "exampleSlug": "ai-assessment",
+      "exampleSelector": ".site-breadcrumbs",
+      "examplePages": [
+        "ai-assessment",
+        "ai-first-product-operating-model",
+        "ai-mythbusting",
+        "ai-readiness-starts-here",
+        "ai-searchandizing-workshop",
+        "b2b-portal-discovery-workshop"
+      ],
+      "exampleBlock": "<div class=\"site-breadcrumbs\" data-testid=\"breadcrumbs\"> <div class=\"site-breadcrumbs__container\"> <nav aria-label=\"You are here\" role=\"navigation\" class=\"site-breadcrumbs__list\" itemscope=\"\" itemtype=\"http://schema.org/BreadcrumbList\"> <ul> <li class=\"site-breadcrumbs__list__item\" data-testid=\"breadcrumbs__item\" itemprop=\"itemListElement\" itemscope=\"\" itemtype=\"http://schema.org/ListItem\"> <a href=\"/\" itemprop=\"item\" data-testid=\"breadcrumbs__link\"><span itemprop=\"name\">Home</span></a> <meta itemprop=\"position\" content=\"1\"> </li> <li class=\"site-breadcrumbs__list__item\" data-testid=\"breadcrumbs__item\" itemprop=\"itemListElement\" itemscope=\"\" itemtype=\"http://schema.org/ListItem\"> <span itemprop=\"name\" aria-current=\"page\">AI assessment</span> <meta itemprop=\"position\" content=\"2\"> </li> </ul> </nav> </div> </div>",
+      "exampleBlockRef": "node stardust/scripts/replica/html-slice.mjs stardust/current/pages/ai-assessment.html .site-breadcrumbs",
+      "note": "nav[aria-label=\"You are here\"] Home > … ; absent on landing + microsite pages"
+    }
+  ],
+  "iconFont": null,
+  "voice": {
+    "heroHeadline": "We’re the experience innovation company built to help you move faster, think bolder and deliver what’s next.",
+    "heroSubcopy": "Orchestrate data, decisions and execution to turn AI potential into enterprise performance.",
+    "heroSlides": [
+      "Unlock trapped value in your business",
+      "Valtech OneacceleratesAI adoption",
+      "Lexus AI Concierge",
+      "Best Workplacesfor Innovators"
+    ],
+    "heroImage": {
+      "url": "https://www.valtech.com/globalassets/00-global/02-images/00-homepage/_new_homepage/hero-slider-block/hero_intelligent_enterprise_1880.jpg?width=1500&height=800&rmode=min&rsampler=bicubic&compand=true&format=webp&quality=75",
+      "alt": null,
+      "source": "img",
+      "domPath": "main#valtech-content .hero-block .hero-block__bg-image.is-selected img",
+      "localPath": null,
+      "rect": null,
+      "intrinsic": {
+        "w": 1424,
+        "h": 800
+      },
+      "note": "first slide of the .hero-block Flickity slider (hero_intelligent_enterprise_1880.jpg); pages/index.json media.imgs carry no rect, so the first-viewport filter used document order + 1424×800 size"
+    },
+    "heroMedium": null,
+    "primaryCTALabel": "Contact us",
+    "ctaSamples": [
+      "Contact us",
+      "Explore The Intelligent Enterprise",
+      "Get in touch",
+      "See all partners",
+      "Explore jobs",
+      "Contáctanos",
+      "Descargar",
+      "Send request"
+    ],
+    "navItems": [
+      "Our work",
+      "Offerings",
+      "Careers",
+      "Our insights",
+      "About us"
+    ],
+    "navItemsEs": [
+      "Nuestro trabajo",
+      "Servicios",
+      "Talento",
+      "Perspectivas",
+      "Sobre nosotros"
+    ],
+    "footerHeadings": [],
+    "footerLinks": [
+      "Home",
+      "About",
+      "Offices",
+      "Who We Are",
+      "Privacy Notice",
+      "Cookie Statement",
+      "Legal notices",
+      "Accessibility",
+      "Stay in touch",
+      "Change Cookie Settings"
+    ],
+    "firstParagraph": "We empower you to thrive in a rapidly changing and connected world.",
+    "linkListSample": [
+      "See all partners",
+      "Adobe",
+      "Google",
+      "Microsoft",
+      "Optimizely"
+    ],
+    "tone": {
+      "guess": "aspirational",
+      "evidence": "\"experience innovation company\", \"move faster, think bolder and deliver what’s next\", \"Unlock trapped value\" — benefit-led, second-person, enterprise-AI vocabulary; light 300-weight display type (heuristic)"
+    },
+    "sources": [
+      "stardust/current/pages/index.json#headings,body,ctas,media.imgs"
+    ]
+  },
+  "voiceTable": {
+    "ctaFrequency": [
+      {
+        "label": "Contáctanos",
+        "total": 43,
+        "pages": [
+          "es-es-aviso-legal",
+          "es-es-blog-asi-se-creo-valtech-concierge",
+          "es-es-blog-como-marcas-locales-escalan-de-forma-diferente",
+          "es-es-blog-el-geo-como-la-nueva-frontera-de-la-visibilidad-digital",
+          "es-es-blog-embedding-ai-in-government-case-management",
+          "es-es-blog-estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion",
+          "es-es-blog-ia-transforma-busquedas-y-webs-de-marca",
+          "es-es-blog-la-era-de-los-agentes-de-ia",
+          "es-es-blog-presentamos-el-muro-de-datos-b2b",
+          "es-es-blog",
+          "es-es-carrera",
+          "es-es-casos-lexus-europa"
+        ],
+        "pageCount": 26
+      },
+      {
+        "label": "Descargar",
+        "total": 17,
+        "pages": [
+          "es-es-whitepapers-el-giro-hacia-la-ia",
+          "es-es-whitepapers-experiencias-inteligentes",
+          "es-es-whitepapers-fidelizacion-digital-sector-sanitario",
+          "es-es-whitepapers-guia-estrategica-salud-digital-optimizely-2026",
+          "es-es-whitepapers-infome-la-era-del-comercio-conversacional-2026",
+          "es-es-whitepapers-informe-tendencias-cliente-movilidad-2026",
+          "es-es-whitepapers-la-era-agentica-tendencias-de-la-ia-empresarial-2026",
+          "es-es-whitepapers-la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software",
+          "es-es-whitepapers-la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026",
+          "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2025",
+          "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+          "es-es-whitepapers-retail-en-la-encrucijada-2026"
+        ],
+        "pageCount": 13
+      },
+      {
+        "label": "Contact us",
+        "total": 15,
+        "pages": [
+          "brand-strategy-design-agency",
+          "creative-content",
+          "dataprod",
+          "digital-media-performance-marketing",
+          "experience-innovation-on-azure",
+          "experience-innovation",
+          "experience-innovation3",
+          "fabric-real-time-intelligence",
+          "index",
+          "lead-scoring",
+          "meet-the-expert-vera-schnitzlein",
+          "next2025-highlights"
+        ],
+        "pageCount": 15
+      },
+      {
+        "label": "Publicaciones",
+        "total": 14,
+        "pages": [
+          "es-es-whitepapers-el-ciclo-de-relevancia-de-las-marcas",
+          "es-es-whitepapers-el-giro-hacia-la-ia",
+          "es-es-whitepapers-experiencias-inteligentes",
+          "es-es-whitepapers-fidelizacion-digital-sector-sanitario",
+          "es-es-whitepapers-guia-estrategica-salud-digital-optimizely-2026",
+          "es-es-whitepapers-infome-la-era-del-comercio-conversacional-2026",
+          "es-es-whitepapers-informe-tendencias-cliente-movilidad-2026",
+          "es-es-whitepapers-la-era-agentica-tendencias-de-la-ia-empresarial-2026",
+          "es-es-whitepapers-la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software",
+          "es-es-whitepapers-la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026",
+          "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2025",
+          "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026"
+        ],
+        "pageCount": 14
+      },
+      {
+        "label": "Send request",
+        "total": 10,
+        "pages": [
+          "ai-first-product-operating-model",
+          "b2b-portal-discovery-workshop",
+          "content-supply-chain",
+          "digital-consulting-discovery-call",
+          "digitalxelerate",
+          "enterprise-ai-foundations-financial-services",
+          "enterprise-ai-foundations-vtiq",
+          "valtech-agentic-commerce-catalyst",
+          "valtech-conversion-engine",
+          "valtech-enterprise-ai-foundations"
+        ],
+        "pageCount": 10
+      },
+      {
+        "label": "Contact Us",
+        "total": 10,
+        "pages": [
+          "creative-content",
+          "digital-media-performance-marketing",
+          "experience-innovation-on-azure",
+          "experience-innovation",
+          "index",
+          "lead-scoring",
+          "meet-the-expert-vera-schnitzlein",
+          "retail-at-the-crossroads-2026",
+          "valtech-and-salesforce",
+          "valtech-ukraine-in-media"
+        ],
+        "pageCount": 10
+      },
+      {
+        "label": "Salesforce",
+        "total": 9,
+        "pages": [
+          "content-supply-chain",
+          "enterprise-ai-foundations-financial-services",
+          "enterprise-ai-foundations-vtiq",
+          "es-es-nuestros-partners",
+          "es-es",
+          "experience-innovation3",
+          "valtech-agentic-commerce-catalyst",
+          "valtech-conversion-engine",
+          "valtech-enterprise-ai-foundations"
+        ],
+        "pageCount": 9
+      },
+      {
+        "label": "Optimizely",
+        "total": 9,
+        "pages": [
+          "content-supply-chain",
+          "enterprise-ai-foundations-financial-services",
+          "enterprise-ai-foundations-vtiq",
+          "es-es-nuestros-partners",
+          "experience-innovation3",
+          "index",
+          "valtech-agentic-commerce-catalyst",
+          "valtech-conversion-engine",
+          "valtech-enterprise-ai-foundations"
+        ],
+        "pageCount": 9
+      }
+    ],
+    "headingFrequency": [
+      {
+        "text": "Insight",
+        "total": 41,
+        "pages": [
+          "ai-first-product-operating-model",
+          "content-supply-chain",
+          "dataprod",
+          "enterprise-ai-foundations-vtiq",
+          "es-es-blog-asi-se-creo-valtech-concierge",
+          "es-es-blog-el-geo-como-la-nueva-frontera-de-la-visibilidad-digital",
+          "es-es-eventos-valtech-optimizely-at-resume-martech-2026",
+          "es-es-industrias",
+          "es-es-podcasts",
+          "es-es-quienes-somos",
+          "es-es-retail-en-la-encrucijada-2026",
+          "es-es-thread-magazine"
+        ],
+        "level": 2,
+        "pageCount": 20
+      },
+      {
+        "text": "Contáctanos",
+        "total": 26,
+        "pages": [
+          "es-es-aviso-legal",
+          "es-es-blog-asi-se-creo-valtech-concierge",
+          "es-es-blog-como-marcas-locales-escalan-de-forma-diferente",
+          "es-es-blog-el-geo-como-la-nueva-frontera-de-la-visibilidad-digital",
+          "es-es-blog-embedding-ai-in-government-case-management",
+          "es-es-blog-estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion",
+          "es-es-blog-ia-transforma-busquedas-y-webs-de-marca",
+          "es-es-blog-la-era-de-los-agentes-de-ia",
+          "es-es-blog-presentamos-el-muro-de-datos-b2b",
+          "es-es-blog",
+          "es-es-carrera",
+          "es-es-casos-lexus-europa"
+        ],
+        "level": 2,
+        "pageCount": 26
+      },
+      {
+        "text": "Case",
+        "total": 22,
+        "pages": [
+          "content-supply-chain",
+          "dataprod",
+          "enterprise-ai-foundations-financial-services",
+          "enterprise-ai-foundations-vtiq",
+          "es-es-blog-asi-se-creo-valtech-concierge",
+          "es-es-eventos-valtech-optimizely-at-resume-martech-2026",
+          "experience-innovation-on-azure",
+          "experience-innovation3",
+          "is-your-adobe-investment-delivering",
+          "lead-scoring",
+          "next2025-highlights",
+          "valtech-enterprise-ai-foundations"
+        ],
+        "level": 2,
+        "pageCount": 12
+      },
+      {
+        "text": "Caso de éxito",
+        "total": 18,
+        "pages": [
+          "es-es-blog-el-geo-como-la-nueva-frontera-de-la-visibilidad-digital",
+          "es-es-blog-ia-transforma-busquedas-y-webs-de-marca",
+          "es-es-blog-presentamos-el-muro-de-datos-b2b",
+          "es-es-industrias",
+          "es-es-quienes-somos",
+          "es-es-servicios-revolucion-del-dato-y-ia",
+          "es-es-whitepapers-fidelizacion-digital-sector-sanitario"
+        ],
+        "level": 2,
+        "pageCount": 7
+      },
+      {
+        "text": "Let’s connect",
+        "total": 15,
+        "pages": [
+          "brand-strategy-design-agency",
+          "creative-content",
+          "dataprod",
+          "digital-media-performance-marketing",
+          "experience-innovation-on-azure",
+          "experience-innovation",
+          "experience-innovation3",
+          "fabric-real-time-intelligence",
+          "index",
+          "lead-scoring",
+          "meet-the-expert-vera-schnitzlein",
+          "next2025-highlights"
+        ],
+        "level": 2,
+        "pageCount": 15
+      },
+      {
+        "text": "News",
+        "total": 8,
+        "pages": [
+          "ai-first-product-operating-model",
+          "es-es-blog-asi-se-creo-valtech-concierge",
+          "es-es-quienes-somos",
+          "leap-into-composable-commerce",
+          "valtech-conversion-engine",
+          "valtech-enterprise-ai-foundations",
+          "valtech-ukraine-in-media"
+        ],
+        "level": 2,
+        "pageCount": 7
+      },
+      {
+        "text": "Whitepaper",
+        "total": 7,
+        "pages": [
+          "dataprod",
+          "enterprise-ai-foundations-financial-services",
+          "lead-scoring",
+          "valtech-enterprise-ai-foundations"
+        ],
+        "level": 4,
+        "pageCount": 4
+      },
+      {
+        "text": "How it works",
+        "total": 6,
+        "pages": [
+          "ai-first-product-operating-model",
+          "content-supply-chain",
+          "enterprise-ai-foundations-financial-services",
+          "valtech-agentic-commerce-catalyst",
+          "valtech-conversion-engine",
+          "valtech-enterprise-ai-foundations"
+        ],
+        "level": 3,
+        "pageCount": 6
+      },
+      {
+        "text": "Why this approach works",
+        "total": 6,
+        "pages": [
+          "ai-first-product-operating-model",
+          "content-supply-chain",
+          "enterprise-ai-foundations-financial-services",
+          "valtech-agentic-commerce-catalyst",
+          "valtech-conversion-engine",
+          "valtech-enterprise-ai-foundations"
+        ],
+        "level": 3,
+        "pageCount": 6
+      },
+      {
+        "text": "FAQs",
+        "total": 6,
+        "pages": [
+          "ai-first-product-operating-model",
+          "content-supply-chain",
+          "digital-consulting-discovery-call",
+          "enterprise-ai-foundations-financial-services",
+          "es-es-servicios-revolucion-del-dato-y-ia",
+          "the-intelligent-enterprise"
+        ],
+        "level": 2,
+        "pageCount": 6
+      },
+      {
+        "text": "Grupo Volkswagen",
+        "total": 6,
+        "pages": [
+          "es-es-blog-ia-transforma-busquedas-y-webs-de-marca",
+          "es-es-blog-presentamos-el-muro-de-datos-b2b",
+          "es-es-casos",
+          "es-es-content-hub",
+          "es-es-industrias",
+          "es-es-servicios-revolucion-del-dato-y-ia"
+        ],
+        "level": 5,
+        "pageCount": 6
+      },
+      {
+        "text": "Reserva una sesión ejecutiva",
+        "total": 6,
+        "pages": [
+          "es-es-la-empresa-inteligente-crecer",
+          "es-es-la-empresa-inteligente-liderar",
+          "es-es-la-empresa-inteligente-modelo-operativo",
+          "es-es-la-empresa-inteligente-operar",
+          "es-es-la-empresa-inteligente-organizar",
+          "es-es-la-empresa-inteligente"
+        ],
+        "level": 2,
+        "pageCount": 6
+      },
+      {
+        "text": "What this unlocks for your business",
+        "total": 5,
+        "pages": [
+          "ai-first-product-operating-model",
+          "content-supply-chain",
+          "valtech-agentic-commerce-catalyst",
+          "valtech-conversion-engine",
+          "valtech-enterprise-ai-foundations"
+        ],
+        "level": 1,
+        "pageCount": 5
+      },
+      {
+        "text": "What we focus on",
+        "total": 5,
+        "pages": [
+          "ai-first-product-operating-model",
+          "content-supply-chain",
+          "valtech-agentic-commerce-catalyst",
+          "valtech-conversion-engine",
+          "valtech-enterprise-ai-foundations"
+        ],
+        "level": 3,
+        "pageCount": 5
+      },
+      {
+        "text": "Subject matter experts",
+        "total": 5,
+        "pages": [
+          "ai-first-product-operating-model",
+          "enterprise-ai-foundations-financial-services",
+          "enterprise-ai-foundations-vtiq",
+          "valtech-agentic-commerce-catalyst",
+          "valtech-conversion-engine"
+        ],
+        "level": 2,
+        "pageCount": 5
+      },
+      {
+        "text": "The Intelligent Enterprise",
+        "total": 5,
+        "pages": [
+          "ai-first-product-operating-model",
+          "content-supply-chain",
+          "enterprise-ai-foundations-vtiq",
+          "the-intelligent-enterprise",
+          "valtech-conversion-engine"
+        ],
+        "level": 5,
+        "pageCount": 5
+      },
+      {
+        "text": "How quickly can we see value?",
+        "total": 5,
+        "pages": [
+          "ai-first-product-operating-model",
+          "content-supply-chain",
+          "enterprise-ai-foundations-vtiq",
+          "valtech-conversion-engine",
+          "valtech-enterprise-ai-foundations"
+        ],
+        "level": 3,
+        "pageCount": 5
+      },
+      {
+        "text": "Related content",
+        "total": 5,
+        "pages": [
+          "dataprod",
+          "es-es-retail-en-la-encrucijada-2026",
+          "lead-scoring",
+          "retail-at-the-crossroads-2026",
+          "valtech-ukraine-in-media"
+        ],
+        "level": 4,
+        "pageCount": 5
+      },
+      {
+        "text": "In partnership with",
+        "total": 5,
+        "pages": [
+          "enterprise-ai-foundations-financial-services",
+          "experience-innovation3",
+          "valtech-agentic-commerce-catalyst",
+          "valtech-conversion-engine",
+          "valtech-enterprise-ai-foundations"
+        ],
+        "level": 2,
+        "pageCount": 5
+      },
+      {
+        "text": "Marketplace de lujo",
+        "total": 5,
+        "pages": [
+          "es-es-blog-ia-transforma-busquedas-y-webs-de-marca",
+          "es-es-blog-presentamos-el-muro-de-datos-b2b",
+          "es-es-casos",
+          "es-es-content-hub",
+          "es-es-servicios-revolucion-del-dato-y-ia"
+        ],
+        "level": 5,
+        "pageCount": 5
+      }
+    ],
+    "toneMetrics": {
+      "headingsTotal": 1343,
+      "headingsUppercasePercent": 1,
+      "distinctHeadings": 984,
+      "distinctCtaLabels": 651
+    },
+    "note": "ctaFrequency excludes header/footer/contact-band chrome labels (logo link, 5 top-nav items EN+ES, footer links, captcha legal links)"
+  },
+  "crossPromo": {
+    "detected": false,
+    "anchorHeading": null,
+    "cluster": null,
+    "pages": null,
+    "pageCount": null,
+    "totalPages": 100,
+    "note": "anchor \"Insight\" (20 pages) has no co-occurring top-12 heading at ≥60% overlap"
+  },
+  "hover": [
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)"
+      },
+      "to": {
+        "backgroundColor": "rgb(0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)"
+      },
+      "count": 34,
+      "sources": [
+        {
+          "page": "index",
+          "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > a"
+        },
+        {
+          "page": "index",
+          "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > a"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 47, 167)",
+        "borderColor": "rgb(0, 47, 167)"
+      },
+      "to": {
+        "backgroundColor": "rgb(0, 47, 167)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)"
+      },
+      "count": 8,
+      "sources": [
+        {
+          "page": "ai-first-product-operating-model",
+          "selector": "#valtech-content > section:nth-of-type(5) > div > div > a"
+        },
+        {
+          "page": "ai-first-product-operating-model",
+          "selector": "#valtech-content > section:nth-of-type(5) > div > div > a"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)"
+      },
+      "to": {
+        "backgroundColor": "rgb(0, 0, 0)",
+        "color": "rgb(255, 255, 255)"
+      },
+      "count": 6,
+      "sources": [
+        {
+          "page": "es-es-blog-asi-se-creo-valtech-concierge",
+          "selector": "#valtech-content > article > section:nth-of-type(7) > div > div:nth-of-type(2) > button"
+        },
+        {
+          "page": "es-es-blog-asi-se-creo-valtech-concierge",
+          "selector": "#valtech-content > article > section:nth-of-type(7) > div > div:nth-of-type(2) > button"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgb(0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)"
+      },
+      "to": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)"
+      },
+      "count": 6,
+      "sources": [
+        {
+          "page": "index",
+          "selector": "#valtech-content > section:nth-of-type(3) > div > div > a"
+        },
+        {
+          "page": "index",
+          "selector": "#valtech-content > section:nth-of-type(3) > div > div > a"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)"
+      },
+      "to": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)"
+      },
+      "count": 4,
+      "sources": [
+        {
+          "page": "es-es-la-empresa-inteligente",
+          "selector": "#valtech-content > section:nth-of-type(1) > div > a"
+        },
+        {
+          "page": "es-es-la-empresa-inteligente",
+          "selector": "#valtech-content > section:nth-of-type(1) > div > a"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 47, 167)"
+      },
+      "to": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)"
+      },
+      "count": 4,
+      "sources": [
+        {
+          "page": "es-es-la-empresa-inteligente",
+          "selector": "div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > div > a"
+        },
+        {
+          "page": "es-es-la-empresa-inteligente",
+          "selector": "div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > div > a"
+        }
+      ]
+    },
+    {
+      "kind": "link",
+      "from": {
+        "color": "rgb(255, 255, 255)"
+      },
+      "to": {
+        "color": "rgb(0, 0, 0)"
+      },
+      "count": 4,
+      "sources": [
+        {
+          "page": "experience-innovation",
+          "selector": "#valtech-content > section:nth-of-type(4) > div > ul > li:nth-of-type(1) > a"
+        },
+        {
+          "page": "experience-innovation",
+          "selector": "#valtech-content > section:nth-of-type(4) > div > ul > li:nth-of-type(1) > a"
+        }
+      ]
+    },
+    {
+      "kind": "link",
+      "from": {
+        "color": "rgb(72, 72, 72)"
+      },
+      "to": {
+        "color": "rgb(255, 255, 255)"
+      },
+      "count": 2,
+      "sources": [
+        {
+          "page": "es-es-industrias",
+          "selector": "#valtech-content > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+        },
+        {
+          "page": "es-es-industrias",
+          "selector": "#valtech-content > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+        }
+      ]
+    },
+    {
+      "kind": "link",
+      "from": {
+        "color": "rgb(0, 0, 0)"
+      },
+      "to": {
+        "color": "rgb(255, 255, 255)"
+      },
+      "count": 2,
+      "sources": [
+        {
+          "page": "es-es-noticias",
+          "selector": "#valtech-content > react > section > div > div:nth-of-type(1) > ul > li:nth-of-type(1) > a"
+        },
+        {
+          "page": "es-es-noticias",
+          "selector": "#valtech-content > react > section > div > div:nth-of-type(1) > ul > li:nth-of-type(1) > a"
+        }
+      ]
+    }
+  ],
+  "register": "brand",
+  "registerBasis": "marketing site: hero carousel, case-study cards, partner logos, contact/lead forms on 42+ pages, no auth"
+}

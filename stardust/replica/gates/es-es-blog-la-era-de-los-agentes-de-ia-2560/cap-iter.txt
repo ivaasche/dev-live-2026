@@ -1,0 +1,14 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.valtech.com/es-es/blog/la-era-de-los-agentes-de-ia/
+  other    2 capped box(es) outside the section tier (in the JSON) — e.g. 1408px #contact-us-form > div.contact-us-form__container.js-accordion
+  modules  2 sections: capped 1440 ×1 · full-bleed ×1
+  contentMaxWidth 1440px (module) · shellMaxWidth fluid · root #valtech-content
+build  http://localhost:8791/es-es-blog-la-era-de-los-agentes-de-ia-proposed.html
+  other    1 capped box(es) outside the section tier (in the JSON) — e.g. 1408px #contact-us-form > div.contact-us-form__container.js-accordion
+  modules  2 sections: capped 1440 ×1 · full-bleed ×1
+  contentMaxWidth 1440px (module) · shellMaxWidth fluid · root #valtech-content
+rows
+  ✓ content cap: live 1440px = build 1440px (±20, shared module cap)
+  ✓ module 1/2: full-bleed on both
+  ✓ module 2/2: 1440px = 1440px
+cap-probe: PASS at 2560 — 0 of 3 rows failed (evidence stardust/replica/gates/es-es-blog-la-era-de-los-agentes-de-ia-2560/cap-iter.json)

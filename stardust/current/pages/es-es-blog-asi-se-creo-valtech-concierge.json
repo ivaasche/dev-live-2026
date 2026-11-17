@@ -1,0 +1,860 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-13T11:09:14.288Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "es-es-blog-asi-se-creo-valtech-concierge",
+  "url": "https://www.valtech.com/es-es/blog/asi-se-creo-valtech-concierge/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-13T11:09:14.288Z",
+  "finalUrl": "https://www.valtech.com/es-es/blog/asi-se-creo-valtech-concierge/",
+  "title": "Así se creó Valtech Concierge | Valtech",
+  "description": "Creamos una marca de lujo ficticia y la convertimos en una experiencia de venta con IA usando Gemini Enterprise, Shopify y Universal Commerce Protocol.",
+  "og": {
+    "title": "Así se creó Valtech Concierge",
+    "description": "Creamos una marca de lujo ficticia y la convertimos en una experiencia de venta con IA usando Gemini Enterprise, Shopify y Universal Commerce Protocol.",
+    "image": "https://www.valtech.com/globalassets/00-global/02-images/04-insights/2026-blog-posts/behind-the-build-valtech-concierge/data-and-ai-blog---valet---valtech-nav.png",
+    "type": "article"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Así se creó Valtech Concierge"
+    },
+    {
+      "tag": "h2",
+      "text": "El problema que queríamos resolver"
+    },
+    {
+      "tag": "h2",
+      "text": "La arquitectura tecnológica"
+    },
+    {
+      "tag": "h2",
+      "text": "Dónde encaja UCP"
+    },
+    {
+      "tag": "h2",
+      "text": "Un nuevo paradigma para la experiencia de cliente"
+    },
+    {
+      "tag": "h2",
+      "text": "Lo que tuvimos que desarrollar más allá de las capacidades nativas"
+    },
+    {
+      "tag": "h3",
+      "text": "Gestión del estado de la sesión"
+    },
+    {
+      "tag": "h3",
+      "text": "Orquestación determinista de la conversación"
+    },
+    {
+      "tag": "h3",
+      "text": "Prevención de alucinaciones"
+    },
+    {
+      "tag": "h3",
+      "text": "Gestión inteligente del ciclo de búsqueda"
+    },
+    {
+      "tag": "h3",
+      "text": "Correspondencia de variantes y fichas de producto visuales"
+    },
+    {
+      "tag": "h3",
+      "text": "Principios de arquitectura"
+    },
+    {
+      "tag": "h2",
+      "text": "Solicita una demostración"
+    },
+    {
+      "tag": "h2",
+      "text": "Insight"
+    },
+    {
+      "tag": "h5",
+      "text": "The real risk of AI commerce? Reducing shopping to a transaction"
+    },
+    {
+      "tag": "h4",
+      "text": "Case"
+    },
+    {
+      "tag": "h5",
+      "text": "Valet"
+    },
+    {
+      "tag": "h2",
+      "text": "News"
+    },
+    {
+      "tag": "h5",
+      "text": "Valtech Powers 113 Spring’s Digital Core"
+    },
+    {
+      "tag": "h2",
+      "text": "Event"
+    },
+    {
+      "tag": "h5",
+      "text": "From clicks to agents: Are commerce websites dead?"
+    },
+    {
+      "tag": "h2",
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "tag": "h2",
+      "text": "Contáctanos"
+    }
+  ],
+  "body": [
+    "Inicio",
+    "Blog",
+    "Así se creó Valtech Concierge",
+    "agosto 04, 2026",
+    "En NRF 2026, Google Cloud, junto con Shopify, presentó el Universal Commerce Protocol. Juntos, Gemini Enterprise y Universal Commerce Protocol proporcionan a las marcas una plataforma de IA conversacional y un estándar abierto para completar transacciones dentro de ella.",
+    "Queríamos entender qué supone realmente desarrollar sobre estas tecnologías. Para ello, creamos una marca ficticia de maletas de lujo, con catálogo de productos, colecciones, variantes de color y precios en Shopify, y construimos sobre ella un agente concierge completamente funcional. La marca no existe. La arquitectura, los retos de ingeniería y las soluciones, sí.",
+    "Esto es lo que aprendimos.",
+    "Comprar una maleta de lujo es una decisión meditada. Los clientes no se limitan a recorrer un catálogo y añadir un producto al carrito. Necesitan asesoramiento: ¿Cumple con las restricciones de equipaje de cabina de JetBlue? ¿Es lo bastante resistente para tres meses viajando por el sudeste asiático? ¿Qué diferencias hay entre la carcasa rígida y el nylon? ¿A mi mujer le gustará más el acabado Maple o Forest Green?",
+    "En una tienda física, un buen asesor responde a todas esas preguntas. Online, el cliente suele encontrarse con filtros y páginas de preguntas frecuentes. Es en esa diferencia entre ambas experiencias donde muchas conversiones se pierden.",
+    "Nuestro objetivo era cerrar esa brecha con un agente de IA capaz de actuar como el mejor asesor de tienda: disponible las 24 horas y en cualquier canal digital.",
+    "El agente se basa en tres capas, cada una especializada en aquello que mejor hace:",
+    "Gemini Enterprise provides the conversational intelligence. An agent can handle multimodal understanding (text, voice, image inputs) and delivers the natural, reasoning-driven dialogue that makes the experience feel consultative rather than transactional. The agent understands that \"my daughter is heading to Southeast Asia for a gap year\" implies budget airlines, tropical humidity, theft risk and extreme durability requirements without the customer saying any of those words.",
+    "Gemini Enterprise provides the conversational intelligence. An agent can handle multimodal understanding (text, voice, image inputs) and delivers the natural, reasoning-driven dialogue that makes the experience feel consultative rather than transactional. The agent understands that \"my daughter is heading to Southeast Asia for a gap year\" implies budget airlines, tropical humidity, theft risk and extreme durability requirements without the customer saying any of those words.",
+    "Shopify es el núcleo de la plataforma de comercio. El catálogo de productos, los precios, la disponibilidad de variantes, el inventario, los perfiles de cliente y el proceso de compra residen en Shopify. El agente consulta en tiempo real el endpoint Storefront MCP para cada recomendación de producto, lo que garantiza precios actualizados, disponibilidad real y evita que la IA recomiende productos inexistentes.",
+    "Shopify es el núcleo de la plataforma de comercio. El catálogo de productos, los precios, la disponibilidad de variantes, el inventario, los perfiles de cliente y el proceso de compra residen en Shopify. El agente consulta en tiempo real el endpoint Storefront MCP para cada recomendación de producto, lo que garantiza precios actualizados, disponibilidad real y evita que la IA recomiende productos inexistentes.",
+    "Google Cloud proporciona la infraestructura. El agente se ejecuta en Cloud Run con conexiones WebSocket para ofrecer streaming en tiempo real. La capa de orquestación determinista (el código Python que valida los datos, gestiona el estado de la conversación y garantiza el cumplimiento del proceso de venta) se ejecuta dentro de Gemini Enterprise sin añadir latencia.",
+    "Google Cloud proporciona la infraestructura. El agente se ejecuta en Cloud Run con conexiones WebSocket para ofrecer streaming en tiempo real. La capa de orquestación determinista (el código Python que valida los datos, gestiona el estado de la conversación y garantiza el cumplimiento del proceso de venta) se ejecuta dentro de Gemini Enterprise sin añadir latencia.",
+    "Universal Commerce Protocol resuelve el último paso del proceso: convertir un «me lo llevo» en una compra completada sin sacar al cliente de la conversación.",
+    "UCP define cómo el agente descubre las capacidades de los productos, gestiona las opciones de compra y conecta con la infraestructura de pago de Shopify, todo ello desde la propia interfaz conversacional. El cliente no es redirigido a otra página de pago y el comercio mantiene el control sobre la personalización del checkout, los métodos de pago, el enrutamiento de transacciones y las reglas de prevención del fraude.",
+    "Para los comercios que utilizan Shopify, esto supone un avance importante. UCP permite que el agente complete una compra utilizando el checkout existente de Shopify, con todos los métodos de pago, promociones y flujos posteriores a la compra ya configurados. El agente se convierte así en un nuevo punto de interacción sobre la infraestructura de comercio existente, sin necesidad de crear una integración paralela.",
+    "Para Google Cloud, UCP transforma Gemini Enterprise de una plataforma conversacional en una plataforma transaccional. Gemini Enterprise puede comprender productos y asesorar al cliente. UCP le permite completar la compra.",
+    "Las experiencias deben adaptarse a la intención, el contexto y el comportamiento del cliente en cada interacción. Esa es la clave del crecimiento para los retailers impulsados por IA y una de las cuatro capas que exploramos en La Empresa Inteligente.",
+    "Learn more about Grow",
+    "Gemini Enterprise proporciona el entorno gestionado para ejecutar agentes. Shopify aporta las APIs de comercio. Pero la diferencia entre «una IA conversacional capaz de buscar productos» y «un asesor de ventas que acompaña al cliente desde la necesidad hasta la compra» es donde realmente entra en juego la ingeniería.",
+    "Esto es lo que desarrollamos sobre la plataforma:",
+    "Creamos un modelo de datos estructurado (necesidades, restricciones, contexto, recomendaciones, reacciones y resultados) que recoge toda la información de la conversación y la incorpora de nuevo al contexto del agente en cada interacción.",
+    "Un mismo cliente puede tener varias necesidades (por ejemplo, una maleta de cabina para sí mismo y otra facturable como regalo), cada una con sus propias restricciones, recomendaciones de productos y estado de compra.",
+    "Tras cada interacción, un código en Python evalúa la información recopilada y establece el siguiente estado de la conversación: descubrir (hacer preguntas), recomendar (mostrar productos), validar la intención de compra o cerrar (confirmar la compra y dejar de vender).",
+    "Esto evita dos de los errores más habituales en la venta asistida por IA: hacer demasiadas preguntas antes de recomendar un producto y seguir intentando vender cuando el cliente ya ha dicho que sí.",
+    "Cada recomendación de producto se valida antes de mostrarse al cliente. La IA selecciona un producto mediante su código. Después, todos los datos, como el nombre, el precio, las imágenes, el stock y las variantes, se recuperan directamente desde Shopify, en lugar de ser generados por la IA.",
+    "Una capa de validación intercepta cada llamada a las herramientas y bloquea cualquier solicitud que haga referencia a un producto, una variante o una necesidad inexistentes en la sesión. Los errores nunca son visibles para el cliente. La IA vuelve a intentarlo automáticamente con valores corregidos.",
+    "Cuando ningún producto cumple los requisitos del cliente, el agente flexibiliza las restricciones siguiendo un proceso determinista. Primero elimina las características deseables. Después amplía ligeramente el presupuesto. Por último, rebaja la prioridad del requisito imprescindible menos crítico.",
+    "Los requisitos irrenunciables nunca se modifican. Tras cada ajuste, el agente explica al cliente el compromiso que implica esa recomendación. El proceso se limita a un máximo de tres intentos antes de reconocer de forma transparente que no existe una opción adecuada. Todo este comportamiento está definido por código. La IA no decide qué restricciones relajar.",
+    "Si un cliente pide «algo verde», el agente almacena esa preferencia y la relaciona con los nombres de color reales del catálogo en el momento de realizar la recomendación. La ficha de producto muestra la imagen correspondiente a esa variante, en lugar de la imagen principal de un color distinto. Si el cliente pide, por ejemplo, «enséñame la lila», la ficha se actualiza al instante sin necesidad de realizar una nueva búsqueda.",
+    "Tres principios guiaron todas las decisiones:",
+    "La IA gestiona la conversación. Python gestiona el estado de la sesión. La IA comprende el lenguaje natural, genera las respuestas y establece conexiones entre conceptos. Python valida los datos, gestiona el estado de la sesión, garantiza el cumplimiento del proceso de venta y evita las alucinaciones. Ninguno de los dos podría hacerlo por sí solo.",
+    "La IA gestiona la conversación. Python gestiona el estado de la sesión. La IA comprende el lenguaje natural, genera las respuestas y establece conexiones entre conceptos. Python valida los datos, gestiona el estado de la sesión, garantiza el cumplimiento del proceso de venta y evita las alucinaciones. Ninguno de los dos podría hacerlo por sí solo.",
+    "Los datos del comercio son la única fuente de verdad. Toda la información sobre los productos procede de Shopify. Todo el proceso de compra se realiza a través de Shopify. El agente actúa como una nueva interfaz sobre la infraestructura de comercio existente, sin crear una capa de datos paralela.",
+    "Los datos del comercio son la única fuente de verdad. Toda la información sobre los productos procede de Shopify. Todo el proceso de compra se realiza a través de Shopify. El agente actúa como una nueva interfaz sobre la infraestructura de comercio existente, sin crear una capa de datos paralela.",
+    "La transparencia está por encima de la optimización. Cuando el agente no encuentra una opción que cumpla todos los requisitos, explica al cliente qué concesiones ha tenido que hacer y le pregunta si le parecen aceptables. Si un producto supera el presupuesto, lo indica. Y cuando no existe una opción adecuada, lo reconoce con total transparencia.",
+    "La transparencia está por encima de la optimización. Cuando el agente no encuentra una opción que cumpla todos los requisitos, explica al cliente qué concesiones ha tenido que hacer y le pregunta si le parecen aceptables. Si un producto supera el presupuesto, lo indica. Y cuando no existe una opción adecuada, lo reconoce con total transparencia.",
+    "Desarrollamos esta prueba de concepto completamente funcional sobre una tienda Shopify creada específicamente para este proyecto, con colecciones, categorías de productos e inventario por variantes. Todo lo que hace el agente, desde el asesoramiento inicial hasta el proceso de compra, funciona sobre datos reales de Shopify.",
+    "La demostración incluye: identificación de múltiples necesidades, búsqueda de productos basada en restricciones, correspondencia de preferencias de color, gestión de objeciones mediante la actualización de restricciones, flexibilización de criterios cuando no hay resultados, comparación de productos, cambio de variantes y todo el proceso desde el carrito hasta el checkout.",
+    "Solicitar una demo",
+    "We cover a lot of bleeding-edge technology in this article. Explore the FAQ below if you need context around what these tools are and what they do."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Valtech, go back to homepage The Experience Innovation Company",
+      "href": "/es-es/"
+    },
+    {
+      "label": "Nuestro trabajo",
+      "href": null
+    },
+    {
+      "label": "Servicios",
+      "href": null
+    },
+    {
+      "label": "Talento",
+      "href": null
+    },
+    {
+      "label": "Perspectivas",
+      "href": null
+    },
+    {
+      "label": "Sobre nosotros",
+      "href": null
+    },
+    {
+      "label": "Contáctanos",
+      "href": "#contact-us-form"
+    },
+    {
+      "label": "Inicio",
+      "href": "/es-es/"
+    },
+    {
+      "label": "Blog",
+      "href": "/es-es/blog/"
+    },
+    {
+      "label": "Gemini Enterprise",
+      "href": "/es-es/nuestros-partners/google/gemini-enterprise/"
+    },
+    {
+      "label": "Shopify",
+      "href": "/es-es/nuestros-partners/shopify/"
+    },
+    {
+      "label": "Google Cloud",
+      "href": "/es-es/nuestros-partners/google/"
+    },
+    {
+      "label": "La Empresa Inteligente Un nuevo paradigma para la experiencia de cliente Las experiencias deben adaptarse a la intención, el contexto y el comportamiento del cliente en cada interacción. Esa es la clave del crecimiento para los retailers impulsados por IA y una de las cuatro capas que exploramos en La Empresa Inteligente. Learn more about Grow",
+      "href": "/es-es/la-empresa-inteligente/crecer/"
+    },
+    {
+      "label": "Solicitar una demo",
+      "href": "#contact-us-form"
+    },
+    {
+      "label": "Insight The real risk of AI commerce? Reducing shopping to a transaction",
+      "href": "/es-es/blog/the-real-risk-of-ai-shopping/"
+    },
+    {
+      "label": "News Valtech Powers 113 Spring’s Digital Core",
+      "href": "/es-es/noticias/valtech-digital-infrastructure-113-spring-nyc/"
+    },
+    {
+      "label": "Event From clicks to agents: Are commerce websites dead?",
+      "href": "/es-es/eventos/valtech-forrester-webinar/"
+    },
+    {
+      "label": "Show More",
+      "href": null
+    },
+    {
+      "label": "Sheree Atcheson.",
+      "href": "mailto:sheree.atcheson@valtech.com"
+    },
+    {
+      "label": "Inicio",
+      "href": "/es-es/"
+    },
+    {
+      "label": "Quiénes somos",
+      "href": "/es-es/quienes-somos/"
+    },
+    {
+      "label": "Oficinas",
+      "href": "/es-es/quienes-somos/oficinas/"
+    },
+    {
+      "label": "Trabaja con nosotros",
+      "href": "/es-es/carrera/"
+    },
+    {
+      "label": "Política de Privacidad",
+      "href": "/es-es/politica-privacidad/"
+    },
+    {
+      "label": "Política de Cookies",
+      "href": "/es-es/politica-de-cookies/"
+    },
+    {
+      "label": "Aviso Legal",
+      "href": "/es-es/aviso-legal/"
+    },
+    {
+      "label": "Accesibilidad",
+      "href": "/es-es/quienes-somos/accesibilidad/"
+    },
+    {
+      "label": "Mantente en contacto",
+      "href": "/es-es/quienes-somos/mantente-en-contacto/"
+    },
+    {
+      "label": "Configuración de cookies",
+      "href": "#"
+    }
+  ],
+  "links": [
+    "https://www.valtech.com/es-es/blog/asi-se-creo-valtech-concierge/#valtech-content",
+    "https://www.valtech.com/es-es/",
+    "https://www.valtech.com/es-es/search/",
+    "https://www.valtech.com/es-es/casos/",
+    "https://www.valtech.com/es-es/industrias/",
+    "https://www.valtech.com/es-es/nuestros-partners/",
+    "https://www.valtech.com/es-es/servicios/elevacion-de-la-experiencia/",
+    "https://www.valtech.com/es-es/servicios/aceleracion-comercio/",
+    "https://www.valtech.com/es-es/servicios/transformacion-empresarial/",
+    "https://www.valtech.com/es-es/servicios/servicios-creativos-de-marketing-performance/",
+    "https://www.valtech.com/es-es/servicios/revolucion-del-dato-y-ia/",
+    "https://www.valtech.com/es-es/carrera/ofertas-de-empleo/",
+    "https://www.valtech.com/es-es/trabajar-en-valtech/",
+    "https://www.valtech.com/es-es/diversidad-e-inclusion/",
+    "https://www.valtech.com/es-es/podcasts/",
+    "https://www.valtech.com/es-es/whitepapers/",
+    "https://www.valtech.com/es-es/content-hub/",
+    "https://www.valtech.com/es-es/blog/",
+    "https://www.valtech.com/es-es/eventos/",
+    "https://www.valtech.com/es-es/la-empresa-inteligente/",
+    "https://www.valtech.com/es-es/noticias/",
+    "https://www.valtech.com/es-es/quienes-somos/",
+    "https://www.valtech.com/es-es/quienes-somos/oficinas/",
+    "https://www.valtech.com/es-es/quienes-somos/contacto/keep-in-touch/",
+    "https://www.valtech.com/",
+    "https://www.valtech.com/de-de/",
+    "https://www.valtech.com/en-dk/",
+    "https://www.valtech.com/fr-fr/",
+    "https://www.valtech.com/nl-nl/",
+    "https://www.valtech.com/en-gb/",
+    "https://www.valtech.com/sv-se/",
+    "https://www.valtech.com/en-ch/",
+    "https://www.valtech.com/en-ca/",
+    "https://www.valtech.com/en-us/",
+    "https://www.valtech.com/es-ar/",
+    "https://www.valtech.com/pt-br/",
+    "https://www.valtech.com/es-mx/",
+    "https://www.valtech.com/en-sg/",
+    "https://www.valtech.com/es-es/blog/asi-se-creo-valtech-concierge/#contact-us-form",
+    "https://www.valtech.com/es-es/nuestros-partners/google/gemini-enterprise/",
+    "https://www.valtech.com/es-es/nuestros-partners/shopify/",
+    "https://www.valtech.com/es-es/nuestros-partners/google/",
+    "https://www.valtech.com/es-es/la-empresa-inteligente/crecer/",
+    "https://www.valtech.com/es-es/blog/the-real-risk-of-ai-shopping/",
+    "https://www.valtech.com/es-es/noticias/valtech-digital-infrastructure-113-spring-nyc/",
+    "https://www.valtech.com/es-es/eventos/valtech-forrester-webinar/",
+    "mailto:sheree.atcheson@valtech.com",
+    "https://www.valtech.com/es-es/carrera/",
+    "https://www.valtech.com/es-es/politica-privacidad/",
+    "https://www.valtech.com/es-es/politica-de-cookies/",
+    "https://www.valtech.com/es-es/aviso-legal/",
+    "https://www.valtech.com/es-es/quienes-somos/accesibilidad/",
+    "https://www.valtech.com/es-es/quienes-somos/mantente-en-contacto/",
+    "https://www.valtech.com/es-es/blog/asi-se-creo-valtech-concierge/#",
+    "https://www.linkedin.com/company/valtech",
+    "https://www.youtube.com/c/ValtechOfficial",
+    "https://www.instagram.com/valtech_global/",
+    "https://podcasts.apple.com/us/podcast/valtech-caf%C3%A9/id1497951359",
+    "https://soundcloud.com/valtechcafe",
+    "https://open.spotify.com/show/7oRV0j7kQvkSOCgiy1t7P5",
+    "https://friendlycaptcha.com/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.valtech.com/globalassets/00-global/02-images/04-insights/2026-blog-posts/behind-the-build-valtech-concierge/data-and-ai-blog---valet-chat-form-field---valtech-header.png?width=1600&height=720&rsampler=bicubic&compand=true&format=webp&quality=75",
+        "alt": "",
+        "w": 1600,
+        "h": 720
+      },
+      {
+        "src": "https://www.valtech.com/globalassets/00-global/02-images/04-insights/2026-blog-posts/behind-the-build-valtech-concierge/data-and-ai-blog---valet-chat-form-field---valtech-header.png?width=1320&height=690&rsampler=bicubic&compand=true&format=webp&quality=75",
+        "alt": "",
+        "w": 1320,
+        "h": 690
+      },
+      {
+        "src": "https://www.valtech.com/globalassets/00-global/02-images/04-insights/2026-blog-posts/behind-the-build-valtech-concierge/data-and-ai-blog---valet-chat-form-field---valtech-header.png?width=440&height=230&rsampler=bicubic&compand=true&format=webp&quality=75",
+        "alt": "",
+        "w": 440,
+        "h": 230
+      },
+      {
+        "src": "https://www.valtech.com/globalassets/00-global/02-images/04-insights/2026-blog-posts/behind-the-build-valtech-concierge/data-and-ai---grow-illustration-valtech-teaser-1200x900.png?width=480&height=360&rsampler=bicubic&compand=true&format=webp&quality=75",
+        "alt": "",
+        "w": 480,
+        "h": 360
+      },
+      {
+        "src": "https://www.valtech.com/globalassets/00-global/02-images/04-insights/2026-blog-posts/behind-the-build-valtech-concierge/data-and-ai-blog---valet-customisations---valtech.png?width=1600&height=900&rmode=max&rsampler=bicubic&compand=true&format=webp&quality=75",
+        "alt": "",
+        "w": 1600,
+        "h": 900
+      },
+      {
+        "src": "https://www.valtech.com/globalassets/00-global/02-images/04-insights/2026-blog-posts/behind-the-build-valtech-concierge/data-and-ai-blog---valet-add-to-cart---valtech.png?width=1600&height=900&rmode=max&rsampler=bicubic&compand=true&format=webp&quality=75",
+        "alt": "",
+        "w": 1309,
+        "h": 900
+      },
+      {
+        "src": "https://www.valtech.com/globalassets/00-global/02-images/04-insights/2026-blog-posts/the-real-risk-of-ai-commerce/collaborative-commerce-empty-fragrance-bottles-valtech-nav.png?width=480&height=360&rsampler=bicubic&compand=true&format=webp&quality=75",
+        "alt": "",
+        "w": 480,
+        "h": 360
+      },
+      {
+        "src": "https://www.valtech.com/globalassets/00-global/02-images/07-work/valet/data-and-ai-luggage-chat-bot-valtech-header-nav.png?width=480&height=360&rsampler=bicubic&compand=true&format=webp&quality=75",
+        "alt": "",
+        "w": 480,
+        "h": 360
+      },
+      {
+        "src": "https://www.valtech.com/globalassets/00-global/02-images/09-news/2025-news/valtech-powers-the-digital-infrastructure-behind-113-spring-a-new-wellness-focused-retail-experience-in-soho-nyc/tsk-6710---pr-valtech-113-springs-navigation.png?width=480&height=360&rsampler=bicubic&compand=true&format=webp&quality=75",
+        "alt": "",
+        "w": 480,
+        "h": 360
+      },
+      {
+        "src": "https://www.valtech.com/globalassets/00-global/02-images/10-events/2026-events/from-clicks-to-agents-are-commerce-websites-dead/tsk-7926-landing-page-for-forrester-webinar-masthead.png?width=480&height=360&rsampler=bicubic&compand=true&format=webp&quality=75",
+        "alt": "",
+        "w": 480,
+        "h": 360
+      }
+    ],
+    "allImgCount": 13,
+    "cssBackgrounds": [],
+    "modals": [
+      "Revonic is now a part of the Valtech family In 5 seconds you will be redirected to valtech.com automatically enter valtech.com",
+      "Revonic is now a part of the Valtech family In 5 seconds you will be redirected to valtech.com automatically enter valtech.com",
+      "Evident is now a part of the Valtech family In 5 seconds you will be redirected to valtech.com automatically enter valtech.com",
+      "Evident is now a part of the Valtech family In 5 seconds you will be redirected to valtech.com automatically enter valtech.com",
+      "The Berndt Group is now a part of the Valtech family In 5 seconds you will be redirected to valtech.com automatically enter valtech.com",
+      "The Berndt Group is now a part of the Valtech family In 5 seconds you will be redirected to valtech.com automatically enter valtech.com",
+      "Appsolutely is now a part of the Valtech family In 5 seconds you will be redirected to valtech.com automatically enter valtech.com",
+      "Appsolutely is now a part of the Valtech family In 5 seconds you will be redirected to valtech.com automatically enter valtech.com"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 23,
+    "mainTextLen": 11488,
+    "realImageCount": 10,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "_tu",
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gap.gtb",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtb",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "us_privacy"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 4,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consentcdn.cookiebot.eu",
+        "path": "/consentconfig/{uuid}/settings.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://consentcdn.cookiebot.eu/consentconfig/9ff02350-286d-45c0-ae57-9a4a20538f5c/settings.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "tag.valtech.com",
+        "path": "/g/collect",
+        "query": [
+          "_et",
+          "_eu",
+          "_p",
+          "_s",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "ec_mode",
+          "ecid",
+          "en",
+          "ep.page_category",
+          "ep.page_location_en",
+          "ep.page_type",
+          "ep.platform",
+          "ep.platform_locale",
+          "ep.platform_type",
+          "ep.user_data.linkedinFirstPartyId",
+          "ep.vt_session_id",
+          "epn.timestamp",
+          "evnid",
+          "frm",
+          "gap.gtb",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtb",
+          "gtm",
+          "ibt",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "richsstsse",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "sst.gch",
+          "sst.lpc",
+          "sst.navt",
+          "sst.ngs",
+          "sst.rnd",
+          "sst.sw_exp",
+          "sst.tft",
+          "sst.ude",
+          "sst.us_privacy",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "tt",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "up.consent_user_geolocation",
+          "ur",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://tag.valtech.com/g/collect",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "px.ads.linkedin.com",
+        "path": "/wa/",
+        "query": [
+          "fmt",
+          "medium"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://px.ads.linkedin.com/wa/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "dc.services.visualstudio.com",
+        "path": "/v2/track",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 400,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://dc.services.visualstudio.com/v2/track",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "c.6sc.co",
+        "path": "/",
+        "query": [
+          "d"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": 11,
+        "hits": 1,
+        "example": "https://c.6sc.co/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "ipv6.6sc.co",
+        "path": "/",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 24,
+        "hits": 1,
+        "example": "https://ipv6.6sc.co/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "epsilon.6sense.com",
+        "path": "/v3/company/details",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 402,
+        "bytes": 141,
+        "hits": 1,
+        "example": "https://epsilon.6sense.com/v3/company/details",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "did",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gdid",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url",
+          "us_privacy"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 3,
+        "example": "https://www.google.com/rmkt/collect/18159760898/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "logx.optimizely.com",
+        "path": "/v1/events",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://logx.optimizely.com/v1/events",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "f.clarity.ms",
+        "path": "/collect",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://f.clarity.ms/collect",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "connect.facebook.net",
+        "count": 3
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 3
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "count": 3
+      },
+      {
+        "host": "munchkin.marketo.net",
+        "count": 2
+      },
+      {
+        "host": "j.6sc.co",
+        "count": 2
+      },
+      {
+        "host": "s.emea01.idio.episerver.net",
+        "count": 2
+      },
+      {
+        "host": "consent.cookiebot.eu",
+        "count": 1
+      },
+      {
+        "host": "static.ads-twitter.com",
+        "count": 1
+      },
+      {
+        "host": "snap.licdn.com",
+        "count": 1
+      },
+      {
+        "host": "siteimproveanalytics.com",
+        "count": 1
+      },
+      {
+        "host": "az416426.vo.msecnd.net",
+        "count": 1
+      },
+      {
+        "host": "www.clarity.ms",
+        "count": 1
+      },
+      {
+        "host": "ws.zoominfo.com",
+        "count": 1
+      },
+      {
+        "host": "consentcdn.cookiebot.eu",
+        "count": 1
+      },
+      {
+        "host": "cdn.optimizely.com",
+        "count": 1
+      },
+      {
+        "host": "scripts.clarity.ms",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "marketo-forms"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 1,
+    "triggers": [
+      {
+        "marker": "data-micromodal-close",
+        "href": null
+      },
+      {
+        "marker": "data-micromodal-close",
+        "href": null
+      },
+      {
+        "marker": "data-micromodal-close",
+        "href": null
+      },
+      {
+        "marker": "data-micromodal-close",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 1,
+      "thirdPartyEndpoints": 10,
+      "thirdPartyScriptHosts": 16,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/es-es-blog-asi-se-creo-valtech-concierge.png",
+  "renderedHtml": "pages/es-es-blog-asi-se-creo-valtech-concierge.html",
+  "slots": {
+    "_type": "article",
+    "_source": "pages/es-es-blog-asi-se-creo-valtech-concierge.html main#valtech-content (stardust/.work/tools/slots.mjs)",
+    "headline": {
+      "selector": "main#valtech-content h1.masthead-blurred__text__title",
+      "count": 1,
+      "evidence": "Así se creó Valtech Concierge"
+    },
+    "deck": {
+      "selector": "main#valtech-content p.lead",
+      "count": 1,
+      "evidence": "En NRF 2026, Google Cloud, junto con Shopify, presentó el Universal Commerce Pro"
+    },
+    "byline": null,
+    "meta": {
+      "selector": "main#valtech-content small",
+      "count": 1,
+      "evidence": "agosto 04, 2026"
+    },
+    "lead-image": {
+      "selector": "main#valtech-content img",
+      "count": 3,
+      "evidence": null
+    },
+    "body": {
+      "selector": "main#valtech-content section.rte-block",
+      "count": 5,
+      "evidence": "agosto 04, 2026 En NRF 2026, Google Cloud, junto con Shopify, presentó el Univer"
+    },
+    "pullquotes": null,
+    "related": {
+      "selector": "main#valtech-content div.teaser-block",
+      "count": 1,
+      "evidence": "Insight"
+    }
+  }
+}

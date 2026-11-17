@@ -1,0 +1,19 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.valtech.com/ai-searchandizing-workshop/
+  other    1 capped box(es) outside the section tier (in the JSON) — e.g. 252px #frCap-widget
+  modules  8 sections: capped 810 ×4, 424 ×1, 400 ×1 · full-bleed ×2
+  contentMaxWidth 810px (module) · shellMaxWidth fluid · root #valtech-content
+build  http://localhost:8791/ai-searchandizing-workshop-proposed.html
+  modules  8 sections: capped 810 ×4, 424 ×1, 400 ×1 · full-bleed ×2
+  contentMaxWidth 810px (module) · shellMaxWidth fluid · root #valtech-content
+rows
+  ✓ content cap: live 810px = build 810px (±20, shared module cap)
+  ✓ module 1/8: full-bleed on both
+  ✓ module 2/8: full-bleed on both
+  ✓ module 3/8: 810px = 810px
+  ✓ module 4/8: 424px = 424px
+  ✓ module 5/8: 810px = 810px
+  ✓ module 6/8: 400px = 400px
+  ✓ module 7/8: 810px = 810px
+  ✓ module 8/8: 810px = 810px
+cap-probe: PASS at 2560 — 0 of 9 rows failed (evidence stardust/replica/gates/ai-searchandizing-workshop-2560/cap-iter.json)

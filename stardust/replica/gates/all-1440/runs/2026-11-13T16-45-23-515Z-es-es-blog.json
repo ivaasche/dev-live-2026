@@ -1,0 +1,115 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-13T16:45:23.513Z",
+    "stage": "published",
+    "breakpoint": 1440,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.valtech.com",
+    "eds": "https://main--c87ac39f--aemcoder.aem.page",
+    "edsHostOverride": "https://main--c87ac39f--aemcoder.aem.page",
+    "only": [
+      "es-es-blog"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 0,
+    "overridePass": 0,
+    "fail": 1,
+    "error": 0,
+    "failPixel": 1,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 1,
+    "failUnits": 1,
+    "fontsNotLoaded": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "es-es-blog",
+      "path": "/es-es/blog",
+      "template": "listing",
+      "tier": "archetype",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 25.29,
+      "textPct": 16.73,
+      "heightDelta": 14,
+      "originH": 5286,
+      "edsH": 5272,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 25.29% > 10%",
+        "content MISSING 4 / HIDDEN 0",
+        "units off 13 hidden 4 missing 0"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 4,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 26,
+        "variable": []
+      },
+      "units": {
+        "units": 6,
+        "within": 10,
+        "off": 13,
+        "hidden": 4,
+        "missing": 0,
+        "errors": 1,
+        "requiredOff": 17
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [
+        "0-500:38.4%",
+        "500-1000:55.9%",
+        "1000-1500:41.2%",
+        "1500-2000:26.4%",
+        "2000-2500:31.9%",
+        "2500-3000:44%",
+        "3000-3500:16.6%"
+      ],
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,2489 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T08:09:59.221Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/es-es/servicios/",
+  "at": "2026-11-14T08:09:42.233Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 2302,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.site-nav__menu-wrapper.site-nav__menu__labels > div.site-nav__logo > a.site-nav__logo__link",
+    "x": 24,
+    "y": 25,
+    "w": 80,
+    "h": 21,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > a.search-select.mobile",
+    "x": 232,
+    "y": 24,
+    "w": 22,
+    "h": 23,
+    "text": "go to search page",
+    "href": "/es-es/search/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open main menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open main menu",
+    "value": "open main menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > a",
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 75,
+    "y": 75,
+    "w": 63,
+    "h": 21,
+    "label": "current",
+    "value": "servicios",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 75,
+    "y": 75,
+    "w": 63,
+    "h": 21,
+    "text": "Servicios"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.offerings_overview > section.offerings_overview-tabs > a.offerings_overview-tabs--tab",
+    "x": 24,
+    "y": 121,
+    "w": 111,
+    "h": 38,
+    "text": "elevación de la experiencia",
+    "href": "/es-es/servicios/elevacion-de-la-experiencia/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.offerings_overview-tabs > a.offerings_overview-tabs--tab > h3",
+    "x": 24,
+    "y": 121,
+    "w": 111,
+    "h": 38,
+    "level": 3,
+    "text": "elevación de la experiencia"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.offerings_overview > section.offerings_overview-tabs > a.offerings_overview-tabs--tab",
+    "x": 229,
+    "y": 121,
+    "w": 92,
+    "h": 58,
+    "text": "aceleración del comercio",
+    "href": "/es-es/servicios/aceleracion-comercio/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.offerings_overview-tabs > a.offerings_overview-tabs--tab > h3",
+    "x": 229,
+    "y": 121,
+    "w": 92,
+    "h": 58,
+    "level": 3,
+    "text": "aceleración del comercio"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.offerings_overview > section.offerings_overview-tabs > a.offerings_overview-tabs--tab",
+    "x": 24,
+    "y": 203,
+    "w": 111,
+    "h": 38,
+    "text": "transformación empresarial",
+    "href": "/es-es/servicios/transformacion-empresarial/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.offerings_overview-tabs > a.offerings_overview-tabs--tab > h3",
+    "x": 24,
+    "y": 203,
+    "w": 111,
+    "h": 38,
+    "level": 3,
+    "text": "transformación empresarial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.offerings_overview > section.offerings_overview-tabs > a.offerings_overview-tabs--tab",
+    "x": 229,
+    "y": 203,
+    "w": 92,
+    "h": 77,
+    "text": "servicios creativos de marketing & performance",
+    "href": "/es-es/servicios/servicios-creativos-de-marketing-performance/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.offerings_overview-tabs > a.offerings_overview-tabs--tab > h3",
+    "x": 229,
+    "y": 203,
+    "w": 92,
+    "h": 77,
+    "level": 3,
+    "text": "servicios creativos de marketing & performance"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.offerings_overview > section.offerings_overview-tabs > a.offerings_overview-tabs--tab",
+    "x": 24,
+    "y": 304,
+    "w": 111,
+    "h": 38,
+    "text": "revolución del dato y la ia",
+    "href": "/es-es/servicios/revolucion-del-dato-y-ia/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.offerings_overview-tabs > a.offerings_overview-tabs--tab > h3",
+    "x": 24,
+    "y": 304,
+    "w": 111,
+    "h": 38,
+    "level": 3,
+    "text": "revolución del dato y la ia"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > h2",
+    "x": 24,
+    "y": 382,
+    "w": 312,
+    "h": 134,
+    "level": 2,
+    "text": "la tecnología ha transformado nuestra forma de vivir, trabajar y conectar."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 533,
+    "w": 312,
+    "h": 313,
+    "text": "Cada día, nuevos productos, servicios y funcionalidades elevan nuestras expectat"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 859,
+    "w": 312,
+    "h": 381,
+    "text": "La experiencia impacta ahora en todos los niveles de la empresa. Puede requerir "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 1252,
+    "w": 312,
+    "h": 157,
+    "text": "Descubre nuestras áreas de especialización: , , , , y"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p > a",
+    "x": 24,
+    "y": 1297,
+    "w": 191,
+    "h": 21,
+    "text": "elevación de la experiencia",
+    "href": "/es-es/servicios/elevacion-de-la-experiencia/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p > a",
+    "x": 24,
+    "y": 1297,
+    "w": 307,
+    "h": 43,
+    "text": "aceleración del comercio",
+    "href": "/es-es/servicios/aceleracion-comercio/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p > a",
+    "x": 97,
+    "y": 1319,
+    "w": 199,
+    "h": 21,
+    "text": "transformación empresarial",
+    "href": "/es-es/servicios/transformacion-empresarial/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p > a",
+    "x": 24,
+    "y": 1342,
+    "w": 242,
+    "h": 43,
+    "text": "servicios creativos de marketing y performance",
+    "href": "/es-es/servicios/servicios-creativos-de-marketing-performance/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p > a",
+    "x": 24,
+    "y": 1364,
+    "w": 277,
+    "h": 43,
+    "text": "revolución del dato y la inteligencia artificial.",
+    "href": "/es-es/servicios/revolucion-del-dato-y-ia/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.contact-us-form__container.js-accordion > div.contact-us-form__column > button.contact-us-form__accordion-button.js-accordion-button",
+    "x": 0,
+    "y": 1449,
+    "w": 360,
+    "h": 89,
+    "text": "contáctanos"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.contact-us-form__container.js-accordion > div.contact-us-form__column > button.contact-us-form__accordion-button.js-accordion-button",
+    "x": 0,
+    "y": 1449,
+    "w": 360,
+    "h": 89,
+    "label": "trigger",
+    "value": "contáctanos",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 16,
+    "y": 1636,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 242,
+    "y": 1636,
+    "w": 58,
+    "h": 45,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 16,
+    "y": 1700,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 242,
+    "y": 1700,
+    "w": 82,
+    "h": 45,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer__column.site-footer__stamp > picture > img",
+    "x": 16,
+    "y": 1763,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "badge-no-outline"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 1904,
+    "w": 134,
+    "h": 18,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 1945,
+    "w": 118,
+    "h": 18,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 1986,
+    "w": 71,
+    "h": 18,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 2027,
+    "w": 84,
+    "h": 18,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 2068,
+    "w": 136,
+    "h": 18,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a.cookiebot-reset",
+    "x": 16,
+    "y": 2109,
+    "w": 158,
+    "h": 18,
+    "text": "configuración de cookies",
+    "href": "/es-es/servicios/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 16,
+    "y": 2190,
+    "w": 23,
+    "h": 18,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 87,
+    "y": 2190,
+    "w": 23,
+    "h": 18,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 158,
+    "y": 2190,
+    "w": 23,
+    "h": 18,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 229,
+    "y": 2190,
+    "w": 23,
+    "h": 18,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 16,
+    "y": 2235,
+    "w": 23,
+    "h": 18,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 87,
+    "y": 2235,
+    "w": 23,
+    "h": 18,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 6,
+    "textNodes": 36,
+    "controls": 35,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/es-es/servicios",
+  "at": "2026-11-14T08:09:59.015Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 2302,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-nav-menu-wrapper.site-nav-menu-labels > div.site-nav-logo > a.site-nav-logo-link",
+    "x": 24,
+    "y": 25,
+    "w": 80,
+    "h": 21,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > a.search-select.mobile",
+    "x": 232,
+    "y": 24,
+    "w": 22,
+    "h": 23,
+    "text": "go to search page",
+    "href": "/es-es/search/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open main menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open main menu",
+    "value": "open main menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 62,
+    "y": 75,
+    "w": 77,
+    "h": 22,
+    "label": "current",
+    "value": "servicios",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 62,
+    "y": 75,
+    "w": 77,
+    "h": 22,
+    "text": "Servicios"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.offerings-overview.block > div.offerings-overview-tabs > a.offerings-overview-tabs-tab",
+    "x": 24,
+    "y": 121,
+    "w": 111,
+    "h": 38,
+    "text": "elevación de la experiencia",
+    "href": "/es-es/servicios/elevacion-de-la-experiencia/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.offerings-overview-tabs > a.offerings-overview-tabs-tab > h3",
+    "x": 24,
+    "y": 121,
+    "w": 111,
+    "h": 38,
+    "level": 3,
+    "text": "elevación de la experiencia"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.offerings-overview.block > div.offerings-overview-tabs > a.offerings-overview-tabs-tab",
+    "x": 229,
+    "y": 121,
+    "w": 92,
+    "h": 58,
+    "text": "aceleración del comercio",
+    "href": "/es-es/servicios/aceleracion-comercio/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.offerings-overview-tabs > a.offerings-overview-tabs-tab > h3",
+    "x": 229,
+    "y": 121,
+    "w": 92,
+    "h": 58,
+    "level": 3,
+    "text": "aceleración del comercio"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.offerings-overview.block > div.offerings-overview-tabs > a.offerings-overview-tabs-tab",
+    "x": 24,
+    "y": 203,
+    "w": 111,
+    "h": 38,
+    "text": "transformación empresarial",
+    "href": "/es-es/servicios/transformacion-empresarial/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.offerings-overview-tabs > a.offerings-overview-tabs-tab > h3",
+    "x": 24,
+    "y": 203,
+    "w": 111,
+    "h": 38,
+    "level": 3,
+    "text": "transformación empresarial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.offerings-overview.block > div.offerings-overview-tabs > a.offerings-overview-tabs-tab",
+    "x": 229,
+    "y": 203,
+    "w": 92,
+    "h": 77,
+    "text": "servicios creativos de marketing & performance",
+    "href": "/es-es/servicios/servicios-creativos-de-marketing-performance/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.offerings-overview-tabs > a.offerings-overview-tabs-tab > h3",
+    "x": 229,
+    "y": 203,
+    "w": 92,
+    "h": 77,
+    "level": 3,
+    "text": "servicios creativos de marketing & performance"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.offerings-overview.block > div.offerings-overview-tabs > a.offerings-overview-tabs-tab",
+    "x": 24,
+    "y": 304,
+    "w": 111,
+    "h": 38,
+    "text": "revolución del dato y la ia",
+    "href": "/es-es/servicios/revolucion-del-dato-y-ia"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.offerings-overview-tabs > a.offerings-overview-tabs-tab > h3",
+    "x": 24,
+    "y": 304,
+    "w": 111,
+    "h": 38,
+    "level": 3,
+    "text": "revolución del dato y la ia"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > h2#la-tecnología-ha-transformado-nuestra-forma-de-vivir-trabajar-y-conectar",
+    "x": 24,
+    "y": 382,
+    "w": 312,
+    "h": 134,
+    "level": 2,
+    "text": "la tecnología ha transformado nuestra forma de vivir, trabajar y conectar."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 533,
+    "w": 312,
+    "h": 313,
+    "text": "Cada día, nuevos productos, servicios y funcionalidades elevan nuestras expectat"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 859,
+    "w": 312,
+    "h": 381,
+    "text": "La experiencia impacta ahora en todos los niveles de la empresa. Puede requerir "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 1252,
+    "w": 312,
+    "h": 157,
+    "text": "Descubre nuestras áreas de especialización: , , , , y"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > a",
+    "x": 24,
+    "y": 1297,
+    "w": 191,
+    "h": 21,
+    "text": "elevación de la experiencia",
+    "href": "/es-es/servicios/elevacion-de-la-experiencia/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > a",
+    "x": 24,
+    "y": 1297,
+    "w": 307,
+    "h": 43,
+    "text": "aceleración del comercio",
+    "href": "/es-es/servicios/aceleracion-comercio/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > a",
+    "x": 97,
+    "y": 1319,
+    "w": 199,
+    "h": 21,
+    "text": "transformación empresarial",
+    "href": "/es-es/servicios/transformacion-empresarial/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > a",
+    "x": 24,
+    "y": 1342,
+    "w": 242,
+    "h": 43,
+    "text": "servicios creativos de marketing y performance",
+    "href": "/es-es/servicios/servicios-creativos-de-marketing-performance/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > a",
+    "x": 24,
+    "y": 1364,
+    "w": 277,
+    "h": 43,
+    "text": "revolución del dato y la inteligencia artificial.",
+    "href": "/es-es/servicios/revolucion-del-dato-y-ia"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-us-form-container.js-accordion > div.contact-us-form-column > button.contact-us-form-accordion-button",
+    "x": 0,
+    "y": 1449,
+    "w": 360,
+    "h": 89,
+    "text": "contáctanos"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-us-form-container.js-accordion > div.contact-us-form-column > button.contact-us-form-accordion-button",
+    "x": 0,
+    "y": 1449,
+    "w": 360,
+    "h": 89,
+    "label": "trigger",
+    "value": "contáctanos",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 16,
+    "y": 1636,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 242,
+    "y": 1636,
+    "w": 58,
+    "h": 45,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 16,
+    "y": 1700,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 242,
+    "y": 1700,
+    "w": 82,
+    "h": 45,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer-column.site-footer-stamp > picture > img",
+    "x": 16,
+    "y": 1763,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "media_18686ce5d542e21460f5b9773dc388b150"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 1904,
+    "w": 134,
+    "h": 18,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 1945,
+    "w": 118,
+    "h": 18,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 1986,
+    "w": 71,
+    "h": 18,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 2027,
+    "w": 84,
+    "h": 18,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 2068,
+    "w": 136,
+    "h": 18,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a.cookiebot-reset",
+    "x": 16,
+    "y": 2109,
+    "w": 158,
+    "h": 18,
+    "text": "configuración de cookies",
+    "href": "/es-es/servicios"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 16,
+    "y": 2190,
+    "w": 23,
+    "h": 18,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 87,
+    "y": 2190,
+    "w": 23,
+    "h": 18,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 158,
+    "y": 2190,
+    "w": 23,
+    "h": 18,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 229,
+    "y": 2190,
+    "w": 23,
+    "h": 18,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 16,
+    "y": 2235,
+    "w": 23,
+    "h": 18,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 87,
+    "y": 2235,
+    "w": 23,
+    "h": 18,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 1,
+    "textNodes": 32,
+    "controls": 33,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "elevación de la experiencia",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "aceleración del comercio",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "transformación empresarial",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "servicios creativos de marketing & performance",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "revolución del dato y la ia",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "la tecnología ha transformado nuestra forma de vivir, trabajar y conectar.",
+   "variable": false,
+   "origin": {
+    "link": 5,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 5,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"contáctanos\" served in band \"la tecnología ha transformado nuestra forma de vivir, trabajar y conectar.\", no origin link or button",
+   "band": 6,
+   "n": 1,
+   "text": "contáctanos"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 1,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 1,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 75,
+    "y": 75,
+    "w": 63,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 120,
+    "w": 105,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 140,
+    "w": 83,
+    "h": 21
+   },
+   {
+    "x": 229,
+    "y": 120,
+    "w": 84,
+    "h": 21
+   },
+   {
+    "x": 229,
+    "y": 140,
+    "w": 22,
+    "h": 21
+   },
+   {
+    "x": 229,
+    "y": 159,
+    "w": 69,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 202,
+    "w": 111,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 221,
+    "w": 85,
+    "h": 21
+   },
+   {
+    "x": 229,
+    "y": 202,
+    "w": 65,
+    "h": 21
+   },
+   {
+    "x": 229,
+    "y": 221,
+    "w": 88,
+    "h": 21
+   },
+   {
+    "x": 229,
+    "y": 240,
+    "w": 87,
+    "h": 21
+   },
+   {
+    "x": 229,
+    "y": 260,
+    "w": 92,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 303,
+    "w": 104,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 322,
+    "w": 79,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 379,
+    "w": 215,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 413,
+    "w": 287,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 446,
+    "w": 311,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 480,
+    "w": 124,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 533,
+    "w": 277,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 555,
+    "w": 227,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 577,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 600,
+    "w": 266,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 622,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 645,
+    "w": 258,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 667,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 689,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 712,
+    "w": 233,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 734,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 757,
+    "w": 274,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 779,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 801,
+    "w": 247,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 824,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 859,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 881,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 904,
+    "w": 225,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 926,
+    "w": 303,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 948,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 971,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 993,
+    "w": 290,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1016,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1038,
+    "w": 301,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1060,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1083,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1105,
+    "w": 282,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1128,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1150,
+    "w": 274,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1172,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1195,
+    "w": 283,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1217,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1252,
+    "w": 197,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1275,
+    "w": 112,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1297,
+    "w": 191,
+    "h": 21
+   },
+   {
+    "x": 215,
+    "y": 1297,
+    "w": 7,
+    "h": 21
+   },
+   {
+    "x": 222,
+    "y": 1297,
+    "w": 109,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1319,
+    "w": 66,
+    "h": 21
+   },
+   {
+    "x": 90,
+    "y": 1319,
+    "w": 7,
+    "h": 21
+   },
+   {
+    "x": 97,
+    "y": 1319,
+    "w": 199,
+    "h": 21
+   },
+   {
+    "x": 295,
+    "y": 1319,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1342,
+    "w": 242,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1364,
+    "w": 92,
+    "h": 21
+   },
+   {
+    "x": 116,
+    "y": 1364,
+    "w": 19,
+    "h": 21
+   },
+   {
+    "x": 134,
+    "y": 1364,
+    "w": 166,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1387,
+    "w": 145,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1473,
+    "w": 173,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 1636,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 1636,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 1660,
+    "w": 47,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1700,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 1700,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 1724,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1904,
+    "w": 134,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 1945,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 1986,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 2027,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 2068,
+    "w": 136,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 2109,
+    "w": 158,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 75,
+    "y": 75,
+    "w": 63,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 120,
+    "w": 105,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 140,
+    "w": 83,
+    "h": 21
+   },
+   {
+    "x": 229,
+    "y": 120,
+    "w": 84,
+    "h": 21
+   },
+   {
+    "x": 229,
+    "y": 140,
+    "w": 22,
+    "h": 21
+   },
+   {
+    "x": 229,
+    "y": 159,
+    "w": 69,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 202,
+    "w": 111,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 221,
+    "w": 85,
+    "h": 21
+   },
+   {
+    "x": 229,
+    "y": 202,
+    "w": 65,
+    "h": 21
+   },
+   {
+    "x": 229,
+    "y": 221,
+    "w": 88,
+    "h": 21
+   },
+   {
+    "x": 229,
+    "y": 240,
+    "w": 87,
+    "h": 21
+   },
+   {
+    "x": 229,
+    "y": 260,
+    "w": 92,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 303,
+    "w": 104,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 322,
+    "w": 79,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 379,
+    "w": 215,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 413,
+    "w": 287,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 446,
+    "w": 311,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 480,
+    "w": 124,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 533,
+    "w": 277,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 555,
+    "w": 227,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 577,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 600,
+    "w": 266,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 622,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 645,
+    "w": 258,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 667,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 689,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 712,
+    "w": 233,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 734,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 757,
+    "w": 274,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 779,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 801,
+    "w": 247,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 824,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 859,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 881,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 904,
+    "w": 225,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 926,
+    "w": 303,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 948,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 971,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 993,
+    "w": 290,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1016,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1038,
+    "w": 301,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1060,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1083,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1105,
+    "w": 282,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1128,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1150,
+    "w": 274,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1172,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1195,
+    "w": 283,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1217,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1252,
+    "w": 197,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1275,
+    "w": 112,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1297,
+    "w": 191,
+    "h": 21
+   },
+   {
+    "x": 215,
+    "y": 1297,
+    "w": 7,
+    "h": 21
+   },
+   {
+    "x": 222,
+    "y": 1297,
+    "w": 109,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1319,
+    "w": 66,
+    "h": 21
+   },
+   {
+    "x": 90,
+    "y": 1319,
+    "w": 7,
+    "h": 21
+   },
+   {
+    "x": 97,
+    "y": 1319,
+    "w": 199,
+    "h": 21
+   },
+   {
+    "x": 295,
+    "y": 1319,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1342,
+    "w": 242,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1364,
+    "w": 92,
+    "h": 21
+   },
+   {
+    "x": 116,
+    "y": 1364,
+    "w": 19,
+    "h": 21
+   },
+   {
+    "x": 134,
+    "y": 1364,
+    "w": 166,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1387,
+    "w": 145,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1473,
+    "w": 173,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 1636,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 1636,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 1660,
+    "w": 47,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1700,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 1700,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 1724,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1904,
+    "w": 134,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 1945,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 1986,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 2027,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 2068,
+    "w": 136,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 2109,
+    "w": 158,
+    "h": 18
+   }
+  ]
+ }
+}

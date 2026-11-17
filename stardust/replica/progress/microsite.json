@@ -1,0 +1,79 @@
+{
+  "type": "microsite",
+  "slug": "es-es-la-empresa-inteligente-operar",
+  "liveUrl": "https://www.valtech.com/es-es/la-empresa-inteligente/operar/",
+  "prototype": "stardust/prototypes/es-es-la-empresa-inteligente-operar-proposed.html",
+  "css": ["stardust/prototypes/css/canon.css", "stardust/prototypes/css/microsite.css"],
+  "js": ["stardust/prototypes/js/chrome.js", "stardust/prototypes/js/microsite.js"],
+  "regime": "prototype",
+  "iterations": { "1440": 3, "360": 3 },
+  "gates": {
+    "1440": { "pixel": "0.13%", "heightDelta": 0, "contentDiff": "0 🔴 · 0 nothing-lost 🟡 (iter3: 306 advisory EXTRA — the live Marketo form 10078 did not hydrate during that content probe; iter1 with the form loaded: 0 nothing-lost, 3 🔴 form CTAs → fixed by the static form)", "visualDiff": "1 advisory flag (hidden thank-you popup h2 face; popup CSS lifted after the round, display:none)", "clip": 0, "overflow": "ok", "chromeParity": "✓", "chromeCrops": { "header": "100.00%", "footer": "100.00%" }, "units": "PASS 18 units (op-units1440b, --force)", "evidence": "stardust/replica/gates/es-es-la-empresa-inteligente-operar-1440/verdict-iter3.json" },
+    "360": { "pixel": "0.70%", "heightDelta": -1, "contentDiff": "none — content + roles match (0 🔴 · 0 🟡)", "visualDiff": "1 advisory flag (hidden thank-you popup h2 face; popup CSS lifted after the round, display:none)", "clip": 0, "overflow": "ok", "chromeParity": "✓", "chromeCrops": { "header": "100.00%", "footer": "100.00% (1px-aligned; 97.98% top-aligned from the -1px Δh)" }, "units": "PASS 12 units (op-units360b, after the related-cases lift fix)", "evidence": "stardust/replica/gates/es-es-la-empresa-inteligente-operar-360/verdict-iter3.json" }
+  },
+  "capProbe": "PASS (2560: 0 of 10 rows failed — stardust/replica/gates/es-es-la-empresa-inteligente-operar-2560/cap-iter.json)",
+  "residuals": [
+    {
+      "zone": "registration-form — Marketo form 10078",
+      "cause": "nondeterministic live widget",
+      "evidence": "live hydrates the form in some probes and not others (1440 gate iter1 live 6917 px with the form; measure/content probe at 1440 live 6369 px without it). The build renders the form statically from the form descriptor (go.valtech.com getForm 10078: labels, picklists, checkbox, captcha notice, submit 'Reserva una sesión ejecutiva'); boxes match live within 0 px at 360 when it hydrates",
+      "permanent": true,
+      "note": "content-diff on a round where live did not hydrate reports the form texts as advisory EXTRA only"
+    },
+    {
+      "zone": "related-cases card hover lift",
+      "cause": "JS-computed custom property",
+      "evidence": "live --move-up = details height − title layout height (1440: 97−33, 360: 64−20; unit-geometry PASS both widths after the fix, applied after the iter3 rounds — static pixels only move inside the 360 card by 13px)",
+      "permanent": false
+    }
+  ],
+  "captureState": [
+    { "zone": "registration Marketo form", "gate": "live captured hydrated (1440 iter1 live.png)", "restoreAtDelivery": "Marketo forms2 loads form 10078 (munchkin 353-SAE-487, api //go.valtech.com) into .marketo-form-block__container, fades it in (opacity/visibility 1s), StateCode row shown by visibility rule; success opens #thank-you-popup (.is-open)", "implementedInPrototype": "static markup only (no submit/validation)" },
+    { "zone": "hub sub-navigation < 64rem", "gate": "fixed bottom CTA bar captured once by stitch-shot", "restoreAtDelivery": "position: fixed bottom gradient bar with the CTA", "implementedInPrototype": true }
+  ],
+  "liftNotes": [
+    "body.ie-hub-page chrome variant (main.css @470650–471848): header icons sit in the 64px bar (no fixed side column, search hidden), sections/footer drop the 64px side margin — no side 'Contáctanos' tab and no contact band on this template (live DOM); canon-request filed",
+    "hub sub-nav CTA: the source loads .btn--white after .iehub-nav__item, so the pill's black-on-white and 400 weight win — first build rendered white-on-white (caught by the motion hover sample, not by pixels)",
+    "hero = landing hero-block + .ie-hub-page overrides (single slide, mobile picture as full-bleed background, link-wrapper margin-top 3rem/3.5rem); title fit JS from landing gives 44px at 360 like live",
+    "features-showcase / featured-verticals / podcast-speakers re-declared from the same source rules as article/landing/offering plus their .ie-hub-page variants ('/ TITLE' eyebrow titles, featured-verticals container aspect-ratio 16/8, padding 0); .podcast-speakers.white-theme margin-block 0 + padding 2.5rem/5rem (@357446)",
+    "Marketo form generated from the live form descriptor (form 10078) into the canon .mkto-form structure with the light in-main values (campaign's interim copy); submit is .btn--white like live",
+    "images: live renditions downloaded to prototypes/media/es-es-la-empresa-inteligente-operar/ with intrinsic width/height; linkedin icon via a local microsite-sprite.svg (canon sprite lacks icon-linkedin — already requested by listing)"
+  ],
+  "motion": {
+    "observed": [
+      "header ready-to-fixed-menu / fixed-menu on scroll (canon chrome.js)",
+      "hub sub-nav .iehub-nav--fixed once its slot passes the viewport top; translateY(header height) .3s while the header is slid in",
+      "related-cases hover: title scale→1, details fade-in, hover image fade, wrapper translateY(--move-up) .3s",
+      "hover: hero link btn--white fill .2s, sub-nav CTA btn--white invert",
+      "featured-verticals slider is-selected on next"
+    ],
+    "implemented": [
+      "sticky sub-nav (iehub-nav--fixed + header-synced transform) — parity",
+      "related-cases hover + --move-up — parity",
+      "btn--white hovers — parity",
+      "featured-verticals prev/next slider (landing mechanism) — is-selected parity",
+      "hero title fit"
+    ],
+    "dead": [
+      "iehub-nav item hover (no measured diff beyond underline)",
+      "featured-verticals picture hover (no measured diff)",
+      "podcast-speakers link hover",
+      "custom-nav-button click: no sampled track change on live (flickity JS physics); build keeps landing's .5s track transition",
+      "Marketo hydration classes/fades (mktoForm, convertedField, opacity/visibility 1s) — widget load, static form in prototype"
+    ]
+  },
+  "blocks": [
+    { "section": "nav.site-nav + modals (body.ie-hub-page)", "block": "header (fragment)", "variant": "es, ie-hub" },
+    { "section": "div.iehub-nav", "block": "hub-nav", "variant": "sticky (CTA → #register-form)" },
+    { "section": "section.hero-block.ie-hub-page", "block": "hero-carousel", "variant": "ie-hub (single slide)" },
+    { "section": "section.features-showcase.ie-hub-page.dark-theme", "block": "features-showcase", "variant": "dark, eyebrow title" },
+    { "section": "div.case-visual-side-by-side ×2", "block": "side-by-side", "variant": "image-left square" },
+    { "section": "section.related-cases--ie-hub-page", "block": "related-cases", "variant": "white" },
+    { "section": "section.featured-verticals-block.ie-hub-page", "block": "industries-slider", "variant": "ie-hub (titled)" },
+    { "section": "div.podcast-speakers.ie-hub-page", "block": "speakers", "variant": "white, eyebrow title" },
+    { "section": "section.registration-form", "block": "contact-form (marketo-form)", "variant": "registration (form 10078, light)" },
+    { "section": "div.thank-you-popup", "block": "widgets/thank-you-popup", "variant": "default" },
+    { "section": "footer.site-footer", "block": "footer (fragment)", "variant": "es" }
+  ],
+  "verdict": "pass"
+}

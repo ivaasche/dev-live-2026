@@ -1,0 +1,71 @@
+{
+  "a": "stardust/replica/gates/all-1440/valtech-and-salesforce/origin.png",
+  "b": "stardust/replica/gates/all-1440/valtech-and-salesforce/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 4062,
+    "mode": "overlap"
+  },
+  "heightDelta": -2,
+  "differingPixels": 408767,
+  "pct": 6.99,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/valtech-and-salesforce/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 14.48,
+  "textBoxes": 90,
+  "textPixels": 980713,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 20.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 24.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 2
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 3.2
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 2.2
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 1.7
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 3
+    },
+    {
+      "y0": 4000,
+      "y1": 4062,
+      "pct": 0.1
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--c87ac39f--aemcoder.aem.page/valtech-and-salesforce"
+  }
+}

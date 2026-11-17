@@ -1,0 +1,5897 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T06:27:03.944Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/es-es/blog/embedding-ai-in-government-case-management/",
+  "at": "2026-11-14T06:26:39.846Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 7569,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.site-nav__menu-wrapper.site-nav__menu__labels > div.site-nav__logo > a.site-nav__logo__link",
+    "x": 24,
+    "y": 12,
+    "w": 159,
+    "h": 41,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 373,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "nuestro trabajo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 569,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "servicios"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 764,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "talento"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title.active",
+    "x": 960,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "perspectivas"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 1156,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "sobre nosotros"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.desktop",
+    "x": 1376,
+    "y": 36,
+    "w": 64,
+    "h": 40,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.desktop",
+    "x": 1376,
+    "y": 36,
+    "w": 64,
+    "h": 40,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > a.search-select.desktop",
+    "x": 1376,
+    "y": 76,
+    "w": 64,
+    "h": 40,
+    "text": "go to search page",
+    "href": "/es-es/search/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.side-button > a#side-button",
+    "x": 1392,
+    "y": 152,
+    "w": 28,
+    "h": 190,
+    "text": "contáctanos",
+    "href": "/es-es/blog/embedding-ai-in-government-case-management/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > a",
+    "x": 24,
+    "y": 89,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > a",
+    "x": 75,
+    "y": 89,
+    "w": 32,
+    "h": 21,
+    "text": "blog",
+    "href": "/es-es/blog/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 120,
+    "y": 89,
+    "w": 339,
+    "h": 21,
+    "label": "current",
+    "value": "embedding ai in government case management",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 120,
+    "y": 89,
+    "w": 339,
+    "h": 21,
+    "text": "Embedding AI in government case management"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-blurred__container > div.masthead-blurred__bg-visual > img",
+    "x": -6,
+    "y": 97,
+    "w": 1452,
+    "h": 653,
+    "text": "",
+    "file": "piblic-blog-connected-octagon-flowchart-"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-blurred__bg-visual > div.masthead-blurred__text.masthead-blurred__text--light > h1.masthead-blurred__text__title",
+    "x": 266,
+    "y": 199,
+    "w": 907,
+    "h": 317,
+    "level": 1,
+    "text": "embedding ai in government case management: from pilot to operational capability"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-blurred__visual > picture > img",
+    "x": 418,
+    "y": 538,
+    "w": 605,
+    "h": 316,
+    "text": "",
+    "file": "piblic-blog-connected-octagon-flowchart-"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-blurred__container > div.masthead-blurred__visual > img",
+    "x": 448,
+    "y": 585,
+    "w": 544,
+    "h": 285,
+    "text": "",
+    "file": "piblic-blog-connected-octagon-flowchart-"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.author-details__container > div.author-details__text > div.author-details__text__function",
+    "x": 934,
+    "y": 1034,
+    "w": 71,
+    "h": 14,
+    "text": "Karl Hampson"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.author-details__container > div.author-details__text > div.author-details__text__company",
+    "x": 934,
+    "y": 1050,
+    "w": 71,
+    "h": 14,
+    "text": "CTO, Valtech"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.author-details__container > div.author-details__thumbnail > img",
+    "x": 1025,
+    "y": 972,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "karl-hampson"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container > p > small",
+    "x": 315,
+    "y": 1047,
+    "w": 107,
+    "h": 21,
+    "text": "mayo 29, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container > p.lead",
+    "x": 315,
+    "y": 1094,
+    "w": 810,
+    "h": 112,
+    "text": "Across central government and regulatory bodies, case volumes continue to rise w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 1231,
+    "w": 758,
+    "h": 110,
+    "text": "Across central government and regulatory bodies, case volumes continue to rise w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 1359,
+    "w": 747,
+    "h": 82,
+    "text": "Artificial intelligence is increasingly viewed as part of the answer. GenAI has "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 1459,
+    "w": 690,
+    "h": 26,
+    "text": "Yet moving from experimentation to operational capability has proven difficult."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 1503,
+    "w": 119,
+    "h": 26,
+    "text": "According to"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.isSelectedEnd > em > span",
+    "x": 434,
+    "y": 1503,
+    "w": 406,
+    "h": 26,
+    "text": "The GenAI Divide: State of AI in Business 2025"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 1503,
+    "w": 754,
+    "h": 82,
+    "text": ", published by MIT NANDA, only around 5 per cent of enterprise GenAI pilots achi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 1603,
+    "w": 748,
+    "h": 166,
+    "text": "For government leaders, this raises a practical question. What distinguishes the"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > h2",
+    "x": 315,
+    "y": 1830,
+    "w": 810,
+    "h": 52,
+    "level": 2,
+    "text": "the shift to probabilistic computing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > h2 > span",
+    "x": 315,
+    "y": 1825,
+    "w": 726,
+    "h": 61,
+    "text": "The shift to probabilistic computing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 1914,
+    "w": 742,
+    "h": 82,
+    "text": "For decades, government systems have been built on deterministic logic. Structur"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 2014,
+    "w": 341,
+    "h": 26,
+    "text": "Modern AI systems operate differently."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 2058,
+    "w": 753,
+    "h": 110,
+    "text": "They can process unstructured, human-friendly information such as case documents"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 2186,
+    "w": 753,
+    "h": 110,
+    "text": "In regulated environments, this distinction is significant. Governance models, a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 2314,
+    "w": 721,
+    "h": 110,
+    "text": "In our experience working with UK central government digital and data teams, thi"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > h2",
+    "x": 315,
+    "y": 2485,
+    "w": 810,
+    "h": 52,
+    "level": 2,
+    "text": "why ai pilots stall in government"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > h2 > span",
+    "x": 315,
+    "y": 2480,
+    "w": 653,
+    "h": 61,
+    "text": "Why AI pilots stall in government"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 2570,
+    "w": 750,
+    "h": 110,
+    "text": "Across departments and regulators, AI initiatives frequently demonstrate early p"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 2698,
+    "w": 730,
+    "h": 110,
+    "text": "Through delivery work in central government case and service environments, a con"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 2826,
+    "w": 759,
+    "h": 82,
+    "text": "At the same time, there is understandable caution around relying on probabilisti"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 2926,
+    "w": 375,
+    "h": 26,
+    "text": "The issue is not capability. It is embedding."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > h2",
+    "x": 315,
+    "y": 3013,
+    "w": 810,
+    "h": 52,
+    "level": 2,
+    "text": "what the 5 per cent do differently"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > h2 > span",
+    "x": 315,
+    "y": 3008,
+    "w": 682,
+    "h": 61,
+    "text": "What the 5 per cent do differently"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 3098,
+    "w": 697,
+    "h": 54,
+    "text": "The minority of departments and regulators that reach scaled production share co"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 3170,
+    "w": 729,
+    "h": 82,
+    "text": "Around 5 per cent of initiatives move beyond pilot not because they have access "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 3270,
+    "w": 748,
+    "h": 110,
+    "text": "They begin with the full case journey, from ingestion through to assessment, dec"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 3398,
+    "w": 758,
+    "h": 110,
+    "text": "They treat AI initiatives as products rather than experiments, with clear owners"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 3526,
+    "w": 748,
+    "h": 110,
+    "text": "They also design for iteration from the outset. Probabilistic systems require re"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 3654,
+    "w": 692,
+    "h": 54,
+    "text": "This disciplined, end-to-end approach is what separates experimentation from ope"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > h2",
+    "x": 315,
+    "y": 3769,
+    "w": 810,
+    "h": 104,
+    "level": 2,
+    "text": "a practical model for ai-enabled case management"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > h2 > span",
+    "x": 315,
+    "y": 3764,
+    "w": 766,
+    "h": 113,
+    "text": "A practical model for AI-enabled case management"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 3906,
+    "w": 757,
+    "h": 110,
+    "text": "The term “agentic AI” is often associated with highly autonomous systems coordin"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 4034,
+    "w": 750,
+    "h": 54,
+    "text": "Most government case management scenarios do not require this level of complexit"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 4106,
+    "w": 670,
+    "h": 54,
+    "text": "A more practical and governable approach is to deploy AI agents as discrete comp"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 4178,
+    "w": 739,
+    "h": 138,
+    "text": "In a typical case management environment, this may involve using more discrete A"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 4334,
+    "w": 750,
+    "h": 110,
+    "text": "When implemented within existing governance frameworks, this pattern allows depa"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 4462,
+    "w": 680,
+    "h": 26,
+    "text": "The emphasis is not autonomy for its own sake, but structured augmentation."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > h2",
+    "x": 315,
+    "y": 4549,
+    "w": 810,
+    "h": 52,
+    "level": 2,
+    "text": "human oversight by design"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > h2 > span",
+    "x": 315,
+    "y": 4544,
+    "w": 548,
+    "h": 61,
+    "text": "Human oversight by design"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 4634,
+    "w": 538,
+    "h": 26,
+    "text": "In public sector environments, human control is foundational."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 4678,
+    "w": 736,
+    "h": 82,
+    "text": "Effective AI-enabled workflows incorporate clear points of review and interventi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 4778,
+    "w": 736,
+    "h": 54,
+    "text": "Oversight mechanisms ensure decisions remain accountable, auditable and aligned "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 4850,
+    "w": 728,
+    "h": 110,
+    "text": "Crucially, this oversight does not sit outside existing governance structures. I"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 4978,
+    "w": 703,
+    "h": 54,
+    "text": "Embedding AI successfully therefore requires not only technical integration, but"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 5050,
+    "w": 743,
+    "h": 110,
+    "text": "In practice, once teams understand how AI functions within the workflow, confide"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 5178,
+    "w": 681,
+    "h": 26,
+    "text": "AI becomes part of the operational fabric rather than an experimental overlay."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > h2",
+    "x": 315,
+    "y": 5265,
+    "w": 810,
+    "h": 52,
+    "level": 2,
+    "text": "from pilot to operational capability"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > h2 > span",
+    "x": 315,
+    "y": 5260,
+    "w": 713,
+    "h": 61,
+    "text": "From pilot to operational capability"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 5350,
+    "w": 528,
+    "h": 26,
+    "text": "AI in the public sector is becoming an operational discipline."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 5394,
+    "w": 758,
+    "h": 54,
+    "text": "For departments managing complex case volumes, the opportunity lies in redesigni"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 5466,
+    "w": 752,
+    "h": 82,
+    "text": "Experience across central government case and service modernisation programmes s"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 5566,
+    "w": 759,
+    "h": 54,
+    "text": "The difference between the 95 per cent and the 5 per cent is not access to techn"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 5638,
+    "w": 685,
+    "h": 82,
+    "text": "Departments that approach AI-enabled case management as an operational transform"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > h2",
+    "x": 315,
+    "y": 5781,
+    "w": 810,
+    "h": 52,
+    "level": 2,
+    "text": "considering your next step"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > h2 > span",
+    "x": 315,
+    "y": 5776,
+    "w": 549,
+    "h": 61,
+    "text": "Considering your next step"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p.isSelectedEnd > span",
+    "x": 315,
+    "y": 5865,
+    "w": 659,
+    "h": 54,
+    "text": "For a practical discussion on piloting, governing or scaling AI-enabled case man"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p > span",
+    "x": 315,
+    "y": 5937,
+    "w": 102,
+    "h": 26,
+    "text": "Sam Parker"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p > span",
+    "x": 315,
+    "y": 5965,
+    "w": 278,
+    "h": 26,
+    "text": "Client Partner, UK Public Sector"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p > a",
+    "x": 315,
+    "y": 5993,
+    "w": 224,
+    "h": 26,
+    "text": "sam.parker@valtech.com",
+    "href": "sam.parker@valtech.com"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.contact-us-form__container.js-accordion > div.contact-us-form__column > h2#contact-us-form-title",
+    "x": 100,
+    "y": 6196,
+    "w": 588,
+    "h": 77,
+    "level": 2,
+    "text": "contáctanos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.contact-us-form__column > div.contact-us-form__content > p",
+    "x": 100,
+    "y": 6313,
+    "w": 508,
+    "h": 101,
+    "text": "Nos encantaría saber de ti. Rellena el formulario y la persona más cercana de nu"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.contact-us-form__column > div.contact-us-form__content > p",
+    "x": 100,
+    "y": 6438,
+    "w": 508,
+    "h": 134,
+    "text": "Si necesitas un formato alternativo y/o apoyo en la comunicación para poder envi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.contact-us-form__content > p > a",
+    "x": 100,
+    "y": 6506,
+    "w": 462,
+    "h": 65,
+    "text": "sheree atcheson .",
+    "href": "sheree.atcheson@valtech.com"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblFirstName",
+    "x": 688,
+    "y": 6212,
+    "w": 73,
+    "h": 20,
+    "text": "Nombre"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblLastName",
+    "x": 1002,
+    "y": 6212,
+    "w": 83,
+    "h": 20,
+    "text": "Apellidos"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#Lead_title__c",
+    "x": 688,
+    "y": 6273,
+    "w": 274,
+    "h": 38,
+    "label": "cargo *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblLead_title__c",
+    "x": 688,
+    "y": 6283,
+    "w": 54,
+    "h": 20,
+    "text": "Cargo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblEmail",
+    "x": 1002,
+    "y": 6283,
+    "w": 267,
+    "h": 20,
+    "text": "Correo electrónico profesional"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblCompany",
+    "x": 688,
+    "y": 6354,
+    "w": 201,
+    "h": 20,
+    "text": "Nombre de la empresa"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#Industry",
+    "x": 1002,
+    "y": 6344,
+    "w": 274,
+    "h": 38,
+    "label": "industria *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblIndustry",
+    "x": 1002,
+    "y": 6354,
+    "w": 78,
+    "h": 20,
+    "text": "Industria"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#CountryCode",
+    "x": 688,
+    "y": 6431,
+    "w": 588,
+    "h": 38,
+    "label": "pais *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblCountryCode",
+    "x": 688,
+    "y": 6441,
+    "w": 37,
+    "h": 20,
+    "text": "Pais"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mkto-input-group > label#LblPhone",
+    "x": 688,
+    "y": 6512,
+    "w": 272,
+    "h": 20,
+    "text": "Número de teléfono (Opcional)"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#mKTOWhyContact",
+    "x": 1002,
+    "y": 6502,
+    "w": 274,
+    "h": 38,
+    "label": "¿en qué podemos ayudarte? *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblmKTOWhyContact",
+    "x": 1002,
+    "y": 6512,
+    "w": 253,
+    "h": 20,
+    "text": "¿En qué podemos ayudarte?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.convertedField > label#LblcommentCapture",
+    "x": 688,
+    "y": 6589,
+    "w": 588,
+    "h": 50,
+    "text": "Comparte tus comentarios (Opcional)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.mktoLogicalField.mktoCheckboxList > label#LblmktoCheckbox_195525_0 > span",
+    "x": 714,
+    "y": 6874,
+    "w": 303,
+    "h": 26,
+    "text": "He leído y acepto los términos del"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.mktoLogicalField.mktoCheckboxList > label#LblmktoCheckbox_195525_0 > a",
+    "x": 1017,
+    "y": 6874,
+    "w": 190,
+    "h": 26,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.mktoFieldWrap.convertedField > div.mktoLogicalField.mktoCheckboxList > label#LblmktoCheckbox_195526_0",
+    "x": 714,
+    "y": 6917,
+    "w": 562,
+    "h": 106,
+    "text": "Acepto recibir noticias y comunicaciones de marketing relevantes por parte de Va"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.mktoLogicalField.mktoCheckboxList > label#LblmktoCheckbox_195526_0 > a",
+    "x": 866,
+    "y": 6996,
+    "w": 190,
+    "h": 26,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 688,
+    "y": 7040,
+    "w": 475,
+    "h": 26,
+    "text": "Este sitio está protegido por CAPTCHA y se aplican la"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893 > a",
+    "x": 688,
+    "y": 7040,
+    "w": 567,
+    "h": 54,
+    "text": "política de privacidad",
+    "href": "/legal/privacy-end-users/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 786,
+    "y": 7068,
+    "w": 257,
+    "h": 26,
+    "text": "y los"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "span.NormalTextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893 > a",
+    "x": 830,
+    "y": 7068,
+    "w": 213,
+    "h": 26,
+    "text": "términos y condiciones",
+    "href": "/legal/terms/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 688,
+    "y": 7068,
+    "w": 517,
+    "h": 53,
+    "text": "de uso de Friendly Captcha."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.mktoButtonRow > span.mktoButtonWrap.mktoShadow > button.mktoButton.btn--white",
+    "x": 688,
+    "y": 7151,
+    "w": 154,
+    "h": 49,
+    "text": "contáctanos"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 370,
+    "y": 7320,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 482,
+    "y": 7320,
+    "w": 109,
+    "h": 21,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 667,
+    "y": 7320,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 799,
+    "y": 7320,
+    "w": 148,
+    "h": 21,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer__column.site-footer__stamp > picture > img",
+    "x": 1075,
+    "y": 7296,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "badge-no-outline"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 84,
+    "y": 7448,
+    "w": 153,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 288,
+    "y": 7448,
+    "w": 135,
+    "h": 21,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 516,
+    "y": 7448,
+    "w": 82,
+    "h": 21,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 646,
+    "y": 7448,
+    "w": 96,
+    "h": 21,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 84,
+    "y": 7489,
+    "w": 156,
+    "h": 21,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a.cookiebot-reset",
+    "x": 288,
+    "y": 7489,
+    "w": 180,
+    "h": 21,
+    "text": "configuración de cookies",
+    "href": "/es-es/blog/embedding-ai-in-government-case-management/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 962,
+    "y": 7453,
+    "w": 23,
+    "h": 21,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 1017,
+    "y": 7453,
+    "w": 23,
+    "h": 21,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 1072,
+    "y": 7453,
+    "w": 23,
+    "h": 21,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 1127,
+    "y": 7453,
+    "w": 23,
+    "h": 21,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 1182,
+    "y": 7453,
+    "w": 23,
+    "h": 21,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 1237,
+    "y": 7453,
+    "w": 23,
+    "h": 21,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 1,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 6,
+    "textNodes": 107,
+    "controls": 41,
+    "total": 1
+   },
+   "groups": [
+    {
+     "kind": "TEXT HIDDEN",
+     "advisory": false,
+     "n": 1,
+     "clipper": "a#side-button",
+     "path": "div.side-button > a#side-button",
+     "text": "contáctanos",
+     "cutMin": 101,
+     "cutMax": 101
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/es-es/blog/embedding-ai-in-government-case-management",
+  "at": "2026-11-14T06:27:03.759Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 7569,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-nav-menu-wrapper.site-nav-menu-labels > div.site-nav-logo > a.site-nav-logo-link",
+    "x": 24,
+    "y": 12,
+    "w": 159,
+    "h": 41,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu-list > li.site-nav-menu-item > button.site-nav-menu-title",
+    "x": 373,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "nuestro trabajo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu-list > li.site-nav-menu-item > button.site-nav-menu-title",
+    "x": 569,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "servicios"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu-list > li.site-nav-menu-item > button.site-nav-menu-title",
+    "x": 764,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "talento"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu-list > li.site-nav-menu-item > button.site-nav-menu-title.active",
+    "x": 960,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "perspectivas"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu-list > li.site-nav-menu-item > button.site-nav-menu-title",
+    "x": 1156,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "sobre nosotros"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.desktop",
+    "x": 1376,
+    "y": 36,
+    "w": 64,
+    "h": 40,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.desktop",
+    "x": 1376,
+    "y": 36,
+    "w": 64,
+    "h": 40,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > a.search-select.desktop",
+    "x": 1376,
+    "y": 76,
+    "w": 64,
+    "h": 40,
+    "text": "go to search page",
+    "href": "/es-es/search/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.side-button > p > a#side-button",
+    "x": 1392,
+    "y": 152,
+    "w": 28,
+    "h": 190,
+    "text": "contáctanos",
+    "href": "/es-es/blog/embedding-ai-in-government-case-management"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 24,
+    "y": 89,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 75,
+    "y": 89,
+    "w": 32,
+    "h": 21,
+    "text": "blog",
+    "href": "/es-es/blog"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 107,
+    "y": 89,
+    "w": 352,
+    "h": 22,
+    "label": "current",
+    "value": "embedding ai in government case management",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 107,
+    "y": 89,
+    "w": 352,
+    "h": 22,
+    "text": "Embedding AI in government case management"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-blurred-bg-visual > picture > img",
+    "x": -6,
+    "y": 97,
+    "w": 1452,
+    "h": 653,
+    "text": "",
+    "file": "media_1df2af304bf9ae768c2ab630c14dac557e"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-blurred-bg-visual > div.masthead-blurred-text.masthead-blurred-text-light > h1#embedding-ai-in-government-case-management-from-pilot-to-operational-capability",
+    "x": 266,
+    "y": 199,
+    "w": 907,
+    "h": 317,
+    "level": 1,
+    "text": "embedding ai in government case management: from pilot to operational capability"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-blurred-visual.has-narrow > picture.masthead-blurred-wide > img",
+    "x": 418,
+    "y": 538,
+    "w": 605,
+    "h": 316,
+    "text": "",
+    "file": "media_1df2af304bf9ae768c2ab630c14dac557e"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-blurred-visual.has-narrow > picture.masthead-blurred-shadow > img",
+    "x": 448,
+    "y": 585,
+    "w": 544,
+    "h": 285,
+    "text": "",
+    "file": "media_1df2af304bf9ae768c2ab630c14dac557e"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.author-details-text > div.author-details-function > p",
+    "x": 934,
+    "y": 1034,
+    "w": 71,
+    "h": 14,
+    "text": "Karl Hampson"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.author-details-text > div.author-details-company > p",
+    "x": 934,
+    "y": 1050,
+    "w": 71,
+    "h": 14,
+    "text": "CTO, Valtech"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.author-details-thumbnail > picture > img",
+    "x": 1025,
+    "y": 972,
+    "w": 100,
+    "h": 100,
+    "text": "",
+    "file": "media_17e312011e29ce7f99604dc2017f042bf1"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.intro > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 1042,
+    "w": 810,
+    "h": 28,
+    "text": "mayo 29, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > em",
+    "x": 315,
+    "y": 1095,
+    "w": 756,
+    "h": 110,
+    "text": "Across central government and regulatory bodies, case volumes continue to rise w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 1230,
+    "w": 760,
+    "h": 112,
+    "text": "Across central government and regulatory bodies, case volumes continue to rise w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 1358,
+    "w": 760,
+    "h": 84,
+    "text": "Artificial intelligence is increasingly viewed as part of the answer. GenAI has "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 1458,
+    "w": 760,
+    "h": 28,
+    "text": "Yet moving from experimentation to operational capability has proven difficult."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 1502,
+    "w": 760,
+    "h": 84,
+    "text": "According to , published by MIT NANDA, only around 5 per cent of enterprise GenA"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 1602,
+    "w": 760,
+    "h": 168,
+    "text": "For government leaders, this raises a practical question. What distinguishes the"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > h2#the-shift-to-probabilistic-computing",
+    "x": 315,
+    "y": 1830,
+    "w": 810,
+    "h": 52,
+    "level": 2,
+    "text": "the shift to probabilistic computing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 1913,
+    "w": 760,
+    "h": 84,
+    "text": "For decades, government systems have been built on deterministic logic. Structur"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 2013,
+    "w": 760,
+    "h": 28,
+    "text": "Modern AI systems operate differently."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 2057,
+    "w": 760,
+    "h": 112,
+    "text": "They can process unstructured, human-friendly information such as case documents"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 2185,
+    "w": 760,
+    "h": 112,
+    "text": "In regulated environments, this distinction is significant. Governance models, a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 2313,
+    "w": 760,
+    "h": 112,
+    "text": "In our experience working with UK central government digital and data teams, thi"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > h2#why-ai-pilots-stall-in-government",
+    "x": 315,
+    "y": 2485,
+    "w": 810,
+    "h": 52,
+    "level": 2,
+    "text": "why ai pilots stall in government"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 2569,
+    "w": 760,
+    "h": 112,
+    "text": "Across departments and regulators, AI initiatives frequently demonstrate early p"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 2697,
+    "w": 760,
+    "h": 112,
+    "text": "Through delivery work in central government case and service environments, a con"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 2825,
+    "w": 760,
+    "h": 84,
+    "text": "At the same time, there is understandable caution around relying on probabilisti"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 2925,
+    "w": 760,
+    "h": 28,
+    "text": "The issue is not capability. It is embedding."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > h2#what-the-5-per-cent-do-differently",
+    "x": 315,
+    "y": 3013,
+    "w": 810,
+    "h": 52,
+    "level": 2,
+    "text": "what the 5 per cent do differently"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 3097,
+    "w": 760,
+    "h": 56,
+    "text": "The minority of departments and regulators that reach scaled production share co"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 3169,
+    "w": 760,
+    "h": 84,
+    "text": "Around 5 per cent of initiatives move beyond pilot not because they have access "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 3269,
+    "w": 760,
+    "h": 112,
+    "text": "They begin with the full case journey, from ingestion through to assessment, dec"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 3397,
+    "w": 760,
+    "h": 112,
+    "text": "They treat AI initiatives as products rather than experiments, with clear owners"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 3525,
+    "w": 760,
+    "h": 112,
+    "text": "They also design for iteration from the outset. Probabilistic systems require re"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 3653,
+    "w": 760,
+    "h": 56,
+    "text": "This disciplined, end-to-end approach is what separates experimentation from ope"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > h2#a-practical-model-for-ai-enabled-case-management",
+    "x": 315,
+    "y": 3769,
+    "w": 810,
+    "h": 104,
+    "level": 2,
+    "text": "a practical model for ai-enabled case management"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 3905,
+    "w": 760,
+    "h": 112,
+    "text": "The term “agentic AI” is often associated with highly autonomous systems coordin"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 4033,
+    "w": 760,
+    "h": 56,
+    "text": "Most government case management scenarios do not require this level of complexit"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 4105,
+    "w": 760,
+    "h": 56,
+    "text": "A more practical and governable approach is to deploy AI agents as discrete comp"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 4177,
+    "w": 760,
+    "h": 140,
+    "text": "In a typical case management environment, this may involve using more discrete A"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 4333,
+    "w": 760,
+    "h": 112,
+    "text": "When implemented within existing governance frameworks, this pattern allows depa"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 4461,
+    "w": 760,
+    "h": 28,
+    "text": "The emphasis is not autonomy for its own sake, but structured augmentation."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > h2#human-oversight-by-design",
+    "x": 315,
+    "y": 4549,
+    "w": 810,
+    "h": 52,
+    "level": 2,
+    "text": "human oversight by design"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 4633,
+    "w": 760,
+    "h": 28,
+    "text": "In public sector environments, human control is foundational."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 4677,
+    "w": 760,
+    "h": 84,
+    "text": "Effective AI-enabled workflows incorporate clear points of review and interventi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 4777,
+    "w": 760,
+    "h": 56,
+    "text": "Oversight mechanisms ensure decisions remain accountable, auditable and aligned "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 4849,
+    "w": 760,
+    "h": 112,
+    "text": "Crucially, this oversight does not sit outside existing governance structures. I"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 4977,
+    "w": 760,
+    "h": 56,
+    "text": "Embedding AI successfully therefore requires not only technical integration, but"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 5049,
+    "w": 760,
+    "h": 112,
+    "text": "In practice, once teams understand how AI functions within the workflow, confide"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 5177,
+    "w": 760,
+    "h": 28,
+    "text": "AI becomes part of the operational fabric rather than an experimental overlay."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > h2#from-pilot-to-operational-capability",
+    "x": 315,
+    "y": 5265,
+    "w": 810,
+    "h": 52,
+    "level": 2,
+    "text": "from pilot to operational capability"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 5349,
+    "w": 760,
+    "h": 28,
+    "text": "AI in the public sector is becoming an operational discipline."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 5393,
+    "w": 760,
+    "h": 56,
+    "text": "For departments managing complex case volumes, the opportunity lies in redesigni"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 5465,
+    "w": 760,
+    "h": 84,
+    "text": "Experience across central government case and service modernisation programmes s"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 5565,
+    "w": 760,
+    "h": 56,
+    "text": "The difference between the 95 per cent and the 5 per cent is not access to techn"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 5637,
+    "w": 760,
+    "h": 84,
+    "text": "Departments that approach AI-enabled case management as an operational transform"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > h2#considering-your-next-step",
+    "x": 315,
+    "y": 5781,
+    "w": 810,
+    "h": 52,
+    "level": 2,
+    "text": "considering your next step"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 5864,
+    "w": 760,
+    "h": 56,
+    "text": "For a practical discussion on piloting, governing or scaling AI-enabled case man"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 5936,
+    "w": 760,
+    "h": 84,
+    "text": "Sam Parker Client Partner, UK Public Sector"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > a",
+    "x": 315,
+    "y": 5993,
+    "w": 224,
+    "h": 26,
+    "text": "sam.parker@valtech.com",
+    "href": "sam.parker@valtech.com"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-us-form-column > div.contact-us-form-heading > h2#contact-us-form-title",
+    "x": 100,
+    "y": 6196,
+    "w": 588,
+    "h": 77,
+    "level": 2,
+    "text": "contáctanos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-us-form-column > div.contact-us-form-content > p",
+    "x": 100,
+    "y": 6313,
+    "w": 508,
+    "h": 101,
+    "text": "Nos encantaría saber de ti. Rellena el formulario y la persona más cercana de nu"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-us-form-column > div.contact-us-form-content > p",
+    "x": 100,
+    "y": 6438,
+    "w": 508,
+    "h": 134,
+    "text": "Si necesitas un formato alternativo y/o apoyo en la comunicación para poder envi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-us-form-content > p > a",
+    "x": 100,
+    "y": 6506,
+    "w": 462,
+    "h": 65,
+    "text": "sheree atcheson.",
+    "href": "sheree.atcheson@valtech.com"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 688,
+    "y": 6212,
+    "w": 73,
+    "h": 20,
+    "text": "Nombre"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 1002,
+    "y": 6212,
+    "w": 83,
+    "h": 20,
+    "text": "Apellidos"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > select#Lead_title__c",
+    "x": 688,
+    "y": 6273,
+    "w": 274,
+    "h": 38,
+    "label": "cargo *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 688,
+    "y": 6283,
+    "w": 54,
+    "h": 20,
+    "text": "Cargo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 1002,
+    "y": 6283,
+    "w": 267,
+    "h": 20,
+    "text": "Correo electrónico profesional"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 688,
+    "y": 6354,
+    "w": 201,
+    "h": 20,
+    "text": "Nombre de la empresa"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > select#Industry",
+    "x": 1002,
+    "y": 6344,
+    "w": 274,
+    "h": 38,
+    "label": "industria *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 1002,
+    "y": 6354,
+    "w": 78,
+    "h": 20,
+    "text": "Industria"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-field.mkto-form-field-float > select#CountryCode",
+    "x": 688,
+    "y": 6431,
+    "w": 588,
+    "h": 38,
+    "label": "pais *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 688,
+    "y": 6441,
+    "w": 37,
+    "h": 20,
+    "text": "Pais"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 688,
+    "y": 6512,
+    "w": 272,
+    "h": 20,
+    "text": "Número de teléfono (Opcional)"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > select#mKTOWhyContact",
+    "x": 1002,
+    "y": 6502,
+    "w": 274,
+    "h": 38,
+    "label": "¿en qué podemos ayudarte? *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 1002,
+    "y": 6512,
+    "w": 253,
+    "h": 20,
+    "text": "¿En qué podemos ayudarte?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-field > label.mkto-form-textlabel",
+    "x": 688,
+    "y": 6589,
+    "w": 588,
+    "h": 50,
+    "text": "Comparte tus comentarios (Opcional)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-check > label > span",
+    "x": 714,
+    "y": 6874,
+    "w": 303,
+    "h": 26,
+    "text": "He leído y acepto los términos del"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-check > label > a",
+    "x": 1017,
+    "y": 6874,
+    "w": 190,
+    "h": 26,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-check > label",
+    "x": 714,
+    "y": 6917,
+    "w": 562,
+    "h": 106,
+    "text": "Acepto recibir noticias y comunicaciones de marketing relevantes por parte de Va"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-check > label > a",
+    "x": 866,
+    "y": 6996,
+    "w": 190,
+    "h": 26,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 688,
+    "y": 7040,
+    "w": 475,
+    "h": 26,
+    "text": "Este sitio está protegido por CAPTCHA y se aplican la"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span > span > a",
+    "x": 688,
+    "y": 7040,
+    "w": 567,
+    "h": 54,
+    "text": "política de privacidad",
+    "href": "/legal/privacy-end-users/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 786,
+    "y": 7068,
+    "w": 257,
+    "h": 26,
+    "text": "y los"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span > span > a",
+    "x": 830,
+    "y": 7068,
+    "w": 213,
+    "h": 26,
+    "text": "términos y condiciones",
+    "href": "/legal/terms/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 688,
+    "y": 7068,
+    "w": 517,
+    "h": 53,
+    "text": "de uso de Friendly Captcha."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-buttons > span.mkto-form-button-wrap > button.mktoButton.btn-white",
+    "x": 688,
+    "y": 7151,
+    "w": 154,
+    "h": 49,
+    "text": "contáctanos"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 370,
+    "y": 7320,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 482,
+    "y": 7320,
+    "w": 109,
+    "h": 21,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 667,
+    "y": 7320,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 799,
+    "y": 7320,
+    "w": 148,
+    "h": 21,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer-column.site-footer-stamp > picture > img",
+    "x": 1075,
+    "y": 7296,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "media_18686ce5d542e21460f5b9773dc388b150"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 84,
+    "y": 7448,
+    "w": 153,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 288,
+    "y": 7448,
+    "w": 135,
+    "h": 21,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 516,
+    "y": 7448,
+    "w": 82,
+    "h": 21,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 646,
+    "y": 7448,
+    "w": 96,
+    "h": 21,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 84,
+    "y": 7489,
+    "w": 156,
+    "h": 21,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a.cookiebot-reset",
+    "x": 288,
+    "y": 7489,
+    "w": 180,
+    "h": 21,
+    "text": "configuración de cookies",
+    "href": "/es-es/blog/embedding-ai-in-government-case-management"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 962,
+    "y": 7453,
+    "w": 23,
+    "h": 21,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 1017,
+    "y": 7453,
+    "w": 23,
+    "h": 21,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 1072,
+    "y": 7453,
+    "w": 23,
+    "h": 21,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 1127,
+    "y": 7453,
+    "w": 23,
+    "h": 21,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 1182,
+    "y": 7453,
+    "w": 23,
+    "h": 21,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 1237,
+    "y": 7453,
+    "w": 23,
+    "h": 21,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 1,
+    "textNodes": 102,
+    "controls": 39,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "embedding ai in government case management: from pilot to operational capability",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 12,
+    "image": 3
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 9,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "the shift to probabilistic computing",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 6,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 5,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "why ai pilots stall in government",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 5,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "what the 5 per cent do differently",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 7,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "a practical model for ai-enabled case management",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 7,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "human oversight by design",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 8,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 7,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "from pilot to operational capability",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 6,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 5,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "considering your next step",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 6,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 19,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "COUNT TEXT"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"contáctanos\" (y 6196) has no origin heading",
+   "text": "contáctanos"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"sheree atcheson.\" served in band \"considering your next step\", no origin link or button",
+   "band": 8,
+   "n": 1,
+   "text": "sheree atcheson."
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "×3 \"política de privacidad\" served in band \"considering your next step\", no origin link or button",
+   "band": 8,
+   "n": 3,
+   "text": "política de privacidad"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"términos y condiciones\" served in band \"considering your next step\", no origin link or button",
+   "band": 8,
+   "n": 1,
+   "text": "términos y condiciones"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"contáctanos\" served in band \"considering your next step\", no origin link or button",
+   "band": 8,
+   "n": 1,
+   "text": "contáctanos"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT TEXT",
+   "msg": "band \"considering your next step\": 3 origin → 19 served visible",
+   "band": 8,
+   "origin": 3,
+   "eds": 19,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 1,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 6,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 1,
+  "findings": 6,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 373,
+    "y": 21,
+    "w": 125,
+    "h": 23
+   },
+   {
+    "x": 569,
+    "y": 21,
+    "w": 73,
+    "h": 23
+   },
+   {
+    "x": 764,
+    "y": 21,
+    "w": 59,
+    "h": 23
+   },
+   {
+    "x": 960,
+    "y": 21,
+    "w": 103,
+    "h": 23
+   },
+   {
+    "x": 1156,
+    "y": 21,
+    "w": 122,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 89,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 75,
+    "y": 89,
+    "w": 32,
+    "h": 21
+   },
+   {
+    "x": 120,
+    "y": 89,
+    "w": 339,
+    "h": 21
+   },
+   {
+    "x": 266,
+    "y": 188,
+    "w": 548,
+    "h": 100
+   },
+   {
+    "x": 266,
+    "y": 267,
+    "w": 590,
+    "h": 100
+   },
+   {
+    "x": 266,
+    "y": 346,
+    "w": 828,
+    "h": 100
+   },
+   {
+    "x": 266,
+    "y": 425,
+    "w": 830,
+    "h": 100
+   },
+   {
+    "x": 934,
+    "y": 1034,
+    "w": 71,
+    "h": 14
+   },
+   {
+    "x": 941,
+    "y": 1050,
+    "w": 64,
+    "h": 14
+   },
+   {
+    "x": 315,
+    "y": 1047,
+    "w": 107,
+    "h": 21
+   },
+   {
+    "x": 315,
+    "y": 1095,
+    "w": 756,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1123,
+    "w": 751,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1151,
+    "w": 748,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1179,
+    "w": 476,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1231,
+    "w": 758,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1259,
+    "w": 753,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1287,
+    "w": 750,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1315,
+    "w": 477,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1359,
+    "w": 735,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1387,
+    "w": 747,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1415,
+    "w": 154,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1459,
+    "w": 690,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1503,
+    "w": 119,
+    "h": 26
+   },
+   {
+    "x": 434,
+    "y": 1503,
+    "w": 406,
+    "h": 26
+   },
+   {
+    "x": 840,
+    "y": 1503,
+    "w": 161,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1531,
+    "w": 754,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1559,
+    "w": 674,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1603,
+    "w": 698,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1631,
+    "w": 727,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1659,
+    "w": 660,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1687,
+    "w": 739,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1715,
+    "w": 748,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1743,
+    "w": 311,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1825,
+    "w": 726,
+    "h": 61
+   },
+   {
+    "x": 315,
+    "y": 1914,
+    "w": 742,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1942,
+    "w": 696,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1970,
+    "w": 189,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2014,
+    "w": 341,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2058,
+    "w": 753,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2086,
+    "w": 647,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2114,
+    "w": 742,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2142,
+    "w": 232,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2186,
+    "w": 677,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2214,
+    "w": 743,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2242,
+    "w": 753,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2270,
+    "w": 80,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2314,
+    "w": 721,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2342,
+    "w": 716,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2370,
+    "w": 701,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2398,
+    "w": 491,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2480,
+    "w": 653,
+    "h": 61
+   },
+   {
+    "x": 315,
+    "y": 2570,
+    "w": 690,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2598,
+    "w": 750,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2626,
+    "w": 711,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2654,
+    "w": 202,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2698,
+    "w": 694,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2726,
+    "w": 639,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2754,
+    "w": 730,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2782,
+    "w": 639,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2826,
+    "w": 712,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2854,
+    "w": 759,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2882,
+    "w": 528,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2926,
+    "w": 375,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3008,
+    "w": 682,
+    "h": 61
+   },
+   {
+    "x": 315,
+    "y": 3098,
+    "w": 697,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3126,
+    "w": 232,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3170,
+    "w": 729,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3198,
+    "w": 728,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3226,
+    "w": 363,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3270,
+    "w": 748,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3298,
+    "w": 744,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3326,
+    "w": 725,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3354,
+    "w": 245,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3398,
+    "w": 722,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3426,
+    "w": 735,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3454,
+    "w": 758,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3482,
+    "w": 90,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3526,
+    "w": 660,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3554,
+    "w": 684,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3582,
+    "w": 748,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3610,
+    "w": 111,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3654,
+    "w": 692,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3682,
+    "w": 193,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3764,
+    "w": 766,
+    "h": 61
+   },
+   {
+    "x": 315,
+    "y": 3816,
+    "w": 272,
+    "h": 61
+   },
+   {
+    "x": 315,
+    "y": 3906,
+    "w": 651,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3934,
+    "w": 757,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3962,
+    "w": 751,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3990,
+    "w": 224,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4034,
+    "w": 750,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4062,
+    "w": 677,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4106,
+    "w": 670,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4134,
+    "w": 406,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4178,
+    "w": 733,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4206,
+    "w": 686,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4234,
+    "w": 739,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4262,
+    "w": 706,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4290,
+    "w": 697,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4334,
+    "w": 693,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4362,
+    "w": 725,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4390,
+    "w": 750,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4418,
+    "w": 673,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4462,
+    "w": 680,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4544,
+    "w": 548,
+    "h": 61
+   },
+   {
+    "x": 315,
+    "y": 4634,
+    "w": 538,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4678,
+    "w": 725,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4706,
+    "w": 736,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4734,
+    "w": 390,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4778,
+    "w": 736,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4806,
+    "w": 507,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4850,
+    "w": 728,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4878,
+    "w": 721,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4906,
+    "w": 688,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4934,
+    "w": 87,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4978,
+    "w": 703,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5006,
+    "w": 406,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5050,
+    "w": 743,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5078,
+    "w": 740,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5106,
+    "w": 710,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5134,
+    "w": 227,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5178,
+    "w": 681,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5260,
+    "w": 713,
+    "h": 61
+   },
+   {
+    "x": 315,
+    "y": 5350,
+    "w": 528,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5394,
+    "w": 758,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5422,
+    "w": 664,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5466,
+    "w": 745,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5494,
+    "w": 724,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5522,
+    "w": 752,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5566,
+    "w": 759,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5594,
+    "w": 360,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5638,
+    "w": 672,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5666,
+    "w": 685,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5694,
+    "w": 406,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5776,
+    "w": 549,
+    "h": 61
+   },
+   {
+    "x": 315,
+    "y": 5865,
+    "w": 659,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5893,
+    "w": 436,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5937,
+    "w": 102,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5965,
+    "w": 278,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5993,
+    "w": 224,
+    "h": 26
+   },
+   {
+    "x": 100,
+    "y": 6189,
+    "w": 396,
+    "h": 89
+   },
+   {
+    "x": 100,
+    "y": 6314,
+    "w": 505,
+    "h": 31
+   },
+   {
+    "x": 100,
+    "y": 6348,
+    "w": 491,
+    "h": 31
+   },
+   {
+    "x": 100,
+    "y": 6381,
+    "w": 299,
+    "h": 31
+   },
+   {
+    "x": 100,
+    "y": 6439,
+    "w": 505,
+    "h": 31
+   },
+   {
+    "x": 100,
+    "y": 6473,
+    "w": 404,
+    "h": 31
+   },
+   {
+    "x": 100,
+    "y": 6506,
+    "w": 387,
+    "h": 31
+   },
+   {
+    "x": 487,
+    "y": 6506,
+    "w": 75,
+    "h": 31
+   },
+   {
+    "x": 100,
+    "y": 6540,
+    "w": 102,
+    "h": 31
+   },
+   {
+    "x": 202,
+    "y": 6540,
+    "w": 5,
+    "h": 31
+   },
+   {
+    "x": 688,
+    "y": 6209,
+    "w": 73,
+    "h": 26
+   },
+   {
+    "x": 1002,
+    "y": 6209,
+    "w": 83,
+    "h": 26
+   },
+   {
+    "x": 688,
+    "y": 6280,
+    "w": 54,
+    "h": 26
+   },
+   {
+    "x": 1002,
+    "y": 6280,
+    "w": 267,
+    "h": 26
+   },
+   {
+    "x": 688,
+    "y": 6351,
+    "w": 201,
+    "h": 26
+   },
+   {
+    "x": 1002,
+    "y": 6351,
+    "w": 78,
+    "h": 26
+   },
+   {
+    "x": 688,
+    "y": 6438,
+    "w": 37,
+    "h": 26
+   },
+   {
+    "x": 688,
+    "y": 6509,
+    "w": 272,
+    "h": 26
+   },
+   {
+    "x": 1002,
+    "y": 6509,
+    "w": 253,
+    "h": 26
+   },
+   {
+    "x": 688,
+    "y": 6596,
+    "w": 332,
+    "h": 26
+   },
+   {
+    "x": 714,
+    "y": 6874,
+    "w": 303,
+    "h": 26
+   },
+   {
+    "x": 1017,
+    "y": 6874,
+    "w": 190,
+    "h": 26
+   },
+   {
+    "x": 1206,
+    "y": 6874,
+    "w": 4,
+    "h": 26
+   },
+   {
+    "x": 714,
+    "y": 6917,
+    "w": 485,
+    "h": 26
+   },
+   {
+    "x": 714,
+    "y": 6943,
+    "w": 546,
+    "h": 26
+   },
+   {
+    "x": 714,
+    "y": 6969,
+    "w": 535,
+    "h": 26
+   },
+   {
+    "x": 714,
+    "y": 6996,
+    "w": 152,
+    "h": 26
+   },
+   {
+    "x": 866,
+    "y": 6996,
+    "w": 190,
+    "h": 26
+   },
+   {
+    "x": 1055,
+    "y": 6996,
+    "w": 100,
+    "h": 26
+   },
+   {
+    "x": 688,
+    "y": 7040,
+    "w": 475,
+    "h": 26
+   },
+   {
+    "x": 1163,
+    "y": 7040,
+    "w": 92,
+    "h": 26
+   },
+   {
+    "x": 688,
+    "y": 7068,
+    "w": 98,
+    "h": 26
+   },
+   {
+    "x": 786,
+    "y": 7068,
+    "w": 44,
+    "h": 26
+   },
+   {
+    "x": 830,
+    "y": 7068,
+    "w": 213,
+    "h": 26
+   },
+   {
+    "x": 1043,
+    "y": 7068,
+    "w": 162,
+    "h": 26
+   },
+   {
+    "x": 688,
+    "y": 7095,
+    "w": 79,
+    "h": 26
+   },
+   {
+    "x": 714,
+    "y": 7163,
+    "w": 102,
+    "h": 23
+   },
+   {
+    "x": 370,
+    "y": 7320,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 482,
+    "y": 7320,
+    "w": 109,
+    "h": 21
+   },
+   {
+    "x": 667,
+    "y": 7320,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 799,
+    "y": 7320,
+    "w": 148,
+    "h": 21
+   },
+   {
+    "x": 84,
+    "y": 7448,
+    "w": 153,
+    "h": 21
+   },
+   {
+    "x": 288,
+    "y": 7448,
+    "w": 135,
+    "h": 21
+   },
+   {
+    "x": 516,
+    "y": 7448,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 646,
+    "y": 7448,
+    "w": 96,
+    "h": 21
+   },
+   {
+    "x": 84,
+    "y": 7489,
+    "w": 156,
+    "h": 21
+   },
+   {
+    "x": 288,
+    "y": 7489,
+    "w": 180,
+    "h": 21
+   }
+  ],
+  "eds": [
+   {
+    "x": 373,
+    "y": 21,
+    "w": 125,
+    "h": 23
+   },
+   {
+    "x": 569,
+    "y": 21,
+    "w": 73,
+    "h": 23
+   },
+   {
+    "x": 764,
+    "y": 21,
+    "w": 59,
+    "h": 23
+   },
+   {
+    "x": 960,
+    "y": 21,
+    "w": 103,
+    "h": 23
+   },
+   {
+    "x": 1156,
+    "y": 21,
+    "w": 122,
+    "h": 23
+   },
+   {
+    "x": 1394,
+    "y": 196,
+    "w": 23,
+    "h": 101
+   },
+   {
+    "x": 24,
+    "y": 89,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 75,
+    "y": 89,
+    "w": 32,
+    "h": 21
+   },
+   {
+    "x": 120,
+    "y": 89,
+    "w": 339,
+    "h": 21
+   },
+   {
+    "x": 266,
+    "y": 188,
+    "w": 548,
+    "h": 100
+   },
+   {
+    "x": 266,
+    "y": 267,
+    "w": 590,
+    "h": 100
+   },
+   {
+    "x": 266,
+    "y": 346,
+    "w": 828,
+    "h": 100
+   },
+   {
+    "x": 266,
+    "y": 425,
+    "w": 830,
+    "h": 100
+   },
+   {
+    "x": 934,
+    "y": 1034,
+    "w": 71,
+    "h": 14
+   },
+   {
+    "x": 941,
+    "y": 1050,
+    "w": 64,
+    "h": 14
+   },
+   {
+    "x": 315,
+    "y": 1043,
+    "w": 129,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1095,
+    "w": 756,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1123,
+    "w": 751,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1151,
+    "w": 748,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1179,
+    "w": 476,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1231,
+    "w": 758,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1259,
+    "w": 753,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1287,
+    "w": 750,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1315,
+    "w": 477,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1359,
+    "w": 735,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1387,
+    "w": 747,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1415,
+    "w": 154,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1459,
+    "w": 690,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1503,
+    "w": 119,
+    "h": 26
+   },
+   {
+    "x": 434,
+    "y": 1503,
+    "w": 406,
+    "h": 26
+   },
+   {
+    "x": 840,
+    "y": 1503,
+    "w": 161,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1531,
+    "w": 754,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1559,
+    "w": 674,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1603,
+    "w": 698,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1631,
+    "w": 727,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1659,
+    "w": 660,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1687,
+    "w": 739,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1715,
+    "w": 748,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1743,
+    "w": 311,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1825,
+    "w": 726,
+    "h": 61
+   },
+   {
+    "x": 315,
+    "y": 1914,
+    "w": 742,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1942,
+    "w": 696,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1970,
+    "w": 189,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2014,
+    "w": 341,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2058,
+    "w": 753,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2086,
+    "w": 647,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2114,
+    "w": 742,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2142,
+    "w": 232,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2186,
+    "w": 677,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2214,
+    "w": 743,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2242,
+    "w": 753,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2270,
+    "w": 80,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2314,
+    "w": 721,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2342,
+    "w": 716,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2370,
+    "w": 701,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2398,
+    "w": 491,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2480,
+    "w": 653,
+    "h": 61
+   },
+   {
+    "x": 315,
+    "y": 2570,
+    "w": 690,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2598,
+    "w": 750,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2626,
+    "w": 711,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2654,
+    "w": 202,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2698,
+    "w": 694,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2726,
+    "w": 639,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2754,
+    "w": 730,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2782,
+    "w": 639,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2826,
+    "w": 712,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2854,
+    "w": 759,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2882,
+    "w": 528,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2926,
+    "w": 375,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3008,
+    "w": 682,
+    "h": 61
+   },
+   {
+    "x": 315,
+    "y": 3098,
+    "w": 697,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3126,
+    "w": 232,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3170,
+    "w": 729,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3198,
+    "w": 728,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3226,
+    "w": 363,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3270,
+    "w": 748,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3298,
+    "w": 744,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3326,
+    "w": 725,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3354,
+    "w": 245,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3398,
+    "w": 722,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3426,
+    "w": 735,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3454,
+    "w": 758,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3482,
+    "w": 90,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3526,
+    "w": 660,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3554,
+    "w": 684,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3582,
+    "w": 748,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3610,
+    "w": 111,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3654,
+    "w": 692,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3682,
+    "w": 193,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3764,
+    "w": 766,
+    "h": 61
+   },
+   {
+    "x": 315,
+    "y": 3816,
+    "w": 272,
+    "h": 61
+   },
+   {
+    "x": 315,
+    "y": 3906,
+    "w": 651,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3934,
+    "w": 757,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3962,
+    "w": 751,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 3990,
+    "w": 224,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4034,
+    "w": 750,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4062,
+    "w": 677,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4106,
+    "w": 670,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4134,
+    "w": 406,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4178,
+    "w": 733,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4206,
+    "w": 686,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4234,
+    "w": 739,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4262,
+    "w": 706,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4290,
+    "w": 697,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4334,
+    "w": 693,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4362,
+    "w": 725,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4390,
+    "w": 750,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4418,
+    "w": 673,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4462,
+    "w": 680,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4544,
+    "w": 548,
+    "h": 61
+   },
+   {
+    "x": 315,
+    "y": 4634,
+    "w": 538,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4678,
+    "w": 725,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4706,
+    "w": 736,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4734,
+    "w": 390,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4778,
+    "w": 736,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4806,
+    "w": 507,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4850,
+    "w": 728,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4878,
+    "w": 721,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4906,
+    "w": 688,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4934,
+    "w": 87,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 4978,
+    "w": 703,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5006,
+    "w": 406,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5050,
+    "w": 743,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5078,
+    "w": 740,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5106,
+    "w": 710,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5134,
+    "w": 227,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5178,
+    "w": 681,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5260,
+    "w": 713,
+    "h": 61
+   },
+   {
+    "x": 315,
+    "y": 5350,
+    "w": 528,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5394,
+    "w": 758,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5422,
+    "w": 664,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5466,
+    "w": 745,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5494,
+    "w": 724,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5522,
+    "w": 752,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5566,
+    "w": 759,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5594,
+    "w": 360,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5638,
+    "w": 672,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5666,
+    "w": 685,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5694,
+    "w": 406,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5776,
+    "w": 549,
+    "h": 61
+   },
+   {
+    "x": 315,
+    "y": 5865,
+    "w": 659,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5893,
+    "w": 436,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5937,
+    "w": 102,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5965,
+    "w": 278,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 5993,
+    "w": 224,
+    "h": 26
+   },
+   {
+    "x": 100,
+    "y": 6189,
+    "w": 396,
+    "h": 89
+   },
+   {
+    "x": 100,
+    "y": 6314,
+    "w": 505,
+    "h": 31
+   },
+   {
+    "x": 100,
+    "y": 6348,
+    "w": 491,
+    "h": 31
+   },
+   {
+    "x": 100,
+    "y": 6381,
+    "w": 299,
+    "h": 31
+   },
+   {
+    "x": 100,
+    "y": 6439,
+    "w": 505,
+    "h": 31
+   },
+   {
+    "x": 100,
+    "y": 6473,
+    "w": 404,
+    "h": 31
+   },
+   {
+    "x": 100,
+    "y": 6506,
+    "w": 387,
+    "h": 31
+   },
+   {
+    "x": 487,
+    "y": 6506,
+    "w": 75,
+    "h": 31
+   },
+   {
+    "x": 100,
+    "y": 6540,
+    "w": 107,
+    "h": 31
+   },
+   {
+    "x": 688,
+    "y": 6209,
+    "w": 73,
+    "h": 26
+   },
+   {
+    "x": 1002,
+    "y": 6209,
+    "w": 83,
+    "h": 26
+   },
+   {
+    "x": 688,
+    "y": 6280,
+    "w": 54,
+    "h": 26
+   },
+   {
+    "x": 1002,
+    "y": 6280,
+    "w": 267,
+    "h": 26
+   },
+   {
+    "x": 688,
+    "y": 6351,
+    "w": 201,
+    "h": 26
+   },
+   {
+    "x": 1002,
+    "y": 6351,
+    "w": 78,
+    "h": 26
+   },
+   {
+    "x": 688,
+    "y": 6438,
+    "w": 37,
+    "h": 26
+   },
+   {
+    "x": 688,
+    "y": 6509,
+    "w": 272,
+    "h": 26
+   },
+   {
+    "x": 1002,
+    "y": 6509,
+    "w": 253,
+    "h": 26
+   },
+   {
+    "x": 688,
+    "y": 6596,
+    "w": 332,
+    "h": 26
+   },
+   {
+    "x": 714,
+    "y": 6874,
+    "w": 303,
+    "h": 26
+   },
+   {
+    "x": 1017,
+    "y": 6874,
+    "w": 190,
+    "h": 26
+   },
+   {
+    "x": 1206,
+    "y": 6874,
+    "w": 4,
+    "h": 26
+   },
+   {
+    "x": 714,
+    "y": 6917,
+    "w": 485,
+    "h": 26
+   },
+   {
+    "x": 714,
+    "y": 6943,
+    "w": 546,
+    "h": 26
+   },
+   {
+    "x": 714,
+    "y": 6969,
+    "w": 535,
+    "h": 26
+   },
+   {
+    "x": 714,
+    "y": 6996,
+    "w": 152,
+    "h": 26
+   },
+   {
+    "x": 866,
+    "y": 6996,
+    "w": 190,
+    "h": 26
+   },
+   {
+    "x": 1055,
+    "y": 6996,
+    "w": 100,
+    "h": 26
+   },
+   {
+    "x": 688,
+    "y": 7040,
+    "w": 475,
+    "h": 26
+   },
+   {
+    "x": 1163,
+    "y": 7040,
+    "w": 92,
+    "h": 26
+   },
+   {
+    "x": 688,
+    "y": 7068,
+    "w": 98,
+    "h": 26
+   },
+   {
+    "x": 786,
+    "y": 7068,
+    "w": 44,
+    "h": 26
+   },
+   {
+    "x": 830,
+    "y": 7068,
+    "w": 213,
+    "h": 26
+   },
+   {
+    "x": 1043,
+    "y": 7068,
+    "w": 162,
+    "h": 26
+   },
+   {
+    "x": 688,
+    "y": 7095,
+    "w": 79,
+    "h": 26
+   },
+   {
+    "x": 714,
+    "y": 7163,
+    "w": 102,
+    "h": 23
+   },
+   {
+    "x": 370,
+    "y": 7320,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 482,
+    "y": 7320,
+    "w": 109,
+    "h": 21
+   },
+   {
+    "x": 667,
+    "y": 7320,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 799,
+    "y": 7320,
+    "w": 148,
+    "h": 21
+   },
+   {
+    "x": 84,
+    "y": 7448,
+    "w": 153,
+    "h": 21
+   },
+   {
+    "x": 288,
+    "y": 7448,
+    "w": 135,
+    "h": 21
+   },
+   {
+    "x": 516,
+    "y": 7448,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 646,
+    "y": 7448,
+    "w": 96,
+    "h": 21
+   },
+   {
+    "x": 84,
+    "y": 7489,
+    "w": 156,
+    "h": 21
+   },
+   {
+    "x": 288,
+    "y": 7489,
+    "w": 180,
+    "h": 21
+   }
+  ]
+ }
+}

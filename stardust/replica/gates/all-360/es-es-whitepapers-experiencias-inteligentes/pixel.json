@@ -1,0 +1,66 @@
+{
+  "a": "stardust/replica/gates/all-360/es-es-whitepapers-experiencias-inteligentes/origin.png",
+  "b": "stardust/replica/gates/all-360/es-es-whitepapers-experiencias-inteligentes/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3760,
+    "mode": "overlap"
+  },
+  "heightDelta": -64,
+  "differingPixels": 88704,
+  "pct": 6.55,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/es-es-whitepapers-experiencias-inteligentes/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 12.03,
+  "textBoxes": 95,
+  "textPixels": 324585,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 4.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 7.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 8.1
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 4.8
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 6.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 16.9
+    },
+    {
+      "y0": 3500,
+      "y1": 3760,
+      "pct": 2.6
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/whitepapers/experiencias-inteligentes"
+  }
+}

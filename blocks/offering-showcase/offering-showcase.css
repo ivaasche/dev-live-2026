@@ -1,0 +1,219 @@
+/* offering-showcase — source section.offering-showcase (main.css, values verbatim; BEM -> kebab,
+   __content-item--icon -> -content-item-icon) */
+
+.offering-showcase {
+  color: #000;
+  font-family: var(--font-sans);
+  margin: 2.5rem 0;
+}
+
+@media (width >= 58.75rem) {
+  .offering-showcase {
+    margin: 5rem 0;
+  }
+}
+
+.offering-showcase .offering-showcase-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.5rem;
+  position: relative;
+}
+
+@media (width >= 64rem) {
+  .offering-showcase .offering-showcase-container {
+    margin-right: 64px;
+  }
+}
+
+@media (width >= 120.001rem) {
+  .offering-showcase .offering-showcase-container {
+    margin: 0 auto;
+    max-width: 84vw;
+    padding: 0;
+  }
+}
+
+.offering-showcase .offering-showcase-title-block h2 {
+  color: #000;
+  font-family: var(--font-display);
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 120%;
+  margin-bottom: 2rem;
+}
+
+@media (width <= 58.749rem) {
+  .offering-showcase .offering-showcase-title-block h2 {
+    font-size: 1.75rem;
+    line-height: 150%;
+    margin-bottom: 1rem;
+  }
+}
+
+.offering-showcase .offering-showcase-title-block p {
+  color: #000;
+  font-family: var(--font-sans);
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 140%;
+  margin-bottom: 1.125rem;
+  max-width: 25.25rem;
+}
+
+@media (width <= 58.749rem) {
+  .offering-showcase .offering-showcase-title-block p {
+    font-size: 1rem;
+    line-height: 120%;
+    margin-bottom: 0;
+  }
+}
+
+.offering-showcase .offering-showcase-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6.25rem 1.75rem;
+}
+
+@media (width <= 76.25rem) {
+  .offering-showcase .offering-showcase-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width <= 33.75rem) {
+  .offering-showcase .offering-showcase-content {
+    grid-template-columns: 1fr;
+    row-gap: 1.5rem;
+  }
+}
+
+.offering-showcase .offering-showcase-content-item {
+  border-top: .0625rem solid #d1d3ca;
+  display: flex;
+  flex-direction: row;
+  padding-top: 1.0625rem;
+  width: 100%;
+}
+
+@media (width <= 58.749rem) {
+  .offering-showcase .offering-showcase-content-item {
+    border-top: none;
+    flex-direction: column;
+    padding-top: 0;
+  }
+}
+
+.offering-showcase .offering-showcase-content-item-icon {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  width: 7.1875rem;
+}
+
+@media (width <= 58.749rem) {
+  .offering-showcase .offering-showcase-content-item-icon {
+    margin-bottom: .5rem;
+  }
+}
+
+.offering-showcase .offering-showcase-content-item-text-column h3 {
+  color: #000;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 140%;
+  margin-bottom: .5625rem;
+}
+
+@media (width <= 58.749rem) {
+  .offering-showcase .offering-showcase-content-item-text-column h3 {
+    font-size: 1.375rem;
+    line-height: normal;
+    margin-bottom: .25rem;
+  }
+}
+
+.offering-showcase .offering-showcase-content-item-link {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+.offering-showcase .offering-showcase-content-item-link-text {
+  color: #002fa7;
+  font-family: var(--font-sans);
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-right: 1.4375rem;
+  max-width: 14.8125rem;
+}
+
+@media (width <= 58.749rem) {
+  .offering-showcase .offering-showcase-content-item-link-text {
+    margin-right: .875rem;
+    max-width: 13.5625rem;
+  }
+}
+
+.offering-showcase .offering-showcase-content-item-link-arrow {
+  color: #002fa7;
+}
+
+.offering-showcase .offering-showcase-content-item-link-arrow svg {
+  display: block;
+  fill: #002fa7;
+  height: .4375rem;
+  transform-origin: 0 50%;
+  transition: transform .3s ease-in;
+  width: 1.875rem;
+}
+
+.offering-showcase .offering-showcase-content-item-link:hover .offering-showcase-content-item-link-text {
+  text-decoration: underline;
+}
+
+.offering-showcase .offering-showcase-content-item-link:hover .offering-showcase-content-item-link-arrow svg {
+  transform: scaleX(1.2);
+}
+
+.offering-showcase .offering-showcase-content-item-link:focus {
+  outline: none;
+}
+
+.offering-showcase .offering-showcase-content-item-link:focus .offering-showcase-content-item-link-text {
+  background-color: #002fa7;
+  color: #fff;
+  margin-left: -.1875rem;
+  margin-right: 1.625rem;
+  padding-left: .1875rem;
+}
+
+@media (width <= 58.749rem) {
+  .offering-showcase .offering-showcase-content-item-link:focus .offering-showcase-content-item-link-text {
+    margin-right: 1.0625rem;
+  }
+}
+
+.offering-showcase .offering-showcase-content-item-link:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.offering-showcase .offering-showcase-content-item-link:focus:not(:focus-visible) .offering-showcase-content-item-link-text {
+  background-color: transparent;
+  color: #002fa7;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+
+/* the source icon is an inline 80 × 80 svg; here the decorated `:offering-…:` icon */
+.offering-showcase .offering-showcase-content-item-icon .icon,
+.offering-showcase .offering-showcase-content-item-icon .icon img {
+  display: block;
+  height: 80px;
+  width: 80px;
+}

@@ -1,0 +1,1373 @@
+{
+  "types": {
+    "landing": {
+      "type": "landing",
+      "slug": "index",
+      "liveUrl": "https://www.valtech.com/",
+      "prototype": "stardust/prototypes/index-proposed.html",
+      "css": [
+        "stardust/prototypes/css/canon.css",
+        "stardust/prototypes/css/landing.css"
+      ],
+      "js": [
+        "stardust/prototypes/js/chrome.js",
+        "stardust/prototypes/js/landing.js"
+      ],
+      "regime": "prototype",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.00%",
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 · 1 nothing-lost 🟡 (nondeterministic carousel sr status, residual)",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "ok",
+          "chromeParity": "✓ (header/footer + nav + side)",
+          "chromeCrops": {
+            "header": "100.00%",
+            "footer": "100.00%"
+          },
+          "units": "PASS 16 units (units-iter3b)",
+          "evidence": "stardust/replica/gates/index-360/verdict-iter3.json"
+        },
+        "1440": {
+          "pixel": "0.00%",
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 · 1 nothing-lost 🟡 (nondeterministic carousel sr status, residual)",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "ok",
+          "chromeParity": "✓ (header/footer + nav=nav.site-nav + side=.side-button)",
+          "chromeCrops": {
+            "header": "100.00%",
+            "footer": "100.00%"
+          },
+          "units": "PASS 16 units (units-iter3b)",
+          "evidence": "stardust/replica/gates/index-1440/verdict-iter3.json"
+        }
+      },
+      "capProbe": "PASS (2560: content cap 1408 = 1408, 7/7 modules)",
+      "residuals": [
+        {
+          "zone": "hero carousel — span[role=status] screen-reader text",
+          "cause": "nondeterministic",
+          "evidence": "content-diff-iter2/iter3: live read 'Slide 2 of 4' at 1440 and 'Slide 3 of 4' at 360 (autoplay advanced a different number of 6 s ticks before each probe read the page); the build renders the same element, empty until the first change, then 'Slide n of N' exactly like the source",
+          "permanent": true,
+          "note": "the only nothing-lost 🟡 in both rounds; not written to accepted.json (owner decision)"
+        }
+      ],
+      "captureState": [
+        {
+          "zone": "hero carousel (4 slides)",
+          "gate": "frozen on slide 1 by stitch-shot's timer clear",
+          "restoreAtDelivery": "autoplay rotates every 6 s (wrapAround; background track slides, copy cross-fades .3 s; hover on the copy pauses), dots + round prev/next",
+          "implementedInPrototype": true
+        }
+      ],
+      "liftNotes": [
+        "featured-verticals link + hero/CTA buttons: .btn--* is loaded after the block rules on the source (homepage.css), so the pill spec wins — mirrored by leaving only margin/text-decoration on .featured-verticals-block__item__link",
+        "side tab: overflow:visible instead of .button's overflow:hidden (no visual change; a rotated clipper reads as clipped text to clip-probe)",
+        "font fallback: local() alias 'LiberationFallback' (Liberation Sans / Arimo) so no quoted fallback name precedes the brand family",
+        "images: 1x renditions of the source srcsets rehosted under media/index/, same <source media> conditions; stamps keep their source file names",
+        "units.json declared: featured-case-study-item ×5, partners-logo ×4, featured-verticals-item (selected cell) ×1, footer-menu-link ×6"
+      ],
+      "motion": {
+        "observed": [
+          "header ready-to-fixed-menu / fixed-menu on scroll (≥64rem)",
+          "nav label → drop-down (.site-nav__menu__container.active)",
+          "location button → .opened + full-screen wipe + chooser (body.no-scroll.menu-open)",
+          "mobile burger → menu (body.no-scroll.menu-open)",
+          "contact band accordion < 940 (.active)",
+          "hero carousel autoplay 6 s + next",
+          "industries slider next (wrapAround; mobile controls at picture height + 12px)",
+          "hover: case-study image scale / arrow width, footer link underline, partner logo bar (CSS)"
+        ],
+        "implemented": [
+          "header ready-to-fixed-menu / fixed-menu (chrome.js, thresholds lifted)",
+          "drop-down",
+          "location chooser + wipe",
+          "mobile menu + wipe + accordions",
+          "contact accordion",
+          "hero autoplay/dots/prev-next + title fit (landing.js)",
+          "industries slider + mobile control offset + title fit (landing.js)",
+          "hover states (CSS)"
+        ],
+        "dead": [
+          "flickity-enabled / is-draggable init classes",
+          "Marketo form hydration classes + 1 s fade-in (static form rendered in its post-load state)",
+          "dummy skeleton form .played/.hide",
+          "side-button .hide at < 64rem (element already display:none)",
+          "featured-verticals image height transitions on init"
+        ]
+      },
+      "blocks": [
+        {
+          "section": "nav.site-nav + side tab + modals",
+          "block": "header (fragment)",
+          "variant": "en"
+        },
+        {
+          "section": "section.hero-block",
+          "block": "hero-carousel",
+          "variant": "autoplay"
+        },
+        {
+          "section": "section.quote-block",
+          "block": "quote",
+          "variant": "dark (h1)"
+        },
+        {
+          "section": "div.featured-case-study",
+          "block": "featured-work",
+          "variant": "mosaic-5"
+        },
+        {
+          "section": "section.homepage-cta-block ×2",
+          "block": "cta-band",
+          "variant": "default"
+        },
+        {
+          "section": "div.partners-block.homepage-partners-block",
+          "block": "partners",
+          "variant": "homepage dark"
+        },
+        {
+          "section": "section.featured-verticals-block",
+          "block": "industries-slider",
+          "variant": "default"
+        },
+        {
+          "section": "div.contact-us-form",
+          "block": "contact-form (marketo-form)",
+          "variant": "band"
+        },
+        {
+          "section": "footer.site-footer",
+          "block": "footer (fragment)",
+          "variant": "default"
+        }
+      ],
+      "canon": {
+        "owner": true,
+        "frozen": true,
+        "doc": "stardust/prototypes/css/CANON.md",
+        "requestsFiled": 0
+      },
+      "verdict": "residual"
+    },
+    "article": {
+      "type": "article",
+      "slug": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "liveUrl": "https://www.valtech.com/es-es/blog/la-era-de-los-agentes-de-ia/",
+      "prototype": "stardust/prototypes/es-es-blog-la-era-de-los-agentes-de-ia-proposed.html",
+      "css": [
+        "stardust/prototypes/css/canon.css",
+        "stardust/prototypes/css/article.css"
+      ],
+      "js": [
+        "stardust/prototypes/js/chrome.js",
+        "stardust/prototypes/js/article.js"
+      ],
+      "regime": "prototype",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.02%",
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 · 0 nothing-lost 🟡",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "ok",
+          "chromeParity": "✓",
+          "chromeCrops": {
+            "header": "100.00%",
+            "footer": "100.00%"
+          },
+          "units": "PASS 6 units (iter3)",
+          "evidence": "stardust/replica/gates/es-es-blog-la-era-de-los-agentes-de-ia-360/verdict-iter3.json"
+        },
+        "1440": {
+          "pixel": "0.01%",
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 · 0 nothing-lost 🟡",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "ok",
+          "chromeParity": "✓",
+          "chromeCrops": {
+            "header": "100.00%",
+            "footer": "100.00%"
+          },
+          "units": "PASS 6 units (iter3)",
+          "evidence": "stardust/replica/gates/es-es-blog-la-era-de-los-agentes-de-ia-1440/verdict-iter3.json"
+        }
+      },
+      "capProbe": "PASS (2560: 0 of 3 rows failed — stardust/replica/gates/es-es-blog-la-era-de-los-agentes-de-ia-2560/cap-iter.json)",
+      "residuals": [],
+      "captureState": [
+        {
+          "zone": "contact band Marketo form 7474 (es)",
+          "gate": "rendered statically in its post-load state (Spanish labels/options from the loaded form on es-es-blog-presentamos-el-muro-de-datos-b2b; canon form structure)",
+          "restoreAtDelivery": "Marketo forms2 embed of form 7474 (munchkin 353-SAE-487)",
+          "implementedInPrototype": false
+        },
+        {
+          "zone": "image-block.slide-fade-in (agent-readiness ladder)",
+          "gate": "revealed by scroll (IntersectionObserver → .played) during stitched capture on both sides",
+          "restoreAtDelivery": "same scroll reveal",
+          "implementedInPrototype": true
+        }
+      ],
+      "liftNotes": [
+        "markup re-authored from the captured DOM through an attribute whitelist (stardust/.work/replica/article/tools/extract.py + assemble.py): js-* hooks, data-*, button-animation span.before/.after and tracking attrs dropped; schema.org breadcrumb <meta itemprop=position> kept (their trailing whitespace yields the source's 'inicio /' spacing)",
+        "authored inline styles kept verbatim: hero images filter brightness(80%) (+ blur(20px) on bg and shadow copy) and the closing CTA p text-align:center — CMS per-content values, not stylesheet rules",
+        "every article.css value lifted from main.css (css-rules.mjs) in source order: site-breadcrumbs, base-*-indent, .section/.section__container.centralized, .text-content, masthead-blurred, rte-block, image-block, author-details, site-nav progress, features-showcase, highlighted-cta-block, teaser-block-unu, expandable-faq-block, button--primary-hollow",
+        "Spanish chrome from the article's own capture (nav labels/overview/locations, side tab 'Contáctanos', contact band copy, footer with one stamp + icon-linkedin); modals reused English as on the live es page",
+        "new sprite subset img/article-sprite.svg (icon-arrow-right, icon-linkedin, icon-minus-thin, icon-plus-thin, icon-whitepaper) from the live /public/dist/img/img.svg; canon sprite untouched",
+        "images: 1x renditions of the source srcsets rehosted under media/es-es-blog-la-era-de-los-agentes-de-ia/, same <source media> conditions; footer stamp reuses media/index/badge-no-outline.png",
+        "units.json declared: features-showcase-item ×4, author-details ×2"
+      ],
+      "motion": {
+        "observed": [
+          "header ready-to-fixed-menu / fixed-menu on scroll",
+          "image-block .slide-fade-in → .played on scroll",
+          "FAQ 'Ver más' → ul.expandable-faq-block__list.is-visible",
+          "FAQ <details> plus/minus icon transitions .3s",
+          "hover: highlighted-cta btn--ocean fill .2s, teaser image brightness .32s",
+          "Marketo form hydration classes + 1 s fade-in"
+        ],
+        "implemented": [
+          "header morph (chrome.js)",
+          "slide-fade-in reveal (article.js, .3s opacity)",
+          "FAQ list toggle (article.js) + native details icon transitions (CSS)",
+          "hover states (CSS); button--primary-hollow hover rendered as the end state of the source's JS wipe (ocean fill, white label)"
+        ],
+        "dead": [
+          "Marketo hydration classes (mktoForm, convertedField, mkto-input-group, singleCol, control-checkbox, visible-label, hide) and the 1 s form fade-in — static form rendered post-load",
+          "button-animation span.before/.after wipe (JS-injected; probe saw no self change on .button--primary-hollow)",
+          "#progressBar reading progress (< 64rem; stays .hide in the observed run)"
+        ]
+      },
+      "blocks": [
+        {
+          "section": "nav.site-nav + side tab + modals",
+          "block": "header (fragment)",
+          "variant": "es"
+        },
+        {
+          "section": "div.site-breadcrumbs",
+          "block": "breadcrumbs",
+          "variant": "default"
+        },
+        {
+          "section": "section.masthead-blurred",
+          "block": "hero-blurred",
+          "variant": "light text"
+        },
+        {
+          "section": "div.author-details ×2",
+          "block": "author",
+          "variant": "default"
+        },
+        {
+          "section": "section.rte-block (intro, jump links, body copy)",
+          "block": "default content (section metadata: rte, indents)",
+          "variant": "text-content"
+        },
+        {
+          "section": "section.features-showcase.dark-theme",
+          "block": "features-showcase",
+          "variant": "dark"
+        },
+        {
+          "section": "section.highlighted-cta-block.blue-theme ×2",
+          "block": "highlighted-cta",
+          "variant": "blue"
+        },
+        {
+          "section": "div.image-block.slide-fade-in",
+          "block": "image",
+          "variant": "reveal"
+        },
+        {
+          "section": "div.teaser-block-unu--dark",
+          "block": "teaser",
+          "variant": "dark"
+        },
+        {
+          "section": "section.expandable-faq-block.white-theme",
+          "block": "faq",
+          "variant": "expandable"
+        },
+        {
+          "section": "div.contact-us-form",
+          "block": "contact-form (marketo-form)",
+          "variant": "band (es, form 7474)"
+        },
+        {
+          "section": "footer.site-footer",
+          "block": "footer (fragment)",
+          "variant": "es"
+        }
+      ],
+      "canon": {
+        "owner": false,
+        "frozen": true,
+        "doc": "stardust/prototypes/css/CANON.md",
+        "requestsFiled": 1
+      },
+      "verdict": "pass"
+    },
+    "listing": {
+      "type": "listing",
+      "slug": "es-es-blog",
+      "liveUrl": "https://www.valtech.com/es-es/blog/",
+      "prototype": "stardust/prototypes/es-es-blog-proposed.html",
+      "css": [
+        "stardust/prototypes/css/canon.css",
+        "stardust/prototypes/css/listing.css"
+      ],
+      "js": [
+        "stardust/prototypes/js/chrome.js",
+        "stardust/prototypes/js/listing.js"
+      ],
+      "regime": "prototype",
+      "iterations": {
+        "360": 4,
+        "1440": 4,
+        "note": "4 --full rounds per width: iter1 = map, iter2/iter3 = fixes (iter1 build ran short on unsized lazy card images; iter2 regressed the filter labels by dropping nowrap), iter4 = confirmation after the interaction-parity changes. One round over the 3-iteration cap; pixel and Δh were already 0.01%/0 at 1440 from iter3."
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.01%",
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 · 0 nothing-lost 🟡",
+          "visualDiff": "0 flags",
+          "clip": "10 (justified residual — identical on the live page, see residuals)",
+          "overflow": "ok",
+          "chromeParity": "✓",
+          "chromeCrops": {
+            "header": "100.00% (y0+67)",
+            "footer": "100.00% (y6539+764)"
+          },
+          "units": "PASS (advisory deltas)",
+          "evidence": "stardust/replica/gates/es-es-blog-360/verdict-iter4.json"
+        },
+        "1440": {
+          "pixel": "0.01%",
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 · 0 nothing-lost 🟡",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "ok",
+          "chromeParity": "✓",
+          "chromeCrops": {
+            "header": "100.00% (y0+65)",
+            "footer": "100.00% (y4954+318)"
+          },
+          "units": "PASS (unit-geometry --force: 66 within, 4 hidden = advisory caret svg family)",
+          "evidence": "stardust/replica/gates/es-es-blog-1440/verdict-iter4.json"
+        }
+      },
+      "capProbe": "PASS at 2560 — 0 of 4 rows failed (stardust/replica/gates/es-es-blog-2560/cap-iter.json)",
+      "residuals": [
+        {
+          "zone": "insight items — p.ii__excerpt at 360",
+          "cause": "source-parity (instrument reading of -webkit-line-clamp)",
+          "evidence": "clip-iter4 (build) reports TEXT CLIPPED ×10 'cut 21px' on the 5-line-clamped excerpts; clip-probe run on the LIVE page at 360 (run-bg job es-es-blog-clip-live360) reports the identical ×10 findings on the source's own .ii__excerpt (overflow:hidden; display:-webkit-box; -webkit-line-clamp:5 — lifted verbatim from insights_overview.js). At 1440 the same rule is read as advisory 'clamped 9'.",
+          "permanent": true,
+          "note": "the clamp is the designed state (ellipsis after 5 lines, both sides pixel-identical, 0.01%)"
+        },
+        {
+          "zone": "result count '10 resultados de un total de 997'",
+          "cause": "nondeterministic",
+          "evidence": "API-backed total (data-total on the live node); frozen at the captured value",
+          "permanent": true,
+          "note": "will drift as posts are published; delivery must render it from the query index"
+        }
+      ],
+      "captureState": [
+        {
+          "zone": "insights overview (React island InsightsOverview: filters, count, 10 items, load more)",
+          "gate": "replicated as captured — first page, no filter selected, 10 of 997, cards in the captured order",
+          "restoreAtDelivery": "client-rendered listing: 4 facet drop-downs (industry/service/platform/about-us) filter the result set, 'Cargar más' appends the next page of 10; source data comes from the site's insights API — at delivery a query-index-backed block",
+          "implementedInPrototype": "drop-down open/close + sticky band only; filtering and load-more are data features (dynamics), not prototyped"
+        },
+        {
+          "zone": "featured insights masthead (3 posts)",
+          "gate": "captured editorial selection",
+          "restoreAtDelivery": "authored (or newest-3 from the index) — the live order is editorial, not date-sorted",
+          "implementedInPrototype": true
+        }
+      ],
+      "liftNotes": [
+        "breadcrumbs, masthead-insights, u-grid, content-fluid-container values lifted from main.css; the three `@media (min-width:)` insight-header rules are invalid on the source (empty SCSS variable) and never apply — not ported",
+        "React island values lifted from the styled-components templates in /public/dist/js/insights_overview.js (filter band #171717, select label responsiveFont(3vw,20px,28px) nowrap/ellipsis, ::after 3px coral underline → 1px white on hover/open, popup min-width 17.5rem top 50px left -10px, sticky rules) cross-checked against computed styles at 1440/360 and a 599–1200 width sweep (stardust/.work/replica/es-es-blog/live-measure*.json)",
+        "label overflow: overflow-x:clip + overflow-y:visible instead of the source's overflow:hidden (same paint; the ValtechNeue ink box is 3px taller than the 1.278 line box and clip-probe read it as clipped text)",
+        "desktop switch for the filter band width / select margins / load-more size observed between 940 and 1023 px → authored at 62.5rem; sticky band at the source's own (max-width: 1023px) cut-off (63.9375rem)",
+        "images: 1x renditions rehosted under media/es-es-blog/ (masthead 940x530 portrait + 1600x720 landscape <source>s, cards 580x384 = the img srcset the source selects at both widths); width/height attributes added so the lazy cards reserve their box (stitched capture otherwise ran short)",
+        "Spanish chrome: nav labels/overview list (Perspectivas + Blog active), location chooser (es names, Asia Pacífico = Singapur only), side tab 'Contáctanos', contact band copy + Marketo form 7474 (Pais, teléfono, ¿En qué podemos ayudarte? rows), footer links + single CDP-less stamp, extra degenerate site-slope--left svg",
+        "icons not in the frozen canon sprite (icon-carret-down, icon-linkedin) served from media/es-es-blog/listing-sprite.svg pending the canon request",
+        "units.json declared: insight-item ×3, masthead-insights-secondary ×2, insights-filter-select ×4 (advisory — the source caret svg is 10×150 clipped by its 10×10 box on both sides)"
+      ],
+      "motion": {
+        "observed": [
+          "header ready-to-fixed-menu / fixed-menu on scroll (canon)",
+          "filter band .is-filter-sticky ≥1024 (fixed under the header, translate by header height on scroll-up, 300ms ease-in; label/caret font 18px)",
+          "filter drop-down click (styled-components open-state class swap: popup visible, label white, underline 1px white, caret rotateZ(-180deg))",
+          "Marketo form hydration classes + fades"
+        ],
+        "implemented": [
+          "sticky filter band (js/listing.js, source scroll logic incl. 1023px cut-off)",
+          "drop-down open/close (.is-open, one at a time, outside click / Esc / close button)",
+          "hover: select label white + 1px underline, insight item title underline ≥58.75rem (source CSS; the hover sampler measured no box diff on either side)"
+        ],
+        "dead": [
+          "Marketo hydration classes, 1s form fade, dummy skeleton .played/.hide (static form in post-load state, as landing)",
+          "styled-components hashed class swaps dSTHGb/dhrJuF (mirrored as .is-open)",
+          "load-more / masthead hover: no measured change"
+        ],
+        "compare": "motion-compare: 7 parity (is-filter-sticky, fixed-menu, ready-to-fixed-menu, transform, color, border-top) · missing = Marketo hydration + font-size (fixed after the compare: caret font-size now transitions under .is-filter-sticky) · pixel re-run iter4 = 0.01% / 0.01%"
+      },
+      "blocks": [
+        {
+          "section": "nav.site-nav + side tab + modals",
+          "block": "header (fragment)",
+          "variant": "es"
+        },
+        {
+          "section": "div.site-breadcrumbs",
+          "block": "breadcrumbs",
+          "variant": "default (auto from path)"
+        },
+        {
+          "section": "section.insight-header",
+          "block": "featured-insights",
+          "variant": "1 primary + 2 secondary"
+        },
+        {
+          "section": "react InsightsOverview (filters + count + grid + load more)",
+          "block": "insights-listing",
+          "variant": "blog (facets: industry, service, platform, about-us; page size 10)"
+        },
+        {
+          "section": "div.contact-us-form",
+          "block": "contact-form (marketo-form)",
+          "variant": "band es (form 7474)"
+        },
+        {
+          "section": "footer.site-footer",
+          "block": "footer (fragment)",
+          "variant": "es"
+        }
+      ],
+      "canon": {
+        "owner": false,
+        "frozen": true,
+        "doc": "stardust/prototypes/css/CANON.md",
+        "requestsFiled": 2
+      },
+      "verdict": "residual"
+    },
+    "whitepaper": {
+      "type": "whitepaper",
+      "slug": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "liveUrl": "https://www.valtech.com/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2026/",
+      "prototype": "stardust/prototypes/es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026-proposed.html",
+      "css": [
+        "stardust/prototypes/css/canon.css",
+        "stardust/prototypes/css/whitepaper.css"
+      ],
+      "js": [
+        "stardust/prototypes/js/chrome.js"
+      ],
+      "regime": "prototype",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.05%",
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 · 0 nothing-lost 🟡",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "ok",
+          "chromeParity": "✓",
+          "chromeCrops": {
+            "header": "100.00%",
+            "footer": "100.00%"
+          },
+          "units": "n/a (no repeated-unit family)",
+          "evidence": "stardust/replica/gates/es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026-360/verdict-iter3.json"
+        },
+        "1440": {
+          "pixel": "0.02%",
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 · 0 nothing-lost 🟡",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "ok",
+          "chromeParity": "✓",
+          "chromeCrops": {
+            "header": "100.00%",
+            "footer": "100.00%"
+          },
+          "units": "n/a (no repeated-unit family)",
+          "evidence": "stardust/replica/gates/es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026-1440/verdict-iter3.json"
+        }
+      },
+      "capProbe": "PASS (2560: 0 of 8 rows failed — stardust/replica/gates/es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026-2560/cap-iter2.json; the first run cap-iter.json failed 2 rows because the live pdf.js viewer and Marketo form had not hydrated at probe time — live rows read full-bleed with empty #pdfViewer / 0-height form; the hydrated re-run matches 1057/810)",
+      "residuals": [],
+      "captureState": [
+        {
+          "zone": "pdf-view-block (pdf.js viewer of tsk-6717-voxi-mobility-report-2026.pdf)",
+          "gate": "rendered statically in its post-render state: page 1 canvas as an image (1057×594 crop of the 1440 capture + 272×153 crop of the 360 live capture via <source media=(max-width: 539px)>), page 2 top strip as a background image, pages 3–7 as sized placeholders, transparent pdf.js text layer kept for pages 1–3; pdf.js scrolls the first page's 5 px top margin away — replicated as margin 0 auto 5px",
+          "restoreAtDelivery": "pdf.js viewer (toolbar-off) loading the data-url PDF, auto zoom",
+          "implementedInPrototype": false
+        },
+        {
+          "zone": "download form (Marketo form 7718, #download_form)",
+          "gate": "rendered statically in its post-load state in the canon mkto-form structure (Spanish labels/options from the page capture)",
+          "restoreAtDelivery": "Marketo forms2 embed of form 7718 (munchkin 353-SAE-487); live hydrates late (form hidden in some live loads)",
+          "implementedInPrototype": false
+        }
+      ],
+      "liftNotes": [
+        "markup re-authored from the page capture through the article's attribute whitelist (stardust/.work/replica/whitepaper/tools/extract.py + assemble.py); button-animation span.before/.after and reveal-box dropped; canon head/slopes/modals from index-proposed.html",
+        "Spanish chrome from the page's own capture: nav identical to the article's except the active sublink (Publicaciones aria-current); footer identical; no side tab and no contact band on this template (verified absent in the live DOM)",
+        "whitepaper.css lifted from main.css in source order: masthead-two-columns-cta @299254–303784 (incl. @302100 filled hollow CTA), pdf-view-block @303861–304943, site-breadcrumbs @305069–306548, podcast-speakers @357180–360118, marketo-form-block/.mktoForm @253073–260382 + global inputs @36694 (download form on canvas: black 1px underline, 16px labels top 27px, chevron select arrow, centred button); breadcrumbs/utilities/text-content/rte-block/hollow button re-declared from the same rules as article.css",
+        "breadcrumb separator is U+00A0 + '/' in the source (@306548), not ' /' — article.css and listing.css carry the plain-space version (header crop at 360 read 96.98% until fixed)",
+        "pdf page box = min(container − 40 px, (viewer h − 6 px) × 1057/594) per pdf.js auto zoom; viewer heights 12.5/25/37.5rem at 0/540/940",
+        "new sprite img/whitepaper-sprite.svg (copy of the article subset: icon-linkedin for author + footer); images rehosted under media/es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026/"
+      ],
+      "motion": {
+        "observed": [
+          "header ready-to-fixed-menu / fixed-menu on scroll (transform .3s)",
+          "hover: .mktoButton white→black fill, white label, background-color .2s",
+          "Marketo form hydration classes + 1 s opacity/visibility fade-in"
+        ],
+        "implemented": [
+          "header morph (chrome.js)",
+          "form button hover (canon btn--white)",
+          "button--primary-hollow hover rendered as the end state of the source's JS wipe (same as article)"
+        ],
+        "dead": [
+          "Marketo hydration classes (mktoForm, mktoHasWidth, mktoLayoutLeft, convertedForm, convertedField, mkto-input-group, singleCol, control-checkbox, btn--white) and the 1 s form fade-in — static form rendered post-load",
+          "masthead CTA, podcast-speakers link and breadcrumb link: no measured hover diff",
+          "pdf.js rendering (no motion; static post-render state)"
+        ]
+      },
+      "blocks": [
+        {
+          "section": "nav.site-nav + modals",
+          "block": "header (fragment)",
+          "variant": "es"
+        },
+        {
+          "section": "div.site-breadcrumbs",
+          "block": "breadcrumbs",
+          "variant": "default"
+        },
+        {
+          "section": "section.masthead-two-columns-cta",
+          "block": "hero-two-columns",
+          "variant": "cta + parameters (media left)"
+        },
+        {
+          "section": "section.rte-block (intro, learnings list, CTA)",
+          "block": "default content (section metadata: rte, indents)",
+          "variant": "text-content"
+        },
+        {
+          "section": "div.pdf-view-block",
+          "block": "pdf-viewer",
+          "variant": "toolbar-off"
+        },
+        {
+          "section": "div.podcast-speakers.podcast-speakers--default.blue",
+          "block": "speakers",
+          "variant": "blue"
+        },
+        {
+          "section": "section.rte-block (Descarga el informe)",
+          "block": "default content",
+          "variant": "text-content"
+        },
+        {
+          "section": "div.marketo-form-block#download_form",
+          "block": "marketo-form",
+          "variant": "download (narrow, form 7718)"
+        },
+        {
+          "section": "footer.site-footer",
+          "block": "footer (fragment)",
+          "variant": "es"
+        }
+      ],
+      "canon": {
+        "owner": false,
+        "frozen": true,
+        "doc": "stardust/prototypes/css/CANON.md",
+        "requestsFiled": 0
+      },
+      "verdict": "pass"
+    },
+    "campaign": {
+      "type": "campaign",
+      "slug": "ai-searchandizing-workshop",
+      "liveUrl": "https://www.valtech.com/ai-searchandizing-workshop/",
+      "prototype": "stardust/prototypes/ai-searchandizing-workshop-proposed.html",
+      "css": [
+        "stardust/prototypes/css/canon.css",
+        "stardust/prototypes/css/campaign.css"
+      ],
+      "js": [
+        "stardust/prototypes/js/chrome.js",
+        "stardust/prototypes/js/campaign.js"
+      ],
+      "regime": "prototype",
+      "iterations": {
+        "360": 2,
+        "1440": 2
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.16%",
+          "heightDelta": 0,
+          "contentDiff": "none — content + roles match",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "ok",
+          "chromeParity": "✓",
+          "chromeCrops": {
+            "header": "100.00%",
+            "footer": "100.00%"
+          },
+          "units": "Δ 0 on every unit (units-iter2b.json, --force); stats card 2 reported 'hidden (clipped)' = the slider's off-viewport card, at the identical rect on the source (justified)",
+          "evidence": "stardust/replica/gates/ai-searchandizing-workshop-360/verdict-iter2.json"
+        },
+        "1440": {
+          "pixel": "0.06%",
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 · 0 nothing-lost 🟡 (10 advisory)",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "ok",
+          "chromeParity": "✓",
+          "chromeCrops": {
+            "header": "100.00%",
+            "footer": "100.00%"
+          },
+          "units": "PASS 6 units, 22 elements within 4 px (units-iter2)",
+          "evidence": "stardust/replica/gates/ai-searchandizing-workshop-1440/verdict-iter2.json"
+        }
+      },
+      "capProbe": "PASS (2560: 0 of 9 rows failed)",
+      "residuals": [
+        {
+          "zone": "results-statistics slider (360) — unit 2 of results-statistics-item",
+          "cause": "instrument",
+          "evidence": "units-iter2b.json: origin 336,1264 296×258 = served 336,1264 296×258, every element Δ0; unit-geometry flags the build card 'hidden (clipped)' because it sits past the viewport inside overflow:hidden — the source card is clipped identically (flickity, next card peeking)",
+          "permanent": true,
+          "note": "gate.sh's unit-geometry reused the slug-keyed 1440 live cache at 360 (iter1 and iter2 both); the 360 numbers come from a direct --force run"
+        }
+      ],
+      "captureState": [
+        {
+          "zone": "in-page Marketo form (mktoForm_7520)",
+          "gate": "rendered static, final state",
+          "restoreAtDelivery": "source loads the Marketo forms2 embed: dummy skeleton rows (.dummyForm .slide-fade-in.played) then the converted form fades in (opacity/visibility 1 s); on EDS the marketo-form block mounts the embed (formId 7520, munchkin 353-SAE-487), and its loader supplies this",
+          "implementedInPrototype": false
+        }
+      ],
+      "liftNotes": [
+        "chrome = index-proposed.html English nav/footer/slopes/redirect modals verbatim (live nav + footer text identical to the index capture); this page has NO side 'Contact us' tab and NO contact band — both omitted",
+        "masthead-primary @50127–54466: text panel inline background #ffffff (authored style attr kept); h1 white-space:pre-line ≥940 keeps the source's trailing newlines (3rd line box = 166 px h1); lead p takes the canon p size (20 px/1.4), not the lead's 2vw",
+        "masthead image: 1x renditions per <source> rehosted under media/ai-searchandizing-workshop/ (rmode=min returns 1493×800 / 1680×900 / 989×530 / 526×282 — intrinsic sizes used)",
+        "rte-block / text-content @195216–196097, @32907–34416; centred empty/button paragraphs keep their authored style=text-align:center",
+        "results-statistics @415900–419926: ≥64rem 4-col grid; <64rem flickity recreated (track + gap 1rem, card calc(100% - 1rem), line dots 90 px at bottom -2.375rem, square prev/next at bottom -3.375rem right 0 / 3.5rem, prev aria-disabled at start) + hidden .carousel-native twins (source DOM has them); Word-paste TextRun spans mirrored as bare <span>s for unit granularity",
+        "podcast-speakers @357180–360118: speaker images 152×154 webp, loading=lazy dropped (lazy + width:auto made the stitched build capture 152 px short in iter1)",
+        "Marketo form @253073–260382 on canon .mkto-form markup with light overrides: labels 16px/400 black, inputs inset rgb(118,118,118) 0 0 1px (UA colour, measured), select padding 6px 0, textarea 1px solid #000, chevron caret, centred .button--tertiary 'Send request'",
+        "icon-linkedin: listing's interim sprite copied to media/ai-searchandizing-workshop/sprite.svg (canon request already filed by listing)",
+        "units.json declared: results-statistics-item ×4, podcast-speakers-info ×2"
+      ],
+      "motion": {
+        "observed": [
+          "stats slider next (<64rem): is-selected moves card + dot",
+          "Marketo embed hydration: skeleton rows + 1 s form fade-in (load, not interaction)",
+          "label/field background-color transitions .2s"
+        ],
+        "implemented": [
+          "stats slider prev/next + dots state + transform (campaign.js), motion-compare is-selected parity",
+          "background-color transitions (canon/campaign CSS)"
+        ],
+        "dead": [
+          "hover on .button--primary-hollow / .mktoButton (no measured diff)",
+          "header scroll-morph on this page (static across traversal on both sides)",
+          "Marketo conversion classes (convertedField, mkto-input-group, singleCol, played, visible-label…) — embed-internal, delivered by the embed"
+        ]
+      },
+      "blocks": [
+        {
+          "section": "nav.site-nav + modals",
+          "block": "header (fragment)",
+          "variant": "en"
+        },
+        {
+          "section": "div.site-breadcrumbs",
+          "block": "breadcrumbs",
+          "variant": "default"
+        },
+        {
+          "section": "section.masthead-primary",
+          "block": "masthead",
+          "variant": "primary (text left / image right)"
+        },
+        {
+          "section": "section.rte-block ×3",
+          "block": "default content",
+          "variant": "rich text (centred CTA paragraphs)"
+        },
+        {
+          "section": "div.results-statistics-block",
+          "block": "stats",
+          "variant": "4-up dark (slider < 64rem)"
+        },
+        {
+          "section": "div.podcast-speakers",
+          "block": "speakers",
+          "variant": "default"
+        },
+        {
+          "section": "div.marketo-form-block",
+          "block": "marketo-form",
+          "variant": "narrow light (form 7520)"
+        },
+        {
+          "section": "footer.site-footer",
+          "block": "footer (fragment)",
+          "variant": "default"
+        }
+      ],
+      "canon": {
+        "owner": false,
+        "requestsFiled": 2
+      },
+      "verdict": "pass"
+    },
+    "offering": {
+      "type": "offering",
+      "slug": "valtech-conversion-engine",
+      "liveUrl": "https://www.valtech.com/valtech-conversion-engine/",
+      "prototype": "stardust/prototypes/valtech-conversion-engine-proposed.html",
+      "css": [
+        "stardust/prototypes/css/canon.css",
+        "stardust/prototypes/css/offering.css"
+      ],
+      "js": [
+        "stardust/prototypes/js/chrome.js",
+        "stardust/prototypes/js/offering.js"
+      ],
+      "regime": "prototype",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.03%",
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 · 0 nothing-lost 🟡",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "ok",
+          "chromeParity": "✓",
+          "chromeCrops": {
+            "header": "100.00%",
+            "footer": "100.00%"
+          },
+          "units": "PASS 27 units, advisory deltas on teaser-block-teaser (vce-units-360)",
+          "evidence": "stardust/replica/gates/valtech-conversion-engine-360/verdict-iter3.json"
+        },
+        "1440": {
+          "pixel": "0.03%",
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 · 0 nothing-lost 🟡",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "ok",
+          "chromeParity": "✓",
+          "chromeCrops": {
+            "header": "100.00%",
+            "footer": "100.00%"
+          },
+          "units": "PASS 29 units (vce-units-1440, after two-columns family narrowed to .two-columns__item__text)",
+          "evidence": "stardust/replica/gates/valtech-conversion-engine-1440/verdict-iter3.json"
+        }
+      },
+      "capProbe": "PASS (2560: 0 of 16 rows failed — stardust/replica/gates/valtech-conversion-engine-2560/cap-iter.json)",
+      "residuals": [
+        {
+          "zone": "units.json families two-columns-item / teaser-block-teaser",
+          "cause": "instrument-asymmetry",
+          "evidence": "units-iter3 (both widths): unit-geometry flags build-side clipping only — the two-columns CTA's hover-wipe span.after (translateX(-100%) inside overflow:hidden, computed styles identical live/build per vce-btn measure) and the teaser cover images / off-screen Flickity cells (overflow:hidden on both sides) read 'hidden' on the build while every rect is Δ0. Family two-columns-item re-pointed to .two-columns__item__text; teaser-block-teaser set required:false with a note. Re-run vce-units-1440/360 → PASS.",
+          "permanent": true
+        }
+      ],
+      "captureState": [
+        {
+          "zone": "related-content teaser slider (< 58.75rem)",
+          "gate": "slide 1 (static at load)",
+          "restoreAtDelivery": "Flickity slider: prev/next + 4-segment dots, cells/dots .is-selected",
+          "implementedInPrototype": true
+        },
+        {
+          "zone": "Marketo form 7797 (in main)",
+          "gate": "rendered in its post-hydration state",
+          "restoreAtDelivery": "live Marketo embed (form id 7797, munchkin 353-SAE-487) with its 1 s fade-in",
+          "implementedInPrototype": false
+        }
+      ],
+      "liftNotes": [
+        "template has NO side 'Contact us' tab and NO contact band (live DOM: 0 matches) — chrome = EN nav + footer + slopes + redirect modals from index-proposed.html",
+        "masthead-two-columns-cta__inner__wrap.right → flex-direction: row ≥ 58.75rem (@299820; text left, image right) on top of the whitepaper masthead rules",
+        "breadcrumb separator \"\\00a0/\" plus the source's whitespace text node before each item ('home / conversion…')",
+        "verbatim U+202F narrow no-break spaces in features copy, CTA labels, speaker name and the highlighted-CTA description (they drive the 360 wraps: 7 vs 6 lines)",
+        "FAQ: first <details> open on load (live); native details/summary with plus/minus thin icons",
+        "form: canon .mkto-form structure on the white page — inputs/selects 1rem/500, textarea 1rem/500/normal, submit = .button--tertiary centred with its 10px margin-bottom",
+        "teaser-block: flex row ≥ 58.75rem (Flickity not enabled live), Flickity slider < 58.75rem rebuilt in offering.js (viewport 420, slider inset 1.5rem, 270px cells 20px apart, dots @48355, arrow buttons @48686–49654, hidden native twins)",
+        "images: 1x renditions per live srcset rehosted under media/valtech-conversion-engine/ (hero 1000×720 / 800×576 / 600×600, two-columns 584×388 / 350×230, teasers 480×360 / 320×240, speakers 152×154)",
+        "interim sprite media/valtech-conversion-engine/offering-sprite.svg (icon-plus-thin, icon-minus-thin, icon-insight, icon-news, icon-email, icon-linkedin) — canon-requested",
+        "units.json declared: offering-features-showcase-item ×6, two-columns-item ×4, partners-logo-inline ×5, offering-podcast-speakers-info ×3, teaser-block-teaser ×2 (advisory), faq-block-item ×3"
+      ],
+      "motion": {
+        "observed": [
+          "header ready-to-fixed-menu / fixed-menu on scroll",
+          "teaser header .slide-fade-in → .played on scroll",
+          "teaser slider next (< 58.75rem): cell + dot .is-selected",
+          "FAQ details toggle icon plus/minus opacity+rotate .3s",
+          "hover: teaser flex-grow .8s + image brightness .3s, partner logo bar, highlighted CTA bg/colour .2s"
+        ],
+        "implemented": [
+          "header morph (chrome.js)",
+          "slide-fade-in reveal (offering.js)",
+          "teaser Flickity slider + dots + prev/next (offering.js)",
+          "FAQ icons (CSS)",
+          "hover states (CSS)"
+        ],
+        "dead": [
+          "Marketo hydration classes (mktoForm/convertedField/singleCol/…) + 1 s form fade-in — static form rendered post-load",
+          "dummy skeleton form .played/.hide",
+          "masthead .reveal-box (no mutation observed)"
+        ]
+      },
+      "blocks": [
+        {
+          "section": "nav.site-nav + modals",
+          "block": "header (fragment)",
+          "variant": "en"
+        },
+        {
+          "section": "div.site-breadcrumbs",
+          "block": "breadcrumbs",
+          "variant": "default"
+        },
+        {
+          "section": "section.masthead-two-columns-cta",
+          "block": "masthead-two-columns",
+          "variant": "right (text left)"
+        },
+        {
+          "section": "section.rte-block ×2",
+          "block": "default content (rte)",
+          "variant": "default"
+        },
+        {
+          "section": "section.features-showcase",
+          "block": "features-showcase",
+          "variant": "dark"
+        },
+        {
+          "section": "div.two-columns ×4",
+          "block": "two-columns",
+          "variant": "text-only / image-left / reverse"
+        },
+        {
+          "section": "div.partners-block",
+          "block": "partners",
+          "variant": "inline dark"
+        },
+        {
+          "section": "div.podcast-speakers",
+          "block": "speakers",
+          "variant": "blue"
+        },
+        {
+          "section": "section.highlighted-cta-block",
+          "block": "highlighted-cta",
+          "variant": "blue"
+        },
+        {
+          "section": "div.marketo-form-block",
+          "block": "contact-form (marketo-form)",
+          "variant": "in-main white"
+        },
+        {
+          "section": "div.teaser-block",
+          "block": "teaser-slider",
+          "variant": "related content"
+        },
+        {
+          "section": "div.faq-block",
+          "block": "faq",
+          "variant": "default"
+        },
+        {
+          "section": "footer.site-footer",
+          "block": "footer (fragment)",
+          "variant": "default"
+        }
+      ],
+      "canon": {
+        "owner": false,
+        "requestsFiled": 2
+      },
+      "verdict": "pass"
+    },
+    "editorial": {
+      "type": "editorial",
+      "slug": "digital-media-performance-marketing",
+      "liveUrl": "https://www.valtech.com/digital-media-performance-marketing/",
+      "prototype": "stardust/prototypes/digital-media-performance-marketing-proposed.html",
+      "css": [
+        "stardust/prototypes/css/canon.css",
+        "stardust/prototypes/css/editorial.css"
+      ],
+      "js": [
+        "stardust/prototypes/js/chrome.js",
+        "stardust/prototypes/js/editorial.js"
+      ],
+      "regime": "prototype",
+      "iterations": {
+        "360": 2,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.33%",
+          "heightDelta": -1,
+          "contentDiff": "none — content + roles match (0 🔴 · 0 nothing-lost 🟡 · 0 advisory)",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "ok",
+          "chromeParity": "✓",
+          "chromeCrops": {
+            "header": "100.00%",
+            "footer": "100.00%"
+          },
+          "units": "PASS 3 units, 27 elements Δ0 (units-iter2b.json, --force; in-round run reused the 1440 live cache)",
+          "evidence": "stardust/replica/gates/digital-media-performance-marketing-360/verdict-iter2.json"
+        },
+        "1440": {
+          "pixel": "0.30%",
+          "heightDelta": -1,
+          "contentDiff": "none — content + roles match (0 🔴 · 0 nothing-lost 🟡 · 0 advisory)",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "ok",
+          "chromeParity": "✓",
+          "chromeCrops": {
+            "header": "100.00%",
+            "footer": "100.00%"
+          },
+          "units": "PASS 3 units, 27 elements within 4 px (units-iter3b.json, --force; gate.sh's in-round unit-geometry reused the slug-keyed 360 live cache)",
+          "evidence": "stardust/replica/gates/digital-media-performance-marketing-1440/verdict-iter3.json"
+        }
+      },
+      "capProbe": "PASS (2560: 0 of 11 rows failed)",
+      "residuals": [
+        {
+          "zone": "unit-geometry in-round rows (both widths)",
+          "cause": "instrument",
+          "evidence": "gate.sh's unit-geometry reads the slug-keyed live cache regardless of width (1440 iter3 used the 360 cache, 360 iter1/iter2 the 1440 cache) → 'off 27'; direct --force runs at each width: Δ0 on every element (units-iter3b.json, units-iter1b.json, units-iter2b.json)",
+          "permanent": true
+        }
+      ],
+      "captureState": [
+        {
+          "zone": "contact band Marketo form (mktoForm_3404)",
+          "gate": "rendered static, final state (canon .mkto-form, same as index)",
+          "restoreAtDelivery": "source loads the Marketo forms2 embed (dummy skeleton rows then 1 s opacity/visibility fade-in); the marketo-form block mounts the embed on EDS",
+          "implementedInPrototype": false
+        }
+      ],
+      "liftNotes": [
+        "chrome = index-proposed.html English nav, side 'Contact us' tab, contact band (Let's connect, form 3404), footer, slopes and redirect modals verbatim — live page HAS both the side tab and the contact band (verified in the capture)",
+        "masthead-services @80714–85126: flex row ≥58.75rem, content/media calc(50% - 10px), title ValtechNeue 4rem/150% (2rem/2.3125rem <58.75rem), description Soehne 1.5rem/150%; media min-height 19.5rem/13.75rem; video-block base @132492–134017 + .video-block__container .video-block__image width:100% @134357 (height:auto added — the source img has no height attr, the prototype's does)",
+        "masthead image: 1x renditions per <source> rehosted under media/digital-media-performance-marketing/ (masthead-1920/1500/1024/768 → 1920×1338, 1500×1045, 1024×713, 768×535)",
+        "text-content @32907–34416 incl. @33453 'ol|p|ul + h2…h6 { margin-top: 3.75rem }' (the trailing nbsp <h4> gets 60 px top — iter1 was 44 px short without it); rte-block @195216–196097 (810 px centred column)",
+        "image-block @137743–138057: picture stays inline (its 100vw/100vh is inert), img width 100% at natural ratio; orientation-switched renditions (landscape 1600×900 max → 1593×900 / 1513×900, portrait 768×1024 max → 768×434 / 768×457) rehosted",
+        "columns-rte @341839–346418: 2-col rows (calc(50% - 14px)), Soehne h2 3vw/1.2 (28–48 px), strong 1.5vw/700 (also inside the h2), p 1.5vw/150% margin .8rem; stacks <58.75rem",
+        "Amazon block: rte-block > .table-wrap > table/td (Confluence paste); base table/td rules @34479–34792 (td border-bottom 1px #ccc, padding .3125rem .390625rem); confluence classes dropped (no rules)",
+        "units.json declared: columns-rte-row ×3"
+      ],
+      "motion": {
+        "observed": [
+          "image-block scroll reveal: .slide-fade-in gets .played on scroll (class only, no transition/animation)",
+          "contact band Marketo hydration (opacity/visibility 1 s, mkto* / convertedField / singleCol classes)",
+          "header fixed-menu / ready-to-fixed-menu + nav transform .3s"
+        ],
+        "implemented": [
+          "scroll reveal (.slide-fade-in → .played via IntersectionObserver, js/editorial.js; no transition — the live blocks fire none) → motion-compare played parity",
+          "header classes + transform via canon chrome.js (parity)"
+        ],
+        "dead": [
+          "hover on .text-content a and breadcrumb links (no measured diff)",
+          "header scroll-morph (static on both sides)",
+          "Marketo embed-internal classes/transitions — delivered by the embed"
+        ]
+      },
+      "blocks": [
+        {
+          "section": "nav.site-nav + side tab + modals",
+          "block": "header (fragment)",
+          "variant": "en"
+        },
+        {
+          "section": "div.site-breadcrumbs",
+          "block": "breadcrumbs",
+          "variant": "default"
+        },
+        {
+          "section": "section.masthead-services",
+          "block": "masthead",
+          "variant": "services (title + description left / image right)"
+        },
+        {
+          "section": "section.rte-block ×2",
+          "block": "default content",
+          "variant": "rich text (810 px column)"
+        },
+        {
+          "section": "div.image-block ×2",
+          "block": "image",
+          "variant": "full-width (scroll reveal)"
+        },
+        {
+          "section": "div.columns-rte ×3",
+          "block": "columns",
+          "variant": "rich text 2-up"
+        },
+        {
+          "section": "section.rte-block (table-wrap)",
+          "block": "default content",
+          "variant": "rich text in single-cell table (Confluence paste)"
+        },
+        {
+          "section": "div.contact-us-form",
+          "block": "contact-form (marketo-form)",
+          "variant": "band"
+        },
+        {
+          "section": "footer.site-footer",
+          "block": "footer (fragment)",
+          "variant": "default"
+        }
+      ],
+      "canon": {
+        "owner": false,
+        "frozen": true,
+        "doc": "stardust/prototypes/css/CANON.md",
+        "requestsFiled": 0
+      },
+      "verdict": "pass"
+    },
+    "static": {
+      "type": "static",
+      "slug": "es-es-aviso-legal",
+      "liveUrl": "https://www.valtech.com/es-es/aviso-legal/",
+      "prototype": "stardust/prototypes/es-es-aviso-legal-proposed.html",
+      "css": [
+        "stardust/prototypes/css/canon.css",
+        "stardust/prototypes/css/static.css"
+      ],
+      "js": [
+        "stardust/prototypes/js/chrome.js"
+      ],
+      "regime": "prototype",
+      "iterations": {
+        "360": 2,
+        "1440": 2
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.00%",
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 · 0 nothing-lost 🟡",
+          "visualDiff": "1 advisory flag, justified (IMAGERY GAP 5 vs 1: the 4 extra live images are ads.twitter adsct tracking pixels; the 1 real image, the footer badge, is present)",
+          "clip": 0,
+          "overflow": "ok",
+          "chromeParity": "✓",
+          "chromeCrops": "not run — full page 0.01%/0.00% with chrome-parity ✓",
+          "units": "n/a (no repeated-unit family)",
+          "evidence": "stardust/replica/gates/es-es-aviso-legal-360/verdict-iter2.json"
+        },
+        "1440": {
+          "pixel": "0.01%",
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 · 0 nothing-lost 🟡",
+          "visualDiff": "1 advisory flag, justified (IMAGERY GAP 5 vs 1: the 4 extra live images are ads.twitter adsct tracking pixels; the 1 real image, the footer badge, is present)",
+          "clip": 0,
+          "overflow": "ok",
+          "chromeParity": "✓",
+          "chromeCrops": "not run — full page 0.01%/0.00% with chrome-parity ✓",
+          "units": "n/a (no repeated-unit family)",
+          "evidence": "stardust/replica/gates/es-es-aviso-legal-1440/verdict-iter2.json"
+        }
+      },
+      "capProbe": "PASS (2560: 0 of 4 rows failed — stardust/replica/gates/es-es-aviso-legal-2560/cap-iter.json)",
+      "residuals": [],
+      "captureState": [
+        {
+          "zone": "contact band (Marketo form 7474, #contact-us-form)",
+          "gate": "rendered statically in its post-load state via the canon contact-band markup (Spanish copy, same as the article archetype)",
+          "restoreAtDelivery": "Marketo forms2 embed of form 7474 (munchkin 353-SAE-487) + contact band reveal",
+          "implementedInPrototype": false
+        }
+      ],
+      "liftNotes": [
+        "chrome (head slopes, Spanish nav, side tab Contáctanos, contact band 7474, footer, modals) taken verbatim from the gated article prototype; side tab and contact band verified present in the live capture (stardust/current/pages/es-es-aviso-legal.html)",
+        "main re-authored from the page capture: breadcrumbs (Inicio / Aviso Legal), masthead-big-title h1, one rte-block of h4/p rich text; the mailto link carries the live title attribute (content-diff MISSING TITLE advisory iter1)",
+        "static.css lifted from main.css in source order: masthead-big-title @77492–78071 (84vw container ≥940, 2.5rem/6.25rem 7.5rem padding, 5vw title clamped 30px ≤600 / 80px ≥1600), .text-content h4 margin-bottom .4em @33109, p/ol/ul + h4 margin-top 3.75rem @33453; breadcrumbs (nbsp separator @306548)/utilities/text-content/rte-block re-declared from the same rules as whitepaper.css",
+        "img/static-sprite.svg = copy of img/article-sprite.svg (icon-linkedin for the /es-es/ footer, pending the canon sprite request)"
+      ],
+      "motion": {
+        "observed": [
+          "header ready-to-fixed-menu / fixed-menu on scroll (transform .3s)",
+          "contact band: .played reveal and Marketo hydration classes (mktoForm, convertedField, mkto-input-group, singleCol, control-checkbox, visible-label, hide, btn--white) with 1 s opacity/visibility fade-in",
+          "hover .rte-block a: no measured diff on live"
+        ],
+        "implemented": [
+          "header morph (chrome.js) — parity"
+        ],
+        "dead": [
+          "contact-band .played / Marketo hydration classes and 1 s fade-in — chrome-owned, static band rendered in its end state (same as article)",
+          "rte link hover (no measured hover diff on live)",
+          "#progressBar reading progress (stays .hide)"
+        ]
+      },
+      "blocks": [
+        {
+          "section": "nav.site-nav + side tab + modals",
+          "block": "header (fragment)",
+          "variant": "es"
+        },
+        {
+          "section": "div.site-breadcrumbs",
+          "block": "breadcrumbs",
+          "variant": "default"
+        },
+        {
+          "section": "section.masthead-big-title",
+          "block": "hero",
+          "variant": "big-title (centred h1, no media)"
+        },
+        {
+          "section": "section.rte-block",
+          "block": "default content (section metadata: rte)",
+          "variant": "text-content"
+        },
+        {
+          "section": "div.contact-us-form",
+          "block": "contact-form (marketo-form)",
+          "variant": "band (es, form 7474)"
+        },
+        {
+          "section": "footer.site-footer",
+          "block": "footer (fragment)",
+          "variant": "es"
+        }
+      ],
+      "verdict": "pass"
+    },
+    "microsite": {
+      "type": "microsite",
+      "slug": "es-es-la-empresa-inteligente-operar",
+      "liveUrl": "https://www.valtech.com/es-es/la-empresa-inteligente/operar/",
+      "prototype": "stardust/prototypes/es-es-la-empresa-inteligente-operar-proposed.html",
+      "css": [
+        "stardust/prototypes/css/canon.css",
+        "stardust/prototypes/css/microsite.css"
+      ],
+      "js": [
+        "stardust/prototypes/js/chrome.js",
+        "stardust/prototypes/js/microsite.js"
+      ],
+      "regime": "prototype",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.70%",
+          "heightDelta": -1,
+          "contentDiff": "none — content + roles match (0 🔴 · 0 🟡)",
+          "visualDiff": "1 advisory flag (hidden thank-you popup h2 face; popup CSS lifted after the round, display:none)",
+          "clip": 0,
+          "overflow": "ok",
+          "chromeParity": "✓",
+          "chromeCrops": {
+            "header": "100.00%",
+            "footer": "100.00% (1px-aligned; 97.98% top-aligned from the -1px Δh)"
+          },
+          "units": "PASS 12 units (op-units360b, after the related-cases lift fix)",
+          "evidence": "stardust/replica/gates/es-es-la-empresa-inteligente-operar-360/verdict-iter3.json"
+        },
+        "1440": {
+          "pixel": "0.13%",
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 · 0 nothing-lost 🟡 (iter3: 306 advisory EXTRA — the live Marketo form 10078 did not hydrate during that content probe; iter1 with the form loaded: 0 nothing-lost, 3 🔴 form CTAs → fixed by the static form)",
+          "visualDiff": "1 advisory flag (hidden thank-you popup h2 face; popup CSS lifted after the round, display:none)",
+          "clip": 0,
+          "overflow": "ok",
+          "chromeParity": "✓",
+          "chromeCrops": {
+            "header": "100.00%",
+            "footer": "100.00%"
+          },
+          "units": "PASS 18 units (op-units1440b, --force)",
+          "evidence": "stardust/replica/gates/es-es-la-empresa-inteligente-operar-1440/verdict-iter3.json"
+        }
+      },
+      "capProbe": "PASS (2560: 0 of 10 rows failed — stardust/replica/gates/es-es-la-empresa-inteligente-operar-2560/cap-iter.json)",
+      "residuals": [
+        {
+          "zone": "registration-form — Marketo form 10078",
+          "cause": "nondeterministic live widget",
+          "evidence": "live hydrates the form in some probes and not others (1440 gate iter1 live 6917 px with the form; measure/content probe at 1440 live 6369 px without it). The build renders the form statically from the form descriptor (go.valtech.com getForm 10078: labels, picklists, checkbox, captcha notice, submit 'Reserva una sesión ejecutiva'); boxes match live within 0 px at 360 when it hydrates",
+          "permanent": true,
+          "note": "content-diff on a round where live did not hydrate reports the form texts as advisory EXTRA only"
+        },
+        {
+          "zone": "related-cases card hover lift",
+          "cause": "JS-computed custom property",
+          "evidence": "live --move-up = details height − title layout height (1440: 97−33, 360: 64−20; unit-geometry PASS both widths after the fix, applied after the iter3 rounds — static pixels only move inside the 360 card by 13px)",
+          "permanent": false
+        }
+      ],
+      "captureState": [
+        {
+          "zone": "registration Marketo form",
+          "gate": "live captured hydrated (1440 iter1 live.png)",
+          "restoreAtDelivery": "Marketo forms2 loads form 10078 (munchkin 353-SAE-487, api //go.valtech.com) into .marketo-form-block__container, fades it in (opacity/visibility 1s), StateCode row shown by visibility rule; success opens #thank-you-popup (.is-open)",
+          "implementedInPrototype": "static markup only (no submit/validation)"
+        },
+        {
+          "zone": "hub sub-navigation < 64rem",
+          "gate": "fixed bottom CTA bar captured once by stitch-shot",
+          "restoreAtDelivery": "position: fixed bottom gradient bar with the CTA",
+          "implementedInPrototype": true
+        }
+      ],
+      "liftNotes": [
+        "body.ie-hub-page chrome variant (main.css @470650–471848): header icons sit in the 64px bar (no fixed side column, search hidden), sections/footer drop the 64px side margin — no side 'Contáctanos' tab and no contact band on this template (live DOM); canon-request filed",
+        "hub sub-nav CTA: the source loads .btn--white after .iehub-nav__item, so the pill's black-on-white and 400 weight win — first build rendered white-on-white (caught by the motion hover sample, not by pixels)",
+        "hero = landing hero-block + .ie-hub-page overrides (single slide, mobile picture as full-bleed background, link-wrapper margin-top 3rem/3.5rem); title fit JS from landing gives 44px at 360 like live",
+        "features-showcase / featured-verticals / podcast-speakers re-declared from the same source rules as article/landing/offering plus their .ie-hub-page variants ('/ TITLE' eyebrow titles, featured-verticals container aspect-ratio 16/8, padding 0); .podcast-speakers.white-theme margin-block 0 + padding 2.5rem/5rem (@357446)",
+        "Marketo form generated from the live form descriptor (form 10078) into the canon .mkto-form structure with the light in-main values (campaign's interim copy); submit is .btn--white like live",
+        "images: live renditions downloaded to prototypes/media/es-es-la-empresa-inteligente-operar/ with intrinsic width/height; linkedin icon via a local microsite-sprite.svg (canon sprite lacks icon-linkedin — already requested by listing)"
+      ],
+      "motion": {
+        "observed": [
+          "header ready-to-fixed-menu / fixed-menu on scroll (canon chrome.js)",
+          "hub sub-nav .iehub-nav--fixed once its slot passes the viewport top; translateY(header height) .3s while the header is slid in",
+          "related-cases hover: title scale→1, details fade-in, hover image fade, wrapper translateY(--move-up) .3s",
+          "hover: hero link btn--white fill .2s, sub-nav CTA btn--white invert",
+          "featured-verticals slider is-selected on next"
+        ],
+        "implemented": [
+          "sticky sub-nav (iehub-nav--fixed + header-synced transform) — parity",
+          "related-cases hover + --move-up — parity",
+          "btn--white hovers — parity",
+          "featured-verticals prev/next slider (landing mechanism) — is-selected parity",
+          "hero title fit"
+        ],
+        "dead": [
+          "iehub-nav item hover (no measured diff beyond underline)",
+          "featured-verticals picture hover (no measured diff)",
+          "podcast-speakers link hover",
+          "custom-nav-button click: no sampled track change on live (flickity JS physics); build keeps landing's .5s track transition",
+          "Marketo hydration classes/fades (mktoForm, convertedField, opacity/visibility 1s) — widget load, static form in prototype"
+        ]
+      },
+      "blocks": [
+        {
+          "section": "nav.site-nav + modals (body.ie-hub-page)",
+          "block": "header (fragment)",
+          "variant": "es, ie-hub"
+        },
+        {
+          "section": "div.iehub-nav",
+          "block": "hub-nav",
+          "variant": "sticky (CTA → #register-form)"
+        },
+        {
+          "section": "section.hero-block.ie-hub-page",
+          "block": "hero-carousel",
+          "variant": "ie-hub (single slide)"
+        },
+        {
+          "section": "section.features-showcase.ie-hub-page.dark-theme",
+          "block": "features-showcase",
+          "variant": "dark, eyebrow title"
+        },
+        {
+          "section": "div.case-visual-side-by-side ×2",
+          "block": "side-by-side",
+          "variant": "image-left square"
+        },
+        {
+          "section": "section.related-cases--ie-hub-page",
+          "block": "related-cases",
+          "variant": "white"
+        },
+        {
+          "section": "section.featured-verticals-block.ie-hub-page",
+          "block": "industries-slider",
+          "variant": "ie-hub (titled)"
+        },
+        {
+          "section": "div.podcast-speakers.ie-hub-page",
+          "block": "speakers",
+          "variant": "white, eyebrow title"
+        },
+        {
+          "section": "section.registration-form",
+          "block": "contact-form (marketo-form)",
+          "variant": "registration (form 10078, light)"
+        },
+        {
+          "section": "div.thank-you-popup",
+          "block": "widgets/thank-you-popup",
+          "variant": "default"
+        },
+        {
+          "section": "footer.site-footer",
+          "block": "footer (fragment)",
+          "variant": "es"
+        }
+      ],
+      "verdict": "pass"
+    }
+  }
+}

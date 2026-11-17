@@ -1,0 +1,4529 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-13T15:09:03.430Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-14T09:12:17.832Z",
+  "pages": [
+    {
+      "slug": "ai-assessment",
+      "path": "/ai-assessment",
+      "title": "AI assessment | Valtech",
+      "templateId": "ai-searchandizing-workshop",
+      "representative": "ai-searchandizing-workshop",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:459d9a481a70c673ef7be67fddbca581edbea3aa908729284fff978c023b08ad",
+        "currentStatePath": "stardust/current/pages/ai-assessment.json",
+        "sourceUrl": "https://www.valtech.com/ai-assessment/"
+      },
+      "blocks": [
+        "masthead-primary"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.live/ai-assessment",
+        "deployedAt": "2026-11-14T08:50:10.637Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.15,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "ai-first-product-operating-model",
+      "path": "/ai-first-product-operating-model",
+      "title": "AI Operating Model for Enterprise Product Teams | Valtech",
+      "templateId": "valtech-conversion-engine",
+      "representative": "valtech-conversion-engine",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:8f161f95fecf625a58eb7b4e9b34d253256d528e957f6e30f1bc479f0ea6b226",
+        "currentStatePath": "stardust/current/pages/ai-first-product-operating-model.json",
+        "sourceUrl": "https://www.valtech.com/ai-first-product-operating-model/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta",
+        "features-showcase",
+        "highlighted-cta-block",
+        "faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/ai-first-product-operating-model",
+        "deployedAt": "2026-11-13T20:04:56.278Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.17,
+          "heightDelta": -24,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "ai-mythbusting",
+      "path": "/ai-mythbusting",
+      "title": "What are the biggest AI myths? | Valtech",
+      "templateId": "ai-searchandizing-workshop",
+      "representative": "ai-searchandizing-workshop",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:30f06950c06b34c4873a3666120aa062c367530778cb44e28fea14e1605cb18e",
+        "currentStatePath": "stardust/current/pages/ai-mythbusting.json",
+        "sourceUrl": "https://www.valtech.com/ai-mythbusting/"
+      },
+      "blocks": [
+        "masthead-primary"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.live/ai-mythbusting",
+        "deployedAt": "2026-11-14T08:50:10.753Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.51,
+          "heightDelta": 26,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "ai-readiness-starts-here",
+      "path": "/ai-readiness-starts-here",
+      "title": "AI readiness starts here | Valtech",
+      "templateId": "ai-searchandizing-workshop",
+      "representative": "ai-searchandizing-workshop",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:5e48a6baf45ca9681ea59b9d9d1ebddec0df7ce3549fe9d8753b34018d67c56b",
+        "currentStatePath": "stardust/current/pages/ai-readiness-starts-here.json",
+        "sourceUrl": "https://www.valtech.com/ai-readiness-starts-here/"
+      },
+      "blocks": [
+        "masthead-primary"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.live/ai-readiness-starts-here",
+        "deployedAt": "2026-11-14T08:50:10.876Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.18,
+          "heightDelta": -7,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "ai-searchandizing-workshop",
+      "path": "/ai-searchandizing-workshop",
+      "title": "AI Product Discovery Workshop | Valtech",
+      "templateId": "ai-searchandizing-workshop",
+      "source": {
+        "migratedHtml": "stardust/migrated/ai-searchandizing-workshop/index.html",
+        "metaJson": "stardust/migrated/ai-searchandizing-workshop/_meta.json",
+        "sourceHash": "sha256:20a0d6e3f29b78ecc79737d6fa8974c26792b54a630b9d3c2d9fe1295f750c88",
+        "sourceUrl": "https://www.valtech.com/ai-searchandizing-workshop/"
+      },
+      "blocks": [
+        "masthead-primary"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/ai-searchandizing-workshop",
+        "deployedAt": "2026-11-13T17:29:39.645Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.15,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-14T08-45-45-415Z-ai-searchandizing-workshop.json",
+          "at": "2026-11-14T08:52:02.627Z"
+        }
+      }
+    },
+    {
+      "slug": "b2b-portal-discovery-workshop",
+      "path": "/b2b-portal-discovery-workshop",
+      "title": "Valtech B2B portal discovery workshop | Valtech",
+      "templateId": "ai-searchandizing-workshop",
+      "representative": "ai-searchandizing-workshop",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:b3c8f7001467066c137022ad58e4ecfc8f52b6ea9caf86343501ee7d15981524",
+        "currentStatePath": "stardust/current/pages/b2b-portal-discovery-workshop.json",
+        "sourceUrl": "https://www.valtech.com/b2b-portal-discovery-workshop/"
+      },
+      "blocks": [
+        "masthead-primary"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.live/b2b-portal-discovery-workshop",
+        "deployedAt": "2026-11-14T08:50:10.998Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.34,
+          "heightDelta": 51,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "becoming-a-connected-manufacturer",
+      "path": "/becoming-a-connected-manufacturer",
+      "title": "Becoming a connected manufacturer | Valtech",
+      "templateId": "ai-searchandizing-workshop",
+      "representative": "ai-searchandizing-workshop",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:b9e420aaf7bf9deb275d789aa72ce216fcb82c98c58deed07a2916b1c7580279",
+        "currentStatePath": "stardust/current/pages/becoming-a-connected-manufacturer.json",
+        "sourceUrl": "https://www.valtech.com/becoming-a-connected-manufacturer/"
+      },
+      "blocks": [
+        "masthead-primary"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.live/becoming-a-connected-manufacturer",
+        "deployedAt": "2026-11-14T08:50:11.112Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.25,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "brand-strategy-design-agency",
+      "path": "/brand-strategy-design-agency",
+      "title": "Brand strategy & design Agency | Valtech",
+      "templateId": "digital-media-performance-marketing",
+      "representative": "digital-media-performance-marketing",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:a06fe366b01b1543be29dd3a00b78ef892fde955bb412f4d86c0791b027fcc6b",
+        "currentStatePath": "stardust/current/pages/brand-strategy-design-agency.json",
+        "sourceUrl": "https://www.valtech.com/brand-strategy-design-agency/"
+      },
+      "blocks": [
+        "masthead-services"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/brand-strategy-design-agency",
+        "deployedAt": "2026-11-14T00:25:14.523Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.24,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-14T08-45-45-415Z-ai-searchandizing-workshop.json",
+          "at": "2026-11-14T08:52:02.627Z"
+        }
+      }
+    },
+    {
+      "slug": "composable-enterprise-assessment",
+      "path": "/composable-enterprise-assessment",
+      "title": "Composable Enterprise Assessment | Valtech",
+      "templateId": "ai-searchandizing-workshop",
+      "representative": "ai-searchandizing-workshop",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:2dab57b9baf60a66c0883b5e39941a66ebb3d7872a21b9735044d1ec36e6044e",
+        "currentStatePath": "stardust/current/pages/composable-enterprise-assessment.json",
+        "sourceUrl": "https://www.valtech.com/composable-enterprise-assessment/"
+      },
+      "blocks": [
+        "masthead-primary"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.live/composable-enterprise-assessment",
+        "deployedAt": "2026-11-14T08:50:11.199Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.17,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "content-supply-chain",
+      "path": "/content-supply-chain",
+      "title": "The Valtech Content Supply Chain | Valtech",
+      "templateId": "valtech-conversion-engine",
+      "representative": "valtech-conversion-engine",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:8839aef7840510d998560460a65a7714c8deddca0332bb9ce354226ad8e54e69",
+        "currentStatePath": "stardust/current/pages/content-supply-chain.json",
+        "sourceUrl": "https://www.valtech.com/content-supply-chain/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta",
+        "features-showcase",
+        "highlighted-cta-block",
+        "faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/content-supply-chain",
+        "deployedAt": "2026-11-13T20:04:56.441Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.9,
+          "heightDelta": -5,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 14,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "creative-content",
+      "path": "/creative-content",
+      "title": "Creative & Content | Valtech",
+      "templateId": "digital-media-performance-marketing",
+      "representative": "digital-media-performance-marketing",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:8c71b1ab25c44acb8123d4328f566152ce5efc561e392fe4470e3e5d6fa34151",
+        "currentStatePath": "stardust/current/pages/creative-content.json",
+        "sourceUrl": "https://www.valtech.com/creative-content/"
+      },
+      "blocks": [
+        "masthead-services"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/creative-content",
+        "deployedAt": "2026-11-14T00:25:15.227Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.28,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-14T08-45-45-415Z-ai-searchandizing-workshop.json",
+          "at": "2026-11-14T08:52:02.627Z"
+        }
+      }
+    },
+    {
+      "slug": "dataprod",
+      "path": "/dataprod",
+      "title": "How productisation transforms public sector data | Valtech",
+      "templateId": "digital-media-performance-marketing",
+      "representative": "digital-media-performance-marketing",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:4113c90b4a601cf951fb1bd5af100e6eabae5d816e509363b31e65caa1fe18fe",
+        "currentStatePath": "stardust/current/pages/dataprod.json",
+        "sourceUrl": "https://www.valtech.com/dataprod/"
+      },
+      "blocks": [
+        "masthead-services"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/dataprod",
+        "deployedAt": "2026-11-14T00:25:15.787Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.98,
+          "heightDelta": 24,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "digital-consulting-discovery-call",
+      "path": "/digital-consulting-discovery-call",
+      "title": "Unlock the efficiency your business is missing | Valtech",
+      "templateId": "valtech-conversion-engine",
+      "representative": "valtech-conversion-engine",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:746c9cffe3d63e330ac908612c189ac9edde4ce85596fe144bb94fcf4fa487d3",
+        "currentStatePath": "stardust/current/pages/digital-consulting-discovery-call.json",
+        "sourceUrl": "https://www.valtech.com/digital-consulting-discovery-call/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta",
+        "features-showcase",
+        "highlighted-cta-block",
+        "faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/digital-consulting-discovery-call",
+        "deployedAt": "2026-11-13T20:04:56.601Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.64,
+          "heightDelta": 21,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "digital-media-performance-marketing",
+      "path": "/digital-media-performance-marketing",
+      "title": "Digital Media &amp; Performance Marketing | Valtech",
+      "templateId": "digital-media-performance-marketing",
+      "source": {
+        "migratedHtml": "stardust/migrated/digital-media-performance-marketing/index.html",
+        "metaJson": "stardust/migrated/digital-media-performance-marketing/_meta.json",
+        "sourceHash": "sha256:79d39200c4299b86fccf94e8d099853e7ff998b37acc95bc15991bb23c354139",
+        "sourceUrl": "https://www.valtech.com/digital-media-performance-marketing/"
+      },
+      "blocks": [
+        "masthead-services"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/digital-media-performance-marketing",
+        "deployedAt": "2026-11-13T19:35:36.844Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.55,
+          "heightDelta": -8,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-14T08-45-45-415Z-ai-searchandizing-workshop.json",
+          "at": "2026-11-14T08:52:02.627Z"
+        }
+      }
+    },
+    {
+      "slug": "digitalxelerate",
+      "path": "/digitalxelerate",
+      "title": "Accelerate your AI journey with DigitalXelerate | Valtech",
+      "templateId": "ai-searchandizing-workshop",
+      "representative": "ai-searchandizing-workshop",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:f0076cded0a0137f120684418bc7983fc809e8e3d1edacf561e40c0237b2de95",
+        "currentStatePath": "stardust/current/pages/digitalxelerate.json",
+        "sourceUrl": "https://www.valtech.com/digitalxelerate/"
+      },
+      "blocks": [
+        "masthead-primary"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.live/digitalxelerate",
+        "deployedAt": "2026-11-14T08:50:11.287Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.16,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "enterprise-ai-foundations-financial-services",
+      "path": "/enterprise-ai-foundations-financial-services",
+      "title": "Enterprise AI Foundation for financial services | Valtech",
+      "templateId": "valtech-conversion-engine",
+      "representative": "valtech-conversion-engine",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:608daa046ec9429ef07c76d6a2b0c2558571a9e00ab32e1fdc81ad2ce18b258e",
+        "currentStatePath": "stardust/current/pages/enterprise-ai-foundations-financial-services.json",
+        "sourceUrl": "https://www.valtech.com/enterprise-ai-foundations-financial-services/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta",
+        "features-showcase",
+        "highlighted-cta-block",
+        "faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/enterprise-ai-foundations-financial-services",
+        "deployedAt": "2026-11-13T20:04:56.808Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.25,
+          "heightDelta": 4,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 11,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "enterprise-ai-foundations-vtiq",
+      "path": "/enterprise-ai-foundations-vtiq",
+      "title": "Turn enterprise data into AI-powered decisions | Valtech",
+      "templateId": "ai-searchandizing-workshop",
+      "representative": "ai-searchandizing-workshop",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:4425ca454ddb526a69ef814f9827c4999654d745936e9c96bd7d1c7a5c4aac03",
+        "currentStatePath": "stardust/current/pages/enterprise-ai-foundations-vtiq.json",
+        "sourceUrl": "https://www.valtech.com/enterprise-ai-foundations-vtiq/"
+      },
+      "blocks": [
+        "masthead-primary"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.live/enterprise-ai-foundations-vtiq",
+        "deployedAt": "2026-11-14T08:50:11.401Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.58,
+          "heightDelta": -76,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 10,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es",
+      "path": "/es-es/",
+      "title": "La empresa de innovación en experiencia",
+      "templateId": "index",
+      "representative": "index",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d405b0a1daffe3856585e407df8d962fef081bd2ac8c5ba8eeef7706fae8d144",
+        "currentStatePath": "stardust/current/pages/es-es.json",
+        "sourceUrl": "https://www.valtech.com/es-es/"
+      },
+      "blocks": [
+        "hero-block",
+        "quote-block",
+        "homepage-cta-block",
+        "featured-verticals-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/",
+        "deployedAt": "2026-11-13T19:12:53.010Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.3,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": [
+              ".hero-block__content=.hero-block-content"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-14T08-45-45-415Z-ai-searchandizing-workshop.json",
+          "at": "2026-11-14T08:52:02.627Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-aviso-legal",
+      "path": "/es-es/aviso-legal",
+      "title": "Aviso legal | Valtech",
+      "templateId": "es-es-aviso-legal",
+      "source": {
+        "migratedHtml": "stardust/migrated/es-es/aviso-legal/index.html",
+        "metaJson": "stardust/migrated/es-es/aviso-legal/_meta.json",
+        "sourceHash": "sha256:da6c593522d4514fcd648f973afbf0a9ad6f4bde6a27b3130b6a615173dd49a2",
+        "sourceUrl": "https://www.valtech.com/es-es/aviso-legal/"
+      },
+      "blocks": [
+        "masthead-big-title"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/aviso-legal",
+        "deployedAt": "2026-11-13T15:56:06.275Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-blog",
+      "path": "/es-es/blog",
+      "title": "Blog | Valtech",
+      "templateId": "es-es-blog",
+      "source": {
+        "migratedHtml": "stardust/migrated/es-es/blog/index.html",
+        "metaJson": "stardust/migrated/es-es/blog/_meta.json",
+        "sourceHash": "sha256:077711018c6b69404995c1fc7691c8e14c8ef355e0d0323aef6829651309f4d8",
+        "sourceUrl": "https://www.valtech.com/es-es/blog/"
+      },
+      "blocks": [
+        "insight-header",
+        "insights-filter"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/blog",
+        "deployedAt": "2026-11-13T17:23:02.443Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.75,
+          "heightDelta": 0,
+          "clipped": 10,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-14T08-45-45-415Z-ai-searchandizing-workshop.json",
+          "at": "2026-11-14T08:52:02.627Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-blog-asi-se-creo-valtech-concierge",
+      "path": "/es-es/blog/asi-se-creo-valtech-concierge",
+      "title": "Así se creó Valtech Concierge | Valtech",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "representative": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:6a584af63bab86184bb9745fad238519e6f59dc68e0343bf0a9be8e99d05036a",
+        "currentStatePath": "stardust/current/pages/es-es-blog-asi-se-creo-valtech-concierge.json",
+        "sourceUrl": "https://www.valtech.com/es-es/blog/asi-se-creo-valtech-concierge/"
+      },
+      "blocks": [
+        "masthead-blurred",
+        "features-showcase",
+        "highlighted-cta-block",
+        "expandable-faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/blog/asi-se-creo-valtech-concierge",
+        "deployedAt": "2026-11-13T20:00:45.006Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.31,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-blog-como-marcas-locales-escalan-de-forma-diferente",
+      "path": "/es-es/blog/como-marcas-locales-escalan-de-forma-diferente",
+      "title": "Comercio barcelonés: cómo crecen las marcas. | Valtech",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "representative": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:36429d1df67d4bcf72c28330777d4c957bcc418399ae7a0a27d58ca56715e716",
+        "currentStatePath": "stardust/current/pages/es-es-blog-como-marcas-locales-escalan-de-forma-diferente.json",
+        "sourceUrl": "https://www.valtech.com/es-es/blog/como-marcas-locales-escalan-de-forma-diferente/"
+      },
+      "blocks": [
+        "masthead-blurred",
+        "features-showcase",
+        "highlighted-cta-block",
+        "expandable-faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/blog/como-marcas-locales-escalan-de-forma-diferente",
+        "deployedAt": "2026-11-13T20:00:46.076Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.29,
+          "heightDelta": -23,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-14T08-45-45-415Z-ai-searchandizing-workshop.json",
+          "at": "2026-11-14T08:52:02.627Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-blog-el-geo-como-la-nueva-frontera-de-la-visibilidad-digital",
+      "path": "/es-es/blog/el-geo-como-la-nueva-frontera-de-la-visibilidad-digital",
+      "title": "El GEO como nueva frontera de la visibilidad digital | Valtech",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "representative": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:a54128dfa9354d256012081f33f8b6772133b6342c4d2a40a319e74ccb5f395c",
+        "currentStatePath": "stardust/current/pages/es-es-blog-el-geo-como-la-nueva-frontera-de-la-visibilidad-digital.json",
+        "sourceUrl": "https://www.valtech.com/es-es/blog/el-geo-como-la-nueva-frontera-de-la-visibilidad-digital/"
+      },
+      "blocks": [
+        "masthead-blurred",
+        "features-showcase",
+        "highlighted-cta-block",
+        "expandable-faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/blog/el-geo-como-la-nueva-frontera-de-la-visibilidad-digital",
+        "deployedAt": "2026-11-13T20:00:47.089Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.81,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-14T08-45-45-415Z-ai-searchandizing-workshop.json",
+          "at": "2026-11-14T08:52:02.627Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-blog-embedding-ai-in-government-case-management",
+      "path": "/es-es/blog/embedding-ai-in-government-case-management",
+      "title": "Embedding AI in government case management | Valtech",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "representative": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:9255e24e3456aa9856bc31dff814ce696df783311d31afb7590da2fddbebb410",
+        "currentStatePath": "stardust/current/pages/es-es-blog-embedding-ai-in-government-case-management.json",
+        "sourceUrl": "https://www.valtech.com/es-es/blog/embedding-ai-in-government-case-management/"
+      },
+      "blocks": [
+        "masthead-blurred",
+        "features-showcase",
+        "highlighted-cta-block",
+        "expandable-faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/blog/embedding-ai-in-government-case-management",
+        "deployedAt": "2026-11-13T20:00:47.875Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.18,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-14T08-45-45-415Z-ai-searchandizing-workshop.json",
+          "at": "2026-11-14T08:52:02.627Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-blog-estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion",
+      "path": "/es-es/blog/estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion",
+      "title": "Estrategia para tiendas físicas: más allá de la transacción | Valtech",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "representative": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:c6dd96c44a9a89109221882adf6b2666ea600ed81cc7681ec9da1bbf436c652c",
+        "currentStatePath": "stardust/current/pages/es-es-blog-estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion.json",
+        "sourceUrl": "https://www.valtech.com/es-es/blog/estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion/"
+      },
+      "blocks": [
+        "masthead-blurred",
+        "features-showcase",
+        "highlighted-cta-block",
+        "expandable-faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/blog/estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion",
+        "deployedAt": "2026-11-13T20:00:49.059Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.11,
+          "heightDelta": -8,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-blog-ia-transforma-busquedas-y-webs-de-marca",
+      "path": "/es-es/blog/ia-transforma-busquedas-y-webs-de-marca",
+      "title": "Cómo la IA transforma las búsquedas y las webs de marca | Valtech",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "representative": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:6973f46596d5d208487872589329c1b8fb31e5c74443ca5a8c7faf8db29c9f2c",
+        "currentStatePath": "stardust/current/pages/es-es-blog-ia-transforma-busquedas-y-webs-de-marca.json",
+        "sourceUrl": "https://www.valtech.com/es-es/blog/ia-transforma-busquedas-y-webs-de-marca/"
+      },
+      "blocks": [
+        "masthead-blurred",
+        "features-showcase",
+        "highlighted-cta-block",
+        "expandable-faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/blog/ia-transforma-busquedas-y-webs-de-marca",
+        "deployedAt": "2026-11-13T20:00:50.147Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.75,
+          "heightDelta": 22,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-14T08-45-45-415Z-ai-searchandizing-workshop.json",
+          "at": "2026-11-14T08:52:02.627Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "path": "/es-es/blog/la-era-de-los-agentes-de-ia",
+      "title": "La era de los agentes personales | Valtech",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "source": {
+        "migratedHtml": "stardust/migrated/es-es/blog/la-era-de-los-agentes-de-ia/index.html",
+        "metaJson": "stardust/migrated/es-es/blog/la-era-de-los-agentes-de-ia/_meta.json",
+        "sourceHash": "sha256:7eb36364bba44368e85bed430cca048d817d32c7e9665206c6957f9962508260",
+        "sourceUrl": "https://www.valtech.com/es-es/blog/la-era-de-los-agentes-de-ia/"
+      },
+      "blocks": [
+        "masthead-blurred",
+        "features-showcase",
+        "highlighted-cta-block",
+        "expandable-faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/blog/la-era-de-los-agentes-de-ia",
+        "deployedAt": "2026-11-13T17:26:32.209Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.18,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-14T08-45-45-415Z-ai-searchandizing-workshop.json",
+          "at": "2026-11-14T08:52:02.627Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-blog-presentamos-el-muro-de-datos-b2b",
+      "path": "/es-es/blog/presentamos-el-muro-de-datos-b2b",
+      "title": "Presentamos El Muro de Datos B2B | Valtech",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "representative": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:e3ce7933a095ec37ed813c18d6e22615e63f3b4a909e472b811d39c2e6dbe839",
+        "currentStatePath": "stardust/current/pages/es-es-blog-presentamos-el-muro-de-datos-b2b.json",
+        "sourceUrl": "https://www.valtech.com/es-es/blog/presentamos-el-muro-de-datos-b2b/"
+      },
+      "blocks": [
+        "masthead-blurred",
+        "features-showcase",
+        "highlighted-cta-block",
+        "expandable-faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/blog/presentamos-el-muro-de-datos-b2b",
+        "deployedAt": "2026-11-13T20:00:52.925Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.66,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-14T08-45-45-415Z-ai-searchandizing-workshop.json",
+          "at": "2026-11-14T08:52:02.627Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-carrera",
+      "path": "/es-es/carrera",
+      "title": "Quiénes somos | Valtech",
+      "templateId": "digital-media-performance-marketing",
+      "representative": "digital-media-performance-marketing",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:38ffdce10eb47d28dd942bda16957345acf3f8df9355845653a310d3ab1a61e2",
+        "currentStatePath": "stardust/current/pages/es-es-carrera.json",
+        "sourceUrl": "https://www.valtech.com/es-es/carrera/"
+      },
+      "blocks": [
+        "masthead-services"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/carrera",
+        "deployedAt": "2026-11-14T00:25:16.547Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.59,
+          "heightDelta": 3,
+          "clipped": 1,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": [
+              ".jobs__list=.jobs-list"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-casos",
+      "path": "/es-es/casos",
+      "title": "Casos de éxito | Valtech",
+      "templateId": "es-es-blog",
+      "representative": "es-es-blog",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d01cf8c85195667ed584b8e716af78fea8a5ecf2bab5c148b97700ac263f3b65",
+        "currentStatePath": "stardust/current/pages/es-es-casos.json",
+        "sourceUrl": "https://www.valtech.com/es-es/casos/"
+      },
+      "blocks": [
+        "insight-header",
+        "insights-filter"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/casos",
+        "deployedAt": "2026-11-13T19:03:27.409Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.07,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-casos-lexus-europa",
+      "path": "/es-es/casos/lexus-europa",
+      "title": "Lexus Europa y la IA agéntica: a vuestro servicio | Valtech",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "representative": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:6736f008a6d88ae256409caba01ce27b36c5781777d02be2226d1a23e7758029",
+        "currentStatePath": "stardust/current/pages/es-es-casos-lexus-europa.json",
+        "sourceUrl": "https://www.valtech.com/es-es/casos/lexus-europa/"
+      },
+      "blocks": [
+        "masthead-blurred",
+        "features-showcase",
+        "highlighted-cta-block",
+        "expandable-faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/casos/lexus-europa",
+        "deployedAt": "2026-11-13T20:00:55.025Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.82,
+          "heightDelta": -14,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-content-hub",
+      "path": "/es-es/content-hub",
+      "title": "Centro de contenidos | Valtech",
+      "templateId": "es-es-blog",
+      "representative": "es-es-blog",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:18af94191ee5d0fde44c8103c43284206272aee28d8c9e8d2b2f326e1a5ae0cb",
+        "currentStatePath": "stardust/current/pages/es-es-content-hub.json",
+        "sourceUrl": "https://www.valtech.com/es-es/content-hub/"
+      },
+      "blocks": [
+        "insight-header",
+        "insights-filter"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/content-hub",
+        "deployedAt": "2026-11-13T19:03:29.215Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.04,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-diversidad-e-inclusion",
+      "path": "/es-es/diversidad-e-inclusion",
+      "title": "Diversidad e Inclusión | Valtech",
+      "templateId": "digital-media-performance-marketing",
+      "representative": "digital-media-performance-marketing",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:8ca92fc49b9f5cb02ecf19ac6f389851f0eaa9d83444aefd33566f0f739fc100",
+        "currentStatePath": "stardust/current/pages/es-es-diversidad-e-inclusion.json",
+        "sourceUrl": "https://www.valtech.com/es-es/diversidad-e-inclusion/"
+      },
+      "blocks": [
+        "masthead-services"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/diversidad-e-inclusion",
+        "deployedAt": "2026-11-14T00:25:17.187Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.57,
+          "heightDelta": -18,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-eventos",
+      "path": "/es-es/eventos",
+      "title": "Eventos | Valtech",
+      "templateId": "es-es-blog",
+      "representative": "es-es-blog",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:86a3ed2891d80f3549f9e97ba1b8e027ce0bcf0c2ebf521020997ed257331b9a",
+        "currentStatePath": "stardust/current/pages/es-es-eventos.json",
+        "sourceUrl": "https://www.valtech.com/es-es/eventos/"
+      },
+      "blocks": [
+        "insight-header",
+        "insights-filter"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/eventos",
+        "deployedAt": "2026-11-13T19:03:28.179Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.75,
+          "heightDelta": 2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-eventos-ai-in-retail-from-pilots-to-performanceexclusive",
+      "path": "/es-es/eventos/ai-in-retail-from-pilots-to-performanceexclusive",
+      "title": "Unlock AI success in retail | Valtech",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "representative": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:c316529a9d1b3fe1c79437655c5f1b96d396b9ee27a5f8edc210e2f5cfbf53a5",
+        "currentStatePath": "stardust/current/pages/es-es-eventos-ai-in-retail-from-pilots-to-performanceexclusive.json",
+        "sourceUrl": "https://www.valtech.com/es-es/eventos/ai-in-retail-from-pilots-to-performanceexclusive/"
+      },
+      "blocks": [
+        "masthead-blurred",
+        "features-showcase",
+        "highlighted-cta-block",
+        "expandable-faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/eventos/ai-in-retail-from-pilots-to-performanceexclusive",
+        "deployedAt": "2026-11-13T20:08:47.512Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.46,
+          "heightDelta": 22,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-eventos-google-cloud-and-valtech-roundtable",
+      "path": "/es-es/eventos/google-cloud-and-valtech-roundtable",
+      "title": "Unlock AI success in retail: join Google Cloud & Valtech | Valtech",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "representative": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:0e2877edb189e29e1aaa234e71b5b229ecbe83f746edfb70568ca80ed70779f0",
+        "currentStatePath": "stardust/current/pages/es-es-eventos-google-cloud-and-valtech-roundtable.json",
+        "sourceUrl": "https://www.valtech.com/es-es/eventos/google-cloud-and-valtech-roundtable/"
+      },
+      "blocks": [
+        "masthead-blurred",
+        "features-showcase",
+        "highlighted-cta-block",
+        "expandable-faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/eventos/google-cloud-and-valtech-roundtable",
+        "deployedAt": "2026-11-13T20:08:49.329Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.79,
+          "heightDelta": 35,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-eventos-valtech-at-shoptalk-europe-2026",
+      "path": "/es-es/eventos/valtech-at-shoptalk-europe-2026",
+      "title": "Valtech en Shoptalk Europe 2026 | Valtech",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "representative": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:19c28706ae40575d79d39a1980401aa49b41a72d383540df67932ed072dfe83d",
+        "currentStatePath": "stardust/current/pages/es-es-eventos-valtech-at-shoptalk-europe-2026.json",
+        "sourceUrl": "https://www.valtech.com/es-es/eventos/valtech-at-shoptalk-europe-2026/"
+      },
+      "blocks": [
+        "masthead-blurred",
+        "features-showcase",
+        "highlighted-cta-block",
+        "expandable-faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/eventos/valtech-at-shoptalk-europe-2026",
+        "deployedAt": "2026-11-13T20:08:51.320Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.56,
+          "heightDelta": -5,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-eventos-valtech-optimizely-at-resume-martech-2026",
+      "path": "/es-es/eventos/valtech-optimizely-at-resume-martech-2026",
+      "title": "Valtech & Optimizely at Resumé Martech 2026 | Valtech",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "representative": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:08cdf304eef9910cb8e35435ee0226cbc1580743f6980ea490ab2a077d5de808",
+        "currentStatePath": "stardust/current/pages/es-es-eventos-valtech-optimizely-at-resume-martech-2026.json",
+        "sourceUrl": "https://www.valtech.com/es-es/eventos/valtech-optimizely-at-resume-martech-2026/"
+      },
+      "blocks": [
+        "masthead-blurred",
+        "features-showcase",
+        "highlighted-cta-block",
+        "expandable-faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/eventos/valtech-optimizely-at-resume-martech-2026",
+        "deployedAt": "2026-11-13T20:08:54.361Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.39,
+          "heightDelta": 8,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-guia-para-la-empresa-inteligente",
+      "path": "/es-es/guia-para-la-empresa-inteligente",
+      "title": "Guía para la empresa inteligente | Valtech | Valtech",
+      "templateId": "valtech-conversion-engine",
+      "representative": "valtech-conversion-engine",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:4af0924e77f3a308587619bfec596e7939e4f83292540bfb9246bb3fb24db4b5",
+        "currentStatePath": "stardust/current/pages/es-es-guia-para-la-empresa-inteligente.json",
+        "sourceUrl": "https://www.valtech.com/es-es/guia-para-la-empresa-inteligente/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta",
+        "features-showcase",
+        "highlighted-cta-block",
+        "faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/guia-para-la-empresa-inteligente",
+        "deployedAt": "2026-11-13T20:04:57.050Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.26,
+          "heightDelta": 10,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-industrias",
+      "path": "/es-es/industrias",
+      "title": "Industrias | Valtech",
+      "templateId": "digital-media-performance-marketing",
+      "representative": "digital-media-performance-marketing",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:6c4ae88c2d4b412be29eca246f3ad0726321151978242a3f42a360c7fbdb7656",
+        "currentStatePath": "stardust/current/pages/es-es-industrias.json",
+        "sourceUrl": "https://www.valtech.com/es-es/industrias/"
+      },
+      "blocks": [
+        "masthead-services"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/industrias",
+        "deployedAt": "2026-11-14T00:25:17.701Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.7,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente",
+      "path": "/es-es/la-empresa-inteligente/",
+      "title": "Convierte la IA en ventaja empresarial | Valtech",
+      "templateId": "es-es-la-empresa-inteligente-operar",
+      "representative": "es-es-la-empresa-inteligente-operar",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:1840a9d2b923686d1ac203f13a00f38d158dd27b8c48e5095321382d175eba0e",
+        "currentStatePath": "stardust/current/pages/es-es-la-empresa-inteligente.json",
+        "sourceUrl": "https://www.valtech.com/es-es/la-empresa-inteligente/"
+      },
+      "blocks": [
+        "hero-block",
+        "features-showcase",
+        "related-cases",
+        "featured-verticals-block",
+        "registration-form"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/la-empresa-inteligente/",
+        "deployedAt": "2026-11-13T22:33:24.489Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.97,
+          "heightDelta": -7,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-14T08-45-45-415Z-ai-searchandizing-workshop.json",
+          "at": "2026-11-14T08:52:02.627Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente-crecer",
+      "path": "/es-es/la-empresa-inteligente/crecer",
+      "title": "IA generativa para la experiencia de cliente | Valtech",
+      "templateId": "es-es-la-empresa-inteligente-operar",
+      "representative": "es-es-la-empresa-inteligente-operar",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:b54fddaa706c74cdcf408e056f9695b54d4507b29a6379aab2fbef5014a4276f",
+        "currentStatePath": "stardust/current/pages/es-es-la-empresa-inteligente-crecer.json",
+        "sourceUrl": "https://www.valtech.com/es-es/la-empresa-inteligente/crecer/"
+      },
+      "blocks": [
+        "hero-block",
+        "features-showcase",
+        "related-cases",
+        "featured-verticals-block",
+        "registration-form"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/la-empresa-inteligente/crecer",
+        "deployedAt": "2026-11-13T22:33:17.979Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.26,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-14T08-45-45-415Z-ai-searchandizing-workshop.json",
+          "at": "2026-11-14T08:52:02.627Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente-liderar",
+      "path": "/es-es/la-empresa-inteligente/liderar",
+      "title": "Toma de decisiones impulsada por IA | Valtech",
+      "templateId": "es-es-la-empresa-inteligente-operar",
+      "representative": "es-es-la-empresa-inteligente-operar",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:49c873aace2b0774cde59a63af5af0eb4f290784c7df1cee9b11636d6a804458",
+        "currentStatePath": "stardust/current/pages/es-es-la-empresa-inteligente-liderar.json",
+        "sourceUrl": "https://www.valtech.com/es-es/la-empresa-inteligente/liderar/"
+      },
+      "blocks": [
+        "hero-block",
+        "features-showcase",
+        "related-cases",
+        "featured-verticals-block",
+        "registration-form"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/la-empresa-inteligente/liderar",
+        "deployedAt": "2026-11-13T22:33:20.122Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.18,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-14T08-45-45-415Z-ai-searchandizing-workshop.json",
+          "at": "2026-11-14T08:52:02.627Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente-modelo-operativo",
+      "path": "/es-es/la-empresa-inteligente/modelo-operativo",
+      "title": "Modelo operativo centrado en el crecimiento | Valtech",
+      "templateId": "es-es-la-empresa-inteligente-operar",
+      "representative": "es-es-la-empresa-inteligente-operar",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:97089b35427ea50a690a1cbc690b8569b4a853c7863381c14070a37fed63adb8",
+        "currentStatePath": "stardust/current/pages/es-es-la-empresa-inteligente-modelo-operativo.json",
+        "sourceUrl": "https://www.valtech.com/es-es/la-empresa-inteligente/modelo-operativo/"
+      },
+      "blocks": [
+        "hero-block",
+        "features-showcase",
+        "related-cases",
+        "featured-verticals-block",
+        "registration-form"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/la-empresa-inteligente/modelo-operativo",
+        "deployedAt": "2026-11-13T22:33:22.588Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.5,
+          "heightDelta": 75,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-14T08-45-45-415Z-ai-searchandizing-workshop.json",
+          "at": "2026-11-14T08:52:02.627Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente-operar",
+      "path": "/es-es/la-empresa-inteligente/operar",
+      "title": "IA agéntica en operaciones de IT | Valtech",
+      "templateId": "es-es-la-empresa-inteligente-operar",
+      "source": {
+        "migratedHtml": "stardust/migrated/es-es/la-empresa-inteligente/operar/index.html",
+        "metaJson": "stardust/migrated/es-es/la-empresa-inteligente/operar/_meta.json",
+        "sourceHash": "sha256:ead76e70594e29f523e02dcc2923d26c18de48b509d5ebba9c356f2399cafc85",
+        "sourceUrl": "https://www.valtech.com/es-es/la-empresa-inteligente/operar/"
+      },
+      "blocks": [
+        "hero-block",
+        "features-showcase",
+        "related-cases",
+        "featured-verticals-block",
+        "registration-form"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/la-empresa-inteligente/operar",
+        "deployedAt": "2026-11-13T20:22:48.116Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.55,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-14T08-45-45-415Z-ai-searchandizing-workshop.json",
+          "at": "2026-11-14T08:52:02.627Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente-organizar",
+      "path": "/es-es/la-empresa-inteligente/organizar",
+      "title": "IA agéntica para operaciones empresariales | Valtech",
+      "templateId": "es-es-la-empresa-inteligente-operar",
+      "representative": "es-es-la-empresa-inteligente-operar",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:7a7e9bd32e5374f0cf635d8f061753332ec4af690f59214f83087be0cec54952",
+        "currentStatePath": "stardust/current/pages/es-es-la-empresa-inteligente-organizar.json",
+        "sourceUrl": "https://www.valtech.com/es-es/la-empresa-inteligente/organizar/"
+      },
+      "blocks": [
+        "hero-block",
+        "features-showcase",
+        "related-cases",
+        "featured-verticals-block",
+        "registration-form"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/la-empresa-inteligente/organizar",
+        "deployedAt": "2026-11-13T22:33:15.997Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.3,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-14T08-45-45-415Z-ai-searchandizing-workshop.json",
+          "at": "2026-11-14T08:52:02.627Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-noticias",
+      "path": "/es-es/noticias",
+      "title": "Noticias | Valtech",
+      "templateId": "es-es-blog",
+      "representative": "es-es-blog",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:033d3f8cb405c374f174d3af872f0a8685589bc5cf6ad80f0b2f30f17e200781",
+        "currentStatePath": "stardust/current/pages/es-es-noticias.json",
+        "sourceUrl": "https://www.valtech.com/es-es/noticias/"
+      },
+      "blocks": [
+        "insight-header",
+        "insights-filter"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/noticias",
+        "deployedAt": "2026-11-13T19:03:27.767Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0,
+          "heightDelta": 0,
+          "clipped": 1,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-noticias-conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds",
+      "path": "/es-es/noticias/conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds",
+      "title": "La IA conversacional, nueva puerta de entrada al comercio | Valtech",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "representative": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:5b41b73c57d45ec7f9a53b8e3091e0035fb947ca03659e2ac72bba0f4f59c93c",
+        "currentStatePath": "stardust/current/pages/es-es-noticias-conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds.json",
+        "sourceUrl": "https://www.valtech.com/es-es/noticias/conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds/"
+      },
+      "blocks": [
+        "masthead-blurred",
+        "features-showcase",
+        "highlighted-cta-block",
+        "expandable-faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/noticias/conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds",
+        "deployedAt": "2026-11-13T20:08:56.424Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.02,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-noticias-valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente",
+      "path": "/es-es/noticias/valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente",
+      "title": "Valtech, Strong Performer en Forrester Wave 2026 | Valtech",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "representative": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:14ae9df9db63b7f20b2cc0aa18139ae828587879a86f511e77274f1cef8f07f6",
+        "currentStatePath": "stardust/current/pages/es-es-noticias-valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente.json",
+        "sourceUrl": "https://www.valtech.com/es-es/noticias/valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente/"
+      },
+      "blocks": [
+        "masthead-blurred",
+        "features-showcase",
+        "highlighted-cta-block",
+        "expandable-faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/noticias/valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente",
+        "deployedAt": "2026-11-13T20:08:58.541Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.08,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-nuestros-partners",
+      "path": "/es-es/nuestros-partners",
+      "title": "Partners | Valtech",
+      "templateId": "ai-searchandizing-workshop",
+      "representative": "ai-searchandizing-workshop",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:7ff0327a648067b67bb0417c4584e5510a303995bd7fc5965fa52f6be0aec5a6",
+        "currentStatePath": "stardust/current/pages/es-es-nuestros-partners.json",
+        "sourceUrl": "https://www.valtech.com/es-es/nuestros-partners/"
+      },
+      "blocks": [
+        "masthead-primary"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.live/es-es/nuestros-partners",
+        "deployedAt": "2026-11-14T08:50:11.486Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.74,
+          "heightDelta": 33,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 16,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-nuestros-partners-oracle",
+      "path": "/es-es/nuestros-partners/oracle",
+      "title": "Alianza entre Valtech y Oracle | Valtech | Valtech",
+      "templateId": "digital-media-performance-marketing",
+      "representative": "digital-media-performance-marketing",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:9e3a6dc1ec0ee79e119f17b4a7f59dd7099ac4a803831a928d97ea6580631929",
+        "currentStatePath": "stardust/current/pages/es-es-nuestros-partners-oracle.json",
+        "sourceUrl": "https://www.valtech.com/es-es/nuestros-partners/oracle/"
+      },
+      "blocks": [
+        "masthead-services"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/nuestros-partners/oracle",
+        "deployedAt": "2026-11-14T00:25:18.439Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.93,
+          "heightDelta": 170,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-podcasts",
+      "path": "/es-es/podcasts",
+      "title": "Pódcasts | Valtech",
+      "templateId": "es-es-blog",
+      "representative": "es-es-blog",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:72941234b39e1ebbff3bad8e0fdd1603dcc796cecf2a7927084c66f6fbba423e",
+        "currentStatePath": "stardust/current/pages/es-es-podcasts.json",
+        "sourceUrl": "https://www.valtech.com/es-es/podcasts/"
+      },
+      "blocks": [
+        "insight-header",
+        "insights-filter"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/podcasts",
+        "deployedAt": "2026-11-13T19:03:28.629Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.85,
+          "heightDelta": 27,
+          "clipped": 5,
+          "content": {
+            "missing": 0,
+            "hidden": 1,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 11,
+            "variable": [
+              ".js-flickity-teaser=.teaser-block-container"
+            ]
+          },
+          "reasons": [
+            "content MISSING 0 / HIDDEN 1"
+          ],
+          "override": "PASS (documented)",
+          "table": "stardust/replica/gates/all-360/runs/2026-11-14T08-50-38-880Z-es-es-podcasts.json",
+          "at": "2026-11-14T08:52:02.721Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-politica-de-cookies",
+      "path": "/es-es/politica-de-cookies",
+      "title": "Política de Cookies | Valtech",
+      "templateId": "es-es-aviso-legal",
+      "representative": "es-es-aviso-legal",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:4b7e54b7dcf272292ad68605dd1b862e0183fec8e3a9a59899598039b29cc2ee",
+        "currentStatePath": "stardust/current/pages/es-es-politica-de-cookies.json",
+        "sourceUrl": "https://www.valtech.com/es-es/politica-de-cookies/"
+      },
+      "blocks": [
+        "masthead-big-title"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/politica-de-cookies",
+        "deployedAt": "2026-11-13T17:41:19.167Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 11.57,
+          "heightDelta": 115,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [
+            "pixel 11.57% > 10%"
+          ],
+          "override": "PASS (documented)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-politica-privacidad",
+      "path": "/es-es/politica-privacidad",
+      "title": "Política de Privacidad - Valtech | Valtech",
+      "templateId": "es-es-aviso-legal",
+      "representative": "es-es-aviso-legal",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:4b93dc9cbf63b7b32ff6ff78a00b1631720d34a3de5b39976da5948942cf9a60",
+        "currentStatePath": "stardust/current/pages/es-es-politica-privacidad.json",
+        "sourceUrl": "https://www.valtech.com/es-es/politica-privacidad/"
+      },
+      "blocks": [
+        "masthead-big-title"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/politica-privacidad",
+        "deployedAt": "2026-11-13T17:41:19.475Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.86,
+          "heightDelta": -230,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-quienes-somos",
+      "path": "/es-es/quienes-somos",
+      "title": "Quiénes somos | Valtech",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "representative": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:e7962b97ac82de3ee54fc929d0fe60243a2477263bb68389f2267a34d1892187",
+        "currentStatePath": "stardust/current/pages/es-es-quienes-somos.json",
+        "sourceUrl": "https://www.valtech.com/es-es/quienes-somos/"
+      },
+      "blocks": [
+        "masthead-blurred",
+        "features-showcase",
+        "highlighted-cta-block",
+        "expandable-faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/quienes-somos",
+        "deployedAt": "2026-11-13T20:09:01.086Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.35,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-retail-en-la-encrucijada-2026",
+      "path": "/es-es/retail-en-la-encrucijada-2026",
+      "title": "Descubre en detalle el informe Retail 2026 de Valtech | Valtech",
+      "templateId": "valtech-conversion-engine",
+      "representative": "valtech-conversion-engine",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:a0324bb14c0c79a9d2644ccae9759b7276b3df3b92a805e8ade8e7b0bc22ef42",
+        "currentStatePath": "stardust/current/pages/es-es-retail-en-la-encrucijada-2026.json",
+        "sourceUrl": "https://www.valtech.com/es-es/retail-en-la-encrucijada-2026/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta",
+        "features-showcase",
+        "highlighted-cta-block",
+        "faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/retail-en-la-encrucijada-2026",
+        "deployedAt": "2026-11-13T20:04:57.293Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.82,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-retail-maturity-assessment",
+      "path": "/es-es/retail-maturity-assessment",
+      "title": "Retail Maturity Assessment | Estudio de Valtech 2026 | Valtech",
+      "templateId": "ai-searchandizing-workshop",
+      "representative": "ai-searchandizing-workshop",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:841723f7fbf64e83c3e5d7ccdcdf2728649ee405885d05736fef4480729d0a92",
+        "currentStatePath": "stardust/current/pages/es-es-retail-maturity-assessment.json",
+        "sourceUrl": "https://www.valtech.com/es-es/retail-maturity-assessment/"
+      },
+      "blocks": [
+        "masthead-primary"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.live/es-es/retail-maturity-assessment",
+        "deployedAt": "2026-11-14T08:50:11.577Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.24,
+          "heightDelta": 5,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-servicios",
+      "path": "/es-es/servicios",
+      "title": "Servicios | Valtech",
+      "templateId": "digital-media-performance-marketing",
+      "representative": "digital-media-performance-marketing",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:81151b72cc9a0d1d1889c3b69c5029dc9eb82a5a7337705a1927932f226689a9",
+        "currentStatePath": "stardust/current/pages/es-es-servicios.json",
+        "sourceUrl": "https://www.valtech.com/es-es/servicios/"
+      },
+      "blocks": [
+        "masthead-services"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/servicios",
+        "deployedAt": "2026-11-14T00:25:19.002Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-servicios-revolucion-del-dato-y-ia",
+      "path": "/es-es/servicios/revolucion-del-dato-y-ia",
+      "title": "Impulsa el crecimiento con consultoría en datos e IA. | Valtech",
+      "templateId": "valtech-conversion-engine",
+      "representative": "valtech-conversion-engine",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:85eb9908989579163d60d7be5fefbbcf3cc4877405b3ce3fb0c01f56bbbac5a7",
+        "currentStatePath": "stardust/current/pages/es-es-servicios-revolucion-del-dato-y-ia.json",
+        "sourceUrl": "https://www.valtech.com/es-es/servicios/revolucion-del-dato-y-ia/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta",
+        "features-showcase",
+        "highlighted-cta-block",
+        "faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/servicios/revolucion-del-dato-y-ia",
+        "deployedAt": "2026-11-13T20:04:57.617Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.75,
+          "heightDelta": -7,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-thread-magazine",
+      "path": "/es-es/thread-magazine",
+      "title": "Revista Thread | Valtech",
+      "templateId": "ai-searchandizing-workshop",
+      "representative": "ai-searchandizing-workshop",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:96e24dad3b2efd71f87a1cc1221622852e3b643a54a01745bd7f8eb1d6b373ad",
+        "currentStatePath": "stardust/current/pages/es-es-thread-magazine.json",
+        "sourceUrl": "https://www.valtech.com/es-es/thread-magazine/"
+      },
+      "blocks": [
+        "masthead-primary"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.live/es-es/thread-magazine",
+        "deployedAt": "2026-11-14T08:50:11.678Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.59,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-thread-magazine-edition-10-the-experience-loop",
+      "path": "/es-es/thread-magazine/edition-10-the-experience-loop",
+      "title": "Edición número 10: The Experience Loop | Valtech",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "representative": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d62c589149fe35a93f39d463dac33f38e544dd2eb74add1433035c833e3ce58f",
+        "currentStatePath": "stardust/current/pages/es-es-thread-magazine-edition-10-the-experience-loop.json",
+        "sourceUrl": "https://www.valtech.com/es-es/thread-magazine/edition-10-the-experience-loop/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/thread-magazine/edition-10-the-experience-loop",
+        "deployedAt": "2026-11-13T19:37:17.596Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.68,
+          "heightDelta": 20,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-trabajar-en-valtech",
+      "path": "/es-es/trabajar-en-valtech",
+      "title": "Trabajar en Valtech | Valtech",
+      "templateId": "digital-media-performance-marketing",
+      "representative": "digital-media-performance-marketing",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:a1ae523263cc9ae2a70989679ffc629fff0eec4c13bebfc1062db91bc7cb0de1",
+        "currentStatePath": "stardust/current/pages/es-es-trabajar-en-valtech.json",
+        "sourceUrl": "https://www.valtech.com/es-es/trabajar-en-valtech/"
+      },
+      "blocks": [
+        "masthead-services"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/trabajar-en-valtech",
+        "deployedAt": "2026-11-14T00:25:19.660Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.04,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-whitepapers",
+      "path": "/es-es/whitepapers",
+      "title": "Publicaciones | Valtech",
+      "templateId": "es-es-blog",
+      "representative": "es-es-blog",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:51413e3a61f1e70bf86c8402ea113bd1c3d86bd863031bff049541fa4b1b8c0e",
+        "currentStatePath": "stardust/current/pages/es-es-whitepapers.json",
+        "sourceUrl": "https://www.valtech.com/es-es/whitepapers/"
+      },
+      "blocks": [
+        "insight-header",
+        "insights-filter"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/whitepapers",
+        "deployedAt": "2026-11-13T19:03:27.000Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.17,
+          "heightDelta": -4,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-whitepapers-el-ciclo-de-relevancia-de-las-marcas",
+      "path": "/es-es/whitepapers/el-ciclo-de-relevancia-de-las-marcas",
+      "title": "El ciclo de relevancia de las marcas | Valtech",
+      "templateId": "valtech-conversion-engine",
+      "representative": "valtech-conversion-engine",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:3be5394f0527c8c6e86ad5e878a84d628f5b6e063c23635d51e433ec800c2f52",
+        "currentStatePath": "stardust/current/pages/es-es-whitepapers-el-ciclo-de-relevancia-de-las-marcas.json",
+        "sourceUrl": "https://www.valtech.com/es-es/whitepapers/el-ciclo-de-relevancia-de-las-marcas/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta",
+        "features-showcase",
+        "highlighted-cta-block",
+        "faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/whitepapers/el-ciclo-de-relevancia-de-las-marcas",
+        "deployedAt": "2026-11-13T20:04:57.874Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.61,
+          "heightDelta": -15,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-whitepapers-el-giro-hacia-la-ia",
+      "path": "/es-es/whitepapers/el-giro-hacia-la-ia",
+      "title": "Cómo construir una empresa inteligente | Valtech",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "representative": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:a7ae2e93f7f92424980df32c37df4e6de908814040bcc56c3fe8109b787b2e09",
+        "currentStatePath": "stardust/current/pages/es-es-whitepapers-el-giro-hacia-la-ia.json",
+        "sourceUrl": "https://www.valtech.com/es-es/whitepapers/el-giro-hacia-la-ia/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/whitepapers/el-giro-hacia-la-ia",
+        "deployedAt": "2026-11-13T19:37:17.830Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.92,
+          "heightDelta": -44,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-whitepapers-experiencias-inteligentes",
+      "path": "/es-es/whitepapers/experiencias-inteligentes",
+      "title": "Experiencias inteligentes: cómo la IA transforma los viajes | Valtech",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "representative": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:27fff6875c448c6bbfd3140e078df5d22f3e89beac4ca96512ae1ef9d04d3cb1",
+        "currentStatePath": "stardust/current/pages/es-es-whitepapers-experiencias-inteligentes.json",
+        "sourceUrl": "https://www.valtech.com/es-es/whitepapers/experiencias-inteligentes/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/whitepapers/experiencias-inteligentes",
+        "deployedAt": "2026-11-13T19:37:18.092Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.55,
+          "heightDelta": -64,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 7,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-whitepapers-fidelizacion-digital-sector-sanitario",
+      "path": "/es-es/whitepapers/fidelizacion-digital-sector-sanitario",
+      "title": "Fidelización digital en el sector sanitario | Valtech",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "representative": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:4cabca3119e23a20f210fc5a598cde0a965ea0934f8cb9def4a34d48b567b5e6",
+        "currentStatePath": "stardust/current/pages/es-es-whitepapers-fidelizacion-digital-sector-sanitario.json",
+        "sourceUrl": "https://www.valtech.com/es-es/whitepapers/fidelizacion-digital-sector-sanitario/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/whitepapers/fidelizacion-digital-sector-sanitario",
+        "deployedAt": "2026-11-13T19:37:18.380Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.01,
+          "heightDelta": -64,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-whitepapers-guia-estrategica-salud-digital-optimizely-2026",
+      "path": "/es-es/whitepapers/guia-estrategica-salud-digital-optimizely-2026",
+      "title": "Guía estratégica para el sector sanitario | Valtech",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "representative": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:22644ab67d96434d51ab40e88769e404d09c8812c0287e5faa5599f8fc0599db",
+        "currentStatePath": "stardust/current/pages/es-es-whitepapers-guia-estrategica-salud-digital-optimizely-2026.json",
+        "sourceUrl": "https://www.valtech.com/es-es/whitepapers/guia-estrategica-salud-digital-optimizely-2026/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/whitepapers/guia-estrategica-salud-digital-optimizely-2026",
+        "deployedAt": "2026-11-13T19:37:18.604Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.78,
+          "heightDelta": -43,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-whitepapers-infome-la-era-del-comercio-conversacional-2026",
+      "path": "/es-es/whitepapers/infome-la-era-del-comercio-conversacional-2026",
+      "title": "Informe La Era del Comercio Conversacional 2026 | Valtech",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "representative": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:e64ab4aa4d6f6b924fdfcdc16e9aa8ee102d0816da114724a5c15375bee12334",
+        "currentStatePath": "stardust/current/pages/es-es-whitepapers-infome-la-era-del-comercio-conversacional-2026.json",
+        "sourceUrl": "https://www.valtech.com/es-es/whitepapers/infome-la-era-del-comercio-conversacional-2026/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/whitepapers/infome-la-era-del-comercio-conversacional-2026",
+        "deployedAt": "2026-11-13T19:37:18.818Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.76,
+          "heightDelta": 4,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-whitepapers-informe-tendencias-cliente-movilidad-2026",
+      "path": "/es-es/whitepapers/informe-tendencias-cliente-movilidad-2026",
+      "title": "La odisea del cliente: tendencias de movilidad de Valtech | Valtech",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "representative": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:9c291beaa63233c154a55954dff2134490d5c3b7c7ce4956a24e7be4def77b75",
+        "currentStatePath": "stardust/current/pages/es-es-whitepapers-informe-tendencias-cliente-movilidad-2026.json",
+        "sourceUrl": "https://www.valtech.com/es-es/whitepapers/informe-tendencias-cliente-movilidad-2026/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/whitepapers/informe-tendencias-cliente-movilidad-2026",
+        "deployedAt": "2026-11-13T19:37:19.125Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.14,
+          "heightDelta": -64,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-whitepapers-la-era-agentica-tendencias-de-la-ia-empresarial-2026",
+      "path": "/es-es/whitepapers/la-era-agentica-tendencias-de-la-ia-empresarial-2026",
+      "title": "La Era Agéntica: Tendencias de la IA Empresarial 2026. | Valtech",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "representative": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:3120ea7786814536f5a70ef87119fd243c37889a76e6e787bcf67e37b0acb8aa",
+        "currentStatePath": "stardust/current/pages/es-es-whitepapers-la-era-agentica-tendencias-de-la-ia-empresarial-2026.json",
+        "sourceUrl": "https://www.valtech.com/es-es/whitepapers/la-era-agentica-tendencias-de-la-ia-empresarial-2026/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/whitepapers/la-era-agentica-tendencias-de-la-ia-empresarial-2026",
+        "deployedAt": "2026-11-13T19:37:19.378Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.85,
+          "heightDelta": -64,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-whitepapers-la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software",
+      "path": "/es-es/whitepapers/la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software",
+      "title": "La IA en el ciclo de vida del desarrollo de software | Valtech",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "representative": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:abf39c94aaad4b887bd285bcbae1555a885e40467aed7c13c8fc4bcfa6186ef4",
+        "currentStatePath": "stardust/current/pages/es-es-whitepapers-la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software.json",
+        "sourceUrl": "https://www.valtech.com/es-es/whitepapers/la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/whitepapers/la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software",
+        "deployedAt": "2026-11-13T19:37:19.590Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.23,
+          "heightDelta": -64,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-whitepapers-la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026",
+      "path": "/es-es/whitepapers/la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026",
+      "title": "La Voz de Líderes Digitales de la Industria Manufacturera | Valtech",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "representative": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:cdbf66adebb939407bdc9eaf1393793f68330dba93c0757ff96e8857b6209142",
+        "currentStatePath": "stardust/current/pages/es-es-whitepapers-la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026.json",
+        "sourceUrl": "https://www.valtech.com/es-es/whitepapers/la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/whitepapers/la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026",
+        "deployedAt": "2026-11-13T19:37:19.821Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.89,
+          "heightDelta": -43,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 8,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2025",
+      "path": "/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2025",
+      "title": "La Voz de los Innovadores en Experiencia: Movilidad 2025 | Valtech",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "representative": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:01a211e6eb70766e1a22c1e2e1cba56c59a08eca34753eb134681fda35f0be14",
+        "currentStatePath": "stardust/current/pages/es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2025.json",
+        "sourceUrl": "https://www.valtech.com/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2025/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2025",
+        "deployedAt": "2026-11-13T19:37:20.021Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.71,
+          "heightDelta": -64,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "path": "/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "title": "La voz de los innovadores en experiencia: movilidad 2026 | Valtech",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "source": {
+        "migratedHtml": "stardust/migrated/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2026/index.html",
+        "metaJson": "stardust/migrated/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2026/_meta.json",
+        "sourceHash": "sha256:463563449f8a6516de516b2441eefbce3b540b394704be3ee90077d669cce111",
+        "sourceUrl": "https://www.valtech.com/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2026/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+        "deployedAt": "2026-11-13T19:03:46.569Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.89,
+          "heightDelta": 4,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-whitepapers-retail-en-la-encrucijada-2026",
+      "path": "/es-es/whitepapers/retail-en-la-encrucijada-2026",
+      "title": "Descarga el informe Retail 2026 | Valtech",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "representative": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:8a073a8e6ec753aed5abcba9021582a2cea6c372c80df3275a1096aa62301c80",
+        "currentStatePath": "stardust/current/pages/es-es-whitepapers-retail-en-la-encrucijada-2026.json",
+        "sourceUrl": "https://www.valtech.com/es-es/whitepapers/retail-en-la-encrucijada-2026/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/whitepapers/retail-en-la-encrucijada-2026",
+        "deployedAt": "2026-11-13T19:37:20.324Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.6,
+          "heightDelta": 4,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "es-es-whitepapers-transformar-los-servicios-financieros-la-inteligencia-a-gran-escala",
+      "path": "/es-es/whitepapers/transformar-los-servicios-financieros-la-inteligencia-a-gran-escala",
+      "title": "Transformar los servicios financieros | Valtech",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "representative": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:fdd5893b93586c36f6f67b4ec40465e8068618dddc7ad3700263deb99976ac7a",
+        "currentStatePath": "stardust/current/pages/es-es-whitepapers-transformar-los-servicios-financieros-la-inteligencia-a-gran-escala.json",
+        "sourceUrl": "https://www.valtech.com/es-es/whitepapers/transformar-los-servicios-financieros-la-inteligencia-a-gran-escala/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/whitepapers/transformar-los-servicios-financieros-la-inteligencia-a-gran-escala",
+        "deployedAt": "2026-11-13T19:37:20.465Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.3,
+          "heightDelta": -64,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "experience-innovation",
+      "path": "/experience-innovation",
+      "title": "Your bold next step | Valtech | Valtech",
+      "templateId": "digital-media-performance-marketing",
+      "representative": "digital-media-performance-marketing",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:4a8c9968514badec1e51862ea47ad3ab5cbcd63b2a1649c7422cced25427656e",
+        "currentStatePath": "stardust/current/pages/experience-innovation.json",
+        "sourceUrl": "https://www.valtech.com/experience-innovation/"
+      },
+      "blocks": [
+        "masthead-services"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/experience-innovation",
+        "deployedAt": "2026-11-14T00:25:20.225Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.6,
+          "heightDelta": -5,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "experience-innovation-on-azure",
+      "path": "/experience-innovation-on-azure",
+      "title": "Experience innovation on Azure | Valtech",
+      "templateId": "digital-media-performance-marketing",
+      "representative": "digital-media-performance-marketing",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:cae06c63eec6790518e44971120793d23230218809a990ace97b78bb6c391824",
+        "currentStatePath": "stardust/current/pages/experience-innovation-on-azure.json",
+        "sourceUrl": "https://www.valtech.com/experience-innovation-on-azure/"
+      },
+      "blocks": [
+        "masthead-services"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/experience-innovation-on-azure",
+        "deployedAt": "2026-11-14T00:25:20.810Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.77,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "experience-innovation3",
+      "path": "/experience-innovation3",
+      "title": "Unlock business growth with data & AI consulting | Valtech",
+      "templateId": "valtech-conversion-engine",
+      "representative": "valtech-conversion-engine",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:46f88585f626642f6a4364f7abeacb7dae4d7b5cd7c7f5e1dbf0e400ee51ef5f",
+        "currentStatePath": "stardust/current/pages/experience-innovation3.json",
+        "sourceUrl": "https://www.valtech.com/experience-innovation3/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta",
+        "features-showcase",
+        "highlighted-cta-block",
+        "faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/experience-innovation3",
+        "deployedAt": "2026-11-13T20:04:58.131Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.99,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 28,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "fabric-real-time-intelligence",
+      "path": "/fabric-real-time-intelligence",
+      "title": "Real-time intelligence with Microsoft Fabric | Valtech",
+      "templateId": "es-es-aviso-legal",
+      "representative": "es-es-aviso-legal",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:be6154fa32ffaeb1b70f78a4aefb344d4f64522d4f52112121e5037c55c8dada",
+        "currentStatePath": "stardust/current/pages/fabric-real-time-intelligence.json",
+        "sourceUrl": "https://www.valtech.com/fabric-real-time-intelligence/"
+      },
+      "blocks": [
+        "masthead-big-title"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/fabric-real-time-intelligence",
+        "deployedAt": "2026-11-13T17:41:19.936Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.37,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "gear-accelerator",
+      "path": "/gear-accelerator",
+      "title": "GEAR customer portal accelerator | Valtech",
+      "templateId": "ai-searchandizing-workshop",
+      "representative": "ai-searchandizing-workshop",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:09115876a0a2592d1bb064d3903c01c3943cd8e4173d1e42739db09968a78e76",
+        "currentStatePath": "stardust/current/pages/gear-accelerator.json",
+        "sourceUrl": "https://www.valtech.com/gear-accelerator/"
+      },
+      "blocks": [
+        "masthead-primary"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.live/gear-accelerator",
+        "deployedAt": "2026-11-14T08:50:11.769Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.16,
+          "heightDelta": 10,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "geo-quick-start",
+      "path": "/geo-quick-start",
+      "title": "Generative Engine Optimization QuickStart | Valtech & Adobe | Valtech",
+      "templateId": "valtech-conversion-engine",
+      "representative": "valtech-conversion-engine",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:8e4ff051cd58ba4894feb1c846650aa1a4bfcbcc9584fb05adebc92d49373a7e",
+        "currentStatePath": "stardust/current/pages/geo-quick-start.json",
+        "sourceUrl": "https://www.valtech.com/geo-quick-start/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta",
+        "features-showcase",
+        "highlighted-cta-block",
+        "faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/geo-quick-start",
+        "deployedAt": "2026-11-13T20:04:58.585Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.56,
+          "heightDelta": 4,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "health-digital-leadership-roundtables",
+      "path": "/health-digital-leadership-roundtables",
+      "title": "Digital Leadership Accelerator | Valtech",
+      "templateId": "ai-searchandizing-workshop",
+      "representative": "ai-searchandizing-workshop",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:edc0ef104132caba4259eb8f9ea696e6cc4ec74d8320155634a5c5998754eb2a",
+        "currentStatePath": "stardust/current/pages/health-digital-leadership-roundtables.json",
+        "sourceUrl": "https://www.valtech.com/health-digital-leadership-roundtables/"
+      },
+      "blocks": [
+        "masthead-primary"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.live/health-digital-leadership-roundtables",
+        "deployedAt": "2026-11-14T08:50:11.872Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.81,
+          "heightDelta": 144,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "The experience innovation company",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:e8779687a0778c0dcbc35e0973716a212b7b32984944478aae333b5bb88ccc05",
+        "sourceUrl": "https://www.valtech.com/"
+      },
+      "blocks": [
+        "hero-block",
+        "quote-block",
+        "homepage-cta-block",
+        "featured-verticals-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/",
+        "deployedAt": "2026-11-13T17:41:16.075Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.92,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": [
+              ".hero-block__content=.hero-block-content"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-14T08-45-45-415Z-ai-searchandizing-workshop.json",
+          "at": "2026-11-14T08:52:02.627Z"
+        }
+      }
+    },
+    {
+      "slug": "innovation-marathon-2027",
+      "path": "/innovation-marathon-2027",
+      "title": "Innovation Marathon 2027 | AI Co-Creation Program | Valtech",
+      "templateId": "ai-searchandizing-workshop",
+      "representative": "ai-searchandizing-workshop",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:f392f7d64cad7901185a3f098b4e97b6d57097ad11179375ce0eea3986ae6db5",
+        "currentStatePath": "stardust/current/pages/innovation-marathon-2027.json",
+        "sourceUrl": "https://www.valtech.com/innovation-marathon-2027/"
+      },
+      "blocks": [
+        "masthead-primary"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.live/innovation-marathon-2027",
+        "deployedAt": "2026-11-14T08:50:11.964Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.08,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "intelligent-journeys",
+      "path": "/intelligent-journeys",
+      "title": "Intelligent Journeys | Valtech",
+      "templateId": "ai-searchandizing-workshop",
+      "representative": "ai-searchandizing-workshop",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:c6f843c4b6961f5411c4e313735aa006d0b9411378d97fdb2453d6284e66c6f8",
+        "currentStatePath": "stardust/current/pages/intelligent-journeys.json",
+        "sourceUrl": "https://www.valtech.com/intelligent-journeys/"
+      },
+      "blocks": [
+        "masthead-primary"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.live/intelligent-journeys",
+        "deployedAt": "2026-11-14T08:50:12.061Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.04,
+          "heightDelta": 4,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "is-your-adobe-investment-delivering",
+      "path": "/is-your-adobe-investment-delivering",
+      "title": "Content at scale: Is your Adobe investment delivering? | Valtech",
+      "templateId": "valtech-conversion-engine",
+      "representative": "valtech-conversion-engine",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:6923c70937d7dd3363c2103da7a16d45271a0f4268b7ae884ca8f9c25eb1090d",
+        "currentStatePath": "stardust/current/pages/is-your-adobe-investment-delivering.json",
+        "sourceUrl": "https://www.valtech.com/is-your-adobe-investment-delivering/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta",
+        "features-showcase",
+        "highlighted-cta-block",
+        "faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/is-your-adobe-investment-delivering",
+        "deployedAt": "2026-11-13T20:04:58.905Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.29,
+          "heightDelta": 4,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "lead-scoring",
+      "path": "/lead-scoring",
+      "title": "Lead scoring: When to engage a new lead | Valtech",
+      "templateId": "digital-media-performance-marketing",
+      "representative": "digital-media-performance-marketing",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:357ec7faf6471dca36183acf46bc12f6cf8a6e59597faa100231c7e97c49b2b9",
+        "currentStatePath": "stardust/current/pages/lead-scoring.json",
+        "sourceUrl": "https://www.valtech.com/lead-scoring/"
+      },
+      "blocks": [
+        "masthead-services"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/lead-scoring",
+        "deployedAt": "2026-11-14T00:25:21.442Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.28,
+          "heightDelta": 0,
+          "clipped": null,
+          "content": null,
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "leap-into-composable-commerce",
+      "path": "/leap-into-composable-commerce",
+      "title": "LEAP into composable commerce | Valtech",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "representative": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:f940d63730c29fa5901fe9b1bbf828ee6ee911feb1391e8b0556a2d9a0eb4184",
+        "currentStatePath": "stardust/current/pages/leap-into-composable-commerce.json",
+        "sourceUrl": "https://www.valtech.com/leap-into-composable-commerce/"
+      },
+      "blocks": [
+        "masthead-blurred",
+        "features-showcase",
+        "highlighted-cta-block",
+        "expandable-faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/leap-into-composable-commerce",
+        "deployedAt": "2026-11-13T20:09:04.211Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.61,
+          "heightDelta": 29,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "meet-the-expert-vera-schnitzlein",
+      "path": "/meet-the-expert-vera-schnitzlein",
+      "title": "Meet the Expert: Vera Schnitzlein on Industrial Innovation | Valtech",
+      "templateId": "digital-media-performance-marketing",
+      "representative": "digital-media-performance-marketing",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:9e929c5e9797ec511174c2256b983adef153290a96d510bf33d691b23413a7a7",
+        "currentStatePath": "stardust/current/pages/meet-the-expert-vera-schnitzlein.json",
+        "sourceUrl": "https://www.valtech.com/meet-the-expert-vera-schnitzlein/"
+      },
+      "blocks": [
+        "masthead-services"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/meet-the-expert-vera-schnitzlein",
+        "deployedAt": "2026-11-14T00:25:22.046Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.02,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "next2025-highlights",
+      "path": "/next2025-highlights",
+      "title": "Best moments from Google Cloud Next 2025 | Valtech",
+      "templateId": "digital-media-performance-marketing",
+      "representative": "digital-media-performance-marketing",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:f087d429a759e9c0f9cbd471f7c54ec42cd759c6e76735a24ebf30274e754aae",
+        "currentStatePath": "stardust/current/pages/next2025-highlights.json",
+        "sourceUrl": "https://www.valtech.com/next2025-highlights/"
+      },
+      "blocks": [
+        "masthead-services"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/next2025-highlights",
+        "deployedAt": "2026-11-14T00:25:22.699Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.06,
+          "heightDelta": 0,
+          "clipped": null,
+          "content": null,
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "retail-at-the-crossroads-2026",
+      "path": "/retail-at-the-crossroads-2026",
+      "title": "Dive deeper into Valtech’s 2026 Retail report | Valtech",
+      "templateId": "valtech-conversion-engine",
+      "representative": "valtech-conversion-engine",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:583a613264910f01fd9d8697b0cf94ec9f636c07b2f787041a559ab626d5fc58",
+        "currentStatePath": "stardust/current/pages/retail-at-the-crossroads-2026.json",
+        "sourceUrl": "https://www.valtech.com/retail-at-the-crossroads-2026/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta",
+        "features-showcase",
+        "highlighted-cta-block",
+        "faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/retail-at-the-crossroads-2026",
+        "deployedAt": "2026-11-13T20:04:59.231Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.83,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "retail-maturity-assessment",
+      "path": "/retail-maturity-assessment",
+      "title": "Retail Maturity Assessment | Valtech Research 2026 | Valtech",
+      "templateId": "ai-searchandizing-workshop",
+      "representative": "ai-searchandizing-workshop",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:0ce92ec0f6715ba06a7426538e9d3e794c3b0ac6cb3027c54bea3738ec80f654",
+        "currentStatePath": "stardust/current/pages/retail-maturity-assessment.json",
+        "sourceUrl": "https://www.valtech.com/retail-maturity-assessment/"
+      },
+      "blocks": [
+        "masthead-primary"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.live/retail-maturity-assessment",
+        "deployedAt": "2026-11-14T08:50:12.154Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.69,
+          "heightDelta": 5,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "the-intelligent-enterprise",
+      "path": "/the-intelligent-enterprise",
+      "title": "Orchestrate AI into enterprise advantage | Valtech",
+      "templateId": "es-es-la-empresa-inteligente-operar",
+      "representative": "es-es-la-empresa-inteligente-operar",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:cad038cf276fd0773f47d0df0f06b1fd851da1bc879de2929a7deff309ba2063",
+        "currentStatePath": "stardust/current/pages/the-intelligent-enterprise.json",
+        "sourceUrl": "https://www.valtech.com/the-intelligent-enterprise/"
+      },
+      "blocks": [
+        "hero-block",
+        "features-showcase",
+        "related-cases",
+        "featured-verticals-block",
+        "registration-form"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/the-intelligent-enterprise",
+        "deployedAt": "2026-11-13T22:33:27.322Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.71,
+          "heightDelta": -7,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-14T08-45-45-415Z-ai-searchandizing-workshop.json",
+          "at": "2026-11-14T08:52:02.627Z"
+        }
+      }
+    },
+    {
+      "slug": "valtech-agentic-commerce-catalyst",
+      "path": "/valtech-agentic-commerce-catalyst",
+      "title": "Valtech Agentic Commerce Catalyst | Valtech",
+      "templateId": "valtech-conversion-engine",
+      "representative": "valtech-conversion-engine",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:010312fdba10f3aaa9b2c1ec5fb48d11bbaad6802470f0a15a0715c0c4bf0be4",
+        "currentStatePath": "stardust/current/pages/valtech-agentic-commerce-catalyst.json",
+        "sourceUrl": "https://www.valtech.com/valtech-agentic-commerce-catalyst/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta",
+        "features-showcase",
+        "highlighted-cta-block",
+        "faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/valtech-agentic-commerce-catalyst",
+        "deployedAt": "2026-11-13T20:04:59.665Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.43,
+          "heightDelta": -5,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 13,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "valtech-and-salesforce",
+      "path": "/valtech-and-salesforce",
+      "title": "Business Transformation for Airlines | Valtech",
+      "templateId": "digital-media-performance-marketing",
+      "representative": "digital-media-performance-marketing",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:b376f46b5d01f737de9a3bcf2ba61e7c59282c3f7ec193da80b0c7f2d66bb90a",
+        "currentStatePath": "stardust/current/pages/valtech-and-salesforce.json",
+        "sourceUrl": "https://www.valtech.com/valtech-and-salesforce/"
+      },
+      "blocks": [
+        "masthead-services"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/valtech-and-salesforce",
+        "deployedAt": "2026-11-14T00:25:23.514Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.38,
+          "heightDelta": -3,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "valtech-conversion-engine",
+      "path": "/valtech-conversion-engine",
+      "title": "Turn Customer Intent Into Measurable Growth | Valtech",
+      "templateId": "valtech-conversion-engine",
+      "source": {
+        "migratedHtml": "stardust/migrated/valtech-conversion-engine/index.html",
+        "metaJson": "stardust/migrated/valtech-conversion-engine/_meta.json",
+        "sourceHash": "sha256:12253a15e51f2604d914efed2aca4f78d785e0db62062dda9b95c74327a357f2",
+        "sourceUrl": "https://www.valtech.com/valtech-conversion-engine/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta",
+        "features-showcase",
+        "highlighted-cta-block",
+        "faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/valtech-conversion-engine",
+        "deployedAt": "2026-11-13T19:04:55.677Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.22,
+          "heightDelta": -3,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 11,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-14T08-45-45-415Z-ai-searchandizing-workshop.json",
+          "at": "2026-11-14T08:52:02.627Z"
+        }
+      }
+    },
+    {
+      "slug": "valtech-enterprise-ai-foundations",
+      "path": "/valtech-enterprise-ai-foundations",
+      "title": "Valtech Enterprise AI Foundations | Valtech",
+      "templateId": "valtech-conversion-engine",
+      "representative": "valtech-conversion-engine",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:9184833fa028d9d63bf6a6afc7b38ff792ba482767e9277de23e6f744728ac7c",
+        "currentStatePath": "stardust/current/pages/valtech-enterprise-ai-foundations.json",
+        "sourceUrl": "https://www.valtech.com/valtech-enterprise-ai-foundations/"
+      },
+      "blocks": [
+        "masthead-two-columns-cta",
+        "features-showcase",
+        "highlighted-cta-block",
+        "faq-block"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/valtech-enterprise-ai-foundations",
+        "deployedAt": "2026-11-13T20:05:00.072Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.19,
+          "heightDelta": -5,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 11,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T08:52:02.524Z"
+        }
+      }
+    },
+    {
+      "slug": "valtech-ukraine-in-media",
+      "path": "/valtech-ukraine-in-media",
+      "title": "Valtech Ukraine in media | Valtech",
+      "templateId": "digital-media-performance-marketing",
+      "representative": "digital-media-performance-marketing",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:af29e4fd18c2a78916128a9c06efe628befabc7246c9266f6e2bbe8e6b5e6f5f",
+        "currentStatePath": "stardust/current/pages/valtech-ukraine-in-media.json",
+        "sourceUrl": "https://www.valtech.com/valtech-ukraine-in-media/"
+      },
+      "blocks": [
+        "masthead-services"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c87ac39f--aemcoder.aem.page/valtech-ukraine-in-media",
+        "deployedAt": "2026-11-14T00:25:24.265Z",
+        "verifiedAt": "2026-11-14T09:12:17.832Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.28,
+          "heightDelta": 4,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/runs/2026-11-14T08-45-45-415Z-ai-searchandizing-workshop.json",
+          "at": "2026-11-14T08:52:02.627Z"
+        }
+      }
+    }
+  ]
+}

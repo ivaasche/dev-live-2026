@@ -1,0 +1,31 @@
+[live-session] waiting to pace live navigations to www.valtech.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 807 ms
+
+Content diff @ 360px (profile "generic", roots: main.site-content, header, footer)
+root "main.site-content"
+  source: 417 text nodes — 39 headings, 0 eyebrows, 7 CTAs, 371 body; 11 img
+  build: 417 text nodes — 39 headings, 0 eyebrows, 7 CTAs, 371 body; 11 img
+  editable texts (outermost h*/p/ul/ol): source 45 / build 45
+  attributes (placeholder/aria-label/title): source 16 / build 8; icons: source 49 / build 47
+root "header"
+  source: 1 text nodes — 1 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 1 text nodes — 1 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root "footer"
+  source: 11 text nodes — 0 headings, 0 eyebrows, 10 CTAs, 1 body; 2 img
+  build: 11 text nodes — 0 headings, 0 eyebrows, 10 CTAs, 1 body; 2 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 2
+  attributes (placeholder/aria-label/title): source 7 / build 7; icons: source 8 / build 8
+
+Findings: 10 (2 structural 🔴)
+Tiers: looks-same 🔴 2 · nothing-lost 🟡 8 · accepted 🟢 0 (owner 0, auto 0) · advisory 0
+  🔴 MISSING ICON [main.site-content]: source inline svg 0 0 100 100 / 1 shape(s) (0×0) at "previous" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [main.site-content]: source inline svg 0 0 100 100 / 1 shape(s) (0×0) at "next" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ARIA-LABEL [main.site-content]: source <button> aria-label="Previous" has no build <button> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main.site-content]: source <button> aria-label="Next" has no build <button> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main.site-content]: source <li> aria-label="Slide 1" has no build <li> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main.site-content]: source <li> aria-label="Slide 2" has no build <li> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main.site-content]: source <li> aria-label="Slide 3" has no build <li> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main.site-content]: source <li> aria-label="Slide 4" has no build <li> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main.site-content]: source <button> aria-label="Previous" has no build <button> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main.site-content]: source <button> aria-label="Next" has no build <button> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.

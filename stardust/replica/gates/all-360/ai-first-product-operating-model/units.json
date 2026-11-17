@@ -1,0 +1,2260 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-13T20:28:00.852Z",
+  "tol": 4,
+  "n": 6,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/ai-first-product-operating-model/",
+  "at": "2026-11-13T20:27:30.964Z",
+  "docH": 10839
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/ai-first-product-operating-model",
+  "at": "2026-11-13T20:28:00.468Z",
+  "docH": 10641
+ },
+ "results": [
+  {
+   "sel": ".features-showcase__item=.features-showcase-item",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase-body > ul.features-showcase-list > li.features-showcase-item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 46,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 46,
+        "h": 48,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:clear visibility on where ai value is de",
+       "role": "heading",
+       "text": "clear visibility on where ai value is delayed",
+       "edsText": "clear visibility on where ai value is delayed",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58,
+        "sel": "h3#clear-visibility-on-where-ai-value-is-delayed",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/300",
+        "eds": "24/29/300"
+       }
+      },
+      {
+       "key": "text:identify the discovery, prioritization, ",
+       "role": "text",
+       "text": "identify the discovery, prioritization, handoff and governan",
+       "edsText": "identify the discovery, prioritization, handoff and governan",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 96
+       },
+       "eds": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 96,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 69,
+       "y": 2618,
+       "w": 275,
+       "h": 226
+      },
+      "eds": {
+       "x": 69,
+       "y": 2465,
+       "w": 275,
+       "h": 226
+      },
+      "dx": 0,
+      "dy": -153,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase-body > ul.features-showcase-list > li.features-showcase-item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 48,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:a prioritized operating model roadmap",
+       "role": "heading",
+       "text": "a prioritized operating model roadmap",
+       "edsText": "a prioritized operating model roadmap",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58,
+        "sel": "h3#a-prioritized-operating-model-roadmap",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/300",
+        "eds": "24/29/300"
+       }
+      },
+      {
+       "key": "text:a sequenced plan focused on high-impact ",
+       "role": "text",
+       "text": "a sequenced plan focused on high-impact changes to team stru",
+       "edsText": "a sequenced plan focused on high-impact changes to team stru",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 120
+       },
+       "eds": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 120,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 69,
+       "y": 2881,
+       "w": 275,
+       "h": 250
+      },
+      "eds": {
+       "x": 69,
+       "y": 2727,
+       "w": 275,
+       "h": 250
+      },
+      "dx": 0,
+      "dy": -154,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase-body > ul.features-showcase-list > li.features-showcase-item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:a realistic view of your readiness",
+       "role": "heading",
+       "text": "a realistic view of your readiness",
+       "edsText": "a realistic view of your readiness",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58,
+        "sel": "h3#a-realistic-view-of-your-readiness",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/300",
+        "eds": "24/29/300"
+       }
+      },
+      {
+       "key": "text:clarity on your operating model, roles, ",
+       "role": "text",
+       "text": "clarity on your operating model, roles, tooling and governan",
+       "edsText": "clarity on your operating model, roles, tooling and governan",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 72
+       },
+       "eds": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 72,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 69,
+       "y": 3167,
+       "w": 275,
+       "h": 202
+      },
+      "eds": {
+       "x": 69,
+       "y": 3014,
+       "w": 275,
+       "h": 202
+      },
+      "dx": 0,
+      "dy": -153,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase-body > ul.features-showcase-list > li.features-showcase-item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 50,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 50,
+        "h": 48,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:a clear path from thin-slice proof to en",
+       "role": "heading",
+       "text": "a clear path from thin-slice proof to enterprise scale",
+       "edsText": "a clear path from thin-slice proof to enterprise scale",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 86
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 86,
+        "sel": "h3#a-clear-path-from-thin-slice-proof-to-enterprise-scale",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/300",
+        "eds": "24/29/300"
+       }
+      },
+      {
+       "key": "text:a structured approach to turn one bounde",
+       "role": "text",
+       "text": "a structured approach to turn one bounded, provable outcome ",
+       "edsText": "a structured approach to turn one bounded, provable outcome ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 158,
+        "w": 275,
+        "h": 72
+       },
+       "eds": {
+        "x": 0,
+        "y": 158,
+        "w": 275,
+        "h": 72,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 69,
+       "y": 3406,
+       "w": 275,
+       "h": 230
+      },
+      "eds": {
+       "x": 69,
+       "y": 3253,
+       "w": 275,
+       "h": 230
+      },
+      "dx": 0,
+      "dy": -153,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".two-columns__item__text=.two-columns-item-text",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+     },
+     "eds": {
+      "path": "div.two-columns-item > div.two-columns-item-column > div.two-columns-item-text"
+     },
+     "rows": [
+      {
+       "key": "text:we focus on the moments where ai speed m",
+       "role": "text",
+       "text": "we focus on the moments where ai speed must convert into org",
+       "edsText": "we focus on the moments where ai speed must convert into org",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 67
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 67,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:shifting control points from handoffs an",
+       "role": "text",
+       "text": "shifting control points from handoffs and late-stage qa to c",
+       "edsText": "shifting control points from handoffs and late-stage qa to c",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 91,
+        "w": 272,
+        "h": 63
+       },
+       "eds": {
+        "x": 40,
+        "y": 91,
+        "w": 272,
+        "h": 63,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:redesigning how product, engineering, de",
+       "role": "text",
+       "text": "redesigning how product, engineering, design, data and gover",
+       "edsText": "redesigning how product, engineering, design, data and gover",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 154,
+        "w": 272,
+        "h": 63
+       },
+       "eds": {
+        "x": 40,
+        "y": 154,
+        "w": 272,
+        "h": 63,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:embedding human judgment, standards and ",
+       "role": "text",
+       "text": "embedding human judgment, standards and decision rights into",
+       "edsText": "embedding human judgment, standards and decision rights into",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 217,
+        "w": 272,
+        "h": 63
+       },
+       "eds": {
+        "x": 40,
+        "y": 217,
+        "w": 272,
+        "h": 63,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:scaling high-value operating model chang",
+       "role": "text",
+       "text": "scaling high-value operating model changes across the enterp",
+       "edsText": "scaling high-value operating model changes across the enterp",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 280,
+        "w": 272,
+        "h": 42
+       },
+       "eds": {
+        "x": 40,
+        "y": 280,
+        "w": 272,
+        "h": 42,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:aligning ai speed to the customer outcom",
+       "role": "text",
+       "text": "aligning ai speed to the customer outcomes and business valu",
+       "edsText": "aligning ai speed to the customer outcomes and business valu",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 322,
+        "w": 272,
+        "h": 63
+       },
+       "eds": {
+        "x": 40,
+        "y": 322,
+        "w": 272,
+        "h": 63,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 4844,
+       "w": 312,
+       "h": 385
+      },
+      "eds": {
+       "x": 24,
+       "y": 4642,
+       "w": 312,
+       "h": 385
+      },
+      "dx": 0,
+      "dy": -202,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+     },
+     "eds": {
+      "path": "div.two-columns-item > div.two-columns-item-column > div.two-columns-item-text"
+     },
+     "rows": [
+      {
+       "key": "text:the ai-first product organization follow",
+       "role": "text",
+       "text": "the ai-first product organization follows a structured path ",
+       "edsText": "the ai-first product organization follows a structured path ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 67
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 67,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:start with a half-day workshop to identi",
+       "role": "text",
+       "text": "start with a half-day workshop to identify a meaningful, bou",
+       "edsText": "start with a half-day workshop to identify a meaningful, bou",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 91,
+        "w": 272,
+        "h": 63
+       },
+       "eds": {
+        "x": 40,
+        "y": 91,
+        "w": 272,
+        "h": 63,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:map the ai-enabled software development ",
+       "role": "text",
+       "text": "map the ai-enabled software development lifecycle (ai sdlc) ",
+       "edsText": "map the ai-enabled software development lifecycle (ai sdlc) ",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 154,
+        "w": 272,
+        "h": 84
+       },
+       "eds": {
+        "x": 40,
+        "y": 154,
+        "w": 272,
+        "h": 84,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:deploy a thin-slice ai-native team to de",
+       "role": "text",
+       "text": "deploy a thin-slice ai-native team to deliver one bounded ou",
+       "edsText": "deploy a thin-slice ai-native team to deliver one bounded ou",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 238,
+        "w": 272,
+        "h": 63
+       },
+       "eds": {
+        "x": 40,
+        "y": 238,
+        "w": 272,
+        "h": 63,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:use the proof to redesign roles, decisio",
+       "role": "text",
+       "text": "use the proof to redesign roles, decision rights and governa",
+       "edsText": "use the proof to redesign roles, decision rights and governa",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 301,
+        "w": 272,
+        "h": 63
+       },
+       "eds": {
+        "x": 40,
+        "y": 301,
+        "w": 272,
+        "h": 63,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:apply the model vertically across one va",
+       "role": "text",
+       "text": "apply the model vertically across one value stream and horiz",
+       "edsText": "apply the model vertically across one value stream and horiz",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 364,
+        "w": 272,
+        "h": 63
+       },
+       "eds": {
+        "x": 40,
+        "y": 364,
+        "w": 272,
+        "h": 63,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 5548,
+       "w": 312,
+       "h": 427
+      },
+      "eds": {
+       "x": 24,
+       "y": 5348,
+       "w": 312,
+       "h": 427
+      },
+      "dx": 0,
+      "dy": -200,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+     },
+     "eds": {
+      "path": "div.two-columns-item > div.two-columns-item-column > div.two-columns-item-text"
+     },
+     "rows": [
+      {
+       "key": "text:most ai investments fail to scale becaus",
+       "role": "text",
+       "text": "most ai investments fail to scale because they focus on tool",
+       "edsText": "most ai investments fail to scale because they focus on tool",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 112
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 112,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:experience-first, not technology-first.",
+       "role": "text",
+       "text": "experience-first, not technology-first.",
+       "edsText": "experience-first, not technology-first.",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 136,
+        "w": 272,
+        "h": 21
+       },
+       "eds": {
+        "x": 40,
+        "y": 136,
+        "w": 272,
+        "h": 21,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:focused on organizational learning, not ",
+       "role": "text",
+       "text": "focused on organizational learning, not individual productiv",
+       "edsText": "focused on organizational learning, not individual productiv",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 157,
+        "w": 272,
+        "h": 42
+       },
+       "eds": {
+        "x": 40,
+        "y": 157,
+        "w": 272,
+        "h": 42,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:built for enterprise scale, not isolated",
+       "role": "text",
+       "text": "built for enterprise scale, not isolated pilots.",
+       "edsText": "built for enterprise scale, not isolated pilots.",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 199,
+        "w": 272,
+        "h": 42
+       },
+       "eds": {
+        "x": 40,
+        "y": 199,
+        "w": 272,
+        "h": 42,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:designed to prove value before committin",
+       "role": "text",
+       "text": "designed to prove value before committing to transformation.",
+       "edsText": "designed to prove value before committing to transformation.",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 241,
+        "w": 272,
+        "h": 42
+       },
+       "eds": {
+        "x": 40,
+        "y": 241,
+        "w": 272,
+        "h": 42,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:human judgment kept at the center — ai a",
+       "role": "text",
+       "text": "human judgment kept at the center — ai absorbs the friction,",
+       "edsText": "human judgment kept at the center — ai absorbs the friction,",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 283,
+        "w": 272,
+        "h": 63
+       },
+       "eds": {
+        "x": 40,
+        "y": 283,
+        "w": 272,
+        "h": 63,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 6327,
+       "w": 312,
+       "h": 346
+      },
+      "eds": {
+       "x": 24,
+       "y": 6130,
+       "w": 312,
+       "h": 346
+      },
+      "dx": 0,
+      "dy": -197,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".partners-block__section.inline .partners-block__logo=.partners-block-section.inline .partners-block-logo",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  },
+  {
+   "sel": ".podcast-speakers__info=.podcast-speakers-info",
+   "family": null,
+   "required": true,
+   "originMatches": 1,
+   "edsMatches": 1,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:pat mcguire",
+       "role": "text",
+       "text": "pat mcguire",
+       "edsText": "pat mcguire",
+       "byPosition": false,
+       "origin": {
+        "x": 107,
+        "y": 128,
+        "w": 98,
+        "h": 23
+       },
+       "eds": {
+        "x": 107,
+        "y": 128,
+        "w": 98,
+        "h": 23,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:senior director, product strategy",
+       "role": "text",
+       "text": "senior director, product strategy",
+       "edsText": "senior director, product strategy",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 161,
+        "w": 233,
+        "h": 21
+       },
+       "eds": {
+        "x": 40,
+        "y": 161,
+        "w": 233,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 97,
+       "y": 0,
+       "w": 118,
+       "h": 120,
+       "absY": 6765,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 6963,
+       "w": 312,
+       "h": 190
+      },
+      "eds": {
+       "x": 24,
+       "y": 6765,
+       "w": 312,
+       "h": 190
+      },
+      "dx": 0,
+      "dy": -198,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".faq-block__list__item:nth-child(-n+5)=.faq-block-list-item:nth-child(-n+5)",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "eds": {
+      "path": "section.faq-block-container > ul.faq-block-list > li.faq-block-list-item"
+     },
+     "rows": [
+      {
+       "key": "heading:what is the ai-first product organizatio",
+       "role": "heading",
+       "text": "what is the ai-first product organization?",
+       "edsText": "what is the ai-first product organization?",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48
+       },
+       "eds": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48,
+        "sel": "h3#what-is-the-ai-first-product-organization",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "box:div.faq-block__list__item__description.text-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 219
+       },
+       "eds": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 219,
+        "sel": "div.faq-block-list-item-description.text-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:the ai-first product organization is val",
+       "role": "text",
+       "text": "the ai-first product organization is valtech's ai operating ",
+       "edsText": "the ai-first product organization is valtech's ai operating ",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 105,
+        "w": 312,
+        "h": 157
+       },
+       "eds": {
+        "x": 24,
+        "y": 105,
+        "w": 312,
+        "h": 157,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 9370,
+       "w": 360,
+       "h": 300
+      },
+      "eds": {
+       "x": 0,
+       "y": 9173,
+       "w": 360,
+       "h": 300
+      },
+      "dx": 0,
+      "dy": -197,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "eds": {
+      "path": "section.faq-block-container > ul.faq-block-list > li.faq-block-list-item"
+     },
+     "rows": [
+      {
+       "key": "heading:how is this different from an ai strateg",
+       "role": "heading",
+       "text": "how is this different from an ai strategy project?",
+       "edsText": "how is this different from an ai strategy project?",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48
+       },
+       "eds": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48,
+        "sel": "h3#how-is-this-different-from-an-ai-strategy-project",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "box:div.faq-block__list__item__description.text-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 174
+       },
+       "eds": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 174,
+        "sel": "div.faq-block-list-item-description.text-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:it goes beyond strategy. it connects ope",
+       "role": "text",
+       "text": "it goes beyond strategy. it connects operating model design,",
+       "edsText": "it goes beyond strategy. it connects operating model design,",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 105,
+        "w": 312,
+        "h": 112
+       },
+       "eds": {
+        "x": 24,
+        "y": 105,
+        "w": 312,
+        "h": 112,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 9670,
+       "w": 360,
+       "h": 81
+      },
+      "eds": {
+       "x": 0,
+       "y": 9472,
+       "w": 360,
+       "h": 81
+      },
+      "dx": 0,
+      "dy": -198,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "eds": {
+      "path": "section.faq-block-container > ul.faq-block-list > li.faq-block-list-item"
+     },
+     "rows": [
+      {
+       "key": "heading:do we need an existing ai program?",
+       "role": "heading",
+       "text": "do we need an existing ai program?",
+       "edsText": "do we need an existing ai program?",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48
+       },
+       "eds": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48,
+        "sel": "h3#do-we-need-an-existing-ai-program",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "box:div.faq-block__list__item__description.text-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 196
+       },
+       "eds": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 196,
+        "sel": "div.faq-block-list-item-description.text-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:your teams most likely already have ai t",
+       "role": "text",
+       "text": "your teams most likely already have ai tools in place. this ",
+       "edsText": "your teams most likely already have ai tools in place. this ",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 105,
+        "w": 312,
+        "h": 134
+       },
+       "eds": {
+        "x": 24,
+        "y": 105,
+        "w": 312,
+        "h": 134,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 9751,
+       "w": 360,
+       "h": 81
+      },
+      "eds": {
+       "x": 0,
+       "y": 9553,
+       "w": 360,
+       "h": 81
+      },
+      "dx": 0,
+      "dy": -198,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "eds": {
+      "path": "section.faq-block-container > ul.faq-block-list > li.faq-block-list-item"
+     },
+     "rows": [
+      {
+       "key": "heading:how does this help scale ai?",
+       "role": "heading",
+       "text": "how does this help scale ai?",
+       "edsText": "how does this help scale ai?",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48
+       },
+       "eds": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48,
+        "sel": "h3#how-does-this-help-scale-ai",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "box:div.faq-block__list__item__description.text-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 174
+       },
+       "eds": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 174,
+        "sel": "div.faq-block-list-item-description.text-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:it identifies where value is delayed in ",
+       "role": "text",
+       "text": "it identifies where value is delayed in your product deliver",
+       "edsText": "it identifies where value is delayed in your product deliver",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 105,
+        "w": 312,
+        "h": 112
+       },
+       "eds": {
+        "x": 24,
+        "y": 105,
+        "w": 312,
+        "h": 112,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 9832,
+       "w": 360,
+       "h": 81
+      },
+      "eds": {
+       "x": 0,
+       "y": 9634,
+       "w": 360,
+       "h": 81
+      },
+      "dx": 0,
+      "dy": -198,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "eds": {
+      "path": "section.faq-block-container > ul.faq-block-list > li.faq-block-list-item"
+     },
+     "rows": [
+      {
+       "key": "heading:what if our teams aren't ready for big c",
+       "role": "heading",
+       "text": "what if our teams aren't ready for big change?",
+       "edsText": "what if our teams aren't ready for big change?",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48
+       },
+       "eds": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48,
+        "sel": "h3#what-if-our-teams-arent-ready-for-big-change",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "box:div.faq-block__list__item__description.text-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 174
+       },
+       "eds": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 174,
+        "sel": "div.faq-block-list-item-description.text-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:this doesn't start as a big transformati",
+       "role": "text",
+       "text": "this doesn't start as a big transformation. we begin with on",
+       "edsText": "this doesn't start as a big transformation. we begin with on",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 105,
+        "w": 312,
+        "h": 112
+       },
+       "eds": {
+        "x": 24,
+        "y": 105,
+        "w": 312,
+        "h": 112,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 9913,
+       "w": 360,
+       "h": 81
+      },
+      "eds": {
+       "x": 0,
+       "y": 9715,
+       "w": 360,
+       "h": 81
+      },
+      "dx": 0,
+      "dy": -198,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 13,
+  "within": 53,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 1,
+  "requiredOff": 0
+ }
+}

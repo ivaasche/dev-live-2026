@@ -1,0 +1,71 @@
+{
+  "a": "stardust/replica/gates/all-360/meet-the-expert-vera-schnitzlein/origin.png",
+  "b": "stardust/replica/gates/all-360/meet-the-expert-vera-schnitzlein/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 4291,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 15798,
+  "pct": 1.02,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/meet-the-expert-vera-schnitzlein/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 2.31,
+  "textBoxes": 113,
+  "textPixels": 583801,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1.2
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 2
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 1.5
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0.9
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 1
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 0
+    },
+    {
+      "y0": 4000,
+      "y1": 4291,
+      "pct": 0
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--c87ac39f--aemcoder.aem.page/meet-the-expert-vera-schnitzlein"
+  }
+}

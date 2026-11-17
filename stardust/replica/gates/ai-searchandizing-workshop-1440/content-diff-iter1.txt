@@ -1,0 +1,41 @@
+[live-session] waiting to pace live navigations to www.valtech.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Content diff @ 1440px (profile "generic", roots: main.site-content, header, footer)
+root "main.site-content"
+  source: 353 text nodes — 8 headings, 0 eyebrows, 6 CTAs, 339 body; 3 img
+  build: 347 text nodes — 8 headings, 0 eyebrows, 6 CTAs, 333 body; 3 img
+  editable texts (outermost h*/p/ul/ol): source 24 / build 24
+  attributes (placeholder/aria-label/title): source 9 / build 13; icons: source 2 / build 2
+root "header"
+  source: 1 text nodes — 1 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 1 text nodes — 1 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root "footer"
+  source: 11 text nodes — 0 headings, 0 eyebrows, 10 CTAs, 1 body; 2 img
+  build: 11 text nodes — 0 headings, 0 eyebrows, 10 CTAs, 1 body; 2 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 2
+  attributes (placeholder/aria-label/title): source 7 / build 7; icons: source 8 / build 8
+
+Findings: 20 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 20
+  🟡 MISSING BODY [main.site-content]: source body "of customers are more likely to"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main.site-content]: source body "purchase"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main.site-content]: source body "from brands offering personalized experiences"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main.site-content]: source body "increase in revenue per visitor with personalize"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main.site-content]: source body "Bloomreach"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main.site-content]: source body ")"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main.site-content]: source body "This site is protected by CAPTCHA and the Friend"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main.site-content]: source body "and"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main.site-content]: source body "apply."… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA [main.site-content]: build body "of customers are more likely to purchase from br" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "increase in revenue per visitor with personalize" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "This site is protected by CAPTCHA and the Friend" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 MISSING TITLE [main.site-content]: source <a> title="Download" has no build <a> with that title (build <a> titles: "LinkedIn", "LinkedIn"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main.site-content]: source <a> title="Schedule 30-min discovery call" has no build <a> with that title (build <a> titles: "LinkedIn", "LinkedIn"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [main.site-content]: build <li> aria-label="Page dot 1" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main.site-content]: build <li> aria-label="Page dot 2" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main.site-content]: build <li> aria-label="Page dot 3" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main.site-content]: build <li> aria-label="Page dot 4" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main.site-content]: build <button> aria-label="Previous" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main.site-content]: build <button> aria-label="Next" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

@@ -1,0 +1,56 @@
+{
+  "a": "stardust/replica/gates/all-1440/es-es-whitepapers/origin.png",
+  "b": "stardust/replica/gates/all-1440/es-es-whitepapers/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 2756,
+    "mode": "overlap"
+  },
+  "heightDelta": -8,
+  "differingPixels": 220114,
+  "pct": 5.55,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/es-es-whitepapers/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 7.15,
+  "textBoxes": 93,
+  "textPixels": 679852,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 2.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 9.5
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 9.9
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 6.3
+    },
+    {
+      "y0": 2500,
+      "y1": 2756,
+      "pct": 4.3
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/whitepapers"
+  }
+}

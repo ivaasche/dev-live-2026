@@ -1,0 +1,338 @@
+/* masthead-two-columns-cta — main.css @299254–303784 (prototype css/whitepaper.css), values
+   verbatim; canon BEM -> kebab-case; authored heading / paragraphs / pictures styled through
+   descendant selectors (EW2) */
+
+@media (width <= 58.749rem) {
+  .masthead-two-columns-cta {
+    margin-bottom: 1.25rem;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .masthead-two-columns-cta {
+    margin-bottom: 2.5rem;
+    padding: 0 1.5rem;
+  }
+}
+
+@media (width >= 64rem) {
+  .masthead-two-columns-cta {
+    margin-right: 64px;
+  }
+}
+
+@media (width >= 120.001rem) {
+  .masthead-two-columns-cta {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 84vw;
+    padding: 0;
+  }
+}
+
+.masthead-two-columns-cta .masthead-two-columns-cta-inner {
+  position: relative;
+}
+
+.masthead-two-columns-cta .masthead-two-columns-cta-inner-wrap {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+@media (width >= 58.75rem) {
+  .masthead-two-columns-cta .masthead-two-columns-cta-inner-wrap {
+    flex-direction: row-reverse;
+  }
+
+  /* `right` variant (offering, @299820: __inner__wrap.right — text left, image right) */
+  .masthead-two-columns-cta.right .masthead-two-columns-cta-inner-wrap {
+    flex-direction: row;
+  }
+}
+
+.masthead-two-columns-cta .masthead-two-columns-cta-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  order: 2;
+  padding: 1.25rem 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+@media (width >= 58.75rem) {
+  .masthead-two-columns-cta .masthead-two-columns-cta-text {
+    order: 1;
+    padding: 1.25rem calc(2vw + 2.5rem);
+    width: 50%;
+  }
+}
+
+.masthead-two-columns-cta .masthead-two-columns-cta-text p {
+  font-size: 1.5vw;
+}
+
+@media (width <= 1066.6667px) {
+  .masthead-two-columns-cta .masthead-two-columns-cta-text p {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1333.3333px) {
+  .masthead-two-columns-cta .masthead-two-columns-cta-text p {
+    font-size: 20px;
+  }
+}
+
+.masthead-two-columns-cta .masthead-two-columns-cta-hgroup {
+  margin-bottom: 1.25rem;
+}
+
+@media (width >= 58.75rem) {
+  .masthead-two-columns-cta .masthead-two-columns-cta-hgroup {
+    margin-bottom: 2.5rem;
+  }
+}
+
+.masthead-two-columns-cta .masthead-two-columns-cta-hgroup :is(h1, h2, h3) {
+  font-size: 3.5vw;
+  margin: 0;
+}
+
+@media (width <= 714.2857px) {
+  .masthead-two-columns-cta .masthead-two-columns-cta-hgroup :is(h1, h2, h3) {
+    font-size: 25px;
+  }
+}
+
+@media (width >= 2000px) {
+  .masthead-two-columns-cta .masthead-two-columns-cta-hgroup :is(h1, h2, h3) {
+    font-size: 70px;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .masthead-two-columns-cta .masthead-two-columns-cta-hgroup :is(h1, h2, h3) {
+    white-space: pre-line;
+  }
+}
+
+@media (width >= 105rem) {
+  .masthead-two-columns-cta .masthead-two-columns-cta-hgroup :is(h1, h2, h3) {
+    font-size: clamp(2.5rem, 3.8vw, 5rem);
+  }
+}
+
+.masthead-two-columns-cta .masthead-two-columns-cta-parameters {
+  display: flex;
+  flex-direction: row;
+}
+
+.masthead-two-columns-cta .masthead-two-columns-cta-parameter {
+  font-size: 1.5vw;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+  margin-right: 1.25rem;
+}
+
+@media (width <= 1066.6667px) {
+  .masthead-two-columns-cta .masthead-two-columns-cta-parameter {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1333.3333px) {
+  .masthead-two-columns-cta .masthead-two-columns-cta-parameter {
+    font-size: 20px;
+  }
+}
+
+/* authored paragraphs laid out as the source's inline value / label spans */
+.masthead-two-columns-cta .masthead-two-columns-cta-parameter > p {
+  display: inline;
+  margin: 0;
+}
+
+.masthead-two-columns-cta .masthead-two-columns-cta-cta > p {
+  margin: 0;
+}
+
+.masthead-two-columns-cta .masthead-two-columns-cta-parameter > .masthead-two-columns-cta-value {
+  font-size: 4vw;
+  font-weight: 700;
+  margin-right: .4375rem;
+}
+
+@media (width <= 500px) {
+  .masthead-two-columns-cta .masthead-two-columns-cta-parameter > .masthead-two-columns-cta-value {
+    font-size: 20px;
+  }
+}
+
+@media (width >= 1100px) {
+  .masthead-two-columns-cta .masthead-two-columns-cta-parameter > .masthead-two-columns-cta-value {
+    font-size: 44px;
+  }
+}
+
+/* @302100: the hollow CTA inside this masthead renders filled (ocean, white label) */
+.masthead-two-columns-cta .masthead-two-columns-cta-cta .button-primary-hollow {
+  background-color: var(--c-ocean);
+  box-shadow: inset 0 0 0 2px var(--c-ocean);
+  color: #fff;
+}
+
+.masthead-two-columns-cta .masthead-two-columns-cta-media {
+  order: 1;
+}
+
+@media (width >= 58.75rem) {
+  .masthead-two-columns-cta .masthead-two-columns-cta-media {
+    height: calc(100vh - 15.4vw);
+    min-height: 400px;
+    order: 2;
+    width: 50%;
+  }
+}
+
+.masthead-two-columns-cta .masthead-two-columns-cta-media picture {
+  height: 100%;
+}
+
+.masthead-two-columns-cta .masthead-two-columns-cta-media img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* authored crops stand in for the source <source media> renditions:
+   3 crops = >= 940 / 720–939 / < 720; 2 crops = >= 940 / < 940 */
+.masthead-two-columns-cta :where(.masthead-two-columns-cta-media picture) {
+  display: none;
+}
+
+.masthead-two-columns-cta [data-crops="1"] picture {
+  display: block;
+}
+
+@media (width >= 58.75rem) {
+  .masthead-two-columns-cta .masthead-two-columns-cta-wide {
+    display: block;
+  }
+}
+
+@media (width <= 58.749rem) {
+  .masthead-two-columns-cta [data-crops="2"] .masthead-two-columns-cta-mid {
+    display: block;
+  }
+}
+
+@media (width >= 45rem) and (width <= 58.749rem) {
+  .masthead-two-columns-cta [data-crops="3"] .masthead-two-columns-cta-mid {
+    display: block;
+  }
+}
+
+@media (width < 45rem) {
+  .masthead-two-columns-cta [data-crops="3"] .masthead-two-columns-cta-narrow {
+    display: block;
+  }
+}
+
+/* campaign cluster: rich-text pull quotes (section style `quotes`; source global blockquote
+   rules, main.css @32052–32819, values verbatim; the quote portrait is the source's 200×200
+   inline <img>, measured on /ai-mythbusting at 1440 and 360) */
+main .section.rte-block.quotes blockquote {
+  border-right: 2px solid #002fa7;
+  color: #363636;
+  display: inline-block;
+  font-size: 2vw;
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: -.0625rem;
+  line-height: 1.4;
+  margin: 5rem 0;
+
+  /* padding-top: the source quote's own newlines under pre-line paint one empty line box
+     (1.4 x the quote font-size) before the first paragraph and after each paragraph;
+     whitespace collapses here, so those line boxes are restored as padding */
+  padding: 2.8vw 1.875rem 0;
+  position: relative;
+  quotes: "“" "„" "‘" "‚";
+  text-align: right;
+
+  /* source pre-line: its quote markup has no newlines between the paragraphs; the EDS DOM
+     does (one empty line box each), so whitespace collapses here — the paragraphs carry
+     no newlines of their own */
+  white-space: normal;
+}
+
+main .section.rte-block.quotes blockquote > p:not(:last-child) {
+  padding-bottom: 2.8vw;
+}
+
+@media (width <= 800px) {
+  main .section.rte-block.quotes blockquote {
+    font-size: 16px;
+    padding-top: 22.4px;
+  }
+
+  main .section.rte-block.quotes blockquote > p:not(:last-child) {
+    padding-bottom: 22.4px;
+  }
+}
+
+@media (width >= 1500px) {
+  main .section.rte-block.quotes blockquote {
+    font-size: 30px;
+    padding-top: 42px;
+  }
+
+  main .section.rte-block.quotes blockquote > p:not(:last-child) {
+    padding-bottom: 42px;
+  }
+}
+
+main .section.rte-block.quotes blockquote::before {
+  content: open-quote;
+  left: 3.375rem;
+  top: -3.125rem;
+}
+
+main .section.rte-block.quotes blockquote::after {
+  bottom: -3.125rem;
+  content: close-quote;
+  right: 1.875rem;
+}
+
+main .section.rte-block.quotes blockquote::after,
+main .section.rte-block.quotes blockquote::before {
+  color: #002fa7;
+  font-size: 5vw;
+  font-weight: 700;
+  line-height: 1;
+  position: absolute;
+}
+
+@media (width <= 1000px) {
+  main .section.rte-block.quotes blockquote::after,
+  main .section.rte-block.quotes blockquote::before {
+    font-size: 50px;
+  }
+}
+
+main .section.rte-block.quotes blockquote p:has(> picture:only-child) {
+  display: inline;
+  margin: 0;
+}
+
+main .section.rte-block.quotes blockquote picture img {
+  display: inline;
+  width: 200px;
+  height: 200px;
+  margin: 20px 0 0;
+}
+

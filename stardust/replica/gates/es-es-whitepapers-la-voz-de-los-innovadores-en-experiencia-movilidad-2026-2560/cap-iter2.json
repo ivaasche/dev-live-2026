@@ -1,0 +1,1136 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-13T13:31:57.036Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.valtech.com/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2026/",
+      "http://localhost:8791/es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.valtech.com/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2026/",
+    "http://localhost:8791/es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#valtech-content",
+      "isBody": false,
+      "leaves": 89,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 810,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content",
+        "tier": 2,
+        "share": 0.15,
+        "section": 2,
+        "w1": 810,
+        "maxWidth": "810px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 742,
+        "via": "fixed",
+        "selector": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p > span",
+        "tier": 4,
+        "share": 0.01,
+        "section": 2,
+        "w1": 742,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 746,
+        "via": "fixed",
+        "selector": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p > span",
+        "tier": 4,
+        "share": 0.01,
+        "section": 2,
+        "w1": 746,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.03,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 390,
+        "via": "fixed",
+        "selector": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p > em",
+        "tier": 4,
+        "share": 0.01,
+        "section": 2,
+        "w1": 390,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > ul",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 676,
+        "via": "fixed",
+        "selector": "div.rte-block__container.text-content > ul > li > span",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 676,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > ul",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 723,
+        "via": "fixed",
+        "selector": "div.rte-block__container.text-content > ul > li > span",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 723,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > ul",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 721,
+        "via": "fixed",
+        "selector": "div.rte-block__container.text-content > ul > li > span",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 721,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > ul",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 731,
+        "via": "fixed",
+        "selector": "div.rte-block__container.text-content > ul > li > span",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 731,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > ul",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 724,
+        "via": "fixed",
+        "selector": "div.rte-block__container.text-content > ul > li > span",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 724,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 258,
+        "via": "fixed",
+        "selector": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p > a.button.button--primary-hollow",
+        "tier": 4,
+        "share": 0.01,
+        "section": 2,
+        "w1": 258,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1057,
+        "via": "fixed",
+        "selector": "#pdfViewer > div.page",
+        "tier": 6,
+        "share": 0.06,
+        "section": 3,
+        "w1": 1057,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 327,
+        "via": "fixed",
+        "selector": "#pdfViewer > div.page > div.textLayer > span",
+        "tier": 8,
+        "share": 0.01,
+        "section": 3,
+        "w1": 327,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 559,
+        "via": "fixed",
+        "selector": "#pdfViewer > div.page > div.textLayer > span",
+        "tier": 8,
+        "share": 0.01,
+        "section": 3,
+        "w1": 559,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1057,
+        "via": "fixed",
+        "selector": "#pdfViewer > div.page",
+        "tier": 6,
+        "share": 0.3,
+        "section": 3,
+        "w1": 1057,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 242,
+        "via": "fixed",
+        "selector": "#pdfViewer > div.page > div.textLayer > span",
+        "tier": 8,
+        "share": 0.01,
+        "section": 3,
+        "w1": 242,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 611,
+        "via": "fixed",
+        "selector": "#pdfViewer > div.page > div.textLayer > span",
+        "tier": 8,
+        "share": 0.01,
+        "section": 3,
+        "w1": 611,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 625,
+        "via": "fixed",
+        "selector": "#pdfViewer > div.page > div.textLayer > span",
+        "tier": 8,
+        "share": 0.01,
+        "section": 3,
+        "w1": 625,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 410,
+        "via": "fixed",
+        "selector": "#pdfViewer > div.page > div.textLayer > span",
+        "tier": 8,
+        "share": 0.01,
+        "section": 3,
+        "w1": 410,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 434,
+        "via": "fixed",
+        "selector": "#pdfViewer > div.page > div.textLayer > span",
+        "tier": 8,
+        "share": 0.01,
+        "section": 3,
+        "w1": 434,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 456,
+        "via": "fixed",
+        "selector": "#pdfViewer > div.page > div.textLayer > span",
+        "tier": 8,
+        "share": 0.01,
+        "section": 3,
+        "w1": 456,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1057,
+        "via": "fixed",
+        "selector": "#pdfViewer > div.page",
+        "tier": 6,
+        "share": 0.04,
+        "section": 3,
+        "w1": 1057,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 401,
+        "via": "fixed",
+        "selector": "#pdfViewer > div.page > div.textLayer > span",
+        "tier": 8,
+        "share": 0.01,
+        "section": 3,
+        "w1": 401,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 379,
+        "via": "other",
+        "selector": "div.podcast-speakers.podcast-speakers--default > div.wrapper > div.podcast-speakers__wrapper > h2.podcast-speakers__title",
+        "tier": 4,
+        "share": 0.01,
+        "section": 4,
+        "w1": 342,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 400,
+        "via": "max-width",
+        "selector": "div.podcast-speakers.podcast-speakers--default > div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info",
+        "tier": 4,
+        "share": 0.02,
+        "section": 4,
+        "w1": 282,
+        "maxWidth": "400px"
+      },
+      {
+        "kind": "module",
+        "px": 810,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-top-indent > div.rte-block__container.text-content",
+        "tier": 2,
+        "share": 0.01,
+        "section": 5,
+        "w1": 810,
+        "maxWidth": "810px"
+      },
+      {
+        "kind": "module",
+        "px": 810,
+        "via": "fixed",
+        "selector": "#download_form > div.marketo-form-block__container.narrow",
+        "tier": 2,
+        "share": 0.29,
+        "section": 6,
+        "w1": 810,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "div.marketo-form-block__container.narrow > form.mktoForm.mktoHasWidth > div.mktoFormRow > div.mktoFieldDescriptor.mktoFormCol",
+        "tier": 5,
+        "share": 0.02,
+        "section": 6,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "div.marketo-form-block__container.narrow > form.mktoForm.mktoHasWidth > div.mktoFormRow > div.mktoFieldDescriptor.mktoFormCol",
+        "tier": 5,
+        "share": 0.02,
+        "section": 6,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "div.marketo-form-block__container.narrow > form.mktoForm.mktoHasWidth > div.mktoFormRow > div.mktoFieldDescriptor.mktoFormCol",
+        "tier": 5,
+        "share": 0.02,
+        "section": 6,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "div.marketo-form-block__container.narrow > form.mktoForm.mktoHasWidth > div.mktoFormRow > div.mktoFieldDescriptor.mktoFormCol",
+        "tier": 5,
+        "share": 0.02,
+        "section": 6,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "div.marketo-form-block__container.narrow > form.mktoForm.mktoHasWidth > div.mktoFormRow > div.mktoFieldDescriptor.mktoFormCol",
+        "tier": 5,
+        "share": 0.02,
+        "section": 6,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "div.marketo-form-block__container.narrow > form.mktoForm.mktoHasWidth > div.mktoFormRow > div.mktoFieldDescriptor.mktoFormCol",
+        "tier": 5,
+        "share": 0.02,
+        "section": 6,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 252,
+        "via": "fixed",
+        "selector": "#frCap-widget",
+        "tier": 3,
+        "share": 0,
+        "section": -1,
+        "w1": 252,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#valtech-content > div.site-breadcrumbs",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#valtech-content > section.masthead-two-columns-cta",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 2,
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent",
+        "px": 810,
+        "capSelector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content"
+      },
+      {
+        "index": 3,
+        "selector": "#valtech-content > div.pdf-view-block",
+        "px": 1057,
+        "capSelector": "#pdfViewer > div.page"
+      },
+      {
+        "index": 4,
+        "selector": "#valtech-content > div.podcast-speakers.podcast-speakers--default",
+        "px": 400,
+        "capSelector": "div.podcast-speakers.podcast-speakers--default > div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+      },
+      {
+        "index": 5,
+        "selector": "#valtech-content > section.rte-block.base-top-indent",
+        "px": 810,
+        "capSelector": "#valtech-content > section.rte-block.base-top-indent > div.rte-block__container.text-content"
+      },
+      {
+        "index": 6,
+        "selector": "#download_form",
+        "px": 810,
+        "capSelector": "#download_form > div.marketo-form-block__container.narrow"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 810,
+    "contentFrom": "module",
+    "maxCap": 1057,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 151
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#valtech-content",
+      "isBody": false,
+      "leaves": 89,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 810,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content",
+        "tier": 2,
+        "share": 0.15,
+        "section": 2,
+        "w1": 810,
+        "maxWidth": "810px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 742,
+        "via": "fixed",
+        "selector": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p > span",
+        "tier": 4,
+        "share": 0.01,
+        "section": 2,
+        "w1": 742,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 746,
+        "via": "fixed",
+        "selector": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p > span",
+        "tier": 4,
+        "share": 0.01,
+        "section": 2,
+        "w1": 746,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.03,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 390,
+        "via": "fixed",
+        "selector": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p > em",
+        "tier": 4,
+        "share": 0.01,
+        "section": 2,
+        "w1": 390,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > ul",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 676,
+        "via": "fixed",
+        "selector": "div.rte-block__container.text-content > ul > li > span",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 676,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > ul",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 723,
+        "via": "fixed",
+        "selector": "div.rte-block__container.text-content > ul > li > span",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 723,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > ul",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 721,
+        "via": "fixed",
+        "selector": "div.rte-block__container.text-content > ul > li > span",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 721,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > ul",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 731,
+        "via": "fixed",
+        "selector": "div.rte-block__container.text-content > ul > li > span",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 731,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > ul",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 724,
+        "via": "fixed",
+        "selector": "div.rte-block__container.text-content > ul > li > span",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 724,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 258,
+        "via": "fixed",
+        "selector": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p > a.button.button--primary-hollow",
+        "tier": 4,
+        "share": 0.01,
+        "section": 2,
+        "w1": 258,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1057,
+        "via": "fixed",
+        "selector": "#pdfViewer > div.page.page--1",
+        "tier": 6,
+        "share": 0.06,
+        "section": 3,
+        "w1": 1057,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 332,
+        "via": "fixed",
+        "selector": "#pdfViewer > div.page.page--1 > div.textLayer > span",
+        "tier": 8,
+        "share": 0.01,
+        "section": 3,
+        "w1": 332,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 558,
+        "via": "fixed",
+        "selector": "#pdfViewer > div.page.page--1 > div.textLayer > span",
+        "tier": 8,
+        "share": 0.01,
+        "section": 3,
+        "w1": 558,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1057,
+        "via": "fixed",
+        "selector": "#pdfViewer > div.page.page--2",
+        "tier": 6,
+        "share": 0.3,
+        "section": 3,
+        "w1": 1057,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 242,
+        "via": "fixed",
+        "selector": "#pdfViewer > div.page.page--2 > div.textLayer > span",
+        "tier": 8,
+        "share": 0.01,
+        "section": 3,
+        "w1": 242,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 614,
+        "via": "fixed",
+        "selector": "#pdfViewer > div.page.page--2 > div.textLayer > span",
+        "tier": 8,
+        "share": 0.01,
+        "section": 3,
+        "w1": 614,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 619,
+        "via": "fixed",
+        "selector": "#pdfViewer > div.page.page--2 > div.textLayer > span",
+        "tier": 8,
+        "share": 0.01,
+        "section": 3,
+        "w1": 619,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 401,
+        "via": "fixed",
+        "selector": "#pdfViewer > div.page.page--2 > div.textLayer > span",
+        "tier": 8,
+        "share": 0.01,
+        "section": 3,
+        "w1": 401,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "#pdfViewer > div.page.page--2 > div.textLayer > span",
+        "tier": 8,
+        "share": 0.01,
+        "section": 3,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 456,
+        "via": "fixed",
+        "selector": "#pdfViewer > div.page.page--2 > div.textLayer > span",
+        "tier": 8,
+        "share": 0.01,
+        "section": 3,
+        "w1": 456,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1057,
+        "via": "fixed",
+        "selector": "#pdfViewer > div.page.page--3",
+        "tier": 6,
+        "share": 0.04,
+        "section": 3,
+        "w1": 1057,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 400,
+        "via": "fixed",
+        "selector": "#pdfViewer > div.page.page--3 > div.textLayer > span",
+        "tier": 8,
+        "share": 0.01,
+        "section": 3,
+        "w1": 400,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 379,
+        "via": "other",
+        "selector": "div.podcast-speakers.podcast-speakers--default > div.wrapper > div.podcast-speakers__wrapper > h2.podcast-speakers__title",
+        "tier": 4,
+        "share": 0.01,
+        "section": 4,
+        "w1": 342,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 400,
+        "via": "max-width",
+        "selector": "div.podcast-speakers.podcast-speakers--default > div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info",
+        "tier": 4,
+        "share": 0.02,
+        "section": 4,
+        "w1": 282,
+        "maxWidth": "400px"
+      },
+      {
+        "kind": "module",
+        "px": 810,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block.base-top-indent > div.rte-block__container.text-content",
+        "tier": 2,
+        "share": 0.01,
+        "section": 5,
+        "w1": 810,
+        "maxWidth": "810px"
+      },
+      {
+        "kind": "module",
+        "px": 810,
+        "via": "fixed",
+        "selector": "#download_form > div.marketo-form-block__container.narrow",
+        "tier": 2,
+        "share": 0.29,
+        "section": 6,
+        "w1": 810,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "div.marketo-form-block__container.narrow > form.mkto-form > div.mkto-form__row > div.mkto-form__col",
+        "tier": 5,
+        "share": 0.02,
+        "section": 6,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "div.marketo-form-block__container.narrow > form.mkto-form > div.mkto-form__row > div.mkto-form__col",
+        "tier": 5,
+        "share": 0.02,
+        "section": 6,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "div.marketo-form-block__container.narrow > form.mkto-form > div.mkto-form__row > div.mkto-form__col",
+        "tier": 5,
+        "share": 0.02,
+        "section": 6,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "div.marketo-form-block__container.narrow > form.mkto-form > div.mkto-form__row > div.mkto-form__col",
+        "tier": 5,
+        "share": 0.02,
+        "section": 6,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "div.marketo-form-block__container.narrow > form.mkto-form > div.mkto-form__row > div.mkto-form__col",
+        "tier": 5,
+        "share": 0.02,
+        "section": 6,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "div.marketo-form-block__container.narrow > form.mkto-form > div.mkto-form__row > div.mkto-form__col",
+        "tier": 5,
+        "share": 0.02,
+        "section": 6,
+        "w1": 425,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#valtech-content > div.site-breadcrumbs",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#valtech-content > section.masthead-two-columns-cta",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 2,
+        "selector": "#valtech-content > section.rte-block.base-bottom-indent",
+        "px": 810,
+        "capSelector": "#valtech-content > section.rte-block.base-bottom-indent > div.rte-block__container.text-content"
+      },
+      {
+        "index": 3,
+        "selector": "#valtech-content > div.pdf-view-block",
+        "px": 1057,
+        "capSelector": "#pdfViewer > div.page.page--1"
+      },
+      {
+        "index": 4,
+        "selector": "#valtech-content > div.podcast-speakers.podcast-speakers--default",
+        "px": 400,
+        "capSelector": "div.podcast-speakers.podcast-speakers--default > div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+      },
+      {
+        "index": 5,
+        "selector": "#valtech-content > section.rte-block.base-top-indent",
+        "px": 810,
+        "capSelector": "#valtech-content > section.rte-block.base-top-indent > div.rte-block__container.text-content"
+      },
+      {
+        "index": 6,
+        "selector": "#download_form",
+        "px": 810,
+        "capSelector": "#download_form > div.marketo-form-block__container.narrow"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 810,
+    "contentFrom": "module",
+    "maxCap": 1057,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 137
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 810px = build 810px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/7",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/7",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/7",
+        "detail": "810px = 810px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 4/7",
+        "detail": "1057px = 1057px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 5/7",
+        "detail": "400px = 400px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 6/7",
+        "detail": "810px = 810px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 7/7",
+        "detail": "810px = 810px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026-2560/cap-iter2.json"
+}

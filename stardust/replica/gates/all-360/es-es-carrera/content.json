@@ -1,0 +1,3138 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T08:21:33.676Z",
+  "width": 360,
+  "variable": [
+   ".jobs__list"
+  ],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/es-es/carrera/",
+  "at": "2026-11-14T08:21:13.676Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4251,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.site-nav__menu-wrapper.site-nav__menu__labels > div.site-nav__logo > a.site-nav__logo__link",
+    "x": 24,
+    "y": 25,
+    "w": 80,
+    "h": 21,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > a.search-select.mobile",
+    "x": 232,
+    "y": 24,
+    "w": 22,
+    "h": 23,
+    "text": "go to search page",
+    "href": "/es-es/search/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open main menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open main menu",
+    "value": "open main menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > a",
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 75,
+    "y": 75,
+    "w": 146,
+    "h": 21,
+    "label": "current",
+    "value": "trabaja con nosotros",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 75,
+    "y": 75,
+    "w": 146,
+    "h": 21,
+    "text": "Trabaja con nosotros"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-quaternary__text.masthead-quaternary__text-- > hgroup.masthead-quaternary__hgroup > h1.masthead-quaternary__hgroup__title",
+    "x": 46,
+    "y": 334,
+    "w": 268,
+    "h": 95,
+    "level": 1,
+    "text": "se busca: personas creativas, estratégicas y resolutivas"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.video-block__container > div.js-player.js-animate-on-custom-event > img.video-block__image.poster",
+    "x": 24,
+    "y": 121,
+    "w": 312,
+    "h": 176,
+    "text": "/globalassets/00-global/02-images/02-career/fallback_header.",
+    "file": "fallback_header"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-block.slide-fade-in > div.text-block__container > p",
+    "x": 22,
+    "y": 467,
+    "w": 317,
+    "h": 168,
+    "text": "Somos una empresa digital global formada por personas innovadoras que desarrolla"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > h2",
+    "x": 24,
+    "y": 675,
+    "w": 312,
+    "h": 34,
+    "level": 2,
+    "text": "quiénes somos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 724,
+    "w": 312,
+    "h": 90,
+    "text": "En Valtech, el equipo es nuestro mayor activo. Por eso creemos en incorporar tal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 827,
+    "w": 312,
+    "h": 134,
+    "text": "Eso es exactamente lo que somos: un equipo multicultural de nativos digitales am"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 974,
+    "w": 312,
+    "h": 202,
+    "text": "Vivimos con la mentalidad de “El nosotros por delante del yo”, y no es solo una "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 1188,
+    "w": 312,
+    "h": 112,
+    "text": "Todo esto ha dado forma a una cultura informal basada en el respeto mutuo, la li"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 1313,
+    "w": 312,
+    "h": 22,
+    "text": "Por qué deberías trabajar con nosotros"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p > a.button.button--secondary",
+    "x": 24,
+    "y": 1348,
+    "w": 312,
+    "h": 90,
+    "text": "nuestros valores y principios",
+    "href": "/es-es/career/our-values/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.jobs__container > div.jobs__list > a.row.slide-fade-in",
+    "x": 22,
+    "y": 1470,
+    "w": 317,
+    "h": 73,
+    "text": "senior performance media manager united states - remote",
+    "href": "/es-es/carrera/ofertas-de-empleo/5035946101/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.row.slide-fade-in > div.eight.column > h4.jobs__list__title",
+    "x": 22,
+    "y": 1473,
+    "w": 224,
+    "h": 22,
+    "level": 4,
+    "text": "senior performance media manager"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.row.slide-fade-in > div.four.column > h5.jobs__list__city",
+    "x": 22,
+    "y": 1495,
+    "w": 317,
+    "h": 17,
+    "level": 5,
+    "text": "united states - remote"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.jobs__container > div.jobs__list > a.row.slide-fade-in",
+    "x": 22,
+    "y": 1542,
+    "w": 317,
+    "h": 103,
+    "text": "lead product manager manchester, london",
+    "href": "/es-es/carrera/ofertas-de-empleo/5036038101/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.row.slide-fade-in > div.eight.column > h4.jobs__list__title",
+    "x": 22,
+    "y": 1575,
+    "w": 142,
+    "h": 22,
+    "level": 4,
+    "text": "lead product manager"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.row.slide-fade-in > div.four.column > h5.jobs__list__city",
+    "x": 22,
+    "y": 1597,
+    "w": 317,
+    "h": 17,
+    "level": 5,
+    "text": "manchester, london"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.jobs__container > div.jobs__list > a.row.slide-fade-in",
+    "x": 22,
+    "y": 1645,
+    "w": 317,
+    "h": 103,
+    "text": "lead product manager london",
+    "href": "/es-es/carrera/ofertas-de-empleo/5032747101/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.row.slide-fade-in > div.eight.column > h4.jobs__list__title",
+    "x": 22,
+    "y": 1678,
+    "w": 142,
+    "h": 22,
+    "level": 4,
+    "text": "lead product manager"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.row.slide-fade-in > div.four.column > h5.jobs__list__city",
+    "x": 22,
+    "y": 1700,
+    "w": 317,
+    "h": 17,
+    "level": 5,
+    "text": "london"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.jobs__container > div.jobs__list > a.row.slide-fade-in",
+    "x": 22,
+    "y": 1748,
+    "w": 317,
+    "h": 103,
+    "text": "copywriter mexico - remote",
+    "href": "/es-es/carrera/ofertas-de-empleo/5035292101/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.row.slide-fade-in > div.eight.column > h4.jobs__list__title",
+    "x": 22,
+    "y": 1781,
+    "w": 68,
+    "h": 22,
+    "level": 4,
+    "text": "copywriter"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.row.slide-fade-in > div.four.column > h5.jobs__list__city",
+    "x": 22,
+    "y": 1802,
+    "w": 317,
+    "h": 17,
+    "level": 5,
+    "text": "mexico - remote"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.jobs__list > div.jobs__list__actions > a.button.button--secondary-hollow",
+    "x": 22,
+    "y": 1890,
+    "w": 190,
+    "h": 59,
+    "text": "ver todo",
+    "href": "/es-es/carrera/ofertas-de-empleo/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.jobs__media > picture > img",
+    "x": 0,
+    "y": 2021,
+    "w": 360,
+    "h": 270,
+    "text": "",
+    "file": "utrecht_image1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.jobs__media > div.jobs__media__text > h5.jobs__media__text__title.slide-fade-in",
+    "x": 22,
+    "y": 2315,
+    "w": 317,
+    "h": 22,
+    "level": 5,
+    "text": "da la bienvenida a tu futuro"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.jobs__media > div.jobs__media__text > p.slide-fade-in.played",
+    "x": 22,
+    "y": 2360,
+    "w": 317,
+    "h": 67,
+    "text": "Explora nuestras oficinas en todo el mundo para encontrar empleo en tu área de e"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block > div.teaser-block__header.slide-fade-in > h4.teaser-block__header__title",
+    "x": 24,
+    "y": 2548,
+    "w": 292,
+    "h": 101,
+    "level": 4,
+    "text": "descubre las caras de la innovación en valtech"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.teaser-block__teaser__inner > hgroup.teaser-block__teaser__hgroup > h5.teaser-block__teaser__title",
+    "x": 48,
+    "y": 2982,
+    "w": 212,
+    "h": 140,
+    "level": 5,
+    "text": "\"technology is very apt at answering the question what can be done, but we need design to answer the question what shoul"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block__teaser.is-selected > picture > img",
+    "x": -124,
+    "y": 2662,
+    "w": 566,
+    "h": 424,
+    "text": "",
+    "file": "mark_large"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.teaser-block__teaser__inner > hgroup.teaser-block__teaser__hgroup > h5.teaser-block__teaser__title",
+    "x": 338,
+    "y": 2982,
+    "w": 212,
+    "h": 100,
+    "level": 5,
+    "text": "“this is innovation at work: borrowing, revising, rethinking, testing, and challenging norms, all for a greater purpose."
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block__teaser > picture > img",
+    "x": 166,
+    "y": 2662,
+    "w": 566,
+    "h": 424,
+    "text": "",
+    "file": "robin_large"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block__container.js-flickity-teaser > ol.flickity-page-dots > li.dot.is-selected",
+    "x": 24,
+    "y": 3116,
+    "w": 30,
+    "h": 4,
+    "label": "current",
+    "value": "slide 1",
+    "via": "aria-current"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block > div.teaser-block__container.js-flickity-teaser > button.flickity-button.flickity-prev-next-button",
+    "x": 240,
+    "y": 3098,
+    "w": 40,
+    "h": 40,
+    "text": "previous"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block > div.teaser-block__container.js-flickity-teaser > button.flickity-button.flickity-prev-next-button",
+    "x": 296,
+    "y": 3098,
+    "w": 40,
+    "h": 40,
+    "text": "next"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.subscription-block__container > div.subscription-block__wrapper > h2.subscription-block__title",
+    "x": 39,
+    "y": 3219,
+    "w": 283,
+    "h": 28,
+    "level": 2,
+    "text": "¡empieza a vivir tu sueño!"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.subscription-block__wrapper > div > a.subscription-block__button.button",
+    "x": 24,
+    "y": 3279,
+    "w": 312,
+    "h": 79,
+    "text": "explora nuestras vacantes disponibles",
+    "href": "/es-es/carrera/ofertas-de-empleo/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.contact-us-form__container.js-accordion > div.contact-us-form__column > button.contact-us-form__accordion-button.js-accordion-button",
+    "x": 0,
+    "y": 3398,
+    "w": 360,
+    "h": 89,
+    "text": "contáctanos"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.contact-us-form__container.js-accordion > div.contact-us-form__column > button.contact-us-form__accordion-button.js-accordion-button",
+    "x": 0,
+    "y": 3398,
+    "w": 360,
+    "h": 89,
+    "label": "trigger",
+    "value": "contáctanos",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 16,
+    "y": 3585,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 242,
+    "y": 3585,
+    "w": 58,
+    "h": 45,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 16,
+    "y": 3649,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 242,
+    "y": 3649,
+    "w": 82,
+    "h": 45,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer__column.site-footer__stamp > picture > img",
+    "x": 16,
+    "y": 3712,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "badge-no-outline"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 3853,
+    "w": 134,
+    "h": 18,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 3894,
+    "w": 118,
+    "h": 18,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 3935,
+    "w": 71,
+    "h": 18,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 3976,
+    "w": 84,
+    "h": 18,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 4017,
+    "w": 136,
+    "h": 18,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a.cookiebot-reset",
+    "x": 16,
+    "y": 4058,
+    "w": 158,
+    "h": 18,
+    "text": "configuración de cookies",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 16,
+    "y": 4139,
+    "w": 23,
+    "h": 18,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 87,
+    "y": 4139,
+    "w": 23,
+    "h": 18,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 158,
+    "y": 4139,
+    "w": 23,
+    "h": 18,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 229,
+    "y": 4139,
+    "w": 23,
+    "h": 18,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 16,
+    "y": 4184,
+    "w": 23,
+    "h": 18,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 87,
+    "y": 4184,
+    "w": 23,
+    "h": 18,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 1,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 1,
+    "offPage": 7,
+    "textNodes": 44,
+    "controls": 34,
+    "total": 1
+   },
+   "groups": [
+    {
+     "kind": "TEXT CLIPPED",
+     "advisory": false,
+     "n": 1,
+     "clipper": "div.teaser-block__teaser.is-selected",
+     "path": "div.teaser-block__teaser.is-selected > a.teaser-block__teaser__inner > hgroup.teaser-block__teaser__hgroup > h5.teaser-block__teaser__title",
+     "text": "\"technology is very apt at answering the question what can b",
+     "cutMin": 18,
+     "cutMax": 18
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.teaser-block__teaser",
+     "path": "div.teaser-block__teaser > a.teaser-block__teaser__inner > hgroup.teaser-block__teaser__hgroup > h5.teaser-block__teaser__title",
+     "text": "“this is innovation at work: borrowing, revising, rethinking",
+     "cutMin": 170,
+     "cutMax": 170
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/es-es/carrera",
+  "at": "2026-11-14T08:21:33.447Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4248,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-nav-menu-wrapper.site-nav-menu-labels > div.site-nav-logo > a.site-nav-logo-link",
+    "x": 24,
+    "y": 25,
+    "w": 80,
+    "h": 21,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > a.search-select.mobile",
+    "x": 232,
+    "y": 24,
+    "w": 22,
+    "h": 23,
+    "text": "go to search page",
+    "href": "/es-es/search/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open main menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open main menu",
+    "value": "open main menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 62,
+    "y": 75,
+    "w": 159,
+    "h": 22,
+    "label": "current",
+    "value": "trabaja con nosotros",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 62,
+    "y": 75,
+    "w": 159,
+    "h": 22,
+    "text": "Trabaja con nosotros"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-quaternary-text.masthead-quaternary-text-light > hgroup.masthead-quaternary-hgroup > h1#se-busca-personas-creativas-estratégicas-y-resolutivas",
+    "x": 46,
+    "y": 334,
+    "w": 268,
+    "h": 95,
+    "level": 1,
+    "text": "se busca: personas creativas, estratégicas y resolutivas"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.video-block-container-wrapper.loop > picture > img.video-block-image.poster",
+    "x": 24,
+    "y": 121,
+    "w": 312,
+    "h": 176,
+    "text": "",
+    "file": "media_1ceacaa7d4f61e4bb6cd0543aaa2330c6b"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-block.block > div.text-block-inner > p",
+    "x": 22,
+    "y": 467,
+    "w": 317,
+    "h": 168,
+    "text": "Somos una empresa digital global formada por personas innovadoras que desarrolla"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.secondary-hollow > div.default-content-wrapper > h2#quiénes-somos",
+    "x": 24,
+    "y": 675,
+    "w": 312,
+    "h": 34,
+    "level": 2,
+    "text": "quiénes somos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.secondary-hollow > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 724,
+    "w": 312,
+    "h": 90,
+    "text": "En Valtech, el equipo es nuestro mayor activo. Por eso creemos en incorporar tal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.secondary-hollow > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 827,
+    "w": 312,
+    "h": 134,
+    "text": "Eso es exactamente lo que somos: un equipo multicultural de nativos digitales am"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.secondary-hollow > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 974,
+    "w": 312,
+    "h": 202,
+    "text": "Vivimos con la mentalidad de “El nosotros por delante del yo”, y no es solo una "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.secondary-hollow > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 1188,
+    "w": 312,
+    "h": 112,
+    "text": "Todo esto ha dado forma a una cultura informal basada en el respeto mutuo, la li"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.secondary-hollow > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 1313,
+    "w": 312,
+    "h": 22,
+    "text": "Por qué deberías trabajar con nosotros"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p.button-wrapper > a.button.primary",
+    "x": 24,
+    "y": 1348,
+    "w": 312,
+    "h": 90,
+    "text": "nuestros valores y principios",
+    "href": "/es-es/career/our-values/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.jobs-container > div.jobs-list > a.row",
+    "x": 22,
+    "y": 1470,
+    "w": 317,
+    "h": 73,
+    "text": "copywriter mexico - remote",
+    "href": "/es-es/carrera/ofertas-de-empleo/5035292101/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.row > div.eight.column > h4.jobs-list-title",
+    "x": 22,
+    "y": 1473,
+    "w": 68,
+    "h": 22,
+    "level": 4,
+    "text": "copywriter"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.row > div.four.column > h5.jobs-list-city",
+    "x": 22,
+    "y": 1495,
+    "w": 317,
+    "h": 17,
+    "level": 5,
+    "text": "mexico - remote"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.jobs-container > div.jobs-list > a.row",
+    "x": 22,
+    "y": 1542,
+    "w": 317,
+    "h": 103,
+    "text": "technical delivery manager canada - remote",
+    "href": "/es-es/carrera/ofertas-de-empleo/5033753101/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.row > div.eight.column > h4.jobs-list-title",
+    "x": 22,
+    "y": 1575,
+    "w": 172,
+    "h": 22,
+    "level": 4,
+    "text": "technical delivery manager"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.row > div.four.column > h5.jobs-list-city",
+    "x": 22,
+    "y": 1597,
+    "w": 317,
+    "h": 17,
+    "level": 5,
+    "text": "canada - remote"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.jobs-container > div.jobs-list > a.row",
+    "x": 22,
+    "y": 1645,
+    "w": 317,
+    "h": 103,
+    "text": "software test engineer india - remote, bengaluru",
+    "href": "/es-es/carrera/ofertas-de-empleo/5025604101/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.row > div.eight.column > h4.jobs-list-title",
+    "x": 22,
+    "y": 1678,
+    "w": 143,
+    "h": 22,
+    "level": 4,
+    "text": "software test engineer"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.row > div.four.column > h5.jobs-list-city",
+    "x": 22,
+    "y": 1700,
+    "w": 317,
+    "h": 17,
+    "level": 5,
+    "text": "india - remote, bengaluru"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.jobs-container > div.jobs-list > a.row",
+    "x": 22,
+    "y": 1748,
+    "w": 317,
+    "h": 103,
+    "text": "salesforce marketing cloud developer bengaluru",
+    "href": "/es-es/carrera/ofertas-de-empleo/5001647101/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.row > div.eight.column > h4.jobs-list-title",
+    "x": 22,
+    "y": 1781,
+    "w": 238,
+    "h": 22,
+    "level": 4,
+    "text": "salesforce marketing cloud developer"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.row > div.four.column > h5.jobs-list-city",
+    "x": 22,
+    "y": 1802,
+    "w": 317,
+    "h": 17,
+    "level": 5,
+    "text": "bengaluru"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.jobs-list > div.jobs-list-actions > a.button.button-secondary-hollow",
+    "x": 22,
+    "y": 1890,
+    "w": 190,
+    "h": 59,
+    "text": "ver todo",
+    "href": "/es-es/carrera/ofertas-de-empleo/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.jobs-media > picture > img",
+    "x": 0,
+    "y": 2021,
+    "w": 360,
+    "h": 270,
+    "text": "",
+    "file": "media_104041ff692863ee4c4266250b4202ced4"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.jobs-media > div.jobs-media-text > h5#da-la-bienvenida-a-tu-futuro",
+    "x": 22,
+    "y": 2311,
+    "w": 317,
+    "h": 22,
+    "level": 5,
+    "text": "da la bienvenida a tu futuro"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.jobs-media > div.jobs-media-text > p",
+    "x": 22,
+    "y": 2357,
+    "w": 317,
+    "h": 67,
+    "text": "Explora nuestras oficinas en todo el mundo para encontrar empleo en tu área de e"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block.block > div.teaser-block-header > h4#descubre-las-caras-de-la-innovación-en-valtech",
+    "x": 24,
+    "y": 2544,
+    "w": 292,
+    "h": 101,
+    "level": 4,
+    "text": "descubre las caras de la innovación en valtech"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#technology-is-very-apt-at-answering-the-question-what-can-be-done-but-we-need-design-to-answer-the-question-what-should-be-done",
+    "x": 48,
+    "y": 2979,
+    "w": 215,
+    "h": 120,
+    "level": 5,
+    "text": "\"technology is very apt at answering the question what can be done, but we need design to answer the question what shoul"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-teaser-image-wrapper > picture > img",
+    "x": -124,
+    "y": 2658,
+    "w": 566,
+    "h": 424,
+    "text": "",
+    "file": "media_19f5627b07f7413bd17dcbaa401a40c71d"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#this-is-innovation-at-work-borrowing-revising-rethinking-testing-and-challenging-norms-all-for-a-greater-purpose",
+    "x": 338,
+    "y": 2979,
+    "w": 215,
+    "h": 100,
+    "level": 5,
+    "text": "“this is innovation at work: borrowing, revising, rethinking, testing, and challenging norms, all for a greater purpose."
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-teaser-image-wrapper > picture > img",
+    "x": 166,
+    "y": 2658,
+    "w": 566,
+    "h": 424,
+    "text": "",
+    "file": "media_1f69d347828f8221b70668b88d734ef9c7"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block.block > div.teaser-block-container.flickity-enabled > button.carousel-btn.carousel-btn-long",
+    "x": 240,
+    "y": 3095,
+    "w": 40,
+    "h": 40,
+    "text": "previous"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block.block > div.teaser-block-container.flickity-enabled > button.carousel-btn.carousel-btn-long",
+    "x": 296,
+    "y": 3095,
+    "w": 40,
+    "h": 40,
+    "text": "next"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.subscription-block-inner > div.subscription-block-band > h2#empieza-a-vivir-tu-sueño",
+    "x": 39,
+    "y": 3216,
+    "w": 283,
+    "h": 28,
+    "level": 2,
+    "text": "¡empieza a vivir tu sueño!"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.subscription-block-band > p.subscription-block-action > a.subscription-block-button",
+    "x": 24,
+    "y": 3275,
+    "w": 312,
+    "h": 79,
+    "text": "explora nuestras vacantes disponibles",
+    "href": "/es-es/carrera/ofertas-de-empleo/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-us-form-container.js-accordion > div.contact-us-form-column > button.contact-us-form-accordion-button",
+    "x": 0,
+    "y": 3395,
+    "w": 360,
+    "h": 89,
+    "text": "contáctanos"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-us-form-container.js-accordion > div.contact-us-form-column > button.contact-us-form-accordion-button",
+    "x": 0,
+    "y": 3395,
+    "w": 360,
+    "h": 89,
+    "label": "trigger",
+    "value": "contáctanos",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 16,
+    "y": 3582,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 242,
+    "y": 3582,
+    "w": 58,
+    "h": 45,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 16,
+    "y": 3646,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 242,
+    "y": 3646,
+    "w": 82,
+    "h": 45,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer-column.site-footer-stamp > picture > img",
+    "x": 16,
+    "y": 3709,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "media_18686ce5d542e21460f5b9773dc388b150"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 3850,
+    "w": 134,
+    "h": 18,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 3891,
+    "w": 118,
+    "h": 18,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 3932,
+    "w": 71,
+    "h": 18,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 3973,
+    "w": 84,
+    "h": 18,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 4014,
+    "w": 136,
+    "h": 18,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a.cookiebot-reset",
+    "x": 16,
+    "y": 4055,
+    "w": 158,
+    "h": 18,
+    "text": "configuración de cookies",
+    "href": "/es-es/carrera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 16,
+    "y": 4136,
+    "w": 23,
+    "h": 18,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 87,
+    "y": 4136,
+    "w": 23,
+    "h": 18,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 158,
+    "y": 4136,
+    "w": 23,
+    "h": 18,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 229,
+    "y": 4136,
+    "w": 23,
+    "h": 18,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 16,
+    "y": 4181,
+    "w": 23,
+    "h": 18,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 87,
+    "y": 4181,
+    "w": 23,
+    "h": 18,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 1,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 1,
+    "offPage": 2,
+    "textNodes": 40,
+    "controls": 32,
+    "total": 1
+   },
+   "groups": [
+    {
+     "kind": "TEXT CLIPPED",
+     "advisory": false,
+     "n": 1,
+     "clipper": "div.teaser-block-teaser.is-selected",
+     "path": "div.teaser-block-teaser.is-selected > div.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#technology-is-very-apt-at-answering-the-question-what-can-be-done-but-we-need-design-to-answer-the-question-what-should-be-done",
+     "text": "\"technology is very apt at answering the question what can b",
+     "cutMin": 18,
+     "cutMax": 18
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.teaser-block-teaser",
+     "path": "div.teaser-block-teaser > div.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#this-is-innovation-at-work-borrowing-revising-rethinking-testing-and-challenging-norms-all-for-a-greater-purpose",
+     "text": "“this is innovation at work: borrowing, revising, rethinking",
+     "cutMin": 170,
+     "cutMax": 170
+    }
+   ],
+   "findings": [
+    {
+     "kind": "TEXT CLIPPED",
+     "cut": 18,
+     "hiddenLines": 0,
+     "path": "div.teaser-block-teaser.is-selected > div.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#technology-is-very-apt-at-answering-the-question-what-can-be-done-but-we-need-design-to-answer-the-question-what-should-be-done",
+     "text": "\"technology is very apt at answering the question what can b",
+     "clipper": "div.teaser-block-teaser.is-selected",
+     "rect": {
+      "l": 51,
+      "t": 2978,
+      "r": 231,
+      "b": 2999,
+      "w": 180,
+      "h": 21
+     },
+     "clip": {
+      "l": 24,
+      "t": 2661,
+      "r": 294,
+      "b": 3081,
+      "w": 270,
+      "h": 420
+     },
+     "lines": 11
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 170,
+     "path": "div.teaser-block-teaser > div.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#this-is-innovation-at-work-borrowing-revising-rethinking-testing-and-challenging-norms-all-for-a-greater-purpose",
+     "text": "“this is innovation at work: borrowing, revising, rethinking",
+     "clipper": "div.teaser-block-teaser",
+     "rect": {
+      "l": 341,
+      "t": 2978,
+      "r": 528,
+      "b": 2999,
+      "w": 187,
+      "h": 21
+     },
+     "clip": {
+      "l": 314,
+      "t": 2661,
+      "r": 584,
+      "b": 3081,
+      "w": 270,
+      "h": 420
+     },
+     "lines": 9
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "se busca: personas creativas, estratégicas y resolutivas",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "quiénes somos",
+   "variable": true,
+   "origin": {
+    "link": 6,
+    "button": 2,
+    "text": 6,
+    "image": 1
+   },
+   "eds": {
+    "link": 6,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 2
+   },
+   "findings": [
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "CONTROL MISSING"
+   ]
+  },
+  {
+   "index": 3,
+   "heading": "¡empieza a vivir tu sueño!",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"technical delivery manager canada - remote\" served in band \"quiénes somos\", no origin link or button",
+   "band": 2,
+   "n": 1,
+   "text": "technical delivery manager canada - remote"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"software test engineer india - remote, bengaluru\" served in band \"quiénes somos\", no origin link or button",
+   "band": 2,
+   "n": 1,
+   "text": "software test engineer india - remote, bengaluru"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"salesforce marketing cloud developer bengaluru\" served in band \"quiénes somos\", no origin link or button",
+   "band": 2,
+   "n": 1,
+   "text": "salesforce marketing cloud developer bengaluru"
+  },
+  {
+   "sev": "🟡",
+   "kind": "CONTROL MISSING",
+   "msg": "current = \"slide 1\" (band \"quiénes somos\") has no served counterpart",
+   "band": 2,
+   "label": "current",
+   "value": "slide 1"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"contáctanos\" served in band \"¡empieza a vivir tu sueño!\", no origin link or button",
+   "band": 3,
+   "n": 1,
+   "text": "contáctanos"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 4,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 5,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 75,
+    "y": 75,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 46,
+    "y": 334,
+    "w": 231,
+    "h": 35
+   },
+   {
+    "x": 46,
+    "y": 364,
+    "w": 268,
+    "h": 35
+   },
+   {
+    "x": 46,
+    "y": 394,
+    "w": 153,
+    "h": 35
+   },
+   {
+    "x": 37,
+    "y": 468,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 492,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 26,
+    "y": 516,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 33,
+    "y": 540,
+    "w": 293,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 564,
+    "w": 312,
+    "h": 21
+   },
+   {
+    "x": 35,
+    "y": 588,
+    "w": 290,
+    "h": 21
+   },
+   {
+    "x": 99,
+    "y": 612,
+    "w": 163,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 672,
+    "w": 208,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 724,
+    "w": 273,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 747,
+    "w": 266,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 769,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 792,
+    "w": 238,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 827,
+    "w": 264,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 849,
+    "w": 282,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 872,
+    "w": 264,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 894,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 916,
+    "w": 216,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 939,
+    "w": 303,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 974,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 996,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1019,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1041,
+    "w": 254,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1064,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1086,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1108,
+    "w": 259,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1131,
+    "w": 259,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1153,
+    "w": 158,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1188,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1211,
+    "w": 277,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1233,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1255,
+    "w": 257,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1278,
+    "w": 68,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1313,
+    "w": 274,
+    "h": 21
+   },
+   {
+    "x": 107,
+    "y": 1368,
+    "w": 147,
+    "h": 23
+   },
+   {
+    "x": 141,
+    "y": 1395,
+    "w": 79,
+    "h": 23
+   },
+   {
+    "x": 22,
+    "y": 1472,
+    "w": 224,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1494,
+    "w": 144,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1574,
+    "w": 142,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1596,
+    "w": 127,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1677,
+    "w": 142,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1699,
+    "w": 47,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1780,
+    "w": 68,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1801,
+    "w": 105,
+    "h": 18
+   },
+   {
+    "x": 83,
+    "y": 1908,
+    "w": 68,
+    "h": 23
+   },
+   {
+    "x": 72,
+    "y": 2314,
+    "w": 217,
+    "h": 23
+   },
+   {
+    "x": 28,
+    "y": 2360,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 52,
+    "y": 2383,
+    "w": 257,
+    "h": 21
+   },
+   {
+    "x": 139,
+    "y": 2405,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2545,
+    "w": 252,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 2578,
+    "w": 213,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 2612,
+    "w": 139,
+    "h": 39
+   },
+   {
+    "x": 51,
+    "y": 2981,
+    "w": 180,
+    "h": 21
+   },
+   {
+    "x": 231,
+    "y": 2981,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 3001,
+    "w": 203,
+    "h": 21
+   },
+   {
+    "x": 254,
+    "y": 3001,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 3021,
+    "w": 180,
+    "h": 21
+   },
+   {
+    "x": 231,
+    "y": 3021,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 3041,
+    "w": 147,
+    "h": 21
+   },
+   {
+    "x": 198,
+    "y": 3041,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 3061,
+    "w": 173,
+    "h": 21
+   },
+   {
+    "x": 224,
+    "y": 3061,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 3081,
+    "w": 48,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 2981,
+    "w": 187,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 3001,
+    "w": 139,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 3021,
+    "w": 162,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 3041,
+    "w": 189,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 3061,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "x": 39,
+    "y": 3215,
+    "w": 283,
+    "h": 34
+   },
+   {
+    "x": 93,
+    "y": 3296,
+    "w": 175,
+    "h": 23
+   },
+   {
+    "x": 77,
+    "y": 3318,
+    "w": 207,
+    "h": 23
+   },
+   {
+    "x": 16,
+    "y": 3422,
+    "w": 173,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 3585,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 3585,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 3609,
+    "w": 47,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3649,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 3649,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 3673,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3853,
+    "w": 134,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 3894,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 3935,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 3976,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4017,
+    "w": 136,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4058,
+    "w": 158,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 75,
+    "y": 75,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 46,
+    "y": 334,
+    "w": 231,
+    "h": 35
+   },
+   {
+    "x": 46,
+    "y": 364,
+    "w": 268,
+    "h": 35
+   },
+   {
+    "x": 46,
+    "y": 394,
+    "w": 153,
+    "h": 35
+   },
+   {
+    "x": 37,
+    "y": 468,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 492,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 26,
+    "y": 516,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 33,
+    "y": 540,
+    "w": 293,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 564,
+    "w": 312,
+    "h": 21
+   },
+   {
+    "x": 35,
+    "y": 588,
+    "w": 290,
+    "h": 21
+   },
+   {
+    "x": 99,
+    "y": 612,
+    "w": 163,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 672,
+    "w": 208,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 724,
+    "w": 273,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 747,
+    "w": 266,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 769,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 792,
+    "w": 235,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 827,
+    "w": 264,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 849,
+    "w": 282,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 872,
+    "w": 264,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 894,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 916,
+    "w": 216,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 939,
+    "w": 303,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 974,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 996,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1019,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1041,
+    "w": 254,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1064,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1086,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1108,
+    "w": 259,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1131,
+    "w": 259,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1153,
+    "w": 158,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1188,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1211,
+    "w": 277,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1233,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1255,
+    "w": 257,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1278,
+    "w": 68,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1313,
+    "w": 274,
+    "h": 21
+   },
+   {
+    "x": 107,
+    "y": 1368,
+    "w": 147,
+    "h": 23
+   },
+   {
+    "x": 141,
+    "y": 1395,
+    "w": 79,
+    "h": 23
+   },
+   {
+    "x": 22,
+    "y": 1472,
+    "w": 68,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1494,
+    "w": 105,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1574,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1596,
+    "w": 108,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1677,
+    "w": 143,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1699,
+    "w": 161,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1780,
+    "w": 238,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 1801,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 83,
+    "y": 1908,
+    "w": 68,
+    "h": 23
+   },
+   {
+    "x": 72,
+    "y": 2310,
+    "w": 217,
+    "h": 23
+   },
+   {
+    "x": 28,
+    "y": 2357,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 52,
+    "y": 2379,
+    "w": 257,
+    "h": 21
+   },
+   {
+    "x": 139,
+    "y": 2401,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2541,
+    "w": 252,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 2574,
+    "w": 213,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 2608,
+    "w": 139,
+    "h": 39
+   },
+   {
+    "x": 51,
+    "y": 2978,
+    "w": 180,
+    "h": 21
+   },
+   {
+    "x": 231,
+    "y": 2978,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 2998,
+    "w": 203,
+    "h": 21
+   },
+   {
+    "x": 254,
+    "y": 2998,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 3018,
+    "w": 180,
+    "h": 21
+   },
+   {
+    "x": 231,
+    "y": 3018,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 3038,
+    "w": 147,
+    "h": 21
+   },
+   {
+    "x": 198,
+    "y": 3038,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 3058,
+    "w": 173,
+    "h": 21
+   },
+   {
+    "x": 224,
+    "y": 3058,
+    "w": 3,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 3078,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 2978,
+    "w": 187,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 2998,
+    "w": 139,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 3018,
+    "w": 162,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 3038,
+    "w": 189,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 3058,
+    "w": 122,
+    "h": 21
+   },
+   {
+    "x": 39,
+    "y": 3212,
+    "w": 283,
+    "h": 34
+   },
+   {
+    "x": 93,
+    "y": 3292,
+    "w": 175,
+    "h": 23
+   },
+   {
+    "x": 77,
+    "y": 3314,
+    "w": 207,
+    "h": 23
+   },
+   {
+    "x": 16,
+    "y": 3419,
+    "w": 173,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 3582,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 3582,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 3606,
+    "w": 47,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3646,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 3646,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 3670,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3850,
+    "w": 134,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 3891,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 3932,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 3973,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4014,
+    "w": 136,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4055,
+    "w": 158,
+    "h": 18
+   }
+  ]
+ }
+}

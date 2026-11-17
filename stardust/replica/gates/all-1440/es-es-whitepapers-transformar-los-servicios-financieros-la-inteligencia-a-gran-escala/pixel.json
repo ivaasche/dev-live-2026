@@ -1,0 +1,71 @@
+{
+  "a": "stardust/replica/gates/all-1440/es-es-whitepapers-transformar-los-servicios-financieros-la-inteligencia-a-gran-escala/origin.png",
+  "b": "stardust/replica/gates/all-1440/es-es-whitepapers-transformar-los-servicios-financieros-la-inteligencia-a-gran-escala/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 4039,
+    "mode": "overlap"
+  },
+  "heightDelta": -68,
+  "differingPixels": 217825,
+  "pct": 3.75,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/es-es-whitepapers-transformar-los-servicios-financieros-la-inteligencia-a-gran-escala/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 0.88,
+  "textBoxes": 96,
+  "textPixels": 875810,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 13
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.9
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0.2
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 15.9
+    },
+    {
+      "y0": 4000,
+      "y1": 4039,
+      "pct": 1.4
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/whitepapers/transformar-los-servicios-financieros-la-inteligencia-a-gran-escala"
+  }
+}

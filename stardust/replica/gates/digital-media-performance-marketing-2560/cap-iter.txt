@@ -1,0 +1,22 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.valtech.com/digital-media-performance-marketing/
+  other    2 capped box(es) outside the section tier (in the JSON) — e.g. 1408px #contact-us-form > div.contact-us-form__container.js-accordion
+  modules  10 sections: capped 810 ×3, 760 ×3 · full-bleed ×4
+  contentMaxWidth 810px (module) · shellMaxWidth fluid · root #valtech-content
+build  http://localhost:8791/digital-media-performance-marketing-proposed.html
+  other    1 capped box(es) outside the section tier (in the JSON) — e.g. 1408px #contact-us-form > div.contact-us-form__container.js-accordion
+  modules  10 sections: capped 810 ×3, 760 ×3 · full-bleed ×4
+  contentMaxWidth 810px (module) · shellMaxWidth fluid · root #valtech-content
+rows
+  ✓ content cap: live 810px = build 810px (±20, shared module cap)
+  ✓ module 1/10: full-bleed on both
+  ✓ module 2/10: full-bleed on both
+  ✓ module 3/10: 810px = 810px
+  ✓ module 4/10: 810px = 810px
+  ✓ module 5/10: full-bleed on both
+  ✓ module 6/10: 760px = 760px
+  ✓ module 7/10: 760px = 760px
+  ✓ module 8/10: 760px = 760px
+  ✓ module 9/10: full-bleed on both
+  ✓ module 10/10: 810px = 810px
+cap-probe: PASS at 2560 — 0 of 11 rows failed (evidence stardust/replica/gates/digital-media-performance-marketing-2560/cap-iter.json)

@@ -1,0 +1,56 @@
+/* marketo-form — the form itself is canon (.marketo-form-block / .mkto-form* in styles.css) */
+
+.marketo-form .mkto-form-status {
+  font-size: 1rem;
+  margin: 1rem 0 0;
+}
+
+.marketo-form .mkto-form-status:empty {
+  display: none;
+}
+
+/* `download` variant — whitepaper download gate (prototypes/css/whitepaper.css, main.css
+   @253073–260382 + global inputs @36694): on top of the in-main light canon in styles.css */
+.marketo-form.download .mkto-form input,
+.marketo-form.download .mkto-form select {
+  border-color: #000;
+  border-style: solid;
+  border-width: 0 0 1px;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 500;
+  height: 38px;
+  padding: .375rem 0;
+}
+
+.marketo-form.download .mkto-form input:focus,
+.marketo-form.download .mkto-form input:hover,
+.marketo-form.download .mkto-form select:focus,
+.marketo-form.download .mkto-form select:hover {
+  border-bottom-width: 2px;
+}
+
+@media (width >= 58.75rem) {
+  .marketo-form.download .mkto-form-col-single input {
+    max-width: 50%;
+  }
+}
+
+.marketo-form.download .mkto-form-field-float label {
+  font-size: 1rem;
+}
+
+.marketo-form.download .mkto-form-field-select::after {
+  border: solid #000;
+  border-width: .125rem 0 0 .125rem;
+  box-sizing: border-box;
+}
+
+.marketo-form.download .mkto-form-check input:focus ~ .indicator,
+.marketo-form.download .mkto-form-check:hover input ~ .indicator {
+  border-color: #363636;
+}
+
+.marketo-form.download .mkto-form-check a {
+  color: inherit;
+}

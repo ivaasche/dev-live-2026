@@ -1,0 +1,503 @@
+/* stylelint-disable no-descending-specificity -- source cascade order lifted verbatim */
+
+/* featured-verticals-block — section.featured-verticals-block (prototype css/landing.css,
+   homepage.css), values verbatim; authored heading / paragraphs / pictures styled through
+   their slots (EW2) */
+
+.featured-verticals-block {
+  background-color: #fff;
+  margin: 0;
+}
+
+@media (width >= 64rem) {
+  .featured-verticals-block {
+    margin-right: var(--side-col);
+  }
+}
+
+@media (width >= 96rem) {
+  .featured-verticals-block {
+    margin-right: 0;
+  }
+}
+
+.featured-verticals-block .featured-verticals-block-container {
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+
+@media (width >= 58.75rem) {
+  .featured-verticals-block .featured-verticals-block-container {
+    height: calc(60vw - 57.6px);
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 50rem;
+    max-width: var(--container);
+    min-height: 38.125rem;
+    overflow: hidden;
+    padding: 6rem 1rem;
+    position: relative;
+  }
+}
+
+@media screen and (width >= 58.75rem) and (width <= 81.25rem) and (hover: hover) {
+  .featured-verticals-block .featured-verticals-block-container {
+    height: calc(54vw - 57.6px);
+    max-width: 72%;
+    min-height: 33.125rem;
+  }
+
+  .featured-verticals-block .featured-verticals-block-container .featured-verticals-block-item {
+    width: calc(100% - 76px);
+  }
+
+  .featured-verticals-block .featured-verticals-block-container
+  .featured-verticals-block-item-picture {
+    max-width: 50%;
+  }
+}
+
+@media (width >= 96rem) {
+  .featured-verticals-block .featured-verticals-block-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--container-wide);
+  }
+}
+
+.featured-verticals-block .featured-verticals-block-content {
+  position: relative;
+  width: 100%;
+}
+
+@media (width >= 58.75rem) {
+  .featured-verticals-block .featured-verticals-block-content {
+    height: 100%;
+  }
+}
+
+.featured-verticals-block .featured-verticals-block-viewport {
+  max-height: 100%;
+  overflow: hidden;
+  position: relative;
+  transition: height .15s ease;
+}
+
+@media (width >= 58.75rem) {
+  .featured-verticals-block .featured-verticals-block-viewport {
+    height: 100%;
+    min-height: 100%;
+    transition: none;
+  }
+}
+
+.featured-verticals-block .featured-verticals-block-track {
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+  transition: transform .5s ease;
+  width: 100%;
+}
+
+@media (width >= 58.75rem) {
+  .featured-verticals-block .featured-verticals-block-track {
+    align-items: stretch;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+}
+
+.featured-verticals-block .featured-verticals-block-item {
+  flex: none;
+  height: auto;
+  margin-right: 16px;
+  position: relative;
+  top: -1px;
+  width: 74vw;
+}
+
+@media (width >= 33.75rem) {
+  .featured-verticals-block .featured-verticals-block-item {
+    width: calc(100% - 96px);
+  }
+}
+
+@media (width >= 58.75rem) {
+  .featured-verticals-block .featured-verticals-block-item {
+    height: 100%;
+    min-height: 100%;
+    top: 0;
+  }
+}
+
+@media (width >= 96rem) {
+  .featured-verticals-block .featured-verticals-block-item {
+    margin-right: 2rem;
+  }
+}
+
+@media (width <= 58.75rem) {
+  .featured-verticals-block .featured-verticals-block-item:not(.is-selected) img {
+    height: 70vw;
+  }
+
+  .featured-verticals-block .featured-verticals-block-item:not(.is-selected)
+  .featured-verticals-block-item-content {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.featured-verticals-block .featured-verticals-block-item-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3.75rem;
+  height: auto;
+  justify-content: flex-start;
+  min-height: 100%;
+  width: 100%;
+}
+
+@media (width >= 58.75rem) {
+  .featured-verticals-block .featured-verticals-block-item-wrapper {
+    flex-direction: row;
+    gap: 0;
+    height: 100%;
+  }
+}
+
+.featured-verticals-block .featured-verticals-block-item-picture {
+  aspect-ratio: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+@media (width >= 58.75rem) {
+  .featured-verticals-block .featured-verticals-block-item-picture {
+    height: 100%;
+    margin-bottom: 0;
+    max-width: 60%;
+  }
+}
+
+/* rendition switch = the source <source media="(orientation: …)"> pair (the shown picture
+   stays inline, as the source one) */
+@media (orientation: portrait) {
+  .featured-verticals-block .featured-verticals-block-item-picture picture.landscape {
+    display: none;
+  }
+}
+
+@media (orientation: landscape) {
+  .featured-verticals-block .featured-verticals-block-item-picture picture.portrait {
+    display: none;
+  }
+}
+
+.featured-verticals-block .featured-verticals-block-item-picture:hover
+.featured-verticals-block-item-picture-button {
+  opacity: 1;
+}
+
+.featured-verticals-block .featured-verticals-block-item-picture-button {
+  display: none;
+  opacity: 0;
+}
+
+.featured-verticals-block .featured-verticals-block-item-picture-button:focus-visible {
+  opacity: 1;
+}
+
+@media (width >= 58.75rem) {
+  .featured-verticals-block .featured-verticals-block-item-picture-button {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 100%;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    height: 8rem;
+    justify-content: center;
+    left: calc(50% - 4rem);
+    padding: .75rem;
+    position: absolute;
+    text-align: center;
+    top: calc(50% - 4rem);
+    transition: 1s ease;
+    width: 8rem;
+    z-index: 3;
+  }
+}
+
+.featured-verticals-block .featured-verticals-block-item-picture-button span {
+  display: block;
+  font-weight: 400;
+}
+
+.featured-verticals-block .featured-verticals-block-item-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+@media (width >= 58.75rem) {
+  .featured-verticals-block .featured-verticals-block-item-content {
+    justify-content: space-between;
+    margin-left: 2rem;
+  }
+}
+
+/* source span.featured-verticals-block__item__pretitle: an inline box on the title's line */
+.featured-verticals-block .featured-verticals-block-item-pretitle {
+  display: inline;
+}
+
+.featured-verticals-block .featured-verticals-block-item-pretitle p {
+  color: var(--c-grey-text);
+  display: inline;
+  font-size: 1.125rem;
+  font-weight: inherit;
+  line-height: inherit;
+  margin: 0 0 .625rem;
+}
+
+.featured-verticals-block .featured-verticals-block-item-title h3 {
+  font-family: var(--font-display);
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+@media (width <= 95.9375rem) {
+  .featured-verticals-block .featured-verticals-block-item-title h3 {
+    font-size: 3rem;
+  }
+}
+
+@media (width <= 76.25rem) {
+  .featured-verticals-block .featured-verticals-block-item-title h3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (width <= 58.75rem) {
+  .featured-verticals-block .featured-verticals-block-item-title h3 {
+    font-size: 2rem;
+    font-weight: 350;
+    margin-bottom: 1rem;
+  }
+}
+
+.featured-verticals-block .featured-verticals-block-item-text p {
+  font-size: 1.5rem;
+  max-width: 28.75rem;
+}
+
+@media (width <= 76.25rem) {
+  .featured-verticals-block .featured-verticals-block-item-text p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (width <= 58.75rem) {
+  .featured-verticals-block .featured-verticals-block-item-text p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 0 1rem;
+  }
+}
+
+.featured-verticals-block .featured-verticals-block-item-footer {
+  padding-left: 2px;
+}
+
+@media (width >= 58.75rem) {
+  .featured-verticals-block .featured-verticals-block-item-footer {
+    padding-left: 0;
+  }
+}
+
+/* the link paragraph is a plain line box, as the source anchor in its footer div */
+.featured-verticals-block .featured-verticals-block-item-footer > p:has(a) {
+  font: inherit;
+  margin: 0;
+}
+
+/* .btn-white wins over this rule on the source (loaded after it) — only margin/decoration */
+.featured-verticals-block .featured-verticals-block-item-link {
+  margin: auto 0 0;
+  text-decoration: none;
+}
+
+.featured-verticals-block .featured-verticals-block-item-picture img {
+  display: block;
+  height: calc(100% + 2px);
+  margin: -1px 0 0 -1px;
+  object-fit: cover;
+  transition: 1s ease;
+  width: calc(100% + 2px);
+}
+
+.featured-verticals-block .carousel-btn {
+  backdrop-filter: blur(4px);
+  background: #fff;
+  border-radius: 50%;
+  top: calc(74vw + 20px);
+  transition: background .2s ease;
+  z-index: 2;
+}
+
+@media screen and (width <= 940px) and (height >= 800px) and (aspect-ratio >= 0.6) {
+  .featured-verticals-block .carousel-btn {
+    top: calc(74vw + 60px);
+  }
+}
+
+@media (width >= 58.75rem) {
+  .featured-verticals-block .carousel-btn {
+    bottom: .25rem;
+    top: auto;
+  }
+}
+
+.featured-verticals-block .carousel-btn:hover {
+  background: var(--c-canvas);
+}
+
+.featured-verticals-block .carousel-btn::before {
+  width: 1.875rem;
+}
+
+.featured-verticals-block .carousel-btn-next {
+  left: 3.4375rem;
+}
+
+.featured-verticals-block .carousel-btn-prev {
+  left: -.3125rem;
+}
+
+@media (width >= 58.75rem) {
+  .featured-verticals-block .carousel-btn-next {
+    left: auto;
+    right: 6rem;
+  }
+
+  .featured-verticals-block .carousel-btn-prev {
+    left: auto;
+    right: 10rem;
+  }
+}
+
+/* variant `ie-hub` — source section.section.ie-hub-page.featured-verticals-block.white-theme
+   (hub pages, main.css @490474–497280, prototypes/css/microsite.css): the .section band
+   padding, the .section__container.centralized column, a "/ TITLE" eyebrow and a 16/8
+   slider box with no padding */
+.featured-verticals-block.ie-hub {
+  margin-right: 0;
+  padding: clamp(5rem, 5rem + 28 * (100vw - 52.125rem) / 446, 6.75rem) 0;
+}
+
+@media (width >= 80rem) {
+  .featured-verticals-block.ie-hub {
+    padding: clamp(6.75rem, 6.75rem + 12 * (100vw - 80rem) / 160, 7.5rem) 0;
+  }
+}
+
+@media (width >= 90rem) {
+  .featured-verticals-block.ie-hub {
+    padding: clamp(7.5rem, 7.5rem + 24 * (100vw - 90rem) / 288, 9rem) 0;
+  }
+}
+
+@media (width >= 108rem) {
+  .featured-verticals-block.ie-hub {
+    padding: clamp(9rem, 9rem + 16 * (100vw - 108rem) / 192, 10rem) 0;
+  }
+}
+
+/* source `.white-theme + .white-theme { padding-top: 0 !important }` (@42520) across sections */
+main .section:has(> div:last-child > :is(.white-theme, .ie-hub.featured-verticals-block, .ie-hub.podcast-speakers))
++ .section > div:first-child > .featured-verticals-block.ie-hub {
+  padding-top: 0 !important;
+}
+
+.featured-verticals-block.ie-hub .featured-verticals-block-inner {
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (width >= 39rem) {
+  .featured-verticals-block.ie-hub .featured-verticals-block-inner {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (width >= 52.125rem) {
+  .featured-verticals-block.ie-hub .featured-verticals-block-inner {
+    max-width: 77.5%;
+  }
+}
+
+@media (width >= 80rem) {
+  .featured-verticals-block.ie-hub .featured-verticals-block-inner {
+    max-width: 79.5%;
+  }
+}
+
+@media (width >= 90rem) {
+  .featured-verticals-block.ie-hub .featured-verticals-block-inner {
+    max-width: 78.5%;
+  }
+}
+
+@media (width >= 108rem) {
+  .featured-verticals-block.ie-hub .featured-verticals-block-inner {
+    max-width: 77%;
+  }
+}
+
+@media (width >= 120rem) {
+  .featured-verticals-block.ie-hub .featured-verticals-block-inner {
+    max-width: 1440px;
+  }
+}
+
+.featured-verticals-block.ie-hub .featured-verticals-block-title :is(h1, h2, h3, h4) {
+  color: var(--c-grey-text);
+  font-family: var(--font-sans);
+  font-size: clamp(.75rem, .75rem + 8 * (100vw - 39rem) / 656, 1.25rem);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.4;
+  margin: 0 0 1.5rem;
+  text-transform: uppercase;
+}
+
+.featured-verticals-block.ie-hub .featured-verticals-block-title :is(h1, h2, h3, h4)::before {
+  color: #d1d3ca;
+  content: "/";
+  font-weight: 400;
+  margin-right: .1875rem;
+}
+
+.featured-verticals-block.ie-hub .featured-verticals-block-container {
+  padding: 0;
+}
+
+@media (width >= 58.75rem) {
+  .featured-verticals-block.ie-hub .featured-verticals-block-container {
+    aspect-ratio: 16/8;
+    height: auto;
+    max-height: none;
+    min-height: auto;
+  }
+}
+
+@media screen and (width >= 58.75rem) and (width <= 81.25rem) and (hover: hover) {
+  .featured-verticals-block.ie-hub .featured-verticals-block-container {
+    max-width: none;
+  }
+}

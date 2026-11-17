@@ -1,0 +1,1002 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-13T20:32:07.208Z",
+  "tol": 4,
+  "n": 6,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/es-es/retail-en-la-encrucijada-2026/",
+  "at": "2026-11-13T20:31:44.711Z",
+  "docH": 6341
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/es-es/retail-en-la-encrucijada-2026",
+  "at": "2026-11-13T20:32:06.893Z",
+  "docH": 6031
+ },
+ "results": [
+  {
+   "sel": ".features-showcase__item=.features-showcase-item",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  },
+  {
+   "sel": ".two-columns__item__text=.two-columns-item-text",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  },
+  {
+   "sel": ".partners-block__section.inline .partners-block__logo=.partners-block-section.inline .partners-block-logo",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  },
+  {
+   "sel": ".podcast-speakers__info=.podcast-speakers-info",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:emilie robert",
+       "role": "text",
+       "text": "emilie robert",
+       "edsText": "emilie robert",
+       "byPosition": false,
+       "origin": {
+        "x": 102,
+        "y": 128,
+        "w": 107,
+        "h": 23
+       },
+       "eds": {
+        "x": 102,
+        "y": 128,
+        "w": 107,
+        "h": 23,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:responsable global de la vertical de ret",
+       "role": "text",
+       "text": "responsable global de la vertical de retail y global client ",
+       "edsText": "responsable global de la vertical de retail y global client ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 161,
+        "w": 312,
+        "h": 42
+       },
+       "eds": {
+        "x": 0,
+        "y": 161,
+        "w": 312,
+        "h": 42,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 125,
+        "y": 203,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 125,
+        "y": 203,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#2",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 156,
+        "y": 203,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 156,
+        "y": 203,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 127,
+        "y": 211,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 127,
+        "y": 211,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 158,
+        "y": 211,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 158,
+        "y": 211,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 97,
+       "y": 0,
+       "w": 118,
+       "h": 120,
+       "absY": 3176,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 3397,
+       "w": 312,
+       "h": 248
+      },
+      "eds": {
+       "x": 24,
+       "y": 3176,
+       "w": 312,
+       "h": 248
+      },
+      "dx": 0,
+      "dy": -221,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 7,
+      "within": 7,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:pascal malotti",
+       "role": "text",
+       "text": "pascal malotti",
+       "edsText": "pascal malotti",
+       "byPosition": false,
+       "origin": {
+        "x": 100,
+        "y": 128,
+        "w": 111,
+        "h": 23
+       },
+       "eds": {
+        "x": 100,
+        "y": 128,
+        "w": 111,
+        "h": 23,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:responsable global de estrategia de reta",
+       "role": "text",
+       "text": "responsable global de estrategia de retail y director de est",
+       "edsText": "responsable global de estrategia de retail y director de est",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 161,
+        "w": 312,
+        "h": 42
+       },
+       "eds": {
+        "x": 0,
+        "y": 161,
+        "w": 312,
+        "h": 42,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 141,
+        "y": 203,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 141,
+        "y": 203,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 143,
+        "y": 211,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 143,
+        "y": 211,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 97,
+       "y": 0,
+       "w": 118,
+       "h": 120,
+       "absY": 3464,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 3686,
+       "w": 312,
+       "h": 248
+      },
+      "eds": {
+       "x": 24,
+       "y": 3464,
+       "w": 312,
+       "h": 248
+      },
+      "dx": 0,
+      "dy": -222,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:gabriel laliberté",
+       "role": "text",
+       "text": "gabriel laliberté",
+       "edsText": "gabriel laliberté",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 128,
+        "w": 132,
+        "h": 23
+       },
+       "eds": {
+        "x": 90,
+        "y": 128,
+        "w": 132,
+        "h": 23,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:vicepresidente ejecutivo de estrategia e",
+       "role": "text",
+       "text": "vicepresidente ejecutivo de estrategia en valtech",
+       "edsText": "vicepresidente ejecutivo de estrategia en valtech",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 161,
+        "w": 312,
+        "h": 42
+       },
+       "eds": {
+        "x": 0,
+        "y": 161,
+        "w": 312,
+        "h": 42,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 141,
+        "y": 203,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 141,
+        "y": 203,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 143,
+        "y": 211,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 143,
+        "y": 211,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 97,
+       "y": 0,
+       "w": 118,
+       "h": 120,
+       "absY": 3753,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 3974,
+       "w": 312,
+       "h": 248
+      },
+      "eds": {
+       "x": 24,
+       "y": 3753,
+       "w": 312,
+       "h": 248
+      },
+      "dx": 0,
+      "dy": -221,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:matthew hildon",
+       "role": "text",
+       "text": "matthew hildon",
+       "edsText": "matthew hildon",
+       "byPosition": false,
+       "origin": {
+        "x": 93,
+        "y": 128,
+        "w": 126,
+        "h": 23
+       },
+       "eds": {
+        "x": 93,
+        "y": 128,
+        "w": 126,
+        "h": 23,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:european retail director",
+       "role": "text",
+       "text": "european retail director",
+       "edsText": "european retail director",
+       "byPosition": false,
+       "origin": {
+        "x": 69,
+        "y": 161,
+        "w": 173,
+        "h": 21
+       },
+       "eds": {
+        "x": 69,
+        "y": 161,
+        "w": 173,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 141,
+        "y": 182,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 141,
+        "y": 182,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 143,
+        "y": 190,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 143,
+        "y": 190,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 97,
+       "y": 0,
+       "w": 118,
+       "h": 120,
+       "absY": 4041,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 4262,
+       "w": 312,
+       "h": 227
+      },
+      "eds": {
+       "x": 24,
+       "y": 4041,
+       "w": 312,
+       "h": 227
+      },
+      "dx": 0,
+      "dy": -221,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".faq-block__list__item:nth-child(-n+5)=.faq-block-list-item:nth-child(-n+5)",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  }
+ ],
+ "verdict": {
+  "units": 4,
+  "within": 22,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 4,
+  "requiredOff": 0
+ }
+}

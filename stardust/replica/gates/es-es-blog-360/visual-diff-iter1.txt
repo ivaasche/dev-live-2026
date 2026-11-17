@@ -1,0 +1,621 @@
+[live-session] waiting to pace live navigations to www.valtech.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/es-es-blog-360/vdiff-iter1/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 6409,
+  "textLen": 5451,
+  "images": [
+   {
+    "src": "navigation--people-story-q4-diana-chavez-diana-s-photo-valtech-nav.jpg?width=940&height=530&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "940x530",
+    "rendered": "360x203",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tsk-9757-agent-factory-blog-navigation.png?width=940&height=530&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "940x530",
+    "rendered": "360x203",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tsk-9700-personal-agents--customer-relation-hero.png?width=940&height=530&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "940x530",
+    "rendered": "360x203",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tsk-8246-geo-blog-1-updates---adobe-navigation.png?width=580&height=384&format=webp&quality=75",
+    "natural": "580x384",
+    "rendered": "312x207",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "blog-munufacturing-mind-the-gap---moss-and-blue-gradient---valtech---navigation.png?width=580&height=384&format=webp&quality=75",
+    "natural": "580x384",
+    "rendered": "312x207",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tsk-7998-na---2026---event---b2b-online-chicago---post-event-blog-post-masthead-navigation.png?width=580&height=384&format=webp&quality=75",
+    "natural": "580x384",
+    "rendered": "312x207",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ie-event-utrecht-nl-header.jpg?width=580&height=384&format=webp&quality=75",
+    "natural": "580x384",
+    "rendered": "312x207",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "navigation-ie-key-take-away-london-blog-image-from-event-valtech-nav.png?width=580&height=384&format=webp&quality=75",
+    "natural": "580x384",
+    "rendered": "312x207",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tstsk-9376-people-story-anais-liu-ivan-jiao---nav.jpg?width=580&height=384&format=webp&quality=75",
+    "natural": "580x384",
+    "rendered": "312x207",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tsk-9241-google-ge-for-industries---1.png?width=580&height=384&format=webp&quality=75",
+    "natural": "580x384",
+    "rendered": "312x207",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "data-and-ai-blog---valet---valtech-nav.png?width=580&height=384&format=webp&quality=75",
+    "natural": "580x384",
+    "rendered": "312x207",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tsk-8684-why-are-content-costs-rising-in-the-age-of-ai-hero-nav.png?width=580&height=384&format=webp&quality=75",
+    "natural": "580x384",
+    "rendered": "312x207",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "blog-post-agentic-era-report-valtech-navigation.png?width=580&height=384&format=webp&quality=75",
+    "natural": "580x384",
+    "rendered": "312x207",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "badge-no-outline.png?width=442&height=128&rmode=max&rsampler=bicubic&compand=true&format=jpg",
+    "natural": "435x128",
+    "rendered": "218x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=86d924c1-1e39-4dab-b2ee-f3853296b946&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=21de4e74-bb80-4b3f-8533-ebe66db0b684&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fes-es%2Fblog%2F&tw_engaged_ms=20&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=86d924c1-1e39-4dab-b2ee-f3853296b946&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=21de4e74-bb80-4b3f-8533-ebe66db0b684&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fes-es%2Fblog%2F&tw_engaged_ms=20&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=2&event_id=1381e8ac-094a-4db3-a209-668c28938d80&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=21de4e74-bb80-4b3f-8533-ebe66db0b684&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fes-es%2Fblog%2F&tw_engaged_ms=10011&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=2&event_id=1381e8ac-094a-4db3-a209-668c28938d80&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=21de4e74-bb80-4b3f-8533-ebe66db0b684&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fes-es%2Fblog%2F&tw_engaged_ms=10011&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Diana Chavez - six years of crea",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Introducing the Agent Factory fo",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "The era of personal agents",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "El GEO como nueva frontera de la",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Cómo la IA transforma las búsque",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Presentamos El Muro de Datos B2B",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "The Intelligent Enterprise in Ut",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "What we learned at Intelligent E",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Opening the door, owning the roo",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Bridge the divide from AI pilot ",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Así se creó Valtech Concierge",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Estrategia para tiendas físicas:",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Agentic AI Challenges: What's Ho",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "masthead-insights__hgroup",
+    "width": 317,
+    "left": 22
+   },
+   {
+    "sel": "masthead-insights__hgroup",
+    "width": 317,
+    "left": 22
+   },
+   {
+    "sel": "masthead-insights__hgroup",
+    "width": 317,
+    "left": 22
+   },
+   {
+    "sel": "sc-bdDsCe",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "sc-bdDsCe",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "sc-bdDsCe",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "sc-bdDsCe",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "sc-bdDsCe",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "sc-bdDsCe",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "sc-bdDsCe",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "sc-bdDsCe",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "sc-bdDsCe",
+    "width": 312,
+    "left": 24
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 6410,
+  "textLen": 5450,
+  "images": [
+   {
+    "src": "navigation--people-story-q4-diana-chavez-diana-s-photo-valte-940x530.webp",
+    "natural": "940x530",
+    "rendered": "360x203",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tsk-9757-agent-factory-blog-navigation-940x530.webp",
+    "natural": "940x530",
+    "rendered": "360x203",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tsk-9700-personal-agents--customer-relation-hero-940x530.webp",
+    "natural": "940x530",
+    "rendered": "360x203",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tsk-8246-geo-blog-1-updates---adobe-navigation-580x384.webp",
+    "natural": "580x384",
+    "rendered": "312x207",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "blog-munufacturing-mind-the-gap---moss-and-blue-gradient---v-580x384.webp",
+    "natural": "580x384",
+    "rendered": "312x207",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tsk-7998-na---2026---event---b2b-online-chicago---post-event-580x384.webp",
+    "natural": "580x384",
+    "rendered": "312x207",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ie-event-utrecht-nl-header-580x384.webp",
+    "natural": "580x384",
+    "rendered": "312x207",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "navigation-ie-key-take-away-london-blog-image-from-event-val-580x384.webp",
+    "natural": "580x384",
+    "rendered": "312x207",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tstsk-9376-people-story-anais-liu-ivan-jiao---nav-580x384.webp",
+    "natural": "580x384",
+    "rendered": "312x207",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tsk-9241-google-ge-for-industries---1-580x384.webp",
+    "natural": "580x384",
+    "rendered": "312x207",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "data-and-ai-blog---valet---valtech-nav-580x384.webp",
+    "natural": "580x384",
+    "rendered": "312x207",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tsk-8684-why-are-content-costs-rising-in-the-age-of-ai-hero--580x384.webp",
+    "natural": "580x384",
+    "rendered": "312x207",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "blog-post-agentic-era-report-valtech-navigation-580x384.webp",
+    "natural": "580x384",
+    "rendered": "312x207",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "badge-no-outline.png",
+    "natural": "435x128",
+    "rendered": "218x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Diana Chavez - six years of crea",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Introducing the Agent Factory fo",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "The era of personal agents",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "El GEO como nueva frontera de la",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Cómo la IA transforma las búsque",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Presentamos El Muro de Datos B2B",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "The Intelligent Enterprise in Ut",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "What we learned at Intelligent E",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Opening the door, owning the roo",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Bridge the divide from AI pilot ",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Así se creó Valtech Concierge",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Estrategia para tiendas físicas:",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Agentic AI Challenges: What's Ho",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "masthead-insights__hgroup",
+    "width": 317,
+    "left": 22
+   },
+   {
+    "sel": "masthead-insights__hgroup",
+    "width": 317,
+    "left": 22
+   },
+   {
+    "sel": "masthead-insights__hgroup",
+    "width": 317,
+    "left": 22
+   },
+   {
+    "sel": "insight-item",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "insight-item",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "insight-item",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "insight-item",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "insight-item",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "insight-item",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "insight-item",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "insight-item",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "insight-item",
+    "width": 312,
+    "left": 24
+   }
+  ]
+ }
+}

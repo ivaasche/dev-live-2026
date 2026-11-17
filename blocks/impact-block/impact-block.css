@@ -1,0 +1,170 @@
+/* impact-block — source section.impact-block.section.dark-theme (main.css impact-block rules +
+   the .section / .section__container.centralized utilities it carries; values verbatim,
+   measured on /enterprise-ai-foundations-vtiq at 1440 and 360) */
+
+.impact-block {
+  padding: clamp(5rem, 5rem + 28 * (100vw - 52.125rem) / 446, 6.75rem) 0;
+}
+
+@media (width >= 80rem) {
+  .impact-block {
+    padding: clamp(6.75rem, 6.75rem + 12 * (100vw - 80rem) / 160, 7.5rem) 0;
+  }
+}
+
+@media (width >= 90rem) {
+  .impact-block {
+    padding: clamp(7.5rem, 7.5rem + 24 * (100vw - 90rem) / 288, 9rem) 0;
+  }
+}
+
+@media (width >= 108rem) {
+  .impact-block {
+    padding: clamp(9rem, 9rem + 16 * (100vw - 108rem) / 192, 10rem) 0;
+  }
+}
+
+@media (width >= 64rem) {
+  .impact-block {
+    margin-right: 64px;
+  }
+}
+
+.impact-block.dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.impact-block .impact-block-container {
+  margin: 0 auto;
+  padding: 0 1rem;
+  gap: clamp(2rem, 2rem + 32 * (100vw - 39rem) / 656, 4rem);
+}
+
+@media (width >= 39rem) {
+  .impact-block .impact-block-container {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (width >= 52.125rem) {
+  .impact-block .impact-block-container {
+    max-width: 77.5%;
+  }
+}
+
+@media (width >= 80rem) {
+  .impact-block .impact-block-container {
+    max-width: 79.5%;
+  }
+}
+
+@media (width >= 90rem) {
+  .impact-block .impact-block-container {
+    max-width: 78.5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (width >= 108rem) {
+  .impact-block .impact-block-container {
+    max-width: 77%;
+  }
+}
+
+@media (width >= 120rem) {
+  .impact-block .impact-block-container {
+    max-width: 1440px;
+  }
+}
+
+.impact-block .impact-block-title {
+  color: inherit;
+}
+
+.impact-block .impact-block-items {
+  display: grid;
+  gap: clamp(2rem, 2rem + 32 * (100vw - 39rem) / 656, 4rem);
+  grid-column: 1;
+}
+
+@media (width >= 39rem) {
+  .impact-block .impact-block-items-count-2,
+  .impact-block .impact-block-items-count-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .impact-block .impact-block-items-count-3 {
+    grid-column: 1 / span 3;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (width >= 90rem) {
+  .impact-block .impact-block-items-count-2,
+  .impact-block .impact-block-items-count-4 {
+    grid-column: 2 / span 2;
+  }
+}
+
+.impact-block .impact-block-item-data {
+  font-family: ValtechNeue, sans-serif;
+  font-size: clamp(3rem, 3rem + 32 * (100vw - 39rem) / 656, 5rem);
+  font-weight: 300;
+  min-width: 0;
+  overflow-wrap: break-word;
+  word-spacing: -30%;
+}
+
+@media (width >= 39rem) {
+  .impact-block .impact-block-item-data {
+    margin-bottom: clamp(0.5rem, 0.5rem + 8 * (100vw - 39rem) / 656, 1rem);
+  }
+}
+
+/* the source figure is an inline <span>; the authored <p> takes its box */
+.impact-block .impact-block-item-data .impact-block-item-data-point {
+  display: inline;
+  margin: 0;
+  font: inherit;
+}
+
+.impact-block .impact-block-item-description {
+  font-size: clamp(1rem, 1rem + 8 * (100vw - 39rem) / 656, 1.5rem);
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+/* variant `blue` — the source blue-theme band (cluster-microsite: the hub's "Impacto en cada capa") */
+.impact-block.blue {
+  background-color: #002fa7;
+  color: #fff;
+}
+
+/* the hub pages (body.ie-hub-page, page metadata theme): the slash-label title
+   (source .ie-hub-page .impact-block__title + :before, .blue-theme title colour; values verbatim) */
+.ie-hub-page .impact-block .impact-block-title {
+  color: #fff;
+  font-family: Soehne, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.4;
+  margin-bottom: clamp(1.5rem, 1.5rem + 16 * (100vw - 39rem) / 656, 2.5rem);
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.ie-hub-page .impact-block .impact-block-title::before {
+  color: #d1d3ca;
+  content: "/";
+  font-weight: 400;
+  margin-right: .1875rem;
+}
+
+.ie-hub-page .impact-block.blue .impact-block-title,
+.ie-hub-page .impact-block.blue .impact-block-title::before {
+  color: #d1d3ca;
+}

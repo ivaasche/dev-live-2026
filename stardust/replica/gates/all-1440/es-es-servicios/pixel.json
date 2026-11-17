@@ -1,0 +1,56 @@
+{
+  "a": "stardust/replica/gates/all-1440/es-es-servicios/origin.png",
+  "b": "stardust/replica/gates/all-1440/es-es-servicios/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 2622,
+    "mode": "overlap"
+  },
+  "heightDelta": 68,
+  "differingPixels": 66969,
+  "pct": 1.77,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/es-es-servicios/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 2.77,
+  "textBoxes": 95,
+  "textPixels": 788110,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1.5
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 1.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 5.4
+    },
+    {
+      "y0": 2500,
+      "y1": 2622,
+      "pct": 3.7
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/servicios"
+  }
+}

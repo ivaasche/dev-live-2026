@@ -1,0 +1,532 @@
+/* stylelint-disable no-descending-specificity -- source cascade order lifted verbatim */
+
+/* hero-block — section.hero-block (prototype css/landing.css, critical-homepage.css),
+   values verbatim; authored title / paragraphs / pictures styled through their slots (EW2) */
+
+.hero-block {
+  background: #000;
+  color: #fff;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+@media (width >= 64rem) {
+  .hero-block {
+    margin-right: var(--side-col);
+  }
+}
+
+@media (width >= 58.75rem) {
+  .hero-block {
+    aspect-ratio: 16/9;
+    min-height: 26.25rem;
+  }
+}
+
+@media (width >= 58.75rem) and (hover: hover) {
+  .hero-block {
+    aspect-ratio: unset;
+    height: 86vh;
+  }
+}
+
+@media (hover: hover) and (width >= 90rem), (width >= 96rem) {
+  .hero-block {
+    aspect-ratio: unset;
+    height: 85vh;
+  }
+}
+
+@media (aspect-ratio < 16/9) and (width >= 90rem) {
+  .hero-block {
+    aspect-ratio: 16/8;
+    height: auto;
+  }
+}
+
+@media (width >= 96rem) {
+  .hero-block {
+    margin-right: auto;
+  }
+}
+
+.hero-block .hero-block-inner {
+  height: 100%;
+}
+
+.hero-block .hero-block-bg-images {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+@media (width >= 96rem) {
+  .hero-block .hero-block-bg-images {
+    right: var(--side-col);
+    width: calc(100% - var(--side-col));
+  }
+}
+
+.hero-block .hero-block-bg-viewport {
+  display: none;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+@media (width >= 58.75rem) {
+  .hero-block .hero-block-bg-viewport {
+    display: block;
+  }
+}
+
+.hero-block .hero-block-bg-track {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  transition: transform .6s ease;
+  width: 100%;
+}
+
+.hero-block .hero-block-bg-image {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* rendition switch = the source <source media> conditions (desktop / tablet) */
+.hero-block .hero-block-bg-image picture {
+  display: contents;
+}
+
+.hero-block .hero-block-bg-image picture.tablet {
+  display: none;
+}
+
+@media (width <= 1535px) and (hover: none), (width <= 1329px),
+  (aspect-ratio < 16 / 9) and (width >= 1330px) {
+  .hero-block .hero-block-bg-image picture.desktop {
+    display: none;
+  }
+
+  .hero-block .hero-block-bg-image picture.tablet {
+    display: contents;
+  }
+}
+
+.hero-block .hero-block-bg-image img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  object-position: right center;
+  width: 100%;
+}
+
+.hero-block .hero-block-container {
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 3;
+}
+
+@media (width >= 58.75rem) {
+  .hero-block .hero-block-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--container);
+  }
+}
+
+@media (width >= 96rem) {
+  .hero-block .hero-block-container {
+    max-width: var(--container-wide);
+  }
+}
+
+.hero-block .hero-block-content {
+  height: calc(330px + 71vw);
+  position: relative;
+  width: 100%;
+}
+
+@media (width >= 58.75rem) {
+  .hero-block .hero-block-content {
+    height: 100%;
+  }
+}
+
+.hero-block .hero-block-viewport {
+  height: 100%;
+  max-height: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-block .hero-block-item {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  transition: opacity .3s ease;
+  width: 100%;
+}
+
+.hero-block .hero-block-item.is-selected {
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 3;
+}
+
+.hero-block .hero-block-item:not(.is-selected) .hero-block-item-link {
+  display: none;
+}
+
+.hero-block .hero-block-item-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 328px;
+  justify-content: center;
+  padding: 1rem;
+  position: relative;
+  width: 100%;
+}
+
+@media (width >= 58.75rem) {
+  .hero-block .hero-block-item-wrapper {
+    height: 100%;
+    padding-bottom: clamp(3rem, 3rem + (100vw - 58.75rem) * .0537, 5rem);
+    padding-top: clamp(3rem, 3rem + (100vw - 58.75rem) * .0805, 6rem);
+  }
+}
+
+@media (hover: hover) and (width >= 90rem), (width >= 96rem) {
+  .hero-block .hero-block-item-wrapper {
+    padding-bottom: 5rem;
+    padding-top: 6rem;
+  }
+}
+
+.hero-block .hero-block-item-text-adapter {
+  height: 100%;
+  max-height: calc(100% - 3.875rem);
+  width: 100%;
+}
+
+.hero-block .hero-block-item-text-adapter-wrapper {
+  display: grid;
+}
+
+.hero-block .hero-block-item-title {
+  font: 300 3rem/1 var(--font-display);
+  margin: 0 0 .5rem;
+  max-width: 53.75rem;
+}
+
+@media (width >= 58.75rem) {
+  .hero-block .hero-block-item-title {
+    font-size: 4rem;
+    line-height: 1.1;
+    max-width: 50%;
+  }
+}
+
+@media (hover: hover) and (width >= 90rem), (width >= 96rem) {
+  .hero-block .hero-block-item-title {
+    font-size: 5.5rem;
+  }
+}
+
+.hero-block .hero-block-item-title :is(h1, h2, h3, h4, h5, h6, p, span) {
+  font: inherit;
+  margin: 0;
+}
+
+/* source p.hero-block__item__text: the authored <p> keeps the global p size below 58.75rem */
+.hero-block .hero-block-item-text p {
+  line-height: 1.5;
+  margin: 0;
+  max-width: 28.75rem;
+}
+
+@media (width >= 58.75rem) {
+  .hero-block .hero-block-item-text p {
+    font-size: 1.25rem;
+    line-height: 1.25;
+  }
+}
+
+/* source span.hero-block__item__tag / div link wrapper: no p metrics of their own */
+.hero-block .hero-block-item-tag p,
+.hero-block .hero-block-item-link-wrapper p {
+  font: inherit;
+  margin: 0;
+}
+
+.hero-block .hero-block-item-tag {
+  font: 400 1rem/1 var(--font-sans);
+  margin: 0 0 .25rem;
+  order: -1;
+}
+
+@media (width >= 58.75rem) {
+  .hero-block .hero-block-item-tag {
+    font-size: 1.25rem;
+    margin: 0 0 .5rem;
+  }
+}
+
+.hero-block .hero-block-item-link-wrapper {
+  margin-top: auto;
+  min-height: 3rem;
+  padding-top: .5rem;
+}
+
+@media (width >= 58.75rem) {
+  .hero-block .hero-block-item-link-wrapper {
+    padding-top: 1rem;
+  }
+}
+
+.hero-block .hero-block-item-link-wrapper a {
+  display: block;
+}
+
+.hero-block .hero-block-item picture {
+  display: block;
+  height: 72vw;
+}
+
+@media (width >= 58.75rem) {
+  .hero-block .hero-block-item picture {
+    display: none;
+  }
+}
+
+.hero-block .hero-block-item picture img {
+  display: block;
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* controls: round buttons + dots, bottom-centre on desktop */
+.hero-block .carousel-btn {
+  backdrop-filter: blur(4px);
+  background: hsl(0deg 0% 100% / 80%);
+  border-radius: 50%;
+  bottom: 1rem;
+  transition: background .2s ease;
+  z-index: 4;
+}
+
+.hero-block .carousel-btn:hover {
+  background: #fff;
+}
+
+.hero-block .carousel-btn-next {
+  right: 1rem;
+}
+
+.hero-block .carousel-btn-prev {
+  left: 1rem;
+  right: auto;
+}
+
+.hero-block .carousel-dots {
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  z-index: 4;
+}
+
+.hero-block .carousel-dots li {
+  background: none;
+  border-radius: 50%;
+  height: 1rem;
+  margin: 0;
+  position: relative;
+  width: 1rem;
+}
+
+.hero-block .carousel-dots li::before {
+  background: #939393;
+  border: 1px solid #000;
+  border-radius: 50%;
+  content: "";
+  height: .5rem;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: .5rem;
+}
+
+.hero-block .carousel-dots li.is-selected::before {
+  background: #fff;
+}
+
+@media (width >= 58.75rem) {
+  .hero-block .carousel-btn {
+    bottom: clamp(3rem, 3rem + (100vw - 58.75rem) * .0537, 5rem);
+  }
+
+  .hero-block .carousel-btn-next {
+    left: 50%;
+    right: auto;
+    transform: translateX(19.5rem);
+  }
+
+  /* previous sits 1rem further left per dot beyond the first (source :has() ladder) */
+  .hero-block .carousel-btn-prev {
+    left: 50%;
+    transform: translateX(13.5rem);
+  }
+
+  .hero-block .carousel-dots:has(li:nth-child(2)) ~ .carousel-btn-prev {
+    transform: translateX(12.5rem);
+  }
+
+  .hero-block .carousel-dots:has(li:nth-child(3)) ~ .carousel-btn-prev {
+    transform: translateX(11.5rem);
+  }
+
+  .hero-block .carousel-dots:has(li:nth-child(4)) ~ .carousel-btn-prev {
+    transform: translateX(10.5rem);
+  }
+
+  .hero-block .carousel-dots:has(li:nth-child(5)) ~ .carousel-btn-prev {
+    transform: translateX(9.5rem);
+  }
+
+  .hero-block .carousel-dots:has(li:nth-child(6)) ~ .carousel-btn-prev {
+    transform: translateX(8.5rem);
+  }
+
+  .hero-block .carousel-dots {
+    bottom: clamp(3.625rem, 3.625rem + (100vw - 58.75rem) * .0537, 5.625rem);
+    left: auto;
+    right: 50%;
+    transform: translateX(18.25rem);
+  }
+}
+
+@media (hover: hover) and (width >= 90rem), (width >= 96rem) {
+  .hero-block .carousel-btn {
+    bottom: 5rem;
+  }
+
+  .hero-block .carousel-dots {
+    bottom: 5.625rem;
+  }
+}
+
+/* variant `ie-hub` — source section.hero-block.ie-hub-page (hub pages, main.css
+   @480883–482564, prototypes/css/microsite.css): one static slide, no side column, the
+   mobile picture becomes the full-bleed background under the copy */
+@media (width >= 64rem) {
+  .hero-block.ie-hub {
+    margin-right: 0;
+  }
+}
+
+@media (width >= 96rem) {
+  .hero-block.ie-hub .hero-block-bg-images {
+    right: 0;
+    width: 100%;
+  }
+}
+
+.hero-block.ie-hub .hero-block-item-text-adapter {
+  height: auto;
+}
+
+.hero-block.ie-hub .hero-block-item-link-wrapper {
+  margin-top: 3rem;
+  padding: 0;
+}
+
+@media (width >= 39rem) {
+  .hero-block.ie-hub .hero-block-item-link-wrapper {
+    margin-top: 3.5rem;
+  }
+}
+
+.hero-block.ie-hub .hero-block-item-link-wrapper a,
+.hero-block.ie-hub .hero-block-item-link-wrapper a:hover {
+  border: none;
+}
+
+.hero-block.ie-hub .hero-block-item-link-wrapper a {
+  padding-block: .875rem;
+}
+
+.hero-block.ie-hub .hero-block-item-wrapper {
+  padding-inline: 1rem;
+}
+
+@media (width >= 39rem) {
+  .hero-block.ie-hub .hero-block-item-wrapper {
+    padding-inline: 1.5rem;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .hero-block.ie-hub .hero-block-item-wrapper {
+    padding-block: clamp(3rem, 3rem + (100vw - 58.75rem) * .0537, 5rem);
+  }
+}
+
+@media (hover: hover) and (width >= 90rem), (width >= 96rem) {
+  .hero-block.ie-hub .hero-block-item-wrapper {
+    padding-block: 5rem;
+  }
+}
+
+@media (width <= 58.749rem) {
+  .hero-block.ie-hub .hero-block-container,
+  .hero-block.ie-hub .hero-block-item,
+  .hero-block.ie-hub .hero-block-item-wrapper {
+    height: 100%;
+  }
+
+  .hero-block.ie-hub .hero-block-item {
+    position: relative;
+  }
+
+  .hero-block.ie-hub .hero-block-item-tag {
+    line-height: 1.19;
+  }
+
+  .hero-block.ie-hub .hero-block-item-wrapper {
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero-block.ie-hub .hero-block-item-link-wrapper a {
+    font-size: 1rem;
+    padding: .5625rem 1rem;
+  }
+
+  .hero-block.ie-hub .hero-block-item picture {
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    width: 100vw;
+    z-index: 1;
+  }
+}

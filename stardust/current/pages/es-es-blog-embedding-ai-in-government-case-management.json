@@ -1,0 +1,736 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-13T11:10:10.614Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "es-es-blog-embedding-ai-in-government-case-management",
+  "url": "https://www.valtech.com/es-es/blog/embedding-ai-in-government-case-management/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-13T11:10:10.614Z",
+  "finalUrl": "https://www.valtech.com/es-es/blog/embedding-ai-in-government-case-management/",
+  "title": "Embedding AI in government case management | Valtech",
+  "description": "A crucial question for government leaders: What will it take to embed AI safely and responsibly case management workflows?",
+  "og": {
+    "title": "Embedding AI in government case management",
+    "description": "A crucial question for government leaders: What will it take to embed AI safely and responsibly case management workflows?",
+    "image": "https://www.valtech.com/globalassets/00-global/02-images/04-insights/2026-blog-posts/embedding-ai-in-government-case-management/piblic-blog-connected-octagon-flowchart-valtech-header.png",
+    "type": "article"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Embedding AI in government case management: From pilot to operational capability"
+    },
+    {
+      "tag": "h2",
+      "text": "The shift to probabilistic computing"
+    },
+    {
+      "tag": "h2",
+      "text": "Why AI pilots stall in government"
+    },
+    {
+      "tag": "h2",
+      "text": "What the 5 per cent do differently"
+    },
+    {
+      "tag": "h2",
+      "text": "A practical model for AI-enabled case management"
+    },
+    {
+      "tag": "h2",
+      "text": "Human oversight by design"
+    },
+    {
+      "tag": "h2",
+      "text": "From pilot to operational capability"
+    },
+    {
+      "tag": "h2",
+      "text": "Considering your next step"
+    },
+    {
+      "tag": "h2",
+      "text": "Contáctanos"
+    }
+  ],
+  "body": [
+    "Inicio",
+    "Blog",
+    "Embedding AI in government case management",
+    "mayo 29, 2026",
+    "Across central government and regulatory bodies, case volumes continue to rise while resources remain constrained. Departments responsible for applications, inspections, appeals and compliance activity are under sustained pressure to improve throughput without compromising quality, fairness or governance.",
+    "Across central government and regulatory bodies, case volumes continue to rise while resources remain constrained. Departments responsible for applications, inspections, appeals and compliance activity are under sustained pressure to improve throughput without compromising quality, fairness or governance.",
+    "Artificial intelligence is increasingly viewed as part of the answer. GenAI has created renewed interest in automating aspects of document-heavy casework and improving decision support.",
+    "Yet moving from experimentation to operational capability has proven difficult.",
+    "According to The GenAI Divide: State of AI in Business 2025, published by MIT NANDA, only around 5 per cent of enterprise GenAI pilots achieve measurable impact at scale. The vast majority stall before delivering sustained operational value.",
+    "For government leaders, this raises a practical question. What distinguishes the minority of AI initiatives that scale from those that remain pilots? And what would it take to embed AI safely and responsibly within accountable, auditable case management workflows that are consistent with established government standards, including the Service Manual, the Data and AI Ethics Framework, NCSC guidance and the Artificial Intelligence Playbook?",
+    "For decades, government systems have been built on deterministic logic. Structured inputs produce predictable outputs. Every field has a defined format. Every rule behaves consistently.",
+    "Modern AI systems operate differently.",
+    "They can process unstructured, human-friendly information such as case documents, correspondence, free text and images at scale. However, their outputs are probabilistic. They generate the most likely interpretation or recommendation rather than a guaranteed answer.",
+    "In regulated environments, this distinction is significant. Governance models, assurance processes and trust frameworks must evolve alongside the technology. AI cannot simply be inserted into legacy systems and expected to behave like traditional software.",
+    "In our experience working with UK central government digital and data teams, this shift in mindset is often the point at which programmes either mature or stall. The technology itself may be capable, but organisational structures and governance approaches have not adapted to its probabilistic nature.",
+    "Across departments and regulators, AI initiatives frequently demonstrate early promise. Document summarisation works. Classification models perform well. Search improves significantly. However, progress often slows when moving from proof of concept to production.",
+    "Through delivery work in central government case and service environments, a consistent pattern emerges. AI is introduced into isolated stages without reconsidering the end-to-end workflow. Ownership is fragmented across functions. Initiatives are treated as experimentation rather than as product delivery.",
+    "At the same time, there is understandable caution around relying on probabilistic outputs in settings where accountability and auditability are paramount. The result is a proliferation of pilots but limited operational transformation.",
+    "The issue is not capability. It is embedding.",
+    "The minority of departments and regulators that reach scaled production share consistent characteristics.",
+    "Around 5 per cent of initiatives move beyond pilot not because they have access to different technology, but because they approach workflow design, governance and measurement differently from the outset.",
+    "They begin with the full case journey, from ingestion through to assessment, decision and communication. Rather than inserting AI into isolated tasks, they examine where friction, delay or duplication occur across the entire workflow. AI is applied where it meaningfully improves flow.",
+    "They treat AI initiatives as products rather than experiments, with clear ownership, defined outcomes and alignment with strategic priorities. Performance is measured against tangible operational metrics such as throughput, time to decision and backlog reduction.",
+    "They also design for iteration from the outset. Probabilistic systems require refinement. Prompts evolve. Tasks are decomposed into smaller components. Performance improves over time through structured optimisation rather than one-off deployment.",
+    "This disciplined, end-to-end approach is what separates experimentation from operational capability.",
+    "The term “agentic AI” is often associated with highly autonomous systems coordinating complex tasks independently. Whilst such architectures are already used by many AI products today, embracing agentic architectures for bespoke use cases is a significant undertaking.",
+    "Most government case management scenarios do not require this level of complexity and, in many cases, are not permitted to operate at high levels of automation.",
+    "A more practical and governable approach is to deploy AI agents as discrete components within a clearly defined workflow.",
+    "In a typical case management environment, this may involve using more discrete AI agents deployed across the workflow such as automated document ingestion, redaction of sensitive information, classification and tagging, summarisation of case material and identification of potential risk indicators. Each of these tasks can be handled by a narrowly scoped AI agent designed to perform a specific function.",
+    "When implemented within existing governance frameworks, this pattern allows departments to modernise incrementally while retaining transparency and control. Rather than replacing caseworkers, AI supports them by reducing manual processing and enabling greater focus on judgement, oversight and exception handling.",
+    "The emphasis is not autonomy for its own sake, but structured augmentation.",
+    "In public sector environments, human control is foundational.",
+    "Effective AI-enabled workflows incorporate clear points of review and intervention. Caseworkers may initiate processes, validate AI outputs, handle exceptions or apply contextual judgement in complex situations.",
+    "Oversight mechanisms ensure decisions remain accountable, auditable and aligned with public sector standards of fairness and transparency.",
+    "Crucially, this oversight does not sit outside existing governance structures. It must operate within established assurance and security processes, including alignment with the Service Manual, the Data and AI Ethics Framework and relevant NCSC guidance.",
+    "Embedding AI successfully therefore requires not only technical integration, but integration into the machinery of government.",
+    "In practice, once teams understand how AI functions within the workflow, confidence grows. The conversation shifts from whether the technology can be trusted to how it can be optimised. Attention turns to performance metrics, quality assurance and continuous improvement.",
+    "AI becomes part of the operational fabric rather than an experimental overlay.",
+    "AI in the public sector is becoming an operational discipline.",
+    "For departments managing complex case volumes, the opportunity lies in redesigning workflows with AI as a governed component rather than an isolated add-on.",
+    "Experience across central government case and service modernisation programmes suggests that when AI is embedded deliberately, measured carefully and overseen effectively, it can meaningfully improve throughput, quality and operational resilience.",
+    "The difference between the 95 per cent and the 5 per cent is not access to technology. It is the discipline with which it is applied.",
+    "Departments that approach AI-enabled case management as an operational transformation rather than a technical pilot are far more likely to move beyond experimentation and into sustained capability.",
+    "For a practical discussion on piloting, governing or scaling AI-enabled case management in your department, please contact:",
+    "Sam ParkerClient Partner, UK Public Sectorsam.parker@valtech.com"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Valtech, go back to homepage The Experience Innovation Company",
+      "href": "/es-es/"
+    },
+    {
+      "label": "Nuestro trabajo",
+      "href": null
+    },
+    {
+      "label": "Servicios",
+      "href": null
+    },
+    {
+      "label": "Talento",
+      "href": null
+    },
+    {
+      "label": "Perspectivas",
+      "href": null
+    },
+    {
+      "label": "Sobre nosotros",
+      "href": null
+    },
+    {
+      "label": "Contáctanos",
+      "href": "#contact-us-form"
+    },
+    {
+      "label": "Inicio",
+      "href": "/es-es/"
+    },
+    {
+      "label": "Blog",
+      "href": "/es-es/blog/"
+    },
+    {
+      "label": "sam.parker@valtech.com",
+      "href": "mailto:sam.parker@valtech.com"
+    },
+    {
+      "label": "Sheree Atcheson.",
+      "href": "mailto:sheree.atcheson@valtech.com"
+    },
+    {
+      "label": "Inicio",
+      "href": "/es-es/"
+    },
+    {
+      "label": "Quiénes somos",
+      "href": "/es-es/quienes-somos/"
+    },
+    {
+      "label": "Oficinas",
+      "href": "/es-es/quienes-somos/oficinas/"
+    },
+    {
+      "label": "Trabaja con nosotros",
+      "href": "/es-es/carrera/"
+    },
+    {
+      "label": "Política de Privacidad",
+      "href": "/es-es/politica-privacidad/"
+    },
+    {
+      "label": "Política de Cookies",
+      "href": "/es-es/politica-de-cookies/"
+    },
+    {
+      "label": "Aviso Legal",
+      "href": "/es-es/aviso-legal/"
+    },
+    {
+      "label": "Accesibilidad",
+      "href": "/es-es/quienes-somos/accesibilidad/"
+    },
+    {
+      "label": "Mantente en contacto",
+      "href": "/es-es/quienes-somos/mantente-en-contacto/"
+    },
+    {
+      "label": "Configuración de cookies",
+      "href": "#"
+    }
+  ],
+  "links": [
+    "https://www.valtech.com/es-es/blog/embedding-ai-in-government-case-management/#valtech-content",
+    "https://www.valtech.com/es-es/",
+    "https://www.valtech.com/es-es/search/",
+    "https://www.valtech.com/es-es/casos/",
+    "https://www.valtech.com/es-es/industrias/",
+    "https://www.valtech.com/es-es/nuestros-partners/",
+    "https://www.valtech.com/es-es/servicios/elevacion-de-la-experiencia/",
+    "https://www.valtech.com/es-es/servicios/aceleracion-comercio/",
+    "https://www.valtech.com/es-es/servicios/transformacion-empresarial/",
+    "https://www.valtech.com/es-es/servicios/servicios-creativos-de-marketing-performance/",
+    "https://www.valtech.com/es-es/servicios/revolucion-del-dato-y-ia/",
+    "https://www.valtech.com/es-es/carrera/ofertas-de-empleo/",
+    "https://www.valtech.com/es-es/trabajar-en-valtech/",
+    "https://www.valtech.com/es-es/diversidad-e-inclusion/",
+    "https://www.valtech.com/es-es/podcasts/",
+    "https://www.valtech.com/es-es/whitepapers/",
+    "https://www.valtech.com/es-es/content-hub/",
+    "https://www.valtech.com/es-es/blog/",
+    "https://www.valtech.com/es-es/eventos/",
+    "https://www.valtech.com/es-es/la-empresa-inteligente/",
+    "https://www.valtech.com/es-es/noticias/",
+    "https://www.valtech.com/es-es/quienes-somos/",
+    "https://www.valtech.com/es-es/quienes-somos/oficinas/",
+    "https://www.valtech.com/es-es/quienes-somos/contacto/keep-in-touch/",
+    "https://www.valtech.com/",
+    "https://www.valtech.com/de-de/",
+    "https://www.valtech.com/en-dk/",
+    "https://www.valtech.com/fr-fr/",
+    "https://www.valtech.com/nl-nl/",
+    "https://www.valtech.com/en-gb/",
+    "https://www.valtech.com/sv-se/",
+    "https://www.valtech.com/en-ch/",
+    "https://www.valtech.com/en-ca/",
+    "https://www.valtech.com/en-us/",
+    "https://www.valtech.com/es-ar/",
+    "https://www.valtech.com/pt-br/",
+    "https://www.valtech.com/es-mx/",
+    "https://www.valtech.com/en-sg/",
+    "https://www.valtech.com/es-es/blog/embedding-ai-in-government-case-management/#contact-us-form",
+    "mailto:sam.parker@valtech.com",
+    "mailto:sheree.atcheson@valtech.com",
+    "https://www.valtech.com/es-es/carrera/",
+    "https://www.valtech.com/es-es/politica-privacidad/",
+    "https://www.valtech.com/es-es/politica-de-cookies/",
+    "https://www.valtech.com/es-es/aviso-legal/",
+    "https://www.valtech.com/es-es/quienes-somos/accesibilidad/",
+    "https://www.valtech.com/es-es/quienes-somos/mantente-en-contacto/",
+    "https://www.valtech.com/es-es/blog/embedding-ai-in-government-case-management/#",
+    "https://www.linkedin.com/company/valtech",
+    "https://www.youtube.com/c/ValtechOfficial",
+    "https://www.instagram.com/valtech_global/",
+    "https://podcasts.apple.com/us/podcast/valtech-caf%C3%A9/id1497951359",
+    "https://soundcloud.com/valtechcafe",
+    "https://open.spotify.com/show/7oRV0j7kQvkSOCgiy1t7P5",
+    "https://friendlycaptcha.com/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.valtech.com/globalassets/00-global/02-images/04-insights/2026-blog-posts/embedding-ai-in-government-case-management/piblic-blog-connected-octagon-flowchart-valtech-header-1.png?width=1600&height=720&rsampler=bicubic&compand=true&format=webp&quality=75",
+        "alt": "",
+        "w": 1600,
+        "h": 720
+      },
+      {
+        "src": "https://www.valtech.com/globalassets/00-global/02-images/04-insights/2026-blog-posts/embedding-ai-in-government-case-management/piblic-blog-connected-octagon-flowchart-valtech-header-1.png?width=1320&height=690&rsampler=bicubic&compand=true&format=webp&quality=75",
+        "alt": "",
+        "w": 1320,
+        "h": 690
+      },
+      {
+        "src": "https://www.valtech.com/globalassets/00-global/02-images/04-insights/2026-blog-posts/embedding-ai-in-government-case-management/piblic-blog-connected-octagon-flowchart-valtech-header-1.png?width=440&height=230&rsampler=bicubic&compand=true&format=webp&quality=75",
+        "alt": "",
+        "w": 440,
+        "h": 230
+      },
+      {
+        "src": "https://www.valtech.com/globalassets/00-global/02-images/16-people/karl-hampson.jpeg?width=150&height=150&rsampler=bicubic&compand=true&format=webp&quality=75",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.valtech.com/globalassets/00-global/badge-no-outline.png?width=442&height=128&rmode=max&rsampler=bicubic&compand=true&format=jpg",
+        "alt": "Sustainability stamp",
+        "w": 435,
+        "h": 128
+      }
+    ],
+    "allImgCount": 7,
+    "cssBackgrounds": [],
+    "modals": [
+      "Revonic is now a part of the Valtech family In 5 seconds you will be redirected to valtech.com automatically enter valtech.com",
+      "Revonic is now a part of the Valtech family In 5 seconds you will be redirected to valtech.com automatically enter valtech.com",
+      "Evident is now a part of the Valtech family In 5 seconds you will be redirected to valtech.com automatically enter valtech.com",
+      "Evident is now a part of the Valtech family In 5 seconds you will be redirected to valtech.com automatically enter valtech.com",
+      "The Berndt Group is now a part of the Valtech family In 5 seconds you will be redirected to valtech.com automatically enter valtech.com",
+      "The Berndt Group is now a part of the Valtech family In 5 seconds you will be redirected to valtech.com automatically enter valtech.com",
+      "Appsolutely is now a part of the Valtech family In 5 seconds you will be redirected to valtech.com automatically enter valtech.com",
+      "Appsolutely is now a part of the Valtech family In 5 seconds you will be redirected to valtech.com automatically enter valtech.com"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 9,
+    "mainTextLen": 8579,
+    "realImageCount": 5,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "consentcdn.cookiebot.eu",
+        "path": "/consentconfig/{uuid}/settings.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://consentcdn.cookiebot.eu/consentconfig/9ff02350-286d-45c0-ae57-9a4a20538f5c/settings.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "_tu",
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gap.gtb",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtb",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "us_privacy"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 4,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "ipv6.6sc.co",
+        "path": "/",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 25,
+        "hits": 1,
+        "example": "https://ipv6.6sc.co/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "c.6sc.co",
+        "path": "/",
+        "query": [
+          "d"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": 11,
+        "hits": 1,
+        "example": "https://c.6sc.co/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "dc.services.visualstudio.com",
+        "path": "/v2/track",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 400,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://dc.services.visualstudio.com/v2/track",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "did",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gdid",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url",
+          "us_privacy"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 3,
+        "example": "https://www.google.com/rmkt/collect/18159760898/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "epsilon.6sense.com",
+        "path": "/v3/company/details",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 402,
+        "bytes": 141,
+        "hits": 1,
+        "example": "https://epsilon.6sense.com/v3/company/details",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "tag.valtech.com",
+        "path": "/g/collect",
+        "query": [
+          "_et",
+          "_eu",
+          "_p",
+          "_s",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "ec_mode",
+          "ecid",
+          "en",
+          "ep.page_category",
+          "ep.page_location_en",
+          "ep.page_type",
+          "ep.platform",
+          "ep.platform_locale",
+          "ep.platform_type",
+          "ep.user_data.linkedinFirstPartyId",
+          "ep.vt_session_id",
+          "epn.timestamp",
+          "evnid",
+          "frm",
+          "gap.gtb",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtb",
+          "gtm",
+          "ibt",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "richsstsse",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "sst.gch",
+          "sst.lpc",
+          "sst.navt",
+          "sst.ngs",
+          "sst.rnd",
+          "sst.sw_exp",
+          "sst.tft",
+          "sst.ude",
+          "sst.us_privacy",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "tt",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "up.consent_user_geolocation",
+          "ur",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://tag.valtech.com/g/collect",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "logx.optimizely.com",
+        "path": "/v1/events",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://logx.optimizely.com/v1/events",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "px.ads.linkedin.com",
+        "path": "/wa/",
+        "query": [
+          "fmt",
+          "medium"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://px.ads.linkedin.com/wa/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "f.clarity.ms",
+        "path": "/collect",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://f.clarity.ms/collect",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "connect.facebook.net",
+        "count": 3
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 3
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "count": 3
+      },
+      {
+        "host": "munchkin.marketo.net",
+        "count": 2
+      },
+      {
+        "host": "j.6sc.co",
+        "count": 2
+      },
+      {
+        "host": "s.emea01.idio.episerver.net",
+        "count": 2
+      },
+      {
+        "host": "consent.cookiebot.eu",
+        "count": 1
+      },
+      {
+        "host": "static.ads-twitter.com",
+        "count": 1
+      },
+      {
+        "host": "siteimproveanalytics.com",
+        "count": 1
+      },
+      {
+        "host": "snap.licdn.com",
+        "count": 1
+      },
+      {
+        "host": "az416426.vo.msecnd.net",
+        "count": 1
+      },
+      {
+        "host": "cdn.optimizely.com",
+        "count": 1
+      },
+      {
+        "host": "consentcdn.cookiebot.eu",
+        "count": 1
+      },
+      {
+        "host": "www.clarity.ms",
+        "count": 1
+      },
+      {
+        "host": "ws.zoominfo.com",
+        "count": 1
+      },
+      {
+        "host": "scripts.clarity.ms",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "marketo-forms"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 1,
+    "triggers": [
+      {
+        "marker": "data-micromodal-close",
+        "href": null
+      },
+      {
+        "marker": "data-micromodal-close",
+        "href": null
+      },
+      {
+        "marker": "data-micromodal-close",
+        "href": null
+      },
+      {
+        "marker": "data-micromodal-close",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 1,
+      "thirdPartyEndpoints": 10,
+      "thirdPartyScriptHosts": 16,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/es-es-blog-embedding-ai-in-government-case-management.png",
+  "renderedHtml": "pages/es-es-blog-embedding-ai-in-government-case-management.html",
+  "slots": {
+    "_type": "article",
+    "_source": "pages/es-es-blog-embedding-ai-in-government-case-management.html main#valtech-content (stardust/.work/tools/slots.mjs)",
+    "headline": {
+      "selector": "main#valtech-content h1.masthead-blurred__text__title",
+      "count": 1,
+      "evidence": "Embedding AI in government case management: From pilot to operational capability"
+    },
+    "deck": {
+      "selector": "main#valtech-content p.lead",
+      "count": 1,
+      "evidence": "Across central government and regulatory bodies, case volumes continue to rise w"
+    },
+    "byline": {
+      "selector": "main#valtech-content div.author-details",
+      "count": 1,
+      "evidence": "Karl Hampson CTO, Valtech"
+    },
+    "meta": {
+      "selector": "main#valtech-content small",
+      "count": 1,
+      "evidence": "mayo 29, 2026"
+    },
+    "lead-image": {
+      "selector": "main#valtech-content img",
+      "count": 3,
+      "evidence": null
+    },
+    "body": {
+      "selector": "main#valtech-content section.rte-block",
+      "count": 2,
+      "evidence": "mayo 29, 2026 Across central government and regulatory bodies, case volumes cont"
+    },
+    "pullquotes": null,
+    "related": null
+  }
+}

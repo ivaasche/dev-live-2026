@@ -1,0 +1,210 @@
+{
+  "slug": "es-es-la-empresa-inteligente-modelo-operativo",
+  "type": "microsite",
+  "renderBranch": "A'",
+  "template": "es-es-la-empresa-inteligente-operar",
+  "modules": [
+    "hub-nav",
+    "masthead-services",
+    "case-rte",
+    "features-showcase",
+    "faq-block",
+    "subscription-block",
+    "registration-form"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "section",
+    "masthead-services",
+    "section",
+    "rte-block",
+    "section",
+    "rte-block",
+    "faq-block",
+    "subscription-block",
+    "registration-form",
+    "thank-you-popup",
+    "site-footer",
+    "site-slope",
+    "site-slope",
+    "site-slope",
+    "modal",
+    "modal",
+    "modal",
+    "modal"
+  ],
+  "canonShas": {
+    "header": "73cff066609b",
+    "footer": "d3f0cc1ef9d5",
+    "css": "8876c0e8d8d1"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Modelo operativo centrado en el crecimiento | Valtech",
+    "description": "El enfoque de Valtech para la transformación del modelo operativo impulsada por IA desbloquea valor mediante experiencias centradas en el cliente.",
+    "canonical": "https://www.valtech.com/es-es/la-empresa-inteligente/modelo-operativo/",
+    "lang": "es"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Modelo operativo centrado en el crecimiento | Valtech",
+    "description": "El enfoque de Valtech para la transformación del modelo operativo impulsada por IA desbloquea valor mediante experiencias centradas en el cliente.",
+    "url": "https://www.valtech.com/es-es/la-empresa-inteligente/modelo-operativo/"
+  },
+  "migratedAt": "2026-11-13T22:31:28Z",
+  "designMdSha": "9dc5e8267a4e",
+  "designJsonSha": "ec9a36425b28",
+  "sourceCurrentSha": "5a961cf4b956",
+  "sourceProposedSha": "ca4c8c7b14f9",
+  "fidelityTier": "sibling",
+  "archetypeSource": "es-es-la-empresa-inteligente-operar",
+  "archetypeSha": "051a263e9f39",
+  "variants": [
+    "case-rte.dark features-showcase.dark.plain-text.ie-hub faq-block.first-open"
+  ],
+  "gatesPassed": [
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "verbatim sibling encode of stardust/current/pages/es-es-la-empresa-inteligente-modelo-operativo.html into content/es-es/la-empresa-inteligente/modelo-operativo.html (archetype es-es-la-empresa-inteligente-operar shape; encoder stardust/.work/cluster-microsite/build-content.py); published-origin gate 1440 2.95 % Δh 13 / 360 6.5 % Δh 75, content MISSING 0 HIDDEN 0 both widths"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 11,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/es-es/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/servicios/elevacion-de-la-experiencia/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/aceleracion-comercio/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/transformacion-empresarial/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/servicios-creativos-de-marketing-performance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/revolucion-del-dato-y-ia/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/carrera/ofertas-de-empleo/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/trabajar-en-valtech/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/diversidad-e-inclusion/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/la-empresa-inteligente/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/oficinas/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/contacto/keep-in-touch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de-de/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-dk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr-fr/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nl-nl/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-gb/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sv-se/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ca/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-ar/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt-br/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-mx/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-sg/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/la-empresa-inteligente/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/la-empresa-inteligente/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/oficinas/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/carrera/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/accesibilidad/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/mantente-en-contacto/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "es-es/la-empresa-inteligente/modelo-operativo/index.html",
+  "outputPathDefault": null,
+  "sidecar": "es-es/la-empresa-inteligente/modelo-operativo/_meta.json",
+  "driverVersion": "1"
+}

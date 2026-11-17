@@ -1,0 +1,189 @@
+/* masthead-quaternary — source div.masthead-quaternary (main.css, values verbatim; BEM -> kebab);
+   the embedded video-block rules (iframe 16:9 box, poster) scoped under the block */
+
+.masthead-quaternary {
+  margin-bottom: 2.5rem;
+}
+
+.masthead-quaternary.scaler {
+  overflow: hidden;
+}
+
+@media (width >= 58.75rem) {
+  .masthead-quaternary {
+    margin-bottom: 5rem;
+  }
+}
+
+.masthead-quaternary .masthead-quaternary-container {
+  padding: 0 1.5rem;
+}
+
+@media (width >= 64rem) {
+  .masthead-quaternary .masthead-quaternary-container {
+    margin-right: var(--side-col);
+  }
+}
+
+@media (width >= 120.001rem) {
+  .masthead-quaternary .masthead-quaternary-container {
+    margin: 0 auto;
+    max-width: 84vw;
+    padding: 0;
+  }
+}
+
+.masthead-quaternary .masthead-quaternary-inner {
+  position: relative;
+}
+
+.masthead-quaternary .masthead-quaternary-inner-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.masthead-quaternary .masthead-quaternary-text {
+  display: flex;
+  flex-direction: column;
+  margin: 2.5rem 6vw 0;
+  order: 2;
+  pointer-events: none;
+  position: relative;
+  z-index: 2;
+}
+
+.masthead-quaternary .masthead-quaternary-text-light,
+.masthead-quaternary .masthead-quaternary-text-dark {
+  color: #000;
+}
+
+.masthead-quaternary .masthead-quaternary-hgroup {
+  margin: 0;
+}
+
+.masthead-quaternary .masthead-quaternary-hgroup-title {
+  background-image: linear-gradient(currentcolor, currentcolor);
+  background-position: 0 94%;
+  background-repeat: repeat-x;
+  background-size: 100% 4%;
+  color: inherit;
+  display: inline;
+  font-size: 5vw;
+  line-height: 1.2;
+  margin: 0;
+}
+
+@media (width <= 500px) {
+  .masthead-quaternary .masthead-quaternary-hgroup-title {
+    font-size: 25px;
+  }
+}
+
+@media (width >= 1600px) {
+  .masthead-quaternary .masthead-quaternary-hgroup-title {
+    font-size: 80px;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .masthead-quaternary .masthead-quaternary-inner {
+    padding-top: 56.25%;
+  }
+
+  .masthead-quaternary .masthead-quaternary-inner-wrap {
+    flex-direction: row;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  .masthead-quaternary .masthead-quaternary-text {
+    margin: 0;
+    order: 1;
+    padding: 3.75rem 3.75rem 0 calc(2vw + 2.5rem);
+    width: 100%;
+  }
+
+  .masthead-quaternary .masthead-quaternary-text-light {
+    color: #fff;
+  }
+
+  .masthead-quaternary .masthead-quaternary-hgroup {
+    margin: 2.5rem 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .masthead-quaternary .masthead-quaternary-hgroup-title {
+    line-height: 1.1;
+    white-space: pre-line;
+  }
+
+  .masthead-quaternary .masthead-quaternary-media {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+
+  .masthead-quaternary .video-block-container {
+    width: 100%;
+  }
+}
+
+/* embedded video-block (main.css video-block rules + the iframe box inline style) */
+.masthead-quaternary .video-block {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.masthead-quaternary .video-block-container {
+  padding: 0;
+  position: relative;
+}
+
+.masthead-quaternary .video-block-container-wrapper {
+  position: relative;
+}
+
+.masthead-quaternary .video-block-image.poster {
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.masthead-quaternary .video-block-container-wrapper > picture {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.masthead-quaternary .video-block-stub-text.hide {
+  height: 0 !important;
+  left: -3000em !important;
+  overflow: hidden !important;
+  position: absolute !important;
+  width: 0 !important;
+}
+
+.masthead-quaternary .video-block-iframe {
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+  width: 100%;
+}
+
+.masthead-quaternary .video-block-iframe iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}

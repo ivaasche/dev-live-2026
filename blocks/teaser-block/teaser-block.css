@@ -1,0 +1,138 @@
+/* stylelint-disable no-descending-specificity -- the source cascade order is lifted verbatim */
+
+/* teaser-block — related-content row (source div.teaser-block, main.css @175930–181646 via the
+   offering prototype css/offering.css); below 58.75rem the row is a slider (block JS: viewport +
+   slider inset 1.5rem, 270px cells 20px apart, 4-segment dots bar, long-arrow prev/next) */
+
+.teaser-block { margin: 2.5rem 0; padding-bottom: 3.4375rem; }
+
+@media (width >= 58.75rem) { .teaser-block { margin: 5rem 0; padding-bottom: 0; } }
+
+@media (width >= 64rem) { .teaser-block { margin-right: 64px; } }
+
+@media (width >= 120.001rem) { .teaser-block { margin-left: auto; margin-right: auto; max-width: 84vw; padding: 0; } }
+.teaser-block .teaser-block-container { display: flex; flex-flow: row wrap; }
+
+@media (width >= 58.75rem) { .teaser-block .teaser-block-container { padding: 0 1.5rem; } }
+
+@media (width >= 120.001rem) { .teaser-block .teaser-block-container { padding: 0; } }
+.teaser-block .teaser-block-header { margin: 0 0 1rem; padding: 0 1.5rem; }
+
+@media (width >= 58.75rem) { .teaser-block .teaser-block-header { margin-bottom: 2rem; } }
+
+@media (width >= 64rem) { .teaser-block .teaser-block-header { margin-right: 64px; } }
+
+@media (width >= 120.001rem) { .teaser-block .teaser-block-header { margin-left: auto; margin-right: auto; max-width: 84vw; padding: 0; } }
+.teaser-block .teaser-block-header-title { font-family: var(--font-display); font-size: 3vw; font-weight: 300; margin: 0 1.25rem 1.25rem 0; text-wrap: balance; }
+
+@media (width <= 933.3333px) { .teaser-block .teaser-block-header-title { font-size: 28px; } }
+
+@media (width >= 1600px) { .teaser-block .teaser-block-header-title { font-size: 48px; } }
+
+@media (width <= 58.749rem) { .teaser-block .teaser-block-header-title { margin-bottom: 1rem; } }
+.teaser-block .teaser-block-teaser:first-child { margin-left: 0; }
+.teaser-block .teaser-block-teaser { flex: 1; margin-left: 1.25rem; min-height: 420px; overflow: hidden; position: relative; transition: flex .8s cubic-bezier(.19, 1, .22, 1); width: calc(25% - 1.25rem); }
+
+@media (width >= 58.75rem) { .teaser-block .teaser-block-teaser { padding-top: 30%; } }
+
+@media (width >= 58.749rem) and (width <= 76.25rem) { .teaser-block .teaser-block-teaser:nth-child(n+4) { display: none; } }
+
+@media (width <= 58.749rem) { .teaser-block .teaser-block-teaser { height: 420px; width: 270px; } }
+
+@media (width >= 58.75rem) { .teaser-block .teaser-block-teaser:active, .teaser-block .teaser-block-teaser:focus, .teaser-block .teaser-block-teaser:hover { flex: 1.2; } }
+.teaser-block .teaser-block-teaser:active img, .teaser-block .teaser-block-teaser:focus img, .teaser-block .teaser-block-teaser:hover img { filter: brightness(.65); }
+.teaser-block .teaser-block-teaser-arrow-icon { background: #fff; bottom: 1rem; color: #000; height: 1rem; position: absolute; right: 1.6875rem; width: 1rem; }
+.teaser-block .teaser-block-teaser-inner { color: #000; display: flex; flex-direction: column; height: 100%; left: 0; padding: 1.75rem; position: absolute; top: 0; width: 100%; z-index: 1; }
+
+@media (width >= 58.75rem) { .teaser-block .teaser-block-teaser-inner { padding: 2.5rem; } }
+.teaser-block .teaser-block-teaser-inner:hover .teaser-block-teaser-hgroup { text-decoration: underline; }
+.teaser-block .teaser-block-teaser-inner:focus .teaser-block-teaser-hgroup { background-color: #000; text-decoration: none; }
+.teaser-block .teaser-block-teaser-inner:focus .teaser-block-teaser-hgroup .teaser-block-teaser-title { color: #fff; }
+.teaser-block .teaser-block-teaser-inner:focus .teaser-block-teaser-pretitle { background-color: #000; color: #fff; }
+.teaser-block .teaser-block-teaser-inner:focus .teaser-block-teaser-pretitle .icon { fill: #fff; }
+.teaser-block .teaser-block-teaser-inner:focus .teaser-block-teaser-arrow-icon { background: #000; color: #fff; }
+.teaser-block .teaser-block-teaser-inner:focus:not(:focus-visible) .teaser-block-teaser-hgroup { background-color: #fff; }
+.teaser-block .teaser-block-teaser-hgroup { background-color: #fff; bottom: 0; display: flex; flex-direction: column; left: 0; min-height: 7rem; padding: .625rem 1.9375rem 0 1.5rem; position: absolute; transition: height .3s ease; white-space: pre-wrap; width: 100%; }
+.teaser-block .teaser-block-teaser-hgroup:not(:hover) { height: 7rem !important; }
+.teaser-block .teaser-block-teaser-pretitle { align-items: center; background-color: #fff; display: flex; font-family: var(--font-sans); font-size: 1rem; font-weight: 400; height: 2.6875rem; left: 0; margin: 0; min-width: 7.0625rem; padding-left: .8125rem; padding-right: .5625rem; position: absolute; top: 0; vertical-align: middle; }
+.teaser-block .teaser-block-teaser-pretitle .icon { fill: #000; height: 1.5rem; margin-right: .6875rem; width: 1.5rem; }
+
+/* the sprite <svg> fills its 1.5rem icon box (the source sizes the svg itself) */
+.teaser-block .teaser-block-teaser-pretitle .icon svg { display: block; height: 100%; width: 100%; }
+.teaser-block .teaser-block-teaser-title { font-family: var(--font-sans); font-size: 1.25rem; font-weight: 300; line-height: 1.5rem; margin-bottom: 0; padding-left: .1875rem; padding-right: .1875rem; }
+
+@media (width <= 58.749rem) { .teaser-block .teaser-block-teaser-title { font-size: 1rem; line-height: 1.25rem; } }
+.teaser-block .teaser-block-teaser img { height: auto; left: 50%; max-width: none; min-height: 100%; min-width: 100%; position: absolute; top: 50%; transform: translate(-50%, -50%) scale(1.01); transition: filter .3s linear; width: auto; } /* max-width: none — the global img cap would hold the cover at the card width (source: none) */
+
+/* < 58.75rem the live container is a Flickity slider (offering.js): viewport + slider inset 1.5rem
+   (@176627), 270px cells 20px apart, dots bar @48355, custom long-arrow buttons @48686–49654 */
+.teaser-block .teaser-block-container.flickity-enabled { display: block; position: relative; }
+.teaser-block .flickity-viewport { height: 420px; overflow: hidden; position: relative; }
+.teaser-block .flickity-slider { display: flex; height: 100%; margin-left: 1.5rem; position: absolute; transition: transform .6s cubic-bezier(.19, 1, .22, 1); width: 100%; }
+.teaser-block .flickity-slider .teaser-block-teaser { flex: 0 0 270px; }
+.teaser-block .flickity-page-dots { bottom: -2.375rem; line-height: 1; list-style: none; margin: 0 0 0 1.5rem; padding: 0; pointer-events: none; position: absolute; text-align: left; width: 90px; z-index: 1; }
+.teaser-block .flickity-page-dots .dot { background: linear-gradient(180deg, transparent 3px, #000); display: inline-block; height: 4px; margin: 0; transition: background-color .2s ease; width: 25%; }
+.teaser-block .flickity-page-dots .dot.is-selected { background: #000; }
+.teaser-block .carousel-btn { bottom: -3.375rem; }
+.teaser-block .carousel-btn[aria-disabled="true"] { cursor: default; opacity: .2; }
+.teaser-block .carousel-btn[aria-disabled="true"]:hover { background: #fff; }
+.teaser-block .carousel-btn-prev { right: 5rem; }
+.teaser-block .carousel-btn-next { right: 1.5rem; }
+
+/* "show more" tertiary pill after the row (main.css @teaser-block__show-more-button, verbatim) */
+.teaser-block:has(.teaser-block-show-more-button) {
+  margin-bottom: 2.5rem;
+  padding-bottom: 0;
+}
+
+@media (width >= 58.75rem) {
+  .teaser-block:has(.teaser-block-show-more-button) {
+    margin-bottom: 5rem;
+  }
+}
+
+.teaser-block .teaser-block-show-more-button {
+  margin: 4.375rem 0 0 1.5rem !important;
+}
+
+.teaser-block .teaser-block-second-row {
+  margin-top: 1.25rem;
+}
+
+.teaser-block .teaser-block-show-more-button-mobile {
+  margin: 4.375rem 1.5rem 0 !important;
+}
+
+@media (width >= 58.75rem) {
+  .teaser-block .teaser-block-show-more-button-mobile {
+    display: none !important;
+  }
+}
+
+/* below 58.75rem the source pill (button.teaser-block__show-more-button) paints no box — only the
+   content-hub link shows (live /es-es/industrias @360: button 0x0, link 312x86); lifted at C-final
+   from the interim copies in services-tile / detail-text-block / video-block */
+@media (width <= 58.749rem) {
+  main .teaser-block .teaser-block-show-more > .teaser-block-container:has(> .teaser-block-show-more-button) {
+    display: none;
+  }
+}
+
+/* once the second row is revealed the link replaces the pill (the source relabels the button) */
+@media (width >= 58.75rem) {
+  .teaser-block .teaser-block-show-more-button-mobile.revealed {
+    display: inline-flex !important;
+  }
+}
+
+/* variant `inset-image` — the source's second teaser renderer (root without data-testid) boxes the
+   picture in .teaser-block__teaser__image-wrapper (main.css @181514), so the cover centres in the
+   card minus the 7rem hgroup instead of the whole card (/experience-innovation3,
+   /es-es/servicios/revolucion-del-dato-y-ia: 480x360 covers at natural size, centred 55 px higher) */
+.teaser-block.inset-image .teaser-block-teaser-image-wrapper {
+  height: calc(100% - 7rem);
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}

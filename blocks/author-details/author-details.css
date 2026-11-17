@@ -1,0 +1,73 @@
+/* author-details — article author byline (main.css lifted in prototypes/css/article.css) */
+
+@media (width <= 58.749rem) {
+  .author-details .author-details-item {
+    margin-bottom: 1.875rem;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .author-details .author-details-item {
+    bottom: -2.125rem;
+    position: relative;
+  }
+}
+
+.author-details .author-details-inner {
+  align-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (width <= 58.749rem) {
+  .author-details .author-details-inner {
+    padding: 0 6vw;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .author-details .author-details-inner {
+    margin: 0 auto;
+    max-width: 50.625rem;
+  }
+}
+
+.author-details .author-details-text {
+  font-size: .6875rem;
+  font-weight: 700;
+  margin-right: 1.25rem;
+  padding-bottom: .625rem;
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+
+.author-details .author-details-text :is(p, a) {
+  font: inherit;
+  margin: 0;
+}
+
+.author-details :is(
+  .author-details-name,
+  .author-details-function,
+  .author-details-company,
+  .author-details-email
+) {
+  margin-bottom: .125rem;
+}
+
+.author-details .author-details-email a {
+  color: var(--c-ocean);
+  font-weight: inherit;
+  text-decoration: underline;
+}
+
+.author-details .author-details-email a:hover,
+.author-details .author-details-email a:focus {
+  text-decoration: none;
+}
+
+.author-details .author-details-thumbnail img {
+  max-height: 100px;
+  max-width: 100px;
+  object-fit: contain;
+}

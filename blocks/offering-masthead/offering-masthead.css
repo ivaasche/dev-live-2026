@@ -1,0 +1,176 @@
+/* offering-masthead — source div.offering-masthead (main.css, values verbatim; __title ->
+   -title, __content -> -content, __description.text-content -> -description) */
+
+.offering-masthead {
+  display: flex;
+  flex-direction: column;
+  margin: 2.5rem 0;
+  padding: 0 1.5rem;
+}
+
+@media (width >= 64rem) {
+  .offering-masthead {
+    margin-right: 64px;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .offering-masthead {
+    margin: 5rem 0;
+  }
+}
+
+@media (width >= 120.001rem) {
+  .offering-masthead {
+    margin: 5rem auto;
+    max-width: 84vw;
+  }
+}
+
+.offering-masthead .offering-masthead-title {
+  display: flow-root; /* the heading's margin stays inside the title box, as the source measures */
+  font-size: 2rem;
+  margin-bottom: .5rem;
+}
+
+@media (width >= 58.75rem) {
+  .offering-masthead .offering-masthead-title {
+    font-size: 5.5rem;
+    margin-bottom: 3.5rem;
+    max-width: 70ch;
+    width: 85%;
+  }
+}
+
+/* the title heading is the source global h1 (styles.css h1) also when authored as h2 */
+.offering-masthead .offering-masthead-title :is(h1, h2) {
+  font-family: var(--font-display);
+  font-size: 5vw;
+  font-weight: 300;
+  line-height: 1.1;
+  margin: 0 0 1.5rem; /* source global h1-h6 margin (main.css @30838), kept inside the title box */
+}
+
+@media (width <= 640px) {
+  .offering-masthead .offering-masthead-title :is(h1, h2) {
+    font-size: 32px;
+  }
+}
+
+@media (width >= 1760px) {
+  .offering-masthead .offering-masthead-title :is(h1, h2) {
+    font-size: 88px;
+  }
+}
+
+.offering-masthead .offering-masthead-content {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (width >= 58.75rem) {
+  .offering-masthead .offering-masthead-content {
+    margin-left: 35%;
+    margin-right: 4.875rem;
+  }
+}
+
+.offering-masthead .offering-masthead-description :is(li, p) {
+  font-size: 1.25rem;
+}
+
+@media (width >= 58.75rem) {
+  .offering-masthead .offering-masthead-description :is(li, p) {
+    font-size: 1.75rem;
+  }
+}
+
+/* rich-text lists / paragraphs (source .text-content rules, main.css @33388 / @34329 / @34416) */
+.offering-masthead .offering-masthead-description :is(ol, p, ul) {
+  max-width: 38em;
+}
+
+.offering-masthead .offering-masthead-description p {
+  margin: 0 0 .8em;
+}
+
+.offering-masthead .offering-masthead-description :is(ol, ul) {
+  line-height: 1.4;
+  margin: 0 0 .8em;
+  padding-left: 1.25rem;
+}
+
+.offering-masthead .offering-masthead-description li {
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.offering-masthead .offering-masthead-description :is(ol, ul) li + li {
+  margin-top: .8rem;
+}
+
+/* variant `list-20` — the editor's inline <li style="font-size: 20px"> (offering siblings
+   /ai-first-product-operating-model, /enterprise-ai-foundations-financial-services) */
+.offering-masthead.list-20 .offering-masthead-description li {
+  font-size: 20px;
+}
+
+.offering-masthead .offering-masthead-description table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* source table carries inline style font-size: 20px; border 0; global table rules (main.css
+   @34479–34943): margin-bottom 1.5rem, cell padding .3125rem 6.25px, cells middle-aligned */
+.offering-masthead .offering-masthead-description table {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  table-layout: fixed;
+}
+
+.offering-masthead .offering-masthead-description td {
+  border: 0;
+  font-size: 1.25rem;
+  padding: .3125rem 6.25px;
+}
+
+.offering-masthead .offering-masthead-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+@media (width >= 58.75rem) {
+  .offering-masthead .offering-masthead-button {
+    width: fit-content;
+  }
+}
+
+/* the source CTA is a bare <a> in .offering-masthead__button (64 px = 54 px link + 10 px margin);
+   the authored paragraph around it adds no margin (/experience-innovation3, revolucion-del-dato:
+   masthead +24 px) */
+.offering-masthead .offering-masthead-button p {
+  margin: 0;
+}
+
+/* interim (foundation request cluster-campaign, same values as masthead-two-columns-cta.css): section
+   styles base-top-indent / base-bottom-indent are not in styles.css; offering siblings whose only
+   masthead is this block (/retail-at-the-crossroads-2026, /es-es/retail-en-la-encrucijada-2026) */
+main .section.base-top-indent {
+  margin-top: 2.5rem;
+}
+
+main .section.base-bottom-indent {
+  margin-bottom: 2.5rem;
+}
+
+@media (width >= 58.75rem) {
+  main .section.base-top-indent {
+    margin-top: 5rem;
+  }
+
+  main .section.base-bottom-indent {
+    margin-bottom: 5rem;
+  }
+}

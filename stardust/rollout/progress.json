@@ -1,0 +1,547 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [],
+      "pages": 0,
+      "startedAt": "2026-11-13T15:10:22.050Z",
+      "verdict": "foundation: chrome docs 4/4 live, blocks header+footer, lint clean, requests applied 9/9 (+rte-block); header parity es 0/0, en pending",
+      "note": "shell gate pending on the first deployed page (archetype-static)",
+      "gates": {
+        "shell": "es-es-aviso-legal 1440 0.01% / 360 0%",
+        "crop": "header 0.08%/0%, footer 0%/0%",
+        "chrome": "header parity es 0 errors / 0 warnings (round 1 fix); en pending first English page"
+      },
+      "endedAt": "2026-11-13T17:01:37.575Z"
+    },
+    "archetype-static": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "static"
+      ],
+      "pages": 1,
+      "archetype": "es-es-aviso-legal",
+      "startedAt": "2026-11-13T15:41:50.044Z",
+      "endedAt": "2026-11-13T16:16:50.079Z",
+      "blocks": 4,
+      "gates": {
+        "360": {
+          "archetype": "0%",
+          "dh": 0
+        },
+        "1440": {
+          "archetype": "0.01%",
+          "dh": 0
+        },
+        "crop": "header 0.08%/0%, footer 0%/0%"
+      },
+      "verdict": "archetype-static: es-es-aviso-legal live, blocks 4 (new: masthead-big-title, breadcrumbs, contact-form, marketo-form; reused: none), gate 1440 0.01% Δh 0 / 360 0% Δh 0, clipped 0, missing 0, rounds 1, requests 1 (applied at C0)"
+    },
+    "archetype-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "archetype": "index",
+      "startedAt": "2026-11-13T17:40:00Z",
+      "endedAt": "2026-11-13T18:32:17.091Z",
+      "blocks": 7,
+      "gates": {
+        "360": {
+          "archetype": "5.92%",
+          "dh": 0
+        },
+        "1440": {
+          "archetype": "9.23%",
+          "dh": 0
+        },
+        "crop": "header 0%/0%, footer 0%/0% (EN)",
+        "hero": "0.00% both widths with both sides held on slide 1"
+      },
+      "residuals": [
+        "1440 pixel is hero-carousel slide phase (live reloads after consent and restarts 6 s autoplay); hero alone 0.00% slide-locked; presence probe still reads the rotating hero heading — foundation request"
+      ],
+      "verdict": "archetype-landing: index live, blocks 7 (new: hero-block, quote-block, homepage-cta-block, featured-verticals-block, featured-case-study, partners-block; reused: contact-form/marketo-form), gate 1440 9.23% Δh 0 / 360 5.92% Δh 0, clipped 0, missing 0, rounds 3, requests 2"
+    },
+    "archetype-article": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "article"
+      ],
+      "pages": 1,
+      "archetype": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "startedAt": "2026-11-13T16:16:50.079Z",
+      "endedAt": "2026-11-13T17:27:16.378Z",
+      "blocks": 10,
+      "gates": {
+        "360": {
+          "archetype": "0.18%",
+          "dh": 0
+        },
+        "1440": {
+          "archetype": "0.06%",
+          "dh": 0
+        }
+      },
+      "verdict": "archetype-article: es-es-blog-la-era-de-los-agentes-de-ia live, blocks 10 (new: masthead-blurred, author-details, features-showcase, highlighted-cta-block, image-block, teaser-block-unu, expandable-faq-block; reused: breadcrumbs, contact-form/marketo-form), gate 1440 0.06% Δh 0 / 360 0.18% Δh 0, clipped 0, missing 0, units 0/0/0, rounds 3, requests 1"
+    },
+    "archetype-listing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "listing"
+      ],
+      "pages": 1,
+      "archetype": "es-es-blog",
+      "startedAt": "2026-11-13T16:16:50.079Z",
+      "endedAt": "2026-11-13T17:23:48.880Z",
+      "blocks": 4,
+      "gates": {
+        "360": {
+          "archetype": "0.75%",
+          "dh": 0,
+          "clipAllowance": 10
+        },
+        "1440": {
+          "archetype": "0.01%",
+          "dh": 0
+        }
+      },
+      "verdict": "archetype-listing: es-es-blog live, blocks 4 (new: insight-header, insights-filter; reused: breadcrumbs, contact-form), gate 1440 0.01% Δh 0 / 360 0.75% Δh 0, clipped 0/10 (declared allowance), missing 0, units 0/0/0, rounds 3 + measurement correction, requests 1"
+    },
+    "archetype-whitepaper": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "whitepaper"
+      ],
+      "pages": 1,
+      "archetype": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "startedAt": "2026-11-13T18:48:51.075Z",
+      "endedAt": "2026-11-13T19:12:28.425Z",
+      "verdict": "live; gate 1440 1.97% Δh -68 (1.5%) / 360 6.22% Δh -64 (1.3%); clipped 0; missing 0; rounds 0",
+      "blocks": {
+        "new": [
+          "masthead-two-columns-cta",
+          "pdf-view-block"
+        ],
+        "reused": [
+          "breadcrumbs",
+          "podcast-speakers",
+          "marketo-form"
+        ]
+      },
+      "gates": {
+        "commits": [
+          "914396e",
+          "1f5e73d"
+        ]
+      },
+      "note": "siblings: PDFs go to content bus /assets/whitepapers/ (D5); marketo-form download variant + anchor row"
+    },
+    "archetype-campaign": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "campaign"
+      ],
+      "pages": 1,
+      "archetype": "ai-searchandizing-workshop",
+      "startedAt": "2026-11-13T16:16:50.079Z",
+      "endedAt": "2026-11-13T17:30:29.281Z",
+      "blocks": 4,
+      "gates": {
+        "360": {
+          "archetype": "0.15%",
+          "dh": 0
+        },
+        "1440": {
+          "archetype": "0.07%",
+          "dh": 0
+        }
+      },
+      "verdict": "archetype-campaign: ai-searchandizing-workshop live, blocks 4 (new: masthead-primary, results-statistics, podcast-speakers; reused: marketo-form +light/narrow variants), gate 1440 0.07% Δh 0 / 360 0.15% Δh 0, clipped 0, missing 0, units 0/0/0, rounds 2, requests 0"
+    },
+    "archetype-offering": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "offering"
+      ],
+      "pages": 1,
+      "archetype": "valtech-conversion-engine",
+      "startedAt": "2026-11-13T18:48:51.075Z",
+      "endedAt": "2026-11-13T19:34:32.350Z",
+      "verdict": "live; gate 1440 0.03% Δh 0 / 360 4.22% Δh -3; clipped 0; missing 0; rounds 2",
+      "blocks": {
+        "new": [
+          "two-columns"
+        ],
+        "reused": [
+          "masthead-two-columns-cta",
+          "breadcrumbs",
+          "features-showcase",
+          "partners-block",
+          "podcast-speakers",
+          "highlighted-cta-block",
+          "teaser-block",
+          "faq-block",
+          "marketo-form"
+        ]
+      },
+      "gates": {
+        "commits": [
+          "3ff8db6",
+          "f669c2f",
+          "d4e11d5",
+          "32d2d4d"
+        ]
+      }
+    },
+    "archetype-editorial": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "editorial"
+      ],
+      "pages": 1,
+      "archetype": "digital-media-performance-marketing",
+      "startedAt": "2026-11-13T19:27:11.766Z",
+      "endedAt": "2026-11-13T20:13:07.149Z",
+      "verdict": "live; gate 1440 8.09% Δh -13 / 360 8.55% Δh -8; clipped 0; missing 0; rounds 2",
+      "blocks": {
+        "new": [],
+        "reused": [
+          "masthead-services",
+          "breadcrumbs",
+          "image-block",
+          "columns-rte",
+          "table",
+          "contact-form"
+        ],
+        "variants": [
+          "table no-header"
+        ]
+      },
+      "gates": {
+        "commits": [
+          "ed41716",
+          "9b626d0",
+          "222a07d"
+        ]
+      }
+    },
+    "archetype-microsite": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "microsite"
+      ],
+      "pages": 1,
+      "archetype": "es-es-la-empresa-inteligente-operar",
+      "startedAt": "2026-11-13T20:10:02.436Z",
+      "endedAt": "2026-11-13T21:12:20.195Z",
+      "verdict": "live; gate 1440 1.54% Δh -68 / 360 1.57% Δh -69; clipped 0; missing 0; rounds 1",
+      "blocks": {
+        "new": [
+          "hub-nav",
+          "side-by-side",
+          "related-cases",
+          "registration-form"
+        ],
+        "reused": [
+          "hero-block",
+          "features-showcase",
+          "featured-verticals-block",
+          "podcast-speakers"
+        ],
+        "variants": [
+          "hero-block ie-hub",
+          "features-showcase ie-hub",
+          "featured-verticals-block ie-hub",
+          "podcast-speakers ie-hub"
+        ]
+      },
+      "gates": {
+        "commits": [
+          "b7cbf8d",
+          "1b0e808"
+        ]
+      }
+    },
+    "cluster-static": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "static"
+      ],
+      "pages": 3,
+      "endedAt": "2026-11-13T18:07:15.565Z",
+      "gates": {
+        "360": {
+          "max": "11.57% (cookies, documented override)"
+        },
+        "1440": {
+          "max": "5.67%"
+        }
+      },
+      "residuals": [
+        "es-es-politica-de-cookies 360 11.57%: live Cookiebot consent ID/date session-variable, aligned remainder 1.25% — documented override"
+      ],
+      "verdict": "cluster-static: 3/3 delivered (2 pass, 1 documented override at 360), 1440 max 5.67% / 360 max 11.57%, clipped 0, missing 0, rounds 1, new blocks table + cookie-declaration, requests 1"
+    },
+    "cluster-landing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "landing"
+      ],
+      "startedAt": "2026-11-13T19:04:26.207Z",
+      "endedAt": "2026-11-13T19:27:03.144Z",
+      "pages": 1,
+      "verdict": "1/1 delivered; 1440 4.67% / 360 0.30%; clipped 0; missing 0; rounds 0",
+      "gates": {
+        "commits": [
+          "c615fb4",
+          "977da86"
+        ]
+      },
+      "note": "gate-state.mjs drops trailing slash on /es-es/ → gated from corrected state copy; foundation request queued"
+    },
+    "cluster-article": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "article"
+      ],
+      "startedAt": "2026-11-13T18:32:58.796Z",
+      "note": "interrupted at session end (spend cap) mid gate rounds; content/blocks committed so far stay — resume: git log --grep cluster-article, redeploy only pages not live, re-gate (delete stardust/current/measure/<slug>-units.json per width), fix rounds remaining; brief stardust/rollout/briefs/cluster-unit.md | resumed 2026-11-13T18:48:51.075Z",
+      "endedAt": "2026-11-13T20:09:42.757Z",
+      "pages": 16,
+      "verdict": "16/16 delivered; article-1 1440 max 8.17% / 360 max 9.57% (rounds 2); article-2 1440 max 7.56% / 360 max 9.61% (rounds 3); clipped 0; missing 0",
+      "residuals": [],
+      "gates": {
+        "commits": [
+          "7ef070f",
+          "dd93960"
+        ]
+      }
+    },
+    "cluster-listing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "listing"
+      ],
+      "startedAt": "2026-11-13T18:32:58.796Z",
+      "note": "interrupted at session end (spend cap) mid gate rounds; content/blocks committed so far stay — resume: git log --grep cluster-listing, redeploy only pages not live, re-gate (delete stardust/current/measure/<slug>-units.json per width), fix rounds remaining; brief stardust/rollout/briefs/cluster-unit.md | resumed 2026-11-13T18:48:51.075Z",
+      "endedAt": "2026-11-13T19:04:12.013Z",
+      "pages": 6,
+      "verdict": "5/6 delivered; 1440 max 6.86% / 360 max 6.17%; clipped 0 beyond source-parity allowances; rounds 3",
+      "residuals": [
+        "es-es-podcasts: 360 one link hidden in server-shuffled último pódcast teaser band (pixel 3.85%, Δh 27px); fix rounds exhausted"
+      ],
+      "gates": {
+        "commit": "edc33fc"
+      }
+    },
+    "cluster-whitepaper": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "whitepaper"
+      ],
+      "startedAt": "2026-11-13T19:12:39.076Z",
+      "endedAt": "2026-11-13T20:48:18.392Z",
+      "pages": 13,
+      "verdict": "13/13 delivered; whitepaper-1 1440 max 7.6% / 360 max 9.44%; whitepaper-2 1440 max 5.15% / 360 max 7.89%; clipped 0; missing 0; rounds 3; archetype re-gated 1.97%/6.22%",
+      "residuals": [],
+      "gates": {
+        "commits": [
+          "81a2497",
+          "82311a7",
+          "a00395f",
+          "80ab450",
+          "214612f",
+          "cba4065"
+        ]
+      }
+    },
+    "cluster-campaign": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "campaign"
+      ],
+      "startedAt": "2026-11-13T21:12:48.597Z",
+      "endedAt": "2026-11-13T23:11:52.732Z",
+      "pages": 16,
+      "verdict": "16/16 delivered after residual pass (ai-mythbusting 2.74%/7.51%); was 15/16",
+      "residuals": [],
+      "gates": {
+        "commits": [
+          "cf4d32f",
+          "01cbdcd",
+          "5ec0ae2",
+          "ad6ff7c",
+          "3eb1ea1",
+          "0e0b1ca",
+          "a5bb901"
+        ]
+      },
+      "residualPass": {
+        "at": "2026-11-14T02:27:52.888Z",
+        "rounds": 3,
+        "commits": [
+          "014acd7",
+          "e27463a",
+          "beb80d8",
+          "47ec455"
+        ]
+      }
+    },
+    "cluster-offering": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "offering"
+      ],
+      "startedAt": "2026-11-13T19:34:43.019Z",
+      "endedAt": "2026-11-13T22:57:18.159Z",
+      "pages": 14,
+      "verdict": "14/14 delivered after residual pass (3 rounds, no masks/overrides); was 10/14",
+      "residuals": [],
+      "gates": {
+        "commits": [
+          "57654c9",
+          "4857df0",
+          "d446387",
+          "83a564d",
+          "7d0d237"
+        ]
+      },
+      "residualPass": {
+        "at": "2026-11-14T02:27:52.888Z",
+        "rounds": 3,
+        "commits": [
+          "014acd7",
+          "e27463a",
+          "beb80d8",
+          "47ec455"
+        ]
+      }
+    },
+    "cluster-editorial": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "editorial"
+      ],
+      "startedAt": "2026-11-13T20:13:21.735Z",
+      "endedAt": "2026-11-14T00:26:32.424Z",
+      "pages": 16,
+      "verdict": "12/16 delivered both widths; 1440 14/16 max 11%; 360 12/16 max 15.6%; rounds 3 (1440) + 3 (360); all 16 live",
+      "residuals": [
+        "es-es-diversidad-e-inclusion 1440 11% / 360 12.15% (cumulative 7-14 px offsets through figures table + image tiles)",
+        "valtech-ukraine-in-media 1440 7.48% pixel PASS, units off 3 (gate reused 360 live unit measurement — instrument issue queued)",
+        "lead-scoring 360 15.6% (styles.css h3-after-p 3.75rem rhythm, foundation request; content probe timed out)",
+        "es-es-carrera 360 11.76% + clip 1 (combined secondary+primary-hollow CTA wrap; session-variable jobs list; teaser card height)"
+      ],
+      "gates": {
+        "commits": [
+          "1db62b4",
+          "22a077d",
+          "a8c642a",
+          "ecb200e",
+          "9232cbb",
+          "07ed0d4",
+          "c904451",
+          "2c5745c",
+          "0c53707",
+          "710e935",
+          "0961aee",
+          "2f93636"
+        ]
+      }
+    },
+    "cluster-microsite": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "microsite"
+      ],
+      "startedAt": "2026-11-13T21:12:48.596Z",
+      "endedAt": "2026-11-13T22:59:41.791Z",
+      "pages": 6,
+      "verdict": "6/6 delivered; 1440 max 9.48% (EN hub) / 360 max 6.5%; clipped 0; missing 0; rounds 2/1; archetype re-gated 1440 PASS / 360 0.55%",
+      "residuals": [],
+      "gates": {
+        "commits": [
+          "02b01ca",
+          "b795f0e",
+          "7cf5233",
+          "0add6dd"
+        ]
+      }
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "static",
+        "landing",
+        "article",
+        "listing",
+        "whitepaper",
+        "campaign",
+        "offering",
+        "editorial",
+        "microsite"
+      ],
+      "startedAt": "2026-11-14T04:25:36.084Z",
+      "endedAt": "2026-11-14T08:52:13.852Z",
+      "pages": 100,
+      "verdict": "100/100 delivered at both widths on the published origin. 1440: 100 PASS (home re-probed: carousel slide timing, 9.54%). 360: 98 PASS + 2 documented overrides (es-es-politica-de-cookies pixel, es-es-podcasts source-parity carousel slide); 22 units false-reds re-gated to PASS after the width-blind origin units cache was re-measured at 360.",
+      "gates": {
+        "summary1440": "stardust/replica/gates/all-1440/summary.json",
+        "summary360": "stardust/replica/gates/all-360/summary.json",
+        "runs": [
+          "all-1440/runs/2026-11-14T07-56-01-650Z-index.json",
+          "all-1440/runs/2026-11-14T08-51-48-903Z-ai-searchandizing-workshop.json",
+          "all-360/runs/2026-11-14T08-45-45-415Z-ai-searchandizing-workshop.json",
+          "all-360/runs/2026-11-14T08-50-38-880Z-es-es-podcasts.json"
+        ],
+        "coverage": "100 deployed, 100 gate pass"
+      },
+      "notes": [
+        "unit-geometry caches the origin inventory per slug (stardust/current/measure/<slug>-units.json) without the width: a 360 run after a 1440 run reuses 1440 origin boxes. Per-width sets kept at stardust/.work/cfinal/units-cache-{1440,360}; the 1440 set is restored in place.",
+        "content-presence heading alignment ignores --variable regions (links honour it): autoplay hero carousels false-red by slide timing."
+      ]
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "static",
+        "landing",
+        "article",
+        "listing",
+        "whitepaper",
+        "campaign",
+        "offering",
+        "editorial",
+        "microsite"
+      ],
+      "startedAt": "2026-11-14T02:33:34.698Z",
+      "note": "C-final foundation step done: requests 12 applied / 5 deferred (4 tooling, side-modal loader; blue-theme join kept in block); editorial residuals diversidad 1.81/8.57, ukraine 7.47/4.28, carrera 2.09/2.59 PASS, lead-scoring 2.16/5.28 pixel PASS (probes blocked by autoplay video); 9 archetypes + 26 siblings re-gated PASS; commits f32c7a2..5f7bc31",
+      "endedAt": "2026-11-14T08:53:47.984Z",
+      "pages": 100,
+      "verdict": "C-final: foundation-freeze check clean (21 files); foundation requests 12 applied / 5 deferred; gate-all 100/100 delivered at 1440 and 360; coverage 100 deployed, 100 gate pass (all-360 summary.json predates the 23-page re-gate run — apply it, then the runs listed under units.gate-all.gates.runs)."
+    }
+  }
+}

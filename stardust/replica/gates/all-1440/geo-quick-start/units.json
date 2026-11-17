@@ -1,0 +1,1033 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-13T20:48:08.853Z",
+  "tol": 4,
+  "n": 6,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/geo-quick-start/",
+  "at": "2026-11-13T20:46:22.704Z",
+  "docH": 7962
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/geo-quick-start",
+  "at": "2026-11-13T20:48:08.567Z",
+  "docH": 7854
+ },
+ "results": [
+  {
+   "sel": ".features-showcase__item=.features-showcase-item",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  },
+  {
+   "sel": ".two-columns__item__text=.two-columns-item-text",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  },
+  {
+   "sel": ".partners-block__section.inline .partners-block__logo=.partners-block-section.inline .partners-block-logo",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  },
+  {
+   "sel": ".podcast-speakers__info=.podcast-speakers-info",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 152
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 152,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:iva asche",
+       "role": "text",
+       "text": "iva asche",
+       "edsText": "iva asche",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 176,
+        "w": 136,
+        "h": 40
+       },
+       "eds": {
+        "x": 0,
+        "y": 176,
+        "w": 136,
+        "h": 40,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "32/0/300",
+        "eds": "32/0/300"
+       }
+      },
+      {
+       "key": "text:svp adobe solutions",
+       "role": "text",
+       "text": "svp adobe solutions",
+       "edsText": "svp adobe solutions",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 216,
+        "w": 187,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 216,
+        "w": 187,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/0/300",
+        "eds": "20/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 242,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 0,
+        "y": 242,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 2,
+        "y": 250,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 2,
+        "y": 250,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:valtech's most senior adobe voice and th",
+       "role": "text",
+       "text": "valtech's most senior adobe voice and the architect of our g",
+       "edsText": "valtech's most senior adobe voice and the architect of our g",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 303,
+        "w": 282,
+        "h": 196
+       },
+       "eds": {
+        "x": 0,
+        "y": 303,
+        "w": 282,
+        "h": 182,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": -14,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/300",
+        "eds": "20/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 152,
+       "absY": 6281,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 6357,
+       "w": 282,
+       "h": 515
+      },
+      "eds": {
+       "x": 24,
+       "y": 6281,
+       "w": 282,
+       "h": 485
+      },
+      "dx": 0,
+      "dy": -76,
+      "dw": 0,
+      "dh": -30
+     },
+     "summary": {
+      "elements": 6,
+      "within": 5,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 152
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 152,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:johannes marquart",
+       "role": "text",
+       "text": "johannes marquart",
+       "edsText": "johannes marquart",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 176,
+        "w": 274,
+        "h": 40
+       },
+       "eds": {
+        "x": 0,
+        "y": 176,
+        "w": 274,
+        "h": 40,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "32/0/300",
+        "eds": "32/0/300"
+       }
+      },
+      {
+       "key": "text:lead experience strategist",
+       "role": "text",
+       "text": "lead experience strategist",
+       "edsText": "lead experience strategist",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 216,
+        "w": 239,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 216,
+        "w": 239,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/0/300",
+        "eds": "20/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 242,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 0,
+        "y": 242,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 2,
+        "y": 250,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 2,
+        "y": 250,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:johannes has 15+ years in seo, marketing",
+       "role": "text",
+       "text": "johannes has 15+ years in seo, marketing & product managemen",
+       "edsText": "johannes has 15+ years in seo, marketing & product managemen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 304,
+        "w": 278,
+        "h": 222
+       },
+       "eds": {
+        "x": 0,
+        "y": 303,
+        "w": 282,
+        "h": 208,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 4,
+       "dh": -14,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/300",
+        "eds": "20/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 152,
+       "absY": 6281,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 356,
+       "y": 6357,
+       "w": 282,
+       "h": 543
+      },
+      "eds": {
+       "x": 356,
+       "y": 6281,
+       "w": 282,
+       "h": 511
+      },
+      "dx": 0,
+      "dy": -76,
+      "dw": 0,
+      "dh": -32
+     },
+     "summary": {
+      "elements": 6,
+      "within": 5,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 152
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 152,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:caroline gadd",
+       "role": "text",
+       "text": "caroline gadd",
+       "edsText": "caroline gadd",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 176,
+        "w": 201,
+        "h": 40
+       },
+       "eds": {
+        "x": 0,
+        "y": 176,
+        "w": 201,
+        "h": 40,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "32/0/300",
+        "eds": "32/0/300"
+       }
+      },
+      {
+       "key": "text:senior geo/seo lead, europe",
+       "role": "text",
+       "text": "senior geo/seo lead, europe",
+       "edsText": "senior geo/seo lead, europe",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 216,
+        "w": 267,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 216,
+        "w": 267,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/0/300",
+        "eds": "20/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 242,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 0,
+        "y": 242,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 2,
+        "y": 250,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 2,
+        "y": 250,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:geo/seo lead at valtech, helping enterpr",
+       "role": "text",
+       "text": "geo/seo lead at valtech, helping enterprise brands across eu",
+       "edsText": "geo/seo lead at valtech, helping enterprise brands across eu",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 303,
+        "w": 282,
+        "h": 224
+       },
+       "eds": {
+        "x": 0,
+        "y": 303,
+        "w": 282,
+        "h": 208,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": -16,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/300",
+        "eds": "20/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 152,
+       "absY": 6281,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 688,
+       "y": 6357,
+       "w": 282,
+       "h": 543
+      },
+      "eds": {
+       "x": 688,
+       "y": 6281,
+       "w": 282,
+       "h": 511
+      },
+      "dx": 0,
+      "dy": -76,
+      "dw": 0,
+      "dh": -32
+     },
+     "summary": {
+      "elements": 6,
+      "within": 5,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 152
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 152,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:hester van schaik",
+       "role": "text",
+       "text": "hester van schaik",
+       "edsText": "hester van schaik",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 176,
+        "w": 255,
+        "h": 40
+       },
+       "eds": {
+        "x": 0,
+        "y": 176,
+        "w": 255,
+        "h": 40,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "32/0/300",
+        "eds": "32/0/300"
+       }
+      },
+      {
+       "key": "text:lead seo specialist",
+       "role": "text",
+       "text": "lead seo specialist",
+       "edsText": "lead seo specialist",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 216,
+        "w": 176,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 216,
+        "w": 176,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/0/300",
+        "eds": "20/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 242,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 0,
+        "y": 242,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 2,
+        "y": 250,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 2,
+        "y": 250,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 152,
+       "absY": 6281,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 1020,
+       "y": 6357,
+       "w": 282,
+       "h": 303
+      },
+      "eds": {
+       "x": 1020,
+       "y": 6281,
+       "w": 282,
+       "h": 303
+      },
+      "dx": 0,
+      "dy": -76,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".faq-block__list__item:nth-child(-n+5)=.faq-block-list-item:nth-child(-n+5)",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  }
+ ],
+ "verdict": {
+  "units": 4,
+  "within": 20,
+  "off": 3,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 4,
+  "requiredOff": 3
+ }
+}

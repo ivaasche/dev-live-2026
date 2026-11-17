@@ -1,0 +1,110 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-14T02:56:26.225Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.valtech.com",
+    "eds": "https://main--c87ac39f--aemcoder.aem.page",
+    "edsHostOverride": "https://main--c87ac39f--aemcoder.aem.page",
+    "only": [
+      "es-es-carrera"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 1,
+    "overridePass": 0,
+    "fail": 1,
+    "error": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 1,
+    "failContent": 0,
+    "failUnits": 0,
+    "fontsNotLoaded": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "es-es-carrera",
+      "path": "/es-es/carrera",
+      "template": "editorial",
+      "tier": "sibling",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 2.59,
+      "textPct": 5.07,
+      "heightDelta": 3,
+      "originH": 4251,
+      "edsH": 4248,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 1,
+      "clipPass": false,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "clipped 1 (text 1, controls 0)"
+      ],
+      "clipGroups": [
+        {
+          "kind": "TEXT CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "div.teaser-block-teaser.is-selected",
+          "path": "div.teaser-block-teaser.is-selected > div.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#technology-is-very-apt-at-answering-the-question-what-can-be-done-but-we-need-design-to-answer-the-question-what-should-be-done",
+          "text": "\"technology is very apt at answering the question what can b",
+          "cutMin": 18,
+          "cutMax": 18
+        }
+      ],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 5,
+        "variable": [
+          ".jobs__list=.jobs-list"
+        ]
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [],
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "a": "stardust/replica/gates/all-360/becoming-a-connected-manufacturer/origin.png",
+  "b": "stardust/replica/gates/all-360/becoming-a-connected-manufacturer/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 2948,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 2642,
+  "pct": 0.25,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/becoming-a-connected-manufacturer/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 0.32,
+  "textBoxes": 72,
+  "textPixels": 214788,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.6
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.9
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 2948,
+      "pct": 0
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--c87ac39f--aemcoder.aem.page/becoming-a-connected-manufacturer"
+  }
+}

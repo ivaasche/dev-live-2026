@@ -1,0 +1,2658 @@
+{
+  "discovery": {
+    "fetchTechnique": "chrome",
+    "count": 100,
+    "concurrency": 3
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": null,
+  "crawl": {
+    "failures": [],
+    "pageTimeoutMs": 90000
+  },
+  "captureGaps": {
+    "roots": [
+      {
+        "root": "/es-es",
+        "slug": "es-es",
+        "linked": 51,
+        "uncaptured": [
+          "/es-es/carrera/ofertas-de-empleo",
+          "/es-es/casos/discover",
+          "/es-es/casos/eton",
+          "/es-es/casos/mandarin-oriental",
+          "/es-es/casos/mars",
+          "/es-es/industrias/agricultura",
+          "/es-es/industrias/bienes-de-gran-consumo",
+          "/es-es/industrias/lujo",
+          "/es-es/industrias/movilidad",
+          "/es-es/industrias/nuevo-horizonte-espacial",
+          "/es-es/industrias/retail",
+          "/es-es/industrias/salud",
+          "/es-es/industrias/sector-industrial",
+          "/es-es/industrias/sector-publico",
+          "/es-es/industrias/servicios-financieros",
+          "/es-es/industrias/viajes-hosteleria",
+          "/es-es/noticias/valtech-joins-fast-companys-best-workplaces-for-innovators",
+          "/es-es/nuestros-partners/adobe",
+          "/es-es/nuestros-partners/google",
+          "/es-es/nuestros-partners/salesforce",
+          "/es-es/nuestros-partners/shopify",
+          "/es-es/quienes-somos/accesibilidad",
+          "/es-es/quienes-somos/contacto/keep-in-touch",
+          "/es-es/quienes-somos/mantente-en-contacto",
+          "/es-es/quienes-somos/oficinas",
+          "/es-es/search",
+          "/es-es/servicios/aceleracion-comercio",
+          "/es-es/servicios/elevacion-de-la-experiencia",
+          "/es-es/servicios/revolucion-del-dato-y-ia/valtech-one",
+          "/es-es/servicios/servicios-creativos-de-marketing-performance",
+          "/es-es/servicios/transformacion-empresarial"
+        ]
+      }
+    ],
+    "detail": "uncaptured first-level targets: es-es 31"
+  },
+  "dynamicSurface": {
+    "pages": 100,
+    "pagesWithSameSiteData": 100,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 100,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "consentcdn.cookiebot.eu",
+        "path": "/consentconfig/{uuid}/settings.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://consentcdn.cookiebot.eu/consentconfig/9ff02350-286d-45c0-ae57-9a4a20538f5c/settings.json",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "_tu",
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gap.gtb",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtb",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "us_privacy"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/ccm/collect",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "px.ads.linkedin.com",
+        "path": "/wa/",
+        "query": [
+          "fmt",
+          "medium"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://px.ads.linkedin.com/wa/",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "c.6sc.co",
+        "path": "/",
+        "query": [
+          "d"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://c.6sc.co/",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "tag.valtech.com",
+        "path": "/g/collect",
+        "query": [
+          "_et",
+          "_eu",
+          "_p",
+          "_s",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "ec_mode",
+          "ecid",
+          "en",
+          "ep.page_category",
+          "ep.page_location_en",
+          "ep.page_type",
+          "ep.platform",
+          "ep.platform_locale",
+          "ep.platform_type",
+          "ep.user_data.linkedinFirstPartyId",
+          "ep.vt_session_id",
+          "epn.timestamp",
+          "evnid",
+          "frm",
+          "gap.gtb",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtb",
+          "gtm",
+          "ibt",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "richsstsse",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "sst.gch",
+          "sst.lpc",
+          "sst.navt",
+          "sst.ngs",
+          "sst.rnd",
+          "sst.sw_exp",
+          "sst.tft",
+          "sst.ude",
+          "sst.us_privacy",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "tt",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "up.consent_user_geolocation",
+          "ur",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://tag.valtech.com/g/collect",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ipv6.6sc.co",
+        "path": "/",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ipv6.6sc.co/",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "epsilon.6sense.com",
+        "path": "/v3/company/details",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://epsilon.6sense.com/v3/company/details",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "did",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gdid",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url",
+          "us_privacy"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/rmkt/collect/18159760898/",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "logx.optimizely.com",
+        "path": "/v1/events",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://logx.optimizely.com/v1/events",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "f.clarity.ms",
+        "path": "/collect",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://f.clarity.ms/collect",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "dc.services.visualstudio.com",
+        "path": "/v2/track",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://dc.services.visualstudio.com/v2/track",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "pages": 18,
+        "examples": [
+          "es-es-retail-maturity-assessment",
+          "es-es-guia-para-la-empresa-inteligente",
+          "es-es-la-empresa-inteligente"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "insight.adsrvr.org",
+        "path": "/track/realtimeconversion",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://insight.adsrvr.org/track/realtimeconversion",
+        "pages": 3,
+        "examples": [
+          "valtech-agentic-commerce-catalyst",
+          "valtech-enterprise-ai-foundations",
+          "content-supply-chain"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.valtech.com",
+        "path": "/globalassets/00-global/02-images/04-insights/02-whitepapers/2025-whitepapers/run-operate-grow/intelligent-enterprise-preview.pdf",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/pdf",
+        "sameSite": true,
+        "example": "https://www.valtech.com/globalassets/00-global/02-images/04-insights/02-whitepapers/2025-whitepapers/run-operate-grow/intelligent-enterprise-preview.pdf",
+        "pages": 1,
+        "examples": [
+          "es-es-guia-para-la-empresa-inteligente"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.valtech.com",
+        "path": "/categoryfilter/insights",
+        "query": [
+          "filterid",
+          "id",
+          "language",
+          "limit"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://www.valtech.com/categoryfilter/insights",
+        "pages": 1,
+        "examples": [
+          "es-es-blog"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.valtech.com",
+        "path": "/categoryfilter/whitepapers",
+        "query": [
+          "filterid",
+          "id",
+          "language",
+          "limit"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://www.valtech.com/categoryfilter/whitepapers",
+        "pages": 1,
+        "examples": [
+          "es-es-whitepapers"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.valtech.com",
+        "path": "/newsapi/getnews",
+        "query": [
+          "language",
+          "parentPageId"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://www.valtech.com/newsapi/getnews",
+        "pages": 1,
+        "examples": [
+          "es-es-noticias"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.valtech.com",
+        "path": "/categoryfilter/categories",
+        "query": [
+          "filterid",
+          "id",
+          "language",
+          "limit"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://www.valtech.com/categoryfilter/categories",
+        "pages": 1,
+        "examples": [
+          "es-es-casos"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.valtech.com",
+        "path": "/eventsfilter/events",
+        "query": [
+          "filterid",
+          "id",
+          "language",
+          "limit"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://www.valtech.com/eventsfilter/events",
+        "pages": 1,
+        "examples": [
+          "es-es-eventos"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.valtech.com",
+        "path": "/contenthub/getjsonresult",
+        "query": [
+          "filterid",
+          "id",
+          "language",
+          "limit"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://www.valtech.com/contenthub/getjsonresult",
+        "pages": 1,
+        "examples": [
+          "es-es-content-hub"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.valtech.com",
+        "path": "/categoryfilter/podcasts",
+        "query": [
+          "filterid",
+          "id",
+          "language",
+          "limit"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://www.valtech.com/categoryfilter/podcasts",
+        "pages": 1,
+        "examples": [
+          "es-es-podcasts"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "dwt.soundcloud.com",
+        "path": "/js/",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://dwt.soundcloud.com/js/",
+        "pages": 1,
+        "examples": [
+          "es-es-podcasts"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api-widget.soundcloud.com",
+        "path": "/resolve",
+        "query": [
+          "app_version",
+          "client_id",
+          "format",
+          "url"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api-widget.soundcloud.com/resolve",
+        "pages": 1,
+        "examples": [
+          "es-es-podcasts"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "wave.sndcdn.com",
+        "path": "/ygjQUu9KPBJ5_m.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://wave.sndcdn.com/ygjQUu9KPBJ5_m.json",
+        "pages": 1,
+        "examples": [
+          "es-es-podcasts"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api-widget.soundcloud.com",
+        "path": "/tracks/{n}/comments",
+        "query": [
+          "app_version",
+          "client_id",
+          "filter_replies",
+          "format",
+          "limit",
+          "linked_partitioning",
+          "offset",
+          "threaded"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api-widget.soundcloud.com/tracks/2300109944/comments",
+        "pages": 1,
+        "examples": [
+          "es-es-podcasts"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.valtech.com",
+        "path": "/globalassets/00-global/02-images/04-insights/02-whitepapers/2026-whitepapers/ai-in-the-software-development-lifecycle/guide---ai-in-the-software-delivery-lifecycle-sdlc-for-fsi-v8-1-6.pdf",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/pdf",
+        "sameSite": true,
+        "example": "https://www.valtech.com/globalassets/00-global/02-images/04-insights/02-whitepapers/2026-whitepapers/ai-in-the-software-development-lifecycle/guide---ai-in-the-software-delivery-lifecycle-sdlc-for-fsi-v8-1-6.pdf",
+        "pages": 1,
+        "examples": [
+          "es-es-whitepapers-la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.valtech.com",
+        "path": "/globalassets/00-global/02-images/04-insights/02-whitepapers/2026-whitepapers/the-era-of-conversational-commerce-report-2026/conversational_commerce_v4.pdf",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/pdf",
+        "sameSite": true,
+        "example": "https://www.valtech.com/globalassets/00-global/02-images/04-insights/02-whitepapers/2026-whitepapers/the-era-of-conversational-commerce-report-2026/conversational_commerce_v4.pdf",
+        "pages": 1,
+        "examples": [
+          "es-es-whitepapers-infome-la-era-del-comercio-conversacional-2026"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.valtech.com",
+        "path": "/globalassets/00-global/02-images/04-insights/02-whitepapers/2026-whitepapers/the-voice-of-digital-leaders-in-manufacturing-2026-report/valtech---the-voice-of-digital-leaders-in-manufacturing-2026.pdf",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/pdf",
+        "sameSite": true,
+        "example": "https://www.valtech.com/globalassets/00-global/02-images/04-insights/02-whitepapers/2026-whitepapers/the-voice-of-digital-leaders-in-manufacturing-2026-report/valtech---the-voice-of-digital-leaders-in-manufacturing-2026.pdf",
+        "pages": 1,
+        "examples": [
+          "es-es-whitepapers-la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.valtech.com",
+        "path": "/globalassets/00-global/02-images/04-insights/02-whitepapers/2026-whitepapers/voice-of-experience-innovators-mobility-2026/tsk-6717-voxi-mobility-report-2026.pdf",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/pdf",
+        "sameSite": true,
+        "example": "https://www.valtech.com/globalassets/00-global/02-images/04-insights/02-whitepapers/2026-whitepapers/voice-of-experience-innovators-mobility-2026/tsk-6717-voxi-mobility-report-2026.pdf",
+        "pages": 1,
+        "examples": [
+          "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.valtech.com",
+        "path": "/globalassets/tsk-7130-valtech-x-adobe-digital-loyalty-healthcare_final.pdf",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/pdf",
+        "sameSite": true,
+        "example": "https://www.valtech.com/globalassets/tsk-7130-valtech-x-adobe-digital-loyalty-healthcare_final.pdf",
+        "pages": 1,
+        "examples": [
+          "es-es-whitepapers-fidelizacion-digital-sector-sanitario"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.valtech.com",
+        "path": "/globalassets/00-global/02-images/04-insights/02-whitepapers/2026-whitepapers/rewiring-financial-services-intelligence-at-scale-breaks-the-operating-model/rewiring-financial-services.pdf",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/pdf",
+        "sameSite": true,
+        "example": "https://www.valtech.com/globalassets/00-global/02-images/04-insights/02-whitepapers/2026-whitepapers/rewiring-financial-services-intelligence-at-scale-breaks-the-operating-model/rewiring-financial-services.pdf",
+        "pages": 1,
+        "examples": [
+          "es-es-whitepapers-transformar-los-servicios-financieros-la-inteligencia-a-gran-escala"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.valtech.com",
+        "path": "/contentassets/{hash}/tsk-6286-valtech-optimizely-playbook_digital_v5.pdf",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/pdf",
+        "sameSite": true,
+        "example": "https://www.valtech.com/contentassets/c223a268b95f498682f90f72ccf41cd3/tsk-6286-valtech-optimizely-playbook_digital_v5.pdf",
+        "pages": 1,
+        "examples": [
+          "es-es-whitepapers-guia-estrategica-salud-digital-optimizely-2026"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.valtech.com",
+        "path": "/globalassets/00-global/02-images/04-insights/02-whitepapers/2025-whitepapers/retail-at-the-crossroads-2026/tsk-5666-retail-at-the-crossroads-retail-web-1-6.pdf",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/pdf",
+        "sameSite": true,
+        "example": "https://www.valtech.com/globalassets/00-global/02-images/04-insights/02-whitepapers/2025-whitepapers/retail-at-the-crossroads-2026/tsk-5666-retail-at-the-crossroads-retail-web-1-6.pdf",
+        "pages": 1,
+        "examples": [
+          "es-es-whitepapers-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.valtech.com",
+        "path": "/globalassets/00-global/02-images/04-insights/02-whitepapers/2025-whitepapers/mobility-consumer-report/tsk-5667_mobility_consumer-report_v5-1-8.pdf",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/pdf",
+        "sameSite": true,
+        "example": "https://www.valtech.com/globalassets/00-global/02-images/04-insights/02-whitepapers/2025-whitepapers/mobility-consumer-report/tsk-5667_mobility_consumer-report_v5-1-8.pdf",
+        "pages": 1,
+        "examples": [
+          "es-es-whitepapers-informe-tendencias-cliente-movilidad-2026"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.valtech.com",
+        "path": "/globalassets/00-global/02-images/04-insights/02-whitepapers/2025-whitepapers/intelligent-journeys/valtech-gl-travelling-whitepaper-holiday-series-intelligent-journey-final-1-4.pdf",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/pdf",
+        "sameSite": true,
+        "example": "https://www.valtech.com/globalassets/00-global/02-images/04-insights/02-whitepapers/2025-whitepapers/intelligent-journeys/valtech-gl-travelling-whitepaper-holiday-series-intelligent-journey-final-1-4.pdf",
+        "pages": 1,
+        "examples": [
+          "es-es-whitepapers-experiencias-inteligentes"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.valtech.com",
+        "path": "/contentassets/{hash}/tsk-7298-the-ai-pivot---preview.pdf",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/pdf",
+        "sameSite": true,
+        "example": "https://www.valtech.com/contentassets/5457f439cbe14147b1899daa021b0e1f/tsk-7298-the-ai-pivot---preview.pdf",
+        "pages": 1,
+        "examples": [
+          "es-es-whitepapers-el-giro-hacia-la-ia"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.valtech.com",
+        "path": "/globalassets/00-global/02-images/19-thread/10-edition/thread-magazine---issue-10-preview.pdf",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/pdf",
+        "sameSite": true,
+        "example": "https://www.valtech.com/globalassets/00-global/02-images/19-thread/10-edition/thread-magazine---issue-10-preview.pdf",
+        "pages": 1,
+        "examples": [
+          "es-es-thread-magazine-edition-10-the-experience-loop"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.valtech.com",
+        "path": "/index.php/form/getForm",
+        "query": [
+          "form",
+          "munchkinId",
+          "url"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.valtech.com/index.php/form/getForm",
+        "pages": 1,
+        "examples": [
+          "es-es-thread-magazine-edition-10-the-experience-loop"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.valtech.com",
+        "path": "/globalassets/00-global/02-images/04-insights/02-whitepapers/2025-whitepapers/voice-of-experience-innovators-mobility-2025/valtech---voice-of-experience-innovators-in-mobility-1-1-7.pdf",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/pdf",
+        "sameSite": true,
+        "example": "https://www.valtech.com/globalassets/00-global/02-images/04-insights/02-whitepapers/2025-whitepapers/voice-of-experience-innovators-mobility-2025/valtech---voice-of-experience-innovators-in-mobility-1-1-7.pdf",
+        "pages": 1,
+        "examples": [
+          "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2025"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "connect.facebook.net",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "host": "j.6sc.co",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "host": "munchkin.marketo.net",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "host": "s.emea01.idio.episerver.net",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "host": "consent.cookiebot.eu",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "host": "snap.licdn.com",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "host": "static.ads-twitter.com",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "host": "siteimproveanalytics.com",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "host": "consentcdn.cookiebot.eu",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "host": "ws.zoominfo.com",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "host": "cdn.optimizely.com",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "host": "az416426.vo.msecnd.net",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "host": "www.clarity.ms",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "host": "scripts.clarity.ms",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "host": "www.linkedin.com",
+        "pages": 5,
+        "examples": [
+          "es-es-guia-para-la-empresa-inteligente",
+          "es-es-casos",
+          "es-es-servicios"
+        ]
+      },
+      {
+        "host": "js.adsrvr.org",
+        "pages": 3,
+        "examples": [
+          "valtech-agentic-commerce-catalyst",
+          "valtech-enterprise-ai-foundations",
+          "content-supply-chain"
+        ]
+      },
+      {
+        "host": "widget.sndcdn.com",
+        "pages": 1,
+        "examples": [
+          "es-es-podcasts"
+        ]
+      },
+      {
+        "host": "dwt.soundcloud.com",
+        "pages": 1,
+        "examples": [
+          "es-es-podcasts"
+        ]
+      },
+      {
+        "host": "consent.cookiebot.com",
+        "pages": 1,
+        "examples": [
+          "es-es-politica-de-cookies"
+        ]
+      }
+    ],
+    "frameworkHints": [
+      {
+        "hint": "marketo-forms",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      }
+    ],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 100,
+        "examples": [
+          "index",
+          "es-es",
+          "es-es-retail-en-la-encrucijada-2026"
+        ]
+      }
+    ],
+    "formTargets": [
+      {
+        "action": "https://www.valtech.com/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "Phone",
+          "mKTOWhyContact",
+          "commentCapture",
+          "Privacy_Policy_opt_in__c",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/retail-maturity-assessment/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Company",
+          "Industry",
+          "Lead_title__c",
+          "Email",
+          "CountryCode",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-retail-maturity-assessment"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/quienes-somos/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "Phone",
+          "mKTOWhyContact",
+          "commentCapture",
+          "Privacy_Policy_opt_in__c",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-quienes-somos"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/blog/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "Phone",
+          "mKTOWhyContact",
+          "commentCapture",
+          "Privacy_Policy_opt_in__c",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-blog"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/nuestros-partners/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Phone",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "commentCapture",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-nuestros-partners"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/carrera/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "Phone",
+          "mKTOWhyContact",
+          "commentCapture",
+          "Privacy_Policy_opt_in__c",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-carrera"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/casos/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "Phone",
+          "mKTOWhyContact",
+          "commentCapture",
+          "Privacy_Policy_opt_in__c",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-casos"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/thread-magazine/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-thread-magazine"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/servicios/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "Phone",
+          "mKTOWhyContact",
+          "commentCapture",
+          "Privacy_Policy_opt_in__c",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-servicios"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/industrias/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "Phone",
+          "mKTOWhyContact",
+          "commentCapture",
+          "Privacy_Policy_opt_in__c",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-industrias"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/aviso-legal/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "Phone",
+          "mKTOWhyContact",
+          "commentCapture",
+          "Privacy_Policy_opt_in__c",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-aviso-legal"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/podcasts/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "Phone",
+          "mKTOWhyContact",
+          "commentCapture",
+          "Privacy_Policy_opt_in__c",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-podcasts"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/diversidad-e-inclusion/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "Phone",
+          "mKTOWhyContact",
+          "commentCapture",
+          "Privacy_Policy_opt_in__c",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-diversidad-e-inclusion"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/trabajar-en-valtech/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "Phone",
+          "mKTOWhyContact",
+          "commentCapture",
+          "Privacy_Policy_opt_in__c",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-trabajar-en-valtech"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/politica-de-cookies/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "Phone",
+          "mKTOWhyContact",
+          "commentCapture",
+          "Privacy_Policy_opt_in__c",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-politica-de-cookies"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/whitepapers/la-era-agentica-tendencias-de-la-ia-empresarial-2026/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Company",
+          "Industry",
+          "Lead_title__c",
+          "Email",
+          "CountryCode",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-whitepapers-la-era-agentica-tendencias-de-la-ia-empresarial-2026"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/blog/presentamos-el-muro-de-datos-b2b/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "Phone",
+          "mKTOWhyContact",
+          "commentCapture",
+          "Privacy_Policy_opt_in__c",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-blog-presentamos-el-muro-de-datos-b2b"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/whitepapers/la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Company",
+          "Industry",
+          "Lead_title__c",
+          "Email",
+          "CountryCode",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-whitepapers-la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/la-empresa-inteligente/liderar/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Company",
+          "Industry",
+          "Lead_title__c",
+          "Email",
+          "CountryCode",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-la-empresa-inteligente-liderar"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/la-empresa-inteligente/crecer/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Company",
+          "Industry",
+          "Lead_title__c",
+          "Email",
+          "CountryCode",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-la-empresa-inteligente-crecer"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/whitepapers/infome-la-era-del-comercio-conversacional-2026/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Company",
+          "Industry",
+          "Lead_title__c",
+          "Email",
+          "CountryCode",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-whitepapers-infome-la-era-del-comercio-conversacional-2026"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/whitepapers/la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Company",
+          "Industry",
+          "Lead_title__c",
+          "Email",
+          "CountryCode",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-whitepapers-la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2026/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Company",
+          "Industry",
+          "Lead_title__c",
+          "Email",
+          "CountryCode",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/whitepapers/fidelizacion-digital-sector-sanitario/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Company",
+          "Industry",
+          "Lead_title__c",
+          "Email",
+          "CountryCode",
+          "Email_Opt_In__c",
+          "partnerconsentacceptedmarketing"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-whitepapers-fidelizacion-digital-sector-sanitario"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/whitepapers/transformar-los-servicios-financieros-la-inteligencia-a-gran-escala/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Company",
+          "Industry",
+          "Lead_title__c",
+          "Email",
+          "CountryCode",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-whitepapers-transformar-los-servicios-financieros-la-inteligencia-a-gran-escala"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/whitepapers/guia-estrategica-salud-digital-optimizely-2026/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Company",
+          "Industry",
+          "Lead_title__c",
+          "Email",
+          "CountryCode",
+          "Email_Opt_In__c",
+          "partnerconsentacceptedmarketing"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-whitepapers-guia-estrategica-salud-digital-optimizely-2026"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/whitepapers/retail-en-la-encrucijada-2026/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Company",
+          "Industry",
+          "Lead_title__c",
+          "Email",
+          "CountryCode",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-whitepapers-retail-en-la-encrucijada-2026"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/whitepapers/informe-tendencias-cliente-movilidad-2026/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Company",
+          "Industry",
+          "Lead_title__c",
+          "Email",
+          "CountryCode",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-whitepapers-informe-tendencias-cliente-movilidad-2026"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/whitepapers/el-giro-hacia-la-ia/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Company",
+          "Industry",
+          "Lead_title__c",
+          "Email",
+          "CountryCode",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-whitepapers-el-giro-hacia-la-ia"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2025/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Company",
+          "Industry",
+          "Lead_title__c",
+          "Email",
+          "CountryCode",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2025"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/es-es/nuestros-partners/oracle/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "Phone",
+          "mKTOWhyContact",
+          "commentCapture",
+          "Privacy_Policy_opt_in__c",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-es-nuestros-partners-oracle"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/becoming-a-connected-manufacturer/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "becoming-a-connected-manufacturer"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/digitalxelerate/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "commentCapture",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "digitalxelerate"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/digital-consulting-discovery-call/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "temporaryinfo",
+          "commentCapture",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "digital-consulting-discovery-call"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/gear-accelerator/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "Phone",
+          "commentCapture",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "gear-accelerator"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/ai-mythbusting/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Company",
+          "Industry",
+          "Lead_title__c",
+          "Email",
+          "CountryCode",
+          "Privacy_Policy_opt_in__c",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "ai-mythbusting"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/intelligent-journeys/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "intelligent-journeys"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/ai-assessment/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Email",
+          "Company",
+          "Title",
+          "Industry",
+          "CountryCode",
+          "commentCapture",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "ai-assessment"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/retail-at-the-crossroads-2026/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "Phone",
+          "mKTOWhyContact",
+          "commentCapture",
+          "Privacy_Policy_opt_in__c",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "retail-at-the-crossroads-2026"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/experience-innovation/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "Phone",
+          "mKTOWhyContact",
+          "commentCapture",
+          "Privacy_Policy_opt_in__c",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "experience-innovation"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/ai-readiness-starts-here/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Company",
+          "Lead_title__c",
+          "Email",
+          "Industry",
+          "CountryCode",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "ai-readiness-starts-here"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/meet-the-expert-vera-schnitzlein/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "Phone",
+          "mKTOWhyContact",
+          "commentCapture",
+          "Privacy_Policy_opt_in__c",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "meet-the-expert-vera-schnitzlein"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/b2b-portal-discovery-workshop/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "commentCapture",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "b2b-portal-discovery-workshop"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/valtech-agentic-commerce-catalyst/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "commentCapture",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "valtech-agentic-commerce-catalyst"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/valtech-enterprise-ai-foundations/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "commentCapture",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "valtech-enterprise-ai-foundations"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/content-supply-chain/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "commentCapture",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "content-supply-chain"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/retail-maturity-assessment/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Email",
+          "Company",
+          "Title",
+          "Industry",
+          "CountryCode",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "retail-maturity-assessment"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/ai-first-product-operating-model/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "commentCapture",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "ai-first-product-operating-model"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/enterprise-ai-foundations-financial-services/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "commentCapture",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "enterprise-ai-foundations-financial-services"
+        ]
+      },
+      {
+        "action": "https://www.valtech.com/valtech-conversion-engine/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "Lead_title__c",
+          "Email",
+          "Company",
+          "Industry",
+          "CountryCode",
+          "commentCapture",
+          "Email_Opt_In__c"
+        ],
+        "pages": 1,
+        "examples": [
+          "valtech-conversion-engine"
+        ]
+      }
+    ]
+  },
+  "visionCheck": [
+    {
+      "slug": "ai-assessment",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "ai-first-product-operating-model",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 83% of page)"
+    },
+    {
+      "slug": "ai-mythbusting",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "ai-readiness-starts-here",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "ai-searchandizing-workshop",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "b2b-portal-discovery-workshop",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "becoming-a-connected-manufacturer",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "brand-strategy-design-agency",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "composable-enterprise-assessment",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "content-supply-chain",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 95% of page)"
+    },
+    {
+      "slug": "creative-content",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 71% of page)"
+    },
+    {
+      "slug": "dataprod",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 60% of page)"
+    },
+    {
+      "slug": "digital-consulting-discovery-call",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 68% of page)"
+    },
+    {
+      "slug": "digital-media-performance-marketing",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 60% of page)"
+    },
+    {
+      "slug": "digitalxelerate",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "enterprise-ai-foundations-financial-services",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 81% of page)"
+    },
+    {
+      "slug": "enterprise-ai-foundations-vtiq",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-aviso-legal",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-blog-asi-se-creo-valtech-concierge",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 60% of page)"
+    },
+    {
+      "slug": "es-es-blog-como-marcas-locales-escalan-de-forma-diferente",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 60% of page)"
+    },
+    {
+      "slug": "es-es-blog-el-geo-como-la-nueva-frontera-de-la-visibilidad-digital",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 61% of page)"
+    },
+    {
+      "slug": "es-es-blog-embedding-ai-in-government-case-management",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 74% of page)"
+    },
+    {
+      "slug": "es-es-blog-estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 60% of page)"
+    },
+    {
+      "slug": "es-es-blog-ia-transforma-busquedas-y-webs-de-marca",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 76% of page)"
+    },
+    {
+      "slug": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 60% of page)"
+    },
+    {
+      "slug": "es-es-blog-presentamos-el-muro-de-datos-b2b",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 75% of page)"
+    },
+    {
+      "slug": "es-es-blog",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 60% of page)"
+    },
+    {
+      "slug": "es-es-carrera",
+      "verdict": "recaptured",
+      "notes": "hero image area renders as an empty grey block; title reads \"Quiénes somos\" on the careers page | recaptured with --wait slow (lazy media/video posters settled); residual blank bands are scroll-revealed sections, replicated as captured"
+    },
+    {
+      "slug": "es-es-casos-lexus-europa",
+      "verdict": "recaptured",
+      "notes": "large blank band below the hero (lazy/animated content not rendered); results + quote visible further down | recaptured with --wait slow (lazy media/video posters settled); residual blank bands are scroll-revealed sections, replicated as captured"
+    },
+    {
+      "slug": "es-es-casos",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-content-hub",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 60% of page)"
+    },
+    {
+      "slug": "es-es-diversidad-e-inclusion",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 64% of page)"
+    },
+    {
+      "slug": "es-es-eventos-ai-in-retail-from-pilots-to-performanceexclusive",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-eventos-google-cloud-and-valtech-roundtable",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-eventos-valtech-at-shoptalk-europe-2026",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-eventos-valtech-optimizely-at-resume-martech-2026",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-eventos",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-guia-para-la-empresa-inteligente",
+      "verdict": "recaptured",
+      "notes": "grey empty image box beside the second heading and a large empty white embed/video frame | recaptured with --wait slow (lazy media/video posters settled); residual blank bands are scroll-revealed sections, replicated as captured"
+    },
+    {
+      "slug": "es-es-industrias",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente-crecer",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente-liderar",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente-modelo-operativo",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente-operar",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente-organizar",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 96% of page)"
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 86% of page)"
+    },
+    {
+      "slug": "es-es-noticias-conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-noticias-valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-noticias",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-nuestros-partners-oracle",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-nuestros-partners",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-podcasts",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-politica-de-cookies",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 60% of page)"
+    },
+    {
+      "slug": "es-es-politica-privacidad",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 60% of page)"
+    },
+    {
+      "slug": "es-es-quienes-somos",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-retail-en-la-encrucijada-2026",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-retail-maturity-assessment",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-servicios-revolucion-del-dato-y-ia",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 60% of page)"
+    },
+    {
+      "slug": "es-es-servicios",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-thread-magazine-edition-10-the-experience-loop",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-thread-magazine",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-trabajar-en-valtech",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 60% of page)"
+    },
+    {
+      "slug": "es-es-whitepapers-el-ciclo-de-relevancia-de-las-marcas",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 64% of page)"
+    },
+    {
+      "slug": "es-es-whitepapers-el-giro-hacia-la-ia",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-whitepapers-experiencias-inteligentes",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-whitepapers-fidelizacion-digital-sector-sanitario",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-whitepapers-guia-estrategica-salud-digital-optimizely-2026",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-whitepapers-infome-la-era-del-comercio-conversacional-2026",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-whitepapers-informe-tendencias-cliente-movilidad-2026",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-whitepapers-la-era-agentica-tendencias-de-la-ia-empresarial-2026",
+      "verdict": "recaptured",
+      "notes": "\"Vista previa\" preview section renders blank | recaptured with --wait slow (lazy media/video posters settled); residual blank bands are scroll-revealed sections, replicated as captured"
+    },
+    {
+      "slug": "es-es-whitepapers-la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-whitepapers-la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2025",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-whitepapers-retail-en-la-encrucijada-2026",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-whitepapers-transformar-los-servicios-financieros-la-inteligencia-a-gran-escala",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es-whitepapers",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "es-es",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 70% of page)"
+    },
+    {
+      "slug": "experience-innovation-on-azure",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 79% of page)"
+    },
+    {
+      "slug": "experience-innovation",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "experience-innovation3",
+      "verdict": "recaptured",
+      "notes": "grey broken-image placeholder under the hero \"Dare to innovate.\" (thumb covers 75% of page) | recaptured with --wait slow (lazy media/video posters settled); residual blank bands are scroll-revealed sections, replicated as captured"
+    },
+    {
+      "slug": "fabric-real-time-intelligence",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "gear-accelerator",
+      "verdict": "recaptured",
+      "notes": "large blank gaps between sections (scroll-animated content not rendered) (thumb covers 73% of page) | recaptured with --wait slow (lazy media/video posters settled); residual blank bands are scroll-revealed sections, replicated as captured"
+    },
+    {
+      "slug": "geo-quick-start",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 85% of page)"
+    },
+    {
+      "slug": "health-digital-leadership-roundtables",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "index",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 67% of page)"
+    },
+    {
+      "slug": "innovation-marathon-2027",
+      "verdict": "recaptured",
+      "notes": "large blank gaps; \"Keep me informed\" form not rendered (heading only) | recaptured with --wait slow (lazy media/video posters settled); residual blank bands are scroll-revealed sections, replicated as captured"
+    },
+    {
+      "slug": "intelligent-journeys",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "is-your-adobe-investment-delivering",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "lead-scoring",
+      "verdict": "recaptured",
+      "notes": "hero media is a grey broken-image placeholder | recaptured with --wait slow (lazy media/video posters settled); residual blank bands are scroll-revealed sections, replicated as captured"
+    },
+    {
+      "slug": "leap-into-composable-commerce",
+      "verdict": "recaptured",
+      "notes": "large blank band under \"Making MACH simple / Deliver an omnichannel experience\" | recaptured with --wait slow (lazy media/video posters settled); residual blank bands are scroll-revealed sections, replicated as captured"
+    },
+    {
+      "slug": "meet-the-expert-vera-schnitzlein",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "next2025-highlights",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 84% of page)"
+    },
+    {
+      "slug": "retail-at-the-crossroads-2026",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "retail-maturity-assessment",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "the-intelligent-enterprise",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 88% of page)"
+    },
+    {
+      "slug": "valtech-agentic-commerce-catalyst",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 93% of page)"
+    },
+    {
+      "slug": "valtech-and-salesforce",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present"
+    },
+    {
+      "slug": "valtech-conversion-engine",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 80% of page)"
+    },
+    {
+      "slug": "valtech-enterprise-ai-foundations",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 98% of page)"
+    },
+    {
+      "slug": "valtech-ukraine-in-media",
+      "verdict": "ok",
+      "notes": "rendered; hero headline matches recorded heading; imagery present (thumb covers 67% of page)"
+    }
+  ],
+  "siblingCandidates": {
+    "handsOff": true,
+    "crawled": [],
+    "candidates": [],
+    "decisions": [
+      {
+        "host": "go.valtech.com",
+        "decision": "excluded",
+        "basis": "Marketo forms2 backend (stylesheets/forms2 js referenced by <link id=mktoForms2BaseStyle> on 69 pages); not a content site"
+      },
+      {
+        "host": "www.valtech.com/<locale>/ (other locale paths in the site-nav country selector: Valtech Global, Europe, Bulgaria …)",
+        "decision": "excluded",
+        "basis": "same origin, locale sections outside the 100-page crawl scope — not a sibling site"
+      },
+      {
+        "host": "friendlycaptcha.com, www.linkedin.com, www.youtube.com, www.instagram.com, podcasts.apple.com, soundcloud.com, open.spotify.com, www.cdp.net",
+        "decision": "excluded",
+        "basis": "third-party hosts linked from every page (captcha legal links, social, podcast platforms, CDP badge) — not same-brand"
+      },
+      {
+        "host": "business.adobe.com, www.forrester.com, machalliance.org, and 35 single-page external hosts",
+        "decision": "excluded",
+        "basis": "partner/press/citation links; no valtech-branded host among them"
+      }
+    ],
+    "basis": "harvested from pages/*.json links[] + ctas[].href across all 100 captures; no non-www valtech-branded host found except go.valtech.com",
+    "writtenAt": "2026-11-13T12:00:04.684Z"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-14T03:36:43.799Z",
+    "stage": "published",
+    "breakpoint": 1440,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.valtech.com",
+    "eds": "https://main--c87ac39f--aemcoder.aem.page",
+    "edsHostOverride": "https://main--c87ac39f--aemcoder.aem.page",
+    "only": [
+      "es-es-thread-magazine"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 1,
+    "pixelOnlyPass": 1,
+    "overridePass": 0,
+    "fail": 0,
+    "error": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 0,
+    "fontsNotLoaded": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 1
+  },
+  "rows": [
+    {
+      "slug": "es-es-thread-magazine",
+      "path": "/es-es/thread-magazine",
+      "template": "campaign",
+      "tier": "sibling",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 3.93,
+      "textPct": 0.12,
+      "heightDelta": 0,
+      "originH": 5880,
+      "edsH": 5880,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 12,
+      "clipPass": true,
+      "clipAllowance": 12,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "reasons": [],
+      "clipGroups": [
+        {
+          "kind": "TEXT CLIPPED",
+          "advisory": false,
+          "n": 7,
+          "clipper": "div.new-services-block-service-link",
+          "path": "div.new-services-block-service-content > div.new-services-block-service-link-container > div.new-services-block-service-link > p.new-services-block-service-link-text",
+          "text": "discover practical tips for maximizing genai’s potential thr",
+          "cutMin": 21,
+          "cutMax": 21
+        },
+        {
+          "kind": "TEXT CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "div.new-services-block-service-title-wrapper",
+          "path": "div.new-services-block-service > div.new-services-block-service-content > div.new-services-block-service-title-wrapper > h2#edition-9",
+          "text": "edition 9",
+          "cutMin": 4,
+          "cutMax": 4
+        },
+        {
+          "kind": "TEXT CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "div.new-services-block-service-title-wrapper",
+          "path": "div.new-services-block-service > div.new-services-block-service-content > div.new-services-block-service-title-wrapper > h2#genais-next-frontier",
+          "text": "genai’s next frontier",
+          "cutMin": 4,
+          "cutMax": 4
+        },
+        {
+          "kind": "TEXT CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "div.new-services-block-service-title-wrapper",
+          "path": "div.new-services-block-service > div.new-services-block-service-content > div.new-services-block-service-title-wrapper > h2#look-before-you-leap",
+          "text": "look before you leap",
+          "cutMin": 4,
+          "cutMax": 4
+        },
+        {
+          "kind": "TEXT CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "div.new-services-block-service-title-wrapper",
+          "path": "div.new-services-block-service > div.new-services-block-service-content > div.new-services-block-service-title-wrapper > h2#the-new-creative-wave",
+          "text": "the new creative wave",
+          "cutMin": 4,
+          "cutMax": 4
+        },
+        {
+          "kind": "TEXT CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "div.new-services-block-service-title-wrapper",
+          "path": "div.new-services-block-service > div.new-services-block-service-content > div.new-services-block-service-title-wrapper > h2#responsible-ai",
+          "text": "responsible ai",
+          "cutMin": 4,
+          "cutMax": 4
+        }
+      ],
+      "clipAllowReason": "source-parity: the Thread edition cards (new_services-block) clamp their link text to two lines (-webkit-line-clamp:2 inside overflow:hidden __service-link) and cut the title line box in its overflow:hidden __service-title-wrapper (main.css new_services-block rules, lifted verbatim); the origin row reports the same TEXT CLIPPED 12 (gates/all-1440/es-es-thread-magazine/clip.json origin.counts.textClipped 12)",
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 8,
+        "variable": []
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [
+        "3500-4000:21.6%"
+      ],
+      "error": null
+    }
+  ]
+}

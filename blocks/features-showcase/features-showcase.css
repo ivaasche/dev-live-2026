@@ -1,0 +1,281 @@
+/* features-showcase — icon grid (main.css @425278–427506, prototypes/css/article.css) */
+
+.features-showcase {
+  background: #000;
+  color: #fff;
+}
+
+@media (width >= 64rem) {
+  .features-showcase {
+    margin-right: 64px;
+  }
+}
+
+@media (width >= 120.001rem) {
+  .features-showcase {
+    margin-left: auto;
+    margin-right: auto !important;
+    max-width: 84vw;
+  }
+}
+
+.features-showcase .features-showcase-inner {
+  padding: 3rem 1rem;
+}
+
+@media (width >= 33.75rem) {
+  .features-showcase .features-showcase-inner {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .features-showcase .features-showcase-inner {
+    align-items: flex-start;
+    display: flex;
+    gap: 4rem;
+    padding: 5rem 1.5rem 6.25rem;
+  }
+}
+
+.features-showcase .features-showcase-header {
+  margin: 0 0 2.3125rem;
+}
+
+@media (width >= 58.75rem) {
+  .features-showcase .features-showcase-header {
+    flex: 0 0 40%;
+  }
+}
+
+.features-showcase .features-showcase-header :is(h2, h3) {
+  color: inherit;
+  font-family: var(--font-display);
+  font-size: 3vw;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0;
+  max-width: 70ch;
+  text-wrap: balance;
+}
+
+@media (width <= 933.3333px) {
+  .features-showcase .features-showcase-header :is(h2, h3) {
+    font-size: 28px;
+  }
+}
+
+@media (width >= 1600px) {
+  .features-showcase .features-showcase-header :is(h2, h3) {
+    font-size: 48px;
+  }
+}
+
+.features-showcase .features-showcase-body {
+  padding-left: 3.3125rem;
+}
+
+@media (width >= 33.75rem) {
+  .features-showcase .features-showcase-body {
+    padding-left: 7.3125rem;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .features-showcase .features-showcase-body {
+    padding-left: 0;
+  }
+}
+
+.features-showcase .features-showcase-list {
+  display: grid;
+  gap: 2.3125rem;
+  grid-template-columns: repeat(1, 1fr);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (width >= 33.75rem) {
+  .features-showcase .features-showcase-list {
+    gap: 3.75rem 2.3125rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.features-showcase .features-showcase-item-icon {
+  height: 3rem;
+  margin: 0 0 1rem;
+}
+
+@media (width >= 58.75rem) {
+  .features-showcase .features-showcase-item-icon {
+    margin: 0 0 2rem;
+  }
+}
+
+.features-showcase .features-showcase-item-icon :is(p, .icon, picture) {
+  display: block;
+  height: 100%;
+  margin: 0;
+}
+
+.features-showcase .features-showcase-item-icon :is(img, svg) {
+  display: block;
+  height: 100%;
+  width: auto;
+}
+
+.features-showcase .features-showcase-item-title :is(h3, h4) {
+  color: inherit;
+  font-family: var(--font-display);
+  font-size: 2vw;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0 0 .5rem;
+}
+
+@media (width <= 1200px) {
+  .features-showcase .features-showcase-item-title :is(h3, h4) {
+    font-size: 24px;
+  }
+}
+
+@media (width >= 1400px) {
+  .features-showcase .features-showcase-item-title :is(h3, h4) {
+    font-size: 28px;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .features-showcase .features-showcase-item-title :is(h3, h4) {
+    margin: 0 0 1rem;
+  }
+}
+
+.features-showcase .features-showcase-item-description p {
+  line-height: 1.5;
+}
+
+@media (width >= 58.75rem) {
+  .features-showcase .features-showcase-item-description p {
+    line-height: 1.4;
+  }
+}
+
+.features-showcase .features-showcase-item-description :is(p, ul, ol):last-child {
+  margin-bottom: 0;
+}
+
+/* spacer lines (source empty `<div>&nbsp;</div>` in a description, /es-es/servicios/
+   revolucion-del-dato-y-ia item 3: three 21 px lines in the 16px / normal description font,
+   the paragraph before them margin-free as the last child of its own wrapper) */
+.features-showcase .features-showcase-item-description p.features-showcase-item-spacer {
+  font-size: 1rem;
+  line-height: normal;
+  margin: 0;
+}
+
+.features-showcase .features-showcase-item-description :is(p, ul, ol):has(+ .features-showcase-item-spacer) {
+  margin-bottom: 0;
+}
+
+/* variant `ie-hub` — source section.section.ie-hub-page.features-showcase.dark-theme (hub
+   pages, prototypes/css/microsite.css): the .section band padding, no side-column margin,
+   the .section__container.centralized column (block padding 0) and the "/ TITLE" eyebrow */
+.features-showcase.ie-hub {
+  margin-right: 0;
+  max-width: none;
+  padding: clamp(5rem, 5rem + 28 * (100vw - 52.125rem) / 446, 6.75rem) 0;
+}
+
+@media (width >= 80rem) {
+  .features-showcase.ie-hub {
+    padding: clamp(6.75rem, 6.75rem + 12 * (100vw - 80rem) / 160, 7.5rem) 0;
+  }
+}
+
+@media (width >= 90rem) {
+  .features-showcase.ie-hub {
+    padding: clamp(7.5rem, 7.5rem + 24 * (100vw - 90rem) / 288, 9rem) 0;
+  }
+}
+
+@media (width >= 108rem) {
+  .features-showcase.ie-hub {
+    padding: clamp(9rem, 9rem + 16 * (100vw - 108rem) / 192, 10rem) 0;
+  }
+}
+
+@media (width >= 120.001rem) {
+  .features-showcase.ie-hub {
+    margin-right: 0 !important;
+    max-width: none;
+  }
+}
+
+.features-showcase.ie-hub .features-showcase-inner {
+  margin: 0 auto;
+  padding-block: 0;
+}
+
+@media (width >= 52.125rem) {
+  .features-showcase.ie-hub .features-showcase-inner {
+    max-width: 77.5%;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .features-showcase.ie-hub .features-showcase-inner {
+    padding-block: 0;
+  }
+}
+
+@media (width >= 80rem) {
+  .features-showcase.ie-hub .features-showcase-inner {
+    max-width: 79.5%;
+  }
+}
+
+@media (width >= 90rem) {
+  .features-showcase.ie-hub .features-showcase-inner {
+    max-width: 78.5%;
+  }
+}
+
+@media (width >= 108rem) {
+  .features-showcase.ie-hub .features-showcase-inner {
+    max-width: 77%;
+  }
+}
+
+@media (width >= 120rem) {
+  .features-showcase.ie-hub .features-showcase-inner {
+    max-width: 1440px;
+  }
+}
+
+.features-showcase.ie-hub .features-showcase-header :is(h2, h3) {
+  color: #fff;
+  font-family: var(--font-sans);
+  font-size: clamp(.75rem, .75rem + 2 * (100vw - 24.375rem) / 234, .875rem);
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.4;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+@media (width >= 52.125rem) {
+  .features-showcase.ie-hub .features-showcase-header :is(h2, h3) {
+    font-size: clamp(.875rem, .875rem + 6 * (100vw - 52.125rem) / 446, 1.25rem);
+  }
+}
+
+.features-showcase.ie-hub .features-showcase-header :is(h2, h3)::before {
+  color: #d1d3ca;
+  content: "/";
+  font-weight: 400;
+  margin-right: .1875rem;
+}

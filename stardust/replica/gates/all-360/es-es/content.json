@@ -1,0 +1,3395 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T08:26:00.679Z",
+  "width": 360,
+  "variable": [
+   ".hero-block__content"
+  ],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/es-es/",
+  "at": "2026-11-14T08:25:38.872Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5260,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.site-nav__menu-wrapper.site-nav__menu__labels > div.site-nav__logo > a.site-nav__logo__link",
+    "x": 24,
+    "y": 25,
+    "w": 80,
+    "h": 21,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > a.search-select.mobile",
+    "x": 232,
+    "y": 24,
+    "w": 22,
+    "h": 23,
+    "text": "go to search page",
+    "href": "/es-es/search/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open main menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open main menu",
+    "value": "open main menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block__bg-images.js-hero-slider-images > ol.flickity-page-dots > li.dot.is-selected",
+    "x": 188,
+    "y": 611,
+    "w": 16,
+    "h": 16,
+    "label": "current",
+    "value": "slide 4",
+    "via": "aria-current"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block__wrapper > div.hero-block__bg-images.js-hero-slider-images > button.flickity-button.flickity-prev-next-button",
+    "x": 16,
+    "y": 597,
+    "w": 40,
+    "h": 40,
+    "text": "previous"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block__wrapper > div.hero-block__bg-images.js-hero-slider-images > button.flickity-button.flickity-prev-next-button",
+    "x": 304,
+    "y": 597,
+    "w": 40,
+    "h": 40,
+    "text": "next"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block__item__text-adapter__wrapper > div.hero-block__item__title > h2.sc-gPMwDT.crPEDC",
+    "x": 16,
+    "y": 119,
+    "w": 328,
+    "h": 145,
+    "level": 2,
+    "text": "informe: el futuro de la movilidad"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block__item__title > h2.sc-gPMwDT.crPEDC > span",
+    "x": 16,
+    "y": 112,
+    "w": 312,
+    "h": 158,
+    "text": "Informe: El futuro de la movilidad"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block__item__text-adapter.js-hero-block__item__text-adapter > div.hero-block__item__text-adapter__wrapper > p.hero-block__item__text",
+    "x": 16,
+    "y": 272,
+    "w": 328,
+    "h": 48,
+    "text": "Estrategias de los OEM para superar obstáculos y desafíos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block__item__text-adapter.js-hero-block__item__text-adapter > div.hero-block__item__text-adapter__wrapper > span.hero-block__item__tag",
+    "x": 16,
+    "y": 83,
+    "w": 328,
+    "h": 32,
+    "text": "Movilidad: La voz de los Innovadores de la Experiencia"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block__item__wrapper > div.hero-block__item__link-wrapper > a.hero-block__item__link.btn--white",
+    "x": 16,
+    "y": 329,
+    "w": 196,
+    "h": 49,
+    "text": "accede al informe",
+    "href": "/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2025/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block__item.is-selected > picture > img.hero-block__item__image",
+    "x": 0,
+    "y": 394,
+    "w": 360,
+    "h": 259,
+    "text": "minimalist side profile in glasses; a road-shaped highlight ",
+    "file": "hero-thought-leadership-voei-mobility-mo"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.quote-block > div.quote-block__container > h1",
+    "x": 16,
+    "y": 701,
+    "w": 328,
+    "h": 211,
+    "level": 1,
+    "text": "innovamos en experiencia para que avances más rápido, pienses en grande y explores nuevas oportunidades."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study > div.featured-case-study__container > h2.featured-case-study__title",
+    "x": 16,
+    "y": 1008,
+    "w": 328,
+    "h": 31,
+    "level": 2,
+    "text": "nuestro trabajo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study__container > div.featured-case-study__description > span.featured-case-study__description__text",
+    "x": 16,
+    "y": 1063,
+    "w": 295,
+    "h": 42,
+    "text": "De ideas audaces a experiencias que cambian todo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study__container > div.featured-case-study__description > a.featured-case-study__description__link",
+    "x": 286,
+    "y": 1105,
+    "w": 58,
+    "h": 22,
+    "text": "ver más",
+    "href": "/es-es/casos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study__container > div.featured-case-study__items.--5 > a.featured-case-study__item",
+    "x": 16,
+    "y": 1143,
+    "w": 328,
+    "h": 300,
+    "text": "eton shirts: the index shirt creating the first-ever garment with its price pegg",
+    "href": "/es-es/casos/eton/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.featured-case-study__item > picture.featured-case-study__item__picture > img.featured-case-study__item__picture__image",
+    "x": 16,
+    "y": 1143,
+    "w": 328,
+    "h": 191,
+    "text": "silhouette of a person on a stool before a blue screen fille",
+    "file": "retail-eton-index-shirt-mobile"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study__item__container > div.featured-case-study__item__content > h3.featured-case-study__item__title",
+    "x": 16,
+    "y": 1342,
+    "w": 238,
+    "h": 48,
+    "level": 3,
+    "text": "eton shirts: the index shirt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study__container > div.featured-case-study__items.--5 > a.featured-case-study__item",
+    "x": 16,
+    "y": 1467,
+    "w": 328,
+    "h": 300,
+    "text": "$75 million+ for discover. unlocked solving complex transformation challenges fo",
+    "href": "/es-es/casos/discover/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.featured-case-study__item > picture.featured-case-study__item__picture > img.featured-case-study__item__picture__image",
+    "x": 16,
+    "y": 1467,
+    "w": 328,
+    "h": 191,
+    "text": "hand holding a smartphone with the discover banking app show",
+    "file": "finance-discover-mobile"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study__item__container > div.featured-case-study__item__content > h3.featured-case-study__item__title",
+    "x": 16,
+    "y": 1666,
+    "w": 238,
+    "h": 48,
+    "level": 3,
+    "text": "$75 million+ for discover. unlocked"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study__container > div.featured-case-study__items.--5 > a.featured-case-study__item",
+    "x": 16,
+    "y": 1791,
+    "w": 328,
+    "h": 323,
+    "text": "el concierge de ia de lexus transformando el sitio web de lexus en un espacio pe",
+    "href": "/es-es/casos/lexus-europa/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.featured-case-study__item > picture.featured-case-study__item__picture > img.featured-case-study__item__picture__image",
+    "x": 16,
+    "y": 1791,
+    "w": 328,
+    "h": 191,
+    "text": "lexus ai concierge screen: ‘can we help you find something?’",
+    "file": "mobility-lexus-lbx-ai-concierge-mobile"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study__item__container > div.featured-case-study__item__content > h3.featured-case-study__item__title",
+    "x": 16,
+    "y": 1990,
+    "w": 238,
+    "h": 48,
+    "level": 3,
+    "text": "el concierge de ia de lexus"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study__container > div.featured-case-study__items.--5 > a.featured-case-study__item",
+    "x": 16,
+    "y": 2138,
+    "w": 328,
+    "h": 276,
+    "text": "mandarin oriental impulsando las reservas y creando una experiencia digital de l",
+    "href": "/es-es/casos/mandarin-oriental/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.featured-case-study__item > picture.featured-case-study__item__picture > img.featured-case-study__item__picture__image",
+    "x": 16,
+    "y": 2138,
+    "w": 328,
+    "h": 191,
+    "text": "couple walking into a dimly lit hotel corridor; woman looks ",
+    "file": "travel-mandarin-oriental-mobile"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study__item__container > div.featured-case-study__item__content > h3.featured-case-study__item__title",
+    "x": 16,
+    "y": 2337,
+    "w": 159,
+    "h": 24,
+    "level": 3,
+    "text": "mandarin oriental"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study__container > div.featured-case-study__items.--5 > a.featured-case-study__item",
+    "x": 16,
+    "y": 2438,
+    "w": 328,
+    "h": 300,
+    "text": "mars redefine el d2c empresarial un ecosistema de comercio composable para más d",
+    "href": "/es-es/casos/mars/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.featured-case-study__item > picture.featured-case-study__item__picture > img.featured-case-study__item__picture__image",
+    "x": 16,
+    "y": 2438,
+    "w": 328,
+    "h": 191,
+    "text": "large yellow m&m candy with white ‘m’ on a yellow background",
+    "file": "retail-mars-mms-custom-mobile"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study__item__container > div.featured-case-study__item__content > h3.featured-case-study__item__title",
+    "x": 16,
+    "y": 2637,
+    "w": 238,
+    "h": 48,
+    "level": 3,
+    "text": "mars redefine el d2c empresarial"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.homepage-cta-block > div.homepage-cta-block__container > h2.homepage-cta-block__title",
+    "x": 16,
+    "y": 2834,
+    "w": 328,
+    "h": 34,
+    "level": 2,
+    "text": "empecemos a hablar"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.homepage-cta-block__container > div.homepage-cta-block__details > p.homepage-cta-block__description",
+    "x": 16,
+    "y": 2891,
+    "w": 328,
+    "h": 48,
+    "text": "Te ayudamos a prosperar en un mundo conectado y cambiante"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.homepage-cta-block__container > div.homepage-cta-block__details > a.btn--black.homepage-cta-block__button",
+    "x": 16,
+    "y": 2963,
+    "w": 197,
+    "h": 49,
+    "text": "ponte en contacto",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block__text > div.partners-block__text__content > h2.partners-block__text__title",
+    "x": 16,
+    "y": 3108,
+    "w": 328,
+    "h": 34,
+    "level": 2,
+    "text": "nuestros partners"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block__text > div.partners-block__text__content > p.partners-block__text__description",
+    "x": 16,
+    "y": 3166,
+    "w": 328,
+    "h": 45,
+    "text": "Trabajamos con líderes del mercado que buscan la excelencia."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block__container > div.partners-block__text > a.partners-block__text__action",
+    "x": 213,
+    "y": 3231,
+    "w": 131,
+    "h": 22,
+    "text": "todos los partners",
+    "href": "/es-es/nuestros-partners/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block__section > div.partners-block__list > a.partners-block__logo",
+    "x": 16,
+    "y": 3277,
+    "w": 156,
+    "h": 80,
+    "text": "",
+    "href": "/es-es/nuestros-partners/adobe/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block__section > div.partners-block__list > a.partners-block__logo",
+    "x": 188,
+    "y": 3277,
+    "w": 156,
+    "h": 80,
+    "text": "",
+    "href": "/es-es/nuestros-partners/google/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block__section > div.partners-block__list > a.partners-block__logo",
+    "x": 16,
+    "y": 3373,
+    "w": 156,
+    "h": 80,
+    "text": "",
+    "href": "/es-es/nuestros-partners/salesforce/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block__section > div.partners-block__list > a.partners-block__logo",
+    "x": 188,
+    "y": 3373,
+    "w": 156,
+    "h": 80,
+    "text": "",
+    "href": "/es-es/nuestros-partners/shopify/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__item__picture > picture > img.featured-verticals-block__item__image",
+    "x": 15,
+    "y": 3547,
+    "w": 268,
+    "h": 268,
+    "text": "audi cockpit with dual touchscreens and pink ambient lightin",
+    "file": "mobility-audi-themes-sm"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__item__content > div.featured-verticals-block__item__header > span.featured-verticals-block__item__pretitle",
+    "x": 16,
+    "y": 3874,
+    "w": 80,
+    "h": 23,
+    "text": "Industrias"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__item__content > div.featured-verticals-block__item__header > h3.featured-verticals-block__item__title",
+    "x": 16,
+    "y": 3897,
+    "w": 266,
+    "h": 38,
+    "level": 3,
+    "text": "movilidad"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__item__content > div.featured-verticals-block__item__footer > p.featured-verticals-block__item__text",
+    "x": 18,
+    "y": 3952,
+    "w": 264,
+    "h": 67,
+    "text": "Dando forma al futuro de la movilidad con IA, datos y ecosistemas conectados."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__item__content > div.featured-verticals-block__item__footer > a.featured-verticals-block__item__link.btn--white",
+    "x": 18,
+    "y": 4035,
+    "w": 120,
+    "h": 49,
+    "text": "explora",
+    "href": "/es-es/industrias/movilidad/"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__item__picture > picture > img.featured-verticals-block__item__image",
+    "x": 297,
+    "y": 3547,
+    "w": 268,
+    "h": 252,
+    "text": "sales associate in a luxury boutique presents two handbags—p",
+    "file": "luxury-showroom-experience-sm"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__item__picture > picture > img.featured-verticals-block__item__image",
+    "x": -267,
+    "y": 3547,
+    "w": 268,
+    "h": 252,
+    "text": "commuter scanning a mobile qr ticket at a train station barr",
+    "file": "public-sector-sm"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__container > div.featured-verticals-block__content.js-fv-slider-content > button.flickity-button.flickity-prev-next-button",
+    "x": 11,
+    "y": 3827,
+    "w": 40,
+    "h": 40,
+    "text": "previous"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__container > div.featured-verticals-block__content.js-fv-slider-content > button.flickity-button.flickity-prev-next-button",
+    "x": 71,
+    "y": 3827,
+    "w": 40,
+    "h": 40,
+    "text": "next"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.homepage-cta-block > div.homepage-cta-block__container > h2.homepage-cta-block__title",
+    "x": 16,
+    "y": 4181,
+    "w": 328,
+    "h": 34,
+    "level": 2,
+    "text": "trabaja con nosotros"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.homepage-cta-block__container > div.homepage-cta-block__details > p.homepage-cta-block__description",
+    "x": 16,
+    "y": 4238,
+    "w": 328,
+    "h": 48,
+    "text": "¿Quieres ayudar a construir el futuro de la innovación en experiencia?"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.homepage-cta-block__container > div.homepage-cta-block__details > a.btn--black.homepage-cta-block__button",
+    "x": 16,
+    "y": 4310,
+    "w": 126,
+    "h": 49,
+    "text": "vacantes",
+    "href": "/es-es/carrera/ofertas-de-empleo/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.contact-us-form__container.js-accordion > div.contact-us-form__column > button.contact-us-form__accordion-button.js-accordion-button",
+    "x": 0,
+    "y": 4407,
+    "w": 360,
+    "h": 89,
+    "text": "contáctanos"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.contact-us-form__container.js-accordion > div.contact-us-form__column > button.contact-us-form__accordion-button.js-accordion-button",
+    "x": 0,
+    "y": 4407,
+    "w": 360,
+    "h": 89,
+    "label": "trigger",
+    "value": "contáctanos",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 16,
+    "y": 4594,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 242,
+    "y": 4594,
+    "w": 58,
+    "h": 45,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 16,
+    "y": 4658,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 242,
+    "y": 4658,
+    "w": 82,
+    "h": 45,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer__column.site-footer__stamp > picture > img",
+    "x": 16,
+    "y": 4721,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "badge-no-outline"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 4862,
+    "w": 134,
+    "h": 18,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 4903,
+    "w": 118,
+    "h": 18,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 4944,
+    "w": 71,
+    "h": 18,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 4985,
+    "w": 84,
+    "h": 18,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 5026,
+    "w": 136,
+    "h": 18,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a.cookiebot-reset",
+    "x": 16,
+    "y": 5067,
+    "w": 158,
+    "h": 18,
+    "text": "configuración de cookies",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 16,
+    "y": 5148,
+    "w": 23,
+    "h": 18,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 87,
+    "y": 5148,
+    "w": 23,
+    "h": 18,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 158,
+    "y": 5148,
+    "w": 23,
+    "h": 18,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 229,
+    "y": 5148,
+    "w": 23,
+    "h": 18,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 16,
+    "y": 5193,
+    "w": 23,
+    "h": 18,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 87,
+    "y": 5193,
+    "w": 23,
+    "h": 18,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 6,
+    "textNodes": 49,
+    "controls": 43,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/es-es/",
+  "at": "2026-11-14T08:26:00.504Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5260,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-nav-menu-wrapper.site-nav-menu-labels > div.site-nav-logo > a.site-nav-logo-link",
+    "x": 24,
+    "y": 25,
+    "w": 80,
+    "h": 21,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > a.search-select.mobile",
+    "x": 232,
+    "y": 24,
+    "w": 22,
+    "h": 23,
+    "text": "go to search page",
+    "href": "/es-es/search/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open main menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open main menu",
+    "value": "open main menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block-bg-images > ol.carousel-dots > li.is-selected",
+    "x": 188,
+    "y": 611,
+    "w": 16,
+    "h": 16,
+    "label": "current",
+    "value": "slide 4",
+    "via": "aria-current"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block-inner > div.hero-block-bg-images > button.carousel-btn.carousel-btn-long",
+    "x": 16,
+    "y": 597,
+    "w": 40,
+    "h": 40,
+    "text": "previous"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block-inner > div.hero-block-bg-images > button.carousel-btn.carousel-btn-long",
+    "x": 304,
+    "y": 597,
+    "w": 40,
+    "h": 40,
+    "text": "next"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block-item-text-adapter-wrapper > div.hero-block-item-title > h2#informeel-futurode-la-movilidad",
+    "x": 16,
+    "y": 119,
+    "w": 328,
+    "h": 145,
+    "level": 2,
+    "text": "informe: el futuro de la movilidad"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block-item-title > h2#informeel-futurode-la-movilidad > span",
+    "x": 16,
+    "y": 112,
+    "w": 312,
+    "h": 158,
+    "text": "Informe: El futuro de la movilidad"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block-item-text-adapter-wrapper > div.hero-block-item-text > p",
+    "x": 16,
+    "y": 272,
+    "w": 328,
+    "h": 48,
+    "text": "Estrategias de los OEM para superar obstáculos y desafíos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block-item-text-adapter-wrapper > div.hero-block-item-tag > p",
+    "x": 16,
+    "y": 83,
+    "w": 328,
+    "h": 32,
+    "text": "Movilidad: La voz de los Innovadores de la Experiencia"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block-item-link-wrapper > p > a.hero-block-item-link.btn-white",
+    "x": 16,
+    "y": 329,
+    "w": 196,
+    "h": 49,
+    "text": "accede al informe",
+    "href": "/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2025/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block-item.is-selected > picture.hero-block-item-picture > img",
+    "x": 0,
+    "y": 394,
+    "w": 360,
+    "h": 259,
+    "text": "minimalist side profile in glasses; a road-shaped highlight ",
+    "file": "media_1115604a2cc93eeafc217a9408189bbff0"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.quote-block.block > div.quote-block-container > h1#innovamos-en-experiencia-para-que-avances-más-rápido-pienses-en-grande-y-explores-nuevas-oportunidades",
+    "x": 16,
+    "y": 701,
+    "w": 328,
+    "h": 211,
+    "level": 1,
+    "text": "innovamos en experiencia para que avances más rápido, pienses en grande y explores nuevas oportunidades."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.quote-block-container > h1#innovamos-en-experiencia-para-que-avances-más-rápido-pienses-en-grande-y-explores-nuevas-oportunidades > span",
+    "x": 16,
+    "y": 696,
+    "w": 319,
+    "h": 221,
+    "text": "Innovamos en experiencia para que avances más rápido, pienses en grande y explor"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study-container > div.featured-case-study-title > h2#nuestro-trabajo",
+    "x": 16,
+    "y": 1008,
+    "w": 328,
+    "h": 31,
+    "level": 2,
+    "text": "nuestro trabajo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study-description > div.featured-case-study-description-text > p",
+    "x": 16,
+    "y": 1063,
+    "w": 295,
+    "h": 42,
+    "text": "De ideas audaces a experiencias que cambian todo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study-description-link > p > a",
+    "x": 286,
+    "y": 1105,
+    "w": 58,
+    "h": 21,
+    "text": "ver más",
+    "href": "/es-es/casos"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study-container > div.featured-case-study-items.featured-case-study-items-5 > a.featured-case-study-item",
+    "x": 16,
+    "y": 1143,
+    "w": 328,
+    "h": 300,
+    "text": "eton shirts: the index shirt creating the first-ever garment with its price pegg",
+    "href": "/es-es/casos/eton/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study-item-picture > picture.mobile > img",
+    "x": 16,
+    "y": 1143,
+    "w": 328,
+    "h": 191,
+    "text": "silhouette of a person on a stool before a blue screen fille",
+    "file": "media_14f90bc774bd25c826e5541483d7378376"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study-item-container > div.featured-case-study-item-content > h3#eton-shirts-the-index-shirt",
+    "x": 16,
+    "y": 1342,
+    "w": 238,
+    "h": 48,
+    "level": 3,
+    "text": "eton shirts: the index shirt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study-container > div.featured-case-study-items.featured-case-study-items-5 > a.featured-case-study-item",
+    "x": 16,
+    "y": 1467,
+    "w": 328,
+    "h": 300,
+    "text": "$75 million+ for discover. unlocked solving complex transformation challenges fo",
+    "href": "/es-es/casos/discover/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study-item-picture > picture.mobile > img",
+    "x": 16,
+    "y": 1467,
+    "w": 328,
+    "h": 191,
+    "text": "hand holding a smartphone with the discover banking app show",
+    "file": "media_19b8d653f9713a28f0121d361d0a07d078"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study-item-container > div.featured-case-study-item-content > h3#million-for-discover-unlocked",
+    "x": 16,
+    "y": 1666,
+    "w": 238,
+    "h": 48,
+    "level": 3,
+    "text": "$75 million+ for discover. unlocked"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study-container > div.featured-case-study-items.featured-case-study-items-5 > a.featured-case-study-item",
+    "x": 16,
+    "y": 1791,
+    "w": 328,
+    "h": 323,
+    "text": "el concierge de ia de lexus transformando el sitio web de lexus en un espacio pe",
+    "href": "/es-es/casos/lexus-europa"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study-item-picture > picture.mobile > img",
+    "x": 16,
+    "y": 1791,
+    "w": 328,
+    "h": 191,
+    "text": "lexus ai concierge screen: ‘can we help you find something?’",
+    "file": "media_1d25d468b61f4845ee9bacafc45889556a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study-item-container > div.featured-case-study-item-content > h3#el-concierge-de-ia-de-lexus",
+    "x": 16,
+    "y": 1990,
+    "w": 238,
+    "h": 48,
+    "level": 3,
+    "text": "el concierge de ia de lexus"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study-container > div.featured-case-study-items.featured-case-study-items-5 > a.featured-case-study-item",
+    "x": 16,
+    "y": 2138,
+    "w": 328,
+    "h": 276,
+    "text": "mandarin oriental impulsando las reservas y creando una experiencia digital de l",
+    "href": "/es-es/casos/mandarin-oriental/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study-item-picture > picture.mobile > img",
+    "x": 16,
+    "y": 2138,
+    "w": 328,
+    "h": 191,
+    "text": "couple walking into a dimly lit hotel corridor; woman looks ",
+    "file": "media_15cefb2256e93d9fafc4971419fb7835c3"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study-item-container > div.featured-case-study-item-content > h3#mandarin-oriental",
+    "x": 16,
+    "y": 2337,
+    "w": 159,
+    "h": 24,
+    "level": 3,
+    "text": "mandarin oriental"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study-container > div.featured-case-study-items.featured-case-study-items-5 > a.featured-case-study-item",
+    "x": 16,
+    "y": 2438,
+    "w": 328,
+    "h": 300,
+    "text": "mars redefine el d2c empresarial un ecosistema de comercio composable para más d",
+    "href": "/es-es/casos/mars/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study-item-picture > picture.mobile > img",
+    "x": 16,
+    "y": 2438,
+    "w": 328,
+    "h": 191,
+    "text": "large yellow m&m candy with white ‘m’ on a yellow background",
+    "file": "media_16d667d1a331f8117b7603f9f0e473de86"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-case-study-item-container > div.featured-case-study-item-content > h3#mars-redefine-el-d2c-empresarial",
+    "x": 16,
+    "y": 2637,
+    "w": 238,
+    "h": 48,
+    "level": 3,
+    "text": "mars redefine el d2c empresarial"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.homepage-cta-block-container > div.homepage-cta-block-title > h2#empecemos-a-hablar",
+    "x": 16,
+    "y": 2834,
+    "w": 328,
+    "h": 34,
+    "level": 2,
+    "text": "empecemos a hablar"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.homepage-cta-block-details > div.homepage-cta-block-description > p",
+    "x": 16,
+    "y": 2891,
+    "w": 328,
+    "h": 48,
+    "text": "Te ayudamos a prosperar en un mundo conectado y cambiante"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.homepage-cta-block-action > p > a.btn-black.homepage-cta-block-button",
+    "x": 16,
+    "y": 2963,
+    "w": 197,
+    "h": 49,
+    "text": "ponte en contacto",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block-text-content > div.partners-block-text-title > h2#nuestros-partners",
+    "x": 16,
+    "y": 3108,
+    "w": 328,
+    "h": 34,
+    "level": 2,
+    "text": "nuestros partners"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block-text-content > div.partners-block-text-description > p",
+    "x": 16,
+    "y": 3166,
+    "w": 328,
+    "h": 45,
+    "text": "Trabajamos con líderes del mercado que buscan la excelencia."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block-text-action > p > a",
+    "x": 213,
+    "y": 3231,
+    "w": 131,
+    "h": 22,
+    "text": "todos los partners",
+    "href": "/es-es/nuestros-partners/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block-list > p > a.partners-block-logo",
+    "x": 16,
+    "y": 3277,
+    "w": 156,
+    "h": 80,
+    "text": "adobe",
+    "href": "/es-es/nuestros-partners/adobe/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.partners-block-logo > span.icon.icon-partner-adobe > img",
+    "x": 49,
+    "y": 3292,
+    "w": 91,
+    "h": 49,
+    "text": "",
+    "file": "partner-adobe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block-list > p > a.partners-block-logo",
+    "x": 188,
+    "y": 3277,
+    "w": 156,
+    "h": 80,
+    "text": "google",
+    "href": "/es-es/nuestros-partners/google/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.partners-block-logo > span.icon.icon-partner-google > img",
+    "x": 211,
+    "y": 3307,
+    "w": 109,
+    "h": 19,
+    "text": "",
+    "file": "partner-google"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block-list > p > a.partners-block-logo",
+    "x": 16,
+    "y": 3373,
+    "w": 156,
+    "h": 80,
+    "text": "salesforce",
+    "href": "/es-es/nuestros-partners/salesforce/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.partners-block-logo > span.icon.icon-partner-salesforce > img",
+    "x": 54,
+    "y": 3385,
+    "w": 80,
+    "h": 56,
+    "text": "",
+    "file": "partner-salesforce"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block-list > p > a.partners-block-logo",
+    "x": 188,
+    "y": 3373,
+    "w": 156,
+    "h": 80,
+    "text": "shopify",
+    "href": "/es-es/nuestros-partners/shopify/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.partners-block-logo > span.icon.icon-partner-shopify > img",
+    "x": 211,
+    "y": 3396,
+    "w": 109,
+    "h": 34,
+    "text": "",
+    "file": "partner-shopify"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block-item-picture > picture.portrait > img",
+    "x": 15,
+    "y": 3547,
+    "w": 266,
+    "h": 268,
+    "text": "audi cockpit with dual touchscreens and pink ambient lightin",
+    "file": "media_14d8b08e6414f7d4d1f20a1f2f7c43f401"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block-item-header > div.featured-verticals-block-item-pretitle > p",
+    "x": 16,
+    "y": 3874,
+    "w": 80,
+    "h": 23,
+    "text": "Industrias"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block-item-header > div.featured-verticals-block-item-title > h3#movilidad",
+    "x": 16,
+    "y": 3897,
+    "w": 266,
+    "h": 38,
+    "level": 3,
+    "text": "movilidad"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block-item-footer > div.featured-verticals-block-item-text > p",
+    "x": 18,
+    "y": 3952,
+    "w": 264,
+    "h": 67,
+    "text": "Dando forma al futuro de la movilidad con IA, datos y ecosistemas conectados."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block-item-footer > p > a.featured-verticals-block-item-link.btn-white",
+    "x": 18,
+    "y": 4035,
+    "w": 120,
+    "h": 49,
+    "text": "explora",
+    "href": "/es-es/industrias/movilidad/"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block-item-picture > picture.portrait > img",
+    "x": 297,
+    "y": 3547,
+    "w": 266,
+    "h": 252,
+    "text": "sales associate in a luxury boutique presents two handbags—p",
+    "file": "media_1ace2fac72bd72125e6c619b5d59a16ccc"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block-container > div.featured-verticals-block-content > button.carousel-btn.carousel-btn-long",
+    "x": 11,
+    "y": 3827,
+    "w": 40,
+    "h": 40,
+    "text": "previous"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block-container > div.featured-verticals-block-content > button.carousel-btn.carousel-btn-long",
+    "x": 71,
+    "y": 3827,
+    "w": 40,
+    "h": 40,
+    "text": "next"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.homepage-cta-block-container > div.homepage-cta-block-title > h2#trabaja-con-nosotros",
+    "x": 16,
+    "y": 4181,
+    "w": 328,
+    "h": 34,
+    "level": 2,
+    "text": "trabaja con nosotros"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.homepage-cta-block-details > div.homepage-cta-block-description > p",
+    "x": 16,
+    "y": 4238,
+    "w": 328,
+    "h": 48,
+    "text": "¿Quieres ayudar a construir el futuro de la innovación en experiencia?"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.homepage-cta-block-action > p > a.btn-black.homepage-cta-block-button",
+    "x": 16,
+    "y": 4310,
+    "w": 126,
+    "h": 49,
+    "text": "vacantes",
+    "href": "/es-es/carrera/ofertas-de-empleo/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-us-form-container.js-accordion > div.contact-us-form-column > button.contact-us-form-accordion-button",
+    "x": 0,
+    "y": 4407,
+    "w": 360,
+    "h": 89,
+    "text": "contáctanos"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-us-form-container.js-accordion > div.contact-us-form-column > button.contact-us-form-accordion-button",
+    "x": 0,
+    "y": 4407,
+    "w": 360,
+    "h": 89,
+    "label": "trigger",
+    "value": "contáctanos",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 16,
+    "y": 4594,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 242,
+    "y": 4594,
+    "w": 58,
+    "h": 45,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 16,
+    "y": 4658,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 242,
+    "y": 4658,
+    "w": 82,
+    "h": 45,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer-column.site-footer-stamp > picture > img",
+    "x": 16,
+    "y": 4721,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "media_18686ce5d542e21460f5b9773dc388b150"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 4862,
+    "w": 134,
+    "h": 18,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 4903,
+    "w": 118,
+    "h": 18,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 4944,
+    "w": 71,
+    "h": 18,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 4985,
+    "w": 84,
+    "h": 18,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 5026,
+    "w": 136,
+    "h": 18,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a.cookiebot-reset",
+    "x": 16,
+    "y": 5067,
+    "w": 158,
+    "h": 18,
+    "text": "configuración de cookies",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 16,
+    "y": 5148,
+    "w": 23,
+    "h": 18,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 87,
+    "y": 5148,
+    "w": 23,
+    "h": 18,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 158,
+    "y": 5148,
+    "w": 23,
+    "h": 18,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 229,
+    "y": 5148,
+    "w": 23,
+    "h": 18,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 16,
+    "y": 5193,
+    "w": 23,
+    "h": 18,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 87,
+    "y": 5193,
+    "w": 23,
+    "h": 18,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 1,
+    "textNodes": 45,
+    "controls": 41,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": true,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "informe: el futuro de la movilidad",
+   "variable": true,
+   "origin": {
+    "link": 1,
+    "button": 2,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "innovamos en experiencia para que avances más rápido, pienses en grande y explores nuevas oportunidades.",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "nuestro trabajo",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "eton shirts: the index shirt",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "$75 million+ for discover. unlocked",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "el concierge de ia de lexus",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "mandarin oriental",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "mars redefine el d2c empresarial",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "empecemos a hablar",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "nuestros partners",
+   "variable": false,
+   "origin": {
+    "link": 5,
+    "button": 2,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 5,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 5,
+    "imageHidden": 1
+   },
+   "findings": [
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "COUNT IMAGES"
+   ]
+  },
+  {
+   "index": 11,
+   "heading": "movilidad",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "trabaja con nosotros",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"adobe\" served in band \"nuestros partners\", no origin link or button",
+   "band": 10,
+   "n": 1,
+   "text": "adobe"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"google\" served in band \"nuestros partners\", no origin link or button",
+   "band": 10,
+   "n": 1,
+   "text": "google"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"salesforce\" served in band \"nuestros partners\", no origin link or button",
+   "band": 10,
+   "n": 1,
+   "text": "salesforce"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"shopify\" served in band \"nuestros partners\", no origin link or button",
+   "band": 10,
+   "n": 1,
+   "text": "shopify"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT IMAGES",
+   "msg": "band \"nuestros partners\": 1 origin → 5 served visible (+1 clipped away)",
+   "band": 10,
+   "origin": 1,
+   "eds": 5,
+   "hidden": 1
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"contáctanos\" served in band \"trabaja con nosotros\", no origin link or button",
+   "band": 12,
+   "n": 1,
+   "text": "contáctanos"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 5,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 1,
+  "findings": 6,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 16,
+    "y": 112,
+    "w": 166,
+    "h": 61
+   },
+   {
+    "x": 16,
+    "y": 160,
+    "w": 170,
+    "h": 61
+   },
+   {
+    "x": 16,
+    "y": 209,
+    "w": 312,
+    "h": 61
+   },
+   {
+    "x": 16,
+    "y": 273,
+    "w": 257,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 297,
+    "w": 152,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 80,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 96,
+    "w": 84,
+    "h": 21
+   },
+   {
+    "x": 42,
+    "y": 341,
+    "w": 144,
+    "h": 23
+   },
+   {
+    "x": 16,
+    "y": 696,
+    "w": 210,
+    "h": 45
+   },
+   {
+    "x": 16,
+    "y": 731,
+    "w": 319,
+    "h": 45
+   },
+   {
+    "x": 16,
+    "y": 766,
+    "w": 309,
+    "h": 45
+   },
+   {
+    "x": 16,
+    "y": 801,
+    "w": 302,
+    "h": 45
+   },
+   {
+    "x": 16,
+    "y": 836,
+    "w": 244,
+    "h": 45
+   },
+   {
+    "x": 16,
+    "y": 872,
+    "w": 232,
+    "h": 45
+   },
+   {
+    "x": 16,
+    "y": 1003,
+    "w": 208,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 1063,
+    "w": 260,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1084,
+    "w": 98,
+    "h": 21
+   },
+   {
+    "x": 286,
+    "y": 1105,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1341,
+    "w": 193,
+    "h": 26
+   },
+   {
+    "x": 16,
+    "y": 1365,
+    "w": 42,
+    "h": 26
+   },
+   {
+    "x": 16,
+    "y": 1398,
+    "w": 312,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1421,
+    "w": 204,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1665,
+    "w": 222,
+    "h": 26
+   },
+   {
+    "x": 16,
+    "y": 1689,
+    "w": 84,
+    "h": 26
+   },
+   {
+    "x": 16,
+    "y": 1722,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1745,
+    "w": 207,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1989,
+    "w": 188,
+    "h": 26
+   },
+   {
+    "x": 16,
+    "y": 2013,
+    "w": 52,
+    "h": 26
+   },
+   {
+    "x": 16,
+    "y": 2046,
+    "w": 300,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2069,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2091,
+    "w": 124,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2336,
+    "w": 159,
+    "h": 26
+   },
+   {
+    "x": 16,
+    "y": 2369,
+    "w": 274,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2391,
+    "w": 183,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2636,
+    "w": 184,
+    "h": 26
+   },
+   {
+    "x": 16,
+    "y": 2660,
+    "w": 105,
+    "h": 26
+   },
+   {
+    "x": 16,
+    "y": 2693,
+    "w": 323,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2715,
+    "w": 133,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2831,
+    "w": 281,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 2892,
+    "w": 276,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2916,
+    "w": 166,
+    "h": 21
+   },
+   {
+    "x": 42,
+    "y": 2975,
+    "w": 145,
+    "h": 23
+   },
+   {
+    "x": 16,
+    "y": 3105,
+    "w": 240,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 3166,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3188,
+    "w": 150,
+    "h": 21
+   },
+   {
+    "x": 213,
+    "y": 3231,
+    "w": 131,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3874,
+    "w": 80,
+    "h": 23
+   },
+   {
+    "x": 16,
+    "y": 3893,
+    "w": 144,
+    "h": 45
+   },
+   {
+    "x": 18,
+    "y": 3952,
+    "w": 192,
+    "h": 21
+   },
+   {
+    "x": 18,
+    "y": 3974,
+    "w": 177,
+    "h": 21
+   },
+   {
+    "x": 18,
+    "y": 3996,
+    "w": 180,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 4047,
+    "w": 61,
+    "h": 23
+   },
+   {
+    "x": 16,
+    "y": 4178,
+    "w": 279,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 4239,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4263,
+    "w": 191,
+    "h": 21
+   },
+   {
+    "x": 42,
+    "y": 4322,
+    "w": 74,
+    "h": 23
+   },
+   {
+    "x": 16,
+    "y": 4431,
+    "w": 173,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 4594,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 4594,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 4618,
+    "w": 47,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4658,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 4658,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 4682,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4862,
+    "w": 134,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4903,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4944,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4985,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 5026,
+    "w": 136,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 5067,
+    "w": 158,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 16,
+    "y": 112,
+    "w": 166,
+    "h": 61
+   },
+   {
+    "x": 16,
+    "y": 160,
+    "w": 170,
+    "h": 61
+   },
+   {
+    "x": 16,
+    "y": 209,
+    "w": 312,
+    "h": 61
+   },
+   {
+    "x": 16,
+    "y": 273,
+    "w": 257,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 297,
+    "w": 152,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 80,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 96,
+    "w": 84,
+    "h": 21
+   },
+   {
+    "x": 42,
+    "y": 341,
+    "w": 144,
+    "h": 23
+   },
+   {
+    "x": 16,
+    "y": 696,
+    "w": 210,
+    "h": 45
+   },
+   {
+    "x": 16,
+    "y": 731,
+    "w": 319,
+    "h": 45
+   },
+   {
+    "x": 16,
+    "y": 766,
+    "w": 309,
+    "h": 45
+   },
+   {
+    "x": 16,
+    "y": 801,
+    "w": 302,
+    "h": 45
+   },
+   {
+    "x": 16,
+    "y": 836,
+    "w": 244,
+    "h": 45
+   },
+   {
+    "x": 16,
+    "y": 872,
+    "w": 232,
+    "h": 45
+   },
+   {
+    "x": 16,
+    "y": 1003,
+    "w": 208,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 1063,
+    "w": 260,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1084,
+    "w": 98,
+    "h": 21
+   },
+   {
+    "x": 286,
+    "y": 1105,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1341,
+    "w": 193,
+    "h": 26
+   },
+   {
+    "x": 16,
+    "y": 1365,
+    "w": 42,
+    "h": 26
+   },
+   {
+    "x": 16,
+    "y": 1398,
+    "w": 312,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1421,
+    "w": 204,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1665,
+    "w": 222,
+    "h": 26
+   },
+   {
+    "x": 16,
+    "y": 1689,
+    "w": 84,
+    "h": 26
+   },
+   {
+    "x": 16,
+    "y": 1722,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1745,
+    "w": 207,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1989,
+    "w": 188,
+    "h": 26
+   },
+   {
+    "x": 16,
+    "y": 2013,
+    "w": 52,
+    "h": 26
+   },
+   {
+    "x": 16,
+    "y": 2046,
+    "w": 300,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2069,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2091,
+    "w": 124,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2336,
+    "w": 159,
+    "h": 26
+   },
+   {
+    "x": 16,
+    "y": 2369,
+    "w": 274,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2391,
+    "w": 183,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2636,
+    "w": 184,
+    "h": 26
+   },
+   {
+    "x": 16,
+    "y": 2660,
+    "w": 105,
+    "h": 26
+   },
+   {
+    "x": 16,
+    "y": 2693,
+    "w": 323,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2715,
+    "w": 133,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2831,
+    "w": 281,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 2892,
+    "w": 276,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2916,
+    "w": 166,
+    "h": 21
+   },
+   {
+    "x": 42,
+    "y": 2975,
+    "w": 145,
+    "h": 23
+   },
+   {
+    "x": 16,
+    "y": 3105,
+    "w": 240,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 3166,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3188,
+    "w": 150,
+    "h": 21
+   },
+   {
+    "x": 213,
+    "y": 3231,
+    "w": 131,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3874,
+    "w": 80,
+    "h": 23
+   },
+   {
+    "x": 16,
+    "y": 3893,
+    "w": 144,
+    "h": 45
+   },
+   {
+    "x": 18,
+    "y": 3952,
+    "w": 192,
+    "h": 21
+   },
+   {
+    "x": 18,
+    "y": 3974,
+    "w": 177,
+    "h": 21
+   },
+   {
+    "x": 18,
+    "y": 3996,
+    "w": 180,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 4047,
+    "w": 61,
+    "h": 23
+   },
+   {
+    "x": 16,
+    "y": 4178,
+    "w": 279,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 4239,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4263,
+    "w": 191,
+    "h": 21
+   },
+   {
+    "x": 42,
+    "y": 4322,
+    "w": 74,
+    "h": 23
+   },
+   {
+    "x": 16,
+    "y": 4431,
+    "w": 173,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 4594,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 4594,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 4618,
+    "w": 47,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4658,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 4658,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 4682,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4862,
+    "w": 134,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4903,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4944,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4985,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 5026,
+    "w": 136,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 5067,
+    "w": 158,
+    "h": 18
+   }
+  ]
+ }
+}

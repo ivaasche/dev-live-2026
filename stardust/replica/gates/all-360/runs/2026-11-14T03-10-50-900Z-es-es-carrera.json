@@ -1,0 +1,108 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-14T03:10:50.899Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.valtech.com",
+    "eds": "https://main--c87ac39f--aemcoder.aem.page",
+    "edsHostOverride": "https://main--c87ac39f--aemcoder.aem.page",
+    "only": [
+      "es-es-carrera"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 1,
+    "pixelOnlyPass": 1,
+    "overridePass": 0,
+    "fail": 0,
+    "error": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 0,
+    "fontsNotLoaded": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 1
+  },
+  "rows": [
+    {
+      "slug": "es-es-carrera",
+      "path": "/es-es/carrera",
+      "template": "editorial",
+      "tier": "sibling",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 2.59,
+      "textPct": 5.07,
+      "heightDelta": 3,
+      "originH": 4251,
+      "edsH": 4248,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 1,
+      "clipPass": true,
+      "clipAllowance": 1,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "reasons": [],
+      "clipGroups": [
+        {
+          "kind": "TEXT CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "div.teaser-block-teaser.is-selected",
+          "path": "div.teaser-block-teaser.is-selected > div.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#technology-is-very-apt-at-answering-the-question-what-can-be-done-but-we-need-design-to-answer-the-question-what-should-be-done",
+          "text": "\"technology is very apt at answering the question what can b",
+          "cutMin": 18,
+          "cutMax": 18
+        }
+      ],
+      "clipAllowReason": "source-parity: the teaser quote card title (\"Technology is very apt at answering the question what can be done…\") is clipped by its fixed-height card on the origin too — clip-probe https://www.valtech.com/es-es/carrera/ @360 (C-final, 2026-11-14): TEXT CLIPPED 1, div.teaser-block__teaser.is-selected > a.teaser-block__teaser__inner > hgroup > h5.teaser-block__teaser__title; build clips the same h5 (1)",
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 5,
+        "variable": [
+          ".jobs__list=.jobs-list"
+        ]
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [],
+      "error": null
+    }
+  ]
+}

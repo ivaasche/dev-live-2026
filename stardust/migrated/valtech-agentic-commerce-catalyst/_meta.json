@@ -1,0 +1,335 @@
+{
+  "slug": "valtech-agentic-commerce-catalyst",
+  "type": "offering",
+  "renderBranch": "A'",
+  "template": "valtech-conversion-engine",
+  "modules": [
+    "breadcrumbs",
+    "masthead-two-columns-cta",
+    "results-statistics",
+    "features-showcase",
+    "two-columns",
+    "section-title-divider",
+    "partners-block",
+    "podcast-speakers",
+    "marketo-form",
+    "teaser-block",
+    "faq-block"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "site-breadcrumbs",
+    "masthead-two-columns-cta",
+    "rte-block",
+    "results-statistics-block",
+    "features-showcase",
+    "two-columns",
+    "two-columns",
+    "two-columns",
+    "two-columns",
+    "section-title-divider-block",
+    "partners-block",
+    "podcast-speakers",
+    "rte-block",
+    "marketo-form-block",
+    "teaser-block",
+    "faq-block",
+    "site-footer",
+    "site-slope",
+    "site-slope",
+    "site-slope",
+    "modal",
+    "modal",
+    "modal",
+    "modal"
+  ],
+  "canonShas": {
+    "header": "73cff066609b",
+    "footer": "738b73f132f6",
+    "css": "8876c0e8d8d1"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Valtech Agentic Commerce Catalyst | Valtech",
+    "description": "Identify where AI drives the most value across your customer experience. Get a clear, prioritized roadmap tied to measurable business outcomes.",
+    "canonical": "https://www.valtech.com/valtech-agentic-commerce-catalyst/",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Valtech Agentic Commerce Catalyst | Valtech",
+    "description": "Identify where AI drives the most value across your customer experience. Get a clear, prioritized roadmap tied to measurable business outcomes.",
+    "url": "https://www.valtech.com/valtech-agentic-commerce-catalyst/"
+  },
+  "migratedAt": "2026-11-13T22:56:24Z",
+  "designMdSha": "9dc5e8267a4e",
+  "designJsonSha": "ec9a36425b28",
+  "sourceCurrentSha": "16d2cdd723b8",
+  "sourceProposedSha": "d896c2c72ad2",
+  "fidelityTier": "sibling",
+  "archetypeSource": "valtech-conversion-engine",
+  "archetypeSha": "6faf444abaa7",
+  "variants": [
+    "results-statistics.header.row results-statistics.smaller-title"
+  ],
+  "gatesPassed": [
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "verbatim sibling encode of stardust/current/pages/valtech-agentic-commerce-catalyst.html into content/valtech-agentic-commerce-catalyst.html (archetype valtech-conversion-engine shape, stardust/.work/cluster-offering/build-content.py); published-origin gate 1440 6.91 % Δh -80 PASS / 360 7.08 % Δh -45 PASS"
+  },
+  "contentDeviations": [
+    {
+      "kind": "heading-level",
+      "source": "div.results-statistics-block_header",
+      "target": "h2 header row",
+      "reason": "the block header is a text div in the source; authored as a heading row the block styles back"
+    }
+  ],
+  "assetsBundled": 11,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/work/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/partners/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offerings/experience-elevation/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offerings/commerce-acceleration/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offerings/enterprise-transformation/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offerings/marketing-creativity-performance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offerings/data-and-ai-revolution/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/career/jobs/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/valtech-as-workplace/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/diversity-inclusion/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/podcasts/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/whitepapers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content-hub/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blog/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/newsroom/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about/offices/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about/contact-us/keep-in-touch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-dk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr-fr/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de-de/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nl-nl/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sv-se/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-gb/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ca/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-ar/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt-br/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-mx/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-cn/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-in/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-sg/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/partners/google/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/partners/microsoft/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/partners/databricks/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/partners/salesforce/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/partners/adobe/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/partners/shopify/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/partners/commercetools/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/partners/optimizely/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/partners/contentstack/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/partners/contentful/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.valtech.com/privacy-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/landingpages-en-en-folder/landingpages-2026/the-intelligent-enterprise-playbook/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/whitepapers/retail-at-the-crossroads-2026/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/whitepapers/era-of-conversational-commerce-report/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about/offices/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/career/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privacy-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/cookie-statement/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/legal-notices/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about/accessibility/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about/stay-in-touch/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "valtech-agentic-commerce-catalyst/index.html",
+  "outputPathDefault": null,
+  "sidecar": "valtech-agentic-commerce-catalyst/_meta.json",
+  "driverVersion": "1"
+}

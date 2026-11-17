@@ -1,0 +1,55 @@
+{
+  "type": "campaign",
+  "slug": "ai-searchandizing-workshop",
+  "liveUrl": "https://www.valtech.com/ai-searchandizing-workshop/",
+  "prototype": "stardust/prototypes/ai-searchandizing-workshop-proposed.html",
+  "css": ["stardust/prototypes/css/canon.css", "stardust/prototypes/css/campaign.css"],
+  "js": ["stardust/prototypes/js/chrome.js", "stardust/prototypes/js/campaign.js"],
+  "regime": "prototype",
+  "iterations": { "1440": 2, "360": 2 },
+  "gates": {
+    "1440": { "pixel": "0.06%", "heightDelta": 0, "contentDiff": "0 🔴 · 0 nothing-lost 🟡 (10 advisory)", "visualDiff": "0 flags", "clip": 0, "overflow": "ok", "chromeParity": "✓", "chromeCrops": { "header": "100.00%", "footer": "100.00%" }, "units": "PASS 6 units, 22 elements within 4 px (units-iter2)", "evidence": "stardust/replica/gates/ai-searchandizing-workshop-1440/verdict-iter2.json" },
+    "360": { "pixel": "0.16%", "heightDelta": 0, "contentDiff": "none — content + roles match", "visualDiff": "0 flags", "clip": 0, "overflow": "ok", "chromeParity": "✓", "chromeCrops": { "header": "100.00%", "footer": "100.00%" }, "units": "Δ 0 on every unit (units-iter2b.json, --force); stats card 2 reported 'hidden (clipped)' = the slider's off-viewport card, at the identical rect on the source (justified)", "evidence": "stardust/replica/gates/ai-searchandizing-workshop-360/verdict-iter2.json" }
+  },
+  "capProbe": "PASS (2560: 0 of 9 rows failed)",
+  "residuals": [
+    {
+      "zone": "results-statistics slider (360) — unit 2 of results-statistics-item",
+      "cause": "instrument",
+      "evidence": "units-iter2b.json: origin 336,1264 296×258 = served 336,1264 296×258, every element Δ0; unit-geometry flags the build card 'hidden (clipped)' because it sits past the viewport inside overflow:hidden — the source card is clipped identically (flickity, next card peeking)",
+      "permanent": true,
+      "note": "gate.sh's unit-geometry reused the slug-keyed 1440 live cache at 360 (iter1 and iter2 both); the 360 numbers come from a direct --force run"
+    }
+  ],
+  "captureState": [
+    { "zone": "in-page Marketo form (mktoForm_7520)", "gate": "rendered static, final state", "restoreAtDelivery": "source loads the Marketo forms2 embed: dummy skeleton rows (.dummyForm .slide-fade-in.played) then the converted form fades in (opacity/visibility 1 s); on EDS the marketo-form block mounts the embed (formId 7520, munchkin 353-SAE-487), and its loader supplies this", "implementedInPrototype": false }
+  ],
+  "liftNotes": [
+    "chrome = index-proposed.html English nav/footer/slopes/redirect modals verbatim (live nav + footer text identical to the index capture); this page has NO side 'Contact us' tab and NO contact band — both omitted",
+    "masthead-primary @50127–54466: text panel inline background #ffffff (authored style attr kept); h1 white-space:pre-line ≥940 keeps the source's trailing newlines (3rd line box = 166 px h1); lead p takes the canon p size (20 px/1.4), not the lead's 2vw",
+    "masthead image: 1x renditions per <source> rehosted under media/ai-searchandizing-workshop/ (rmode=min returns 1493×800 / 1680×900 / 989×530 / 526×282 — intrinsic sizes used)",
+    "rte-block / text-content @195216–196097, @32907–34416; centred empty/button paragraphs keep their authored style=text-align:center",
+    "results-statistics @415900–419926: ≥64rem 4-col grid; <64rem flickity recreated (track + gap 1rem, card calc(100% - 1rem), line dots 90 px at bottom -2.375rem, square prev/next at bottom -3.375rem right 0 / 3.5rem, prev aria-disabled at start) + hidden .carousel-native twins (source DOM has them); Word-paste TextRun spans mirrored as bare <span>s for unit granularity",
+    "podcast-speakers @357180–360118: speaker images 152×154 webp, loading=lazy dropped (lazy + width:auto made the stitched build capture 152 px short in iter1)",
+    "Marketo form @253073–260382 on canon .mkto-form markup with light overrides: labels 16px/400 black, inputs inset rgb(118,118,118) 0 0 1px (UA colour, measured), select padding 6px 0, textarea 1px solid #000, chevron caret, centred .button--tertiary 'Send request'",
+    "icon-linkedin: listing's interim sprite copied to media/ai-searchandizing-workshop/sprite.svg (canon request already filed by listing)",
+    "units.json declared: results-statistics-item ×4, podcast-speakers-info ×2"
+  ],
+  "motion": {
+    "observed": ["stats slider next (<64rem): is-selected moves card + dot", "Marketo embed hydration: skeleton rows + 1 s form fade-in (load, not interaction)", "label/field background-color transitions .2s"],
+    "implemented": ["stats slider prev/next + dots state + transform (campaign.js), motion-compare is-selected parity", "background-color transitions (canon/campaign CSS)"],
+    "dead": ["hover on .button--primary-hollow / .mktoButton (no measured diff)", "header scroll-morph on this page (static across traversal on both sides)", "Marketo conversion classes (convertedField, mkto-input-group, singleCol, played, visible-label…) — embed-internal, delivered by the embed"]
+  },
+  "blocks": [
+    { "section": "nav.site-nav + modals", "block": "header (fragment)", "variant": "en" },
+    { "section": "div.site-breadcrumbs", "block": "breadcrumbs", "variant": "default" },
+    { "section": "section.masthead-primary", "block": "masthead", "variant": "primary (text left / image right)" },
+    { "section": "section.rte-block ×3", "block": "default content", "variant": "rich text (centred CTA paragraphs)" },
+    { "section": "div.results-statistics-block", "block": "stats", "variant": "4-up dark (slider < 64rem)" },
+    { "section": "div.podcast-speakers", "block": "speakers", "variant": "default" },
+    { "section": "div.marketo-form-block", "block": "marketo-form", "variant": "narrow light (form 7520)" },
+    { "section": "footer.site-footer", "block": "footer (fragment)", "variant": "default" }
+  ],
+  "canon": { "owner": false, "requestsFiled": 2 },
+  "verdict": "pass"
+}

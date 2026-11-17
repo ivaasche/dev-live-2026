@@ -1,0 +1,61 @@
+{
+  "a": "stardust/replica/gates/all-1440/es-es-eventos-valtech-at-shoptalk-europe-2026/origin.png",
+  "b": "stardust/replica/gates/all-1440/es-es-eventos-valtech-at-shoptalk-europe-2026/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3085,
+    "mode": "overlap"
+  },
+  "heightDelta": 11,
+  "differingPixels": 335755,
+  "pct": 7.56,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/es-es-eventos-valtech-at-shoptalk-europe-2026/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 7.48,
+  "textBoxes": 59,
+  "textPixels": 677137,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2.4
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 26.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 5.3
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 2.2
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 4.8
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 5.4
+    },
+    {
+      "y0": 3000,
+      "y1": 3085,
+      "pct": 1.3
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/eventos/valtech-at-shoptalk-europe-2026"
+  }
+}

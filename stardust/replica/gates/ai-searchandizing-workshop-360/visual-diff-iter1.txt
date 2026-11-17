@@ -1,0 +1,377 @@
+[live-session] waiting to pace live navigations to www.valtech.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 359 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/ai-searchandizing-workshop-360/vdiff-iter1/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 4762,
+  "textLen": 5819,
+  "images": [
+   {
+    "src": "tsk-5023-retail-ai-searchandizing--product-data-readiness-workshop-masthead.jpg?width=500&height=282&rmode=min&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "526x282",
+    "rendered": "312x167",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "raphael_iscar_gutierrez2.jpg?width=152&height=154&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "152x154",
+    "rendered": "118x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "gabriel-laliberte.jpeg?width=152&height=154&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "152x154",
+    "rendered": "118x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "badge-no-outline.png?width=442&height=128&rmode=max&rsampler=bicubic&compand=true&format=jpg",
+    "natural": "435x128",
+    "rendered": "218x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "cdp_discloser_2026.png?width=128&height=128&rmode=max&rsampler=bicubic&compand=true&format=jpg",
+    "natural": "128x128",
+    "rendered": "64x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=c00ebbc9-d39f-4c23-bdfd-48c168b5d173&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=55a3c27f-3a3b-4d21-98d1-128d6e510611&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fai-searchandizing-workshop%2F&tw_engaged_ms=11&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=c00ebbc9-d39f-4c23-bdfd-48c168b5d173&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=55a3c27f-3a3b-4d21-98d1-128d6e510611&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fai-searchandizing-workshop%2F&tw_engaged_ms=11&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=2&event_id=12901b76-6713-4eb3-91fb-2a9311b7c490&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=55a3c27f-3a3b-4d21-98d1-128d6e510611&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fai-searchandizing-workshop%2F&tw_engaged_ms=10004&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=2&event_id=12901b76-6713-4eb3-91fb-2a9311b7c490&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=55a3c27f-3a3b-4d21-98d1-128d6e510611&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fai-searchandizing-workshop%2F&tw_engaged_ms=10004&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "AI Product Discovery Workshop",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "If they can’t find it, they won’",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Why it matters",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "What is it?",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Who should join?",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Learn more",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Our experts",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Schedule a Discovery Call",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "masthead-primary__hgroup",
+    "width": 269,
+    "left": 46
+   },
+   {
+    "sel": "masthead-primary__lead",
+    "width": 269,
+    "left": 46
+   },
+   {
+    "sel": "rte-block__container",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "results-statistics-block_item_content",
+    "width": 296,
+    "left": 24
+   },
+   {
+    "sel": "results-statistics-block_item_content",
+    "width": 296,
+    "left": 336
+   },
+   {
+    "sel": "results-statistics-block_item_content",
+    "width": 296,
+    "left": 648
+   },
+   {
+    "sel": "results-statistics-block_item_content",
+    "width": 296,
+    "left": 960
+   },
+   {
+    "sel": "rte-block__container",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "podcast-speakers__wrapper",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "rte-block__container",
+    "width": 360,
+    "left": 0
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 4762,
+  "textLen": 5805,
+  "images": [
+   {
+    "src": "masthead-500x282.webp",
+    "natural": "526x282",
+    "rendered": "312x167",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "raphael-iscar-152x154.webp",
+    "natural": "152x154",
+    "rendered": "118x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "gabriel-laliberte-152x154.webp",
+    "natural": "152x154",
+    "rendered": "118x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "badge-no-outline.png",
+    "natural": "435x128",
+    "rendered": "218x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "cdp_discloser_2026.png",
+    "natural": "128x128",
+    "rendered": "64x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "AI Product Discovery Workshop",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "If they can’t find it, they won’",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Why it matters",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "What is it?",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Who should join?",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Learn more",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Our experts",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Schedule a Discovery Call",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "masthead-primary__hgroup",
+    "width": 269,
+    "left": 46
+   },
+   {
+    "sel": "masthead-primary__lead",
+    "width": 269,
+    "left": 46
+   },
+   {
+    "sel": "rte-block__container",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "results-statistics-block_item_content",
+    "width": 296,
+    "left": 24
+   },
+   {
+    "sel": "results-statistics-block_item_content",
+    "width": 296,
+    "left": 336
+   },
+   {
+    "sel": "results-statistics-block_item_content",
+    "width": 296,
+    "left": 648
+   },
+   {
+    "sel": "results-statistics-block_item_content",
+    "width": 296,
+    "left": 960
+   },
+   {
+    "sel": "rte-block__container",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "podcast-speakers__wrapper",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "rte-block__container",
+    "width": 360,
+    "left": 0
+   }
+  ]
+ }
+}

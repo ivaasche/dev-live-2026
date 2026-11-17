@@ -1,0 +1,14 @@
+{
+  "es-es-blog": {
+    "verdict": "PASS (documented)",
+    "reason": "units only: insight-item origin selector a[data-component-name=\"insight-item\"] contains = and is mis-split by the origin=build parser (served: bad selector; unit-geometry run directly passes it); the 4 hidden are the advisory insights-filter-select family (required:false in units.json — source caret 10x150 inside a 10x10 overflow:hidden box, clipped identically live). Pixel 0.01%, Δh 0, clip 0, content 0 missing."
+  },
+  "ai-searchandizing-workshop": {
+    "verdict": "PASS (documented)",
+    "reason": "units only: the 4 hidden are results-statistics slider cards off-screen inside the < 64rem slider viewport, clipped at the same positions live (the live-side probe does not report by-design clipping; progress/campaign.json residual). Pixel 0.16%, Δh 0, clip 0, content 0 missing."
+  },
+  "valtech-conversion-engine": {
+    "verdict": "PASS (documented)",
+    "reason": "units only: the 7 hidden are off-screen slider items (related-content teaser slider < 58.75rem, advisory teaser-block-teaser family) and CTA hover-wipe spans, clipped by design identically live (live-side probe misses it; progress/offering.json residual). Pixel 0.03%, Δh 0, clip 0, content 0 missing."
+  }
+}

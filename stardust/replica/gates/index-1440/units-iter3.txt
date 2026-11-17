@@ -1,0 +1,96 @@
+[live-session] waiting to pace live navigations to www.valtech.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 114 ms
+unit-geometry @ 1440px, tol 4px — https://www.valtech.com/ vs http://localhost:8791/index-proposed.html
+unit 1 of featured-case-study-item (required) .featured-case-study__item=.featured-case-study__item: origin 100,1267 471×572 vs served 100,1267 471×572 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:picture.featured-case-study__i" | 0,0 471×471 | 0,0 471×471 | 0 | 0 | 0 | 0 | ✓ |
+| image "silhouette of a person on a stool be" | 0,0 471×471 | 0,0 471×471 | 0 | 0 | 0 | 0 | ✓ |
+| heading "eton shirts: the index shirt" | 0,479 311×31 | 0,479 311×31 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 327,485 30×22 | 327,485 30×22 | 0 | 0 | 0 | 0 | ✓ |
+| text "creating the first-ever garment with" | 0,516 471×56 | 0,516 471×56 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of featured-case-study-item (required) .featured-case-study__item=.featured-case-study__item: origin 603,1267 673×572 vs served 603,1267 673×572 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:picture.featured-case-study__i" | 0,0 673×469 | 0,0 673×469 | 0 | 0 | 0 | 0 | ✓ |
+| image "hand holding a smartphone with the d" | 0,0 673×469 | 0,0 673×469 | 0 | 0 | 0 | 0 | ✓ |
+| heading "$75 million+ for discover. unlocked" | 0,477 404×31 | 0,477 404×31 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 420,483 30×22 | 420,483 30×22 | 0 | 0 | 0 | 0 | ✓ |
+| text "solving complex transformation chall" | 0,513 645×28 | 0,513 645×28 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of featured-case-study-item (required) .featured-case-study__item=.featured-case-study__item: origin 100,1879 1176×722 vs served 100,1879 1176×722 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:picture.featured-case-study__i" | 0,0 1176×661 | 0,0 1176×661 | 0 | 0 | 0 | 0 | ✓ |
+| image "lexus ai concierge screen: ‘can we h" | 0,0 1176×661 | 0,0 1176×661 | 0 | 0 | 0 | 0 | ✓ |
+| heading "the lexus ai concierge" | 0,669 268×31 | 0,669 268×31 | 0 | 0 | 0 | 0 | ✓ |
+| text "transforming the lexus website into " | 529,669 640×28 | 529,669 640×28 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 284,675 30×22 | 284,675 30×22 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of featured-case-study-item (required) .featured-case-study__item=.featured-case-study__item: origin 100,2641 673×598 vs served 100,2641 673×598 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:picture.featured-case-study__i" | 0,0 673×469 | 0,0 673×469 | 0 | 0 | 0 | 0 | ✓ |
+| image "couple walking into a dimly lit hote" | 0,0 673×469 | 0,0 673×469 | 0 | 0 | 0 | 0 | ✓ |
+| heading "mandarin oriental" | 0,477 207×31 | 0,477 207×31 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 223,483 30×22 | 223,483 30×22 | 0 | 0 | 0 | 0 | ✓ |
+| text "driving bookings and crafting a luxu" | 0,513 502×28 | 0,513 502×28 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of featured-case-study-item (required) .featured-case-study__item=.featured-case-study__item: origin 805,2641 471×598 vs served 805,2641 471×598 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:picture.featured-case-study__i" | 0,0 471×471 | 0,0 471×471 | 0 | 0 | 0 | 0 | ✓ |
+| image "large yellow m&m candy with white ‘m" | 0,0 471×471 | 0,0 471×471 | 0 | 0 | 0 | 0 | ✓ |
+| heading "enterprise d2c reinvented for mars" | 0,479 373×62 | 0,479 373×62 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 389,485 30×22 | 389,485 30×22 | 0 | 0 | 0 | 0 | ✓ |
+| text "composable commerce scaled for a 50+" | 0,542 471×56 | 0,542 471×56 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of partners-logo (required) .partners-block__logo=.partners-block__logo: origin 100,3939 270×160 vs served 100,3939 270×160 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 70,45 130×70 | 70,45 130×70 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of partners-logo (required) .partners-block__logo=.partners-block__logo: origin 402,3939 270×160 vs served 402,3939 270×160 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 3,57 265×46 | 3,57 265×46 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of partners-logo (required) .partners-block__logo=.partners-block__logo: origin 704,3939 270×160 vs served 704,3939 270×160 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 19,55 232×50 | 19,55 232×50 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of partners-logo (required) .partners-block__logo=.partners-block__logo: origin 1006,3939 270×160 vs served 1006,3939 270×160 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 30,55 210×50 | 30,55 210×50 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of featured-verticals-item (required) .featured-verticals-block__item=.featured-verticals-block__item: origin 100,4311 1080×608 vs served 100,4311 1080×608 → Δx 0 Δy 0 Δw 0 Δh 0; 6 elements: 6 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "audi cockpit with dual touchscreens " | -1,-1 599×610 | -1,-1 599×610 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:picture#1" | 0,-1 597×610 | 0,-1 597×610 | 0 | 0 | 0 | 0 | ✓ |
+| text "industries" | 629,0 80×23 | 629,0 80×23 | 0 | 0 | 0 | 0 | ✓ |
+| heading "mobility" | 629,23 451×58 | 629,23 451×58 | 0 | 0 | 0 | 0 | ✓ |
+| text "shaping the future of mobility with " | 629,468 451×67 | 629,468 451×67 | 0 | 0 | 0 | 0 | ✓ |
+| link "explore" | 629,559 120×49 | 629,559 120×49 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of featured-verticals-item (required) .featured-verticals-block__item=.featured-verticals-block__item: origin 1196,4311 1080×608 vs served 1196,4311 1080×608 → Δx 0 Δy 0 Δw 0 Δh 0; 6 elements: 0 within 4px, 0 off, 6 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "sales associate in a luxury boutique" | -1,-1 599×610 | -1,-1 599×610 | 0 | 0 | 0 | 0 | ✗ hidden (clipped) |
+| image "image:picture#1" | 0,-1 597×610 | 0,-1 597×610 | 0 | 0 | 0 | 0 | ✗ hidden (clipped) |
+| text "industries" | 629,0 80×23 | 629,0 80×23 | 0 | 0 | 0 | 0 | ✗ hidden (clipped) |
+| heading "heading:h3.featured-verticals-block_" | 629,23 451×58 | 629,23 451×58 | 0 | 0 | 0 | 0 | ✗ hidden (clipped) |
+| text "navigating luxury brands through mar" | 629,468 451×67 | 629,468 451×67 | 0 | 0 | 0 | 0 | ✗ hidden (clipped) |
+| link "link:a.featured-verticals-block__ite" | 629,559 120×49 | 629,559 120×49 | 0 | 0 | 0 | 0 | ✗ hidden (clipped) |
+unit 1 of footer-menu-link (required) .site-footer__menu__list a=.site-footer__menu__list a: origin 84,6692 102×21 vs served 84,6692 102×21 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 2 of footer-menu-link (required) .site-footer__menu__list a=.site-footer__menu__list a: origin 234,6692 127×21 vs served 234,6692 127×21 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 3 of footer-menu-link (required) .site-footer__menu__list a=.site-footer__menu__list a: origin 453,6692 94×21 vs served 453,6692 94×21 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 4 of footer-menu-link (required) .site-footer__menu__list a=.site-footer__menu__list a: origin 596,6692 90×21 vs served 596,6692 90×21 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 5 of footer-menu-link (required) .site-footer__menu__list a=.site-footer__menu__list a: origin 84,6733 92×21 vs served 84,6733 92×21 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 6 of footer-menu-link (required) .site-footer__menu__list a=.site-footer__menu__list a: origin 234,6733 171×21 vs served 234,6733 171×21 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+Units: 17 compared; elements within 35, off 0, hidden 6, missing 0 → FAIL
+json → stardust/replica/gates/index-1440/units-iter3.json

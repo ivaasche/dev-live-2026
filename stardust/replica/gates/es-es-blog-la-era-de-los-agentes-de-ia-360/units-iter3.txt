@@ -1,0 +1,42 @@
+[live-session] waiting to pace live navigations to www.valtech.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 875 ms
+unit-geometry @ 360px, tol 4px — https://www.valtech.com/es-es/blog/la-era-de-los-agentes-de-ia/ vs http://localhost:8791/es-es-blog-la-era-de-los-agentes-de-ia-proposed.html
+unit 1 of features-showcase-item (required) .features-showcase__item=.features-showcase__item: origin 69,2549 275×245 vs served 69,2549 275×245 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 0,0 48×48 | 0,0 48×48 | 0 | 0 | 0 | 0 | ✓ |
+| heading "agente personal" | 0,64 275×29 | 0,64 275×29 | 0 | 0 | 0 | 0 | ✓ |
+| text "agente de ia que actúa en nombre del" | 0,102 271×141 | 0,102 271×141 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of features-showcase-item (required) .features-showcase__item=.features-showcase__item: origin 69,2831 275×221 vs served 69,2831 275×221 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 0,0 48×48 | 0,0 48×48 | 0 | 0 | 0 | 0 | ✓ |
+| heading "agente de marca" | 0,64 275×29 | 0,64 275×29 | 0 | 0 | 0 | 0 | ✓ |
+| text "agente de ia que representa a la emp" | 0,102 266×117 | 0,102 266×117 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of features-showcase-item (required) .features-showcase__item=.features-showcase__item: origin 69,3088 275×250 vs served 69,3088 275×250 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 0,0 48×48 | 0,0 48×48 | 0 | 0 | 0 | 0 | ✓ |
+| heading "delegación con límites definidos" | 0,64 275×58 | 0,64 275×58 | 0 | 0 | 0 | 0 | ✓ |
+| text "modelo en el que el cliente define e" | 0,131 266×117 | 0,131 266×117 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of features-showcase-item (required) .features-showcase__item=.features-showcase__item: origin 69,3375 275×221 vs served 69,3375 275×221 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 0,0 48×48 | 0,0 48×48 | 0 | 0 | 0 | 0 | ✓ |
+| heading "ejecutable por agentes" | 0,64 275×29 | 0,64 275×29 | 0 | 0 | 0 | 0 | ✓ |
+| text "capacidad de un agente autorizado pa" | 0,102 251×117 | 0,102 251×117 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of author-details (required) .author-details=.author-details: origin 0,524 360×104 vs served 0,524 360×104 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img#1" | 238,0 100×100 | 238,0 100×100 | 0 | 0 | 0 | 0 | ✓ |
+| text "david toma" | 22,31 197×14 | 22,31 197×14 | 0 | 0 | 0 | 0 | ✓ |
+| text "vicepresidente de estrategia y consu" | 22,47 197×28 | 22,47 197×28 | 0 | 0 | 0 | 0 | ✓ |
+| link "david.toma@valtech.com" | 93,77 126×14 | 93,77 126×14 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of author-details (required) .author-details=.author-details: origin 0,658 360×104 vs served 0,658 360×104 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img#1" | 238,0 100×100 | 238,0 100×100 | 0 | 0 | 0 | 0 | ✓ |
+| text "carsten riggelsen" | 22,31 197×14 | 22,31 197×14 | 0 | 0 | 0 | 0 | ✓ |
+| text "responsable de datos e ia para dach " | 22,47 197×28 | 22,47 197×28 | 0 | 0 | 0 | 0 | ✓ |
+| link "carsten.riggelsen@valtech.com" | 61,77 157×14 | 61,77 157×14 | 0 | 0 | 0 | 0 | ✓ |
+Units: 6 compared; elements within 20, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/es-es-blog-la-era-de-los-agentes-de-ia-360/units-iter3.json

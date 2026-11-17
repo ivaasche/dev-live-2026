@@ -1,0 +1,235 @@
+/* teaser-block-unu — full-card teaser (prototypes/css/article.css, main.css) */
+/* stylelint-disable no-descending-specificity -- source cascade order lifted verbatim */
+
+.teaser-block-unu {
+  margin-bottom: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  width: 84vw;
+}
+
+@media (width >= 58.75rem) {
+  .teaser-block-unu {
+    margin-bottom: 5rem;
+  }
+}
+
+@media (width <= 58.749rem) {
+  .teaser-block-unu {
+    width: 100%;
+  }
+}
+
+.teaser-block-unu a {
+  cursor: pointer;
+}
+
+.teaser-block-unu .teaser-block-unu-link svg {
+  display: none;
+  height: .5rem;
+  transition: .3s ease-in-out;
+  width: 1.9375rem;
+}
+
+.teaser-block-unu a .teaser-block-unu-link svg {
+  display: block;
+}
+
+.teaser-block-unu a:hover .teaser-block-unu-link svg {
+  transform: scaleX(1.1);
+  transform-origin: left;
+}
+
+.teaser-block-unu a:hover .teaser-block-unu-media img {
+  filter: brightness(.6);
+}
+
+.teaser-block-unu .teaser-block-unu-teaser {
+  align-items: center;
+  background-color: #f2f2f2;
+  color: #000;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  justify-content: start;
+  min-height: 30vw;
+  padding: 1.5rem;
+  text-decoration: none;
+}
+
+@media (width <= 58.749rem) {
+  .teaser-block-unu .teaser-block-unu-teaser {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: flex-start;
+  }
+}
+
+.teaser-block-unu .teaser-block-unu-description {
+  color: #000;
+}
+
+.teaser-block-unu .teaser-block-unu-title :is(h2, h3) {
+  color: inherit;
+  font-family: var(--font-sans);
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin: 0 0 1.5rem;
+}
+
+@media (width <= 58.749rem) {
+  .teaser-block-unu .teaser-block-unu-title :is(h2, h3) {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.teaser-block-unu .teaser-block-unu-text p {
+  color: inherit;
+  font-family: var(--font-sans);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+@media (width <= 58.749rem) {
+  .teaser-block-unu .teaser-block-unu-text p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.teaser-block-unu .teaser-block-unu-link {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.teaser-block-unu .teaser-block-unu-link p {
+  color: inherit;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-style: normal;
+  line-height: 1.1875rem;
+  margin-bottom: 0;
+  margin-right: .875rem;
+}
+
+@media (width <= 58.749rem) {
+  .teaser-block-unu .teaser-block-unu-link p {
+    font-size: .875rem;
+    line-height: 1.0625rem;
+    margin-right: 1.4375rem;
+  }
+}
+
+.teaser-block-unu .teaser-block-unu-media {
+  height: 100%;
+  margin-right: 3.3125rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.teaser-block-unu .teaser-block-unu-media img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: filter .32s ease-in-out;
+  width: 100%;
+}
+
+@media (width <= 58.749rem) {
+  .teaser-block-unu .teaser-block-unu-media {
+    height: auto;
+    width: 100%;
+  }
+
+  .teaser-block-unu .teaser-block-unu-media img {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.teaser-block-unu .teaser-block-unu-media-icon {
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-style: normal;
+  justify-content: center;
+  left: .8125rem;
+  line-height: 1.25rem;
+  padding: .5625rem 1rem;
+  position: absolute;
+  top: 0;
+}
+
+.teaser-block-unu .teaser-block-unu-media-icon p {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.teaser-block-unu .teaser-block-unu-media-icon svg {
+  color: #fff;
+  fill: #fff;
+  height: 1.5rem;
+  margin-right: .9375rem;
+  width: 1.5rem;
+}
+
+@media (width <= 58.749rem) {
+  .teaser-block-unu .teaser-block-unu-media-icon {
+    display: none;
+  }
+}
+
+/* dark variant (source teaser-block-unu--dark) */
+.teaser-block-unu.dark .teaser-block-unu-teaser {
+  background-color: #000;
+}
+
+.teaser-block-unu.dark :is(
+  .teaser-block-unu-link,
+  .teaser-block-unu-text,
+  .teaser-block-unu-description
+) {
+  color: #fff;
+}
+
+.teaser-block-unu.dark .teaser-block-unu-media-icon {
+  background-color: #fff;
+  color: #000;
+}
+
+.teaser-block-unu.dark .teaser-block-unu-media-icon svg {
+  color: #000;
+  fill: #000;
+}
+
+/* header title (source .teaser-block-unu__header__title, main.css; its < 58.75rem font-size is an
+   unresolved px2re() the browser drops, so the 3rem desktop size stays there) */
+.teaser-block-unu .teaser-block-unu-header > * {
+  color: #000;
+  font-family: ValtechNeue, sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 3.1875rem;
+  margin: 0 0 2.5rem;
+}
+
+@media (width <= 58.749rem) {
+  .teaser-block-unu .teaser-block-unu-header > * {
+    line-height: 150%;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+  }
+}

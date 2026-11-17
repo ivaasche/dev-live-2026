@@ -1,0 +1,795 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-13T12:47:32.769Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.valtech.com/",
+      "http://localhost:8791/index-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.valtech.com/",
+    "http://localhost:8791/index-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#valtech-content",
+      "isBody": false,
+      "leaves": 97,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1408,
+        "via": "max-width",
+        "selector": "#valtech-content > section.hero-block > div.hero-block__wrapper > div.hero-block__container",
+        "tier": 3,
+        "share": 0.14,
+        "section": 0,
+        "w1": 1208,
+        "maxWidth": "1408px"
+      },
+      {
+        "kind": "module",
+        "px": 460,
+        "via": "max-width",
+        "selector": "div.hero-block__item__wrapper > div.hero-block__item__text-adapter > div > p.hero-block__item__text",
+        "tier": 11,
+        "share": 0.01,
+        "section": 0,
+        "w1": 460,
+        "maxWidth": "460px"
+      },
+      {
+        "kind": "module",
+        "px": 502,
+        "via": "fixed",
+        "selector": "div > div.hero-block__item__title > h2 > span",
+        "tier": 13,
+        "share": 0.01,
+        "section": 0,
+        "w1": 502,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 460,
+        "via": "max-width",
+        "selector": "div.hero-block__item__wrapper > div.hero-block__item__text-adapter > div > p.hero-block__item__text",
+        "tier": 11,
+        "share": 0.01,
+        "section": 0,
+        "w1": 460,
+        "maxWidth": "460px"
+      },
+      {
+        "kind": "module",
+        "px": 334,
+        "via": "fixed",
+        "selector": "div > div.hero-block__item__title > h2 > span",
+        "tier": 13,
+        "share": 0.01,
+        "section": 0,
+        "w1": 334,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 426,
+        "via": "fixed",
+        "selector": "div > div.hero-block__item__title > h2 > span",
+        "tier": 13,
+        "share": 0.01,
+        "section": 0,
+        "w1": 426,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 460,
+        "via": "max-width",
+        "selector": "div.hero-block__item__wrapper > div.hero-block__item__text-adapter > div > p.hero-block__item__text",
+        "tier": 11,
+        "share": 0.01,
+        "section": 0,
+        "w1": 460,
+        "maxWidth": "460px"
+      },
+      {
+        "kind": "module",
+        "px": 460,
+        "via": "max-width",
+        "selector": "div.hero-block__item__wrapper > div.hero-block__item__text-adapter > div > p.hero-block__item__text",
+        "tier": 11,
+        "share": 0.01,
+        "section": 0,
+        "w1": 460,
+        "maxWidth": "460px"
+      },
+      {
+        "kind": "module",
+        "px": 1408,
+        "via": "max-width",
+        "selector": "#valtech-content > section.quote-block > div.quote-block__container",
+        "tier": 2,
+        "share": 0.01,
+        "section": 1,
+        "w1": 1208,
+        "maxWidth": "1408px"
+      },
+      {
+        "kind": "module",
+        "px": 1408,
+        "via": "max-width",
+        "selector": "#valtech-content > div.featured-case-study > div.featured-case-study__container",
+        "tier": 2,
+        "share": 0.13,
+        "section": 2,
+        "w1": 1208,
+        "maxWidth": "1408px"
+      },
+      {
+        "kind": "module",
+        "px": 454,
+        "via": "fixed",
+        "selector": "div.featured-case-study > div.featured-case-study__container > div > span",
+        "tier": 4,
+        "share": 0.01,
+        "section": 2,
+        "w1": 454,
+        "maxWidth": "90%"
+      },
+      {
+        "kind": "module",
+        "px": 311,
+        "via": "fixed",
+        "selector": "a.featured-case-study__item > div > div > h3",
+        "tier": 7,
+        "share": 0.01,
+        "section": 2,
+        "w1": 311,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 645,
+        "via": "fixed",
+        "selector": "div.featured-case-study__container > div.featured-case-study__items > a.featured-case-study__item > div",
+        "tier": 5,
+        "share": 0.02,
+        "section": 2,
+        "w1": 645,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 404,
+        "via": "fixed",
+        "selector": "a.featured-case-study__item > div > div > h3",
+        "tier": 7,
+        "share": 0.01,
+        "section": 2,
+        "w1": 404,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 268,
+        "via": "fixed",
+        "selector": "a.featured-case-study__item > div > div > h3",
+        "tier": 7,
+        "share": 0.01,
+        "section": 2,
+        "w1": 268,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 640,
+        "via": "fixed",
+        "selector": "div.featured-case-study__items > a.featured-case-study__item > div > span",
+        "tier": 6,
+        "share": 0.01,
+        "section": 2,
+        "w1": 640,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 502,
+        "via": "fixed",
+        "selector": "div.featured-case-study__container > div.featured-case-study__items > a.featured-case-study__item > div",
+        "tier": 5,
+        "share": 0.02,
+        "section": 2,
+        "w1": 502,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1408,
+        "via": "max-width",
+        "selector": "#valtech-content > section.homepage-cta-block > div.homepage-cta-block__container",
+        "tier": 2,
+        "share": 0.03,
+        "section": 3,
+        "w1": 1208,
+        "maxWidth": "1408px"
+      },
+      {
+        "kind": "module",
+        "px": 735,
+        "via": "fixed",
+        "selector": "section.homepage-cta-block > div.homepage-cta-block__container > div.homepage-cta-block__details > p.homepage-cta-block__description",
+        "tier": 4,
+        "share": 0.01,
+        "section": 3,
+        "w1": 735,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1408,
+        "via": "max-width",
+        "selector": "#valtech-content > div.partners-block.homepage-partners-block > div.partners-block__container",
+        "tier": 2,
+        "share": 0.07,
+        "section": 4,
+        "w1": 1208,
+        "maxWidth": "1408px"
+      },
+      {
+        "kind": "module",
+        "px": 1408,
+        "via": "max-width",
+        "selector": "#valtech-content > section.featured-verticals-block > div.wrapper > div",
+        "tier": 3,
+        "share": 0.57,
+        "section": 5,
+        "w1": 1208,
+        "maxWidth": "1408px"
+      },
+      {
+        "kind": "module",
+        "px": 460,
+        "via": "max-width",
+        "selector": "div > div > div > p",
+        "tier": 11,
+        "share": 0.01,
+        "section": 5,
+        "w1": 451,
+        "maxWidth": "460px"
+      },
+      {
+        "kind": "module",
+        "px": 460,
+        "via": "max-width",
+        "selector": "div > div > div > p",
+        "tier": 11,
+        "share": 0.01,
+        "section": 5,
+        "w1": 451,
+        "maxWidth": "460px"
+      },
+      {
+        "kind": "module",
+        "px": 1408,
+        "via": "max-width",
+        "selector": "#valtech-content > section.homepage-cta-block > div.homepage-cta-block__container",
+        "tier": 2,
+        "share": 0.03,
+        "section": 6,
+        "w1": 1208,
+        "maxWidth": "1408px"
+      },
+      {
+        "kind": "module",
+        "px": 578,
+        "via": "fixed",
+        "selector": "section.homepage-cta-block > div.homepage-cta-block__container > div.homepage-cta-block__details > p.homepage-cta-block__description",
+        "tier": 4,
+        "share": 0.01,
+        "section": 6,
+        "w1": 578,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 1408,
+        "via": "max-width",
+        "selector": "#contact-us-form > div.contact-us-form__container.js-accordion",
+        "tier": 4,
+        "share": 0,
+        "section": -1,
+        "w1": 1208,
+        "maxWidth": "1408px"
+      },
+      {
+        "kind": "other",
+        "px": 252,
+        "via": "fixed",
+        "selector": "#frCap-widget",
+        "tier": 3,
+        "share": 0,
+        "section": -1,
+        "w1": 252,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#valtech-content > section.hero-block",
+        "px": 1408,
+        "capSelector": "#valtech-content > section.hero-block > div.hero-block__wrapper > div.hero-block__container"
+      },
+      {
+        "index": 1,
+        "selector": "#valtech-content > section.quote-block",
+        "px": 1408,
+        "capSelector": "#valtech-content > section.quote-block > div.quote-block__container"
+      },
+      {
+        "index": 2,
+        "selector": "#valtech-content > div.featured-case-study",
+        "px": 1408,
+        "capSelector": "#valtech-content > div.featured-case-study > div.featured-case-study__container"
+      },
+      {
+        "index": 3,
+        "selector": "#valtech-content > section.homepage-cta-block",
+        "px": 1408,
+        "capSelector": "#valtech-content > section.homepage-cta-block > div.homepage-cta-block__container"
+      },
+      {
+        "index": 4,
+        "selector": "#valtech-content > div.partners-block.homepage-partners-block",
+        "px": 1408,
+        "capSelector": "#valtech-content > div.partners-block.homepage-partners-block > div.partners-block__container"
+      },
+      {
+        "index": 5,
+        "selector": "#valtech-content > section.featured-verticals-block",
+        "px": 1408,
+        "capSelector": "#valtech-content > section.featured-verticals-block > div.wrapper > div"
+      },
+      {
+        "index": 6,
+        "selector": "#valtech-content > section.homepage-cta-block",
+        "px": 1408,
+        "capSelector": "#valtech-content > section.homepage-cta-block > div.homepage-cta-block__container"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1408,
+    "contentFrom": "module",
+    "maxCap": 1408,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 323
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#valtech-content",
+      "isBody": false,
+      "leaves": 96,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1408,
+        "via": "max-width",
+        "selector": "#valtech-content > section.hero-block > div.hero-block__wrapper > div.hero-block__container",
+        "tier": 3,
+        "share": 0.15,
+        "section": 0,
+        "w1": 1208,
+        "maxWidth": "1408px"
+      },
+      {
+        "kind": "module",
+        "px": 460,
+        "via": "max-width",
+        "selector": "div.hero-block__item__wrapper > div.hero-block__item__text-adapter > div > p.hero-block__item__text",
+        "tier": 10,
+        "share": 0.01,
+        "section": 0,
+        "w1": 460,
+        "maxWidth": "460px"
+      },
+      {
+        "kind": "module",
+        "px": 319,
+        "via": "fixed",
+        "selector": "div.hero-block__viewport > div.hero-block__item.is-selected > div.hero-block__item__wrapper > div.hero-block__item__link-wrapper",
+        "tier": 8,
+        "share": 0.01,
+        "section": 0,
+        "w1": 319,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 502,
+        "via": "fixed",
+        "selector": "div > div.hero-block__item__title > h2 > span",
+        "tier": 12,
+        "share": 0.01,
+        "section": 0,
+        "w1": 502,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 460,
+        "via": "max-width",
+        "selector": "div.hero-block__item__wrapper > div.hero-block__item__text-adapter > div > p.hero-block__item__text",
+        "tier": 10,
+        "share": 0.01,
+        "section": 0,
+        "w1": 460,
+        "maxWidth": "460px"
+      },
+      {
+        "kind": "module",
+        "px": 334,
+        "via": "fixed",
+        "selector": "div > div.hero-block__item__title > h2 > span",
+        "tier": 12,
+        "share": 0.01,
+        "section": 0,
+        "w1": 334,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 426,
+        "via": "fixed",
+        "selector": "div > div.hero-block__item__title > h2 > span",
+        "tier": 12,
+        "share": 0.01,
+        "section": 0,
+        "w1": 426,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 460,
+        "via": "max-width",
+        "selector": "div.hero-block__item__wrapper > div.hero-block__item__text-adapter > div > p.hero-block__item__text",
+        "tier": 10,
+        "share": 0.01,
+        "section": 0,
+        "w1": 460,
+        "maxWidth": "460px"
+      },
+      {
+        "kind": "module",
+        "px": 460,
+        "via": "max-width",
+        "selector": "div.hero-block__item__wrapper > div.hero-block__item__text-adapter > div > p.hero-block__item__text",
+        "tier": 10,
+        "share": 0.01,
+        "section": 0,
+        "w1": 460,
+        "maxWidth": "460px"
+      },
+      {
+        "kind": "module",
+        "px": 1408,
+        "via": "max-width",
+        "selector": "#valtech-content > section.quote-block > div.quote-block__container",
+        "tier": 2,
+        "share": 0.01,
+        "section": 1,
+        "w1": 1208,
+        "maxWidth": "1408px"
+      },
+      {
+        "kind": "module",
+        "px": 1408,
+        "via": "max-width",
+        "selector": "#valtech-content > div.featured-case-study > div.featured-case-study__container",
+        "tier": 2,
+        "share": 0.14,
+        "section": 2,
+        "w1": 1208,
+        "maxWidth": "1408px"
+      },
+      {
+        "kind": "module",
+        "px": 454,
+        "via": "fixed",
+        "selector": "div.featured-case-study > div.featured-case-study__container > div > span",
+        "tier": 4,
+        "share": 0.01,
+        "section": 2,
+        "w1": 454,
+        "maxWidth": "90%"
+      },
+      {
+        "kind": "module",
+        "px": 311,
+        "via": "fixed",
+        "selector": "a.featured-case-study__item > div > div > h3",
+        "tier": 7,
+        "share": 0.01,
+        "section": 2,
+        "w1": 311,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 645,
+        "via": "fixed",
+        "selector": "div.featured-case-study__container > div.featured-case-study__items.featured-case-study__items--5 > a.featured-case-study__item > div",
+        "tier": 5,
+        "share": 0.02,
+        "section": 2,
+        "w1": 645,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 404,
+        "via": "fixed",
+        "selector": "a.featured-case-study__item > div > div > h3",
+        "tier": 7,
+        "share": 0.01,
+        "section": 2,
+        "w1": 404,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 268,
+        "via": "fixed",
+        "selector": "a.featured-case-study__item > div > div > h3",
+        "tier": 7,
+        "share": 0.01,
+        "section": 2,
+        "w1": 268,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 640,
+        "via": "fixed",
+        "selector": "div.featured-case-study__items.featured-case-study__items--5 > a.featured-case-study__item > div > span",
+        "tier": 6,
+        "share": 0.01,
+        "section": 2,
+        "w1": 640,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 502,
+        "via": "fixed",
+        "selector": "div.featured-case-study__container > div.featured-case-study__items.featured-case-study__items--5 > a.featured-case-study__item > div",
+        "tier": 5,
+        "share": 0.02,
+        "section": 2,
+        "w1": 502,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1408,
+        "via": "max-width",
+        "selector": "#valtech-content > section.homepage-cta-block > div.homepage-cta-block__container",
+        "tier": 2,
+        "share": 0.03,
+        "section": 3,
+        "w1": 1208,
+        "maxWidth": "1408px"
+      },
+      {
+        "kind": "module",
+        "px": 735,
+        "via": "fixed",
+        "selector": "section.homepage-cta-block > div.homepage-cta-block__container > div.homepage-cta-block__details > p.homepage-cta-block__description",
+        "tier": 4,
+        "share": 0.01,
+        "section": 3,
+        "w1": 735,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1408,
+        "via": "max-width",
+        "selector": "#valtech-content > div.partners-block.homepage-partners-block > div.partners-block__container",
+        "tier": 2,
+        "share": 0.07,
+        "section": 4,
+        "w1": 1208,
+        "maxWidth": "1408px"
+      },
+      {
+        "kind": "module",
+        "px": 1408,
+        "via": "max-width",
+        "selector": "#valtech-content > section.featured-verticals-block > div.wrapper > div",
+        "tier": 3,
+        "share": 0.57,
+        "section": 5,
+        "w1": 1208,
+        "maxWidth": "1408px"
+      },
+      {
+        "kind": "module",
+        "px": 460,
+        "via": "max-width",
+        "selector": "div > div > div > p",
+        "tier": 11,
+        "share": 0.01,
+        "section": 5,
+        "w1": 451,
+        "maxWidth": "460px"
+      },
+      {
+        "kind": "module",
+        "px": 460,
+        "via": "max-width",
+        "selector": "div > div > div > p",
+        "tier": 11,
+        "share": 0.01,
+        "section": 5,
+        "w1": 451,
+        "maxWidth": "460px"
+      },
+      {
+        "kind": "module",
+        "px": 1408,
+        "via": "max-width",
+        "selector": "#valtech-content > section.homepage-cta-block > div.homepage-cta-block__container",
+        "tier": 2,
+        "share": 0.03,
+        "section": 6,
+        "w1": 1208,
+        "maxWidth": "1408px"
+      },
+      {
+        "kind": "module",
+        "px": 578,
+        "via": "fixed",
+        "selector": "section.homepage-cta-block > div.homepage-cta-block__container > div.homepage-cta-block__details > p.homepage-cta-block__description",
+        "tier": 4,
+        "share": 0.01,
+        "section": 6,
+        "w1": 578,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 1408,
+        "via": "max-width",
+        "selector": "#contact-us-form > div.contact-us-form__container.js-accordion",
+        "tier": 4,
+        "share": 0,
+        "section": -1,
+        "w1": 1208,
+        "maxWidth": "1408px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#valtech-content > section.hero-block",
+        "px": 1408,
+        "capSelector": "#valtech-content > section.hero-block > div.hero-block__wrapper > div.hero-block__container"
+      },
+      {
+        "index": 1,
+        "selector": "#valtech-content > section.quote-block",
+        "px": 1408,
+        "capSelector": "#valtech-content > section.quote-block > div.quote-block__container"
+      },
+      {
+        "index": 2,
+        "selector": "#valtech-content > div.featured-case-study",
+        "px": 1408,
+        "capSelector": "#valtech-content > div.featured-case-study > div.featured-case-study__container"
+      },
+      {
+        "index": 3,
+        "selector": "#valtech-content > section.homepage-cta-block",
+        "px": 1408,
+        "capSelector": "#valtech-content > section.homepage-cta-block > div.homepage-cta-block__container"
+      },
+      {
+        "index": 4,
+        "selector": "#valtech-content > div.partners-block.homepage-partners-block",
+        "px": 1408,
+        "capSelector": "#valtech-content > div.partners-block.homepage-partners-block > div.partners-block__container"
+      },
+      {
+        "index": 5,
+        "selector": "#valtech-content > section.featured-verticals-block",
+        "px": 1408,
+        "capSelector": "#valtech-content > section.featured-verticals-block > div.wrapper > div"
+      },
+      {
+        "index": 6,
+        "selector": "#valtech-content > section.homepage-cta-block",
+        "px": 1408,
+        "capSelector": "#valtech-content > section.homepage-cta-block > div.homepage-cta-block__container"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1408,
+    "contentFrom": "module",
+    "maxCap": 1408,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 317
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 1408px = build 1408px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/7",
+        "detail": "1408px = 1408px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/7",
+        "detail": "1408px = 1408px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/7",
+        "detail": "1408px = 1408px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 4/7",
+        "detail": "1408px = 1408px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 5/7",
+        "detail": "1408px = 1408px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 6/7",
+        "detail": "1408px = 1408px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 7/7",
+        "detail": "1408px = 1408px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/index-2560/cap-iter.json"
+}

@@ -1,0 +1,177 @@
+/* pdf-view-block — main.css @303861–304943 (prototype css/whitepaper.css), values verbatim;
+   canon BEM -> kebab-case; #viewerContainer / .pdfViewer -> -scroller / -pages; the pdf.js
+   text-layer rules are lifted from pdfjs-dist web/pdf_viewer.css */
+
+.pdf-view-block {
+  margin-bottom: 1.25rem;
+}
+
+@media (width >= 58.75rem) {
+  .pdf-view-block {
+    margin-bottom: 7.5rem;
+  }
+}
+
+.pdf-view-block .pdf-view-block-container {
+  padding: 0 1.5rem;
+}
+
+@media (width >= 64rem) {
+  .pdf-view-block .pdf-view-block-container {
+    margin-right: 64px;
+  }
+}
+
+@media (width >= 120.001rem) {
+  .pdf-view-block .pdf-view-block-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 84vw;
+    padding: 0;
+  }
+}
+
+.pdf-view-block .pdf-view-block-inner {
+  display: flex;
+}
+
+@media (width >= 58.75rem) {
+  .pdf-view-block .pdf-view-block-inner::before {
+    background-color: #ff5959;
+    content: "";
+    display: flex;
+    flex-shrink: 0;
+    height: 2px;
+    margin-top: .3125rem;
+    width: 2vw;
+  }
+}
+
+.pdf-view-block .pdf-view-block-hgroup {
+  padding: 0 6vw;
+}
+
+@media (width >= 58.75rem) {
+  .pdf-view-block .pdf-view-block-hgroup {
+    margin-left: 2.1875rem;
+    max-width: 800px;
+    padding: 0;
+  }
+}
+
+.pdf-view-block .pdf-view-block-viewer {
+  --viewer-h: 12.5rem;
+
+  background-color: #ccc;
+  height: var(--viewer-h);
+  position: relative;
+}
+
+@media (width >= 33.75rem) {
+  .pdf-view-block .pdf-view-block-viewer {
+    --viewer-h: 25rem;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .pdf-view-block .pdf-view-block-viewer {
+    --viewer-h: 37.5rem;
+  }
+}
+
+.pdf-view-block .pdf-view-block-scroller {
+  height: 100%;
+  overflow: auto;
+  position: absolute;
+  width: 100%;
+}
+
+/* pdf.js "auto" zoom: min(fit width − 40 px, fit height), pages 5 px apart (the first
+   page's top margin is scrolled away by pdf.js on load) */
+.pdf-view-block .page {
+  aspect-ratio: var(--page-ratio, 1057 / 594);
+  background-color: #fff;
+  margin: 0 auto .3125rem;
+  overflow: hidden;
+  position: relative;
+  width: min(calc(100% - 40px), calc((var(--viewer-h) - 6px) * var(--page-aspect, 1.7795)));
+}
+
+.pdf-view-block .pdf-view-block-canvas {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.pdf-view-block .pdf-view-block-text-layer {
+  forced-color-adjust: none;
+  inset: 0;
+  line-height: 1;
+  overflow: clip;
+  position: absolute;
+  text-align: initial;
+  text-size-adjust: none;
+  transform-origin: 0 0;
+  z-index: 0;
+}
+
+.pdf-view-block .pdf-view-block-text-layer :is(span, br) {
+  color: transparent;
+  cursor: text;
+  position: absolute;
+  transform-origin: 0 0;
+  white-space: pre;
+}
+
+.pdf-view-block .pdf-view-block-text-layer span[class~="markedContent"] {
+  height: 0;
+  top: 0;
+}
+
+.pdf-view-block .pdf-view-block-text-layer ::selection {
+  background: rgb(0 0 255 / 25%);
+}
+
+.pdf-view-block .pdf-view-block-fallback {
+  display: none;
+}
+
+.pdf-view-block .pdf-view-block-viewer.is-failed .pdf-view-block-fallback {
+  display: block;
+  padding: 1.5rem;
+}
+
+/* whitepaper cluster: optional pretitle heading (source h3.pdf-view-block__hgroup__pretitle,
+   main.css .pdf-view-block__hgroup__pretitle) and the `no-file` variant (source block
+   without a data-url: the hgroup alone, no viewer) */
+.pdf-view-block .pdf-view-block-hgroup :is(h1, h2, h3, h4, h5, h6) {
+  font-family: Soehne, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0 0 1.5rem; /* source global h3, h4 */
+  text-transform: uppercase;
+}
+
+.pdf-view-block.no-file .pdf-view-block-viewer {
+  display: none;
+}
+
+/* pdf.js link annotation layer (pdf_viewer.css .annotationLayer .linkAnnotation) */
+.pdf-view-block .pdf-view-block-annotation-layer {
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+  z-index: 2;
+}
+
+.pdf-view-block .pdf-view-block-link-annotation {
+  position: absolute;
+}
+
+.pdf-view-block .pdf-view-block-link-annotation a {
+  display: block;
+  height: 100%;
+  pointer-events: auto;
+  width: 100%;
+}

@@ -1,0 +1,61 @@
+{
+  "type": "listing",
+  "slug": "es-es-blog",
+  "liveUrl": "https://www.valtech.com/es-es/blog/",
+  "prototype": "stardust/prototypes/es-es-blog-proposed.html",
+  "css": ["stardust/prototypes/css/canon.css", "stardust/prototypes/css/listing.css"],
+  "js": ["stardust/prototypes/js/chrome.js", "stardust/prototypes/js/listing.js"],
+  "regime": "prototype",
+  "iterations": { "1440": 4, "360": 4, "note": "4 --full rounds per width: iter1 = map, iter2/iter3 = fixes (iter1 build ran short on unsized lazy card images; iter2 regressed the filter labels by dropping nowrap), iter4 = confirmation after the interaction-parity changes. One round over the 3-iteration cap; pixel and Δh were already 0.01%/0 at 1440 from iter3." },
+  "gates": {
+    "1440": { "pixel": "0.01%", "heightDelta": 0, "contentDiff": "0 🔴 · 0 nothing-lost 🟡", "visualDiff": "0 flags", "clip": 0, "overflow": "ok", "chromeParity": "✓", "chromeCrops": { "header": "100.00% (y0+65)", "footer": "100.00% (y4954+318)" }, "units": "PASS (unit-geometry --force: 66 within, 4 hidden = advisory caret svg family)", "evidence": "stardust/replica/gates/es-es-blog-1440/verdict-iter4.json" },
+    "360": { "pixel": "0.01%", "heightDelta": 0, "contentDiff": "0 🔴 · 0 nothing-lost 🟡", "visualDiff": "0 flags", "clip": "10 (justified residual — identical on the live page, see residuals)", "overflow": "ok", "chromeParity": "✓", "chromeCrops": { "header": "100.00% (y0+67)", "footer": "100.00% (y6539+764)" }, "units": "PASS (advisory deltas)", "evidence": "stardust/replica/gates/es-es-blog-360/verdict-iter4.json" }
+  },
+  "capProbe": "PASS at 2560 — 0 of 4 rows failed (stardust/replica/gates/es-es-blog-2560/cap-iter.json)",
+  "residuals": [
+    {
+      "zone": "insight items — p.ii__excerpt at 360",
+      "cause": "source-parity (instrument reading of -webkit-line-clamp)",
+      "evidence": "clip-iter4 (build) reports TEXT CLIPPED ×10 'cut 21px' on the 5-line-clamped excerpts; clip-probe run on the LIVE page at 360 (run-bg job es-es-blog-clip-live360) reports the identical ×10 findings on the source's own .ii__excerpt (overflow:hidden; display:-webkit-box; -webkit-line-clamp:5 — lifted verbatim from insights_overview.js). At 1440 the same rule is read as advisory 'clamped 9'.",
+      "permanent": true,
+      "note": "the clamp is the designed state (ellipsis after 5 lines, both sides pixel-identical, 0.01%)"
+    },
+    {
+      "zone": "result count '10 resultados de un total de 997'",
+      "cause": "nondeterministic",
+      "evidence": "API-backed total (data-total on the live node); frozen at the captured value",
+      "permanent": true,
+      "note": "will drift as posts are published; delivery must render it from the query index"
+    }
+  ],
+  "captureState": [
+    { "zone": "insights overview (React island InsightsOverview: filters, count, 10 items, load more)", "gate": "replicated as captured — first page, no filter selected, 10 of 997, cards in the captured order", "restoreAtDelivery": "client-rendered listing: 4 facet drop-downs (industry/service/platform/about-us) filter the result set, 'Cargar más' appends the next page of 10; source data comes from the site's insights API — at delivery a query-index-backed block", "implementedInPrototype": "drop-down open/close + sticky band only; filtering and load-more are data features (dynamics), not prototyped" },
+    { "zone": "featured insights masthead (3 posts)", "gate": "captured editorial selection", "restoreAtDelivery": "authored (or newest-3 from the index) — the live order is editorial, not date-sorted", "implementedInPrototype": true }
+  ],
+  "liftNotes": [
+    "breadcrumbs, masthead-insights, u-grid, content-fluid-container values lifted from main.css; the three `@media (min-width:)` insight-header rules are invalid on the source (empty SCSS variable) and never apply — not ported",
+    "React island values lifted from the styled-components templates in /public/dist/js/insights_overview.js (filter band #171717, select label responsiveFont(3vw,20px,28px) nowrap/ellipsis, ::after 3px coral underline → 1px white on hover/open, popup min-width 17.5rem top 50px left -10px, sticky rules) cross-checked against computed styles at 1440/360 and a 599–1200 width sweep (stardust/.work/replica/es-es-blog/live-measure*.json)",
+    "label overflow: overflow-x:clip + overflow-y:visible instead of the source's overflow:hidden (same paint; the ValtechNeue ink box is 3px taller than the 1.278 line box and clip-probe read it as clipped text)",
+    "desktop switch for the filter band width / select margins / load-more size observed between 940 and 1023 px → authored at 62.5rem; sticky band at the source's own (max-width: 1023px) cut-off (63.9375rem)",
+    "images: 1x renditions rehosted under media/es-es-blog/ (masthead 940x530 portrait + 1600x720 landscape <source>s, cards 580x384 = the img srcset the source selects at both widths); width/height attributes added so the lazy cards reserve their box (stitched capture otherwise ran short)",
+    "Spanish chrome: nav labels/overview list (Perspectivas + Blog active), location chooser (es names, Asia Pacífico = Singapur only), side tab 'Contáctanos', contact band copy + Marketo form 7474 (Pais, teléfono, ¿En qué podemos ayudarte? rows), footer links + single CDP-less stamp, extra degenerate site-slope--left svg",
+    "icons not in the frozen canon sprite (icon-carret-down, icon-linkedin) served from media/es-es-blog/listing-sprite.svg pending the canon request",
+    "units.json declared: insight-item ×3, masthead-insights-secondary ×2, insights-filter-select ×4 (advisory — the source caret svg is 10×150 clipped by its 10×10 box on both sides)"
+  ],
+  "motion": {
+    "observed": ["header ready-to-fixed-menu / fixed-menu on scroll (canon)", "filter band .is-filter-sticky ≥1024 (fixed under the header, translate by header height on scroll-up, 300ms ease-in; label/caret font 18px)", "filter drop-down click (styled-components open-state class swap: popup visible, label white, underline 1px white, caret rotateZ(-180deg))", "Marketo form hydration classes + fades"],
+    "implemented": ["sticky filter band (js/listing.js, source scroll logic incl. 1023px cut-off)", "drop-down open/close (.is-open, one at a time, outside click / Esc / close button)", "hover: select label white + 1px underline, insight item title underline ≥58.75rem (source CSS; the hover sampler measured no box diff on either side)"],
+    "dead": ["Marketo hydration classes, 1s form fade, dummy skeleton .played/.hide (static form in post-load state, as landing)", "styled-components hashed class swaps dSTHGb/dhrJuF (mirrored as .is-open)", "load-more / masthead hover: no measured change"],
+    "compare": "motion-compare: 7 parity (is-filter-sticky, fixed-menu, ready-to-fixed-menu, transform, color, border-top) · missing = Marketo hydration + font-size (fixed after the compare: caret font-size now transitions under .is-filter-sticky) · pixel re-run iter4 = 0.01% / 0.01%"
+  },
+  "blocks": [
+    { "section": "nav.site-nav + side tab + modals", "block": "header (fragment)", "variant": "es" },
+    { "section": "div.site-breadcrumbs", "block": "breadcrumbs", "variant": "default (auto from path)" },
+    { "section": "section.insight-header", "block": "featured-insights", "variant": "1 primary + 2 secondary" },
+    { "section": "react InsightsOverview (filters + count + grid + load more)", "block": "insights-listing", "variant": "blog (facets: industry, service, platform, about-us; page size 10)" },
+    { "section": "div.contact-us-form", "block": "contact-form (marketo-form)", "variant": "band es (form 7474)" },
+    { "section": "footer.site-footer", "block": "footer (fragment)", "variant": "es" }
+  ],
+  "canon": { "owner": false, "frozen": true, "doc": "stardust/prototypes/css/CANON.md", "requestsFiled": 2 },
+  "verdict": "residual"
+}

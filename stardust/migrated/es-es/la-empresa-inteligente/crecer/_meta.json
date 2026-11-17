@@ -1,0 +1,255 @@
+{
+  "slug": "es-es-la-empresa-inteligente-crecer",
+  "type": "microsite",
+  "renderBranch": "A'",
+  "template": "es-es-la-empresa-inteligente-operar",
+  "modules": [
+    "hub-nav",
+    "hero-block",
+    "case-rte",
+    "side-by-side",
+    "related-cases",
+    "featured-verticals-block",
+    "podcast-speakers",
+    "registration-form"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "section",
+    "hero-block",
+    "section",
+    "section",
+    "section",
+    "section",
+    "section",
+    "podcast-speakers",
+    "registration-form",
+    "thank-you-popup",
+    "site-footer",
+    "site-slope",
+    "site-slope",
+    "site-slope",
+    "modal",
+    "modal",
+    "modal",
+    "modal"
+  ],
+  "canonShas": {
+    "header": "73cff066609b",
+    "footer": "d3f0cc1ef9d5",
+    "css": "8876c0e8d8d1"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "IA generativa para la experiencia de cliente | Valtech",
+    "description": "La IA generativa impulsa experiencias dinámicas que se adaptan en tiempo real para aumentar compromiso, conversión e ingresos.",
+    "canonical": "https://www.valtech.com/es-es/la-empresa-inteligente/crecer/",
+    "lang": "es"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "IA generativa para la experiencia de cliente | Valtech",
+    "description": "La IA generativa impulsa experiencias dinámicas que se adaptan en tiempo real para aumentar compromiso, conversión e ingresos.",
+    "url": "https://www.valtech.com/es-es/la-empresa-inteligente/crecer/"
+  },
+  "migratedAt": "2026-11-13T22:31:28Z",
+  "designMdSha": "9dc5e8267a4e",
+  "designJsonSha": "ec9a36425b28",
+  "sourceCurrentSha": "f45e647efb1e",
+  "sourceProposedSha": "cccd34f0122e",
+  "fidelityTier": "sibling",
+  "archetypeSource": "es-es-la-empresa-inteligente-operar",
+  "archetypeSha": "051a263e9f39",
+  "variants": [
+    "hero-block.ie-hub case-rte.dark featured-verticals-block.ie-hub podcast-speakers.ie-hub"
+  ],
+  "gatesPassed": [
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "verbatim sibling encode of stardust/current/pages/es-es-la-empresa-inteligente-crecer.html into content/es-es/la-empresa-inteligente/crecer.html (archetype es-es-la-empresa-inteligente-operar shape; encoder stardust/.work/cluster-microsite/build-content.py); published-origin gate 1440 1.26 % Δh 0 / 360 0.26 % Δh 0, content MISSING 0 HIDDEN 0 both widths"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 11,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/es-es/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/servicios/elevacion-de-la-experiencia/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/aceleracion-comercio/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/transformacion-empresarial/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/servicios-creativos-de-marketing-performance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/revolucion-del-dato-y-ia/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/carrera/ofertas-de-empleo/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/trabajar-en-valtech/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/diversidad-e-inclusion/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/la-empresa-inteligente/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/oficinas/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/contacto/keep-in-touch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de-de/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-dk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr-fr/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nl-nl/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-gb/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sv-se/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ca/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-ar/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt-br/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-mx/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-sg/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/la-empresa-inteligente/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/la-empresa-inteligente/liderar/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/work/valet/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/la-empresa-inteligente/modelo-operativo/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/la-empresa-inteligente/modelo-operativo/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/servicios/revolucion-del-dato-y-ia/valtech-one/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/revolucion-del-dato-y-ia/valtech-one/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/revolucion-del-dato-y-ia/ia-generativa/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/revolucion-del-dato-y-ia/ia-generativa/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/elevacion-de-la-experiencia/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/elevacion-de-la-experiencia/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/revolucion-del-dato-y-ia/valtech-content-os/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/revolucion-del-dato-y-ia/valtech-content-os/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/oficinas/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/carrera/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/accesibilidad/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/mantente-en-contacto/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "es-es/la-empresa-inteligente/crecer/index.html",
+  "outputPathDefault": null,
+  "sidecar": "es-es/la-empresa-inteligente/crecer/_meta.json",
+  "driverVersion": "1"
+}

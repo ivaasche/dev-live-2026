@@ -1,0 +1,169 @@
+/* stylelint-disable no-descending-specificity */
+
+/* attributed-quote-block — source section.attributed-quote-block.section (main.css attributed-quote-block
+   rules + the source .section / .section__container.centralized utilities it carries; values verbatim) */
+
+.attributed-quote-block {
+  padding: clamp(5rem, 5rem + 28 * (100vw - 52.125rem) / 446, 6.75rem) 0;
+}
+
+@media (width >= 80rem) {
+  .attributed-quote-block {
+    padding: clamp(6.75rem, 6.75rem + 12 * (100vw - 80rem) / 160, 7.5rem) 0;
+  }
+}
+
+@media (width >= 90rem) {
+  .attributed-quote-block {
+    padding: clamp(7.5rem, 7.5rem + 24 * (100vw - 90rem) / 288, 9rem) 0;
+  }
+}
+
+@media (width >= 108rem) {
+  .attributed-quote-block {
+    padding: clamp(9rem, 9rem + 16 * (100vw - 108rem) / 192, 10rem) 0;
+  }
+}
+
+@media (width >= 64rem) {
+  .attributed-quote-block {
+    margin-right: 64px;
+  }
+}
+
+.attributed-quote-block .section-container {
+  padding: 0 1rem;
+}
+
+@media (width >= 39rem) {
+  .attributed-quote-block .section-container {
+    padding: 0 1.5rem;
+  }
+}
+
+.attributed-quote-block .section-container.centralized {
+  margin: 0 auto;
+}
+
+@media (width >= 52.125rem) {
+  .attributed-quote-block .section-container.centralized {
+    max-width: 77.5%;
+  }
+}
+
+@media (width >= 80rem) {
+  .attributed-quote-block .section-container.centralized {
+    max-width: 79.5%;
+  }
+}
+
+@media (width >= 90rem) {
+  .attributed-quote-block .section-container.centralized {
+    max-width: 78.5%;
+  }
+}
+
+@media (width >= 108rem) {
+  .attributed-quote-block .section-container.centralized {
+    max-width: 77%;
+  }
+}
+
+@media (width >= 120rem) {
+  .attributed-quote-block .section-container.centralized {
+    max-width: 1440px;
+  }
+}
+
+@media (width >= 39rem) {
+  .attributed-quote-block .section-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.attributed-quote-block .attributed-quote-block-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (width >= 24.375rem) {
+  .attributed-quote-block .attributed-quote-block-container {
+    width: clamp(18.5rem,18.5rem + 24*(100vw - 24.375rem)/40,20rem);
+  }
+}
+
+@media (width >= 39rem) {
+  .attributed-quote-block .attributed-quote-block-container {
+    width: clamp(26.0625rem,26.0625rem + 298*(100vw - 39rem)/656,44.6875rem);
+  }
+}
+
+@media (width >= 80rem) {
+  .attributed-quote-block .attributed-quote-block-container {
+    width: clamp(44.6875rem,44.6875rem + 279*(100vw - 80rem)/448,62.125rem);
+  }
+}
+
+@media (width >= 108rem) {
+  .attributed-quote-block .attributed-quote-block-container {
+    width: 62.1875rem;
+  }
+}
+
+.attributed-quote-block .attributed-quote-block-icon {
+  align-self: start;
+  margin-bottom: clamp(.75rem,.75rem + 14*(100vw - 52.125rem)/446,1.625rem);
+}
+
+.attributed-quote-block .attributed-quote-block-icon svg {
+  height: auto;
+  width: clamp(1.5rem,1.5rem + 8*(100vw - 52.125rem)/446,2rem);
+}
+
+.attributed-quote-block .attributed-quote-block-author {
+  margin-bottom: 0;
+}
+
+.attributed-quote-block blockquote {
+  border: 0;
+  font-family: ValtechNeue,sans-serif;
+  font-style: normal;
+  margin: 0 0 1rem;
+  padding: 0;
+  text-align: left;
+  white-space: normal;
+}
+
+.attributed-quote-block blockquote::after,
+.attributed-quote-block blockquote::before {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 0;
+}
+
+.attributed-quote-block blockquote p,
+.attributed-quote-block blockquote span {
+  font-size: clamp(1rem,1rem + 16*(100vw - 39rem)/656,2rem);
+  font-weight: 350;
+  line-height: 1.2;
+  margin: 0;
+  text-wrap: pretty;
+}
+
+.attributed-quote-block cite {
+  font-size: clamp(1rem,1rem + 8*(100vw - 39rem)/656,1.5rem);
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.attributed-quote-block .attributed-quote-block-icon img {
+  display: block;
+  height: auto;
+  width: clamp(1.5rem,1.5rem + 8*(100vw - 52.125rem)/446,2rem);
+}

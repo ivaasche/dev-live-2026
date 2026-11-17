@@ -1,0 +1,194 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-14T08:31:48.701Z",
+  "tol": 4,
+  "n": 2,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/es-es/blog/embedding-ai-in-government-case-management/",
+  "at": "2026-11-14T08:31:24.564Z",
+  "docH": 8048
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/es-es/blog/embedding-ai-in-government-case-management",
+  "at": "2026-11-14T08:31:48.518Z",
+  "docH": 8048
+ },
+ "results": [
+  {
+   "sel": ".author-details=.author-details-item",
+   "family": null,
+   "required": true,
+   "originMatches": 1,
+   "edsMatches": 1,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "main#valtech-content > article.main-article > div.author-details"
+     },
+     "eds": {
+      "path": "div.author-details-wrapper > div.author-details.block > div.author-details-item"
+     },
+     "rows": [
+      {
+       "key": "image:img#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 238,
+        "y": 0,
+        "w": 100,
+        "h": 100
+       },
+       "eds": {
+        "x": 238,
+        "y": 0,
+        "w": 100,
+        "h": 100,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:karl hampson",
+       "role": "text",
+       "text": "karl hampson",
+       "edsText": "karl hampson",
+       "byPosition": false,
+       "origin": {
+        "x": 147,
+        "y": 62,
+        "w": 71,
+        "h": 14
+       },
+       "eds": {
+        "x": 147,
+        "y": 62,
+        "w": 71,
+        "h": 14,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/0/700",
+        "eds": "11/0/700"
+       }
+      },
+      {
+       "key": "text:cto, valtech",
+       "role": "text",
+       "text": "cto, valtech",
+       "edsText": "cto, valtech",
+       "byPosition": false,
+       "origin": {
+        "x": 147,
+        "y": 78,
+        "w": 71,
+        "h": 14
+       },
+       "eds": {
+        "x": 147,
+        "y": 78,
+        "w": 71,
+        "h": 14,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/0/700",
+        "eds": "11/0/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 238,
+       "y": 83,
+       "w": 100,
+       "h": 21,
+       "absY": 628,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 545,
+       "w": 360,
+       "h": 104
+      },
+      "eds": {
+       "x": 0,
+       "y": 545,
+       "w": 360,
+       "h": 104
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 1,
+  "within": 3,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

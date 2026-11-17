@@ -1,0 +1,620 @@
+{
+  "slug": "es-es-content-hub",
+  "type": "listing",
+  "renderBranch": "A'",
+  "template": "es-es-blog",
+  "modules": [
+    "masthead-services",
+    "insights-filter"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "site-breadcrumbs",
+    "masthead-services",
+    "react",
+    "site-footer",
+    "site-slope",
+    "site-slope",
+    "site-slope",
+    "modal",
+    "modal",
+    "modal",
+    "modal"
+  ],
+  "canonShas": {
+    "header": "73cff066609b",
+    "footer": "d3f0cc1ef9d5",
+    "css": "8876c0e8d8d1"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Centro de contenidos | Valtech",
+    "description": "Inspírate con nuestros clientes y expertos. Descubre nuestros últimos proyectos e informes sobre el mundo digital.",
+    "canonical": "https://www.valtech.com/es-es/content-hub/",
+    "lang": "es"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Centro de contenidos | Valtech",
+    "description": "Inspírate con nuestros clientes y expertos. Descubre nuestros últimos proyectos e informes sobre el mundo digital.",
+    "url": "https://www.valtech.com/es-es/content-hub/"
+  },
+  "migratedAt": "2026-11-13T18:29:59Z",
+  "designMdSha": "9dc5e8267a4e",
+  "designJsonSha": "ec9a36425b28",
+  "sourceCurrentSha": "adbfb27596b9",
+  "sourceProposedSha": "f9ac1d1e1b23",
+  "fidelityTier": "sibling",
+  "archetypeSource": "es-es-blog",
+  "archetypeSha": "f3e7d7ac7d49",
+  "variants": [
+    "insights-filter.hub"
+  ],
+  "gatesPassed": [
+    "content-fidelity",
+    "variance-probe"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "published-origin gate 2026-11-13 confirmation run: 1440/360 pixel% 6.86 Δh-16 / 1.04 Δh0; clipped within allowance; MISSING 0",
+    "variance-probe": "sibling-variance.mjs vs es-es-blog @1440 exit 2 (stardust/.work/cluster-listing/variance.json); deltas budgeted as insights-filter variants + source-module blocks (eds-conversion-log ## listing cluster)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 11,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/industrias/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/nuestros-partners/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/servicios/elevacion-de-la-experiencia/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/aceleracion-comercio/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/transformacion-empresarial/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/servicios-creativos-de-marketing-performance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/revolucion-del-dato-y-ia/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/carrera/ofertas-de-empleo/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/trabajar-en-valtech/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/diversidad-e-inclusion/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/la-empresa-inteligente/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/oficinas/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/contacto/keep-in-touch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de-de/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-dk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/fr-fr/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nl-nl/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-gb/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sv-se/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ca/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-ar/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt-br/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-mx/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-sg/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/whitepapers/el-ciclo-de-relevancia-de-las-marcas/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/noticias/valtech-and-bayer-win-a-2026-sitecore-digital-impact-award/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/salesforce-world-tour-amsterdam-2026/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/ai-bar-beyond-predictable-ai-stockholm/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/roger-lay-managing-director-dach/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/el-geo-como-la-nueva-frontera-de-la-visibilidad-digital/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/casos/operador-mundial-de-cruceros/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/ia-transforma-busquedas-y-webs-de-marca/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/eventos/nrf-kickoff-at-printemps/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/casos/ford/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/lunendonk-study-2026/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/guia-para-la-empresa-inteligente/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/casos/grupo-volkswagen/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/casos/maison-francesa-de-lujo/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/casos/marketplace-de-lujo/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/b2b-online-eu-2026/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/six-years-of-creativity-curiosity-and-gen-ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/sitecore-symposium-2026/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/casos/lider-en-regalos/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/whitepapers/la-empresa-modular-como-paradigma/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/whitepapers/el-giro-hacia-la-ia/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/blog/the-agent-factory/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/whitepapers/informe-tendencias-cliente-movilidad-2026/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/whitepapers/guia-estrategica-salud-digital-optimizely-2026/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/whitepapers/fidelizacion-digital-sector-sanitario/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/whitepapers/transformar-los-servicios-financieros-la-inteligencia-a-gran-escala/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/eventos/b2b-online-atlanta-2026/perfect-data-can-wait/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/b2b-online-atlanta-2026/state-farm-arena-commercetools/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/b2b-online-atlanta-2026/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/perfect-data-can-wait-progress-cant/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/whitepapers/la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/eventos/stop-making-customers-search-closing-the-expectation-gap-dubai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/tech-for-retail-2026/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/casos/eton-shirts-ticket-to-buy-valtech/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/whitepapers/experiencias-inteligentes/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/blog/presentamos-el-muro-de-datos-b2b/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/eventos/hcic-2026/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/takeaways-from-the-intelligent-enterprise-live-in-utrecht/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/casos/staubli/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/mind-the-gap/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/unlock-innovation-breakfast/ai-search-zurich-november-2026/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/takeaways-from-the-intelligent-enterprise-live-in-london/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/the-intelligent-enterprise-live-in-paris/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/unlock-innovation-breakfast/ai-search-munich-october-2026/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/valtech-wins-red-dot-design-award-ericsson-econ/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/valtech-agent-factory-launch-dmexco-2026/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/adobe-summit-paris-2026/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/geneva-intelligent-enterprise-live/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/opening-the-door-owning-the-room/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/executive-roundtable-with-microsoft/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/bridge-the-divide-from-pilot-to-production/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/valtech-google-cloud-gemini-for-industries-launch-partner/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/moneylive-north-america-2026/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/asi-se-creo-valtech-concierge/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/blog/estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/whitepapers/infome-la-era-del-comercio-conversacional-2026/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/whitepapers/la-era-agentica-tendencias-de-la-ia-empresarial-2026/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/eventos/opticon-new-york-2026/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/retail-maturity-assessment/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/whitepapers/retail-en-la-encrucijada-2026/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/retail-en-la-encrucijada-2026/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/blog/agentic-ai-challenges-enterprise/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/agentic-ai-study/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/whitepapers/la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/blog/como-marcas-locales-escalan-de-forma-diferente/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/blog/your-content-supply-chain-is-broken/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/ai-first-product-operating-model/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/valtech-conversion-engine/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/dmexco-2026/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/geo-quick-start/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/seo-had-rank-geo-has-frequency/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/content-costs-rising-ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/learning-across-cultures-yovadee-nagapa-chetty/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/unlock-innovation-breakfast/unlock-innovation-breakfast-copenhagen-content-orchestration-with-ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/utrecht-intelligent-enterprise-live/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/stockholm-intelligent-enterprise-live/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/copenhagen-intelligent-enterprise-live/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/london-intelligent-enterprise-live/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/meet-the-expert-industrials/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/beyond-the-pilot-transperfect/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/profeel-selects-valtech-to-support-global-brand-expansion/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/the-conversion-engine/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/valtech-rfsu-condom-call-shortlisted-at-new-york-festivals-advertising-awards/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/hubforum-paris-2026-les-enseignements-cles-de-levenement/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/the-real-risk-of-ai-shopping/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/valtech-rfsu-clio-health-awards-wins/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/from-clicks-to-agents-webinar-recording/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/ai-agent-seo-accessibility-geo/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/revolucion-del-dato-y-ia/eleva-la-experiencia-de-usuario-con-valtech-concierge/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/revolucion-del-dato-y-ia/optimizacion-y-personalizacion/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/the-craft-of-inclusion-empathy-as-the-catalyst-for-innovation/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/is-your-adobe-investment-delivering/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/embedding-ai-in-government-case-management/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/servicios/revolucion-del-dato-y-ia/valtech-content-os/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/people-stories-working-dads/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/google-cloud-summit-london-2026/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/future-of-physical-retail-stores/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/revolucion-del-dato-y-ia/fundamentos-de-datos/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/oficinas/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/carrera/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/accesibilidad/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/mantente-en-contacto/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "es-es/content-hub/index.html",
+  "outputPathDefault": null,
+  "sidecar": "es-es/content-hub/_meta.json",
+  "driverVersion": "1"
+}

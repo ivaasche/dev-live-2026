@@ -1,0 +1,104 @@
+[live-session] waiting to pace live navigations to www.valtech.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 809 ms
+unit-geometry @ 360px, tol 4px — https://www.valtech.com/es-es/blog/ vs http://localhost:8791/es-es-blog-proposed.html
+unit 1 of insight-item (required) a[data-component-name="insight-item"]=.insight-item: origin 24,1556 312×513 vs served 24,1556 312×513 → Δx 0 Δy 0 Δw 0 Δh 0; 14 elements: 14 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:picture#1" | 0,0 312×207 | 0,0 312×207 | 0 | 0 | 0 | 0 | ✓ |
+| image "el geo como nueva frontera de la vis" | 0,0 312×207 | 0,0 312×207 | 0 | 0 | 0 | 0 | ✓ |
+| heading "el geo como nueva frontera de la vis" | 0,237 312×38 | 0,237 312×38 | 0 | 0 | 0 | 0 | ✓ |
+| text "durante décadas, los equipos de mark" | 0,299 312×112 | 0,299 312×112 | 0 | 0 | 0 | 0 | ✓ |
+| text "noviembre 10, 2026" | 0,435 130×18 | 0,435 130×18 | 0 | 0 | 0 | 0 | ✓ |
+| text "sector público" | 0,435 270×38 | 0,435 270×38 | 0 | 0 | 0 | 0 | ✓ |
+| text "movilidad" | 130,435 67×18 | 130,435 67×18 | 0 | 0 | 0 | 0 | ✓ |
+| text "lujo" | 196,435 32×18 | 196,435 32×18 | 0 | 0 | 0 | 0 | ✓ |
+| text "bienes de gran consumo" | 0,454 283×38 | 0,454 283×38 | 0 | 0 | 0 | 0 | ✓ |
+| text "servicios financieros" | 52,454 137×18 | 52,454 137×18 | 0 | 0 | 0 | 0 | ✓ |
+| text "viajes y hostelería" | 65,474 121×18 | 65,474 121×18 | 0 | 0 | 0 | 0 | ✓ |
+| text "salud" | 186,474 41×18 | 186,474 41×18 | 0 | 0 | 0 | 0 | ✓ |
+| text "retail" | 227,474 38×18 | 227,474 38×18 | 0 | 0 | 0 | 0 | ✓ |
+| text "revolución del dato y la ia" | 0,494 163×18 | 0,494 163×18 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of insight-item (required) a[data-component-name="insight-item"]=.insight-item: origin 24,2089 312×454 vs served 24,2089 312×454 → Δx 0 Δy 0 Δw 0 Δh 0; 6 elements: 6 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:picture#1" | 0,0 312×207 | 0,0 312×207 | 0 | 0 | 0 | 0 | ✓ |
+| image "cómo la ia transforma las búsquedas " | 0,0 312×207 | 0,0 312×207 | 0 | 0 | 0 | 0 | ✓ |
+| heading "cómo la ia transforma las búsquedas " | 0,237 312×38 | 0,237 312×38 | 0 | 0 | 0 | 0 | ✓ |
+| text "la brecha de expectativas es cada ve" | 0,299 312×112 | 0,299 312×112 | 0 | 0 | 0 | 0 | ✓ |
+| text "noviembre 10, 2026" | 0,435 130×18 | 0,435 130×18 | 0 | 0 | 0 | 0 | ✓ |
+| text "revolución del dato y la ia" | 130,435 163×18 | 130,435 163×18 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of insight-item (required) a[data-component-name="insight-item"]=.insight-item: origin 24,2563 312×435 vs served 24,2563 312×435 → Δx 0 Δy 0 Δw 0 Δh 0; 6 elements: 6 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:picture#1" | 0,0 312×207 | 0,0 312×207 | 0 | 0 | 0 | 0 | ✓ |
+| image "presentamos el muro de datos b2b" | 0,0 312×207 | 0,0 312×207 | 0 | 0 | 0 | 0 | ✓ |
+| heading "presentamos el muro de datos b2b" | 0,237 312×19 | 0,237 312×19 | 0 | 0 | 0 | 0 | ✓ |
+| text "a las empresas b2b no les falta tecn" | 0,280 312×112 | 0,280 312×112 | 0 | 0 | 0 | 0 | ✓ |
+| text "octubre 13, 2026" | 0,416 111×18 | 0,416 111×18 | 0 | 0 | 0 | 0 | ✓ |
+| text "revolución del dato y la ia" | 111,416 163×18 | 111,416 163×18 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of insight-item (required) a[data-component-name="insight-item"]=.insight-item: origin 24,3019 312×454 vs served 24,3019 312×454 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:picture#1" | 0,0 312×207 | 0,0 312×207 | 0 | 0 | 0 | 0 | ✓ |
+| image "the intelligent enterprise in utrech" | 0,0 312×207 | 0,0 312×207 | 0 | 0 | 0 | 0 | ✓ |
+| heading "the intelligent enterprise in utrech" | 0,237 312×38 | 0,237 312×38 | 0 | 0 | 0 | 0 | ✓ |
+| text "boards demand acceleration. investor" | 0,299 312×112 | 0,299 312×112 | 0 | 0 | 0 | 0 | ✓ |
+| text "octubre 9, 2026" | 0,435 99×18 | 0,435 99×18 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of masthead-insights-secondary (required) .insight-secondary .masthead-insights__container=.insight-secondary .masthead-insights__container: origin 0,517 360×380 vs served 0,517 360×380 → Δx 0 Δy 0 Δw 0 Δh 0; 14 elements: 14 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img#1" | 0,0 360×203 | 0,0 360×203 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:picture#1" | 0,186 360×21 | 0,186 360×21 | 0 | 0 | 0 | 0 | ✓ |
+| heading "introducing the agent factory for ag" | 22,230 317×43 | 22,230 317×43 | 0 | 0 | 0 | 0 | ✓ |
+| text "octubre 27, 2026" | 22,314 88×14 | 22,314 88×14 | 0 | 0 | 0 | 0 | ✓ |
+| text "manufacturing" | 110,314 76×14 | 110,314 76×14 | 0 | 0 | 0 | 0 | ✓ |
+| text "mobility" | 186,314 43×14 | 186,314 43×14 | 0 | 0 | 0 | 0 | ✓ |
+| text "retail" | 229,314 32×14 | 229,314 32×14 | 0 | 0 | 0 | 0 | ✓ |
+| text "luxury" | 261,314 37×14 | 261,314 37×14 | 0 | 0 | 0 | 0 | ✓ |
+| text "health" | 299,314 35×14 | 299,314 35×14 | 0 | 0 | 0 | 0 | ✓ |
+| text "financial services" | 22,329 92×14 | 22,329 92×14 | 0 | 0 | 0 | 0 | ✓ |
+| text "public sector" | 114,329 69×14 | 114,329 69×14 | 0 | 0 | 0 | 0 | ✓ |
+| text "travel and hospitality" | 183,329 109×14 | 183,329 109×14 | 0 | 0 | 0 | 0 | ✓ |
+| text "cpg" | 291,329 24×14 | 291,329 24×14 | 0 | 0 | 0 | 0 | ✓ |
+| text "data & ai revolution" | 22,344 100×14 | 22,344 100×14 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of masthead-insights-secondary (required) .insight-secondary .masthead-insights__container=.insight-secondary .masthead-insights__container: origin 0,899 360×374 vs served 0,899 360×374 → Δx 0 Δy 0 Δw 0 Δh 0; 17 elements: 17 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img#1" | 0,0 360×203 | 0,0 360×203 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:picture#1" | 0,186 360×21 | 0,186 360×21 | 0 | 0 | 0 | 0 | ✓ |
+| heading "the era of personal agents" | 22,230 317×22 | 22,230 317×22 | 0 | 0 | 0 | 0 | ✓ |
+| text "octubre 26, 2026" | 22,292 89×14 | 22,292 89×14 | 0 | 0 | 0 | 0 | ✓ |
+| text "cpg" | 111,292 27×14 | 111,292 27×14 | 0 | 0 | 0 | 0 | ✓ |
+| text "financial services" | 137,292 92×14 | 137,292 92×14 | 0 | 0 | 0 | 0 | ✓ |
+| text "health" | 230,292 37×14 | 230,292 37×14 | 0 | 0 | 0 | 0 | ✓ |
+| text "luxury" | 267,292 35×14 | 267,292 35×14 | 0 | 0 | 0 | 0 | ✓ |
+| text "manufacturing" | 22,307 76×14 | 22,307 76×14 | 0 | 0 | 0 | 0 | ✓ |
+| text "travel and hospitality" | 22,307 271×29 | 22,307 271×29 | 0 | 0 | 0 | 0 | ✓ |
+| text "mobility" | 98,307 43×14 | 98,307 43×14 | 0 | 0 | 0 | 0 | ✓ |
+| text "public sector" | 141,307 69×14 | 141,307 69×14 | 0 | 0 | 0 | 0 | ✓ |
+| text "retail" | 210,307 32×14 | 210,307 32×14 | 0 | 0 | 0 | 0 | ✓ |
+| text "commerce acceleration" | 78,323 123×14 | 78,323 123×14 | 0 | 0 | 0 | 0 | ✓ |
+| text "data & ai revolution" | 201,323 102×14 | 201,323 102×14 | 0 | 0 | 0 | 0 | ✓ |
+| text "enterprise transformation" | 22,338 132×14 | 22,338 132×14 | 0 | 0 | 0 | 0 | ✓ |
+| text "experience elevation" | 154,338 102×14 | 154,338 102×14 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of insights-filter-select (required) .filters-block__content .react-select=.filters-block__content .react-select: origin 24,1336 202×26 vs served 24,1336 202×26 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 1 within 4px, 0 off, 1 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 192,-61 10×150 | 192,-61 10×150 | 0 | 0 | 0 | 0 | ✗ hidden (clipped) |
+| button "todas las industrias" | 0,0 202×26 | 0,0 202×26 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of insights-filter-select (required) .filters-block__content .react-select=.filters-block__content .react-select: origin 24,1372 193×26 vs served 24,1372 193×26 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 1 within 4px, 0 off, 1 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 183,-61 10×150 | 183,-61 10×150 | 0 | 0 | 0 | 0 | ✗ hidden (clipped) |
+| button "todos los servicios" | 0,0 193×26 | 0,0 193×26 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of insights-filter-select (required) .filters-block__content .react-select=.filters-block__content .react-select: origin 24,1407 222×26 vs served 24,1407 222×26 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 1 within 4px, 0 off, 1 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 212,-61 10×150 | 212,-61 10×150 | 0 | 0 | 0 | 0 | ✗ hidden (clipped) |
+| button "todas las plataformas" | 0,0 222×26 | 0,0 222×26 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of insights-filter-select (required) .filters-block__content .react-select=.filters-block__content .react-select: origin 24,1443 210×26 vs served 24,1443 210×26 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 1 within 4px, 0 off, 1 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 200,-61 10×150 | 200,-61 10×150 | 0 | 0 | 0 | 0 | ✗ hidden (clipped) |
+| button "todo sobre nosotros" | 0,0 210×26 | 0,0 210×26 | 0 | 0 | 0 | 0 | ✓ |
+Units: 10 compared; elements within 66, off 0, hidden 4, missing 0 → FAIL
+json → stardust/replica/gates/es-es-blog-360/units-iter4.json

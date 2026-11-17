@@ -1,0 +1,1322 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-13T13:52:21.151Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.valtech.com/digital-media-performance-marketing/",
+      "http://localhost:8791/digital-media-performance-marketing-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.valtech.com/digital-media-performance-marketing/",
+    "http://localhost:8791/digital-media-performance-marketing-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#valtech-content",
+      "isBody": false,
+      "leaves": 42,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 810,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content",
+        "tier": 2,
+        "share": 0.1,
+        "section": 2,
+        "w1": 810,
+        "maxWidth": "810px"
+      },
+      {
+        "kind": "module",
+        "px": 779,
+        "via": "fixed",
+        "selector": "section.rte-block > div.rte-block__container.text-content > h4 > strong",
+        "tier": 4,
+        "share": 0.02,
+        "section": 2,
+        "w1": 779,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.02,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.02,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.02,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 810,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content",
+        "tier": 2,
+        "share": 0.05,
+        "section": 3,
+        "w1": 810,
+        "maxWidth": "810px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.02,
+        "section": 3,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.02,
+        "section": 3,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 298,
+        "via": "fixed",
+        "selector": "div.columns-rte__content-row > div > h2 > strong",
+        "tier": 6,
+        "share": 0.02,
+        "section": 5,
+        "w1": 298,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 5,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 5,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 5,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 5,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 5,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 267,
+        "via": "fixed",
+        "selector": "div.columns-rte__content-row > div > h2 > strong",
+        "tier": 6,
+        "share": 0.02,
+        "section": 5,
+        "w1": 267,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 5,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 349,
+        "via": "fixed",
+        "selector": "div.columns-rte__content-row > div > p > strong",
+        "tier": 6,
+        "share": 0.02,
+        "section": 5,
+        "w1": 349,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 5,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 5,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 5,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.05,
+        "section": 6,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 289,
+        "via": "fixed",
+        "selector": "div.columns-rte__content-row > div > p > em",
+        "tier": 6,
+        "share": 0.02,
+        "section": 6,
+        "w1": 289,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 6,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 6,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 6,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.05,
+        "section": 6,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 240,
+        "via": "fixed",
+        "selector": "div.columns-rte__content-row > div > p > strong",
+        "tier": 6,
+        "share": 0.02,
+        "section": 6,
+        "w1": 240,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 464,
+        "via": "fixed",
+        "selector": "div.columns-rte__content-row > div > p > em",
+        "tier": 6,
+        "share": 0.02,
+        "section": 6,
+        "w1": 464,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 6,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.05,
+        "section": 7,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 311,
+        "via": "fixed",
+        "selector": "div.columns-rte__content-row > div > p > strong",
+        "tier": 6,
+        "share": 0.02,
+        "section": 7,
+        "w1": 311,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 415,
+        "via": "fixed",
+        "selector": "div.columns-rte__content-row > div > p > em",
+        "tier": 6,
+        "share": 0.02,
+        "section": 7,
+        "w1": 415,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 7,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 7,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.05,
+        "section": 7,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 479,
+        "via": "fixed",
+        "selector": "div.columns-rte__content-row > div > p > strong",
+        "tier": 6,
+        "share": 0.02,
+        "section": 7,
+        "w1": 479,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 450,
+        "via": "fixed",
+        "selector": "div.columns-rte__content-row > div > p > em",
+        "tier": 6,
+        "share": 0.02,
+        "section": 7,
+        "w1": 450,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 7,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 7,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 810,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content",
+        "tier": 2,
+        "share": 0.12,
+        "section": 9,
+        "w1": 810,
+        "maxWidth": "810px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "tbody > tr > td.confluenceTd > p",
+        "tier": 8,
+        "share": 0.05,
+        "section": 9,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 333,
+        "via": "fixed",
+        "selector": "tr > td.confluenceTd > p > strong",
+        "tier": 9,
+        "share": 0.02,
+        "section": 9,
+        "w1": 333,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 419,
+        "via": "fixed",
+        "selector": "tr > td.confluenceTd > p > em",
+        "tier": 9,
+        "share": 0.02,
+        "section": 9,
+        "w1": 419,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "tbody > tr > td.confluenceTd > p",
+        "tier": 8,
+        "share": 0.02,
+        "section": 9,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "tbody > tr > td.confluenceTd > p",
+        "tier": 8,
+        "share": 0.02,
+        "section": 9,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "tbody > tr > td.confluenceTd > p",
+        "tier": 8,
+        "share": 0.02,
+        "section": 9,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 272,
+        "via": "fixed",
+        "selector": "tr > td.confluenceTd > p > strong",
+        "tier": 9,
+        "share": 0.02,
+        "section": 9,
+        "w1": 272,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 1408,
+        "via": "max-width",
+        "selector": "#contact-us-form > div.contact-us-form__container.js-accordion",
+        "tier": 4,
+        "share": 0,
+        "section": -1,
+        "w1": 1208,
+        "maxWidth": "1408px"
+      },
+      {
+        "kind": "other",
+        "px": 252,
+        "via": "fixed",
+        "selector": "#frCap-widget",
+        "tier": 3,
+        "share": 0,
+        "section": -1,
+        "w1": 252,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#valtech-content > div.site-breadcrumbs",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#valtech-content > section.masthead-services",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 2,
+        "selector": "#valtech-content > section.rte-block",
+        "px": 810,
+        "capSelector": "#valtech-content > section.rte-block > div.rte-block__container.text-content"
+      },
+      {
+        "index": 3,
+        "selector": "#valtech-content > section.rte-block",
+        "px": 810,
+        "capSelector": "#valtech-content > section.rte-block > div.rte-block__container.text-content"
+      },
+      {
+        "index": 4,
+        "selector": "#valtech-content > div.image-block.slide-fade-in",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 5,
+        "selector": "#valtech-content > div.columns-rte",
+        "px": 760,
+        "capSelector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p"
+      },
+      {
+        "index": 6,
+        "selector": "#valtech-content > div.columns-rte",
+        "px": 760,
+        "capSelector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p"
+      },
+      {
+        "index": 7,
+        "selector": "#valtech-content > div.columns-rte",
+        "px": 760,
+        "capSelector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p"
+      },
+      {
+        "index": 8,
+        "selector": "#valtech-content > div.image-block.slide-fade-in",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 9,
+        "selector": "#valtech-content > section.rte-block",
+        "px": 810,
+        "capSelector": "#valtech-content > section.rte-block > div.rte-block__container.text-content"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 810,
+    "contentFrom": "module",
+    "maxCap": 1408,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 183
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#valtech-content",
+      "isBody": false,
+      "leaves": 42,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 810,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content",
+        "tier": 2,
+        "share": 0.1,
+        "section": 2,
+        "w1": 810,
+        "maxWidth": "810px"
+      },
+      {
+        "kind": "module",
+        "px": 779,
+        "via": "fixed",
+        "selector": "section.rte-block > div.rte-block__container.text-content > h4 > strong",
+        "tier": 4,
+        "share": 0.02,
+        "section": 2,
+        "w1": 779,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.02,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.02,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.02,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 810,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content",
+        "tier": 2,
+        "share": 0.05,
+        "section": 3,
+        "w1": 810,
+        "maxWidth": "810px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.02,
+        "section": 3,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.02,
+        "section": 3,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 298,
+        "via": "fixed",
+        "selector": "div.columns-rte__content-row > div > h2 > strong",
+        "tier": 6,
+        "share": 0.02,
+        "section": 5,
+        "w1": 298,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 5,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 5,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 5,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 5,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 5,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 267,
+        "via": "fixed",
+        "selector": "div.columns-rte__content-row > div > h2 > strong",
+        "tier": 6,
+        "share": 0.02,
+        "section": 5,
+        "w1": 267,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 5,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 349,
+        "via": "fixed",
+        "selector": "div.columns-rte__content-row > div > p > strong",
+        "tier": 6,
+        "share": 0.02,
+        "section": 5,
+        "w1": 349,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 5,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 5,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 5,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.05,
+        "section": 6,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 289,
+        "via": "fixed",
+        "selector": "div.columns-rte__content-row > div > p > em",
+        "tier": 6,
+        "share": 0.02,
+        "section": 6,
+        "w1": 289,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 6,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 6,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 6,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.05,
+        "section": 6,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 240,
+        "via": "fixed",
+        "selector": "div.columns-rte__content-row > div > p > strong",
+        "tier": 6,
+        "share": 0.02,
+        "section": 6,
+        "w1": 240,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 464,
+        "via": "fixed",
+        "selector": "div.columns-rte__content-row > div > p > em",
+        "tier": 6,
+        "share": 0.02,
+        "section": 6,
+        "w1": 464,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 6,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.05,
+        "section": 7,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 311,
+        "via": "fixed",
+        "selector": "div.columns-rte__content-row > div > p > strong",
+        "tier": 6,
+        "share": 0.02,
+        "section": 7,
+        "w1": 311,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 415,
+        "via": "fixed",
+        "selector": "div.columns-rte__content-row > div > p > em",
+        "tier": 6,
+        "share": 0.02,
+        "section": 7,
+        "w1": 415,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 7,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 7,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.05,
+        "section": 7,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 479,
+        "via": "fixed",
+        "selector": "div.columns-rte__content-row > div > p > strong",
+        "tier": 6,
+        "share": 0.02,
+        "section": 7,
+        "w1": 479,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 450,
+        "via": "fixed",
+        "selector": "div.columns-rte__content-row > div > p > em",
+        "tier": 6,
+        "share": 0.02,
+        "section": 7,
+        "w1": 450,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 7,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p",
+        "tier": 5,
+        "share": 0.02,
+        "section": 7,
+        "w1": 650,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 810,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content",
+        "tier": 2,
+        "share": 0.12,
+        "section": 9,
+        "w1": 810,
+        "maxWidth": "810px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "tbody > tr > td > p",
+        "tier": 8,
+        "share": 0.05,
+        "section": 9,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 333,
+        "via": "fixed",
+        "selector": "tr > td > p > strong",
+        "tier": 9,
+        "share": 0.02,
+        "section": 9,
+        "w1": 333,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 419,
+        "via": "fixed",
+        "selector": "tr > td > p > em",
+        "tier": 9,
+        "share": 0.02,
+        "section": 9,
+        "w1": 419,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "tbody > tr > td > p",
+        "tier": 8,
+        "share": 0.02,
+        "section": 9,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "tbody > tr > td > p",
+        "tier": 8,
+        "share": 0.02,
+        "section": 9,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "tbody > tr > td > p",
+        "tier": 8,
+        "share": 0.02,
+        "section": 9,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 272,
+        "via": "fixed",
+        "selector": "tr > td > p > strong",
+        "tier": 9,
+        "share": 0.02,
+        "section": 9,
+        "w1": 272,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 1408,
+        "via": "max-width",
+        "selector": "#contact-us-form > div.contact-us-form__container.js-accordion",
+        "tier": 4,
+        "share": 0,
+        "section": -1,
+        "w1": 1208,
+        "maxWidth": "1408px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#valtech-content > div.site-breadcrumbs",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#valtech-content > section.masthead-services",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 2,
+        "selector": "#valtech-content > section.rte-block",
+        "px": 810,
+        "capSelector": "#valtech-content > section.rte-block > div.rte-block__container.text-content"
+      },
+      {
+        "index": 3,
+        "selector": "#valtech-content > section.rte-block",
+        "px": 810,
+        "capSelector": "#valtech-content > section.rte-block > div.rte-block__container.text-content"
+      },
+      {
+        "index": 4,
+        "selector": "#valtech-content > div.image-block",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 5,
+        "selector": "#valtech-content > div.columns-rte",
+        "px": 760,
+        "capSelector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p"
+      },
+      {
+        "index": 6,
+        "selector": "#valtech-content > div.columns-rte",
+        "px": 760,
+        "capSelector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p"
+      },
+      {
+        "index": 7,
+        "selector": "#valtech-content > div.columns-rte",
+        "px": 760,
+        "capSelector": "div.columns-rte__container.text-content > div.columns-rte__content-row > div > p"
+      },
+      {
+        "index": 8,
+        "selector": "#valtech-content > div.image-block",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 9,
+        "selector": "#valtech-content > section.rte-block",
+        "px": 810,
+        "capSelector": "#valtech-content > section.rte-block > div.rte-block__container.text-content"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 810,
+    "contentFrom": "module",
+    "maxCap": 1408,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 176
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 810px = build 810px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/10",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/10",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/10",
+        "detail": "810px = 810px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 4/10",
+        "detail": "810px = 810px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 5/10",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 6/10",
+        "detail": "760px = 760px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 7/10",
+        "detail": "760px = 760px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 8/10",
+        "detail": "760px = 760px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 9/10",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 10/10",
+        "detail": "810px = 810px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/digital-media-performance-marketing-2560/cap-iter.json"
+}

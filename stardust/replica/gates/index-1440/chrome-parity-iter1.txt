@@ -1,0 +1,45 @@
+[live-session] waiting to pace live navigations to www.valtech.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 585 ms
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.valtech.com/
+  build: http://localhost:8791/index-proposed.html
+
+■ header: 33 delta(s) — 0 paired of 0/30 texts, 0/5 icons
+  (build has no <header>: auto-detected nav.site-nav — pass --region header=<liveSel>|<buildSel> to override)
+  REGION BOX   Δw +1440px (0→1440), Δh +65px (0→65)
+  REGION STYLE backgroundColor rgb(255, 255, 255) → rgb(243, 242, 239)
+  EXTRA        "Our work"  build <button> "Our work" has no live source
+  EXTRA        "Offerings"  build <button> "Offerings" has no live source
+  EXTRA        "Careers"  build <button> "Careers" has no live source
+  EXTRA        "Our insights"  build <button> "Our insights" has no live source
+  EXTRA        "About us"  build <button> "About us" has no live source
+  EXTRA        "Our work"  build <span> "Our work" has no live source
+  EXTRA        "Cases"  build <a> "Cases" has no live source
+  EXTRA        "Industries"  build <a> "Industries" has no live source
+  EXTRA        "Our Partners"  build <a> "Our Partners" has no live source
+  EXTRA        "Offerings"  build <span> "Offerings" has no live source
+  EXTRA        "Experience Elevation"  build <a> "Experience Elevation" has no live source
+  EXTRA        "Commerce Acceleration"  build <a> "Commerce Acceleration" has no live source
+  EXTRA        "Enterprise Transformation"  build <a> "Enterprise Transformation" has no live source
+  EXTRA        "Marketing Creativity & Performance"  build <a> "Marketing Creativity & Performance" has no live source
+  EXTRA        "Data & AI Revolution"  build <a> "Data & AI Revolution" has no live source
+  EXTRA        "Careers"  build <span> "Careers" has no live source
+  EXTRA        "Joblist"  build <a> "Joblist" has no live source
+  EXTRA        "Valtech as workplace"  build <a> "Valtech as workplace" has no live source
+  EXTRA        "Diversity & Inclusion"  build <a> "Diversity & Inclusion" has no live source
+  EXTRA        "Our insights"  build <span> "Our insights" has no live source
+  EXTRA        "Podcasts"  build <a> "Podcasts" has no live source
+  EXTRA        "Whitepapers"  build <a> "Whitepapers" has no live source
+  EXTRA        "Content Hub"  build <a> "Content Hub" has no live source
+  EXTRA        "Blog"  build <a> "Blog" has no live source
+  EXTRA        "Events"  build <a> "Events" has no live source
+  EXTRA        "The Intelligent Enterprise"  build <a> "The Intelligent Enterprise" has no live source
+  EXTRA        "About us"  build <span> "About us" has no live source
+  EXTRA        "Newsroom"  build <a> "Newsroom" has no live source
+  EXTRA        "About"  build <a> "About" has no live source
+  EXTRA        "Offices"  build <a> "Offices" has no live source
+  ICONS        0 live vs 5 build (svg/img) — harvest the live vectors verbatim (recreation-procedure.md § Asset harvest), never approximate
+
+■ footer: ✓ parity — 10 paired of 10/10 texts, 9/9 icons
+  OFFSET       the region and its 10 paired text(s) sit Δy +62px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+
+✗ 33 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

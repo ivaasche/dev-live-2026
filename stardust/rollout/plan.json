@@ -1,0 +1,2287 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-11-13T15:11:06.315Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-13T15:11:06.315Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "ai-searchandizing-workshop",
+    "ai-assessment",
+    "ai-mythbusting",
+    "ai-readiness-starts-here",
+    "b2b-portal-discovery-workshop",
+    "becoming-a-connected-manufacturer",
+    "composable-enterprise-assessment",
+    "digitalxelerate",
+    "enterprise-ai-foundations-vtiq",
+    "es-es-nuestros-partners",
+    "es-es-retail-maturity-assessment",
+    "es-es-thread-magazine",
+    "gear-accelerator",
+    "health-digital-leadership-roundtables",
+    "innovation-marathon-2027",
+    "intelligent-journeys",
+    "retail-maturity-assessment",
+    "digital-media-performance-marketing",
+    "brand-strategy-design-agency",
+    "creative-content",
+    "dataprod",
+    "es-es-carrera",
+    "es-es-diversidad-e-inclusion",
+    "es-es-industrias",
+    "es-es-nuestros-partners-oracle",
+    "es-es-servicios",
+    "es-es-trabajar-en-valtech",
+    "experience-innovation",
+    "experience-innovation-on-azure",
+    "lead-scoring",
+    "meet-the-expert-vera-schnitzlein",
+    "next2025-highlights",
+    "valtech-and-salesforce",
+    "valtech-ukraine-in-media",
+    "es-es-blog-la-era-de-los-agentes-de-ia",
+    "es-es-blog-asi-se-creo-valtech-concierge",
+    "es-es-blog-como-marcas-locales-escalan-de-forma-diferente",
+    "es-es-blog-el-geo-como-la-nueva-frontera-de-la-visibilidad-digital",
+    "es-es-blog-embedding-ai-in-government-case-management",
+    "es-es-blog-estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion",
+    "es-es-blog-ia-transforma-busquedas-y-webs-de-marca",
+    "es-es-blog-presentamos-el-muro-de-datos-b2b",
+    "es-es-casos-lexus-europa",
+    "es-es-eventos-ai-in-retail-from-pilots-to-performanceexclusive",
+    "es-es-eventos-google-cloud-and-valtech-roundtable",
+    "es-es-eventos-valtech-at-shoptalk-europe-2026",
+    "es-es-eventos-valtech-optimizely-at-resume-martech-2026",
+    "es-es-noticias-conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds",
+    "es-es-noticias-valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente",
+    "es-es-quienes-somos",
+    "leap-into-composable-commerce",
+    "valtech-conversion-engine",
+    "ai-first-product-operating-model",
+    "content-supply-chain",
+    "digital-consulting-discovery-call",
+    "enterprise-ai-foundations-financial-services",
+    "es-es-guia-para-la-empresa-inteligente",
+    "es-es-retail-en-la-encrucijada-2026",
+    "es-es-servicios-revolucion-del-dato-y-ia",
+    "es-es-whitepapers-el-ciclo-de-relevancia-de-las-marcas",
+    "experience-innovation3",
+    "geo-quick-start",
+    "is-your-adobe-investment-delivering",
+    "retail-at-the-crossroads-2026",
+    "valtech-agentic-commerce-catalyst",
+    "valtech-enterprise-ai-foundations",
+    "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+    "es-es-thread-magazine-edition-10-the-experience-loop",
+    "es-es-whitepapers-el-giro-hacia-la-ia",
+    "es-es-whitepapers-experiencias-inteligentes",
+    "es-es-whitepapers-fidelizacion-digital-sector-sanitario",
+    "es-es-whitepapers-guia-estrategica-salud-digital-optimizely-2026",
+    "es-es-whitepapers-infome-la-era-del-comercio-conversacional-2026",
+    "es-es-whitepapers-informe-tendencias-cliente-movilidad-2026",
+    "es-es-whitepapers-la-era-agentica-tendencias-de-la-ia-empresarial-2026",
+    "es-es-whitepapers-la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software",
+    "es-es-whitepapers-la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026",
+    "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2025",
+    "es-es-whitepapers-retail-en-la-encrucijada-2026",
+    "es-es-whitepapers-transformar-los-servicios-financieros-la-inteligencia-a-gran-escala",
+    "es-es-blog",
+    "es-es-casos",
+    "es-es-content-hub",
+    "es-es-eventos",
+    "es-es-noticias",
+    "es-es-podcasts",
+    "es-es-whitepapers",
+    "es-es-la-empresa-inteligente-operar",
+    "es-es-la-empresa-inteligente",
+    "es-es-la-empresa-inteligente-crecer",
+    "es-es-la-empresa-inteligente-liderar",
+    "es-es-la-empresa-inteligente-modelo-operativo",
+    "es-es-la-empresa-inteligente-organizar",
+    "the-intelligent-enterprise",
+    "es-es-aviso-legal",
+    "es-es-politica-de-cookies",
+    "es-es-politica-privacidad",
+    "fabric-real-time-intelligence",
+    "index",
+    "es-es"
+  ],
+  "steps": [
+    {
+      "slug": "ai-searchandizing-workshop",
+      "path": "/ai-searchandizing-workshop",
+      "templateId": "ai-searchandizing-workshop",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "masthead-primary",
+          "edsBlockName": "masthead-primary"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "ai-assessment",
+      "path": "/ai-assessment",
+      "templateId": "ai-searchandizing-workshop",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-primary",
+          "edsBlockName": "masthead-primary",
+          "convertedBy": "ai-searchandizing-workshop"
+        }
+      ]
+    },
+    {
+      "slug": "ai-mythbusting",
+      "path": "/ai-mythbusting",
+      "templateId": "ai-searchandizing-workshop",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-primary",
+          "edsBlockName": "masthead-primary",
+          "convertedBy": "ai-searchandizing-workshop"
+        }
+      ]
+    },
+    {
+      "slug": "ai-readiness-starts-here",
+      "path": "/ai-readiness-starts-here",
+      "templateId": "ai-searchandizing-workshop",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-primary",
+          "edsBlockName": "masthead-primary",
+          "convertedBy": "ai-searchandizing-workshop"
+        }
+      ]
+    },
+    {
+      "slug": "b2b-portal-discovery-workshop",
+      "path": "/b2b-portal-discovery-workshop",
+      "templateId": "ai-searchandizing-workshop",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-primary",
+          "edsBlockName": "masthead-primary",
+          "convertedBy": "ai-searchandizing-workshop"
+        }
+      ]
+    },
+    {
+      "slug": "becoming-a-connected-manufacturer",
+      "path": "/becoming-a-connected-manufacturer",
+      "templateId": "ai-searchandizing-workshop",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-primary",
+          "edsBlockName": "masthead-primary",
+          "convertedBy": "ai-searchandizing-workshop"
+        }
+      ]
+    },
+    {
+      "slug": "composable-enterprise-assessment",
+      "path": "/composable-enterprise-assessment",
+      "templateId": "ai-searchandizing-workshop",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-primary",
+          "edsBlockName": "masthead-primary",
+          "convertedBy": "ai-searchandizing-workshop"
+        }
+      ]
+    },
+    {
+      "slug": "digitalxelerate",
+      "path": "/digitalxelerate",
+      "templateId": "ai-searchandizing-workshop",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-primary",
+          "edsBlockName": "masthead-primary",
+          "convertedBy": "ai-searchandizing-workshop"
+        }
+      ]
+    },
+    {
+      "slug": "enterprise-ai-foundations-vtiq",
+      "path": "/enterprise-ai-foundations-vtiq",
+      "templateId": "ai-searchandizing-workshop",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-primary",
+          "edsBlockName": "masthead-primary",
+          "convertedBy": "ai-searchandizing-workshop"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-nuestros-partners",
+      "path": "/es-es/nuestros-partners",
+      "templateId": "ai-searchandizing-workshop",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-primary",
+          "edsBlockName": "masthead-primary",
+          "convertedBy": "ai-searchandizing-workshop"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-retail-maturity-assessment",
+      "path": "/es-es/retail-maturity-assessment",
+      "templateId": "ai-searchandizing-workshop",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-primary",
+          "edsBlockName": "masthead-primary",
+          "convertedBy": "ai-searchandizing-workshop"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-thread-magazine",
+      "path": "/es-es/thread-magazine",
+      "templateId": "ai-searchandizing-workshop",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-primary",
+          "edsBlockName": "masthead-primary",
+          "convertedBy": "ai-searchandizing-workshop"
+        }
+      ]
+    },
+    {
+      "slug": "gear-accelerator",
+      "path": "/gear-accelerator",
+      "templateId": "ai-searchandizing-workshop",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-primary",
+          "edsBlockName": "masthead-primary",
+          "convertedBy": "ai-searchandizing-workshop"
+        }
+      ]
+    },
+    {
+      "slug": "health-digital-leadership-roundtables",
+      "path": "/health-digital-leadership-roundtables",
+      "templateId": "ai-searchandizing-workshop",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-primary",
+          "edsBlockName": "masthead-primary",
+          "convertedBy": "ai-searchandizing-workshop"
+        }
+      ]
+    },
+    {
+      "slug": "innovation-marathon-2027",
+      "path": "/innovation-marathon-2027",
+      "templateId": "ai-searchandizing-workshop",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-primary",
+          "edsBlockName": "masthead-primary",
+          "convertedBy": "ai-searchandizing-workshop"
+        }
+      ]
+    },
+    {
+      "slug": "intelligent-journeys",
+      "path": "/intelligent-journeys",
+      "templateId": "ai-searchandizing-workshop",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-primary",
+          "edsBlockName": "masthead-primary",
+          "convertedBy": "ai-searchandizing-workshop"
+        }
+      ]
+    },
+    {
+      "slug": "retail-maturity-assessment",
+      "path": "/retail-maturity-assessment",
+      "templateId": "ai-searchandizing-workshop",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-primary",
+          "edsBlockName": "masthead-primary",
+          "convertedBy": "ai-searchandizing-workshop"
+        }
+      ]
+    },
+    {
+      "slug": "digital-media-performance-marketing",
+      "path": "/digital-media-performance-marketing",
+      "templateId": "digital-media-performance-marketing",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "masthead-services",
+          "edsBlockName": "masthead-services"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "brand-strategy-design-agency",
+      "path": "/brand-strategy-design-agency",
+      "templateId": "digital-media-performance-marketing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-services",
+          "edsBlockName": "masthead-services",
+          "convertedBy": "digital-media-performance-marketing"
+        }
+      ]
+    },
+    {
+      "slug": "creative-content",
+      "path": "/creative-content",
+      "templateId": "digital-media-performance-marketing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-services",
+          "edsBlockName": "masthead-services",
+          "convertedBy": "digital-media-performance-marketing"
+        }
+      ]
+    },
+    {
+      "slug": "dataprod",
+      "path": "/dataprod",
+      "templateId": "digital-media-performance-marketing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-services",
+          "edsBlockName": "masthead-services",
+          "convertedBy": "digital-media-performance-marketing"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-carrera",
+      "path": "/es-es/carrera",
+      "templateId": "digital-media-performance-marketing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-services",
+          "edsBlockName": "masthead-services",
+          "convertedBy": "digital-media-performance-marketing"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-diversidad-e-inclusion",
+      "path": "/es-es/diversidad-e-inclusion",
+      "templateId": "digital-media-performance-marketing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-services",
+          "edsBlockName": "masthead-services",
+          "convertedBy": "digital-media-performance-marketing"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-industrias",
+      "path": "/es-es/industrias",
+      "templateId": "digital-media-performance-marketing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-services",
+          "edsBlockName": "masthead-services",
+          "convertedBy": "digital-media-performance-marketing"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-nuestros-partners-oracle",
+      "path": "/es-es/nuestros-partners/oracle",
+      "templateId": "digital-media-performance-marketing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-services",
+          "edsBlockName": "masthead-services",
+          "convertedBy": "digital-media-performance-marketing"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-servicios",
+      "path": "/es-es/servicios",
+      "templateId": "digital-media-performance-marketing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-services",
+          "edsBlockName": "masthead-services",
+          "convertedBy": "digital-media-performance-marketing"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-trabajar-en-valtech",
+      "path": "/es-es/trabajar-en-valtech",
+      "templateId": "digital-media-performance-marketing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-services",
+          "edsBlockName": "masthead-services",
+          "convertedBy": "digital-media-performance-marketing"
+        }
+      ]
+    },
+    {
+      "slug": "experience-innovation",
+      "path": "/experience-innovation",
+      "templateId": "digital-media-performance-marketing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-services",
+          "edsBlockName": "masthead-services",
+          "convertedBy": "digital-media-performance-marketing"
+        }
+      ]
+    },
+    {
+      "slug": "experience-innovation-on-azure",
+      "path": "/experience-innovation-on-azure",
+      "templateId": "digital-media-performance-marketing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-services",
+          "edsBlockName": "masthead-services",
+          "convertedBy": "digital-media-performance-marketing"
+        }
+      ]
+    },
+    {
+      "slug": "lead-scoring",
+      "path": "/lead-scoring",
+      "templateId": "digital-media-performance-marketing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-services",
+          "edsBlockName": "masthead-services",
+          "convertedBy": "digital-media-performance-marketing"
+        }
+      ]
+    },
+    {
+      "slug": "meet-the-expert-vera-schnitzlein",
+      "path": "/meet-the-expert-vera-schnitzlein",
+      "templateId": "digital-media-performance-marketing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-services",
+          "edsBlockName": "masthead-services",
+          "convertedBy": "digital-media-performance-marketing"
+        }
+      ]
+    },
+    {
+      "slug": "next2025-highlights",
+      "path": "/next2025-highlights",
+      "templateId": "digital-media-performance-marketing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-services",
+          "edsBlockName": "masthead-services",
+          "convertedBy": "digital-media-performance-marketing"
+        }
+      ]
+    },
+    {
+      "slug": "valtech-and-salesforce",
+      "path": "/valtech-and-salesforce",
+      "templateId": "digital-media-performance-marketing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-services",
+          "edsBlockName": "masthead-services",
+          "convertedBy": "digital-media-performance-marketing"
+        }
+      ]
+    },
+    {
+      "slug": "valtech-ukraine-in-media",
+      "path": "/valtech-ukraine-in-media",
+      "templateId": "digital-media-performance-marketing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-services",
+          "edsBlockName": "masthead-services",
+          "convertedBy": "digital-media-performance-marketing"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "path": "/es-es/blog/la-era-de-los-agentes-de-ia",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "masthead-blurred",
+          "edsBlockName": "masthead-blurred"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block"
+        },
+        {
+          "id": "expandable-faq-block",
+          "edsBlockName": "expandable-faq-block"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "es-es-blog-asi-se-creo-valtech-concierge",
+      "path": "/es-es/blog/asi-se-creo-valtech-concierge",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-blurred",
+          "edsBlockName": "masthead-blurred",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "expandable-faq-block",
+          "edsBlockName": "expandable-faq-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-blog-como-marcas-locales-escalan-de-forma-diferente",
+      "path": "/es-es/blog/como-marcas-locales-escalan-de-forma-diferente",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-blurred",
+          "edsBlockName": "masthead-blurred",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "expandable-faq-block",
+          "edsBlockName": "expandable-faq-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-blog-el-geo-como-la-nueva-frontera-de-la-visibilidad-digital",
+      "path": "/es-es/blog/el-geo-como-la-nueva-frontera-de-la-visibilidad-digital",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-blurred",
+          "edsBlockName": "masthead-blurred",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "expandable-faq-block",
+          "edsBlockName": "expandable-faq-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-blog-embedding-ai-in-government-case-management",
+      "path": "/es-es/blog/embedding-ai-in-government-case-management",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-blurred",
+          "edsBlockName": "masthead-blurred",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "expandable-faq-block",
+          "edsBlockName": "expandable-faq-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-blog-estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion",
+      "path": "/es-es/blog/estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-blurred",
+          "edsBlockName": "masthead-blurred",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "expandable-faq-block",
+          "edsBlockName": "expandable-faq-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-blog-ia-transforma-busquedas-y-webs-de-marca",
+      "path": "/es-es/blog/ia-transforma-busquedas-y-webs-de-marca",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-blurred",
+          "edsBlockName": "masthead-blurred",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "expandable-faq-block",
+          "edsBlockName": "expandable-faq-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-blog-presentamos-el-muro-de-datos-b2b",
+      "path": "/es-es/blog/presentamos-el-muro-de-datos-b2b",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-blurred",
+          "edsBlockName": "masthead-blurred",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "expandable-faq-block",
+          "edsBlockName": "expandable-faq-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-casos-lexus-europa",
+      "path": "/es-es/casos/lexus-europa",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-blurred",
+          "edsBlockName": "masthead-blurred",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "expandable-faq-block",
+          "edsBlockName": "expandable-faq-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-eventos-ai-in-retail-from-pilots-to-performanceexclusive",
+      "path": "/es-es/eventos/ai-in-retail-from-pilots-to-performanceexclusive",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-blurred",
+          "edsBlockName": "masthead-blurred",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "expandable-faq-block",
+          "edsBlockName": "expandable-faq-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-eventos-google-cloud-and-valtech-roundtable",
+      "path": "/es-es/eventos/google-cloud-and-valtech-roundtable",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-blurred",
+          "edsBlockName": "masthead-blurred",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "expandable-faq-block",
+          "edsBlockName": "expandable-faq-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-eventos-valtech-at-shoptalk-europe-2026",
+      "path": "/es-es/eventos/valtech-at-shoptalk-europe-2026",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-blurred",
+          "edsBlockName": "masthead-blurred",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "expandable-faq-block",
+          "edsBlockName": "expandable-faq-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-eventos-valtech-optimizely-at-resume-martech-2026",
+      "path": "/es-es/eventos/valtech-optimizely-at-resume-martech-2026",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-blurred",
+          "edsBlockName": "masthead-blurred",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "expandable-faq-block",
+          "edsBlockName": "expandable-faq-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-noticias-conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds",
+      "path": "/es-es/noticias/conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-blurred",
+          "edsBlockName": "masthead-blurred",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "expandable-faq-block",
+          "edsBlockName": "expandable-faq-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-noticias-valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente",
+      "path": "/es-es/noticias/valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-blurred",
+          "edsBlockName": "masthead-blurred",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "expandable-faq-block",
+          "edsBlockName": "expandable-faq-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-quienes-somos",
+      "path": "/es-es/quienes-somos",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-blurred",
+          "edsBlockName": "masthead-blurred",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "expandable-faq-block",
+          "edsBlockName": "expandable-faq-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        }
+      ]
+    },
+    {
+      "slug": "leap-into-composable-commerce",
+      "path": "/leap-into-composable-commerce",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-blurred",
+          "edsBlockName": "masthead-blurred",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "expandable-faq-block",
+          "edsBlockName": "expandable-faq-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        }
+      ]
+    },
+    {
+      "slug": "valtech-conversion-engine",
+      "path": "/valtech-conversion-engine",
+      "templateId": "valtech-conversion-engine",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta"
+        },
+        {
+          "id": "faq-block",
+          "edsBlockName": "faq-block"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        }
+      ]
+    },
+    {
+      "slug": "ai-first-product-operating-model",
+      "path": "/ai-first-product-operating-model",
+      "templateId": "valtech-conversion-engine",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "faq-block",
+          "edsBlockName": "faq-block",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "content-supply-chain",
+      "path": "/content-supply-chain",
+      "templateId": "valtech-conversion-engine",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "faq-block",
+          "edsBlockName": "faq-block",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "digital-consulting-discovery-call",
+      "path": "/digital-consulting-discovery-call",
+      "templateId": "valtech-conversion-engine",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "faq-block",
+          "edsBlockName": "faq-block",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "enterprise-ai-foundations-financial-services",
+      "path": "/enterprise-ai-foundations-financial-services",
+      "templateId": "valtech-conversion-engine",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "faq-block",
+          "edsBlockName": "faq-block",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-guia-para-la-empresa-inteligente",
+      "path": "/es-es/guia-para-la-empresa-inteligente",
+      "templateId": "valtech-conversion-engine",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "faq-block",
+          "edsBlockName": "faq-block",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-retail-en-la-encrucijada-2026",
+      "path": "/es-es/retail-en-la-encrucijada-2026",
+      "templateId": "valtech-conversion-engine",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "faq-block",
+          "edsBlockName": "faq-block",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-servicios-revolucion-del-dato-y-ia",
+      "path": "/es-es/servicios/revolucion-del-dato-y-ia",
+      "templateId": "valtech-conversion-engine",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "faq-block",
+          "edsBlockName": "faq-block",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-whitepapers-el-ciclo-de-relevancia-de-las-marcas",
+      "path": "/es-es/whitepapers/el-ciclo-de-relevancia-de-las-marcas",
+      "templateId": "valtech-conversion-engine",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "faq-block",
+          "edsBlockName": "faq-block",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "experience-innovation3",
+      "path": "/experience-innovation3",
+      "templateId": "valtech-conversion-engine",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "faq-block",
+          "edsBlockName": "faq-block",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "geo-quick-start",
+      "path": "/geo-quick-start",
+      "templateId": "valtech-conversion-engine",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "faq-block",
+          "edsBlockName": "faq-block",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "is-your-adobe-investment-delivering",
+      "path": "/is-your-adobe-investment-delivering",
+      "templateId": "valtech-conversion-engine",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "faq-block",
+          "edsBlockName": "faq-block",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "retail-at-the-crossroads-2026",
+      "path": "/retail-at-the-crossroads-2026",
+      "templateId": "valtech-conversion-engine",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "faq-block",
+          "edsBlockName": "faq-block",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "valtech-agentic-commerce-catalyst",
+      "path": "/valtech-agentic-commerce-catalyst",
+      "templateId": "valtech-conversion-engine",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "faq-block",
+          "edsBlockName": "faq-block",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "valtech-enterprise-ai-foundations",
+      "path": "/valtech-enterprise-ai-foundations",
+      "templateId": "valtech-conversion-engine",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "highlighted-cta-block",
+          "edsBlockName": "highlighted-cta-block",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "faq-block",
+          "edsBlockName": "faq-block",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "path": "/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-thread-magazine-edition-10-the-experience-loop",
+      "path": "/es-es/thread-magazine/edition-10-the-experience-loop",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-whitepapers-el-giro-hacia-la-ia",
+      "path": "/es-es/whitepapers/el-giro-hacia-la-ia",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-whitepapers-experiencias-inteligentes",
+      "path": "/es-es/whitepapers/experiencias-inteligentes",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-whitepapers-fidelizacion-digital-sector-sanitario",
+      "path": "/es-es/whitepapers/fidelizacion-digital-sector-sanitario",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-whitepapers-guia-estrategica-salud-digital-optimizely-2026",
+      "path": "/es-es/whitepapers/guia-estrategica-salud-digital-optimizely-2026",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-whitepapers-infome-la-era-del-comercio-conversacional-2026",
+      "path": "/es-es/whitepapers/infome-la-era-del-comercio-conversacional-2026",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-whitepapers-informe-tendencias-cliente-movilidad-2026",
+      "path": "/es-es/whitepapers/informe-tendencias-cliente-movilidad-2026",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-whitepapers-la-era-agentica-tendencias-de-la-ia-empresarial-2026",
+      "path": "/es-es/whitepapers/la-era-agentica-tendencias-de-la-ia-empresarial-2026",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-whitepapers-la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software",
+      "path": "/es-es/whitepapers/la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-whitepapers-la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026",
+      "path": "/es-es/whitepapers/la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2025",
+      "path": "/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2025",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-whitepapers-retail-en-la-encrucijada-2026",
+      "path": "/es-es/whitepapers/retail-en-la-encrucijada-2026",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-whitepapers-transformar-los-servicios-financieros-la-inteligencia-a-gran-escala",
+      "path": "/es-es/whitepapers/transformar-los-servicios-financieros-la-inteligencia-a-gran-escala",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-two-columns-cta",
+          "edsBlockName": "masthead-two-columns-cta",
+          "convertedBy": "valtech-conversion-engine"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-blog",
+      "path": "/es-es/blog",
+      "templateId": "es-es-blog",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "insight-header",
+          "edsBlockName": "insight-header"
+        },
+        {
+          "id": "insights-filter",
+          "edsBlockName": "insights-filter"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "es-es-casos",
+      "path": "/es-es/casos",
+      "templateId": "es-es-blog",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "insight-header",
+          "edsBlockName": "insight-header",
+          "convertedBy": "es-es-blog"
+        },
+        {
+          "id": "insights-filter",
+          "edsBlockName": "insights-filter",
+          "convertedBy": "es-es-blog"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-content-hub",
+      "path": "/es-es/content-hub",
+      "templateId": "es-es-blog",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "insight-header",
+          "edsBlockName": "insight-header",
+          "convertedBy": "es-es-blog"
+        },
+        {
+          "id": "insights-filter",
+          "edsBlockName": "insights-filter",
+          "convertedBy": "es-es-blog"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-eventos",
+      "path": "/es-es/eventos",
+      "templateId": "es-es-blog",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "insight-header",
+          "edsBlockName": "insight-header",
+          "convertedBy": "es-es-blog"
+        },
+        {
+          "id": "insights-filter",
+          "edsBlockName": "insights-filter",
+          "convertedBy": "es-es-blog"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-noticias",
+      "path": "/es-es/noticias",
+      "templateId": "es-es-blog",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "insight-header",
+          "edsBlockName": "insight-header",
+          "convertedBy": "es-es-blog"
+        },
+        {
+          "id": "insights-filter",
+          "edsBlockName": "insights-filter",
+          "convertedBy": "es-es-blog"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-podcasts",
+      "path": "/es-es/podcasts",
+      "templateId": "es-es-blog",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "insight-header",
+          "edsBlockName": "insight-header",
+          "convertedBy": "es-es-blog"
+        },
+        {
+          "id": "insights-filter",
+          "edsBlockName": "insights-filter",
+          "convertedBy": "es-es-blog"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-whitepapers",
+      "path": "/es-es/whitepapers",
+      "templateId": "es-es-blog",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "insight-header",
+          "edsBlockName": "insight-header",
+          "convertedBy": "es-es-blog"
+        },
+        {
+          "id": "insights-filter",
+          "edsBlockName": "insights-filter",
+          "convertedBy": "es-es-blog"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente-operar",
+      "path": "/es-es/la-empresa-inteligente/operar",
+      "templateId": "es-es-la-empresa-inteligente-operar",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "hero-block",
+          "edsBlockName": "hero-block"
+        },
+        {
+          "id": "related-cases",
+          "edsBlockName": "related-cases"
+        },
+        {
+          "id": "featured-verticals-block",
+          "edsBlockName": "featured-verticals-block"
+        },
+        {
+          "id": "registration-form",
+          "edsBlockName": "registration-form"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente",
+      "path": "/es-es/la-empresa-inteligente",
+      "templateId": "es-es-la-empresa-inteligente-operar",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-block",
+          "edsBlockName": "hero-block",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "related-cases",
+          "edsBlockName": "related-cases",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        },
+        {
+          "id": "featured-verticals-block",
+          "edsBlockName": "featured-verticals-block",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        },
+        {
+          "id": "registration-form",
+          "edsBlockName": "registration-form",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente-crecer",
+      "path": "/es-es/la-empresa-inteligente/crecer",
+      "templateId": "es-es-la-empresa-inteligente-operar",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-block",
+          "edsBlockName": "hero-block",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "related-cases",
+          "edsBlockName": "related-cases",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        },
+        {
+          "id": "featured-verticals-block",
+          "edsBlockName": "featured-verticals-block",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        },
+        {
+          "id": "registration-form",
+          "edsBlockName": "registration-form",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente-liderar",
+      "path": "/es-es/la-empresa-inteligente/liderar",
+      "templateId": "es-es-la-empresa-inteligente-operar",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-block",
+          "edsBlockName": "hero-block",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "related-cases",
+          "edsBlockName": "related-cases",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        },
+        {
+          "id": "featured-verticals-block",
+          "edsBlockName": "featured-verticals-block",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        },
+        {
+          "id": "registration-form",
+          "edsBlockName": "registration-form",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente-modelo-operativo",
+      "path": "/es-es/la-empresa-inteligente/modelo-operativo",
+      "templateId": "es-es-la-empresa-inteligente-operar",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-block",
+          "edsBlockName": "hero-block",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "related-cases",
+          "edsBlockName": "related-cases",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        },
+        {
+          "id": "featured-verticals-block",
+          "edsBlockName": "featured-verticals-block",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        },
+        {
+          "id": "registration-form",
+          "edsBlockName": "registration-form",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente-organizar",
+      "path": "/es-es/la-empresa-inteligente/organizar",
+      "templateId": "es-es-la-empresa-inteligente-operar",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-block",
+          "edsBlockName": "hero-block",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "related-cases",
+          "edsBlockName": "related-cases",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        },
+        {
+          "id": "featured-verticals-block",
+          "edsBlockName": "featured-verticals-block",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        },
+        {
+          "id": "registration-form",
+          "edsBlockName": "registration-form",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        }
+      ]
+    },
+    {
+      "slug": "the-intelligent-enterprise",
+      "path": "/the-intelligent-enterprise",
+      "templateId": "es-es-la-empresa-inteligente-operar",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-block",
+          "edsBlockName": "hero-block",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        },
+        {
+          "id": "features-showcase",
+          "edsBlockName": "features-showcase",
+          "convertedBy": "es-es-blog-la-era-de-los-agentes-de-ia"
+        },
+        {
+          "id": "related-cases",
+          "edsBlockName": "related-cases",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        },
+        {
+          "id": "featured-verticals-block",
+          "edsBlockName": "featured-verticals-block",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        },
+        {
+          "id": "registration-form",
+          "edsBlockName": "registration-form",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-aviso-legal",
+      "path": "/es-es/aviso-legal",
+      "templateId": "es-es-aviso-legal",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "masthead-big-title",
+          "edsBlockName": "masthead-big-title"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "es-es-politica-de-cookies",
+      "path": "/es-es/politica-de-cookies",
+      "templateId": "es-es-aviso-legal",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-big-title",
+          "edsBlockName": "masthead-big-title",
+          "convertedBy": "es-es-aviso-legal"
+        }
+      ]
+    },
+    {
+      "slug": "es-es-politica-privacidad",
+      "path": "/es-es/politica-privacidad",
+      "templateId": "es-es-aviso-legal",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-big-title",
+          "edsBlockName": "masthead-big-title",
+          "convertedBy": "es-es-aviso-legal"
+        }
+      ]
+    },
+    {
+      "slug": "fabric-real-time-intelligence",
+      "path": "/fabric-real-time-intelligence",
+      "templateId": "es-es-aviso-legal",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "masthead-big-title",
+          "edsBlockName": "masthead-big-title",
+          "convertedBy": "es-es-aviso-legal"
+        }
+      ]
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "quote-block",
+          "edsBlockName": "quote-block"
+        },
+        {
+          "id": "homepage-cta-block",
+          "edsBlockName": "homepage-cta-block"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "hero-block",
+          "edsBlockName": "hero-block",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        },
+        {
+          "id": "featured-verticals-block",
+          "edsBlockName": "featured-verticals-block",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        }
+      ]
+    },
+    {
+      "slug": "es-es",
+      "path": "/es-es",
+      "templateId": "index",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-block",
+          "edsBlockName": "hero-block",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        },
+        {
+          "id": "quote-block",
+          "edsBlockName": "quote-block",
+          "convertedBy": "index"
+        },
+        {
+          "id": "homepage-cta-block",
+          "edsBlockName": "homepage-cta-block",
+          "convertedBy": "index"
+        },
+        {
+          "id": "featured-verticals-block",
+          "edsBlockName": "featured-verticals-block",
+          "convertedBy": "es-es-la-empresa-inteligente-operar"
+        }
+      ]
+    }
+  ]
+}

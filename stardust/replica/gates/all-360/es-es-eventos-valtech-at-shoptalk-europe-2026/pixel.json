@@ -1,0 +1,66 @@
+{
+  "a": "stardust/replica/gates/all-360/es-es-eventos-valtech-at-shoptalk-europe-2026/origin.png",
+  "b": "stardust/replica/gates/all-360/es-es-eventos-valtech-at-shoptalk-europe-2026/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3685,
+    "mode": "overlap"
+  },
+  "heightDelta": -5,
+  "differingPixels": 60523,
+  "pct": 4.56,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/es-es-eventos-valtech-at-shoptalk-europe-2026/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 10.19,
+  "textBoxes": 74,
+  "textPixels": 335075,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 10
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 5.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 6.7
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 4.7
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 4.9
+    },
+    {
+      "y0": 3500,
+      "y1": 3685,
+      "pct": 2.1
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/eventos/valtech-at-shoptalk-europe-2026"
+  }
+}

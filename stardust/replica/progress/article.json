@@ -1,0 +1,50 @@
+{
+  "type": "article",
+  "slug": "es-es-blog-la-era-de-los-agentes-de-ia",
+  "liveUrl": "https://www.valtech.com/es-es/blog/la-era-de-los-agentes-de-ia/",
+  "prototype": "stardust/prototypes/es-es-blog-la-era-de-los-agentes-de-ia-proposed.html",
+  "css": ["stardust/prototypes/css/canon.css", "stardust/prototypes/css/article.css"],
+  "js": ["stardust/prototypes/js/chrome.js", "stardust/prototypes/js/article.js"],
+  "regime": "prototype",
+  "iterations": { "1440": 3, "360": 3 },
+  "gates": {
+    "1440": { "pixel": "0.01%", "heightDelta": 0, "contentDiff": "0 🔴 · 0 nothing-lost 🟡", "visualDiff": "0 flags", "clip": 0, "overflow": "ok", "chromeParity": "✓", "chromeCrops": { "header": "100.00%", "footer": "100.00%" }, "units": "PASS 6 units (iter3)", "evidence": "stardust/replica/gates/es-es-blog-la-era-de-los-agentes-de-ia-1440/verdict-iter3.json" },
+    "360": { "pixel": "0.02%", "heightDelta": 0, "contentDiff": "0 🔴 · 0 nothing-lost 🟡", "visualDiff": "0 flags", "clip": 0, "overflow": "ok", "chromeParity": "✓", "chromeCrops": { "header": "100.00%", "footer": "100.00%" }, "units": "PASS 6 units (iter3)", "evidence": "stardust/replica/gates/es-es-blog-la-era-de-los-agentes-de-ia-360/verdict-iter3.json" }
+  },
+  "capProbe": "PASS (2560: 0 of 3 rows failed — stardust/replica/gates/es-es-blog-la-era-de-los-agentes-de-ia-2560/cap-iter.json)",
+  "residuals": [],
+  "captureState": [
+    { "zone": "contact band Marketo form 7474 (es)", "gate": "rendered statically in its post-load state (Spanish labels/options from the loaded form on es-es-blog-presentamos-el-muro-de-datos-b2b; canon form structure)", "restoreAtDelivery": "Marketo forms2 embed of form 7474 (munchkin 353-SAE-487)", "implementedInPrototype": false },
+    { "zone": "image-block.slide-fade-in (agent-readiness ladder)", "gate": "revealed by scroll (IntersectionObserver → .played) during stitched capture on both sides", "restoreAtDelivery": "same scroll reveal", "implementedInPrototype": true }
+  ],
+  "liftNotes": [
+    "markup re-authored from the captured DOM through an attribute whitelist (stardust/.work/replica/article/tools/extract.py + assemble.py): js-* hooks, data-*, button-animation span.before/.after and tracking attrs dropped; schema.org breadcrumb <meta itemprop=position> kept (their trailing whitespace yields the source's 'inicio /' spacing)",
+    "authored inline styles kept verbatim: hero images filter brightness(80%) (+ blur(20px) on bg and shadow copy) and the closing CTA p text-align:center — CMS per-content values, not stylesheet rules",
+    "every article.css value lifted from main.css (css-rules.mjs) in source order: site-breadcrumbs, base-*-indent, .section/.section__container.centralized, .text-content, masthead-blurred, rte-block, image-block, author-details, site-nav progress, features-showcase, highlighted-cta-block, teaser-block-unu, expandable-faq-block, button--primary-hollow",
+    "Spanish chrome from the article's own capture (nav labels/overview/locations, side tab 'Contáctanos', contact band copy, footer with one stamp + icon-linkedin); modals reused English as on the live es page",
+    "new sprite subset img/article-sprite.svg (icon-arrow-right, icon-linkedin, icon-minus-thin, icon-plus-thin, icon-whitepaper) from the live /public/dist/img/img.svg; canon sprite untouched",
+    "images: 1x renditions of the source srcsets rehosted under media/es-es-blog-la-era-de-los-agentes-de-ia/, same <source media> conditions; footer stamp reuses media/index/badge-no-outline.png",
+    "units.json declared: features-showcase-item ×4, author-details ×2"
+  ],
+  "motion": {
+    "observed": ["header ready-to-fixed-menu / fixed-menu on scroll", "image-block .slide-fade-in → .played on scroll", "FAQ 'Ver más' → ul.expandable-faq-block__list.is-visible", "FAQ <details> plus/minus icon transitions .3s", "hover: highlighted-cta btn--ocean fill .2s, teaser image brightness .32s", "Marketo form hydration classes + 1 s fade-in"],
+    "implemented": ["header morph (chrome.js)", "slide-fade-in reveal (article.js, .3s opacity)", "FAQ list toggle (article.js) + native details icon transitions (CSS)", "hover states (CSS); button--primary-hollow hover rendered as the end state of the source's JS wipe (ocean fill, white label)"],
+    "dead": ["Marketo hydration classes (mktoForm, convertedField, mkto-input-group, singleCol, control-checkbox, visible-label, hide) and the 1 s form fade-in — static form rendered post-load", "button-animation span.before/.after wipe (JS-injected; probe saw no self change on .button--primary-hollow)", "#progressBar reading progress (< 64rem; stays .hide in the observed run)"]
+  },
+  "blocks": [
+    { "section": "nav.site-nav + side tab + modals", "block": "header (fragment)", "variant": "es" },
+    { "section": "div.site-breadcrumbs", "block": "breadcrumbs", "variant": "default" },
+    { "section": "section.masthead-blurred", "block": "hero-blurred", "variant": "light text" },
+    { "section": "div.author-details ×2", "block": "author", "variant": "default" },
+    { "section": "section.rte-block (intro, jump links, body copy)", "block": "default content (section metadata: rte, indents)", "variant": "text-content" },
+    { "section": "section.features-showcase.dark-theme", "block": "features-showcase", "variant": "dark" },
+    { "section": "section.highlighted-cta-block.blue-theme ×2", "block": "highlighted-cta", "variant": "blue" },
+    { "section": "div.image-block.slide-fade-in", "block": "image", "variant": "reveal" },
+    { "section": "div.teaser-block-unu--dark", "block": "teaser", "variant": "dark" },
+    { "section": "section.expandable-faq-block.white-theme", "block": "faq", "variant": "expandable" },
+    { "section": "div.contact-us-form", "block": "contact-form (marketo-form)", "variant": "band (es, form 7474)" },
+    { "section": "footer.site-footer", "block": "footer (fragment)", "variant": "es" }
+  ],
+  "canon": { "owner": false, "frozen": true, "doc": "stardust/prototypes/css/CANON.md", "requestsFiled": 1 },
+  "verdict": "pass"
+}

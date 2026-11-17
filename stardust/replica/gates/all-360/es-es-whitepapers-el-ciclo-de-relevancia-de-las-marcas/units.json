@@ -1,0 +1,1101 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-13T20:58:32.779Z",
+  "tol": 4,
+  "n": 6,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/es-es/whitepapers/el-ciclo-de-relevancia-de-las-marcas/",
+  "at": "2026-11-13T20:57:45.123Z",
+  "docH": 11371
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/es-es/whitepapers/el-ciclo-de-relevancia-de-las-marcas",
+  "at": "2026-11-13T20:58:32.568Z",
+  "docH": 11352
+ },
+ "results": [
+  {
+   "sel": ".features-showcase__item=.features-showcase-item",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  },
+  {
+   "sel": ".two-columns__item__text=.two-columns-item-text",
+   "family": null,
+   "required": true,
+   "originMatches": 1,
+   "edsMatches": 1,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+     },
+     "eds": {
+      "path": "div.two-columns-item > div.two-columns-item-column > div.two-columns-item-text"
+     },
+     "rows": [
+      {
+       "key": "text:la herramienta de inteligencia propia de",
+       "role": "text",
+       "text": "la herramienta de inteligencia propia de valtech combina dat",
+       "edsText": "la herramienta de inteligencia propia de valtech combina dat",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 308,
+        "h": 178
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 179,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:al combinarla con los datos de búsqueda ",
+       "role": "text",
+       "text": "al combinarla con los datos de búsqueda e ia de adobe brand ",
+       "edsText": "al combinarla con los datos de búsqueda e ia de adobe brand ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 203,
+        "w": 303,
+        "h": 88
+       },
+       "eds": {
+        "x": 0,
+        "y": 203,
+        "w": 312,
+        "h": 90,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 9,
+       "dh": 2,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.button.button--primary-hollow",
+       "text": "descúbrelo",
+       "boxed": true,
+       "x": 0,
+       "y": 317,
+       "w": 190,
+       "h": 59,
+       "absY": 4545,
+       "hidden": false,
+       "fs": 18,
+       "lh": 27,
+       "fw": "300",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "relative",
+       "key": "link:descúbrelo"
+      },
+      {
+       "role": "box",
+       "tag": "span",
+       "sel": "span.after",
+       "text": "",
+       "boxed": true,
+       "x": -193,
+       "y": 317,
+       "w": 192,
+       "h": 59,
+       "absY": 4545,
+       "hidden": true,
+       "fs": 18,
+       "lh": 27,
+       "fw": "300",
+       "color": "rgb(255, 255, 255)",
+       "bg": "rgb(255, 255, 255)",
+       "position": "absolute",
+       "key": "box:span.after#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 4228,
+       "w": 312,
+       "h": 376
+      },
+      "eds": {
+       "x": 24,
+       "y": 4129,
+       "w": 312,
+       "h": 293
+      },
+      "dx": 0,
+      "dy": -99,
+      "dw": 0,
+      "dh": -83
+     },
+     "summary": {
+      "elements": 4,
+      "within": 1,
+      "off": 1,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": true
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".partners-block__section.inline .partners-block__logo=.partners-block-section.inline .partners-block-logo",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  },
+  {
+   "sel": ".podcast-speakers__info=.podcast-speakers-info",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  },
+  {
+   "sel": ".faq-block__list__item:nth-child(-n+5)=.faq-block-list-item:nth-child(-n+5)",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "eds": {
+      "path": "section.faq-block-container > ul.faq-block-list > li.faq-block-list-item"
+     },
+     "rows": [
+      {
+       "key": "heading:¿cuál es la diferencia entre aparecer en",
+       "role": "heading",
+       "text": "¿cuál es la diferencia entre aparecer en la ia y que esta te",
+       "edsText": "¿cuál es la diferencia entre aparecer en la ia y que esta te",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 72
+       },
+       "eds": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 72,
+        "sel": "h3#cuál-es-la-diferencia-entre-aparecer-en-la-ia-y-que-esta-te-recomiende",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 311,
+        "y": 40,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 311,
+        "y": 40,
+        "w": 25,
+        "h": 25,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "box:div.faq-block__list__item__description.text-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 104,
+        "w": 360,
+        "h": 241
+       },
+       "eds": {
+        "x": 0,
+        "y": 104,
+        "w": 360,
+        "h": 241,
+        "sel": "div.faq-block-list-item-description.text-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:la visibilidad en ia indica si tu marca ",
+       "role": "text",
+       "text": "la visibilidad en ia indica si tu marca aparece en una respu",
+       "edsText": "la visibilidad en ia indica si tu marca aparece en una respu",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 129,
+        "w": 310,
+        "h": 178
+       },
+       "eds": {
+        "x": 24,
+        "y": 129,
+        "w": 312,
+        "h": 179,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 2,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 8726,
+       "w": 360,
+       "h": 346
+      },
+      "eds": {
+       "x": 0,
+       "y": 8619,
+       "w": 360,
+       "h": 346
+      },
+      "dx": 0,
+      "dy": -107,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "eds": {
+      "path": "section.faq-block-container > ul.faq-block-list > li.faq-block-list-item"
+     },
+     "rows": [
+      {
+       "key": "heading:¿qué señales merecen atención?",
+       "role": "heading",
+       "text": "¿qué señales merecen atención?",
+       "edsText": "¿qué señales merecen atención?",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48
+       },
+       "eds": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48,
+        "sel": "h3#qué-señales-merecen-atención",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "box:div.faq-block__list__item__description.text-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 241
+       },
+       "eds": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 241,
+        "sel": "div.faq-block-list-item-description.text-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:una señal merece atención cuando muestra",
+       "role": "text",
+       "text": "una señal merece atención cuando muestra un impulso real, se",
+       "edsText": "una señal merece atención cuando muestra un impulso real, se",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 105,
+        "w": 311,
+        "h": 178
+       },
+       "eds": {
+        "x": 24,
+        "y": 105,
+        "w": 312,
+        "h": 179,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 1,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 9072,
+       "w": 360,
+       "h": 81
+      },
+      "eds": {
+       "x": 0,
+       "y": 8964,
+       "w": 360,
+       "h": 81
+      },
+      "dx": 0,
+      "dy": -108,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "eds": {
+      "path": "section.faq-block-container > ul.faq-block-list > li.faq-block-list-item"
+     },
+     "rows": [
+      {
+       "key": "heading:¿todas las carencias de visibilidad en i",
+       "role": "heading",
+       "text": "¿todas las carencias de visibilidad en ia requieren cambios ",
+       "edsText": "¿todas las carencias de visibilidad en ia requieren cambios ",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 72
+       },
+       "eds": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 72,
+        "sel": "h3#todas-las-carencias-de-visibilidad-en-ia-requieren-cambios-tecnológicos",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 311,
+        "y": 40,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 311,
+        "y": 40,
+        "w": 25,
+        "h": 25,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "box:div.faq-block__list__item__description.text-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 104,
+        "w": 360,
+        "h": 446
+       },
+       "eds": {
+        "x": 0,
+        "y": 104,
+        "w": 360,
+        "h": 446,
+        "sel": "div.faq-block-list-item-description.text-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:no. algunas carencias de visibilidad en ",
+       "role": "text",
+       "text": "no. algunas carencias de visibilidad en ia pueden resolverse",
+       "edsText": "no. algunas carencias de visibilidad en ia pueden resolverse",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 129,
+        "w": 312,
+        "h": 200
+       },
+       "eds": {
+        "x": 24,
+        "y": 129,
+        "w": 312,
+        "h": 202,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 2,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:a veces, el obstáculo ni siquiera es tec",
+       "role": "text",
+       "text": "a veces, el obstáculo ni siquiera es tecnológico, sino el fl",
+       "edsText": "a veces, el obstáculo ni siquiera es tecnológico, sino el fl",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 343,
+        "w": 283,
+        "h": 88
+       },
+       "eds": {
+        "x": 24,
+        "y": 343,
+        "w": 312,
+        "h": 90,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 29,
+       "dh": 2,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:la clave está en saber si hay que mejora",
+       "role": "text",
+       "text": "la clave está en saber si hay que mejorar la capa de entrega",
+       "edsText": "la clave está en saber si hay que mejorar la capa de entrega",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 446,
+        "w": 306,
+        "h": 66
+       },
+       "eds": {
+        "x": 24,
+        "y": 446,
+        "w": 312,
+        "h": 67,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 6,
+       "dh": 1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 9153,
+       "w": 360,
+       "h": 105
+      },
+      "eds": {
+       "x": 0,
+       "y": 9045,
+       "w": 360,
+       "h": 105
+      },
+      "dx": 0,
+      "dy": -108,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 4,
+      "off": 2,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "eds": {
+      "path": "section.faq-block-container > ul.faq-block-list > li.faq-block-list-item"
+     },
+     "rows": [
+      {
+       "key": "heading:¿esto también se aplica a las marcas que",
+       "role": "heading",
+       "text": "¿esto también se aplica a las marcas que no se dirigen al co",
+       "edsText": "¿esto también se aplica a las marcas que no se dirigen al co",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 96
+       },
+       "eds": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 96,
+        "sel": "h3#esto-también-se-aplica-a-las-marcas-que-no-se-dirigen-al-consumidor-final",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 311,
+        "y": 52,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 311,
+        "y": 52,
+        "w": 25,
+        "h": 25,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "box:div.faq-block__list__item__description.text-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 128,
+        "w": 360,
+        "h": 219
+       },
+       "eds": {
+        "x": 0,
+        "y": 128,
+        "w": 360,
+        "h": 219,
+        "sel": "div.faq-block-list-item-description.text-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:sí. los compradores b2b buscan proveedor",
+       "role": "text",
+       "text": "sí. los compradores b2b buscan proveedores con ia, igual que",
+       "edsText": "sí. los compradores b2b buscan proveedores con ia, igual que",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 153,
+        "w": 311,
+        "h": 155
+       },
+       "eds": {
+        "x": 24,
+        "y": 153,
+        "w": 312,
+        "h": 157,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 1,
+       "dh": 2,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 9258,
+       "w": 360,
+       "h": 129
+      },
+      "eds": {
+       "x": 0,
+       "y": 9150,
+       "w": 360,
+       "h": 129
+      },
+      "dx": 0,
+      "dy": -108,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "eds": {
+      "path": "section.faq-block-container > ul.faq-block-list > li.faq-block-list-item"
+     },
+     "rows": [
+      {
+       "key": "heading:¿por dónde debería empezar una marca?",
+       "role": "heading",
+       "text": "¿por dónde debería empezar una marca?",
+       "edsText": "¿por dónde debería empezar una marca?",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48
+       },
+       "eds": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48,
+        "sel": "h3#por-dónde-debería-empezar-una-marca",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "box:div.faq-block__list__item__description.text-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 151
+       },
+       "eds": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 151,
+        "sel": "div.faq-block-list-item-description.text-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:por la pregunta a la que hoy no pueda re",
+       "role": "text",
+       "text": "por la pregunta a la que hoy no pueda responder con segurida",
+       "edsText": "por la pregunta a la que hoy no pueda responder con segurida",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 105,
+        "w": 308,
+        "h": 88
+       },
+       "eds": {
+        "x": 24,
+        "y": 105,
+        "w": 312,
+        "h": 90,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": 2,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 9387,
+       "w": 360,
+       "h": 81
+      },
+      "eds": {
+       "x": 0,
+       "y": 9279,
+       "w": 360,
+       "h": 81
+      },
+      "dx": 0,
+      "dy": -108,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 6,
+  "within": 21,
+  "off": 3,
+  "hidden": 0,
+  "missing": 2,
+  "errors": 3,
+  "requiredOff": 5
+ }
+}

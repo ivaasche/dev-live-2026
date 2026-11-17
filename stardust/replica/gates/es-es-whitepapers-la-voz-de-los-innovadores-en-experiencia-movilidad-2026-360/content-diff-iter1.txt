@@ -1,0 +1,75 @@
+[live-session] waiting to pace live navigations to www.valtech.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 538 ms
+
+Content diff @ 360px (profile "generic", roots: main.site-content, header, footer)
+root "main.site-content"
+  source: 334 text nodes — 4 headings, 0 eyebrows, 7 CTAs, 323 body; 2 img
+  build: 368 text nodes — 4 headings, 0 eyebrows, 7 CTAs, 357 body; 3 img
+  editable texts (outermost h*/p/ul/ol): source 18 / build 18
+  attributes (placeholder/aria-label/title): source 11 / build 11; icons: source 1 / build 1
+root "header"
+  source: 1 text nodes — 1 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 1 text nodes — 1 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root "footer"
+  source: 11 text nodes — 0 headings, 0 eyebrows, 10 CTAs, 1 body; 1 img
+  build: 11 text nodes — 0 headings, 0 eyebrows, 10 CTAs, 1 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 2
+  attributes (placeholder/aria-label/title): source 6 / build 6; icons: source 7 / build 7
+
+Findings: 54 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 7 · accepted 🟢 0 (owner 0, auto 0) · advisory 47
+  🟡 MISSING BODY [main.site-content]: source body "Este sitio está protegido por CAPTCHA y se aplic"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main.site-content]: source body "y los"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main.site-content]: source body "de uso de Friendly Captcha."… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA [main.site-content]: build body "Competing in" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "a software-deﬁned era" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "Mobility 2026" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "The Voice of Experience" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "Innovators" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "Executive summary" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "The customer expectations that drive experience" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "initiatives" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "Why do OEMs struggle with experience innovation?" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "What are executives focused on?" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "The frontiers of growth: AI and SDVs" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "The new operating system in mobility" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "Conclusion" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "About the survey" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "3" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "6" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "12" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "18" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "28" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "40" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "46" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "49" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "00" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "01" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "02" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "03" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "04" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "05" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "06" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "07" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "2" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "The Voice of Experience Innovators: Mobility 202" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "Executive summary" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "00" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "3" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "The Voice of Experience Innovators: Mobility 202" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main.site-content]: build body "Este sitio está protegido por CAPTCHA y se aplic" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 MISSING ARIA-LABEL [main.site-content]: source <div> aria-label="Page ⁨1⁩" has no build <div> with that aria-label (build <div> aria-labels: "Page 1", "Page 2", "Page 3"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main.site-content]: source <div> aria-label="Page ⁨2⁩" has no build <div> with that aria-label (build <div> aria-labels: "Page 1", "Page 2", "Page 3"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main.site-content]: source <div> aria-label="Page ⁨3⁩" has no build <div> with that aria-label (build <div> aria-labels: "Page 1", "Page 2", "Page 3"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main.site-content]: source <div> aria-label="Page ⁨4⁩" has no build <div> with that aria-label (build <div> aria-labels: "Page 1", "Page 2", "Page 3"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main.site-content]: source <div> aria-label="Page ⁨5⁩" has no build <div> with that aria-label (build <div> aria-labels: "Page 1", "Page 2", "Page 3"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main.site-content]: source <div> aria-label="Page ⁨6⁩" has no build <div> with that aria-label (build <div> aria-labels: "Page 1", "Page 2", "Page 3"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main.site-content]: source <div> aria-label="Page ⁨7⁩" has no build <div> with that aria-label (build <div> aria-labels: "Page 1", "Page 2", "Page 3"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [main.site-content]: build <div> aria-label="Page 1" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main.site-content]: build <div> aria-label="Page 2" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main.site-content]: build <div> aria-label="Page 3" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main.site-content]: build <div> aria-label="Page 4" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main.site-content]: build <div> aria-label="Page 5" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main.site-content]: build <div> aria-label="Page 6" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main.site-content]: build <div> aria-label="Page 7" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

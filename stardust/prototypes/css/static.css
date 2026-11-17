@@ -1,0 +1,62 @@
+/* valtech.com replica — static archetype (legal/policy pages; /es-es/aviso-legal/)
+   Imports canon.css first (tokens, chrome, type ramp, buttons, contact band, footer).
+   Every value below is lifted from the source's /public/dist/css/main.css (offsets in
+   stardust/replica/progress/static.json liftNotes); source rule order is kept per module.
+   Shared article modules (breadcrumbs, text-content, rte-block) are re-declared here from
+   the same source rules — another archetype's file is never imported. */
+
+/* ---------- breadcrumbs ---------- */
+.site-breadcrumbs { padding-bottom: 1.5rem; padding-top: .5rem; position: relative; z-index: 2; }
+@media (min-width: 58.75rem) { .site-breadcrumbs { padding-bottom: 2.5rem; padding-top: 1.5rem; } }
+.site-breadcrumbs__container { padding: 0 1.5rem; }
+@media (min-width: 64rem) { .site-breadcrumbs__container { margin-right: 64px; } }
+@media (min-width: 120.001rem) { .site-breadcrumbs__container { margin: 0 auto; max-width: 84vw; padding: 0; } }
+.site-breadcrumbs__list { text-transform: lowercase; }
+.site-breadcrumbs__list ul { display: flex; flex-wrap: wrap; }
+.site-breadcrumbs__list__item { font-size: 1rem; }
+.site-breadcrumbs__list__item a { color: var(--c-ocean); text-decoration: underline; }
+.site-breadcrumbs__list__item a:hover { text-decoration: none; }
+.site-breadcrumbs__list__item a:focus { background-color: #000; color: #fff; outline: none; padding: .1875rem 0; text-decoration-thickness: .125rem; }
+.site-breadcrumbs__list__item a:focus:not(:focus-visible) { background-color: transparent; color: #000; padding: 0; text-decoration-thickness: .0625rem; }
+.site-breadcrumbs__list__item:not(:first-child)::before { content: "\00a0/"; } /* source @306548 is U+00A0 + "/" (not a plain space) */
+
+/* ---------- utilities ---------- */
+.base-top-indent { margin-top: 2.5rem; }
+@media (min-width: 58.75rem) { .base-top-indent { margin-top: 5rem; } }
+.base-bottom-indent { margin-bottom: 2.5rem; }
+@media (min-width: 58.75rem) { .base-bottom-indent { margin-bottom: 5rem; } }
+
+/* ---------- text-content (rich text) ---------- */
+.text-content h2 { margin-bottom: 1rem; }
+@media (min-width: 58.75rem) { .text-content h2 { margin-bottom: 2rem; } }
+.text-content h6, .text-content p { margin-bottom: .8em; }
+.text-content ol, .text-content p, .text-content ul { max-width: 38em; }
+.text-content ol + h2, .text-content p + h2, .text-content ul + h2 { margin-top: 3.75rem; }
+.text-content li { font-size: 1.5vw; font-weight: 300; line-height: 1.4; }
+@media (max-width: 1066.6666666667px) { .text-content li { font-size: 16px; } }
+@media (min-width: 1333.3333333333px) { .text-content li { font-size: 20px; } }
+.text-content a:not(.button) { text-decoration: underline; }
+.text-content a:not(.button):hover { text-decoration: none; }
+.text-content ol, .text-content ul { line-height: 1.4; margin: 0 0 .8em; padding-left: 1.25rem; }
+.text-content ol li + li, .text-content ul li + li { margin-top: .8rem; }
+.text-content h4 { margin-bottom: .4em; } /* @33109 */
+.text-content ol + h4, .text-content p + h4, .text-content ul + h4 { margin-top: 3.75rem; } /* @33453 */
+
+/* ---------- masthead-big-title (page title) @77492–78071 ---------- */
+.masthead-big-title__container { position: relative; }
+@media (min-width: 58.75rem) { .masthead-big-title__container { margin: 0 auto; width: 84vw; } }
+.masthead-big-title__text { color: #000; padding: 2.5rem; text-align: center; }
+@media (min-width: 58.75rem) { .masthead-big-title__text { padding: 6.25rem 7.5rem; } }
+.masthead-big-title__text__title { display: inline-block; font-size: 5vw; }
+@media (max-width: 600px) { .masthead-big-title__text__title { font-size: 30px; } }
+@media (min-width: 1600px) { .masthead-big-title__text__title { font-size: 80px; } }
+
+/* ---------- rte-block ---------- */
+.rte-block:last-of-type { margin-bottom: 2.5rem; }
+@media (min-width: 58.75rem) { .rte-block:last-of-type { margin-bottom: 5rem; } }
+@media (max-width: 58.749rem) { .rte-block__container { padding: 0 1.5rem; } }
+@media (min-width: 58.75rem) { .rte-block__container { margin: 0 auto; max-width: 50.625rem; } }
+.rte-block__container:last-child p:not(.lead):last-child { margin-bottom: 0; }
+.rte-block ol, .rte-block p, .rte-block ul { font-size: 1.5vw; }
+@media (max-width: 1066.6666666667px) { .rte-block ol, .rte-block p, .rte-block ul { font-size: 16px; } }
+@media (min-width: 1333.3333333333px) { .rte-block ol, .rte-block p, .rte-block ul { font-size: 20px; } }

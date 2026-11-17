@@ -1,0 +1,22 @@
+
+Content diff @ 360px (profile "generic", roots: main.site-content, header, footer)
+root "main.site-content"
+  source: 372 text nodes — 19 headings, 0 eyebrows, 15 CTAs, 338 body; 15 img
+  build: 372 text nodes — 19 headings, 0 eyebrows, 15 CTAs, 338 body; 15 img
+  editable texts (outermost h*/p/ul/ol): source 23 / build 23
+  attributes (placeholder/aria-label/title): source 8 / build 9; icons: source 12 / build 12
+root "header"
+  source: 1 text nodes — 1 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 1 text nodes — 1 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root "footer"
+  source: 11 text nodes — 0 headings, 0 eyebrows, 10 CTAs, 1 body; 1 img
+  build: 11 text nodes — 0 headings, 0 eyebrows, 10 CTAs, 1 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 2
+  attributes (placeholder/aria-label/title): source 6 / build 6; icons: source 7 / build 7
+
+Findings: 2 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 2
+  🟡 EXTRA ARIA-LABEL [main.site-content]: build <button> aria-label="Cerrar" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 ICON MOVED [main.site-content]: source inline svg #icon-close (0×0) at "button#1" is at "cerrar" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.

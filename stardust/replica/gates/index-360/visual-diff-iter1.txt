@@ -1,0 +1,1079 @@
+[live-session] waiting to pace live navigations to www.valtech.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/index-360/vdiff-iter1/
+
+build red flags (advisory): 
+  • HEADING FACE: <h2> "Unlock trapped value in your bus" is 44px Liberation Sans in build vs 44px ValtechNeue in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Valtech OneacceleratesAI adoptio" is 48px Liberation Sans in build vs 48px ValtechNeue in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Lexus AI Concierge" is 48px Liberation Sans in build vs 48px ValtechNeue in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Best Workplacesfor Innovators" is 48px Liberation Sans in build vs 48px ValtechNeue in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h1> "We’re the experience innovation " is 32px Liberation Sans in build vs 32px ValtechNeue in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Our work" is 28px Liberation Sans in build vs 28px ValtechNeue in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Eton Shirts: The Index Shirt" is 20px Liberation Sans in build vs 20px Soehne in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "$75 million+ for Discover. Unloc" is 20px Liberation Sans in build vs 20px Soehne in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "The Lexus AI concierge" is 20px Liberation Sans in build vs 20px Soehne in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Mandarin Oriental" is 20px Liberation Sans in build vs 20px Soehne in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Enterprise D2C reinvented for Ma" is 20px Liberation Sans in build vs 20px Soehne in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Start the conversation" is 28px Liberation Sans in build vs 28px ValtechNeue in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Our partners" is 28px Liberation Sans in build vs 28px ValtechNeue in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Featured Verticals" is 28px Liberation Sans in build vs 28px ValtechNeue in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Mobility" is 32px Liberation Sans in build vs 32px ValtechNeue in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Luxury" is 32px Liberation Sans in build vs 32px ValtechNeue in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Retail" is 32px Liberation Sans in build vs 32px ValtechNeue in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "CPG" is 32px Liberation Sans in build vs 32px ValtechNeue in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Financial services" is 32px Liberation Sans in build vs 32px ValtechNeue in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Health" is 32px Liberation Sans in build vs 32px ValtechNeue in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Manufacturing" is 32px Liberation Sans in build vs 32px ValtechNeue in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Travel & Hospitality" is 32px Liberation Sans in build vs 32px ValtechNeue in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Agriculture" is 32px Liberation Sans in build vs 32px ValtechNeue in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "New Space" is 32px Liberation Sans in build vs 32px ValtechNeue in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Public Sector" is 32px Liberation Sans in build vs 32px ValtechNeue in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Work with us" is 28px Liberation Sans in build vs 28px ValtechNeue in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • IMAGE DID NOT LOAD: financial-services-visa-sm-880x640.webp rendered 268x252 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: health-industry_gsk-virtual-clinic-880x640.webp rendered 268x252 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: manufacturing-connected-warehouse-sm-880x640.webp rendered 268x252 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: travel-easyjet-airport-sm-880x640.webp rendered 268x252 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: agriculture-drone-sm-880x640.webp rendered 268x252 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: new-space-sm-880x640.webp rendered 268x252 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: public-sector-sm-880x640.webp rendered 268x252 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 4289,
+  "textLen": 1527,
+  "images": [
+   {
+    "src": "hero_intelligent_enterprise_1880.jpg?width=640&height=342&rmode=min&rsampler=bicubic&compand=true&format=jpg",
+    "natural": "609x342",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero_intelligent_enterprise_866.jpg?width=440&height=316&rmode=min&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "440x316",
+    "rendered": "360x259",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero-ai-as-the-differentiator-valtech-one-mobile.png?width=440&height=316&rmode=min&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "440x316",
+    "rendered": "360x259",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero-case-study-lexus-ai-concierge-mobile.png?width=440&height=316&rmode=min&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "440x316",
+    "rendered": "360x259",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero-awards-fast-company-mobile.png?width=440&height=316&rmode=min&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "440x316",
+    "rendered": "360x259",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "retail-eton-index-shirt-mobile.png?width=600&height=350&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "600x350",
+    "rendered": "328x191",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "finance-discover-mobile.png?width=600&height=350&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "600x350",
+    "rendered": "328x191",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mobility-lexus-lbx-ai-concierge-mobile.png?width=600&height=350&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "600x350",
+    "rendered": "328x191",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "travel-mandarin-oriental-mobile.png?width=600&height=350&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "600x350",
+    "rendered": "328x191",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "retail-mars-mms-custom-mobile.png?width=600&height=350&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "600x350",
+    "rendered": "328x191",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mobility-audi-themes-sm.png?width=880&height=880&rmode=min&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "602x603",
+    "rendered": "268x268",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "luxury-showroom-experience-sm.png?width=880&height=880&rmode=min&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "602x603",
+    "rendered": "268x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "retail-levis-tailor-shop-sm.png?width=880&height=880&rmode=min&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "602x602",
+    "rendered": "268x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "cpg-danone-sm.png?width=880&height=640&rmode=min&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "0x0",
+    "rendered": "268x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "financial-services-visa-sm.png?width=880&height=640&rmode=min&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "0x0",
+    "rendered": "268x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "health-industry_gsk-virtual-clinic.jpg?width=880&height=640&rmode=min&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "0x0",
+    "rendered": "268x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "manufacturing-connected-warehouse-sm.png?width=880&height=640&rmode=min&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "0x0",
+    "rendered": "268x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "travel-easyjet-airport-sm.png?width=880&height=640&rmode=min&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "0x0",
+    "rendered": "268x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "agriculture-drone-sm.png?width=880&height=880&rmode=min&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "602x603",
+    "rendered": "268x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "new-space-sm.png?width=880&height=880&rmode=min&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "602x603",
+    "rendered": "268x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "public-sector-sm.png?width=880&height=880&rmode=min&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "602x603",
+    "rendered": "268x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "badge-no-outline.png?width=442&height=128&rmode=max&rsampler=bicubic&compand=true&format=jpg",
+    "natural": "435x128",
+    "rendered": "218x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "cdp_discloser_2026.png?width=128&height=128&rmode=max&rsampler=bicubic&compand=true&format=jpg",
+    "natural": "128x128",
+    "rendered": "64x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=c14ad471-6e5d-4571-af4b-f0875d61b2f3&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=c35b4cee-5c12-4bff-9d99-bc29f9067f3c&tw_document_href=https%3A%2F%2Fwww.valtech.com%2F&tw_engaged_ms=12&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=c14ad471-6e5d-4571-af4b-f0875d61b2f3&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=c35b4cee-5c12-4bff-9d99-bc29f9067f3c&tw_document_href=https%3A%2F%2Fwww.valtech.com%2F&tw_engaged_ms=12&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Unlock trapped value in your bus",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "44px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Valtech OneacceleratesAI adoptio",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "48px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Lexus AI Concierge",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "48px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Best Workplacesfor Innovators",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "48px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "We’re the experience innovation ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Our work",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Eton Shirts: The Index Shirt",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "$75 million+ for Discover. Unloc",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "The Lexus AI concierge",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Mandarin Oriental",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Enterprise D2C reinvented for Ma",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Start the conversation",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Our partners",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Featured Verticals",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Mobility",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Luxury",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Retail",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "CPG",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Financial services",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Health",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Manufacturing",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Travel & Hospitality",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Agriculture",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "New Space",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Public Sector",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Work with us",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [
+   {
+    "tag": "h3",
+    "text": "Retail",
+    "left": -2526
+   },
+   {
+    "tag": "p",
+    "text": "The next era of retail trans",
+    "left": -2524
+   },
+   {
+    "tag": "h3",
+    "text": "CPG",
+    "left": -2243
+   },
+   {
+    "tag": "p",
+    "text": "Unlocking growth for CPG wit",
+    "left": -2241
+   },
+   {
+    "tag": "h3",
+    "text": "Financial services",
+    "left": -1961
+   },
+   {
+    "tag": "p",
+    "text": "Building the next generation",
+    "left": -1959
+   },
+   {
+    "tag": "h3",
+    "text": "Health",
+    "left": -1678
+   },
+   {
+    "tag": "p",
+    "text": "Accelerating smarter, more h",
+    "left": -1676
+   }
+  ],
+  "contentBoxes": [
+   {
+    "sel": "hero-block__item__title",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "hero-block__item__title",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "hero-block__item__title",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "hero-block__item__title",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "quote-block__container",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "featured-case-study__item__content",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "featured-case-study__item__content",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "featured-case-study__item__content",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "featured-case-study__item__content",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "featured-case-study__item__content",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "homepage-cta-block__details",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "partners-block__text__content",
+    "width": 328,
+    "left": 16
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 4289,
+  "textLen": 1533,
+  "images": [
+   {
+    "src": "hero_intelligent_enterprise_1880-640x342.jpg",
+    "natural": "609x342",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero-ai-as-the-differentiator-valtech-one-1920x800.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero-case-study-lexus-ai-concierge-1920x800.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero-awards-fast-company-1920x800.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero_intelligent_enterprise_866-440x316.webp",
+    "natural": "440x316",
+    "rendered": "360x259",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero-ai-as-the-differentiator-valtech-one-mobile-440x316.webp",
+    "natural": "440x316",
+    "rendered": "360x259",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero-case-study-lexus-ai-concierge-mobile-440x316.webp",
+    "natural": "440x316",
+    "rendered": "360x259",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero-awards-fast-company-mobile-440x316.webp",
+    "natural": "440x316",
+    "rendered": "360x259",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "retail-eton-index-shirt-mobile-600x350.webp",
+    "natural": "600x350",
+    "rendered": "328x191",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "finance-discover-mobile-600x350.webp",
+    "natural": "600x350",
+    "rendered": "328x191",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mobility-lexus-lbx-ai-concierge-mobile-600x350.webp",
+    "natural": "600x350",
+    "rendered": "328x191",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "travel-mandarin-oriental-mobile-600x350.webp",
+    "natural": "600x350",
+    "rendered": "328x191",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "retail-mars-mms-custom-mobile-600x350.webp",
+    "natural": "600x350",
+    "rendered": "328x191",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mobility-audi-themes-sm-880x880.webp",
+    "natural": "602x603",
+    "rendered": "268x268",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "luxury-showroom-experience-sm-880x880.webp",
+    "natural": "602x603",
+    "rendered": "268x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "retail-levis-tailor-shop-sm-880x880.webp",
+    "natural": "602x602",
+    "rendered": "268x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "cpg-danone-sm-880x880.webp",
+    "natural": "602x603",
+    "rendered": "268x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "financial-services-visa-sm-880x640.webp",
+    "natural": "0x0",
+    "rendered": "268x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "health-industry_gsk-virtual-clinic-880x640.webp",
+    "natural": "0x0",
+    "rendered": "268x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "manufacturing-connected-warehouse-sm-880x640.webp",
+    "natural": "0x0",
+    "rendered": "268x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "travel-easyjet-airport-sm-880x640.webp",
+    "natural": "0x0",
+    "rendered": "268x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "agriculture-drone-sm-880x640.webp",
+    "natural": "0x0",
+    "rendered": "268x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "new-space-sm-880x640.webp",
+    "natural": "0x0",
+    "rendered": "268x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "public-sector-sm-880x640.webp",
+    "natural": "0x0",
+    "rendered": "268x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "badge-no-outline-442x128.jpg",
+    "natural": "435x128",
+    "rendered": "218x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "cdp_discloser_2026-128x128.jpg",
+    "natural": "128x128",
+    "rendered": "64x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Unlock trapped value in your bus",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "44px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Valtech OneacceleratesAI adoptio",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "48px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Lexus AI Concierge",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "48px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Best Workplacesfor Innovators",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "48px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "We’re the experience innovation ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Our work",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Eton Shirts: The Index Shirt",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "$75 million+ for Discover. Unloc",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "The Lexus AI concierge",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Mandarin Oriental",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Enterprise D2C reinvented for Ma",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Start the conversation",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Our partners",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Featured Verticals",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Mobility",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Luxury",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Retail",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "CPG",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Financial services",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Health",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Manufacturing",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Travel & Hospitality",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Agriculture",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "New Space",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Public Sector",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Work with us",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "hero-block__item__title",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "hero-block__item__title",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "hero-block__item__title",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "hero-block__item__title",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "quote-block__container",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "featured-case-study__item__content",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "featured-case-study__item__content",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "featured-case-study__item__content",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "featured-case-study__item__content",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "featured-case-study__item__content",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "homepage-cta-block__details",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "partners-block__text__content",
+    "width": 328,
+    "left": 16
+   }
+  ]
+ }
+}

@@ -1,0 +1,249 @@
+/* stylelint-disable no-descending-specificity -- source cascade order lifted verbatim */
+
+/* masthead-primary — main.css @50127–54466 (prototype css/campaign.css), values verbatim;
+   the authored title / lead / picture are styled through descendant selectors (EW2) */
+
+.masthead-primary {
+  margin: 0 0 2.5rem;
+}
+
+.masthead-primary .masthead-primary-container {
+  padding: 0 1.5rem;
+}
+
+@media (width >= 64rem) {
+  .masthead-primary .masthead-primary-container {
+    margin-right: 64px;
+  }
+}
+
+@media (width >= 120.001rem) {
+  .masthead-primary .masthead-primary-container {
+    margin: 0 auto;
+    max-width: 84vw;
+    padding: 0;
+  }
+}
+
+.masthead-primary .masthead-primary-inner {
+  position: relative;
+}
+
+.masthead-primary .masthead-primary-wrap {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+@media (width >= 58.75rem) {
+  .masthead-primary .masthead-primary-wrap {
+    flex-direction: row;
+    min-height: calc(100vh - 15.4vw);
+  }
+}
+
+.masthead-primary .masthead-primary-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  order: 2;
+  padding: 2.5rem 6vw;
+  position: relative;
+  z-index: 2;
+}
+
+@media (width >= 58.75rem) {
+  .masthead-primary .masthead-primary-text {
+    order: 1;
+    padding: 1.25rem calc(2vw + 2.5rem);
+    text-align: right;
+    width: 50%;
+  }
+}
+
+.masthead-primary .masthead-primary-text-dark {
+  background-color: #fff;
+  color: #000;
+}
+
+.masthead-primary .masthead-primary-text-dark .masthead-primary-lead {
+  color: #666;
+}
+
+.masthead-primary .masthead-primary-text-light {
+  background-color: #000;
+  color: #fff;
+}
+
+.masthead-primary .masthead-primary-hgroup {
+  margin-bottom: 1.25rem;
+}
+
+@media (width >= 58.75rem) {
+  .masthead-primary .masthead-primary-hgroup {
+    margin-bottom: 2.5rem;
+  }
+}
+
+.masthead-primary .masthead-primary-hgroup :is(h1, h2, h3) {
+  font-size: 3.5vw;
+  margin: 0;
+}
+
+@media (width <= 714.2857px) {
+  .masthead-primary .masthead-primary-hgroup :is(h1, h2, h3) {
+    font-size: 25px;
+  }
+}
+
+@media (width >= 2000px) {
+  .masthead-primary .masthead-primary-hgroup :is(h1, h2, h3) {
+    font-size: 70px;
+  }
+}
+
+/* variant `title-break`: the source title's two trailing newlines under white-space: pre-line
+   (>= 58.75rem) — one extra empty line box after the title; collapsed below 58.75rem */
+@media (width >= 58.75rem) {
+  .masthead-primary.title-break .masthead-primary-hgroup :is(h1, h2, h3)::after {
+    content: "\A\A";
+    white-space: pre;
+  }
+}
+
+@media (width >= 105rem) {
+  .masthead-primary .masthead-primary-hgroup :is(h1, h2, h3) {
+    font-size: 4.5vw;
+  }
+}
+
+@media (width >= 105rem) and (width >= 1777.7778px) {
+  .masthead-primary .masthead-primary-hgroup :is(h1, h2, h3) {
+    font-size: 80px;
+  }
+}
+
+.masthead-primary .masthead-primary-lead {
+  font-size: 2vw;
+  font-weight: 300;
+  letter-spacing: -.0625rem;
+  line-height: 1.5;
+}
+
+@media (width <= 800px) {
+  .masthead-primary .masthead-primary-lead {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1500px) {
+  .masthead-primary .masthead-primary-lead {
+    font-size: 30px;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .masthead-primary .masthead-primary-lead {
+    align-self: flex-end;
+    width: 100%;
+  }
+}
+
+@media (width >= 64rem) {
+  .masthead-primary .masthead-primary-lead {
+    width: 90%;
+  }
+}
+
+@media (width >= 76.25rem) {
+  .masthead-primary .masthead-primary-lead {
+    width: 80%;
+  }
+}
+
+.masthead-primary .masthead-primary-lead p {
+  font-weight: 300;
+  margin: 0;
+}
+
+.masthead-primary .masthead-primary-media {
+  order: 1;
+}
+
+@media (width >= 58.75rem) {
+  .masthead-primary .masthead-primary-media {
+    order: 2;
+    position: relative;
+    width: 50%;
+  }
+}
+
+.masthead-primary .masthead-primary-media picture {
+  display: block;
+}
+
+.masthead-primary .masthead-primary-media img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media (width >= 58.75rem) {
+  .masthead-primary .masthead-primary-media img {
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+}
+
+/* interim home (foundation request filed): rte-block default content on campaign pages —
+   the source centres its CTA paragraphs (authored text-align:center) and the form heading
+   section (section-metadata style `rte-block, centered`) */
+main .section.rte-block p.button-wrapper {
+  text-align: center;
+}
+
+main .section.rte-block.centered .default-content-wrapper {
+  text-align: center;
+}
+
+/* subtitle (source .masthead-primary__hgroup__subtitle, main.css; values verbatim) — the
+   heading(s) authored before the title in the leading heading run */
+.masthead-primary .masthead-primary-hgroup .masthead-primary-hgroup-subtitle {
+  font-size: 1.5vw;
+  margin-bottom: 1.25rem;
+  text-transform: uppercase;
+}
+
+@media (width <= 933.3333px) {
+  .masthead-primary .masthead-primary-hgroup .masthead-primary-hgroup-subtitle {
+    font-size: 14px;
+  }
+}
+
+@media (width >= 1333.3333px) {
+  .masthead-primary .masthead-primary-hgroup .masthead-primary-hgroup-subtitle {
+    font-size: 20px;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .masthead-primary .masthead-primary-hgroup .masthead-primary-hgroup-subtitle {
+    margin-bottom: 2.5rem;
+  }
+}
+
+/* art direction (two authored pictures): the source <picture> serves the wide crop from 520px
+   (its smallest <source> media) and the narrow fallback <img> below */
+@media (width < 520px) {
+  .masthead-primary .masthead-primary-media .masthead-primary-wide {
+    display: none;
+  }
+}
+
+@media (width >= 520px) {
+  .masthead-primary .masthead-primary-media .masthead-primary-narrow {
+    display: none;
+  }
+}

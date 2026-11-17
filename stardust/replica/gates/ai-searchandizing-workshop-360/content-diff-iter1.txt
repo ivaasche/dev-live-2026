@@ -1,0 +1,38 @@
+
+Content diff @ 360px (profile "generic", roots: main.site-content, header, footer)
+root "main.site-content"
+  source: 353 text nodes — 8 headings, 0 eyebrows, 6 CTAs, 339 body; 3 img
+  build: 351 text nodes — 8 headings, 0 eyebrows, 6 CTAs, 337 body; 3 img
+  editable texts (outermost h*/p/ul/ol): source 24 / build 24
+  attributes (placeholder/aria-label/title): source 17 / build 13; icons: source 4 / build 2
+root "header"
+  source: 1 text nodes — 1 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 1 text nodes — 1 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root "footer"
+  source: 11 text nodes — 0 headings, 0 eyebrows, 10 CTAs, 1 body; 2 img
+  build: 11 text nodes — 0 headings, 0 eyebrows, 10 CTAs, 1 body; 2 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 2
+  attributes (placeholder/aria-label/title): source 7 / build 7; icons: source 8 / build 8
+
+Findings: 18 (2 structural 🔴)
+Tiers: looks-same 🔴 2 · nothing-lost 🟡 6 · accepted 🟢 0 (owner 0, auto 0) · advisory 10
+  🔴 MISSING ICON [main.site-content]: source inline svg 0 0 100 100 / 1 shape(s) (0×0) at "previous" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [main.site-content]: source inline svg 0 0 100 100 / 1 shape(s) (0×0) at "next" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING BODY [main.site-content]: source body "This site is protected by CAPTCHA and the Friend"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main.site-content]: source body "and"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main.site-content]: source body "apply."… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA [main.site-content]: build body "This site is protected by CAPTCHA and the Friend" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 MISSING TITLE [main.site-content]: source <a> title="Download" has no build <a> with that title (build <a> titles: "LinkedIn", "LinkedIn"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main.site-content]: source <li> aria-label="Slide 1" has no build <li> with that aria-label (build <li> aria-labels: "Page dot 1", "Page dot 2", "Page dot 3"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main.site-content]: source <li> aria-label="Slide 2" has no build <li> with that aria-label (build <li> aria-labels: "Page dot 1", "Page dot 2", "Page dot 3"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main.site-content]: source <li> aria-label="Slide 3" has no build <li> with that aria-label (build <li> aria-labels: "Page dot 1", "Page dot 2", "Page dot 3"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main.site-content]: source <li> aria-label="Slide 4" has no build <li> with that aria-label (build <li> aria-labels: "Page dot 1", "Page dot 2", "Page dot 3"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main.site-content]: source <button> aria-label="Previous" has no build <button> with that aria-label (build <button> aria-labels: "Previous", "Next"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main.site-content]: source <button> aria-label="Next" has no build <button> with that aria-label (build <button> aria-labels: "Previous", "Next"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main.site-content]: source <a> title="Schedule 30-min discovery call" has no build <a> with that title (build <a> titles: "LinkedIn", "LinkedIn"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [main.site-content]: build <li> aria-label="Page dot 1" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main.site-content]: build <li> aria-label="Page dot 2" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main.site-content]: build <li> aria-label="Page dot 3" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main.site-content]: build <li> aria-label="Page dot 4" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

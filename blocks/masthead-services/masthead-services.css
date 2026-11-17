@@ -1,0 +1,180 @@
+/* masthead-services — source main.css @80714–85126 (+ .video-block inside the media panel) */
+.masthead-services {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+  padding: 0 1.5rem;
+}
+
+@media (width >= 58.75rem) {
+  .masthead-services {
+    flex-direction: row;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (width >= 64rem) {
+  .masthead-services {
+    margin-right: var(--side-col);
+  }
+}
+
+@media (width >= 120.001rem) {
+  .masthead-services {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 84vw;
+    padding: 0;
+  }
+}
+
+.masthead-services .masthead-services-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: calc(50% - 10px);
+}
+
+@media (width <= 58.749rem) {
+  .masthead-services .masthead-services-content {
+    width: 100%;
+  }
+}
+
+.masthead-services .masthead-services-title {
+  color: #000;
+  font-family: var(--font-display);
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 150%;
+  margin: 0 0 1.5rem;
+}
+
+@media (width <= 58.749rem) {
+  .masthead-services .masthead-services-title {
+    font-size: 2rem;
+    line-height: 2.3125rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.masthead-services .masthead-services-description {
+  color: #000;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-sans);
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.masthead-services .masthead-services-description p {
+  font: inherit;
+  margin: 0;
+}
+
+@media (width <= 58.749rem) {
+  .masthead-services .masthead-services-description {
+    font-size: 1rem;
+    line-height: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.masthead-services .masthead-services-media {
+  min-height: 19.5rem;
+  overflow: hidden;
+  width: calc(50% - 10px);
+}
+
+@media (width <= 76.25rem) {
+  .masthead-services .masthead-services-media {
+    min-height: 13.75rem;
+  }
+}
+
+@media (width <= 58.749rem) {
+  .masthead-services .masthead-services-media {
+    min-height: auto;
+    width: 100%;
+  }
+}
+
+.masthead-services .masthead-services-media img {
+  height: auto;
+  min-height: 100%;
+  min-width: 100%;
+  width: 100%;
+}
+
+/* linked description — source a.masthead-services_content-description-link (main.css, values
+   verbatim; offering cluster /es-es/guia-para-la-empresa-inteligente) */
+.masthead-services .masthead-services-content-description-link {
+  align-items: center;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  text-decoration: underline;
+  text-decoration-thickness: from-font;
+}
+
+.masthead-services .masthead-services-content-description-link p {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.masthead-services .masthead-services-content-arrow {
+  transition: .3s;
+}
+
+.masthead-services .masthead-services-content-arrow svg {
+  color: #000;
+  fill: currentcolor;
+  height: .5rem;
+  margin-bottom: .0625rem;
+  margin-left: .5rem;
+  transition: width .31s ease-in-out;
+  width: 1.875rem;
+}
+
+.masthead-services .masthead-services-content-description-link:hover .masthead-services-content-arrow {
+  transform: scaleX(1.3) translateX(10px);
+}
+
+@media (width <= 58.749rem) {
+  .masthead-services .masthead-services-content-description-link p {
+    font-size: 1rem;
+    line-height: 1.125rem;
+  }
+
+  .masthead-services .masthead-services-content-arrow svg {
+    color: #00c8ff;
+  }
+}
+
+/* variant `video` — the moved video-block fills the media panel (source
+   .masthead-services_media .video-block rules) */
+.masthead-services.video .masthead-services-media .video-block {
+  margin-bottom: 0;
+  min-height: 100%;
+  padding: 0 !important;
+  width: 100%;
+}
+
+/* source .masthead-services_media .video-block .video-block__container (main.css @84801–84925): the
+   player fills the media panel — no container gutter / right offset (measured: 654 x 368 at 1440) */
+.masthead-services.video .masthead-services-media .video-block .video-block-container {
+  height: 100%;
+  margin-right: 0;
+  padding: 0;
+  width: 100%;
+}
+
+@media (width <= 58.749rem) {
+  .masthead-services.video .masthead-services-media .video-block .video-block-container {
+    height: auto;
+  }
+}

@@ -1,0 +1,954 @@
+{
+  "generatedAt": "2026-11-14T09:22:09.596Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.valtech.com/",
+    "liveHost": "main--c87ac39f--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 100,
+    "prototyped": 100,
+    "deployed": 100,
+    "optimised": 31
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 69,
+    "optimised": 31
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "optimised",
+      "templateId": "index",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "ai-assessment",
+      "path": "/ai-assessment",
+      "stage": "deployed",
+      "templateId": "ai-searchandizing-workshop",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "ai-first-product-operating-model",
+      "path": "/ai-first-product-operating-model",
+      "stage": "deployed",
+      "templateId": "valtech-conversion-engine",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "ai-mythbusting",
+      "path": "/ai-mythbusting",
+      "stage": "deployed",
+      "templateId": "ai-searchandizing-workshop",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "ai-readiness-starts-here",
+      "path": "/ai-readiness-starts-here",
+      "stage": "deployed",
+      "templateId": "ai-searchandizing-workshop",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "ai-searchandizing-workshop",
+      "path": "/ai-searchandizing-workshop",
+      "stage": "deployed",
+      "templateId": "ai-searchandizing-workshop",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "b2b-portal-discovery-workshop",
+      "path": "/b2b-portal-discovery-workshop",
+      "stage": "deployed",
+      "templateId": "ai-searchandizing-workshop",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "becoming-a-connected-manufacturer",
+      "path": "/becoming-a-connected-manufacturer",
+      "stage": "deployed",
+      "templateId": "ai-searchandizing-workshop",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "brand-strategy-design-agency",
+      "path": "/brand-strategy-design-agency",
+      "stage": "deployed",
+      "templateId": "digital-media-performance-marketing",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "composable-enterprise-assessment",
+      "path": "/composable-enterprise-assessment",
+      "stage": "deployed",
+      "templateId": "ai-searchandizing-workshop",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "content-supply-chain",
+      "path": "/content-supply-chain",
+      "stage": "deployed",
+      "templateId": "valtech-conversion-engine",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "creative-content",
+      "path": "/creative-content",
+      "stage": "deployed",
+      "templateId": "digital-media-performance-marketing",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "dataprod",
+      "path": "/dataprod",
+      "stage": "deployed",
+      "templateId": "digital-media-performance-marketing",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "digital-consulting-discovery-call",
+      "path": "/digital-consulting-discovery-call",
+      "stage": "deployed",
+      "templateId": "valtech-conversion-engine",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "digital-media-performance-marketing",
+      "path": "/digital-media-performance-marketing",
+      "stage": "deployed",
+      "templateId": "digital-media-performance-marketing",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "digitalxelerate",
+      "path": "/digitalxelerate",
+      "stage": "deployed",
+      "templateId": "ai-searchandizing-workshop",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "enterprise-ai-foundations-financial-services",
+      "path": "/enterprise-ai-foundations-financial-services",
+      "stage": "deployed",
+      "templateId": "valtech-conversion-engine",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "enterprise-ai-foundations-vtiq",
+      "path": "/enterprise-ai-foundations-vtiq",
+      "stage": "deployed",
+      "templateId": "ai-searchandizing-workshop",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es",
+      "path": "/es-es/",
+      "stage": "deployed",
+      "templateId": "index",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-aviso-legal",
+      "path": "/es-es/aviso-legal",
+      "stage": "deployed",
+      "templateId": "es-es-aviso-legal",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-blog",
+      "path": "/es-es/blog",
+      "stage": "deployed",
+      "templateId": "es-es-blog",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-blog-asi-se-creo-valtech-concierge",
+      "path": "/es-es/blog/asi-se-creo-valtech-concierge",
+      "stage": "optimised",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-blog-como-marcas-locales-escalan-de-forma-diferente",
+      "path": "/es-es/blog/como-marcas-locales-escalan-de-forma-diferente",
+      "stage": "optimised",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-blog-el-geo-como-la-nueva-frontera-de-la-visibilidad-digital",
+      "path": "/es-es/blog/el-geo-como-la-nueva-frontera-de-la-visibilidad-digital",
+      "stage": "optimised",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-blog-embedding-ai-in-government-case-management",
+      "path": "/es-es/blog/embedding-ai-in-government-case-management",
+      "stage": "optimised",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-blog-estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion",
+      "path": "/es-es/blog/estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion",
+      "stage": "optimised",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-blog-ia-transforma-busquedas-y-webs-de-marca",
+      "path": "/es-es/blog/ia-transforma-busquedas-y-webs-de-marca",
+      "stage": "optimised",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "path": "/es-es/blog/la-era-de-los-agentes-de-ia",
+      "stage": "optimised",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-blog-presentamos-el-muro-de-datos-b2b",
+      "path": "/es-es/blog/presentamos-el-muro-de-datos-b2b",
+      "stage": "optimised",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-carrera",
+      "path": "/es-es/carrera",
+      "stage": "deployed",
+      "templateId": "digital-media-performance-marketing",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "es-es-casos",
+      "path": "/es-es/casos",
+      "stage": "deployed",
+      "templateId": "es-es-blog",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-casos-lexus-europa",
+      "path": "/es-es/casos/lexus-europa",
+      "stage": "optimised",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-content-hub",
+      "path": "/es-es/content-hub",
+      "stage": "deployed",
+      "templateId": "es-es-blog",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-diversidad-e-inclusion",
+      "path": "/es-es/diversidad-e-inclusion",
+      "stage": "deployed",
+      "templateId": "digital-media-performance-marketing",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-eventos",
+      "path": "/es-es/eventos",
+      "stage": "deployed",
+      "templateId": "es-es-blog",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-eventos-ai-in-retail-from-pilots-to-performanceexclusive",
+      "path": "/es-es/eventos/ai-in-retail-from-pilots-to-performanceexclusive",
+      "stage": "deployed",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-eventos-google-cloud-and-valtech-roundtable",
+      "path": "/es-es/eventos/google-cloud-and-valtech-roundtable",
+      "stage": "deployed",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-eventos-valtech-at-shoptalk-europe-2026",
+      "path": "/es-es/eventos/valtech-at-shoptalk-europe-2026",
+      "stage": "optimised",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-eventos-valtech-optimizely-at-resume-martech-2026",
+      "path": "/es-es/eventos/valtech-optimizely-at-resume-martech-2026",
+      "stage": "optimised",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-guia-para-la-empresa-inteligente",
+      "path": "/es-es/guia-para-la-empresa-inteligente",
+      "stage": "optimised",
+      "templateId": "valtech-conversion-engine",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-industrias",
+      "path": "/es-es/industrias",
+      "stage": "deployed",
+      "templateId": "digital-media-performance-marketing",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente",
+      "path": "/es-es/la-empresa-inteligente/",
+      "stage": "deployed",
+      "templateId": "es-es-la-empresa-inteligente-operar",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente-crecer",
+      "path": "/es-es/la-empresa-inteligente/crecer",
+      "stage": "deployed",
+      "templateId": "es-es-la-empresa-inteligente-operar",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente-liderar",
+      "path": "/es-es/la-empresa-inteligente/liderar",
+      "stage": "deployed",
+      "templateId": "es-es-la-empresa-inteligente-operar",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente-modelo-operativo",
+      "path": "/es-es/la-empresa-inteligente/modelo-operativo",
+      "stage": "deployed",
+      "templateId": "es-es-la-empresa-inteligente-operar",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente-operar",
+      "path": "/es-es/la-empresa-inteligente/operar",
+      "stage": "deployed",
+      "templateId": "es-es-la-empresa-inteligente-operar",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente-organizar",
+      "path": "/es-es/la-empresa-inteligente/organizar",
+      "stage": "deployed",
+      "templateId": "es-es-la-empresa-inteligente-operar",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-noticias",
+      "path": "/es-es/noticias",
+      "stage": "deployed",
+      "templateId": "es-es-blog",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-noticias-conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds",
+      "path": "/es-es/noticias/conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds",
+      "stage": "optimised",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-noticias-valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente",
+      "path": "/es-es/noticias/valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente",
+      "stage": "optimised",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-nuestros-partners",
+      "path": "/es-es/nuestros-partners",
+      "stage": "deployed",
+      "templateId": "ai-searchandizing-workshop",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-nuestros-partners-oracle",
+      "path": "/es-es/nuestros-partners/oracle",
+      "stage": "deployed",
+      "templateId": "digital-media-performance-marketing",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-podcasts",
+      "path": "/es-es/podcasts",
+      "stage": "deployed",
+      "templateId": "es-es-blog",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-politica-de-cookies",
+      "path": "/es-es/politica-de-cookies",
+      "stage": "deployed",
+      "templateId": "es-es-aviso-legal",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-politica-privacidad",
+      "path": "/es-es/politica-privacidad",
+      "stage": "deployed",
+      "templateId": "es-es-aviso-legal",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-quienes-somos",
+      "path": "/es-es/quienes-somos",
+      "stage": "deployed",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "es-es-retail-en-la-encrucijada-2026",
+      "path": "/es-es/retail-en-la-encrucijada-2026",
+      "stage": "deployed",
+      "templateId": "valtech-conversion-engine",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-retail-maturity-assessment",
+      "path": "/es-es/retail-maturity-assessment",
+      "stage": "deployed",
+      "templateId": "ai-searchandizing-workshop",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-servicios",
+      "path": "/es-es/servicios",
+      "stage": "deployed",
+      "templateId": "digital-media-performance-marketing",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-servicios-revolucion-del-dato-y-ia",
+      "path": "/es-es/servicios/revolucion-del-dato-y-ia",
+      "stage": "optimised",
+      "templateId": "valtech-conversion-engine",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-thread-magazine",
+      "path": "/es-es/thread-magazine",
+      "stage": "deployed",
+      "templateId": "ai-searchandizing-workshop",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-thread-magazine-edition-10-the-experience-loop",
+      "path": "/es-es/thread-magazine/edition-10-the-experience-loop",
+      "stage": "optimised",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-trabajar-en-valtech",
+      "path": "/es-es/trabajar-en-valtech",
+      "stage": "deployed",
+      "templateId": "digital-media-performance-marketing",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-whitepapers",
+      "path": "/es-es/whitepapers",
+      "stage": "deployed",
+      "templateId": "es-es-blog",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-es-whitepapers-el-ciclo-de-relevancia-de-las-marcas",
+      "path": "/es-es/whitepapers/el-ciclo-de-relevancia-de-las-marcas",
+      "stage": "optimised",
+      "templateId": "valtech-conversion-engine",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-whitepapers-el-giro-hacia-la-ia",
+      "path": "/es-es/whitepapers/el-giro-hacia-la-ia",
+      "stage": "optimised",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-whitepapers-experiencias-inteligentes",
+      "path": "/es-es/whitepapers/experiencias-inteligentes",
+      "stage": "optimised",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-whitepapers-fidelizacion-digital-sector-sanitario",
+      "path": "/es-es/whitepapers/fidelizacion-digital-sector-sanitario",
+      "stage": "optimised",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-whitepapers-guia-estrategica-salud-digital-optimizely-2026",
+      "path": "/es-es/whitepapers/guia-estrategica-salud-digital-optimizely-2026",
+      "stage": "optimised",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-whitepapers-infome-la-era-del-comercio-conversacional-2026",
+      "path": "/es-es/whitepapers/infome-la-era-del-comercio-conversacional-2026",
+      "stage": "optimised",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-whitepapers-informe-tendencias-cliente-movilidad-2026",
+      "path": "/es-es/whitepapers/informe-tendencias-cliente-movilidad-2026",
+      "stage": "optimised",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-whitepapers-la-era-agentica-tendencias-de-la-ia-empresarial-2026",
+      "path": "/es-es/whitepapers/la-era-agentica-tendencias-de-la-ia-empresarial-2026",
+      "stage": "optimised",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-whitepapers-la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software",
+      "path": "/es-es/whitepapers/la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software",
+      "stage": "optimised",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-whitepapers-la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026",
+      "path": "/es-es/whitepapers/la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026",
+      "stage": "optimised",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2025",
+      "path": "/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2025",
+      "stage": "optimised",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "path": "/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "stage": "optimised",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-whitepapers-retail-en-la-encrucijada-2026",
+      "path": "/es-es/whitepapers/retail-en-la-encrucijada-2026",
+      "stage": "optimised",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "es-es-whitepapers-transformar-los-servicios-financieros-la-inteligencia-a-gran-escala",
+      "path": "/es-es/whitepapers/transformar-los-servicios-financieros-la-inteligencia-a-gran-escala",
+      "stage": "optimised",
+      "templateId": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "experience-innovation",
+      "path": "/experience-innovation",
+      "stage": "deployed",
+      "templateId": "digital-media-performance-marketing",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "experience-innovation-on-azure",
+      "path": "/experience-innovation-on-azure",
+      "stage": "deployed",
+      "templateId": "digital-media-performance-marketing",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "experience-innovation3",
+      "path": "/experience-innovation3",
+      "stage": "deployed",
+      "templateId": "valtech-conversion-engine",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "fabric-real-time-intelligence",
+      "path": "/fabric-real-time-intelligence",
+      "stage": "deployed",
+      "templateId": "es-es-aviso-legal",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "gear-accelerator",
+      "path": "/gear-accelerator",
+      "stage": "deployed",
+      "templateId": "ai-searchandizing-workshop",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "geo-quick-start",
+      "path": "/geo-quick-start",
+      "stage": "deployed",
+      "templateId": "valtech-conversion-engine",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "health-digital-leadership-roundtables",
+      "path": "/health-digital-leadership-roundtables",
+      "stage": "deployed",
+      "templateId": "ai-searchandizing-workshop",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "innovation-marathon-2027",
+      "path": "/innovation-marathon-2027",
+      "stage": "deployed",
+      "templateId": "ai-searchandizing-workshop",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "intelligent-journeys",
+      "path": "/intelligent-journeys",
+      "stage": "deployed",
+      "templateId": "ai-searchandizing-workshop",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "is-your-adobe-investment-delivering",
+      "path": "/is-your-adobe-investment-delivering",
+      "stage": "deployed",
+      "templateId": "valtech-conversion-engine",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "lead-scoring",
+      "path": "/lead-scoring",
+      "stage": "deployed",
+      "templateId": "digital-media-performance-marketing",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "leap-into-composable-commerce",
+      "path": "/leap-into-composable-commerce",
+      "stage": "deployed",
+      "templateId": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "meet-the-expert-vera-schnitzlein",
+      "path": "/meet-the-expert-vera-schnitzlein",
+      "stage": "deployed",
+      "templateId": "digital-media-performance-marketing",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "next2025-highlights",
+      "path": "/next2025-highlights",
+      "stage": "deployed",
+      "templateId": "digital-media-performance-marketing",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "retail-at-the-crossroads-2026",
+      "path": "/retail-at-the-crossroads-2026",
+      "stage": "deployed",
+      "templateId": "valtech-conversion-engine",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "retail-maturity-assessment",
+      "path": "/retail-maturity-assessment",
+      "stage": "deployed",
+      "templateId": "ai-searchandizing-workshop",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "the-intelligent-enterprise",
+      "path": "/the-intelligent-enterprise",
+      "stage": "deployed",
+      "templateId": "es-es-la-empresa-inteligente-operar",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "valtech-agentic-commerce-catalyst",
+      "path": "/valtech-agentic-commerce-catalyst",
+      "stage": "deployed",
+      "templateId": "valtech-conversion-engine",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "valtech-and-salesforce",
+      "path": "/valtech-and-salesforce",
+      "stage": "deployed",
+      "templateId": "digital-media-performance-marketing",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "valtech-conversion-engine",
+      "path": "/valtech-conversion-engine",
+      "stage": "deployed",
+      "templateId": "valtech-conversion-engine",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "valtech-enterprise-ai-foundations",
+      "path": "/valtech-enterprise-ai-foundations",
+      "stage": "deployed",
+      "templateId": "valtech-conversion-engine",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "valtech-ukraine-in-media",
+      "path": "/valtech-ukraine-in-media",
+      "stage": "deployed",
+      "templateId": "digital-media-performance-marketing",
+      "isTemplate": false,
+      "openFindings": 1
+    }
+  ],
+  "templates": [
+    {
+      "id": "ai-searchandizing-workshop",
+      "archetype": "ai-searchandizing-workshop",
+      "pageCount": 17,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 17,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "digital-media-performance-marketing",
+      "archetype": "digital-media-performance-marketing",
+      "pageCount": 17,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 17,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "es-es-aviso-legal",
+      "archetype": "es-es-aviso-legal",
+      "pageCount": 4,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 4,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "es-es-blog",
+      "archetype": "es-es-blog",
+      "pageCount": 7,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 7,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "archetype": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "pageCount": 17,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 4,
+        "optimised": 13
+      }
+    },
+    {
+      "id": "es-es-la-empresa-inteligente-operar",
+      "archetype": "es-es-la-empresa-inteligente-operar",
+      "pageCount": 7,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 7,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "archetype": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "pageCount": 14,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 14
+      }
+    },
+    {
+      "id": "index",
+      "archetype": "index",
+      "pageCount": 2,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "valtech-conversion-engine",
+      "archetype": "valtech-conversion-engine",
+      "pageCount": 15,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 12,
+        "optimised": 3
+      }
+    }
+  ],
+  "blocks": {
+    "total": 17,
+    "converted": 17
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": 100,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": 100
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      64,
+      97
+    ]
+  },
+  "findings": {
+    "byFixability": {
+      "out-of-scope": 69
+    },
+    "byAutofix": {}
+  }
+}

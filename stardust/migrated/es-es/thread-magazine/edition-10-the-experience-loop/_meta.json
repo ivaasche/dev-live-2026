@@ -1,0 +1,269 @@
+{
+  "slug": "es-es-thread-magazine-edition-10-the-experience-loop",
+  "type": "whitepaper",
+  "renderBranch": "A'",
+  "template": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+  "modules": [
+    "breadcrumbs",
+    "masthead-primary",
+    "offering-list",
+    "pdf-view-block",
+    "subscription-block"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "site-breadcrumbs",
+    "masthead-primary",
+    "rte-block",
+    "offering-list",
+    "pdf-view-block",
+    "subscription-block",
+    "marketo-form-block",
+    "site-footer",
+    "site-slope",
+    "site-slope",
+    "site-slope",
+    "modal",
+    "modal",
+    "modal",
+    "modal"
+  ],
+  "canonShas": {
+    "header": "73cff066609b",
+    "footer": "d3f0cc1ef9d5",
+    "css": "8876c0e8d8d1"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Edición número 10: The Experience Loop | Valtech",
+    "description": "Cómo la IA está transformando la experiencia del cliente: de la conversión a la conexión continua.",
+    "canonical": "https://www.valtech.com/es-es/thread-magazine/edition-10-the-experience-loop/",
+    "lang": "es"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Report",
+    "headline": "Edición número 10: The Experience Loop",
+    "description": "Cómo la IA está transformando la experiencia del cliente: de la conversión a la conexión continua.",
+    "publisher": {
+      "@id": "https://www.valtech.com/#corporation"
+    },
+    "hasPart": {
+      "@type": "DigitalDocument",
+      "name": "Edición número 10: The Experience Loop",
+      "encodingFormat": "application/pdf"
+    }
+  },
+  "migratedAt": "2026-11-13T20:46:52Z",
+  "designMdSha": "9dc5e8267a4e",
+  "designJsonSha": "ec9a36425b28",
+  "sourceCurrentSha": "c004afe3c4b9",
+  "sourceProposedSha": "2e742f62e64f",
+  "fidelityTier": "sibling",
+  "archetypeSource": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+  "archetypeSha": "8f9027cfe50f",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "content-count",
+    "delivery-lint",
+    "media-reconcile",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance @1440 exit 2 (stardust/.work/cluster-whitepaper/variance.json); deltas budgeted as variants / per-page modules",
+    "content-count": "capture vs content doc: headings/lists/links/images matched; extra images = masthead crops; gate-all MISSING 0 / HIDDEN 0 both widths",
+    "delivery-lint": "0 P0 / 0 P1 / 0 P2 after localize-links",
+    "media-reconcile": "all images hosted (media-ledger-cluster-whitepaper.json); PDF on the content bus /assets/whitepapers/",
+    "content-fidelity": "published-origin gate-all PASS 1440 2.47% Δh 81 / 360 2.68% Δh 20, clipped 0, MISSING/HIDDEN 0, fix rounds 2; stardust/replica/gates/all-{1440,360}/es-es-thread-magazine-edition-10-the-experience-loop"
+  },
+  "contentDeviations": [
+    {
+      "kind": "empty-heading",
+      "source": "h2.offering-list__title (blank)",
+      "target": "omitted",
+      "reason": "whitespace-only source heading"
+    },
+    {
+      "kind": "modal-trigger",
+      "source": "button.js-open-side-modal[data-modal-id=modal-subscription-form]",
+      "target": "link #modal-subscription-form",
+      "reason": "side modal loader (dynamic-features #23 m-side-modal) not in the runtime; foundation request"
+    },
+    {
+      "kind": "empty-module",
+      "source": "div.marketo-form-block#download_form (no form id, empty form)",
+      "target": "omitted",
+      "reason": "empty source module renders nothing (0 px)"
+    }
+  ],
+  "assetsBundled": 11,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/es-es/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/nuestros-partners/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/servicios/elevacion-de-la-experiencia/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/aceleracion-comercio/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/transformacion-empresarial/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/servicios-creativos-de-marketing-performance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/revolucion-del-dato-y-ia/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/carrera/ofertas-de-empleo/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/trabajar-en-valtech/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/diversidad-e-inclusion/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/la-empresa-inteligente/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/oficinas/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/contacto/keep-in-touch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de-de/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-dk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr-fr/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nl-nl/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-gb/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sv-se/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ca/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-ar/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt-br/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-mx/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-sg/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/thread-magazine/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/globalassets/00-global/02-images/19-thread/10-edition/thread-magazine-issue-10.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/thread-magazine/the-experience-loop-ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/thread-magazine/divide-and-conquer/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/thread-magazine/the-trust-factor/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/thread-magazine/14-real-world-agentic-ai-use-cases/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/oficinas/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/carrera/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/accesibilidad/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/mantente-en-contacto/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.valtech.com/privacy-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.valtech.com/privacy-notice/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "es-es/thread-magazine/edition-10-the-experience-loop/index.html",
+  "outputPathDefault": null,
+  "sidecar": "es-es/thread-magazine/edition-10-the-experience-loop/_meta.json",
+  "driverVersion": "1"
+}

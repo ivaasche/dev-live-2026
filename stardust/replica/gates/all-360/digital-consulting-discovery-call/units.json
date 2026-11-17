@@ -1,0 +1,3208 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-13T20:30:00.477Z",
+  "tol": 4,
+  "n": 6,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/digital-consulting-discovery-call/",
+  "at": "2026-11-13T20:29:33.288Z",
+  "docH": 9400
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/digital-consulting-discovery-call",
+  "at": "2026-11-13T20:30:00.176Z",
+  "docH": 9354
+ },
+ "results": [
+  {
+   "sel": ".features-showcase__item=.features-showcase-item",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  },
+  {
+   "sel": ".two-columns__item__text=.two-columns-item-text",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+     },
+     "eds": {
+      "path": "div.two-columns-item > div.two-columns-item-column > div.two-columns-item-text"
+     },
+     "rows": [
+      {
+       "key": "text:delivering lightning-fast, scalable and ",
+       "role": "text",
+       "text": "delivering lightning-fast, scalable and personalized experie",
+       "edsText": "delivering lightning-fast, scalable and personalized experie",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 134
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 134,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:we help you:",
+       "role": "text",
+       "text": "we help you:",
+       "edsText": "we help you:",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 158,
+        "w": 91,
+        "h": 21
+       },
+       "eds": {
+        "x": 0,
+        "y": 158,
+        "w": 91,
+        "h": 21,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/700",
+        "eds": "16/22/700"
+       }
+      },
+      {
+       "key": "text:spot and remove performance bottlenecks",
+       "role": "text",
+       "text": "spot and remove performance bottlenecks",
+       "edsText": "spot and remove performance bottlenecks",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 205,
+        "w": 272,
+        "h": 45
+       },
+       "eds": {
+        "x": 40,
+        "y": 205,
+        "w": 272,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:streamline delivery and enhance experien",
+       "role": "text",
+       "text": "streamline delivery and enhance experiences with modern infr",
+       "edsText": "streamline delivery and enhance experiences with modern infr",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 250,
+        "w": 272,
+        "h": 67
+       },
+       "eds": {
+        "x": 40,
+        "y": 250,
+        "w": 272,
+        "h": 67,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:deliver fast, scalable and reliable expe",
+       "role": "text",
+       "text": "deliver fast, scalable and reliable experiences with adobe e",
+       "edsText": "deliver fast, scalable and reliable experiences with adobe e",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 317,
+        "w": 272,
+        "h": 67
+       },
+       "eds": {
+        "x": 40,
+        "y": 317,
+        "w": 272,
+        "h": 67,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:you’ll walk away with:",
+       "role": "text",
+       "text": "you’ll walk away with:",
+       "edsText": "you’ll walk away with:",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 400,
+        "w": 153,
+        "h": 21
+       },
+       "eds": {
+        "x": 0,
+        "y": 400,
+        "w": 153,
+        "h": 21,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/700",
+        "eds": "16/22/700"
+       }
+      },
+      {
+       "key": "text:a clear look at what’s possible with mod",
+       "role": "text",
+       "text": "a clear look at what’s possible with modern dxp",
+       "edsText": "a clear look at what’s possible with modern dxp",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 446,
+        "w": 272,
+        "h": 45
+       },
+       "eds": {
+        "x": 40,
+        "y": 446,
+        "w": 272,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:practical ways to cut cost and complexit",
+       "role": "text",
+       "text": "practical ways to cut cost and complexity",
+       "edsText": "practical ways to cut cost and complexity",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 491,
+        "w": 272,
+        "h": 45
+       },
+       "eds": {
+        "x": 40,
+        "y": 491,
+        "w": 272,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:a path to performance gains that impact ",
+       "role": "text",
+       "text": "a path to performance gains that impact the bottom line",
+       "edsText": "a path to performance gains that impact the bottom line",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 536,
+        "w": 272,
+        "h": 45
+       },
+       "eds": {
+        "x": 40,
+        "y": 536,
+        "w": 272,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.button.button--primary-hollow",
+       "text": "schedule a call",
+       "boxed": true,
+       "x": 56,
+       "y": 597,
+       "w": 199,
+       "h": 59,
+       "absY": 3121,
+       "hidden": false,
+       "fs": 18,
+       "lh": 27,
+       "fw": "300",
+       "color": "rgb(0, 47, 167)",
+       "bg": null,
+       "position": "relative",
+       "key": "link:schedule a call"
+      },
+      {
+       "role": "box",
+       "tag": "span",
+       "sel": "span.after",
+       "text": "",
+       "boxed": true,
+       "x": -146,
+       "y": 597,
+       "w": 201,
+       "h": 59,
+       "absY": 3121,
+       "hidden": true,
+       "fs": 18,
+       "lh": 27,
+       "fw": "300",
+       "color": "rgb(0, 47, 167)",
+       "bg": "rgb(0, 47, 167)",
+       "position": "absolute",
+       "key": "box:span.after#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 2525,
+       "w": 312,
+       "h": 702
+      },
+      "eds": {
+       "x": 24,
+       "y": 2523,
+       "w": 312,
+       "h": 581
+      },
+      "dx": 0,
+      "dy": -2,
+      "dw": 0,
+      "dh": -121
+     },
+     "summary": {
+      "elements": 11,
+      "within": 9,
+      "off": 0,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+     },
+     "eds": {
+      "path": "div.two-columns-item > div.two-columns-item-column > div.two-columns-item-text"
+     },
+     "rows": [
+      {
+       "key": "text:disconnected",
+       "role": "text",
+       "text": "disconnected",
+       "edsText": "disconnected workflows; manual content creation; bottlenecks",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 99,
+        "h": 21
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 90,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 213,
+       "dh": 69,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:we help you:",
+       "role": "text",
+       "text": "we help you:",
+       "edsText": "we help you:",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 114,
+        "w": 312,
+        "h": 22
+       },
+       "eds": {
+        "x": 0,
+        "y": 114,
+        "w": 312,
+        "h": 22,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:centralize content production",
+       "role": "text",
+       "text": "centralize content production",
+       "edsText": "centralize content production",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 160,
+        "w": 272,
+        "h": 22
+       },
+       "eds": {
+        "x": 40,
+        "y": 160,
+        "w": 272,
+        "h": 22,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:automate repeatable tasks",
+       "role": "text",
+       "text": "automate repeatable tasks",
+       "edsText": "automate repeatable tasks",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 182,
+        "w": 272,
+        "h": 22
+       },
+       "eds": {
+        "x": 40,
+        "y": 182,
+        "w": 272,
+        "h": 22,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:bring clarity to",
+       "role": "text",
+       "text": "bring clarity to",
+       "edsText": "bring clarity to your content supply chain",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 205,
+        "w": 103,
+        "h": 21
+       },
+       "eds": {
+        "x": 40,
+        "y": 205,
+        "w": 272,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 169,
+       "dh": 24,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:you’ll walk away with:",
+       "role": "text",
+       "text": "you’ll walk away with:",
+       "edsText": "you’ll walk away with:",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 266,
+        "w": 153,
+        "h": 21
+       },
+       "eds": {
+        "x": 0,
+        "y": 266,
+        "w": 153,
+        "h": 21,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/700",
+        "eds": "16/22/700"
+       }
+      },
+      {
+       "key": "text:a snapshot of where your process is slow",
+       "role": "text",
+       "text": "a snapshot of where your process is slowing you down",
+       "edsText": "a snapshot of where your process is slowing you down",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 312,
+        "w": 272,
+        "h": 45
+       },
+       "eds": {
+        "x": 40,
+        "y": 312,
+        "w": 272,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:insights on how to automate and streamli",
+       "role": "text",
+       "text": "insights on how to automate and streamline",
+       "edsText": "insights on how to automate and streamline",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 357,
+        "w": 272,
+        "h": 45
+       },
+       "eds": {
+        "x": 40,
+        "y": 357,
+        "w": 272,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:a smarter plan to scale content without ",
+       "role": "text",
+       "text": "a smarter plan to scale content without scaling chaos",
+       "edsText": "a smarter plan to scale content without scaling chaos",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 401,
+        "w": 272,
+        "h": 45
+       },
+       "eds": {
+        "x": 40,
+        "y": 401,
+        "w": 272,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "workflows; manual ; b they’re killing your speed to market a",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 312,
+       "h": 90,
+       "absY": 3579,
+       "hidden": false,
+       "fs": 16,
+       "lh": 22,
+       "fw": "300",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:workflows; manual ; b they’re killing yo"
+      },
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.NormalTextRun.TrackChangeHoverSelectHighlightRed",
+       "text": "content creation",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 291,
+       "h": 43,
+       "absY": 3579,
+       "hidden": false,
+       "fs": 16,
+       "lh": 22,
+       "fw": "300",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:content creation"
+      },
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.NormalTextRun.TrackChangeHoverSelectHighlightRed",
+       "text": "ottlenecks across teams",
+       "boxed": false,
+       "x": 75,
+       "y": 22,
+       "w": 172,
+       "h": 21,
+       "absY": 3601,
+       "hidden": false,
+       "fs": 16,
+       "lh": 22,
+       "fw": "300",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:ottlenecks across teams"
+      },
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.NormalTextRun.SCXW94859273",
+       "text": ".",
+       "boxed": false,
+       "x": 246,
+       "y": 22,
+       "w": 7,
+       "h": 21,
+       "absY": 3601,
+       "hidden": false,
+       "fs": 16,
+       "lh": 22,
+       "fw": "300",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:."
+      },
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "your",
+       "boxed": false,
+       "x": 40,
+       "y": 205,
+       "w": 272,
+       "h": 45,
+       "absY": 3784,
+       "hidden": false,
+       "fs": 16,
+       "lh": 22,
+       "fw": "300",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:your"
+      },
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.NormalTextRun.TrackChangeHoverSelectHighlightRed",
+       "text": "content",
+       "boxed": false,
+       "x": 182,
+       "y": 205,
+       "w": 58,
+       "h": 21,
+       "absY": 3784,
+       "hidden": false,
+       "fs": 16,
+       "lh": 22,
+       "fw": "300",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:content"
+      },
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.NormalTextRun.SCXW265455912",
+       "text": "supply chain",
+       "boxed": false,
+       "x": 40,
+       "y": 205,
+       "w": 248,
+       "h": 43,
+       "absY": 3784,
+       "hidden": false,
+       "fs": 16,
+       "lh": 22,
+       "fw": "300",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:supply chain"
+      },
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.button.button--primary-hollow",
+       "text": "schedule a call",
+       "boxed": true,
+       "x": 56,
+       "y": 462,
+       "w": 199,
+       "h": 59,
+       "absY": 4041,
+       "hidden": false,
+       "fs": 18,
+       "lh": 27,
+       "fw": "300",
+       "color": "rgb(0, 47, 167)",
+       "bg": null,
+       "position": "relative",
+       "key": "link:schedule a call"
+      },
+      {
+       "role": "box",
+       "tag": "span",
+       "sel": "span.after",
+       "text": "",
+       "boxed": true,
+       "x": -146,
+       "y": 462,
+       "w": 201,
+       "h": 59,
+       "absY": 4041,
+       "hidden": true,
+       "fs": 18,
+       "lh": 27,
+       "fw": "300",
+       "color": "rgb(0, 47, 167)",
+       "bg": "rgb(0, 47, 167)",
+       "position": "absolute",
+       "key": "box:span.after#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 3579,
+       "w": 312,
+       "h": 568
+      },
+      "eds": {
+       "x": 24,
+       "y": 3533,
+       "w": 312,
+       "h": 446
+      },
+      "dx": 0,
+      "dy": -46,
+      "dw": 0,
+      "dh": -122
+     },
+     "summary": {
+      "elements": 18,
+      "within": 7,
+      "off": 2,
+      "hidden": 0,
+      "missing": 9,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+     },
+     "eds": {
+      "path": "div.two-columns-item > div.two-columns-item-column > div.two-columns-item-text"
+     },
+     "rows": [
+      {
+       "key": "text:disconnected commerce platforms; siloed ",
+       "role": "text",
+       "text": "disconnected commerce platforms; siloed data; slow innovatio",
+       "edsText": "disconnected commerce platforms; siloed data; slow innovatio",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 45
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:to fix this, we help you:",
+       "role": "text",
+       "text": "to fix this, we help you:",
+       "edsText": "to fix this, we help you:",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 69,
+        "w": 312,
+        "h": 22
+       },
+       "eds": {
+        "x": 0,
+        "y": 69,
+        "w": 312,
+        "h": 22,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:connect content, commerce and data in on",
+       "role": "text",
+       "text": "connect content, commerce and data in one scalable stack",
+       "edsText": "connect content, commerce and data in one scalable stack",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 115,
+        "w": 272,
+        "h": 45
+       },
+       "eds": {
+        "x": 40,
+        "y": 115,
+        "w": 272,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:modernize your architecture with adobe a",
+       "role": "text",
+       "text": "modernize your architecture with adobe aem, adobe commerce a",
+       "edsText": "modernize your architecture with adobe aem, adobe commerce a",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 160,
+        "w": 272,
+        "h": 67
+       },
+       "eds": {
+        "x": 40,
+        "y": 160,
+        "w": 272,
+        "h": 67,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:build a commerce engine that’s fast, fle",
+       "role": "text",
+       "text": "build a commerce engine that’s fast, flexible and future-rea",
+       "edsText": "build a commerce engine that’s fast, flexible and future-rea",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 227,
+        "w": 272,
+        "h": 45
+       },
+       "eds": {
+        "x": 40,
+        "y": 227,
+        "w": 272,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:you’ll walk away with:",
+       "role": "text",
+       "text": "you’ll walk away with:",
+       "edsText": "you’ll walk away with:",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 288,
+        "w": 153,
+        "h": 21
+       },
+       "eds": {
+        "x": 0,
+        "y": 288,
+        "w": 153,
+        "h": 21,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/700",
+        "eds": "16/22/700"
+       }
+      },
+      {
+       "key": "text:a strategy to remove blockers from your ",
+       "role": "text",
+       "text": "a strategy to remove blockers from your commerce flow",
+       "edsText": "a strategy to remove blockers from your commerce flow",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 334,
+        "w": 272,
+        "h": 45
+       },
+       "eds": {
+        "x": 40,
+        "y": 334,
+        "w": 272,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:smarter architecture for omnichannel sca",
+       "role": "text",
+       "text": "smarter architecture for omnichannel scale",
+       "edsText": "smarter architecture for omnichannel scale",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 379,
+        "w": 272,
+        "h": 45
+       },
+       "eds": {
+        "x": 40,
+        "y": 379,
+        "w": 272,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:ways to personalize and transact without",
+       "role": "text",
+       "text": "ways to personalize and transact without the chaos",
+       "edsText": "ways to personalize and transact without the chaos",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 424,
+        "w": 272,
+        "h": 45
+       },
+       "eds": {
+        "x": 40,
+        "y": 424,
+        "w": 272,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.button.button--primary-hollow",
+       "text": "schedule a call",
+       "boxed": true,
+       "x": 56,
+       "y": 485,
+       "w": 199,
+       "h": 59,
+       "absY": 4983,
+       "hidden": false,
+       "fs": 18,
+       "lh": 27,
+       "fw": "300",
+       "color": "rgb(0, 47, 167)",
+       "bg": null,
+       "position": "relative",
+       "key": "link:schedule a call"
+      },
+      {
+       "role": "box",
+       "tag": "span",
+       "sel": "span.after",
+       "text": "",
+       "boxed": true,
+       "x": -146,
+       "y": 485,
+       "w": 201,
+       "h": 59,
+       "absY": 4983,
+       "hidden": true,
+       "fs": 18,
+       "lh": 27,
+       "fw": "300",
+       "color": "rgb(0, 47, 167)",
+       "bg": "rgb(0, 47, 167)",
+       "position": "absolute",
+       "key": "box:span.after#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 4499,
+       "w": 312,
+       "h": 590
+      },
+      "eds": {
+       "x": 24,
+       "y": 4409,
+       "w": 312,
+       "h": 469
+      },
+      "dx": 0,
+      "dy": -90,
+      "dw": 0,
+      "dh": -121
+     },
+     "summary": {
+      "elements": 11,
+      "within": 9,
+      "off": 0,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": true
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".partners-block__section.inline .partners-block__logo=.partners-block-section.inline .partners-block-logo",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  },
+  {
+   "sel": ".podcast-speakers__info=.podcast-speakers-info",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:adonis el khoury",
+       "role": "text",
+       "text": "adonis el khoury",
+       "edsText": "adonis el khoury",
+       "byPosition": false,
+       "origin": {
+        "x": 89,
+        "y": 128,
+        "w": 134,
+        "h": 23
+       },
+       "eds": {
+        "x": 89,
+        "y": 128,
+        "w": 134,
+        "h": 23,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:partner solutions consultant, adobe",
+       "role": "text",
+       "text": "partner solutions consultant, adobe",
+       "edsText": "partner solutions consultant, adobe",
+       "byPosition": false,
+       "origin": {
+        "x": 27,
+        "y": 161,
+        "w": 258,
+        "h": 21
+       },
+       "eds": {
+        "x": 27,
+        "y": 161,
+        "w": 258,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 141,
+        "y": 182,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 141,
+        "y": 182,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 143,
+        "y": 190,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 143,
+        "y": 190,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:expert in generative ai, next generation",
+       "role": "text",
+       "text": "expert in generative ai, next generation website and content",
+       "edsText": "expert in generative ai, next generation website and content",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 227,
+        "w": 279,
+        "h": 43
+       },
+       "eds": {
+        "x": 0,
+        "y": 227,
+        "w": 312,
+        "h": 78,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": -16,
+       "dy": 0,
+       "dw": 33,
+       "dh": 35,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "20/0/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.NormalTextRun.SCXW155367615",
+       "text": ".",
+       "boxed": false,
+       "x": 271,
+       "y": 250,
+       "w": 4,
+       "h": 21,
+       "absY": 5897,
+       "hidden": false,
+       "fs": 16,
+       "lh": 22,
+       "fw": "300",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:."
+      }
+     ],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 97,
+       "y": 0,
+       "w": 118,
+       "h": 120,
+       "absY": 5511,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 5648,
+       "w": 312,
+       "h": 285
+      },
+      "eds": {
+       "x": 24,
+       "y": 5511,
+       "w": 312,
+       "h": 305
+      },
+      "dx": 0,
+      "dy": -137,
+      "dw": 0,
+      "dh": 20
+     },
+     "summary": {
+      "elements": 7,
+      "within": 5,
+      "off": 1,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:stéphane beringuel",
+       "role": "text",
+       "text": "stéphane beringuel",
+       "edsText": "stéphane beringuel",
+       "byPosition": false,
+       "origin": {
+        "x": 77,
+        "y": 128,
+        "w": 157,
+        "h": 23
+       },
+       "eds": {
+        "x": 77,
+        "y": 128,
+        "w": 157,
+        "h": 23,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:cto valtech, france",
+       "role": "text",
+       "text": "cto valtech, france",
+       "edsText": "cto valtech, france",
+       "byPosition": false,
+       "origin": {
+        "x": 85,
+        "y": 161,
+        "w": 143,
+        "h": 21
+       },
+       "eds": {
+        "x": 85,
+        "y": 161,
+        "w": 143,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 141,
+        "y": 182,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 141,
+        "y": 182,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 143,
+        "y": 190,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 143,
+        "y": 190,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:expert in digital transformation, specia",
+       "role": "text",
+       "text": "expert in digital transformation, specializing in composable",
+       "edsText": "expert in digital transformation, specializing in composable",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 227,
+        "w": 310,
+        "h": 66
+       },
+       "eds": {
+        "x": 0,
+        "y": 227,
+        "w": 312,
+        "h": 78,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": -1,
+       "dy": 0,
+       "dw": 2,
+       "dh": 12,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "20/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 97,
+       "y": 0,
+       "w": 118,
+       "h": 120,
+       "absY": 5857,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 5973,
+       "w": 312,
+       "h": 307
+      },
+      "eds": {
+       "x": 24,
+       "y": 5857,
+       "w": 312,
+       "h": 305
+      },
+      "dx": 0,
+      "dy": -116,
+      "dw": 0,
+      "dh": -2
+     },
+     "summary": {
+      "elements": 6,
+      "within": 5,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:luc denes",
+       "role": "text",
+       "text": "luc denes",
+       "edsText": "luc denes",
+       "byPosition": false,
+       "origin": {
+        "x": 114,
+        "y": 128,
+        "w": 84,
+        "h": 23
+       },
+       "eds": {
+        "x": 114,
+        "y": 128,
+        "w": 84,
+        "h": 23,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:director, adobe consulting valtech",
+       "role": "text",
+       "text": "director, adobe consulting valtech",
+       "edsText": "director, adobe consulting valtech",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 161,
+        "w": 248,
+        "h": 21
+       },
+       "eds": {
+        "x": 32,
+        "y": 161,
+        "w": 248,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 141,
+        "y": 182,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 141,
+        "y": 182,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 143,
+        "y": 190,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 143,
+        "y": 190,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:helping luxury brands streamline their c",
+       "role": "text",
+       "text": "helping luxury brands streamline their content supply chain ",
+       "edsText": "helping luxury brands streamline their content supply chain ",
+       "byPosition": false,
+       "origin": {
+        "x": 3,
+        "y": 227,
+        "w": 303,
+        "h": 43
+       },
+       "eds": {
+        "x": 0,
+        "y": 227,
+        "w": 312,
+        "h": 78,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": -3,
+       "dy": 0,
+       "dw": 9,
+       "dh": 35,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "20/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 97,
+       "y": 0,
+       "w": 118,
+       "h": 120,
+       "absY": 6202,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 6320,
+       "w": 312,
+       "h": 285
+      },
+      "eds": {
+       "x": 24,
+       "y": 6202,
+       "w": 312,
+       "h": 305
+      },
+      "dx": 0,
+      "dy": -118,
+      "dw": 0,
+      "dh": 20
+     },
+     "summary": {
+      "elements": 6,
+      "within": 5,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:étienne lyaët",
+       "role": "text",
+       "text": "étienne lyaët",
+       "edsText": "étienne lyaët",
+       "byPosition": false,
+       "origin": {
+        "x": 102,
+        "y": 128,
+        "w": 108,
+        "h": 23
+       },
+       "eds": {
+        "x": 102,
+        "y": 128,
+        "w": 108,
+        "h": 23,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:adobe expertise director, valtech",
+       "role": "text",
+       "text": "adobe expertise director, valtech",
+       "edsText": "adobe expertise director, valtech",
+       "byPosition": false,
+       "origin": {
+        "x": 37,
+        "y": 161,
+        "w": 238,
+        "h": 21
+       },
+       "eds": {
+        "x": 37,
+        "y": 161,
+        "w": 238,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 141,
+        "y": 182,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 141,
+        "y": 182,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 143,
+        "y": 190,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 143,
+        "y": 190,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:adobe practice director, leading dxp and",
+       "role": "text",
+       "text": "adobe practice director, leading dxp and content supply chai",
+       "edsText": "adobe practice director, leading dxp and content supply chai",
+       "byPosition": false,
+       "origin": {
+        "x": 10,
+        "y": 227,
+        "w": 293,
+        "h": 43
+       },
+       "eds": {
+        "x": 0,
+        "y": 227,
+        "w": 312,
+        "h": 78,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": -10,
+       "dy": 0,
+       "dw": 19,
+       "dh": 35,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "20/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 97,
+       "y": 0,
+       "w": 118,
+       "h": 120,
+       "absY": 6547,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 6645,
+       "w": 312,
+       "h": 285
+      },
+      "eds": {
+       "x": 24,
+       "y": 6547,
+       "w": 312,
+       "h": 305
+      },
+      "dx": 0,
+      "dy": -98,
+      "dw": 0,
+      "dh": 20
+     },
+     "summary": {
+      "elements": 6,
+      "within": 5,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:iva asche",
+       "role": "text",
+       "text": "iva asche",
+       "edsText": "iva asche",
+       "byPosition": false,
+       "origin": {
+        "x": 118,
+        "y": 128,
+        "w": 77,
+        "h": 23
+       },
+       "eds": {
+        "x": 118,
+        "y": 128,
+        "w": 77,
+        "h": 23,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:svp adobe solutions",
+       "role": "text",
+       "text": "svp adobe solutions",
+       "edsText": "svp adobe solutions",
+       "byPosition": false,
+       "origin": {
+        "x": 81,
+        "y": 161,
+        "w": 150,
+        "h": 21
+       },
+       "eds": {
+        "x": 81,
+        "y": 161,
+        "w": 150,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 141,
+        "y": 182,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 141,
+        "y": 182,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 143,
+        "y": 190,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 143,
+        "y": 190,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:valtech's most senior adobe voice and th",
+       "role": "text",
+       "text": "valtech's most senior adobe voice and the architect of our g",
+       "edsText": "valtech's most senior adobe voice and the architect of our g",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 227,
+        "w": 312,
+        "h": 112
+       },
+       "eds": {
+        "x": 0,
+        "y": 227,
+        "w": 312,
+        "h": 156,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 44,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "20/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 97,
+       "y": 0,
+       "w": 118,
+       "h": 120,
+       "absY": 6893,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 6970,
+       "w": 312,
+       "h": 352
+      },
+      "eds": {
+       "x": 24,
+       "y": 6893,
+       "w": 312,
+       "h": 383
+      },
+      "dx": 0,
+      "dy": -77,
+      "dw": 0,
+      "dh": 31
+     },
+     "summary": {
+      "elements": 6,
+      "within": 5,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".faq-block__list__item:nth-child(-n+5)=.faq-block-list-item:nth-child(-n+5)",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "eds": {
+      "path": "section.faq-block-container > ul.faq-block-list > li.faq-block-list-item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 311,
+        "y": 16,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 311,
+        "y": 16,
+        "w": 25,
+        "h": 25,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "heading:what will we cover?",
+       "role": "heading",
+       "text": "what will we cover?",
+       "edsText": "what will we cover?",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 17,
+        "w": 183,
+        "h": 24
+       },
+       "eds": {
+        "x": 24,
+        "y": 17,
+        "w": 183,
+        "h": 24,
+        "sel": "h3#what-will-we-cover",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "box:div.faq-block__list__item__description.text-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 57,
+        "w": 360,
+        "h": 107
+       },
+       "eds": {
+        "x": 0,
+        "y": 57,
+        "w": 360,
+        "h": 107,
+        "sel": "div.faq-block-list-item-description.text-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:the biggest blockers in your current set",
+       "role": "text",
+       "text": "the biggest blockers in your current setup and how to break ",
+       "edsText": "the biggest blockers in your current setup and how to break ",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 82,
+        "w": 312,
+        "h": 45
+       },
+       "eds": {
+        "x": 24,
+        "y": 82,
+        "w": 312,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 5187,
+       "w": 360,
+       "h": 165
+      },
+      "eds": {
+       "x": 0,
+       "y": 5051,
+       "w": 360,
+       "h": 165
+      },
+      "dx": 0,
+      "dy": -136,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "eds": {
+      "path": "section.faq-block-container > ul.faq-block-list > li.faq-block-list-item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 311,
+        "y": 16,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 311,
+        "y": 16,
+        "w": 25,
+        "h": 25,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "heading:who will i speak with?",
+       "role": "heading",
+       "text": "who will i speak with?",
+       "edsText": "who will i speak with?",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 17,
+        "w": 201,
+        "h": 24
+       },
+       "eds": {
+        "x": 24,
+        "y": 17,
+        "w": 201,
+        "h": 24,
+        "sel": "h3#who-will-i-speak-with",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "box:div.faq-block__list__item__description.text-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 57,
+        "w": 360,
+        "h": 129
+       },
+       "eds": {
+        "x": 0,
+        "y": 57,
+        "w": 360,
+        "h": 129,
+        "sel": "div.faq-block-list-item-description.text-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:valtech and adobe specialists with hands",
+       "role": "text",
+       "text": "valtech and adobe specialists with hands-on experience fixin",
+       "edsText": "valtech and adobe specialists with hands-on experience fixin",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 82,
+        "w": 312,
+        "h": 67
+       },
+       "eds": {
+        "x": 24,
+        "y": 82,
+        "w": 312,
+        "h": 67,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 5352,
+       "w": 360,
+       "h": 58
+      },
+      "eds": {
+       "x": 0,
+       "y": 5216,
+       "w": 360,
+       "h": 58
+      },
+      "dx": 0,
+      "dy": -136,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "eds": {
+      "path": "section.faq-block-container > ul.faq-block-list > li.faq-block-list-item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 311,
+        "y": 16,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 311,
+        "y": 16,
+        "w": 25,
+        "h": 25,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "heading:do i need to prep?",
+       "role": "heading",
+       "text": "do i need to prep?",
+       "edsText": "do i need to prep?",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 17,
+        "w": 175,
+        "h": 24
+       },
+       "eds": {
+        "x": 24,
+        "y": 17,
+        "w": 175,
+        "h": 24,
+        "sel": "h3#do-i-need-to-prep",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "box:div.faq-block__list__item__description.text-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 57,
+        "w": 360,
+        "h": 107
+       },
+       "eds": {
+        "x": 0,
+        "y": 57,
+        "w": 360,
+        "h": 107,
+        "sel": "div.faq-block-list-item-description.text-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:no preparation needed. just show up. we’",
+       "role": "text",
+       "text": "no preparation needed. just show up. we’ll do the rest.",
+       "edsText": "no preparation needed. just show up. we’ll do the rest.",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 82,
+        "w": 312,
+        "h": 45
+       },
+       "eds": {
+        "x": 24,
+        "y": 82,
+        "w": 312,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 5410,
+       "w": 360,
+       "h": 58
+      },
+      "eds": {
+       "x": 0,
+       "y": 5274,
+       "w": 360,
+       "h": 58
+      },
+      "dx": 0,
+      "dy": -136,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "eds": {
+      "path": "section.faq-block-container > ul.faq-block-list > li.faq-block-list-item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 311,
+        "y": 16,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 311,
+        "y": 16,
+        "w": 25,
+        "h": 25,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "heading:what happens next?",
+       "role": "heading",
+       "text": "what happens next?",
+       "edsText": "what happens next?",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 17,
+        "w": 197,
+        "h": 24
+       },
+       "eds": {
+        "x": 24,
+        "y": 17,
+        "w": 197,
+        "h": 24,
+        "sel": "h3#what-happens-next",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "box:div.faq-block__list__item__description.text-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 57,
+        "w": 360,
+        "h": 107
+       },
+       "eds": {
+        "x": 0,
+        "y": 57,
+        "w": 360,
+        "h": 107,
+        "sel": "div.faq-block-list-item-description.text-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:we’ll follow up with next steps, tailore",
+       "role": "text",
+       "text": "we’ll follow up with next steps, tailored recommendations an",
+       "edsText": "we’ll follow up with next steps, tailored recommendations an",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 82,
+        "w": 312,
+        "h": 45
+       },
+       "eds": {
+        "x": 24,
+        "y": 82,
+        "w": 312,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 5468,
+       "w": 360,
+       "h": 58
+      },
+      "eds": {
+       "x": 0,
+       "y": 5332,
+       "w": 360,
+       "h": 58
+      },
+      "dx": 0,
+      "dy": -136,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 12,
+  "within": 66,
+  "off": 7,
+  "hidden": 0,
+  "missing": 14,
+  "errors": 2,
+  "requiredOff": 21
+ }
+}

@@ -1,0 +1,56 @@
+{
+  "a": "stardust/replica/gates/all-1440/es-es-eventos-google-cloud-and-valtech-roundtable/origin.png",
+  "b": "stardust/replica/gates/all-1440/es-es-eventos-google-cloud-and-valtech-roundtable/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 2999,
+    "mode": "overlap"
+  },
+  "heightDelta": 28,
+  "differingPixels": 182875,
+  "pct": 4.23,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/es-es-eventos-google-cloud-and-valtech-roundtable/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 8.86,
+  "textBoxes": 59,
+  "textPixels": 754059,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 9.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 4.2
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 3.1
+    },
+    {
+      "y0": 2500,
+      "y1": 2999,
+      "pct": 8.9
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/eventos/google-cloud-and-valtech-roundtable"
+  }
+}

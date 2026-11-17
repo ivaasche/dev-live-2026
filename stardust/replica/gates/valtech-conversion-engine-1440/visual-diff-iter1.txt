@@ -1,0 +1,941 @@
+[live-session] waiting to pace live navigations to www.valtech.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 808 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/valtech-conversion-engine-1440/vdiff-iter1/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 10024,
+  "textLen": 10394,
+  "images": [
+   {
+    "src": "landing-page-hero-tsk-8761.png?width=1000&height=720&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "1000x720",
+    "rendered": "664x778",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "landing-page_image1_-tsk-8761.png?width=584&height=388&rsampler=bicubic&compand=true&format=webp",
+    "natural": "584x388",
+    "rendered": "632x420",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "landing-page_image2_-tsk-8761.png?width=584&height=388&rsampler=bicubic&compand=true&format=webp",
+    "natural": "584x388",
+    "rendered": "632x420",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "landing-page_image3_-tsk-8761.png?width=584&height=388&rsampler=bicubic&compand=true&format=webp",
+    "natural": "584x388",
+    "rendered": "632x420",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bernd-munel.png?width=152&height=154&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "152x154",
+    "rendered": "150x152",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "sune-borsen.jpg?width=152&height=154&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "152x154",
+    "rendered": "150x152",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1521701892067.jpg?width=152&height=154&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "152x154",
+    "rendered": "150x152",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "activating-agentic-navigation.jpg?width=480&height=360&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "480x360",
+    "rendered": "566x424",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "large_png-valtech-brand-abstract-render-08.png?width=480&height=360&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "480x360",
+    "rendered": "566x424",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "the-intelligent-enterprise-guide-navigation.jpg?width=480&height=360&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "480x360",
+    "rendered": "566x424",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "agentic-blog-pre-report-valtech-navigation.png?width=480&height=360&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "480x360",
+    "rendered": "566x424",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "badge-no-outline.png?width=442&height=128&rmode=max&rsampler=bicubic&compand=true&format=jpg",
+    "natural": "435x128",
+    "rendered": "218x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "cdp_discloser_2026.png?width=128&height=128&rmode=max&rsampler=bicubic&compand=true&format=jpg",
+    "natural": "128x128",
+    "rendered": "64x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261440%261000%264%2624%261440%261000%260%26na%261&eci=3&event=%7B%7D&event_id=eea24afc-8801-4656-a513-56f901c6fc4b&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=afbd509b-a198-4980-bc22-e0e0326edfab&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fvaltech-conversion-engine%2F&tw_engaged_ms=28&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261440%261000%264%2624%261440%261000%260%26na%261&eci=3&event=%7B%7D&event_id=eea24afc-8801-4656-a513-56f901c6fc4b&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=afbd509b-a198-4980-bc22-e0e0326edfab&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fvaltech-conversion-engine%2F&tw_engaged_ms=28&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261440%261000%264%2624%261440%261000%260%26na%261&eci=2&event_id=98084658-a1ea-4afa-9e15-1f03ce61488c&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=afbd509b-a198-4980-bc22-e0e0326edfab&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fvaltech-conversion-engine%2F&tw_engaged_ms=10437&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261440%261000%264%2624%261440%261000%260%26na%261&eci=2&event_id=98084658-a1ea-4afa-9e15-1f03ce61488c&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=afbd509b-a198-4980-bc22-e0e0326edfab&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fvaltech-conversion-engine%2F&tw_engaged_ms=10437&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Turn customer intent into measur",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "50.4px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "The demand-to-decision gap",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "43.2px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Unlock the trapped value in your",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "43.2px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Case study: Turning digital inte",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "43.2px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "From customer leakage to a prior",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "43.2px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Full-system leakage map",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Prioritized activation roadmap",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Intent model and archetypes",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "KPI logic and experiment backlog",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Growth governance model",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "A scalable AI-native system",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What this unlocks for your busin",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What we focus on",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How it works",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Why this approach works",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "In partnership with",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "43.2px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Subject matter experts",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "43.2px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "The Conversion Engine closes you",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "64px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Book a session",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "43.2px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Insight",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "News",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Insight",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Insight",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "FAQ",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "43.2px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What is the Conversion Engine?",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How is this different from a CRO",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What kinds of conversion leakage",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What is the cost of not fixing c",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Do we need an existing analytics",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What sectors does this apply to?",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How quickly can we see value?",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What role does AI play?",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Does the Conversion Engine only ",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What do we get at the end of the",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "masthead-two-columns-cta__inner__wrap",
+    "width": 1328,
+    "left": 24
+   },
+   {
+    "sel": "rte-block",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "features-showcase__wrapper",
+    "width": 1376,
+    "left": 0
+   },
+   {
+    "sel": "two-columns__item",
+    "width": 1328,
+    "left": 24
+   },
+   {
+    "sel": "two-columns__item",
+    "width": 1328,
+    "left": 24
+   },
+   {
+    "sel": "two-columns__item",
+    "width": 1328,
+    "left": 24
+   },
+   {
+    "sel": "two-columns__item",
+    "width": 1328,
+    "left": 24
+   },
+   {
+    "sel": "partners-block__title",
+    "width": 1328,
+    "left": 24
+   },
+   {
+    "sel": "podcast-speakers__wrapper",
+    "width": 1328,
+    "left": 24
+   },
+   {
+    "sel": "highlighted-cta-block__details",
+    "width": 1048,
+    "left": 164
+   },
+   {
+    "sel": "rte-block",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "teaser-block__container",
+    "width": 1376,
+    "left": 0
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 9726,
+  "textLen": 10063,
+  "images": [
+   {
+    "src": "hero-1000x720.webp",
+    "natural": "1000x720",
+    "rendered": "664x778",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "image1-584x388.webp",
+    "natural": "584x388",
+    "rendered": "632x420",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "image2-584x388.webp",
+    "natural": "584x388",
+    "rendered": "632x420",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "image3-584x388.webp",
+    "natural": "584x388",
+    "rendered": "632x420",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bernd-munel-152x154.webp",
+    "natural": "152x154",
+    "rendered": "152x152",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "sune-borsen-152x154.webp",
+    "natural": "152x154",
+    "rendered": "152x152",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "paul-carysforth-152x154.webp",
+    "natural": "152x154",
+    "rendered": "152x152",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "teaser1-480x360.webp",
+    "natural": "480x360",
+    "rendered": "566x424",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "teaser2-480x360.webp",
+    "natural": "480x360",
+    "rendered": "566x424",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "teaser3-480x360.webp",
+    "natural": "480x360",
+    "rendered": "566x424",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "teaser4-480x360.webp",
+    "natural": "480x360",
+    "rendered": "566x424",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "badge-no-outline.png",
+    "natural": "435x128",
+    "rendered": "218x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "cdp_discloser_2026.png",
+    "natural": "128x128",
+    "rendered": "64x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Turn customer intent into measur",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "50.4px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "The demand-to-decision gap",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "43.2px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Unlock the trapped value in your",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "43.2px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Case study: Turning digital inte",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "43.2px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "From customer leakage to a prior",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "43.2px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Full-system leakage map",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Prioritized activation roadmap",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Intent model and archetypes",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "KPI logic and experiment backlog",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Growth governance model",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "A scalable AI-native system",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What this unlocks for your busin",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What we focus on",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How it works",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Why this approach works",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "In partnership with",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "43.2px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Subject matter experts",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "43.2px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "The Conversion Engine closes you",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "64px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Book a session",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "43.2px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Insight",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "News",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Insight",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Insight",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "FAQ",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "43.2px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What is the Conversion Engine?",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How is this different from a CRO",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What kinds of conversion leakage",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What is the cost of not fixing c",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Do we need an existing analytics",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What sectors does this apply to?",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How quickly can we see value?",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What role does AI play?",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Does the Conversion Engine only ",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What do we get at the end of the",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "masthead-two-columns-cta__inner__wrap",
+    "width": 1328,
+    "left": 24
+   },
+   {
+    "sel": "rte-block",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "features-showcase__wrapper",
+    "width": 1376,
+    "left": 0
+   },
+   {
+    "sel": "two-columns__item",
+    "width": 1328,
+    "left": 24
+   },
+   {
+    "sel": "two-columns__item",
+    "width": 1328,
+    "left": 24
+   },
+   {
+    "sel": "two-columns__item",
+    "width": 1328,
+    "left": 24
+   },
+   {
+    "sel": "two-columns__item",
+    "width": 1328,
+    "left": 24
+   },
+   {
+    "sel": "partners-block__title",
+    "width": 1328,
+    "left": 24
+   },
+   {
+    "sel": "podcast-speakers__wrapper",
+    "width": 1328,
+    "left": 24
+   },
+   {
+    "sel": "highlighted-cta-block__details",
+    "width": 1048,
+    "left": 164
+   },
+   {
+    "sel": "rte-block",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "teaser-block__container",
+    "width": 1376,
+    "left": 0
+   }
+  ]
+ }
+}

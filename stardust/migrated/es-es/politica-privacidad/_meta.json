@@ -1,0 +1,272 @@
+{
+  "slug": "es-es-politica-privacidad",
+  "type": "static",
+  "renderBranch": "A'",
+  "template": "es-es-aviso-legal",
+  "modules": [
+    "breadcrumbs",
+    "masthead-big-title",
+    "table",
+    "contact-form",
+    "marketo-form"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "site-breadcrumbs",
+    "masthead-big-title",
+    "rte-block"
+  ],
+  "canonShas": {
+    "header": "1bfd2ab0825f",
+    "footer": "420218675208",
+    "css": "8876c0e8d8d1"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Aviso legal | Valtech",
+    "description": "Aviso legal",
+    "canonical": "https://www.valtech.com/es-es/aviso-legal/",
+    "lang": "es"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Aviso legal | Valtech",
+    "description": "Aviso legal",
+    "url": "https://www.valtech.com/es-es/aviso-legal/"
+  },
+  "migratedAt": "2026-11-13T18:03:35Z",
+  "designMdSha": "9dc5e8267a4e",
+  "designJsonSha": "ec9a36425b28",
+  "sourceCurrentSha": "c9b6a09b32fa",
+  "sourceProposedSha": "bf912875eb48",
+  "fidelityTier": "sibling",
+  "archetypeSource": "es-es-aviso-legal",
+  "archetypeSha": "abb0821b383f",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "media-reconcile",
+    "content-fidelity",
+    "pixel-gate-1440",
+    "pixel-gate-360"
+  ],
+  "gateEvidence": {
+    "variance-probe": "variance-probe: stardust/.work/cluster-static/variance.log (exit 2; deltas = content length/sections, no block variant needed)",
+    "delivery-lint": "0 P0 / 0 P1 / 0 P2",
+    "media-reconcile": "no images",
+    "content-fidelity": "published-origin gate-all 1440 5.67% Δh -414 / 360 1.86% Δh -230, clipped 0, MISSING 0 / HIDDEN 0; content-diff main 0 🔴 (1 🔴 header: hidden Revonic notice heading, chrome-owned), 1 🟡 aria-label (deviation)",
+    "pixel-gate-1440": "passed",
+    "pixel-gate-360": "passed"
+  },
+  "contentDeviations": [
+    {
+      "kind": "drop",
+      "source": "section.rte-block aria-label",
+      "target": "default-content section (no aria-label)",
+      "reason": "EDS default-content sections carry no authored aria-label; landmark-free section, text unchanged"
+    }
+  ],
+  "assetsBundled": 9,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/casos/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/industrias/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/nuestros-partners/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/servicios/elevacion-de-la-experiencia/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/aceleracion-comercio/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/transformacion-empresarial/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/servicios-creativos-de-marketing-performance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/revolucion-del-dato-y-ia/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/carrera/ofertas-de-empleo/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/trabajar-en-valtech/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/diversidad-e-inclusion/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/podcasts/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/whitepapers/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/content-hub/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/eventos/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/la-empresa-inteligente/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/noticias/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/oficinas/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/contacto/keep-in-touch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de-de/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-dk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/fr-fr/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nl-nl/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-gb/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sv-se/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ca/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-ar/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt-br/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-mx/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-sg/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/privacy-notice-for-recruitment/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/list-of-valtech-operational-entities/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/list-of-valtech-operational-entities/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/oficinas/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/carrera/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/accesibilidad/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/mantente-en-contacto/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "es-es/politica-privacidad/index.html",
+  "outputPathDefault": null,
+  "sidecar": "es-es/politica-privacidad/_meta.json",
+  "driverVersion": "1"
+}

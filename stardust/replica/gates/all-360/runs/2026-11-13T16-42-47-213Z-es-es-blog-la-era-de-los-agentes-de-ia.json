@@ -1,0 +1,116 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-13T16:42:47.212Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.valtech.com",
+    "eds": "https://main--c87ac39f--aemcoder.aem.page",
+    "edsHostOverride": "https://main--c87ac39f--aemcoder.aem.page",
+    "only": [
+      "es-es-blog-la-era-de-los-agentes-de-ia"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 0,
+    "overridePass": 0,
+    "fail": 1,
+    "error": 0,
+    "failPixel": 1,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 1,
+    "fontsNotLoaded": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "path": "/es-es/blog/la-era-de-los-agentes-de-ia",
+      "template": "article",
+      "tier": "archetype",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 12.5,
+      "textPct": 14.39,
+      "heightDelta": 373,
+      "originH": 22409,
+      "edsH": 22036,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 12.5% > 10%",
+        "units off 0 hidden 0 missing 0"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 4,
+        "variable": []
+      },
+      "units": {
+        "units": 1,
+        "within": 4,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 1,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [
+        "11000-11500:39.7%",
+        "11500-12000:17.8%",
+        "12000-12500:33.1%",
+        "12500-13000:18%",
+        "17000-17500:59.4%",
+        "17500-18000:71.8%",
+        "18000-18500:15.3%",
+        "21000-21500:55.4%",
+        "21500-22000:17.5%"
+      ],
+      "error": null
+    }
+  ]
+}

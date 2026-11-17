@@ -1,0 +1,4544 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-13T13:52:44.049Z",
+  "tol": 4,
+  "n": 6,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/valtech-conversion-engine/",
+  "at": "2026-11-13T13:52:16.263Z",
+  "docH": 12828
+ },
+ "eds": {
+  "url": "http://localhost:8791/valtech-conversion-engine-proposed.html",
+  "at": "2026-11-13T13:52:43.860Z",
+  "docH": 12828
+ },
+ "results": [
+  {
+   "sel": ".features-showcase__item=.features-showcase__item",
+   "family": "offering-features-showcase-item",
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 46,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 46,
+        "h": 48,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "heading:full-system leakage map",
+       "role": "heading",
+       "text": "full-system leakage map",
+       "edsText": "full-system leakage map",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58,
+        "sel": "h3.features-showcase__item__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/300",
+        "eds": "24/29/300"
+       }
+      },
+      {
+       "key": "text:identify the exact journey, ux, media an",
+       "role": "text",
+       "text": "identify the exact journey, ux, media and handover moments w",
+       "edsText": "identify the exact journey, ux, media and handover moments w",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 96
+       },
+       "eds": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 96,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 69,
+       "y": 2485,
+       "w": 275,
+       "h": 226
+      },
+      "eds": {
+       "x": 69,
+       "y": 2485,
+       "w": 275,
+       "h": 226
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 48,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "heading:prioritized activation roadmap",
+       "role": "heading",
+       "text": "prioritized activation roadmap",
+       "edsText": "prioritized activation roadmap",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58,
+        "sel": "h3.features-showcase__item__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/300",
+        "eds": "24/29/300"
+       }
+      },
+      {
+       "key": "text:top initiatives ranked by commercial imp",
+       "role": "text",
+       "text": "top initiatives ranked by commercial impact, implementation ",
+       "edsText": "top initiatives ranked by commercial impact, implementation ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 96
+       },
+       "eds": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 96,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 69,
+       "y": 2747,
+       "w": 275,
+       "h": 226
+      },
+      "eds": {
+       "x": 69,
+       "y": 2747,
+       "w": 275,
+       "h": 226
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "heading:intent model and archetypes",
+       "role": "heading",
+       "text": "intent model and archetypes",
+       "edsText": "intent model and archetypes",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58,
+        "sel": "h3.features-showcase__item__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/300",
+        "eds": "24/29/300"
+       }
+      },
+      {
+       "key": "text:a clear view of what customers are tryin",
+       "role": "text",
+       "text": "a clear view of what customers are trying to do now, where j",
+       "edsText": "a clear view of what customers are trying to do now, where j",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 96
+       },
+       "eds": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 96,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 69,
+       "y": 3010,
+       "w": 275,
+       "h": 226
+      },
+      "eds": {
+       "x": 69,
+       "y": 3010,
+       "w": 275,
+       "h": 226
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 50,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 50,
+        "h": 48,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "heading:kpi logic and experiment backlog",
+       "role": "heading",
+       "text": "kpi logic and experiment backlog",
+       "edsText": "kpi logic and experiment backlog",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58,
+        "sel": "h3.features-showcase__item__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/300",
+        "eds": "24/29/300"
+       }
+      },
+      {
+       "key": "text:a measurement framework that connects tr",
+       "role": "text",
+       "text": "a measurement framework that connects traffic, intent signal",
+       "edsText": "a measurement framework that connects traffic, intent signal",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 96
+       },
+       "eds": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 96,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 69,
+       "y": 3272,
+       "w": 275,
+       "h": 226
+      },
+      "eds": {
+       "x": 69,
+       "y": 3272,
+       "w": 275,
+       "h": 226
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 48,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "heading:growth governance model",
+       "role": "heading",
+       "text": "growth governance model",
+       "edsText": "growth governance model",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58,
+        "sel": "h3.features-showcase__item__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/300",
+        "eds": "24/29/300"
+       }
+      },
+      {
+       "key": "text:clear ownership, decision cadence and ex",
+       "role": "text",
+       "text": "clear ownership, decision cadence and experimentation rhythm",
+       "edsText": "clear ownership, decision cadence and experimentation rhythm",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 96
+       },
+       "eds": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 96,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 69,
+       "y": 3535,
+       "w": 275,
+       "h": 226
+      },
+      "eds": {
+       "x": 69,
+       "y": 3535,
+       "w": 275,
+       "h": 226
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 46,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 46,
+        "h": 48,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "heading:a scalable ai-native system",
+       "role": "heading",
+       "text": "a scalable ai-native system",
+       "edsText": "a scalable ai-native system",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58,
+        "sel": "h3.features-showcase__item__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/300",
+        "eds": "24/29/300"
+       }
+      },
+      {
+       "key": "text:reusable agents, conversion lever playbo",
+       "role": "text",
+       "text": "reusable agents, conversion lever playbooks and a learning l",
+       "edsText": "reusable agents, conversion lever playbooks and a learning l",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 96
+       },
+       "eds": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 96,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 69,
+       "y": 3798,
+       "w": 275,
+       "h": 226
+      },
+      "eds": {
+       "x": 69,
+       "y": 3798,
+       "w": 275,
+       "h": 226
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".two-columns__item__text=.two-columns__item__text",
+   "family": "two-columns-item",
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+     },
+     "eds": {
+      "path": "div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+     },
+     "rows": [
+      {
+       "key": "text:the conversion engine is designed to imp",
+       "role": "text",
+       "text": "the conversion engine is designed to improve the commercial ",
+       "edsText": "the conversion engine is designed to improve the commercial ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 90
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 90,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:higher conversion, bookings, leads and p",
+       "role": "text",
+       "text": "higher conversion, bookings, leads and pipeline.",
+       "edsText": "higher conversion, bookings, leads and pipeline.",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 114,
+        "w": 272,
+        "h": 42
+       },
+       "eds": {
+        "x": 40,
+        "y": 114,
+        "w": 272,
+        "h": 42,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:less acquisition waste and high-intent l",
+       "role": "text",
+       "text": "less acquisition waste and high-intent leakage.",
+       "edsText": "less acquisition waste and high-intent leakage.",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 156,
+        "w": 272,
+        "h": 42
+       },
+       "eds": {
+        "x": 40,
+        "y": 156,
+        "w": 272,
+        "h": 42,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:faster identification of high-impact opp",
+       "role": "text",
+       "text": "faster identification of high-impact opportunities.",
+       "edsText": "faster identification of high-impact opportunities.",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 198,
+        "w": 272,
+        "h": 42
+       },
+       "eds": {
+        "x": 40,
+        "y": 198,
+        "w": 272,
+        "h": 42,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:better lead quality and stronger direct-",
+       "role": "text",
+       "text": "better lead quality and stronger direct-channel control.",
+       "edsText": "better lead quality and stronger direct-channel control.",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 240,
+        "w": 272,
+        "h": 42
+       },
+       "eds": {
+        "x": 40,
+        "y": 240,
+        "w": 272,
+        "h": 42,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:clearer prioritization across teams, kpi",
+       "role": "text",
+       "text": "clearer prioritization across teams, kpis and experiments.",
+       "edsText": "clearer prioritization across teams, kpis and experiments.",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 282,
+        "w": 272,
+        "h": 42
+       },
+       "eds": {
+        "x": 40,
+        "y": 282,
+        "w": 272,
+        "h": 42,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 4194,
+       "w": 312,
+       "h": 324
+      },
+      "eds": {
+       "x": 24,
+       "y": 4194,
+       "w": 312,
+       "h": 324
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+     },
+     "eds": {
+      "path": "div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+     },
+     "rows": [
+      {
+       "key": "text:we focus on the points where customer in",
+       "role": "text",
+       "text": "we focus on the points where customer intent is created, int",
+       "edsText": "we focus on the points where customer intent is created, int",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 67
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 67,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:intent intelligence that maps demand sou",
+       "role": "text",
+       "text": "intent intelligence that maps demand sources, intent states ",
+       "edsText": "intent intelligence that maps demand sources, intent states ",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 91,
+        "w": 272,
+        "h": 63
+       },
+       "eds": {
+        "x": 40,
+        "y": 91,
+        "w": 272,
+        "h": 63,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:journey orchestration across routing, ct",
+       "role": "text",
+       "text": "journey orchestration across routing, cta logic, findability",
+       "edsText": "journey orchestration across routing, cta logic, findability",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 154,
+        "w": 272,
+        "h": 63
+       },
+       "eds": {
+        "x": 40,
+        "y": 154,
+        "w": 272,
+        "h": 63,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:conversion experience across mobile, for",
+       "role": "text",
+       "text": "conversion experience across mobile, forms, checkout, pricin",
+       "edsText": "conversion experience across mobile, forms, checkout, pricin",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 217,
+        "w": 272,
+        "h": 63
+       },
+       "eds": {
+        "x": 40,
+        "y": 217,
+        "w": 272,
+        "h": 63,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:media optimization that connects acquisi",
+       "role": "text",
+       "text": "media optimization that connects acquisition signals to down",
+       "edsText": "media optimization that connects acquisition signals to down",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 280,
+        "w": 272,
+        "h": 63
+       },
+       "eds": {
+        "x": 40,
+        "y": 280,
+        "w": 272,
+        "h": 63,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:llm and ai conversion that captures dema",
+       "role": "text",
+       "text": "llm and ai conversion that captures demand from ai-originate",
+       "edsText": "llm and ai conversion that captures demand from ai-originate",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 343,
+        "w": 272,
+        "h": 63
+       },
+       "eds": {
+        "x": 40,
+        "y": 343,
+        "w": 272,
+        "h": 63,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:growth governance that aligns teams, kpi",
+       "role": "text",
+       "text": "growth governance that aligns teams, kpi logic, experiments ",
+       "edsText": "growth governance that aligns teams, kpi logic, experiments ",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 406,
+        "w": 272,
+        "h": 42
+       },
+       "eds": {
+        "x": 40,
+        "y": 406,
+        "w": 272,
+        "h": 42,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:customer identity that recognizes intent",
+       "role": "text",
+       "text": "customer identity that recognizes intent across visits, chan",
+       "edsText": "customer identity that recognizes intent across visits, chan",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 448,
+        "w": 272,
+        "h": 63
+       },
+       "eds": {
+        "x": 40,
+        "y": 448,
+        "w": 272,
+        "h": 63,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 4837,
+       "w": 312,
+       "h": 511
+      },
+      "eds": {
+       "x": 24,
+       "y": 4837,
+       "w": 312,
+       "h": 511
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 8,
+      "within": 8,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+     },
+     "eds": {
+      "path": "div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+     },
+     "rows": [
+      {
+       "key": "text:the conversion engine follows a structur",
+       "role": "text",
+       "text": "the conversion engine follows a structured approach to quick",
+       "edsText": "the conversion engine follows a structured approach to quick",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 67
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 67,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:we start with the journeys, audiences an",
+       "role": "text",
+       "text": "we start with the journeys, audiences and conversion moments",
+       "edsText": "we start with the journeys, audiences and conversion moments",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 91,
+        "w": 272,
+        "h": 63
+       },
+       "eds": {
+        "x": 40,
+        "y": 91,
+        "w": 272,
+        "h": 63,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:we analyze where demand is created, wher",
+       "role": "text",
+       "text": "we analyze where demand is created, where intent breaks down",
+       "edsText": "we analyze where demand is created, where intent breaks down",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 154,
+        "w": 272,
+        "h": 63
+       },
+       "eds": {
+        "x": 40,
+        "y": 154,
+        "w": 272,
+        "h": 63,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:we connect journey data, ux friction, me",
+       "role": "text",
+       "text": "we connect journey data, ux friction, media signals, crm inp",
+       "edsText": "we connect journey data, ux friction, media signals, crm inp",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 217,
+        "w": 272,
+        "h": 63
+       },
+       "eds": {
+        "x": 40,
+        "y": 217,
+        "w": 272,
+        "h": 63,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:we prioritize the interventions most lik",
+       "role": "text",
+       "text": "we prioritize the interventions most likely to improve conve",
+       "edsText": "we prioritize the interventions most likely to improve conve",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 280,
+        "w": 272,
+        "h": 63
+       },
+       "eds": {
+        "x": 40,
+        "y": 280,
+        "w": 272,
+        "h": 63,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:we define the activation roadmap, experi",
+       "role": "text",
+       "text": "we define the activation roadmap, experiment logic and owner",
+       "edsText": "we define the activation roadmap, experiment logic and owner",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 343,
+        "w": 272,
+        "h": 84
+       },
+       "eds": {
+        "x": 40,
+        "y": 343,
+        "w": 272,
+        "h": 84,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 5666,
+       "w": 312,
+       "h": 427
+      },
+      "eds": {
+       "x": 24,
+       "y": 5666,
+       "w": 312,
+       "h": 427
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+     },
+     "eds": {
+      "path": "div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+     },
+     "rows": [
+      {
+       "key": "text:most conversion programs fail because th",
+       "role": "text",
+       "text": "most conversion programs fail because they optimize isolated",
+       "edsText": "most conversion programs fail because they optimize isolated",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 67
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 67,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:we start with customer intent, not pages",
+       "role": "text",
+       "text": "we start with customer intent, not pages, tools or channels.",
+       "edsText": "we start with customer intent, not pages, tools or channels.",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 91,
+        "w": 272,
+        "h": 42
+       },
+       "eds": {
+        "x": 40,
+        "y": 91,
+        "w": 272,
+        "h": 42,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:we connect media, ux, data, crm, sales, ",
+       "role": "text",
+       "text": "we connect media, ux, data, crm, sales, partners and ai arou",
+       "edsText": "we connect media, ux, data, crm, sales, partners and ai arou",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 133,
+        "w": 272,
+        "h": 63
+       },
+       "eds": {
+        "x": 40,
+        "y": 133,
+        "w": 272,
+        "h": 63,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:we prioritize what to fix first based on",
+       "role": "text",
+       "text": "we prioritize what to fix first based on impact, effort and ",
+       "edsText": "we prioritize what to fix first based on impact, effort and ",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 196,
+        "w": 272,
+        "h": 42
+       },
+       "eds": {
+        "x": 40,
+        "y": 196,
+        "w": 272,
+        "h": 42,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:we turn diagnosis into activation by con",
+       "role": "text",
+       "text": "we turn diagnosis into activation by connecting every recomm",
+       "edsText": "we turn diagnosis into activation by connecting every recomm",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 238,
+        "w": 272,
+        "h": 84
+       },
+       "eds": {
+        "x": 40,
+        "y": 238,
+        "w": 272,
+        "h": 84,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:we make ai part of the conversion system",
+       "role": "text",
+       "text": "we make ai part of the conversion system, not a disconnected",
+       "edsText": "we make ai part of the conversion system, not a disconnected",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 322,
+        "w": 272,
+        "h": 63
+       },
+       "eds": {
+        "x": 40,
+        "y": 322,
+        "w": 272,
+        "h": 63,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 6446,
+       "w": 312,
+       "h": 385
+      },
+      "eds": {
+       "x": 24,
+       "y": 6446,
+       "w": 312,
+       "h": 385
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".partners-block__section.inline .partners-block__logo=.partners-block__section.inline .partners-block__logo",
+   "family": "partners-logo-inline",
+   "required": true,
+   "originMatches": 9,
+   "edsMatches": 9,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.partners-block__section.inline > div.partners-block__list > a.partners-block__logo"
+     },
+     "eds": {
+      "path": "div.partners-block__section.inline > div.partners-block__list > a.partners-block__logo"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 12,
+        "y": 39,
+        "w": 130,
+        "h": 23
+       },
+       "eds": {
+        "x": 12,
+        "y": 39,
+        "w": 130,
+        "h": 23,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 7040,
+       "w": 154,
+       "h": 100
+      },
+      "eds": {
+       "x": 24,
+       "y": 7040,
+       "w": 154,
+       "h": 100
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.partners-block__section.inline > div.partners-block__list > a.partners-block__logo"
+     },
+     "eds": {
+      "path": "div.partners-block__section.inline > div.partners-block__list > a.partners-block__logo"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 23,
+        "w": 126,
+        "h": 54
+       },
+       "eds": {
+        "x": 14,
+        "y": 23,
+        "w": 126,
+        "h": 54,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 182,
+       "y": 7040,
+       "w": 154,
+       "h": 100
+      },
+      "eds": {
+       "x": 182,
+       "y": 7040,
+       "w": 154,
+       "h": 100
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.partners-block__section.inline > div.partners-block__list > a.partners-block__logo"
+     },
+     "eds": {
+      "path": "div.partners-block__section.inline > div.partners-block__list > a.partners-block__logo"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 41,
+        "w": 113,
+        "h": 19
+       },
+       "eds": {
+        "x": 21,
+        "y": 41,
+        "w": 113,
+        "h": 19,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 7164,
+       "w": 154,
+       "h": 100
+      },
+      "eds": {
+       "x": 24,
+       "y": 7164,
+       "w": 154,
+       "h": 100
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.partners-block__section.inline > div.partners-block__list > a.partners-block__logo"
+     },
+     "eds": {
+      "path": "div.partners-block__section.inline > div.partners-block__list > a.partners-block__logo"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 19,
+        "w": 90,
+        "h": 63
+       },
+       "eds": {
+        "x": 32,
+        "y": 19,
+        "w": 90,
+        "h": 63,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 182,
+       "y": 7164,
+       "w": 154,
+       "h": 100
+      },
+      "eds": {
+       "x": 182,
+       "y": 7164,
+       "w": 154,
+       "h": 100
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.partners-block__section.inline > div.partners-block__list > a.partners-block__logo"
+     },
+     "eds": {
+      "path": "div.partners-block__section.inline > div.partners-block__list > a.partners-block__logo"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 23,
+        "w": 126,
+        "h": 54
+       },
+       "eds": {
+        "x": 14,
+        "y": 23,
+        "w": 126,
+        "h": 54,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 7288,
+       "w": 154,
+       "h": 100
+      },
+      "eds": {
+       "x": 24,
+       "y": 7288,
+       "w": 154,
+       "h": 100
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.partners-block__section.inline > div.partners-block__list > a.partners-block__logo"
+     },
+     "eds": {
+      "path": "div.partners-block__section.inline > div.partners-block__list > a.partners-block__logo"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 36,
+        "w": 90,
+        "h": 28
+       },
+       "eds": {
+        "x": 32,
+        "y": 36,
+        "w": 90,
+        "h": 28,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 182,
+       "y": 7288,
+       "w": 154,
+       "h": 100
+      },
+      "eds": {
+       "x": 182,
+       "y": 7288,
+       "w": 154,
+       "h": 100
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".podcast-speakers__info=.podcast-speakers__info",
+   "family": "offering-podcast-speakers-info",
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 96,
+        "y": 0,
+        "w": 120,
+        "h": 120,
+        "sel": "img.podcast-speakers__image",
+        "role": "image"
+       },
+       "dx": -1,
+       "dy": 0,
+       "dw": 2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:bernd mündel",
+       "role": "text",
+       "text": "bernd mündel",
+       "edsText": "bernd mündel",
+       "byPosition": false,
+       "origin": {
+        "x": 100,
+        "y": 128,
+        "w": 113,
+        "h": 23
+       },
+       "eds": {
+        "x": 100,
+        "y": 128,
+        "w": 113,
+        "h": 23,
+        "sel": "div.podcast-speakers__name",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:senior strategist",
+       "role": "text",
+       "text": "senior strategist",
+       "edsText": "senior strategist",
+       "byPosition": false,
+       "origin": {
+        "x": 97,
+        "y": 161,
+        "w": 118,
+        "h": 21
+       },
+       "eds": {
+        "x": 97,
+        "y": 161,
+        "w": 118,
+        "h": 21,
+        "sel": "div.podcast-speakers__company",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 125,
+        "y": 182,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 125,
+        "y": 182,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers__link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#2",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 156,
+        "y": 182,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 156,
+        "y": 182,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers__link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 127,
+        "y": 190,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 127,
+        "y": 190,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 158,
+        "y": 190,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 158,
+        "y": 190,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 7823,
+       "w": 312,
+       "h": 227
+      },
+      "eds": {
+       "x": 24,
+       "y": 7823,
+       "w": 312,
+       "h": 227
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 7,
+      "within": 7,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 96,
+        "y": 0,
+        "w": 120,
+        "h": 120,
+        "sel": "img.podcast-speakers__image",
+        "role": "image"
+       },
+       "dx": -1,
+       "dy": 0,
+       "dw": 2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:sune porsborg børsen",
+       "role": "text",
+       "text": "sune porsborg børsen",
+       "edsText": "sune porsborg børsen",
+       "byPosition": false,
+       "origin": {
+        "x": 67,
+        "y": 128,
+        "w": 178,
+        "h": 23
+       },
+       "eds": {
+        "x": 67,
+        "y": 128,
+        "w": 178,
+        "h": 23,
+        "sel": "div.podcast-speakers__name",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:director, head of data & martech strateg",
+       "role": "text",
+       "text": "director, head of data & martech strategy",
+       "edsText": "director, head of data & martech strategy",
+       "byPosition": false,
+       "origin": {
+        "x": 6,
+        "y": 161,
+        "w": 300,
+        "h": 21
+       },
+       "eds": {
+        "x": 6,
+        "y": 161,
+        "w": 300,
+        "h": 21,
+        "sel": "div.podcast-speakers__company",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 141,
+        "y": 182,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 141,
+        "y": 182,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers__link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 143,
+        "y": 190,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 143,
+        "y": 190,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 8090,
+       "w": 312,
+       "h": 227
+      },
+      "eds": {
+       "x": 24,
+       "y": 8090,
+       "w": 312,
+       "h": 227
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 96,
+        "y": 0,
+        "w": 120,
+        "h": 120,
+        "sel": "img.podcast-speakers__image",
+        "role": "image"
+       },
+       "dx": -1,
+       "dy": 0,
+       "dw": 2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:paul carysforth",
+       "role": "text",
+       "text": "paul carysforth",
+       "edsText": "paul carysforth",
+       "byPosition": false,
+       "origin": {
+        "x": 94,
+        "y": 128,
+        "w": 124,
+        "h": 23
+       },
+       "eds": {
+        "x": 95,
+        "y": 128,
+        "w": 122,
+        "h": 23,
+        "sel": "div.podcast-speakers__name",
+        "role": "text"
+       },
+       "dx": 1,
+       "dy": 0,
+       "dw": -2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:director, experience analytics",
+       "role": "text",
+       "text": "director, experience analytics",
+       "edsText": "director, experience analytics",
+       "byPosition": false,
+       "origin": {
+        "x": 50,
+        "y": 161,
+        "w": 212,
+        "h": 21
+       },
+       "eds": {
+        "x": 50,
+        "y": 161,
+        "w": 212,
+        "h": 21,
+        "sel": "div.podcast-speakers__company",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 141,
+        "y": 182,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 141,
+        "y": 182,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers__link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 143,
+        "y": 190,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 143,
+        "y": 190,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 8358,
+       "w": 312,
+       "h": 227
+      },
+      "eds": {
+       "x": 24,
+       "y": 8358,
+       "w": 312,
+       "h": 227
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".teaser-block__teaser=.teaser-block__teaser",
+   "family": "teaser-block-teaser",
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.flickity-viewport > div.flickity-slider > div.teaser-block__teaser.is-selected"
+     },
+     "eds": {
+      "path": "div.flickity-viewport > div.flickity-slider > div.teaser-block__teaser.is-selected"
+     },
+     "rows": [
+      {
+       "key": "image:img#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": -148,
+        "y": -2,
+        "w": 566,
+        "h": 424
+       },
+       "eds": {
+        "x": -148,
+        "y": -2,
+        "w": 566,
+        "h": 424,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": true,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "link:insight the intelligent enterprise",
+       "role": "link",
+       "text": "insight the intelligent enterprise",
+       "edsText": "insight the intelligent enterprise",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 270,
+        "h": 420
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 270,
+        "h": 420,
+        "sel": "a.teaser-block__teaser__inner",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:insight",
+       "role": "heading",
+       "text": "insight",
+       "edsText": "insight",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 113,
+        "h": 43
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 113,
+        "h": 43,
+        "sel": "h2.teaser-block__teaser__pretitle.insight",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/19/400",
+        "eds": "16/19/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 13,
+        "y": 10,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 13,
+        "y": 10,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/19/400",
+        "eds": "16/19/400"
+       }
+      },
+      {
+       "key": "box:hgroup.teaser-block__teaser__hgroup#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 308,
+        "w": 270,
+        "h": 112
+       },
+       "eds": {
+        "x": 0,
+        "y": 308,
+        "w": 270,
+        "h": 112,
+        "sel": "hgroup.teaser-block__teaser__hgroup",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:the intelligent enterprise",
+       "role": "heading",
+       "text": "the intelligent enterprise",
+       "edsText": "the intelligent enterprise",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 318,
+        "w": 212,
+        "h": 20
+       },
+       "eds": {
+        "x": 24,
+        "y": 318,
+        "w": 215,
+        "h": 20,
+        "sel": "h5.teaser-block__teaser__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 3,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/300",
+        "eds": "16/20/300"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 227,
+        "y": 388,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 227,
+        "y": 388,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 10439,
+       "w": 270,
+       "h": 420
+      },
+      "eds": {
+       "x": 24,
+       "y": 10439,
+       "w": 270,
+       "h": 420
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 7,
+      "within": 6,
+      "off": 0,
+      "hidden": 1,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.flickity-viewport > div.flickity-slider > div.teaser-block__teaser"
+     },
+     "eds": {
+      "path": "div.flickity-viewport > div.flickity-slider > div.teaser-block__teaser"
+     },
+     "rows": [
+      {
+       "key": "image:img#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": -148,
+        "y": -2,
+        "w": 566,
+        "h": 424
+       },
+       "eds": {
+        "x": -148,
+        "y": -2,
+        "w": 566,
+        "h": 424,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": true,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "link:news the era of conversational commerce",
+       "role": "link",
+       "text": "news the era of conversational commerce",
+       "edsText": "news the era of conversational commerce",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 270,
+        "h": 420
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 270,
+        "h": 420,
+        "sel": "a.teaser-block__teaser__inner",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": true,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:news",
+       "role": "heading",
+       "text": "news",
+       "edsText": "news",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 113,
+        "h": 43
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 113,
+        "h": 43,
+        "sel": "h2.teaser-block__teaser__pretitle.news",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": true,
+       "type": {
+        "origin": "16/19/400",
+        "eds": "16/19/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 13,
+        "y": 10,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 13,
+        "y": 10,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/19/400",
+        "eds": "16/19/400"
+       }
+      },
+      {
+       "key": "box:hgroup.teaser-block__teaser__hgroup#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 308,
+        "w": 270,
+        "h": 112
+       },
+       "eds": {
+        "x": 0,
+        "y": 308,
+        "w": 270,
+        "h": 112,
+        "sel": "hgroup.teaser-block__teaser__hgroup",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": true,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:the era of conversational commerce",
+       "role": "heading",
+       "text": "the era of conversational commerce",
+       "edsText": "the era of conversational commerce",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 318,
+        "w": 212,
+        "h": 40
+       },
+       "eds": {
+        "x": 24,
+        "y": 318,
+        "w": 215,
+        "h": 40,
+        "sel": "h5.teaser-block__teaser__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 3,
+       "dh": 0,
+       "off": false,
+       "hidden": true,
+       "type": {
+        "origin": "16/20/300",
+        "eds": "16/20/300"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 227,
+        "y": 388,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 227,
+        "y": 388,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": true,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 314,
+       "y": 10439,
+       "w": 270,
+       "h": 420
+      },
+      "eds": {
+       "x": 314,
+       "y": 10439,
+       "w": 270,
+       "h": 420
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 7,
+      "within": 1,
+      "off": 0,
+      "hidden": 6,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".faq-block__list__item=.faq-block__list__item",
+   "family": "faq-block-item",
+   "required": true,
+   "originMatches": 10,
+   "edsMatches": 10,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "eds": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "rows": [
+      {
+       "key": "heading:what is the conversion engine?",
+       "role": "heading",
+       "text": "what is the conversion engine?",
+       "edsText": "what is the conversion engine?",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48
+       },
+       "eds": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48,
+        "sel": "h3.faq-block__list__item__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "box:div.faq-block__list__item__description.text-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 241
+       },
+       "eds": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 241,
+        "sel": "div.faq-block__list__item__description.text-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:the conversion engine is a multi-agentic",
+       "role": "text",
+       "text": "the conversion engine is a multi-agentic assessment and acti",
+       "edsText": "the conversion engine is a multi-agentic assessment and acti",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 105,
+        "w": 312,
+        "h": 179
+       },
+       "eds": {
+        "x": 24,
+        "y": 105,
+        "w": 312,
+        "h": 179,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 11012,
+       "w": 360,
+       "h": 322
+      },
+      "eds": {
+       "x": 0,
+       "y": 11012,
+       "w": 360,
+       "h": 322
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "eds": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "rows": [
+      {
+       "key": "heading:how is this different from a cro project",
+       "role": "heading",
+       "text": "how is this different from a cro project?",
+       "edsText": "how is this different from a cro project?",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48
+       },
+       "eds": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48,
+        "sel": "h3.faq-block__list__item__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "box:div.faq-block__list__item__description.text-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 286
+       },
+       "eds": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 286,
+        "sel": "div.faq-block__list__item__description.text-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:cro often starts at the page, test or co",
+       "role": "text",
+       "text": "cro often starts at the page, test or conversion-rate level.",
+       "edsText": "cro often starts at the page, test or conversion-rate level.",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 105,
+        "w": 312,
+        "h": 224
+       },
+       "eds": {
+        "x": 24,
+        "y": 105,
+        "w": 312,
+        "h": 224,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 11334,
+       "w": 360,
+       "h": 81
+      },
+      "eds": {
+       "x": 0,
+       "y": 11334,
+       "w": 360,
+       "h": 81
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "eds": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "rows": [
+      {
+       "key": "heading:what kinds of conversion leakage does it",
+       "role": "heading",
+       "text": "what kinds of conversion leakage does it identify?",
+       "edsText": "what kinds of conversion leakage does it identify?",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48
+       },
+       "eds": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48,
+        "sel": "h3.faq-block__list__item__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "box:div.faq-block__list__item__description.text-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 286
+       },
+       "eds": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 286,
+        "sel": "div.faq-block__list__item__description.text-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:it identifies the moments where demand e",
+       "role": "text",
+       "text": "it identifies the moments where demand exists but fails to b",
+       "edsText": "it identifies the moments where demand exists but fails to b",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 105,
+        "w": 312,
+        "h": 224
+       },
+       "eds": {
+        "x": 24,
+        "y": 105,
+        "w": 312,
+        "h": 224,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 11415,
+       "w": 360,
+       "h": 81
+      },
+      "eds": {
+       "x": 0,
+       "y": 11415,
+       "w": 360,
+       "h": 81
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "eds": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "rows": [
+      {
+       "key": "heading:what is the cost of not fixing conversio",
+       "role": "heading",
+       "text": "what is the cost of not fixing conversion leakage?",
+       "edsText": "what is the cost of not fixing conversion leakage?",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48
+       },
+       "eds": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48,
+        "sel": "h3.faq-block__list__item__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "box:div.faq-block__list__item__description.text-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 286
+       },
+       "eds": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 286,
+        "sel": "div.faq-block__list__item__description.text-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:when conversion capacity fails to keep p",
+       "role": "text",
+       "text": "when conversion capacity fails to keep pace with demand gene",
+       "edsText": "when conversion capacity fails to keep pace with demand gene",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 105,
+        "w": 312,
+        "h": 224
+       },
+       "eds": {
+        "x": 24,
+        "y": 105,
+        "w": 312,
+        "h": 224,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 11496,
+       "w": 360,
+       "h": 81
+      },
+      "eds": {
+       "x": 0,
+       "y": 11496,
+       "w": 360,
+       "h": 81
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "eds": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "rows": [
+      {
+       "key": "heading:do we need an existing analytics setup?",
+       "role": "heading",
+       "text": "do we need an existing analytics setup?",
+       "edsText": "do we need an existing analytics setup?",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48
+       },
+       "eds": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48,
+        "sel": "h3.faq-block__list__item__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "box:div.faq-block__list__item__description.text-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 241
+       },
+       "eds": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 241,
+        "sel": "div.faq-block__list__item__description.text-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:no. we work with your current environmen",
+       "role": "text",
+       "text": "no. we work with your current environment. the assessment co",
+       "edsText": "no. we work with your current environment. the assessment co",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 105,
+        "w": 312,
+        "h": 179
+       },
+       "eds": {
+        "x": 24,
+        "y": 105,
+        "w": 312,
+        "h": 179,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 11577,
+       "w": 360,
+       "h": 81
+      },
+      "eds": {
+       "x": 0,
+       "y": 11577,
+       "w": 360,
+       "h": 81
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "eds": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "rows": [
+      {
+       "key": "heading:what sectors does this apply to?",
+       "role": "heading",
+       "text": "what sectors does this apply to?",
+       "edsText": "what sectors does this apply to?",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48
+       },
+       "eds": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48,
+        "sel": "h3.faq-block__list__item__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "box:div.faq-block__list__item__description.text-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 286
+       },
+       "eds": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 286,
+        "sel": "div.faq-block__list__item__description.text-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:the conversion engine applies to any sec",
+       "role": "text",
+       "text": "the conversion engine applies to any sector where high-inten",
+       "edsText": "the conversion engine applies to any sector where high-inten",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 105,
+        "w": 308,
+        "h": 88
+       },
+       "eds": {
+        "x": 24,
+        "y": 105,
+        "w": 308,
+        "h": 88,
+        "sel": "span",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:services",
+       "role": "text",
+       "text": "services",
+       "edsText": "services",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 195,
+        "w": 59,
+        "h": 21
+       },
+       "eds": {
+        "x": 24,
+        "y": 195,
+        "w": 59,
+        "h": 21,
+        "sel": "span",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:and other industries with complex journe",
+       "role": "text",
+       "text": "and other industries with complex journeys, handovers, quote",
+       "edsText": "and other industries with complex journeys, handovers, quote",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 195,
+        "w": 302,
+        "h": 66
+       },
+       "eds": {
+        "x": 24,
+        "y": 195,
+        "w": 302,
+        "h": 66,
+        "sel": "span",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:or sales processes. the conversion lever",
+       "role": "text",
+       "text": "or sales processes. the conversion lever model is adapted to",
+       "edsText": "or sales processes. the conversion lever model is adapted to",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 239,
+        "w": 289,
+        "h": 88
+       },
+       "eds": {
+        "x": 24,
+        "y": 239,
+        "w": 289,
+        "h": 88,
+        "sel": "span",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:ecosystems",
+       "role": "text",
+       "text": "ecosystems",
+       "edsText": "ecosystems",
+       "byPosition": false,
+       "origin": {
+        "x": 127,
+        "y": 239,
+        "w": 85,
+        "h": 21
+       },
+       "eds": {
+        "x": 127,
+        "y": 239,
+        "w": 85,
+        "h": 21,
+        "sel": "span",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 11658,
+       "w": 360,
+       "h": 81
+      },
+      "eds": {
+       "x": 0,
+       "y": 11658,
+       "w": 360,
+       "h": 81
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 8,
+      "within": 8,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 27,
+  "within": 102,
+  "off": 0,
+  "hidden": 7,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 7
+ }
+}

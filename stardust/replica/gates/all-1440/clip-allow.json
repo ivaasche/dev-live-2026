@@ -1,0 +1,14 @@
+{
+  "es-es-noticias": {
+    "max": 1,
+    "reason": "source-parity: the news year heading (\"2026\") is cut by its own subheader box (overflow:hidden + margin-bottom:-.22em, main.css @217452–217796); the origin row reports the identical TEXT CLIPPED x1 (gates/all-1440/es-es-noticias/clip.json origin.counts.textClipped 1)"
+  },
+  "es-es-podcasts": {
+    "max": 5,
+    "reason": "source-parity: the six podcast card titles are -webkit-line-clamp:2 (PodcastFilter card-button__title, podcast_filter.js); the origin row reports the same clamped titles as TEXT CLIPPED (gates/all-1440/es-es-podcasts/clip.json origin.counts.textClipped >= 5)"
+  },
+  "es-es-thread-magazine": {
+    "max": 12,
+    "reason": "source-parity: the Thread edition cards (new_services-block) clamp their link text to two lines (-webkit-line-clamp:2 inside overflow:hidden __service-link) and cut the title line box in its overflow:hidden __service-title-wrapper (main.css new_services-block rules, lifted verbatim); the origin row reports the same TEXT CLIPPED 12 (gates/all-1440/es-es-thread-magazine/clip.json origin.counts.textClipped 12)"
+  }
+}

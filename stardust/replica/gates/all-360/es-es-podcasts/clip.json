@@ -1,0 +1,107 @@
+{
+ "url": "https://main--c87ac39f--aemcoder.aem.page/es-es/podcasts",
+ "at": "2026-11-14T08:50:37.898Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 5,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 2,
+  "offPage": 8,
+  "textNodes": 55,
+  "controls": 45,
+  "total": 5
+ },
+ "groups": [
+  {
+   "kind": "TEXT CLIPPED",
+   "advisory": false,
+   "n": 1,
+   "clipper": "h2#podcast-rethinking-digital-care-with-pfa-pension",
+   "path": "a.insight-item > div.ii-content > div.ii-title > h2#podcast-rethinking-digital-care-with-pfa-pension",
+   "text": "podcast: rethinking digital care with pfa pension",
+   "cutMin": 35,
+   "cutMax": 35
+  },
+  {
+   "kind": "TEXT CLIPPED",
+   "advisory": false,
+   "n": 1,
+   "clipper": "h2#the-customer-experience-odyssey-valtech-podcast",
+   "path": "a.insight-item > div.ii-content > div.ii-title > h2#the-customer-experience-odyssey-valtech-podcast",
+   "text": "the customer experience odyssey: valtech podcast",
+   "cutMin": 35,
+   "cutMax": 35
+  },
+  {
+   "kind": "TEXT CLIPPED",
+   "advisory": false,
+   "n": 1,
+   "clipper": "h2#driving-retail-innovation-with-fountain-tire-and-valtech",
+   "path": "a.insight-item > div.ii-content > div.ii-title > h2#driving-retail-innovation-with-fountain-tire-and-valtech",
+   "text": "driving retail innovation with fountain tire and valtech",
+   "cutMin": 35,
+   "cutMax": 35
+  },
+  {
+   "kind": "TEXT CLIPPED",
+   "advisory": false,
+   "n": 1,
+   "clipper": "h2#ds-smith-becoming-a-connected-manufacturer",
+   "path": "a.insight-item > div.ii-content > div.ii-title > h2#ds-smith-becoming-a-connected-manufacturer",
+   "text": "ds smith: becoming a connected manufacturer",
+   "cutMin": 35,
+   "cutMax": 35
+  },
+  {
+   "kind": "TEXT CLIPPED",
+   "advisory": false,
+   "n": 1,
+   "clipper": "h2#the-voice-of-digital-leaders-in-manufacturing",
+   "path": "a.insight-item > div.ii-content > div.ii-title > h2#the-voice-of-digital-leaders-in-manufacturing",
+   "text": "the voice of digital leaders in manufacturing",
+   "cutMin": 35,
+   "cutMax": 35
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.teaser-block-teaser",
+   "path": "div.flickity-viewport > div.flickity-slider > div.teaser-block-teaser > a.teaser-block-teaser-inner",
+   "text": "insightel geo como nueva frontera de la visibilidad digital",
+   "cutMin": 224,
+   "cutMax": 224
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.teaser-block-teaser",
+   "path": "div.teaser-block-teaser > a.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#el-geo-como-nueva-frontera-de-la-visibilidad-digital",
+   "text": "el geo como nueva frontera de la visibilidad digital",
+   "cutMin": 180,
+   "cutMax": 180
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 5,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 22,
+   "textNodes": 67,
+   "controls": 50,
+   "total": 5
+  }
+ }
+}

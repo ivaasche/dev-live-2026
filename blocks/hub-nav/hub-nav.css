@@ -1,0 +1,162 @@
+/* hub-nav — source div.section.iehub-nav (main.css @482564–484592, prototypes/css/microsite.css),
+   values verbatim */
+
+.hub-nav {
+  padding: 0;
+  position: relative;
+  z-index: 776;
+}
+
+@media (width >= 64rem) {
+  .hub-nav {
+    background: #171717;
+    color: #fff;
+    height: 3.75rem;
+  }
+}
+
+.hub-nav .hub-nav-container {
+  background: linear-gradient(1turn, #484848, transparent);
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  padding: .75rem 1rem;
+  position: fixed;
+  right: 0;
+  transform: translateY(0);
+  transition: transform .3s ease-in;
+}
+
+@media (width >= 39rem) {
+  .hub-nav .hub-nav-container {
+    padding-inline: 1.5rem;
+  }
+}
+
+@media (width >= 64rem) {
+  .hub-nav .hub-nav-container {
+    align-items: center;
+    background: #171717;
+    bottom: auto;
+    gap: 2.5rem;
+    height: 3.75rem;
+    justify-content: flex-end;
+    padding-block: .625rem;
+    position: relative;
+    top: 0;
+    transition: none;
+  }
+}
+
+.hub-nav .hub-nav-list,
+.hub-nav .hub-nav-list li,
+.hub-nav .hub-nav-cta {
+  display: contents;
+}
+
+.hub-nav .hub-nav-container.hub-nav-fixed {
+  position: fixed;
+  transition: transform .3s ease-in;
+}
+
+.hub-nav .hub-nav-item {
+  display: none;
+}
+
+@media (width >= 64rem) {
+  .hub-nav .hub-nav-item {
+    color: #fff;
+    display: block;
+    font-family: var(--font-sans);
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.1;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-decoration: none;
+  }
+
+  .hub-nav .hub-nav-item.active,
+  .hub-nav .hub-nav-item:hover {
+    text-decoration: underline;
+  }
+
+  .hub-nav .hub-nav-item.active {
+    cursor: default;
+  }
+}
+
+.hub-nav .hub-nav-item-cta {
+  display: block;
+  line-height: 1.333;
+  margin-right: 0;
+  padding: .875rem 1.375rem;
+}
+
+@media (width >= 64rem) {
+  .hub-nav .hub-nav-item-cta {
+    bottom: 0;
+    left: 0;
+    padding: .375rem .9375rem;
+    position: relative;
+    transition: margin-right .3s ease, visibility .3s ease;
+  }
+}
+
+.hub-nav .hub-nav-item-cta,
+.hub-nav .hub-nav-item-cta:hover {
+  text-decoration: none;
+}
+
+/* the source loads .btn--white after .iehub-nav__item: the pill's colour and weight win */
+.hub-nav .hub-nav-item.btn-white {
+  color: #000;
+  font-weight: 400;
+}
+
+.hub-nav .hub-nav-item.btn-white:hover,
+.hub-nav .hub-nav-item.btn-white:focus-visible {
+  color: #fff;
+}
+
+@media (hover: none) {
+  .hub-nav .hub-nav-item.btn-white:hover {
+    color: #000;
+  }
+}
+
+/* ---------- microsite band joins (source `.X-theme + .X-theme { padding-top: 0 !important }`,
+   main.css @42101 / @42311 / @42520, and `.white-theme + .podcast-speakers.ie-hub-page
+   .white-theme .section__container { padding-top: 0 }` @42570) across EDS sections, for the hub
+   blocks every microsite page loads with this bar (interim: the global rule is not in styles.css;
+   side-by-side / related-cases / registration-form / podcast-speakers carry their own copies) */
+main .section:has(> div:last-child > :is(.white-theme, .ie-hub.featured-verticals-block, .ie-hub.podcast-speakers))
++ .section > div:first-child > :is(.case-rte.white-theme, .statement-block.white-theme, .wave-divider.white-theme,
+  .attributed-quote-block.white-theme, .expandable-faq-block) {
+  padding-top: 0 !important;
+}
+
+main .section:has(> div:last-child > :is(.blue-theme, .impact-block.blue, .iehub-offering))
++ .section > div:first-child > :is(.case-rte.blue-theme, .statement-block.blue-theme, .wave-divider.blue-theme,
+  .attributed-quote-block.blue-theme, .iehub-offering, .impact-block.blue) {
+  padding-top: 0 !important;
+}
+
+main .section:has(> div:last-child > .dark-theme)
++ .section > div:first-child > :is(.case-rte.dark-theme, .statement-block.dark-theme, .wave-divider.dark-theme,
+  .attributed-quote-block.dark-theme) {
+  padding-top: 0 !important;
+}
+
+main .section:has(> div:last-child > .ie-hub.podcast-speakers) + .section > div:first-child > .podcast-speakers.ie-hub {
+  padding-top: 0 !important;
+}
+
+@media (width >= 39rem) {
+  main .section:has(> div:last-child > .ie-hub.podcast-speakers)
+  + .section > div:first-child > .podcast-speakers.ie-hub .podcast-speakers-inner {
+    padding-top: 0;
+  }
+}

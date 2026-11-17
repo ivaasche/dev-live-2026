@@ -1,0 +1,34 @@
+origin: cached ai-searchandizing-workshop-units (2026-11-13T13:32:57.413Z)
+unit-geometry @ 360px, tol 4px — https://www.valtech.com/ai-searchandizing-workshop/ vs http://localhost:8791/ai-searchandizing-workshop-proposed.html
+unit 1 of results-statistics-item (required) .results-statistics-block_item_container=.results-statistics-block_item_container: origin 24,1597 320×260 vs served 24,1264 296×258 → Δx 0 Δy -333 Δw -24 Δh -2  ✗ unit size; 4 elements: 1 within 4px, 3 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "80%" | 16,6 126×82 | 16,6 126×82 | 0 | 0 | 0 | 0 | ✓ |
+| text "of customers are more likely to" | 20,137 271×26 | 20,143 217×21 | 0 | +6 | -54 | -5 | ✗ |
+| text "purchase" | 20,165 83×26 | 20,166 66×21 | 0 | +1 | -17 | -5 | ✗ |
+| text "from brands offering personalized ex" | 20,165 269×54 | 20,166 215×43 | 0 | +1 | -54 | -11 | ✗ |
+unit 2 of results-statistics-item (required) .results-statistics-block_item_container=.results-statistics-block_item_container: origin 360,1597 320×260 vs served 336,1264 296×258 → Δx -24 Δy -333 Δw -24 Δh -2  ✗ unit size; 4 elements: 0 within 4px, 3 off, 4 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "8.5%" | 16,6 135×82 | 16,6 135×82 | 0 | 0 | 0 | 0 | ✗ hidden (clipped) |
+| text "increase in revenue per visitor with" | 20,137 264×82 | 20,155 244×43 | 0 | +18 | -20 | -39 | ✗ hidden (clipped) |
+| text "bloomreach" | 26,193 107×26 | 170,177 86×21 | +144 | -16 | -21 | -5 | ✗ hidden (clipped) |
+| text ")" | 134,193 6×26 | 256,177 5×21 | +122 | -16 | -1 | -5 | ✗ hidden (clipped) |
+unit 1 of podcast-speakers-info (required) .podcast-speakers__info=.podcast-speakers__info: origin 24,3189 282×329 vs served 24,2935 312×248 → Δx 0 Δy -254 Δw +30 Δh -81  ✗ unit size; 5 elements: 0 within 4px, 5 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img.podcast-speakers__image#1" | 0,0 150×152 | 97,0 118×120 | +97 | 0 | -32 | -32 | ✗ |
+| text "raphaël iscar​" | 0,176 191×40 | 102,128 107×23 | +102 | -48 | -84 | -17 | ✗ |
+| text "head of experience & commerce (xc) s" | 0,216 282×52 | 0,161 312×42 | 0 | -55 | +30 | -10 | ✗ |
+| link "link:a.podcast-speakers__link#1" | 0,268 26×37 | 141,203 26×37 | +141 | -65 | 0 | 0 | ✗ |
+| image "image:svg#1" | 2,276 24×24 | 143,211 24×24 | +141 | -65 | 0 | 0 | ✗ |
+unit 2 of podcast-speakers-info (required) .podcast-speakers__info=.podcast-speakers__info: origin 356,3189 282×303 vs served 24,3224 312×227 → Δx -332 Δy +35 Δw +30 Δh -76  ✗ unit size; 5 elements: 0 within 4px, 5 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img.podcast-speakers__image#1" | 0,0 150×152 | 97,0 118×120 | +97 | 0 | -32 | -32 | ✗ |
+| text "gabriel laliberte" | 0,176 235×40 | 90,128 132×23 | +90 | -48 | -103 | -17 | ✗ |
+| text "evp, strategy" | 0,216 120×26 | 108,161 96×21 | +108 | -55 | -24 | -5 | ✗ |
+| link "link:a.podcast-speakers__link#1" | 0,242 26×37 | 141,182 26×37 | +141 | -60 | 0 | 0 | ✗ |
+| image "image:svg#1" | 2,250 24×24 | 143,190 24×24 | +141 | -60 | 0 | 0 | ✗ |
+Units: 4 compared; elements within 1, off 16, hidden 4, missing 0 → FAIL
+json → stardust/replica/gates/ai-searchandizing-workshop-360/units-iter2.json

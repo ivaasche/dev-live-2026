@@ -1,0 +1,261 @@
+/* insight-header — featured insights masthead (prototype css/listing.css, lifted from main.css
+   masthead-insights + u-grid). Authored heading / date / tag list styled through their
+   wrappers (EW2). */
+/* stylelint-disable no-descending-specificity */
+
+.insight-header {
+  margin-bottom: 2.5rem;
+}
+
+.insight-header .insight-header-title {
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+  clip-path: inset(50%);
+}
+
+/* grid utilities (u-grid) */
+.insight-header .u-grid {
+  display: grid;
+}
+
+.insight-header .u-grid-default {
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
+}
+
+.insight-header .u-grid-default .grid-column {
+  min-height: 40px;
+  grid-row: span 1;
+  grid-column: span 12;
+}
+
+.insight-header .u-grid-responsive-gap-2 {
+  grid-template-columns: 1fr;
+  gap: 2px;
+}
+
+@media (width >= 600px) {
+  .insight-header .u-grid-responsive-gap-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (width >= 900px) {
+  .insight-header .u-grid-responsive-gap-2 {
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
+
+.insight-header .u-grid-responsive-gap-2 .grid-column {
+  min-height: 40px;
+  grid-row: span 1;
+}
+
+@media (width >= 900px) {
+  .insight-header .u-grid-responsive-gap-2 .grid-column {
+    grid-column: span 6;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .insight-header .content-fluid-container {
+    margin: 0 auto;
+    width: 84vw;
+  }
+}
+
+/* masthead-insights card */
+.insight-header .masthead-insights {
+  color: inherit; /* inline as on the source: its 2.5rem block margin never applies */
+}
+
+.insight-header .masthead-insights-container {
+  position: relative;
+}
+
+@media (width >= 58.75rem) {
+  .insight-header .masthead-insights-container {
+    padding-top: 45%;
+  }
+}
+
+.insight-header .masthead-insights-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (width >= 58.75rem) {
+  .insight-header .masthead-insights-inner {
+    flex-direction: row;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+
+.insight-header .masthead-insights-text {
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  order: 2;
+  padding: 1.25rem 6vw;
+  pointer-events: none;
+  position: relative;
+  z-index: 2;
+}
+
+@media (width >= 58.75rem) {
+  .insight-header .masthead-insights-text {
+    color: #fff;
+    order: 1;
+    padding: 1.25rem 3.75rem 3.75rem;
+    width: 100%;
+  }
+}
+
+.insight-header .masthead-insights-hgroup {
+  margin: 0 0 2.5rem;
+}
+
+@media (width >= 58.75rem) {
+  .insight-header .masthead-insights-hgroup {
+    margin: 2.5rem 0;
+  }
+
+  .insight-header .insight-primary .masthead-insights-hgroup {
+    margin-top: 7.5rem;
+  }
+}
+
+.insight-header .masthead-insights-hgroup :is(h2, h3, h4) {
+  color: inherit;
+  margin: 0;
+}
+
+@media (width >= 58.75rem) {
+  .insight-header .masthead-insights-hgroup :is(h2, h3, h4) {
+    white-space: pre-line;
+  }
+}
+
+.insight-header .insight-primary .masthead-insights-hgroup :is(h2, h3, h4) {
+  background-image: linear-gradient(currentcolor, currentcolor);
+  background-position: 0 94%;
+  background-repeat: repeat-x;
+  background-size: 100% 4%;
+  display: inline;
+  font-size: 3vw;
+  line-height: 1.2;
+}
+
+@media (width <= 833.3333px) {
+  .insight-header .insight-primary .masthead-insights-hgroup :is(h2, h3, h4) {
+    font-size: 25px;
+  }
+}
+
+@media (width >= 1600px) {
+  .insight-header .insight-primary .masthead-insights-hgroup :is(h2, h3, h4) {
+    font-size: 48px;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .insight-header .insight-primary .masthead-insights-hgroup :is(h2, h3, h4) {
+    line-height: 1.1;
+  }
+}
+
+.insight-header .insight-secondary .masthead-insights-hgroup :is(h2, h3, h4) {
+  font-size: 1.5vw;
+}
+
+@media (width <= 1200px) {
+  .insight-header .insight-secondary .masthead-insights-hgroup :is(h2, h3, h4) {
+    font-size: 18px;
+  }
+}
+
+@media (width >= 1600px) {
+  .insight-header .insight-secondary .masthead-insights-hgroup :is(h2, h3, h4) {
+    font-size: 24px;
+  }
+}
+
+/* meta line: date, tags — inline run, ", " separators (source spans) */
+.insight-header .masthead-insights-meta {
+  font-size: 0.6875rem;
+}
+
+.insight-header .masthead-insights-meta :is(div, p, ul, ol, li) {
+  display: inline;
+}
+
+.insight-header .masthead-insights-meta :is(p, ul, ol, li) {
+  font: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.insight-header .masthead-insights-date {
+  font-weight: 700;
+}
+
+/* separator on the authored <p> so the date box carries its ", " (source span::after) */
+.insight-header .masthead-insights-date p::after,
+.insight-header .masthead-insights-tags li:not(:last-child)::after {
+  content: ", ";
+}
+
+/* media: portrait rendition in portrait viewports, landscape otherwise (source <source media>) */
+.insight-header .masthead-insights-media {
+  border-bottom: 2px solid #fff;
+  order: 1;
+  overflow: hidden;
+}
+
+@media (width >= 58.75rem) {
+  .insight-header .masthead-insights-media {
+    height: 100%;
+    order: 2;
+    position: absolute;
+    width: 100%;
+  }
+}
+
+.insight-header .masthead-insights-media picture {
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+}
+
+@media (orientation: portrait) {
+  .insight-header .masthead-insights-media picture.landscape {
+    display: none;
+  }
+}
+
+@media (orientation: landscape) {
+  .insight-header .masthead-insights-media picture.portrait {
+    display: none;
+  }
+}
+
+.insight-header .masthead-insights-media img {
+  display: inline;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media (width >= 58.75rem) {
+  .insight-header .masthead-insights-media img {
+    filter: brightness(0.8);
+  }
+}

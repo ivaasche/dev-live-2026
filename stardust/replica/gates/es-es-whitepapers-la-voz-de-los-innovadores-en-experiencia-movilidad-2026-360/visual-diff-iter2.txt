@@ -1,0 +1,248 @@
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026-360/vdiff-iter2/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 3933,
+  "textLen": 6552,
+  "images": [
+   {
+    "src": "tsk-6717-voxi-2026-landing-page-valtech-header.png?width=600&height=600&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "600x600",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mobility-sdv-offering-page-denny-pezi.png?width=152&height=154&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "152x154",
+    "rendered": "118x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "badge-no-outline.png?width=442&height=128&rmode=max&rsampler=bicubic&compand=true&format=jpg",
+    "natural": "435x128",
+    "rendered": "218x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=30736ad0-facc-427d-ba28-410afa6a763b&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=2b1362e3-06ad-413f-ba9c-65b741bfd2c8&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fes-es%2Fwhitepapers%2Fla-voz-de-los-innovadores-en-experiencia-movilidad-2026%2F&tw_engaged_ms=16&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=30736ad0-facc-427d-ba28-410afa6a763b&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=2b1362e3-06ad-413f-ba9c-65b741bfd2c8&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fes-es%2Fwhitepapers%2Fla-voz-de-los-innovadores-en-experiencia-movilidad-2026%2F&tw_engaged_ms=16&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=2&event_id=461bda60-1131-43c1-a7bc-3d326079849c&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=2b1362e3-06ad-413f-ba9c-65b741bfd2c8&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fes-es%2Fwhitepapers%2Fla-voz-de-los-innovadores-en-experiencia-movilidad-2026%2F&tw_engaged_ms=10086&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=2&event_id=461bda60-1131-43c1-a7bc-3d326079849c&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=2b1362e3-06ad-413f-ba9c-65b741bfd2c8&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fes-es%2Fwhitepapers%2Fla-voz-de-los-innovadores-en-experiencia-movilidad-2026%2F&tw_engaged_ms=10086&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "La voz de los innovadores en exp",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Qué aprenderás",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Conoce al autor",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Descarga el informe",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "masthead-two-columns-cta__hgroup",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "masthead-two-columns-cta__intro",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "masthead-two-columns-cta__parameters",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "rte-block__container",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "podcast-speakers__wrapper",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "rte-block__container",
+    "width": 360,
+    "left": 0
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 3933,
+  "textLen": 6558,
+  "images": [
+   {
+    "src": "tsk-6717-voxi-2026-landing-page-valtech-header-600x600.webp",
+    "natural": "600x600",
+    "rendered": "360x360",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "pdf-page-1-272.png",
+    "natural": "272x153",
+    "rendered": "272x153",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mobility-sdv-offering-page-denny-pezi-152x154.webp",
+    "natural": "152x154",
+    "rendered": "118x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "badge-no-outline.png",
+    "natural": "435x128",
+    "rendered": "218x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "La voz de los innovadores en exp",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "25px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Qué aprenderás",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Conoce al autor",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Descarga el informe",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "masthead-two-columns-cta__hgroup",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "masthead-two-columns-cta__intro",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "masthead-two-columns-cta__parameters",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "rte-block__container",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "podcast-speakers__wrapper",
+    "width": 312,
+    "left": 24
+   },
+   {
+    "sel": "rte-block__container",
+    "width": 360,
+    "left": 0
+   }
+  ]
+ }
+}

@@ -1,0 +1,158 @@
+/* registration-form — source section.registration-form.section.white-theme (main.css
+   @443000–443900, prototypes/css/microsite.css) + the thank-you popup (@501905–503268);
+   values verbatim. The form itself is the marketo-form block (light in-main canon). */
+
+.registration-form {
+  background-color: #fff;
+  color: #000;
+  padding: 2.5rem 1.5rem;
+}
+
+@media (width >= 58.75rem) {
+  .registration-form {
+    padding: 5rem 1.5rem;
+  }
+}
+
+/* source `.white-theme + .white-theme { padding-top: 0 !important }` (@42520) across sections */
+main .section:has(> div:last-child > :is(.white-theme, .ie-hub.featured-verticals-block, .ie-hub.podcast-speakers))
++ .section > div:first-child > .registration-form {
+  padding-top: 0 !important;
+}
+
+.registration-form .registration-form-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.registration-form .registration-form-header {
+  width: 100%;
+}
+
+@media (width >= 58.75rem) {
+  .registration-form .registration-form-header {
+    width: 61%;
+  }
+}
+
+.registration-form .registration-form-title {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.registration-form .registration-form-form {
+  width: 100%;
+}
+
+.registration-form .registration-form-form .marketo-form-block {
+  margin: 0;
+  width: 100%;
+}
+
+.registration-form .registration-form-form .marketo-form-block .marketo-form-block-container {
+  padding: 0;
+  width: 100%;
+}
+
+@media (width >= 58.75rem) {
+  .registration-form .registration-form-form .marketo-form-block .marketo-form-block-container {
+    padding-bottom: 5rem;
+    width: 61%;
+  }
+}
+
+.registration-form .registration-form-form .marketo-form-block .mkto-form-buttons {
+  justify-content: flex-start;
+}
+
+/* thank-you popup (opens after a successful registration) */
+.registration-form .thank-you-popup {
+  align-items: center;
+  display: none;
+  inset: 0;
+  justify-content: center;
+  padding: 1rem;
+  position: fixed;
+  z-index: 1100;
+}
+
+.registration-form .thank-you-popup.is-open {
+  display: flex;
+}
+
+.registration-form .thank-you-popup-overlay {
+  backdrop-filter: blur(.125rem);
+  background: rgb(0 0 0 / 60%);
+  cursor: pointer;
+  inset: 0;
+  position: absolute;
+}
+
+.registration-form .thank-you-popup-dialog {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 .5rem 1.5rem rgb(0 0 0 / 12%);
+  display: flex;
+  flex-direction: column;
+  max-width: 41.875rem;
+  overflow: hidden;
+  padding: 1.5rem;
+  position: relative;
+  width: min(90%, 550px);
+  z-index: 1101;
+}
+
+.registration-form .thank-you-popup-header {
+  font-size: clamp(1.25rem, 1.25rem + 12 * (100vw - 24.375rem) / 1530, 2rem);
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0 0 .75rem;
+}
+
+.registration-form .thank-you-popup-close-button {
+  align-items: center;
+  background: transparent;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  padding: .375rem;
+  position: absolute;
+  right: .75rem;
+  top: .75rem;
+}
+
+.registration-form .thank-you-popup-close-button svg {
+  fill: #000;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.registration-form .thank-you-popup-description {
+  color: #000;
+  font-size: clamp(.875rem, .875rem + 4 * (100vw - 24.375rem) / 1530, 1.125rem);
+  margin: 0 0 1.5rem;
+}
+
+.registration-form .thank-you-popup-description p {
+  font-size: inherit;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.registration-form .thank-you-popup-description p:last-child {
+  border-bottom: 1px solid #76796b;
+  margin-bottom: 0;
+  padding-bottom: 1.5rem;
+}
+
+.registration-form .thank-you-popup-button {
+  align-self: flex-end;
+  cursor: pointer;
+  font-size: clamp(1rem, 1rem + 2 * (100vw - 24.375rem) / 1530, 1.125rem);
+  width: fit-content;
+}

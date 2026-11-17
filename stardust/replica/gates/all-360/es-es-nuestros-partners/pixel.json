@@ -1,0 +1,66 @@
+{
+  "a": "stardust/replica/gates/all-360/es-es-nuestros-partners/origin.png",
+  "b": "stardust/replica/gates/all-360/es-es-nuestros-partners/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3604,
+    "mode": "overlap"
+  },
+  "heightDelta": 33,
+  "differingPixels": 61464,
+  "pct": 4.74,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/es-es-nuestros-partners/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 11.57,
+  "textBoxes": 60,
+  "textPixels": 149737,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 3.9
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 4
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 4.4
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 12.7
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 6.5
+    },
+    {
+      "y0": 3500,
+      "y1": 3604,
+      "pct": 1.6
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/nuestros-partners"
+  }
+}

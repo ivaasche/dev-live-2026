@@ -1,0 +1,240 @@
+/* stylelint-disable no-descending-specificity -- the source cascade order is lifted verbatim */
+
+/* masthead-secondary — main.css @masthead-secondary rules (+ .masthead-scaler -> .scaler variant), values verbatim (BEM -> kebab-case) */
+
+.masthead-secondary.scaler {
+  overflow: hidden;
+}
+
+.masthead-secondary {
+  margin-bottom: 2.5rem;
+}
+
+@media (width >= 58.75rem) {
+  .masthead-secondary {
+    height: calc(100vh - 5rem);
+    margin-bottom: 5rem;
+    margin-top: -80px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .masthead-secondary .masthead-secondary-container {
+    height: calc(100vh - 80px);
+    left: 50%;
+    position: absolute;
+    top: calc(50% + 80px);
+    transform: translate(-50%,-50%);
+    width: 100%;
+  }
+}
+
+@media (width >= 64rem) {
+  .masthead-secondary .masthead-secondary-container {
+    margin-right: 64px;
+  }
+}
+
+@media (width >= 120.001rem) {
+  .masthead-secondary .masthead-secondary-container {
+    margin: 0 auto;
+    max-width: 84vw;
+  }
+}
+
+.masthead-secondary .masthead-secondary-inner {
+  position: relative;
+}
+
+@media (width >= 58.75rem) {
+  .masthead-secondary .masthead-secondary-inner {
+    height: 100%;
+  }
+}
+
+.masthead-secondary .masthead-secondary-inner-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (width >= 58.75rem) {
+  .masthead-secondary .masthead-secondary-inner-wrap {
+    flex-direction: row;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+
+.masthead-secondary .masthead-secondary-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  order: 2;
+  padding: 1.25rem 1.5rem 0;
+  position: relative;
+  z-index: 2;
+}
+
+@media (width >= 58.75rem) {
+  .masthead-secondary .masthead-secondary-text {
+    order: 1;
+    padding: 1.25rem 3.75rem 3.75rem calc(2vw + 2.5rem);
+    width: 100%;
+  }
+}
+
+.masthead-secondary .masthead-secondary-text-light {
+  color: #000;
+}
+
+@media (width >= 58.75rem) {
+  .masthead-secondary .masthead-secondary-text-light {
+    color: #fff;
+  }
+}
+
+.masthead-secondary .masthead-secondary-text-dark {
+  color: #000;
+}
+
+.masthead-secondary .masthead-secondary-hgroup {
+  margin: 0 0 1.25rem;
+}
+
+@media (width >= 58.75rem) {
+  .masthead-secondary .masthead-secondary-hgroup {
+    margin: 2.5rem 0;
+  }
+}
+
+.masthead-secondary .masthead-secondary-hgroup-subtitle {
+  font-size: 1.5vw;
+  margin: 0 0 .625rem;
+  text-transform: uppercase;
+}
+
+@media (width <= 933.3333px) {
+  .masthead-secondary .masthead-secondary-hgroup-subtitle {
+    font-size: 14px;
+  }
+}
+
+@media (width >= 1333.3333px) {
+  .masthead-secondary .masthead-secondary-hgroup-subtitle {
+    font-size: 20px;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .masthead-secondary .masthead-secondary-hgroup-subtitle {
+    margin: 0 0 2.5rem;
+  }
+}
+
+.masthead-secondary .masthead-secondary-hgroup-title {
+  background-image: linear-gradient(currentcolor,currentcolor);
+  background-position: 0 94%;
+  background-repeat: repeat-x;
+  background-size: 100% 4%;
+  display: inline;
+  font-size: 5vw;
+  line-height: 1.2;
+  margin: 0;
+}
+
+@media (width <= 500px) {
+  .masthead-secondary .masthead-secondary-hgroup-title {
+    font-size: 25px;
+  }
+}
+
+@media (width >= 1600px) {
+  .masthead-secondary .masthead-secondary-hgroup-title {
+    font-size: 80px;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .masthead-secondary .masthead-secondary-hgroup-title {
+    line-height: 1.1;
+    white-space: pre-line;
+  }
+}
+
+.masthead-secondary .masthead-secondary-lead {
+  font-size: 2vw;
+  margin-bottom: 1.25rem;
+}
+
+@media (width <= 800px) {
+  .masthead-secondary .masthead-secondary-lead {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1500px) {
+  .masthead-secondary .masthead-secondary-lead {
+    font-size: 30px;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .masthead-secondary .masthead-secondary-lead {
+    margin-bottom: 2.5rem;
+    width: 80%;
+  }
+}
+
+@media (width >= 64rem) {
+  .masthead-secondary .masthead-secondary-lead {
+    width: 60%;
+  }
+}
+
+@media (width >= 76.25rem) {
+  .masthead-secondary .masthead-secondary-lead {
+    width: 40%;
+  }
+}
+
+.masthead-secondary .masthead-secondary-lead p {
+  margin: 0;
+}
+
+.masthead-secondary .masthead-secondary-media {
+  order: 1;
+}
+
+@media (width <= 58.749rem) {
+  .masthead-secondary .masthead-secondary-media {
+    margin-bottom: 1.25rem;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .masthead-secondary .masthead-secondary-media {
+    height: 100%;
+    order: 2;
+    position: absolute;
+    width: 100%;
+  }
+}
+
+.masthead-secondary .masthead-secondary-media picture {
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+}
+
+.masthead-secondary .masthead-secondary-media picture img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}

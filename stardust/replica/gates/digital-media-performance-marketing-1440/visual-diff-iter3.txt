@@ -1,0 +1,266 @@
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/digital-media-performance-marketing-1440/vdiff-iter3/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 5773,
+  "textLen": 8512,
+  "images": [
+   {
+    "src": "digital-media-performance-marketing-03.png?width=1500&height=1125&rmode=max&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "1500x1045",
+    "rendered": "654x456",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "digital-media-performance-marketing-02.png?width=1600&height=900&rmode=max&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "1593x900",
+    "rendered": "1328x750",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "digital-media-performance-marketing-01.png?width=1600&height=900&rmode=max&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "1513x900",
+    "rendered": "1328x790",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "badge-no-outline.png?width=442&height=128&rmode=max&rsampler=bicubic&compand=true&format=jpg",
+    "natural": "435x128",
+    "rendered": "218x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "cdp_discloser_2026.png?width=128&height=128&rmode=max&rsampler=bicubic&compand=true&format=jpg",
+    "natural": "128x128",
+    "rendered": "64x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261440%261000%264%2624%261440%261000%260%26na%261&eci=3&event=%7B%7D&event_id=6e73bfff-ee5a-4db4-b360-46b4c8e0044d&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=b6de2017-ac3a-46c0-adba-82f8551c23fa&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fdigital-media-performance-marketing%2F&tw_engaged_ms=8&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261440%261000%264%2624%261440%261000%260%26na%261&eci=3&event=%7B%7D&event_id=6e73bfff-ee5a-4db4-b360-46b4c8e0044d&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=b6de2017-ac3a-46c0-adba-82f8551c23fa&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fdigital-media-performance-marketing%2F&tw_engaged_ms=8&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261440%261000%264%2624%261440%261000%260%26na%261&eci=2&event_id=03ad02e9-96eb-4209-81a1-ca75a5224871&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=b6de2017-ac3a-46c0-adba-82f8551c23fa&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fdigital-media-performance-marketing%2F&tw_engaged_ms=10007&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261440%261000%264%2624%261440%261000%260%26na%261&eci=2&event_id=03ad02e9-96eb-4209-81a1-ca75a5224871&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=b6de2017-ac3a-46c0-adba-82f8551c23fa&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fdigital-media-performance-marketing%2F&tw_engaged_ms=10007&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Digital Media & Performance Mark",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "64px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Multi-Channel Planning & Buying",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "43.2px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Creative Concept Advertising",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "43.2px",
+    "family": "Soehne",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "masthead-services",
+    "width": 1376,
+    "left": 0
+   },
+   {
+    "sel": "rte-block",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "rte-block",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "columns-rte__content-row",
+    "width": 1328,
+    "left": 24
+   },
+   {
+    "sel": "columns-rte__content-row",
+    "width": 1328,
+    "left": 24
+   },
+   {
+    "sel": "columns-rte__content-row",
+    "width": 1328,
+    "left": 24
+   },
+   {
+    "sel": "rte-block",
+    "width": 1440,
+    "left": 0
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 5774,
+  "textLen": 8511,
+  "images": [
+   {
+    "src": "masthead-1500.webp",
+    "natural": "1500x1045",
+    "rendered": "654x456",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "image-02-landscape.webp",
+    "natural": "1593x900",
+    "rendered": "1328x750",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "image-01-landscape.webp",
+    "natural": "1513x900",
+    "rendered": "1328x790",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "badge-no-outline.png",
+    "natural": "435x128",
+    "rendered": "218x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "cdp_discloser_2026.png",
+    "natural": "128x128",
+    "rendered": "64x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Digital Media & Performance Mark",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "64px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Multi-Channel Planning & Buying",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "43.2px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Creative Concept Advertising",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "43.2px",
+    "family": "Soehne",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "masthead-services",
+    "width": 1376,
+    "left": 0
+   },
+   {
+    "sel": "rte-block",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "rte-block",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "columns-rte__content-row",
+    "width": 1328,
+    "left": 24
+   },
+   {
+    "sel": "columns-rte__content-row",
+    "width": 1328,
+    "left": 24
+   },
+   {
+    "sel": "columns-rte__content-row",
+    "width": 1328,
+    "left": 24
+   },
+   {
+    "sel": "rte-block",
+    "width": 1440,
+    "left": 0
+   }
+  ]
+ }
+}

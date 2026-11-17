@@ -1,0 +1,226 @@
+/* stylelint-disable no-descending-specificity -- the source cascade order is lifted verbatim */
+
+/* two-columns — image + text item (main.css @412356–415486 via the offering prototype
+   css/offering.css; values verbatim, BEM -> kebab-case; the source CTA anchor sits in the
+   column — here in its authored paragraph, which takes the anchor's flex placement) */
+
+.two-columns {
+  margin: 2.5rem 0;
+  padding: 0 1.5rem;
+}
+
+@media (width >= 64rem) {
+  .two-columns {
+    margin-right: 64px;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .two-columns {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+  }
+}
+
+@media (width >= 120.001rem) {
+  .two-columns {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 84vw;
+    padding: 0;
+  }
+}
+
+.two-columns .two-columns-item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 3rem 0 0;
+}
+
+.two-columns .two-columns-item:first-child {
+  margin-top: 0;
+}
+
+@media (width >= 58.75rem) {
+  .two-columns .two-columns-item {
+    flex-direction: row;
+    gap: 0;
+  }
+}
+
+.two-columns .two-columns-item-column {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  width: 100%;
+}
+
+@media (width >= 58.75rem) {
+  .two-columns .two-columns-item-column {
+    max-width: calc(50% + 2rem);
+    padding: 0 0 0 4rem;
+  }
+
+  .two-columns .two-columns-item-column:first-child {
+    padding-left: 0;
+  }
+}
+
+.two-columns .two-columns-item-column .two-columns-item-btn-link {
+  margin: 0;
+  max-width: 100%;
+  text-wrap: balance;
+  white-space: normal !important;
+  overflow-wrap: anywhere; /* = the source word-break: break-word */
+}
+
+@media (width >= 58.75rem) {
+  .two-columns .two-columns-item-column .two-columns-item-btn-link {
+    display: inline-block;
+    width: auto;
+  }
+}
+
+.two-columns .two-columns-item-column-image {
+  align-self: flex-start;
+  width: 100%;
+}
+
+@media (width >= 58.75rem) {
+  .two-columns .two-columns-item-column-image {
+    max-width: calc(50% - 2rem);
+    padding: 0;
+  }
+}
+
+.two-columns .two-columns-item-cta {
+  align-self: center;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+  max-width: 100%;
+}
+
+@media (width >= 58.75rem) {
+  .two-columns .two-columns-item-cta {
+    align-self: flex-start;
+  }
+}
+
+.two-columns .two-columns-item-image {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
+
+.two-columns .two-columns-item-title {
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  font-weight: 300;
+  margin: 0 0 1rem;
+  max-width: 70ch;
+  text-wrap: balance;
+}
+
+@media (width >= 58.75rem) {
+  .two-columns .two-columns-item-title {
+    font-size: 2rem;
+  }
+}
+
+.two-columns .two-columns-item-text {
+  font-size: 1rem;
+  margin: 0 0 1rem;
+  max-width: 70ch;
+}
+
+.two-columns .two-columns-item-text:last-child {
+  margin-bottom: 0;
+}
+
+.two-columns .two-columns-item-text a {
+  text-decoration: underline;
+}
+
+.two-columns .two-columns-item-text a:hover {
+  text-decoration: none;
+}
+
+.two-columns .two-columns-item-text li {
+  font-size: 1.5vw;
+  font-weight: 300;
+}
+
+@media (width <= 1066.6667px) {
+  .two-columns .two-columns-item-text li {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1333.3333px) {
+  .two-columns .two-columns-item-text li {
+    font-size: 20px;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .two-columns .two-columns-item-text {
+    font-size: 1.25rem;
+    margin: 0 0 2.5rem;
+  }
+}
+
+.two-columns .two-columns-item-text :last-child {
+  margin-bottom: 0;
+}
+
+@media (width >= 58.75rem) {
+  .two-columns.reverse .two-columns-item {
+    flex-direction: row-reverse;
+  }
+
+  .two-columns.reverse .two-columns-item-column {
+    padding: 0 1.5rem 0 0;
+  }
+
+  .two-columns.reverse .two-columns-item-column-image {
+    padding: 0;
+  }
+
+  /* source `.two-columns + .two-columns:not(.dark-theme)`: each EDS block sits in its wrapper */
+  .two-columns-wrapper + .two-columns-wrapper > .two-columns:not(.dark-theme) {
+    margin-top: -2rem;
+  }
+}
+
+/* variant `dark` — source .two-columns.dark-theme (main.css, values verbatim; offering
+   cluster: /es-es/whitepapers/el-ciclo-de-relevancia-de-las-marcas) */
+.two-columns.dark-theme {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 2.5rem 1.5rem;
+}
+
+@media (width >= 58.75rem) {
+  .two-columns.dark-theme {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+  }
+}
+
+.two-columns.dark-theme .button {
+  background-color: transparent;
+  border-color: #fff;
+  box-shadow: inset 0 0 0 2px #fff;
+  color: #fff;
+}
+
+/* a secondary (`_link_`) CTA is the source side-modal trigger a.button.button--secondary — not a
+   .two-columns__item__btn-link, so it keeps the global .button margin-bottom .625rem
+   (/es-es/guia-para-la-empresa-inteligente 360: 63 px pill + 10 px per item) */
+.two-columns .two-columns-item-column .two-columns-item-btn-link.secondary {
+  margin-bottom: .625rem;
+}

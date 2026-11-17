@@ -1,0 +1,311 @@
+{
+  "slug": "es-es-podcasts",
+  "type": "listing",
+  "renderBranch": "A'",
+  "template": "es-es-blog",
+  "modules": [
+    "masthead-services",
+    "podcast-subscribe",
+    "latest-podcast-block",
+    "insights-filter",
+    "teaser-block",
+    "contact-form"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "site-breadcrumbs",
+    "masthead-services",
+    "podcast-subscribe",
+    "latest-podcast-block",
+    "podcast_filter_list",
+    "teaser-block",
+    "podcast-sticky-bar",
+    "modal",
+    "contact-us-form",
+    "site-footer",
+    "site-slope",
+    "site-slope",
+    "site-slope",
+    "modal",
+    "modal",
+    "modal",
+    "modal"
+  ],
+  "canonShas": {
+    "header": "893afadc66b4",
+    "footer": "d3f0cc1ef9d5",
+    "css": "8876c0e8d8d1"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Pódcasts | Valtech",
+    "description": "Inspírate con nuestras conversaciones con expertos sobre transformación digital.",
+    "canonical": "https://www.valtech.com/es-es/podcasts/",
+    "lang": "es"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Pódcasts | Valtech",
+    "description": "Inspírate con nuestras conversaciones con expertos sobre transformación digital.",
+    "url": "https://www.valtech.com/es-es/podcasts/"
+  },
+  "migratedAt": "2026-11-13T18:29:59Z",
+  "designMdSha": "9dc5e8267a4e",
+  "designJsonSha": "ec9a36425b28",
+  "sourceCurrentSha": "49021670de3c",
+  "sourceProposedSha": "26e26320022e",
+  "fidelityTier": "sibling",
+  "archetypeSource": "es-es-blog",
+  "archetypeSha": "f3e7d7ac7d49",
+  "variants": [
+    "insights-filter.podcasts latest-podcast-block.dark"
+  ],
+  "gatesPassed": [
+    "content-fidelity",
+    "variance-probe"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "published-origin gate 2026-11-13 confirmation run: 1440/360 pixel% 5.91 Δh68 / 3.85 Δh27; 360 FAIL HIDDEN 1 link in session-variable teaser band (residual, 3 rounds spent); clipped within allowance; MISSING 0",
+    "variance-probe": "sibling-variance.mjs vs es-es-blog @1440 exit 2 (stardust/.work/cluster-listing/variance.json); deltas budgeted as insights-filter variants + source-module blocks (eds-conversion-log ## listing cluster)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "omit",
+      "source": "teaser-block second row (4 more teasers revealed by the 'Mostrar más' JS button; server-shuffled per request)",
+      "target": "first visible row of 4 teasers",
+      "reason": "dynamic expansion behind a JS button; the row order is randomised by the source server per request (nondeterministic)"
+    },
+    {
+      "kind": "transform",
+      "source": "desktop 'Mostrar más' JS button + mobile link 'Ir al Centro de Contenidos' → /es-es/content-hub/",
+      "target": "one link 'Ir al Centro de Contenidos' as default content after the teaser row",
+      "reason": "the button only toggles the hidden second row; the link carries the same destination at both widths"
+    }
+  ],
+  "assetsBundled": 11,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/industrias/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/nuestros-partners/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/servicios/elevacion-de-la-experiencia/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/aceleracion-comercio/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/transformacion-empresarial/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/servicios-creativos-de-marketing-performance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/revolucion-del-dato-y-ia/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/carrera/ofertas-de-empleo/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/trabajar-en-valtech/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/diversidad-e-inclusion/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/content-hub/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/la-empresa-inteligente/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/oficinas/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/contacto/keep-in-touch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de-de/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-dk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/fr-fr/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nl-nl/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-gb/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sv-se/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ca/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-ar/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt-br/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-mx/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-sg/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/podcasts/podcast-rethinking-digital-care-with-pfa-pension/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/podcasts/podcast-rethinking-digital-care-with-pfa-pension/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/podcasts/the-customer-experience-odyssey/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/podcasts/driving-experience-innovation-with-ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/podcasts/fountain-tire-retail-innovation/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/podcasts/ds-smith-becoming-a-connected-manufacturer/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/podcasts/the-voice-of-digital-leaders-in-manufacturing/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/el-geo-como-la-nueva-frontera-de-la-visibilidad-digital/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/blog/ia-transforma-busquedas-y-webs-de-marca/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/blog/presentamos-el-muro-de-datos-b2b/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/blog/bridge-the-divide-from-pilot-to-production/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/the-agent-factory/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/blog/asi-se-creo-valtech-concierge/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/content-hub/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/oficinas/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/carrera/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/accesibilidad/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/mantente-en-contacto/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "es-es/podcasts/index.html",
+  "outputPathDefault": null,
+  "sidecar": "es-es/podcasts/_meta.json",
+  "driverVersion": "1"
+}

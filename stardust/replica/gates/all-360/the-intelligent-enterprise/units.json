@@ -1,0 +1,2032 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-14T08:43:41.606Z",
+  "tol": 4,
+  "n": 9,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/the-intelligent-enterprise/",
+  "at": "2026-11-14T08:43:13.740Z",
+  "docH": 9560
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/the-intelligent-enterprise",
+  "at": "2026-11-14T08:43:41.470Z",
+  "docH": 9567
+ },
+ "results": [
+  {
+   "sel": ".iehub-nav__item=.hub-nav-item",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.section.iehub-nav > nav.section__container.iehub-nav__container > a.btn--white.iehub-nav__item"
+     },
+     "eds": {
+      "path": "nav.hub-nav-container > p.hub-nav-cta > a.btn-white.hub-nav-item"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 51,
+       "y": 832,
+       "w": 259,
+       "h": 56
+      },
+      "eds": {
+       "x": 51,
+       "y": 832,
+       "w": 259,
+       "h": 56
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".podcast-speakers__info=.podcast-speakers-info",
+   "family": null,
+   "required": true,
+   "originMatches": 9,
+   "edsMatches": 9,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.wrapper.section__container > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 103,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 103,
+        "y": 0,
+        "w": 118,
+        "h": 120,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:olivier padiou",
+       "role": "text",
+       "text": "olivier padiou",
+       "edsText": "olivier padiou",
+       "byPosition": false,
+       "origin": {
+        "x": 107,
+        "y": 128,
+        "w": 110,
+        "h": 23
+       },
+       "eds": {
+        "x": 107,
+        "y": 128,
+        "w": 110,
+        "h": 23,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:ceo",
+       "role": "text",
+       "text": "ceo",
+       "edsText": "ceo",
+       "byPosition": false,
+       "origin": {
+        "x": 146,
+        "y": 161,
+        "w": 31,
+        "h": 21
+       },
+       "eds": {
+        "x": 146,
+        "y": 161,
+        "w": 31,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 147,
+        "y": 182,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 147,
+        "y": 182,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 149,
+        "y": 190,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 149,
+        "y": 190,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 103,
+       "y": 0,
+       "w": 118,
+       "h": 120,
+       "absY": 5104,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 18,
+       "y": 5097,
+       "w": 324,
+       "h": 227
+      },
+      "eds": {
+       "x": 18,
+       "y": 5104,
+       "w": 324,
+       "h": 227
+      },
+      "dx": 0,
+      "dy": 7,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.wrapper.section__container > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 103,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 103,
+        "y": 0,
+        "w": 118,
+        "h": 120,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:gabriel laliberte",
+       "role": "text",
+       "text": "gabriel laliberte",
+       "edsText": "gabriel laliberte",
+       "byPosition": false,
+       "origin": {
+        "x": 96,
+        "y": 128,
+        "w": 132,
+        "h": 23
+       },
+       "eds": {
+        "x": 96,
+        "y": 128,
+        "w": 132,
+        "h": 23,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:evp, strategy",
+       "role": "text",
+       "text": "evp, strategy",
+       "edsText": "evp, strategy",
+       "byPosition": false,
+       "origin": {
+        "x": 114,
+        "y": 161,
+        "w": 96,
+        "h": 21
+       },
+       "eds": {
+        "x": 114,
+        "y": 161,
+        "w": 96,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 147,
+        "y": 182,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 147,
+        "y": 182,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 149,
+        "y": 190,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 149,
+        "y": 190,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 103,
+       "y": 0,
+       "w": 118,
+       "h": 120,
+       "absY": 5428,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 18,
+       "y": 5421,
+       "w": 324,
+       "h": 227
+      },
+      "eds": {
+       "x": 18,
+       "y": 5428,
+       "w": 324,
+       "h": 227
+      },
+      "dx": 0,
+      "dy": 7,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.wrapper.section__container > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 103,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 103,
+        "y": 0,
+        "w": 118,
+        "h": 120,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:casper rasmussen",
+       "role": "text",
+       "text": "casper rasmussen",
+       "edsText": "casper rasmussen",
+       "byPosition": false,
+       "origin": {
+        "x": 85,
+        "y": 128,
+        "w": 153,
+        "h": 23
+       },
+       "eds": {
+        "x": 85,
+        "y": 128,
+        "w": 153,
+        "h": 23,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:group chief transformation officer",
+       "role": "text",
+       "text": "group chief transformation officer",
+       "edsText": "group chief transformation officer",
+       "byPosition": false,
+       "origin": {
+        "x": 38,
+        "y": 161,
+        "w": 248,
+        "h": 21
+       },
+       "eds": {
+        "x": 38,
+        "y": 161,
+        "w": 248,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 147,
+        "y": 182,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 147,
+        "y": 182,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 149,
+        "y": 190,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 149,
+        "y": 190,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 103,
+       "y": 0,
+       "w": 118,
+       "h": 120,
+       "absY": 5696,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 18,
+       "y": 5688,
+       "w": 324,
+       "h": 227
+      },
+      "eds": {
+       "x": 18,
+       "y": 5696,
+       "w": 324,
+       "h": 227
+      },
+      "dx": 0,
+      "dy": 8,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.wrapper.section__container > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 103,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 103,
+        "y": 0,
+        "w": 118,
+        "h": 120,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:richard harris",
+       "role": "text",
+       "text": "richard harris",
+       "edsText": "richard harris",
+       "byPosition": false,
+       "origin": {
+        "x": 105,
+        "y": 128,
+        "w": 114,
+        "h": 23
+       },
+       "eds": {
+        "x": 105,
+        "y": 128,
+        "w": 114,
+        "h": 23,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:vp, head of data & ai",
+       "role": "text",
+       "text": "vp, head of data & ai",
+       "edsText": "vp, head of data & ai",
+       "byPosition": false,
+       "origin": {
+        "x": 86,
+        "y": 161,
+        "w": 151,
+        "h": 21
+       },
+       "eds": {
+        "x": 86,
+        "y": 161,
+        "w": 151,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 147,
+        "y": 182,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 147,
+        "y": 182,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 149,
+        "y": 190,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 149,
+        "y": 190,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 103,
+       "y": 0,
+       "w": 118,
+       "h": 120,
+       "absY": 5963,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 18,
+       "y": 5956,
+       "w": 324,
+       "h": 227
+      },
+      "eds": {
+       "x": 18,
+       "y": 5963,
+       "w": 324,
+       "h": 227
+      },
+      "dx": 0,
+      "dy": 7,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.wrapper.section__container > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 103,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 103,
+        "y": 0,
+        "w": 118,
+        "h": 120,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:david toma",
+       "role": "text",
+       "text": "david toma",
+       "edsText": "david toma",
+       "byPosition": false,
+       "origin": {
+        "x": 115,
+        "y": 128,
+        "w": 94,
+        "h": 23
+       },
+       "eds": {
+        "x": 115,
+        "y": 128,
+        "w": 94,
+        "h": 23,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:vp, strategy and consulting",
+       "role": "text",
+       "text": "vp, strategy and consulting",
+       "edsText": "vp, strategy and consulting",
+       "byPosition": false,
+       "origin": {
+        "x": 64,
+        "y": 161,
+        "w": 197,
+        "h": 21
+       },
+       "eds": {
+        "x": 64,
+        "y": 161,
+        "w": 197,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 147,
+        "y": 182,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 147,
+        "y": 182,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 149,
+        "y": 190,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 149,
+        "y": 190,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 103,
+       "y": 0,
+       "w": 118,
+       "h": 120,
+       "absY": 6230,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 18,
+       "y": 6223,
+       "w": 324,
+       "h": 227
+      },
+      "eds": {
+       "x": 18,
+       "y": 6230,
+       "w": 324,
+       "h": 227
+      },
+      "dx": 0,
+      "dy": 7,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.wrapper.section__container > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 103,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 103,
+        "y": 0,
+        "w": 118,
+        "h": 120,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:john cunningham",
+       "role": "text",
+       "text": "john cunningham",
+       "edsText": "john cunningham",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 128,
+        "w": 145,
+        "h": 23
+       },
+       "eds": {
+        "x": 90,
+        "y": 128,
+        "w": 145,
+        "h": 23,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:global chief technology officer",
+       "role": "text",
+       "text": "global chief technology officer",
+       "edsText": "global chief technology officer",
+       "byPosition": false,
+       "origin": {
+        "x": 50,
+        "y": 161,
+        "w": 223,
+        "h": 21
+       },
+       "eds": {
+        "x": 50,
+        "y": 161,
+        "w": 223,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 147,
+        "y": 182,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 147,
+        "y": 182,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 149,
+        "y": 190,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 149,
+        "y": 190,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 103,
+       "y": 0,
+       "w": 118,
+       "h": 120,
+       "absY": 6498,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 18,
+       "y": 6491,
+       "w": 324,
+       "h": 227
+      },
+      "eds": {
+       "x": 18,
+       "y": 6498,
+       "w": 324,
+       "h": 227
+      },
+      "dx": 0,
+      "dy": 7,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div.wrapper.section__container > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 103,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 103,
+        "y": 0,
+        "w": 118,
+        "h": 120,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:matt redman",
+       "role": "text",
+       "text": "matt redman",
+       "edsText": "matt redman",
+       "byPosition": false,
+       "origin": {
+        "x": 108,
+        "y": 128,
+        "w": 108,
+        "h": 23
+       },
+       "eds": {
+        "x": 108,
+        "y": 128,
+        "w": 108,
+        "h": 23,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:svp, strategy",
+       "role": "text",
+       "text": "svp, strategy",
+       "edsText": "svp, strategy",
+       "byPosition": false,
+       "origin": {
+        "x": 114,
+        "y": 161,
+        "w": 95,
+        "h": 21
+       },
+       "eds": {
+        "x": 114,
+        "y": 161,
+        "w": 95,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 147,
+        "y": 182,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 147,
+        "y": 182,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 149,
+        "y": 190,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 149,
+        "y": 190,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 103,
+       "y": 0,
+       "w": 118,
+       "h": 120,
+       "absY": 6765,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 18,
+       "y": 6758,
+       "w": 324,
+       "h": 227
+      },
+      "eds": {
+       "x": 18,
+       "y": 6765,
+       "w": 324,
+       "h": 227
+      },
+      "dx": 0,
+      "dy": 7,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "div.wrapper.section__container > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 103,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 103,
+        "y": 0,
+        "w": 118,
+        "h": 120,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:carsten riggelsen",
+       "role": "text",
+       "text": "carsten riggelsen",
+       "edsText": "carsten riggelsen",
+       "byPosition": false,
+       "origin": {
+        "x": 89,
+        "y": 128,
+        "w": 146,
+        "h": 23
+       },
+       "eds": {
+        "x": 89,
+        "y": 128,
+        "w": 146,
+        "h": 23,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:head of data & ai, dach",
+       "role": "text",
+       "text": "head of data & ai, dach",
+       "edsText": "head of data & ai, dach",
+       "byPosition": false,
+       "origin": {
+        "x": 74,
+        "y": 161,
+        "w": 176,
+        "h": 21
+       },
+       "eds": {
+        "x": 74,
+        "y": 161,
+        "w": 176,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 147,
+        "y": 182,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 147,
+        "y": 182,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 149,
+        "y": 190,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 149,
+        "y": 190,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 103,
+       "y": 0,
+       "w": 118,
+       "h": 120,
+       "absY": 7033,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 18,
+       "y": 7025,
+       "w": 324,
+       "h": 227
+      },
+      "eds": {
+       "x": 18,
+       "y": 7033,
+       "w": 324,
+       "h": 227
+      },
+      "dx": 0,
+      "dy": 8,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 8,
+     "origin": {
+      "path": "div.wrapper.section__container > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 103,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 103,
+        "y": 0,
+        "w": 118,
+        "h": 120,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:kristoffer nielsen-refs",
+       "role": "text",
+       "text": "kristoffer nielsen-refs",
+       "edsText": "kristoffer nielsen-refs",
+       "byPosition": false,
+       "origin": {
+        "x": 72,
+        "y": 128,
+        "w": 180,
+        "h": 23
+       },
+       "eds": {
+        "x": 72,
+        "y": 128,
+        "w": 180,
+        "h": 23,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:vp, strategy & consulting",
+       "role": "text",
+       "text": "vp, strategy & consulting",
+       "edsText": "vp, strategy & consulting",
+       "byPosition": false,
+       "origin": {
+        "x": 71,
+        "y": 161,
+        "w": 181,
+        "h": 21
+       },
+       "eds": {
+        "x": 71,
+        "y": 161,
+        "w": 181,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 147,
+        "y": 182,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 147,
+        "y": 182,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 149,
+        "y": 190,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 149,
+        "y": 190,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 103,
+       "y": 0,
+       "w": 118,
+       "h": 120,
+       "absY": 7300,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 18,
+       "y": 7293,
+       "w": 324,
+       "h": 227
+      },
+      "eds": {
+       "x": 18,
+       "y": 7300,
+       "w": 324,
+       "h": 227
+      },
+      "dx": 0,
+      "dy": 7,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 10,
+  "within": 45,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

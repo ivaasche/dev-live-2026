@@ -1,0 +1,2262 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-13T20:32:17.364Z",
+  "tol": 4,
+  "n": 6,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/es-es/guia-para-la-empresa-inteligente/",
+  "at": "2026-11-13T20:31:50.372Z",
+  "docH": 7975
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/es-es/guia-para-la-empresa-inteligente",
+  "at": "2026-11-13T20:32:16.814Z",
+  "docH": 7863
+ },
+ "results": [
+  {
+   "sel": ".features-showcase__item=.features-showcase-item",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  },
+  {
+   "sel": ".two-columns__item__text=.two-columns-item-text",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+     },
+     "eds": {
+      "path": "div.two-columns-item > div.two-columns-item-column > div.two-columns-item-text"
+     },
+     "rows": [
+      {
+       "key": "text:convierte las operaciones y los servicio",
+       "role": "text",
+       "text": "convierte las operaciones y los servicios gestionados en un ",
+       "edsText": "convierte las operaciones y los servicios gestionados en un ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 293,
+        "h": 66
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 67,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 19,
+       "dh": 1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:reduce el tiempo medio de resolución de ",
+       "role": "text",
+       "text": "reduce el tiempo medio de resolución de incidencias",
+       "edsText": "reduce el tiempo medio de resolución de incidencias",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 91,
+        "w": 271,
+        "h": 42
+       },
+       "eds": {
+        "x": 40,
+        "y": 91,
+        "w": 272,
+        "h": 42,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:acelera la puesta en producción",
+       "role": "text",
+       "text": "acelera la puesta en producción",
+       "edsText": "acelera la puesta en producción",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 149,
+        "w": 227,
+        "h": 21
+       },
+       "eds": {
+        "x": 40,
+        "y": 149,
+        "w": 272,
+        "h": 21,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 45,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:ahorra millones gracias al mantenimiento",
+       "role": "text",
+       "text": "ahorra millones gracias al mantenimiento autónomo",
+       "edsText": "ahorra millones gracias al mantenimiento autónomo",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 186,
+        "w": 188,
+        "h": 42
+       },
+       "eds": {
+        "x": 40,
+        "y": 186,
+        "w": 272,
+        "h": 42,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 84,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 2735,
+       "w": 312,
+       "h": 228
+      },
+      "eds": {
+       "x": 24,
+       "y": 2687,
+       "w": 312,
+       "h": 228
+      },
+      "dx": 0,
+      "dy": -48,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 1,
+      "off": 3,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+     },
+     "eds": {
+      "path": "div.two-columns-item > div.two-columns-item-column > div.two-columns-item-text"
+     },
+     "rows": [
+      {
+       "key": "text:coordina los flujos de trabajo de toda l",
+       "role": "text",
+       "text": "coordina los flujos de trabajo de toda la empresa:",
+       "edsText": "coordina los flujos de trabajo de toda la empresa:",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 278,
+        "h": 43
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 34,
+       "dh": 2,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:acelera la producción de contenidos",
+       "role": "text",
+       "text": "acelera la producción de contenidos",
+       "edsText": "acelera la producción de contenidos",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 69,
+        "w": 258,
+        "h": 21
+       },
+       "eds": {
+        "x": 40,
+        "y": 69,
+        "w": 272,
+        "h": 21,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 14,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:reduce el desperdicio, la duplicación de",
+       "role": "text",
+       "text": "reduce el desperdicio, la duplicación de tareas y los retras",
+       "edsText": "reduce el desperdicio, la duplicación de tareas y los retras",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 106,
+        "w": 262,
+        "h": 63
+       },
+       "eds": {
+        "x": 40,
+        "y": 106,
+        "w": 272,
+        "h": 63,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 10,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:unifica los datos y la inteligencia oper",
+       "role": "text",
+       "text": "unifica los datos y la inteligencia operativa",
+       "edsText": "unifica los datos y la inteligencia operativa",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 185,
+        "w": 229,
+        "h": 42
+       },
+       "eds": {
+        "x": 40,
+        "y": 185,
+        "w": 272,
+        "h": 42,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 43,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 3371,
+       "w": 312,
+       "h": 227
+      },
+      "eds": {
+       "x": 24,
+       "y": 3311,
+       "w": 312,
+       "h": 227
+      },
+      "dx": 0,
+      "dy": -60,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 0,
+      "off": 4,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+     },
+     "eds": {
+      "path": "div.two-columns-item > div.two-columns-item-column > div.two-columns-item-text"
+     },
+     "rows": [
+      {
+       "key": "text:ve más allá de la personalización con ex",
+       "role": "text",
+       "text": "ve más allá de la personalización con experiencias generativ",
+       "edsText": "ve más allá de la personalización con experiencias generativ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 276,
+        "h": 66
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 67,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 36,
+       "dh": 1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:aumento del 190 % en las conversiones de",
+       "role": "text",
+       "text": "aumento del 190 % en las conversiones de marcas líderes",
+       "edsText": "aumento del 190 % en las conversiones de marcas líderes",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 91,
+        "w": 222,
+        "h": 43
+       },
+       "eds": {
+        "x": 40,
+        "y": 91,
+        "w": 272,
+        "h": 42,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 50,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:creación de interfaces en tiempo real",
+       "role": "text",
+       "text": "creación de interfaces en tiempo real",
+       "edsText": "creación de interfaces en tiempo real",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 152,
+        "w": 263,
+        "h": 21
+       },
+       "eds": {
+        "x": 40,
+        "y": 149,
+        "w": 272,
+        "h": 21,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 9,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:diseño predictivo y dinámico del recorri",
+       "role": "text",
+       "text": "diseño predictivo y dinámico del recorrido del cliente",
+       "edsText": "diseño predictivo y dinámico del recorrido del cliente",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 190,
+        "w": 230,
+        "h": 43
+       },
+       "eds": {
+        "x": 40,
+        "y": 186,
+        "w": 272,
+        "h": 42,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -4,
+       "dw": 42,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/0/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 4005,
+       "w": 312,
+       "h": 235
+      },
+      "eds": {
+       "x": 24,
+       "y": 3934,
+       "w": 312,
+       "h": 228
+      },
+      "dx": 0,
+      "dy": -71,
+      "dw": 0,
+      "dh": -7
+     },
+     "summary": {
+      "elements": 4,
+      "within": 0,
+      "off": 4,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+     },
+     "eds": {
+      "path": "div.two-columns-item > div.two-columns-item-column > div.two-columns-item-text"
+     },
+     "rows": [
+      {
+       "key": "text:rediseña la toma de decisiones estratégi",
+       "role": "text",
+       "text": "rediseña la toma de decisiones estratégicas y reduce la lent",
+       "edsText": "rediseña la toma de decisiones estratégicas y reduce la lent",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 66
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 67,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 41,
+       "dh": 1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:prioriza mediante simulaciones antes de ",
+       "role": "text",
+       "text": "prioriza mediante simulaciones antes de comprometer recursos",
+       "edsText": "prioriza mediante simulaciones antes de comprometer recursos",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 91,
+        "w": 264,
+        "h": 43
+       },
+       "eds": {
+        "x": 40,
+        "y": 91,
+        "w": 272,
+        "h": 42,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 8,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:define límites claros para preservar el ",
+       "role": "text",
+       "text": "define límites claros para preservar el criterio de los equi",
+       "edsText": "define límites claros para preservar el criterio de los equi",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 152,
+        "w": 265,
+        "h": 43
+       },
+       "eds": {
+        "x": 40,
+        "y": 149,
+        "w": 272,
+        "h": 42,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 7,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "text:convierte la inteligencia en decisiones ",
+       "role": "text",
+       "text": "convierte la inteligencia en decisiones firmes y bien fundam",
+       "edsText": "convierte la inteligencia en decisiones firmes y bien fundam",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 213,
+        "w": 270,
+        "h": 43
+       },
+       "eds": {
+        "x": 40,
+        "y": 207,
+        "w": 272,
+        "h": 42,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -6,
+       "dw": 2,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/0/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 4648,
+       "w": 312,
+       "h": 258
+      },
+      "eds": {
+       "x": 24,
+       "y": 4558,
+       "w": 312,
+       "h": 249
+      },
+      "dx": 0,
+      "dy": -90,
+      "dw": 0,
+      "dh": -9
+     },
+     "summary": {
+      "elements": 4,
+      "within": 0,
+      "off": 4,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".partners-block__section.inline .partners-block__logo=.partners-block-section.inline .partners-block-logo",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  },
+  {
+   "sel": ".podcast-speakers__info=.podcast-speakers-info",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:gabriel laliberté",
+       "role": "text",
+       "text": "gabriel laliberté",
+       "edsText": "gabriel laliberté",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 128,
+        "w": 132,
+        "h": 23
+       },
+       "eds": {
+        "x": 90,
+        "y": 128,
+        "w": 132,
+        "h": 23,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:vicepresidente ejecutivo de estrategia e",
+       "role": "text",
+       "text": "vicepresidente ejecutivo de estrategia en valtech",
+       "edsText": "vicepresidente ejecutivo de estrategia en valtech",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 161,
+        "w": 312,
+        "h": 42
+       },
+       "eds": {
+        "x": 0,
+        "y": 161,
+        "w": 312,
+        "h": 42,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 141,
+        "y": 203,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 141,
+        "y": 203,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 143,
+        "y": 211,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 143,
+        "y": 211,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 97,
+       "y": 0,
+       "w": 118,
+       "h": 120,
+       "absY": 5384,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 5496,
+       "w": 312,
+       "h": 248
+      },
+      "eds": {
+       "x": 24,
+       "y": 5384,
+       "w": 312,
+       "h": 248
+      },
+      "dx": 0,
+      "dy": -112,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:portrait of mark ardito",
+       "role": "image",
+       "text": "portrait of mark ardito",
+       "edsText": "portrait of mark ardito",
+       "byPosition": false,
+       "origin": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:mark ardito",
+       "role": "text",
+       "text": "mark ardito",
+       "edsText": "mark ardito",
+       "byPosition": false,
+       "origin": {
+        "x": 109,
+        "y": 128,
+        "w": 94,
+        "h": 23
+       },
+       "eds": {
+        "x": 109,
+        "y": 128,
+        "w": 94,
+        "h": 23,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:director de tecnología para américa del ",
+       "role": "text",
+       "text": "director de tecnología para américa del norte y del sur",
+       "edsText": "director de tecnología para américa del norte y del sur",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 161,
+        "w": 312,
+        "h": 42
+       },
+       "eds": {
+        "x": 0,
+        "y": 161,
+        "w": 312,
+        "h": 42,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 141,
+        "y": 203,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 141,
+        "y": 203,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 143,
+        "y": 211,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 143,
+        "y": 211,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 97,
+       "y": 0,
+       "w": 118,
+       "h": 120,
+       "absY": 5672,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 5784,
+       "w": 312,
+       "h": 248
+      },
+      "eds": {
+       "x": 24,
+       "y": 5672,
+       "w": 312,
+       "h": 248
+      },
+      "dx": 0,
+      "dy": -112,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 97,
+        "y": 0,
+        "w": 118,
+        "h": 120,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:david toma",
+       "role": "text",
+       "text": "david toma",
+       "edsText": "david toma",
+       "byPosition": false,
+       "origin": {
+        "x": 109,
+        "y": 128,
+        "w": 94,
+        "h": 23
+       },
+       "eds": {
+        "x": 109,
+        "y": 128,
+        "w": 94,
+        "h": 23,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:vicepresidente de estrategia y consultor",
+       "role": "text",
+       "text": "vicepresidente de estrategia y consultoría para dach",
+       "edsText": "vicepresidente de estrategia y consultoría para dach",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 161,
+        "w": 312,
+        "h": 42
+       },
+       "eds": {
+        "x": 0,
+        "y": 161,
+        "w": 312,
+        "h": 42,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 125,
+        "y": 203,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 125,
+        "y": 203,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#2",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 156,
+        "y": 203,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 156,
+        "y": 203,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 127,
+        "y": 211,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 127,
+        "y": 211,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 158,
+        "y": 211,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 158,
+        "y": 211,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 97,
+       "y": 0,
+       "w": 118,
+       "h": 120,
+       "absY": 5960,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 6073,
+       "w": 312,
+       "h": 248
+      },
+      "eds": {
+       "x": 24,
+       "y": 5960,
+       "w": 312,
+       "h": 248
+      },
+      "dx": 0,
+      "dy": -113,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 7,
+      "within": 7,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".faq-block__list__item:nth-child(-n+5)=.faq-block-list-item:nth-child(-n+5)",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "eds": {
+      "path": "section.faq-block-container > ul.faq-block-list > li.faq-block-list-item"
+     },
+     "rows": [
+      {
+       "key": "heading:¿la ia basada en agentes es solo otra pa",
+       "role": "heading",
+       "text": "¿la ia basada en agentes es solo otra palabra de moda?",
+       "edsText": "¿la ia basada en agentes es solo otra palabra de moda?",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 72
+       },
+       "eds": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 72,
+        "sel": "h3#la-ia-basada-en-agentes-es-solo-otra-palabra-de-moda",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 311,
+        "y": 40,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 311,
+        "y": 40,
+        "w": 25,
+        "h": 25,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "box:div.faq-block__list__item__description.text-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 104,
+        "w": 360,
+        "h": 219
+       },
+       "eds": {
+        "x": 0,
+        "y": 104,
+        "w": 360,
+        "h": 219,
+        "sel": "div.faq-block-list-item-description.text-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:no. la ia basada en agentes no es una he",
+       "role": "text",
+       "text": "no. la ia basada en agentes no es una herramienta, sino un m",
+       "edsText": "no. la ia basada en agentes no es una herramienta, sino un m",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 129,
+        "w": 306,
+        "h": 155
+       },
+       "eds": {
+        "x": 24,
+        "y": 129,
+        "w": 312,
+        "h": 157,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 6,
+       "dh": 2,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 6420,
+       "w": 360,
+       "h": 324
+      },
+      "eds": {
+       "x": 0,
+       "y": 6307,
+       "w": 360,
+       "h": 324
+      },
+      "dx": 0,
+      "dy": -113,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 3,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "eds": {
+      "path": "section.faq-block-container > ul.faq-block-list > li.faq-block-list-item"
+     },
+     "rows": [
+      {
+       "key": "heading:¿de verdad podemos reducir costes y crec",
+       "role": "heading",
+       "text": "¿de verdad podemos reducir costes y crecer al mismo tiempo?",
+       "edsText": "¿de verdad podemos reducir costes y crecer al mismo tiempo?",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 72
+       },
+       "eds": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 72,
+        "sel": "h3#de-verdad-podemos-reducir-costes-y-crecer-al-mismo-tiempo",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 311,
+        "y": 40,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 311,
+        "y": 40,
+        "w": 25,
+        "h": 25,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "box:div.faq-block__list__item__description.text-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 104,
+        "w": 360,
+        "h": 196
+       },
+       "eds": {
+        "x": 0,
+        "y": 104,
+        "w": 360,
+        "h": 196,
+        "sel": "div.faq-block-list-item-description.text-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:sí. la eficiencia no es un sacrificio, s",
+       "role": "text",
+       "text": "sí. la eficiencia no es un sacrificio, sino la base del crec",
+       "edsText": "sí. la eficiencia no es un sacrificio, sino la base del crec",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 129,
+        "w": 309,
+        "h": 133
+       },
+       "eds": {
+        "x": 24,
+        "y": 129,
+        "w": 312,
+        "h": 134,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 3,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 6743,
+       "w": 360,
+       "h": 105
+      },
+      "eds": {
+       "x": 0,
+       "y": 6631,
+       "w": 360,
+       "h": 105
+      },
+      "dx": 0,
+      "dy": -112,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "eds": {
+      "path": "section.faq-block-container > ul.faq-block-list > li.faq-block-list-item"
+     },
+     "rows": [
+      {
+       "key": "heading:¿cómo funciona con nuestras plataformas ",
+       "role": "heading",
+       "text": "¿cómo funciona con nuestras plataformas heredadas?",
+       "edsText": "¿cómo funciona con nuestras plataformas heredadas?",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 72
+       },
+       "eds": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 72,
+        "sel": "h3#cómo-funciona-con-nuestras-plataformas-heredadas",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 311,
+        "y": 40,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 311,
+        "y": 40,
+        "w": 25,
+        "h": 25,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "box:div.faq-block__list__item__description.text-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 104,
+        "w": 360,
+        "h": 196
+       },
+       "eds": {
+        "x": 0,
+        "y": 104,
+        "w": 360,
+        "h": 196,
+        "sel": "div.faq-block-list-item-description.text-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:no hace falta sustituir todos los sistem",
+       "role": "text",
+       "text": "no hace falta sustituir todos los sistemas. nuestro modelo d",
+       "edsText": "no hace falta sustituir todos los sistemas. nuestro modelo d",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 129,
+        "w": 306,
+        "h": 133
+       },
+       "eds": {
+        "x": 24,
+        "y": 129,
+        "w": 312,
+        "h": 134,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 6,
+       "dh": 1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 6848,
+       "w": 360,
+       "h": 105
+      },
+      "eds": {
+       "x": 0,
+       "y": 6736,
+       "w": 360,
+       "h": 105
+      },
+      "dx": 0,
+      "dy": -112,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 3,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "eds": {
+      "path": "section.faq-block-container > ul.faq-block-list > li.faq-block-list-item"
+     },
+     "rows": [
+      {
+       "key": "heading:¿y qué ocurre con la gobernanza, los rie",
+       "role": "heading",
+       "text": "¿y qué ocurre con la gobernanza, los riesgos y el cumplimien",
+       "edsText": "¿y qué ocurre con la gobernanza, los riesgos y el cumplimien",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 96
+       },
+       "eds": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 96,
+        "sel": "h3#y-qué-ocurre-con-la-gobernanza-los-riesgos-y-el-cumplimiento-normativo",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 311,
+        "y": 52,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 311,
+        "y": 52,
+        "w": 25,
+        "h": 25,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "box:div.faq-block__list__item__description.text-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 128,
+        "w": 360,
+        "h": 219
+       },
+       "eds": {
+        "x": 0,
+        "y": 128,
+        "w": 360,
+        "h": 219,
+        "sel": "div.faq-block-list-item-description.text-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:la gobernanza se integra desde el princi",
+       "role": "text",
+       "text": "la gobernanza se integra desde el principio. cada agente y f",
+       "edsText": "la gobernanza se integra desde el principio. cada agente y f",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 153,
+        "w": 311,
+        "h": 155
+       },
+       "eds": {
+        "x": 24,
+        "y": 153,
+        "w": 312,
+        "h": 157,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 1,
+       "dh": 2,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 6953,
+       "w": 360,
+       "h": 129
+      },
+      "eds": {
+       "x": 0,
+       "y": 6841,
+       "w": 360,
+       "h": 129
+      },
+      "dx": 0,
+      "dy": -112,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "section.faq-block__container > ul.faq-block__list > li.faq-block__list__item"
+     },
+     "eds": {
+      "path": "section.faq-block-container > ul.faq-block-list > li.faq-block-list-item"
+     },
+     "rows": [
+      {
+       "key": "heading:¿hay pruebas de que esto funciona en la ",
+       "role": "heading",
+       "text": "¿hay pruebas de que esto funciona en la práctica?",
+       "edsText": "¿hay pruebas de que esto funciona en la práctica?",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48
+       },
+       "eds": {
+        "x": 24,
+        "y": 16,
+        "w": 252,
+        "h": 48,
+        "sel": "h3#hay-pruebas-de-que-esto-funciona-en-la-práctica",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/300",
+        "eds": "20/24/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 311,
+        "y": 28,
+        "w": 25,
+        "h": 25,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "box:div.faq-block__list__item__description.text-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 219
+       },
+       "eds": {
+        "x": 0,
+        "y": 80,
+        "w": 360,
+        "h": 219,
+        "sel": "div.faq-block-list-item-description.text-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:sí. hemos ayudado a marcas globales de s",
+       "role": "text",
+       "text": "sí. hemos ayudado a marcas globales de sectores como la bell",
+       "edsText": "sí. hemos ayudado a marcas globales de sectores como la bell",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 105,
+        "w": 301,
+        "h": 155
+       },
+       "eds": {
+        "x": 24,
+        "y": 105,
+        "w": 312,
+        "h": 157,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 11,
+       "dh": 2,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 7082,
+       "w": 360,
+       "h": 81
+      },
+      "eds": {
+       "x": 0,
+       "y": 6970,
+       "w": 360,
+       "h": 81
+      },
+      "dx": 0,
+      "dy": -112,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 3,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 12,
+  "within": 35,
+  "off": 18,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 2,
+  "requiredOff": 18
+ }
+}

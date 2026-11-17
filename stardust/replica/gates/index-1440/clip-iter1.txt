@@ -1,0 +1,4 @@
+clip-probe http://localhost:8791/index-proposed.html @ 1440px — docH 6875, 141 text nodes, 87 controls (HTTP 200, chrome)
+  🔴 TEXT HIDDEN            ×1     in a#side-button  div.side-button > a#side-button  "contact us"  cut 86px
+Clipped: 1 (text clipped 0, text hidden 1, controls hidden 0, controls clipped 0; advisory: clamped 0, collapsed 0, scroll-hidden 0, horizontal 0)
+json → stardust/replica/gates/index-1440/clip-iter1.json

@@ -1,0 +1,343 @@
+{
+  "slug": "es-es-noticias",
+  "type": "listing",
+  "renderBranch": "A'",
+  "template": "es-es-blog",
+  "modules": [
+    "masthead-services",
+    "news-overview"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "site-breadcrumbs",
+    "masthead-services",
+    "news-room-navigation",
+    "react",
+    "site-footer",
+    "site-slope",
+    "site-slope",
+    "site-slope",
+    "modal",
+    "modal",
+    "modal",
+    "modal"
+  ],
+  "canonShas": {
+    "header": "73cff066609b",
+    "footer": "d3f0cc1ef9d5",
+    "css": "8876c0e8d8d1"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Noticias | Valtech",
+    "description": "Noticias",
+    "canonical": "https://www.valtech.com/es-es/noticias/",
+    "lang": "es"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Noticias | Valtech",
+    "description": "Noticias",
+    "url": "https://www.valtech.com/es-es/noticias/"
+  },
+  "migratedAt": "2026-11-13T18:29:59Z",
+  "designMdSha": "9dc5e8267a4e",
+  "designJsonSha": "ec9a36425b28",
+  "sourceCurrentSha": "5da5213c5255",
+  "sourceProposedSha": "b8a9b8394c52",
+  "fidelityTier": "sibling",
+  "archetypeSource": "es-es-blog",
+  "archetypeSha": "f3e7d7ac7d49",
+  "variants": [],
+  "gatesPassed": [
+    "content-fidelity",
+    "variance-probe"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "published-origin gate 2026-11-13 confirmation run: 1440/360 pixel% 0 Δh0 / 0 Δh0; clipped within allowance; MISSING 0",
+    "variance-probe": "sibling-variance.mjs vs es-es-blog @1440 exit 2 (stardust/.work/cluster-listing/variance.json); deltas budgeted as insights-filter variants + source-module blocks (eds-conversion-log ## listing cluster)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 11,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/industrias/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/nuestros-partners/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/servicios/elevacion-de-la-experiencia/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/aceleracion-comercio/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/transformacion-empresarial/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/servicios-creativos-de-marketing-performance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/revolucion-del-dato-y-ia/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/carrera/ofertas-de-empleo/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/trabajar-en-valtech/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/diversidad-e-inclusion/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/podcasts/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/content-hub/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/la-empresa-inteligente/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/oficinas/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/contacto/keep-in-touch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de-de/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-dk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/fr-fr/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nl-nl/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-gb/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sv-se/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ca/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-ar/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt-br/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-mx/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-sg/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/noticias/valtech-and-bayer-win-a-2026-sitecore-digital-impact-award/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/roger-lay-managing-director-dach/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/lunendonk-study-2026/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/perfect-data-can-wait-progress-cant/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/valtech-wins-red-dot-design-award-ericsson-econ/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/valtech-agent-factory-launch-dmexco-2026/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/valtech-google-cloud-gemini-for-industries-launch-partner/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/agentic-ai-study/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/profeel-selects-valtech-to-support-global-brand-expansion/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/valtech-rfsu-condom-call-shortlisted-at-new-york-festivals-advertising-awards/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/valtech-rfsu-clio-health-awards-wins/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/noticias/valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/noticias/valtech-wins-at-spinn-awards/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/valtech-award-the-greenery/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/valtech-clio-awards-shortlist-rfsu-campaign/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/valtech-premier-tier-in-google-cloud-co-sell-and-services-partner-paths/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/valtech-strengthens-data-ai-capabilities-with-databricks/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/valtech-selected-by-saas-for-core-systems-replacement/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/automotive-digital-confidence-declines-ai-sdv-valtech-2026/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/valtech-named-a-major-player-in-idc-marketscape/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/gijs-vlaander-appointed-managing-director-valtech-netherlands/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/rewiring-financial-services-ai-data-ownership-report/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/manufacturing-leaders-redefining-digital-advantage/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/valtech-wins-two-swedish-effie-awards-100-wattaren/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/valtech-recognized-2026-google-public-sector-data-analytics-partner/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/noticias/valtech-recognized-in-forrester-salesforce-consulting-services-landscape-2025/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/oficinas/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/carrera/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/accesibilidad/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/mantente-en-contacto/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "es-es/noticias/index.html",
+  "outputPathDefault": null,
+  "sidecar": "es-es/noticias/_meta.json",
+  "driverVersion": "1"
+}

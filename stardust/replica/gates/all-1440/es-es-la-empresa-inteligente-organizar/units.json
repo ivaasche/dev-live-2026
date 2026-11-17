@@ -1,0 +1,2239 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-14T07:26:00.299Z",
+  "tol": 4,
+  "n": 6,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/es-es/la-empresa-inteligente/organizar/",
+  "at": "2026-11-14T05:51:02.503Z",
+  "docH": 6825
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/es-es/la-empresa-inteligente/organizar",
+  "at": "2026-11-14T07:26:00.102Z",
+  "docH": 6825
+ },
+ "results": [
+  {
+   "sel": ".features-showcase__item=.features-showcase-item",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase-body > ul.features-showcase-list > li.features-showcase-item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "20/28/300"
+       }
+      },
+      {
+       "key": "heading:mejor segmentación",
+       "role": "heading",
+       "text": "mejor segmentación",
+       "edsText": "mejor segmentación",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 80,
+        "w": 274,
+        "h": 34
+       },
+       "eds": {
+        "x": 0,
+        "y": 80,
+        "w": 274,
+        "h": 34,
+        "sel": "h3#mejor-segmentación",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "28/34/300",
+        "eds": "28/34/300"
+       }
+      },
+      {
+       "key": "text:con ia agéntica para operaciones empresa",
+       "role": "text",
+       "text": "con ia agéntica para operaciones empresariales, las campañas",
+       "edsText": "con ia agéntica para operaciones empresariales, las campañas",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 130,
+        "w": 274,
+        "h": 196
+       },
+       "eds": {
+        "x": 0,
+        "y": 130,
+        "w": 274,
+        "h": 196,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/300",
+        "eds": "20/28/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 676,
+       "y": 965,
+       "w": 274,
+       "h": 359
+      },
+      "eds": {
+       "x": 676,
+       "y": 965,
+       "w": 274,
+       "h": 359
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase-body > ul.features-showcase-list > li.features-showcase-item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "20/28/300"
+       }
+      },
+      {
+       "key": "heading:reducción de los costes de contenido",
+       "role": "heading",
+       "text": "reducción de los costes de contenido",
+       "edsText": "reducción de los costes de contenido",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 80,
+        "w": 274,
+        "h": 67
+       },
+       "eds": {
+        "x": 0,
+        "y": 80,
+        "w": 274,
+        "h": 67,
+        "sel": "h3#reducción-de-los-costes-de-contenido",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "28/34/300",
+        "eds": "28/34/300"
+       }
+      },
+      {
+       "key": "text:los flujos de contenido con ia generativ",
+       "role": "text",
+       "text": "los flujos de contenido con ia generativa automatizan la cre",
+       "edsText": "los flujos de contenido con ia generativa automatizan la cre",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 163,
+        "w": 274,
+        "h": 196
+       },
+       "eds": {
+        "x": 0,
+        "y": 163,
+        "w": 274,
+        "h": 196,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/300",
+        "eds": "20/28/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 987,
+       "y": 965,
+       "w": 274,
+       "h": 359
+      },
+      "eds": {
+       "x": 987,
+       "y": 965,
+       "w": 274,
+       "h": 359
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase-body > ul.features-showcase-list > li.features-showcase-item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "20/28/300"
+       }
+      },
+      {
+       "key": "heading:continuidad resiliente",
+       "role": "heading",
+       "text": "continuidad resiliente",
+       "edsText": "continuidad resiliente",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 80,
+        "w": 274,
+        "h": 67
+       },
+       "eds": {
+        "x": 0,
+        "y": 80,
+        "w": 274,
+        "h": 67,
+        "sel": "h3#continuidad-resiliente",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "28/34/300",
+        "eds": "28/34/300"
+       }
+      },
+      {
+       "key": "text:la inteligencia conversacional reduce la",
+       "role": "text",
+       "text": "la inteligencia conversacional reduce la dependencia de los ",
+       "edsText": "la inteligencia conversacional reduce la dependencia de los ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 163,
+        "w": 274,
+        "h": 168
+       },
+       "eds": {
+        "x": 0,
+        "y": 163,
+        "w": 274,
+        "h": 168,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/300",
+        "eds": "20/28/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 676,
+       "y": 1384,
+       "w": 274,
+       "h": 331
+      },
+      "eds": {
+       "x": 676,
+       "y": 1384,
+       "w": 274,
+       "h": 331
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase-body > ul.features-showcase-list > li.features-showcase-item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 47,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 47,
+        "h": 48,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "20/28/300"
+       }
+      },
+      {
+       "key": "heading:operaciones inteligentes",
+       "role": "heading",
+       "text": "operaciones inteligentes",
+       "edsText": "operaciones inteligentes",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 80,
+        "w": 274,
+        "h": 67
+       },
+       "eds": {
+        "x": 0,
+        "y": 80,
+        "w": 274,
+        "h": 67,
+        "sel": "h3#operaciones-inteligentes",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "28/34/300",
+        "eds": "28/34/300"
+       }
+      },
+      {
+       "key": "text:los agentes ajustan dinámicamente el inv",
+       "role": "text",
+       "text": "los agentes ajustan dinámicamente el inventario y las promoc",
+       "edsText": "los agentes ajustan dinámicamente el inventario y las promoc",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 163,
+        "w": 274,
+        "h": 168
+       },
+       "eds": {
+        "x": 0,
+        "y": 163,
+        "w": 274,
+        "h": 168,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/300",
+        "eds": "20/28/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 987,
+       "y": 1384,
+       "w": 274,
+       "h": 331
+      },
+      "eds": {
+       "x": 987,
+       "y": 1384,
+       "w": 274,
+       "h": 331
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase-body > ul.features-showcase-list > li.features-showcase-item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 76,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 76,
+        "h": 48,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "20/28/300"
+       }
+      },
+      {
+       "key": "heading:mayor conversión",
+       "role": "heading",
+       "text": "mayor conversión",
+       "edsText": "mayor conversión",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 80,
+        "w": 274,
+        "h": 34
+       },
+       "eds": {
+        "x": 0,
+        "y": 80,
+        "w": 274,
+        "h": 34,
+        "sel": "h3#mayor-conversión",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "28/34/300",
+        "eds": "28/34/300"
+       }
+      },
+      {
+       "key": "text:la personalización agéntica ofrece recom",
+       "role": "text",
+       "text": "la personalización agéntica ofrece recomendaciones relevante",
+       "edsText": "la personalización agéntica ofrece recomendaciones relevante",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 130,
+        "w": 274,
+        "h": 168
+       },
+       "eds": {
+        "x": 0,
+        "y": 130,
+        "w": 274,
+        "h": 168,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/300",
+        "eds": "20/28/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 676,
+       "y": 1775,
+       "w": 274,
+       "h": 298
+      },
+      "eds": {
+       "x": 676,
+       "y": 1775,
+       "w": 274,
+       "h": 298
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".related-cases__item=.related-cases-item",
+   "family": null,
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.section__container.centralized > ul.related-cases__list > li.related-cases__item"
+     },
+     "eds": {
+      "path": "div.related-cases-container > ul.related-cases-list > li.related-cases-item"
+     },
+     "rows": [
+      {
+       "key": "link:quick-service restaurant chain",
+       "role": "link",
+       "text": "quick-service restaurant chain",
+       "edsText": "quick-service restaurant chain",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 529,
+        "h": 529
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 529,
+        "h": 529,
+        "sel": "a.related-cases-item-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:picture.related-cases__item__image-block--static#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 529,
+        "h": 457
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 529,
+        "h": 457,
+        "sel": "picture.related-cases-item-image-block-static.desktop",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:quick-service restaurant chain",
+       "role": "image",
+       "text": "quick-service restaurant chain",
+       "edsText": "quick-service restaurant chain",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 529,
+        "h": 457
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 529,
+        "h": 457,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "box:div.related-cases__item-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 452,
+        "w": 529,
+        "h": 141
+       },
+       "eds": {
+        "x": 0,
+        "y": 452,
+        "w": 529,
+        "h": 141,
+        "sel": "div.related-cases-item-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:quick-service restaurant chain",
+       "role": "heading",
+       "text": "quick-service restaurant chain",
+       "edsText": "quick-service restaurant chain",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 464,
+        "w": 414,
+        "h": 27
+       },
+       "eds": {
+        "x": 16,
+        "y": 464,
+        "w": 414,
+        "h": 27,
+        "sel": "h3#quick-service-restaurant-chain",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "32/32/300",
+        "eds": "32/32/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 179,
+       "y": 3853,
+       "w": 529,
+       "h": 529
+      },
+      "eds": {
+       "x": 179,
+       "y": 3853,
+       "w": 529,
+       "h": 529
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.section__container.centralized > ul.related-cases__list > li.related-cases__item"
+     },
+     "eds": {
+      "path": "div.related-cases-container > ul.related-cases-list > li.related-cases-item"
+     },
+     "rows": [
+      {
+       "key": "link:matalan",
+       "role": "link",
+       "text": "matalan",
+       "edsText": "matalan",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 529,
+        "h": 529
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 529,
+        "h": 529,
+        "sel": "a.related-cases-item-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:picture.related-cases__item__image-block--static#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 529,
+        "h": 457
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 529,
+        "h": 457,
+        "sel": "picture.related-cases-item-image-block-static.desktop",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:matalan",
+       "role": "image",
+       "text": "matalan",
+       "edsText": "matalan",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 529,
+        "h": 457
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 529,
+        "h": 457,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "box:div.related-cases__item-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 452,
+        "w": 529,
+        "h": 141
+       },
+       "eds": {
+        "x": 0,
+        "y": 452,
+        "w": 529,
+        "h": 141,
+        "sel": "div.related-cases-item-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:matalan",
+       "role": "heading",
+       "text": "matalan",
+       "edsText": "matalan",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 464,
+        "w": 414,
+        "h": 27
+       },
+       "eds": {
+        "x": 16,
+        "y": 464,
+        "w": 414,
+        "h": 27,
+        "sel": "h3#matalan",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "32/32/300",
+        "eds": "32/32/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 732,
+       "y": 3853,
+       "w": 529,
+       "h": 529
+      },
+      "eds": {
+       "x": 732,
+       "y": 3853,
+       "w": 529,
+       "h": 529
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".featured-verticals-block__item.is-selected=.featured-verticals-block-item.is-selected",
+   "family": null,
+   "required": true,
+   "originMatches": 1,
+   "edsMatches": 1,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.flickity-viewport > div.flickity-slider > div.featured-verticals-block__item.is-selected"
+     },
+     "eds": {
+      "path": "div.featured-verticals-block-viewport > div.featured-verticals-block-track > div.featured-verticals-block-item.is-selected"
+     },
+     "rows": [
+      {
+       "key": "image:img.featured-verticals-block__item__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": -1,
+        "y": -1,
+        "w": 437,
+        "h": 543
+       },
+       "eds": {
+        "x": -1,
+        "y": -1,
+        "w": 435,
+        "h": 543,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": -1,
+        "w": 435,
+        "h": 543
+       },
+       "eds": {
+        "x": 0,
+        "y": -1,
+        "w": 435,
+        "h": 543,
+        "sel": "picture.landscape",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:metodología",
+       "role": "text",
+       "text": "metodología",
+       "edsText": "metodología",
+       "byPosition": false,
+       "origin": {
+        "x": 467,
+        "y": 0,
+        "w": 101,
+        "h": 23
+       },
+       "eds": {
+        "x": 467,
+        "y": 0,
+        "w": 101,
+        "h": 23,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/400",
+        "eds": "18/0/400"
+       }
+      },
+      {
+       "key": "heading:modelo operativo inteligente",
+       "role": "heading",
+       "text": "modelo operativo inteligente",
+       "edsText": "modelo operativo inteligente",
+       "byPosition": false,
+       "origin": {
+        "x": 467,
+        "y": 23,
+        "w": 519,
+        "h": 115
+       },
+       "eds": {
+        "x": 467,
+        "y": 23,
+        "w": 519,
+        "h": 115,
+        "sel": "h3#modelo-operativo-inteligente",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/58/300",
+        "eds": "48/58/300"
+       }
+      },
+      {
+       "key": "text:nuestro enfoque de transformación del mo",
+       "role": "text",
+       "text": "nuestro enfoque de transformación del modelo operativo con i",
+       "edsText": "nuestro enfoque de transformación del modelo operativo con i",
+       "byPosition": false,
+       "origin": {
+        "x": 467,
+        "y": 334,
+        "w": 460,
+        "h": 134
+       },
+       "eds": {
+        "x": 467,
+        "y": 334,
+        "w": 460,
+        "h": 134,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/34/300",
+        "eds": "24/34/300"
+       }
+      },
+      {
+       "key": "link:nuestro enfoque",
+       "role": "link",
+       "text": "nuestro enfoque",
+       "edsText": "nuestro enfoque",
+       "byPosition": false,
+       "origin": {
+        "x": 467,
+        "y": 493,
+        "w": 186,
+        "h": 49
+       },
+       "eds": {
+        "x": 467,
+        "y": 493,
+        "w": 186,
+        "h": 49,
+        "sel": "a.featured-verticals-block-item-link.btn-white",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/21/400",
+        "eds": "18/21/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 179,
+       "y": 4498,
+       "w": 986,
+       "h": 541
+      },
+      "eds": {
+       "x": 179,
+       "y": 4498,
+       "w": 986,
+       "h": 541
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".iehub-nav__item=.hub-nav-item",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.section.iehub-nav > nav.section__container.iehub-nav__container > a.iehub-nav__item"
+     },
+     "eds": {
+      "path": "ul.hub-nav-list > li > a.hub-nav-item"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 595,
+       "y": 85,
+       "w": 114,
+       "h": 20
+      },
+      "eds": {
+       "x": 595,
+       "y": 85,
+       "w": 114,
+       "h": 20
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.section.iehub-nav > nav.section__container.iehub-nav__container > a.iehub-nav__item"
+     },
+     "eds": {
+      "path": "ul.hub-nav-list > li > a.hub-nav-item"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 748,
+       "y": 85,
+       "w": 56,
+       "h": 20
+      },
+      "eds": {
+       "x": 748,
+       "y": 85,
+       "w": 56,
+       "h": 20
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.section.iehub-nav > nav.section__container.iehub-nav__container > span.iehub-nav__item.active"
+     },
+     "eds": {
+      "path": "ul.hub-nav-list > li > span.hub-nav-item.active"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 844,
+       "y": 85,
+       "w": 78,
+       "h": 20
+      },
+      "eds": {
+       "x": 844,
+       "y": 85,
+       "w": 78,
+       "h": 20
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.section.iehub-nav > nav.section__container.iehub-nav__container > a.iehub-nav__item"
+     },
+     "eds": {
+      "path": "ul.hub-nav-list > li > a.hub-nav-item"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 962,
+       "y": 85,
+       "w": 53,
+       "h": 20
+      },
+      "eds": {
+       "x": 962,
+       "y": 85,
+       "w": 53,
+       "h": 20
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.section.iehub-nav > nav.section__container.iehub-nav__container > a.iehub-nav__item"
+     },
+     "eds": {
+      "path": "ul.hub-nav-list > li > a.hub-nav-item"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1055,
+       "y": 85,
+       "w": 57,
+       "h": 20
+      },
+      "eds": {
+       "x": 1055,
+       "y": 85,
+       "w": 57,
+       "h": 20
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.section.iehub-nav > nav.section__container.iehub-nav__container > a.btn--white.iehub-nav__item"
+     },
+     "eds": {
+      "path": "nav.hub-nav-container > p.hub-nav-cta > a.btn-white.hub-nav-item"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1152,
+       "y": 75,
+       "w": 264,
+       "h": 40
+      },
+      "eds": {
+       "x": 1152,
+       "y": 75,
+       "w": 264,
+       "h": 40
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".podcast-speakers__info=.podcast-speakers-info",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.wrapper.section__container > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 152
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 152,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:casper rasmussen",
+       "role": "text",
+       "text": "casper rasmussen",
+       "edsText": "casper rasmussen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 176,
+        "w": 221,
+        "h": 80
+       },
+       "eds": {
+        "x": 0,
+        "y": 176,
+        "w": 221,
+        "h": 80,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "32/0/300",
+        "eds": "32/0/300"
+       }
+      },
+      {
+       "key": "text:director de transformación del grupo",
+       "role": "text",
+       "text": "director de transformación del grupo",
+       "edsText": "director de transformación del grupo",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 256,
+        "w": 221,
+        "h": 78
+       },
+       "eds": {
+        "x": 0,
+        "y": 256,
+        "w": 221,
+        "h": 78,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/0/300",
+        "eds": "20/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 334,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 0,
+        "y": 334,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 2,
+        "y": 342,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 2,
+        "y": 342,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 152,
+       "absY": 5227,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 179,
+       "y": 5227,
+       "w": 221,
+       "h": 395
+      },
+      "eds": {
+       "x": 179,
+       "y": 5227,
+       "w": 221,
+       "h": 395
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.wrapper.section__container > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 152
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 152,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:matt redman",
+       "role": "text",
+       "text": "matt redman",
+       "edsText": "matt redman",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 176,
+        "w": 192,
+        "h": 40
+       },
+       "eds": {
+        "x": 0,
+        "y": 176,
+        "w": 192,
+        "h": 40,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "32/0/300",
+        "eds": "32/0/300"
+       }
+      },
+      {
+       "key": "text:svp, strategy",
+       "role": "text",
+       "text": "svp, strategy",
+       "edsText": "svp, strategy",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 216,
+        "w": 119,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 216,
+        "w": 119,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/0/300",
+        "eds": "20/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 242,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 0,
+        "y": 242,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 2,
+        "y": 250,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 2,
+        "y": 250,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 152,
+       "absY": 5227,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 449,
+       "y": 5227,
+       "w": 221,
+       "h": 303
+      },
+      "eds": {
+       "x": 449,
+       "y": 5227,
+       "w": 221,
+       "h": 303
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.wrapper.section__container > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.podcast-speakers-inner > div.podcast-speakers-container > div.podcast-speakers-info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 152
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 152,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:kristoffer nielsen-refs",
+       "role": "text",
+       "text": "kristoffer nielsen-refs",
+       "edsText": "kristoffer nielsen-refs",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 176,
+        "w": 221,
+        "h": 80
+       },
+       "eds": {
+        "x": 0,
+        "y": 176,
+        "w": 221,
+        "h": 80,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "32/0/300",
+        "eds": "32/0/300"
+       }
+      },
+      {
+       "key": "text:vp, strategy & consulting",
+       "role": "text",
+       "text": "vp, strategy & consulting",
+       "edsText": "vp, strategy & consulting",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 256,
+        "w": 221,
+        "h": 52
+       },
+       "eds": {
+        "x": 0,
+        "y": 256,
+        "w": 221,
+        "h": 52,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/0/300",
+        "eds": "20/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 308,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 0,
+        "y": 308,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 2,
+        "y": 316,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 2,
+        "y": 316,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 152,
+       "absY": 5227,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 720,
+       "y": 5227,
+       "w": 221,
+       "h": 369
+      },
+      "eds": {
+       "x": 720,
+       "y": 5227,
+       "w": 221,
+       "h": 369
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 17,
+  "within": 46,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

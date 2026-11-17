@@ -1,0 +1,86 @@
+[live-session] waiting to pace live navigations to www.valtech.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 102 ms
+unit-geometry @ 360px, tol 4px — https://www.valtech.com/es-es/la-empresa-inteligente/operar/ vs http://localhost:8791/es-es-la-empresa-inteligente-operar-proposed.html
+unit 1 of microsite-features-showcase-item (required) .features-showcase__item=.features-showcase__item: origin 69,786 275×307 vs served 69,786 275×307 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 0,0 40×48 | 0,0 40×48 | 0 | 0 | 0 | 0 | ✓ |
+| heading "monitorización inteligente del rendi" | 0,64 275×115 | 0,64 275×115 | 0 | 0 | 0 | 0 | ✓ |
+| text "con clasificación de incidencias y a" | 0,187 275×120 | 0,187 275×120 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of microsite-features-showcase-item (required) .features-showcase__item=.features-showcase__item: origin 69,1131 275×254 vs served 69,1131 275×254 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 0,0 48×48 | 0,0 48×48 | 0 | 0 | 0 | 0 | ✓ |
+| heading "reducir los costes de mantenimiento " | 0,64 275×86 | 0,64 275×86 | 0 | 0 | 0 | 0 | ✓ |
+| text "los análisis automatizados de parche" | 0,158 275×96 | 0,158 275×96 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of microsite-features-showcase-item (required) .features-showcase__item=.features-showcase__item: origin 69,1422 275×226 vs served 69,1422 275×226 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 0,0 69×48 | 0,0 69×48 | 0 | 0 | 0 | 0 | ✓ |
+| heading "reducir los costes de optimización" | 0,64 275×58 | 0,64 275×58 | 0 | 0 | 0 | 0 | ✓ |
+| text "los flujos de trabajo impulsados por" | 0,130 275×96 | 0,130 275×96 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of microsite-features-showcase-item (required) .features-showcase__item=.features-showcase__item: origin 69,1685 275×302 vs served 69,1685 275×302 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 0,0 48×48 | 0,0 48×48 | 0 | 0 | 0 | 0 | ✓ |
+| heading "menos carga operativa y ciclos de la" | 0,64 275×86 | 0,64 275×86 | 0 | 0 | 0 | 0 | ✓ |
+| text "la ia basada en agentes en operacion" | 0,158 275×144 | 0,158 275×144 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of microsite-features-showcase-item (required) .features-showcase__item=.features-showcase__item: origin 69,2024 275×274 vs served 69,2024 275×274 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 0,0 48×48 | 0,0 48×48 | 0 | 0 | 0 | 0 | ✓ |
+| heading "reducir los costes de continuidad de" | 0,64 275×58 | 0,64 275×58 | 0 | 0 | 0 | 0 | ✓ |
+| text "las bases de conocimiento conversaci" | 0,130 275×144 | 0,130 275×144 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of microsite-related-case (required) .related-cases__item=.related-cases__item: origin 16,3948 328×328 vs served 16,3948 328×328 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 3 within 4px, 2 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "national veterinary associates" | 0,0 328×328 | 0,0 328×328 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:picture.related-cases__item__i" | 0,0 328×293 | 0,0 328×293 | 0 | 0 | 0 | 0 | ✓ |
+| image "national veterinary associates" | 0,0 328×293 | 0,0 328×293 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.related-cases__item-content#" | 0,280 328×92 | 0,267 328×92 | 0 | -13 | 0 | 0 | ✗ |
+| heading "national veterinary associates" | 16,288 266×18 | 16,275 266×18 | 0 | -13 | 0 | 0 | ✗ |
+unit 1 of microsite-speaker (required) .podcast-speakers__info=.podcast-speakers__info: origin 18,5152 324×227 vs served 18,5153 324×227 → Δx 0 Δy +1 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img.podcast-speakers__image#1" | 103,0 118×120 | 102,0 120×120 | -1 | 0 | +2 | 0 | ✓ |
+| text "gabriel laliberte" | 96,128 132×23 | 96,128 132×23 | 0 | 0 | 0 | 0 | ✓ |
+| text "evp, strategy" | 114,161 96×21 | 114,161 96×21 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a.podcast-speakers__link#1" | 147,182 26×37 | 147,182 26×37 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 149,190 24×24 | 149,190 24×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of microsite-speaker (required) .podcast-speakers__info=.podcast-speakers__info: origin 18,5420 324×227 vs served 18,5420 324×227 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img.podcast-speakers__image#1" | 103,0 118×120 | 102,0 120×120 | -1 | 0 | +2 | 0 | ✓ |
+| text "casper rasmussen" | 85,128 153×23 | 85,128 153×23 | 0 | 0 | 0 | 0 | ✓ |
+| text "director de transformación del grupo" | 28,161 267×21 | 28,161 267×21 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a.podcast-speakers__link#1" | 147,182 26×37 | 147,182 26×37 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 149,190 24×24 | 149,190 24×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of microsite-speaker (required) .podcast-speakers__info=.podcast-speakers__info: origin 18,5687 324×227 vs served 18,5687 324×227 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img.podcast-speakers__image#1" | 103,0 118×120 | 102,0 120×120 | -1 | 0 | +2 | 0 | ✓ |
+| text "matt redman" | 108,128 108×23 | 108,128 108×23 | 0 | 0 | 0 | 0 | ✓ |
+| text "svp, strategy" | 114,161 95×21 | 114,161 95×21 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a.podcast-speakers__link#1" | 147,182 26×37 | 147,182 26×37 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 149,190 24×24 | 149,190 24×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of microsite-speaker (required) .podcast-speakers__info=.podcast-speakers__info: origin 18,5954 324×227 vs served 18,5955 324×227 → Δx 0 Δy +1 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img.podcast-speakers__image#1" | 103,0 118×120 | 102,0 120×120 | -1 | 0 | +2 | 0 | ✓ |
+| text "kristoffer nielsen-refs" | 72,128 180×23 | 72,128 180×23 | 0 | 0 | 0 | 0 | ✓ |
+| text "vp, strategy & consulting" | 71,161 181×21 | 71,161 181×21 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a.podcast-speakers__link#1" | 147,182 26×37 | 147,182 26×37 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 149,190 24×24 | 149,190 24×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of microsite-featured-verticals-item (required) .featured-verticals-block__item.is-selected=.featured-verticals-block__item.is-selected: origin 16,4396 266×619 vs served 16,4396 266×619 → Δx 0 Δy 0 Δw 0 Δh 0; 6 elements: 6 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img.featured-verticals-block__" | -1,-1 268×268 | -1,-1 268×268 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:picture#1" | 0,-1 266×268 | 0,-1 266×268 | 0 | 0 | 0 | 0 | ✓ |
+| text "metodología" | 0,326 101×23 | 0,326 101×23 | 0 | 0 | 0 | 0 | ✓ |
+| heading "modelo operativo inteligente" | 0,349 266×77 | 0,349 266×77 | 0 | 0 | 0 | 0 | ✓ |
+| text "nuestro enfoque de transformación de" | 2,442 264×112 | 2,442 264×112 | 0 | 0 | 0 | 0 | ✓ |
+| link "nuestro enfoque" | 2,570 186×49 | 2,570 186×49 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of microsite-iehub-nav-item (required) .iehub-nav__item=.iehub-nav__item: origin 41,832 278×56 vs served 41,832 278×56 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+Units: 12 compared; elements within 44, off 2, hidden 0, missing 0 → FAIL
+json → stardust/replica/gates/es-es-la-empresa-inteligente-operar-360/units-iter3.json

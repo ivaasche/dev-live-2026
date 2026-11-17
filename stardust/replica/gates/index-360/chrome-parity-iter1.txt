@@ -1,0 +1,11 @@
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.valtech.com/
+  build: http://localhost:8791/index-proposed.html
+
+■ header: 1 delta(s)
+  REGION       build: no element matches "header" — pass --region header=<liveSel>|<buildSel>
+
+■ footer: 1 delta(s) — 10 paired of 10/10 texts, 9/9 icons
+  ICON         icon #1: signature "badge-no-outline.png" → "badge-no-outline-442x128.jpg"
+
+✗ 2 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

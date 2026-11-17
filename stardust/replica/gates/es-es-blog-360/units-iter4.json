@@ -1,0 +1,2628 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-13T13:20:12.961Z",
+  "tol": 4,
+  "n": 4,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/es-es/blog/",
+  "at": "2026-11-13T13:19:52.552Z",
+  "docH": 7303
+ },
+ "eds": {
+  "url": "http://localhost:8791/es-es-blog-proposed.html",
+  "at": "2026-11-13T13:20:12.751Z",
+  "docH": 7303
+ },
+ "results": [
+  {
+   "sel": "a[data-component-name=\"insight-item\"]=.insight-item",
+   "family": "insight-item",
+   "required": true,
+   "originMatches": 10,
+   "edsMatches": 10,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.sc-hCcPtG.bcsgSM > div.sc-folSZX.fGwqqz > a.sc-bdDsCe.cJVcwm"
+     },
+     "eds": {
+      "path": "div.insights-overview__inner > div.insights-overview__grid > a.insight-item"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:el geo como nueva frontera de la visibil",
+       "role": "image",
+       "text": "el geo como nueva frontera de la visibilidad digital",
+       "edsText": "el geo como nueva frontera de la visibilidad digital",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207,
+        "sel": "img.ii__image",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:el geo como nueva frontera de la visibil",
+       "role": "heading",
+       "text": "el geo como nueva frontera de la visibilidad digital",
+       "edsText": "el geo como nueva frontera de la visibilidad digital",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 237,
+        "w": 312,
+        "h": 38
+       },
+       "eds": {
+        "x": 0,
+        "y": 237,
+        "w": 312,
+        "h": 38,
+        "sel": "h2.ii__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/19/300",
+        "eds": "16/19/300"
+       }
+      },
+      {
+       "key": "text:durante décadas, los equipos de marketin",
+       "role": "text",
+       "text": "durante décadas, los equipos de marketing han buscado mejora",
+       "edsText": "durante décadas, los equipos de marketing han buscado mejora",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 299,
+        "w": 312,
+        "h": 112
+       },
+       "eds": {
+        "x": 0,
+        "y": 299,
+        "w": 312,
+        "h": 112,
+        "sel": "p.ii__excerpt",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:noviembre 10, 2026",
+       "role": "text",
+       "text": "noviembre 10, 2026",
+       "edsText": "noviembre 10, 2026",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 435,
+        "w": 130,
+        "h": 18
+       },
+       "eds": {
+        "x": 0,
+        "y": 435,
+        "w": 130,
+        "h": 18,
+        "sel": "span.ii__meta-item.ii__published-date",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/700",
+        "eds": "14/20/700"
+       }
+      },
+      {
+       "key": "text:sector público",
+       "role": "text",
+       "text": "sector público",
+       "edsText": "sector público",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 435,
+        "w": 270,
+        "h": 38
+       },
+       "eds": {
+        "x": 0,
+        "y": 435,
+        "w": 270,
+        "h": 38,
+        "sel": "span.tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:movilidad",
+       "role": "text",
+       "text": "movilidad",
+       "edsText": "movilidad",
+       "byPosition": false,
+       "origin": {
+        "x": 130,
+        "y": 435,
+        "w": 67,
+        "h": 18
+       },
+       "eds": {
+        "x": 130,
+        "y": 435,
+        "w": 67,
+        "h": 18,
+        "sel": "span.tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:lujo",
+       "role": "text",
+       "text": "lujo",
+       "edsText": "lujo",
+       "byPosition": false,
+       "origin": {
+        "x": 196,
+        "y": 435,
+        "w": 32,
+        "h": 18
+       },
+       "eds": {
+        "x": 196,
+        "y": 435,
+        "w": 32,
+        "h": 18,
+        "sel": "span.tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:bienes de gran consumo",
+       "role": "text",
+       "text": "bienes de gran consumo",
+       "edsText": "bienes de gran consumo",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 454,
+        "w": 283,
+        "h": 38
+       },
+       "eds": {
+        "x": 0,
+        "y": 454,
+        "w": 283,
+        "h": 38,
+        "sel": "span.tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:servicios financieros",
+       "role": "text",
+       "text": "servicios financieros",
+       "edsText": "servicios financieros",
+       "byPosition": false,
+       "origin": {
+        "x": 52,
+        "y": 454,
+        "w": 137,
+        "h": 18
+       },
+       "eds": {
+        "x": 52,
+        "y": 454,
+        "w": 137,
+        "h": 18,
+        "sel": "span.tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:viajes y hostelería",
+       "role": "text",
+       "text": "viajes y hostelería",
+       "edsText": "viajes y hostelería",
+       "byPosition": false,
+       "origin": {
+        "x": 65,
+        "y": 474,
+        "w": 121,
+        "h": 18
+       },
+       "eds": {
+        "x": 65,
+        "y": 474,
+        "w": 121,
+        "h": 18,
+        "sel": "span.tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:salud",
+       "role": "text",
+       "text": "salud",
+       "edsText": "salud",
+       "byPosition": false,
+       "origin": {
+        "x": 186,
+        "y": 474,
+        "w": 41,
+        "h": 18
+       },
+       "eds": {
+        "x": 186,
+        "y": 474,
+        "w": 41,
+        "h": 18,
+        "sel": "span.tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:retail",
+       "role": "text",
+       "text": "retail",
+       "edsText": "retail",
+       "byPosition": false,
+       "origin": {
+        "x": 227,
+        "y": 474,
+        "w": 38,
+        "h": 18
+       },
+       "eds": {
+        "x": 227,
+        "y": 474,
+        "w": 38,
+        "h": 18,
+        "sel": "span.tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      },
+      {
+       "key": "text:revolución del dato y la ia",
+       "role": "text",
+       "text": "revolución del dato y la ia",
+       "edsText": "revolución del dato y la ia",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 494,
+        "w": 163,
+        "h": 18
+       },
+       "eds": {
+        "x": 0,
+        "y": 494,
+        "w": 163,
+        "h": 18,
+        "sel": "span.tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 1556,
+       "w": 312,
+       "h": 513
+      },
+      "eds": {
+       "x": 24,
+       "y": 1556,
+       "w": 312,
+       "h": 513
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 14,
+      "within": 14,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.sc-hCcPtG.bcsgSM > div.sc-folSZX.fGwqqz > a.sc-bdDsCe.cJVcwm"
+     },
+     "eds": {
+      "path": "div.insights-overview__inner > div.insights-overview__grid > a.insight-item"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:cómo la ia transforma las búsquedas y la",
+       "role": "image",
+       "text": "cómo la ia transforma las búsquedas y las webs de marca",
+       "edsText": "cómo la ia transforma las búsquedas y las webs de marca",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207,
+        "sel": "img.ii__image",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:cómo la ia transforma las búsquedas y la",
+       "role": "heading",
+       "text": "cómo la ia transforma las búsquedas y las webs de marca",
+       "edsText": "cómo la ia transforma las búsquedas y las webs de marca",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 237,
+        "w": 312,
+        "h": 38
+       },
+       "eds": {
+        "x": 0,
+        "y": 237,
+        "w": 312,
+        "h": 38,
+        "sel": "h2.ii__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/19/300",
+        "eds": "16/19/300"
+       }
+      },
+      {
+       "key": "text:la brecha de expectativas es cada vez ma",
+       "role": "text",
+       "text": "la brecha de expectativas es cada vez mayor entre las experi",
+       "edsText": "la brecha de expectativas es cada vez mayor entre las experi",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 299,
+        "w": 312,
+        "h": 112
+       },
+       "eds": {
+        "x": 0,
+        "y": 299,
+        "w": 312,
+        "h": 112,
+        "sel": "p.ii__excerpt",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:noviembre 10, 2026",
+       "role": "text",
+       "text": "noviembre 10, 2026",
+       "edsText": "noviembre 10, 2026",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 435,
+        "w": 130,
+        "h": 18
+       },
+       "eds": {
+        "x": 0,
+        "y": 435,
+        "w": 130,
+        "h": 18,
+        "sel": "span.ii__meta-item.ii__published-date",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/700",
+        "eds": "14/20/700"
+       }
+      },
+      {
+       "key": "text:revolución del dato y la ia",
+       "role": "text",
+       "text": "revolución del dato y la ia",
+       "edsText": "revolución del dato y la ia",
+       "byPosition": false,
+       "origin": {
+        "x": 130,
+        "y": 435,
+        "w": 163,
+        "h": 18
+       },
+       "eds": {
+        "x": 130,
+        "y": 435,
+        "w": 163,
+        "h": 18,
+        "sel": "span.tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 2089,
+       "w": 312,
+       "h": 454
+      },
+      "eds": {
+       "x": 24,
+       "y": 2089,
+       "w": 312,
+       "h": 454
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.sc-hCcPtG.bcsgSM > div.sc-folSZX.fGwqqz > a.sc-bdDsCe.cJVcwm"
+     },
+     "eds": {
+      "path": "div.insights-overview__inner > div.insights-overview__grid > a.insight-item"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:presentamos el muro de datos b2b",
+       "role": "image",
+       "text": "presentamos el muro de datos b2b",
+       "edsText": "presentamos el muro de datos b2b",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207,
+        "sel": "img.ii__image",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:presentamos el muro de datos b2b",
+       "role": "heading",
+       "text": "presentamos el muro de datos b2b",
+       "edsText": "presentamos el muro de datos b2b",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 237,
+        "w": 312,
+        "h": 19
+       },
+       "eds": {
+        "x": 0,
+        "y": 237,
+        "w": 312,
+        "h": 19,
+        "sel": "h2.ii__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/19/300",
+        "eds": "16/19/300"
+       }
+      },
+      {
+       "key": "text:a las empresas b2b no les falta tecnolog",
+       "role": "text",
+       "text": "a las empresas b2b no les falta tecnología. la ia ya se está",
+       "edsText": "a las empresas b2b no les falta tecnología. la ia ya se está",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 280,
+        "w": 312,
+        "h": 112
+       },
+       "eds": {
+        "x": 0,
+        "y": 280,
+        "w": 312,
+        "h": 112,
+        "sel": "p.ii__excerpt",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:octubre 13, 2026",
+       "role": "text",
+       "text": "octubre 13, 2026",
+       "edsText": "octubre 13, 2026",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 416,
+        "w": 111,
+        "h": 18
+       },
+       "eds": {
+        "x": 0,
+        "y": 416,
+        "w": 111,
+        "h": 18,
+        "sel": "span.ii__meta-item.ii__published-date",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/700",
+        "eds": "14/20/700"
+       }
+      },
+      {
+       "key": "text:revolución del dato y la ia",
+       "role": "text",
+       "text": "revolución del dato y la ia",
+       "edsText": "revolución del dato y la ia",
+       "byPosition": false,
+       "origin": {
+        "x": 111,
+        "y": 416,
+        "w": 163,
+        "h": 18
+       },
+       "eds": {
+        "x": 111,
+        "y": 416,
+        "w": 163,
+        "h": 18,
+        "sel": "span.tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/300",
+        "eds": "14/20/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 2563,
+       "w": 312,
+       "h": 435
+      },
+      "eds": {
+       "x": 24,
+       "y": 2563,
+       "w": 312,
+       "h": 435
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.sc-hCcPtG.bcsgSM > div.sc-folSZX.fGwqqz > a.sc-bdDsCe.cJVcwm"
+     },
+     "eds": {
+      "path": "div.insights-overview__inner > div.insights-overview__grid > a.insight-item"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:the intelligent enterprise in utrecht: k",
+       "role": "image",
+       "text": "the intelligent enterprise in utrecht: key takeaways",
+       "edsText": "the intelligent enterprise in utrecht: key takeaways",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 207,
+        "sel": "img.ii__image",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:the intelligent enterprise in utrecht: k",
+       "role": "heading",
+       "text": "the intelligent enterprise in utrecht: key takeaways",
+       "edsText": "the intelligent enterprise in utrecht: key takeaways",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 237,
+        "w": 312,
+        "h": 38
+       },
+       "eds": {
+        "x": 0,
+        "y": 237,
+        "w": 312,
+        "h": 38,
+        "sel": "h2.ii__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/19/300",
+        "eds": "16/19/300"
+       }
+      },
+      {
+       "key": "text:boards demand acceleration. investors de",
+       "role": "text",
+       "text": "boards demand acceleration. investors demand efficiency. ai ",
+       "edsText": "boards demand acceleration. investors demand efficiency. ai ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 299,
+        "w": 312,
+        "h": 112
+       },
+       "eds": {
+        "x": 0,
+        "y": 299,
+        "w": 312,
+        "h": 112,
+        "sel": "p.ii__excerpt",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "text:octubre 9, 2026",
+       "role": "text",
+       "text": "octubre 9, 2026",
+       "edsText": "octubre 9, 2026",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 435,
+        "w": 99,
+        "h": 18
+       },
+       "eds": {
+        "x": 0,
+        "y": 435,
+        "w": 99,
+        "h": 18,
+        "sel": "span.ii__meta-item.ii__published-date",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/700",
+        "eds": "14/20/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 3019,
+       "w": 312,
+       "h": 454
+      },
+      "eds": {
+       "x": 24,
+       "y": 3019,
+       "w": 312,
+       "h": 454
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".insight-secondary .masthead-insights__container=.insight-secondary .masthead-insights__container",
+   "family": "masthead-insights-secondary",
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.grid__column.fr-row-1 > a.masthead-insights > div.masthead-insights__container.reveal-box"
+     },
+     "eds": {
+      "path": "div.grid__column.fr-row-1 > a.masthead-insights > div.masthead-insights__container"
+     },
+     "rows": [
+      {
+       "key": "image:img#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 203
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 203,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 186,
+        "w": 360,
+        "h": 21
+       },
+       "eds": {
+        "x": 0,
+        "y": 186,
+        "w": 360,
+        "h": 21,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:introducing the agent factory for agenti",
+       "role": "heading",
+       "text": "introducing the agent factory for agentic workforces",
+       "edsText": "introducing the agent factory for agentic workforces",
+       "byPosition": false,
+       "origin": {
+        "x": 22,
+        "y": 230,
+        "w": 317,
+        "h": 43
+       },
+       "eds": {
+        "x": 22,
+        "y": 230,
+        "w": 317,
+        "h": 43,
+        "sel": "h2.masthead-insights__hgroup__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/22/300",
+        "eds": "18/22/300"
+       }
+      },
+      {
+       "key": "text:octubre 27, 2026",
+       "role": "text",
+       "text": "octubre 27, 2026",
+       "edsText": "octubre 27, 2026",
+       "byPosition": false,
+       "origin": {
+        "x": 22,
+        "y": 314,
+        "w": 88,
+        "h": 14
+       },
+       "eds": {
+        "x": 22,
+        "y": 314,
+        "w": 88,
+        "h": 14,
+        "sel": "span.masthead-insights__meta__date",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/700",
+        "eds": "11/15/700"
+       }
+      },
+      {
+       "key": "text:manufacturing",
+       "role": "text",
+       "text": "manufacturing",
+       "edsText": "manufacturing",
+       "byPosition": false,
+       "origin": {
+        "x": 110,
+        "y": 314,
+        "w": 76,
+        "h": 14
+       },
+       "eds": {
+        "x": 110,
+        "y": 314,
+        "w": 76,
+        "h": 14,
+        "sel": "span.masthead-insights__meta__tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:mobility",
+       "role": "text",
+       "text": "mobility",
+       "edsText": "mobility",
+       "byPosition": false,
+       "origin": {
+        "x": 186,
+        "y": 314,
+        "w": 43,
+        "h": 14
+       },
+       "eds": {
+        "x": 186,
+        "y": 314,
+        "w": 43,
+        "h": 14,
+        "sel": "span.masthead-insights__meta__tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:retail",
+       "role": "text",
+       "text": "retail",
+       "edsText": "retail",
+       "byPosition": false,
+       "origin": {
+        "x": 229,
+        "y": 314,
+        "w": 32,
+        "h": 14
+       },
+       "eds": {
+        "x": 229,
+        "y": 314,
+        "w": 32,
+        "h": 14,
+        "sel": "span.masthead-insights__meta__tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:luxury",
+       "role": "text",
+       "text": "luxury",
+       "edsText": "luxury",
+       "byPosition": false,
+       "origin": {
+        "x": 261,
+        "y": 314,
+        "w": 37,
+        "h": 14
+       },
+       "eds": {
+        "x": 261,
+        "y": 314,
+        "w": 37,
+        "h": 14,
+        "sel": "span.masthead-insights__meta__tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:health",
+       "role": "text",
+       "text": "health",
+       "edsText": "health",
+       "byPosition": false,
+       "origin": {
+        "x": 299,
+        "y": 314,
+        "w": 35,
+        "h": 14
+       },
+       "eds": {
+        "x": 299,
+        "y": 314,
+        "w": 35,
+        "h": 14,
+        "sel": "span.masthead-insights__meta__tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:financial services",
+       "role": "text",
+       "text": "financial services",
+       "edsText": "financial services",
+       "byPosition": false,
+       "origin": {
+        "x": 22,
+        "y": 329,
+        "w": 92,
+        "h": 14
+       },
+       "eds": {
+        "x": 22,
+        "y": 329,
+        "w": 92,
+        "h": 14,
+        "sel": "span.masthead-insights__meta__tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:public sector",
+       "role": "text",
+       "text": "public sector",
+       "edsText": "public sector",
+       "byPosition": false,
+       "origin": {
+        "x": 114,
+        "y": 329,
+        "w": 69,
+        "h": 14
+       },
+       "eds": {
+        "x": 114,
+        "y": 329,
+        "w": 69,
+        "h": 14,
+        "sel": "span.masthead-insights__meta__tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:travel and hospitality",
+       "role": "text",
+       "text": "travel and hospitality",
+       "edsText": "travel and hospitality",
+       "byPosition": false,
+       "origin": {
+        "x": 183,
+        "y": 329,
+        "w": 109,
+        "h": 14
+       },
+       "eds": {
+        "x": 183,
+        "y": 329,
+        "w": 109,
+        "h": 14,
+        "sel": "span.masthead-insights__meta__tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:cpg",
+       "role": "text",
+       "text": "cpg",
+       "edsText": "cpg",
+       "byPosition": false,
+       "origin": {
+        "x": 291,
+        "y": 329,
+        "w": 24,
+        "h": 14
+       },
+       "eds": {
+        "x": 291,
+        "y": 329,
+        "w": 24,
+        "h": 14,
+        "sel": "span.masthead-insights__meta__tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:data & ai revolution",
+       "role": "text",
+       "text": "data & ai revolution",
+       "edsText": "data & ai revolution",
+       "byPosition": false,
+       "origin": {
+        "x": 22,
+        "y": 344,
+        "w": 100,
+        "h": 14
+       },
+       "eds": {
+        "x": 22,
+        "y": 344,
+        "w": 100,
+        "h": 14,
+        "sel": "span.masthead-insights__meta__tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 517,
+       "w": 360,
+       "h": 380
+      },
+      "eds": {
+       "x": 0,
+       "y": 517,
+       "w": 360,
+       "h": 380
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 14,
+      "within": 14,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.grid__column.fr-row-1 > a.masthead-insights > div.masthead-insights__container.reveal-box"
+     },
+     "eds": {
+      "path": "div.grid__column.fr-row-1 > a.masthead-insights > div.masthead-insights__container"
+     },
+     "rows": [
+      {
+       "key": "image:img#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 203
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 203,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 186,
+        "w": 360,
+        "h": 21
+       },
+       "eds": {
+        "x": 0,
+        "y": 186,
+        "w": 360,
+        "h": 21,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:the era of personal agents",
+       "role": "heading",
+       "text": "the era of personal agents",
+       "edsText": "the era of personal agents",
+       "byPosition": false,
+       "origin": {
+        "x": 22,
+        "y": 230,
+        "w": 317,
+        "h": 22
+       },
+       "eds": {
+        "x": 22,
+        "y": 230,
+        "w": 317,
+        "h": 22,
+        "sel": "h2.masthead-insights__hgroup__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/22/300",
+        "eds": "18/22/300"
+       }
+      },
+      {
+       "key": "text:octubre 26, 2026",
+       "role": "text",
+       "text": "octubre 26, 2026",
+       "edsText": "octubre 26, 2026",
+       "byPosition": false,
+       "origin": {
+        "x": 22,
+        "y": 292,
+        "w": 89,
+        "h": 14
+       },
+       "eds": {
+        "x": 22,
+        "y": 292,
+        "w": 89,
+        "h": 14,
+        "sel": "span.masthead-insights__meta__date",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/700",
+        "eds": "11/15/700"
+       }
+      },
+      {
+       "key": "text:cpg",
+       "role": "text",
+       "text": "cpg",
+       "edsText": "cpg",
+       "byPosition": false,
+       "origin": {
+        "x": 111,
+        "y": 292,
+        "w": 27,
+        "h": 14
+       },
+       "eds": {
+        "x": 111,
+        "y": 292,
+        "w": 27,
+        "h": 14,
+        "sel": "span.masthead-insights__meta__tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:financial services",
+       "role": "text",
+       "text": "financial services",
+       "edsText": "financial services",
+       "byPosition": false,
+       "origin": {
+        "x": 137,
+        "y": 292,
+        "w": 92,
+        "h": 14
+       },
+       "eds": {
+        "x": 137,
+        "y": 292,
+        "w": 92,
+        "h": 14,
+        "sel": "span.masthead-insights__meta__tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:health",
+       "role": "text",
+       "text": "health",
+       "edsText": "health",
+       "byPosition": false,
+       "origin": {
+        "x": 230,
+        "y": 292,
+        "w": 37,
+        "h": 14
+       },
+       "eds": {
+        "x": 230,
+        "y": 292,
+        "w": 37,
+        "h": 14,
+        "sel": "span.masthead-insights__meta__tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:luxury",
+       "role": "text",
+       "text": "luxury",
+       "edsText": "luxury",
+       "byPosition": false,
+       "origin": {
+        "x": 267,
+        "y": 292,
+        "w": 35,
+        "h": 14
+       },
+       "eds": {
+        "x": 267,
+        "y": 292,
+        "w": 35,
+        "h": 14,
+        "sel": "span.masthead-insights__meta__tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:manufacturing",
+       "role": "text",
+       "text": "manufacturing",
+       "edsText": "manufacturing",
+       "byPosition": false,
+       "origin": {
+        "x": 22,
+        "y": 307,
+        "w": 76,
+        "h": 14
+       },
+       "eds": {
+        "x": 22,
+        "y": 307,
+        "w": 76,
+        "h": 14,
+        "sel": "span.masthead-insights__meta__tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:travel and hospitality",
+       "role": "text",
+       "text": "travel and hospitality",
+       "edsText": "travel and hospitality",
+       "byPosition": false,
+       "origin": {
+        "x": 22,
+        "y": 307,
+        "w": 271,
+        "h": 29
+       },
+       "eds": {
+        "x": 22,
+        "y": 307,
+        "w": 271,
+        "h": 29,
+        "sel": "span.masthead-insights__meta__tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:mobility",
+       "role": "text",
+       "text": "mobility",
+       "edsText": "mobility",
+       "byPosition": false,
+       "origin": {
+        "x": 98,
+        "y": 307,
+        "w": 43,
+        "h": 14
+       },
+       "eds": {
+        "x": 98,
+        "y": 307,
+        "w": 43,
+        "h": 14,
+        "sel": "span.masthead-insights__meta__tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:public sector",
+       "role": "text",
+       "text": "public sector",
+       "edsText": "public sector",
+       "byPosition": false,
+       "origin": {
+        "x": 141,
+        "y": 307,
+        "w": 69,
+        "h": 14
+       },
+       "eds": {
+        "x": 141,
+        "y": 307,
+        "w": 69,
+        "h": 14,
+        "sel": "span.masthead-insights__meta__tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:retail",
+       "role": "text",
+       "text": "retail",
+       "edsText": "retail",
+       "byPosition": false,
+       "origin": {
+        "x": 210,
+        "y": 307,
+        "w": 32,
+        "h": 14
+       },
+       "eds": {
+        "x": 210,
+        "y": 307,
+        "w": 32,
+        "h": 14,
+        "sel": "span.masthead-insights__meta__tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:commerce acceleration",
+       "role": "text",
+       "text": "commerce acceleration",
+       "edsText": "commerce acceleration",
+       "byPosition": false,
+       "origin": {
+        "x": 78,
+        "y": 323,
+        "w": 123,
+        "h": 14
+       },
+       "eds": {
+        "x": 78,
+        "y": 323,
+        "w": 123,
+        "h": 14,
+        "sel": "span.masthead-insights__meta__tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:data & ai revolution",
+       "role": "text",
+       "text": "data & ai revolution",
+       "edsText": "data & ai revolution",
+       "byPosition": false,
+       "origin": {
+        "x": 201,
+        "y": 323,
+        "w": 102,
+        "h": 14
+       },
+       "eds": {
+        "x": 201,
+        "y": 323,
+        "w": 102,
+        "h": 14,
+        "sel": "span.masthead-insights__meta__tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:enterprise transformation",
+       "role": "text",
+       "text": "enterprise transformation",
+       "edsText": "enterprise transformation",
+       "byPosition": false,
+       "origin": {
+        "x": 22,
+        "y": 338,
+        "w": 132,
+        "h": 14
+       },
+       "eds": {
+        "x": 22,
+        "y": 338,
+        "w": 132,
+        "h": 14,
+        "sel": "span.masthead-insights__meta__tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      },
+      {
+       "key": "text:experience elevation",
+       "role": "text",
+       "text": "experience elevation",
+       "edsText": "experience elevation",
+       "byPosition": false,
+       "origin": {
+        "x": 154,
+        "y": 338,
+        "w": 102,
+        "h": 14
+       },
+       "eds": {
+        "x": 154,
+        "y": 338,
+        "w": 102,
+        "h": 14,
+        "sel": "span.masthead-insights__meta__tag",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/300",
+        "eds": "11/15/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 899,
+       "w": 360,
+       "h": 374
+      },
+      "eds": {
+       "x": 0,
+       "y": 899,
+       "w": 360,
+       "h": 374
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 17,
+      "within": 17,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".filters-block__content .react-select=.filters-block__content .react-select",
+   "family": "insights-filter-select",
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.sc-kEbgWM.musOl > div.sc-iqkkDd.bZKA-dx > div.sc-qdQOe.daiWqn"
+     },
+     "eds": {
+      "path": "div.filters-block__content > div.insights-filter__selects > div.react-select"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 192,
+        "y": -61,
+        "w": 10,
+        "h": 150
+       },
+       "eds": {
+        "x": 192,
+        "y": -61,
+        "w": 10,
+        "h": 150,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": true,
+       "type": {
+        "origin": "16/20/400",
+        "eds": "16/20/400"
+       }
+      },
+      {
+       "key": "button:todas las industrias",
+       "role": "button",
+       "text": "todas las industrias",
+       "edsText": "todas las industrias",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 202,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 202,
+        "h": 26,
+        "sel": "button.react-select__button",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/400",
+        "eds": "16/20/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 1336,
+       "w": 202,
+       "h": 26
+      },
+      "eds": {
+       "x": 24,
+       "y": 1336,
+       "w": 202,
+       "h": 26
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 1,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.sc-kEbgWM.musOl > div.sc-iqkkDd.bZKA-dx > div.sc-qdQOe.daiWqn"
+     },
+     "eds": {
+      "path": "div.filters-block__content > div.insights-filter__selects > div.react-select"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 183,
+        "y": -61,
+        "w": 10,
+        "h": 150
+       },
+       "eds": {
+        "x": 183,
+        "y": -61,
+        "w": 10,
+        "h": 150,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": true,
+       "type": {
+        "origin": "16/20/400",
+        "eds": "16/20/400"
+       }
+      },
+      {
+       "key": "button:todos los servicios",
+       "role": "button",
+       "text": "todos los servicios",
+       "edsText": "todos los servicios",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 193,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 193,
+        "h": 26,
+        "sel": "button.react-select__button",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/400",
+        "eds": "16/20/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 1372,
+       "w": 193,
+       "h": 26
+      },
+      "eds": {
+       "x": 24,
+       "y": 1372,
+       "w": 193,
+       "h": 26
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 1,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.sc-kEbgWM.musOl > div.sc-iqkkDd.bZKA-dx > div.sc-qdQOe.daiWqn"
+     },
+     "eds": {
+      "path": "div.filters-block__content > div.insights-filter__selects > div.react-select"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 212,
+        "y": -61,
+        "w": 10,
+        "h": 150
+       },
+       "eds": {
+        "x": 212,
+        "y": -61,
+        "w": 10,
+        "h": 150,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": true,
+       "type": {
+        "origin": "16/20/400",
+        "eds": "16/20/400"
+       }
+      },
+      {
+       "key": "button:todas las plataformas",
+       "role": "button",
+       "text": "todas las plataformas",
+       "edsText": "todas las plataformas",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 222,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 222,
+        "h": 26,
+        "sel": "button.react-select__button",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/400",
+        "eds": "16/20/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 1407,
+       "w": 222,
+       "h": 26
+      },
+      "eds": {
+       "x": 24,
+       "y": 1407,
+       "w": 222,
+       "h": 26
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 1,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.sc-kEbgWM.musOl > div.sc-iqkkDd.bZKA-dx > div.sc-qdQOe.daiWqn"
+     },
+     "eds": {
+      "path": "div.filters-block__content > div.insights-filter__selects > div.react-select"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 200,
+        "y": -61,
+        "w": 10,
+        "h": 150
+       },
+       "eds": {
+        "x": 200,
+        "y": -61,
+        "w": 10,
+        "h": 150,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": true,
+       "type": {
+        "origin": "16/20/400",
+        "eds": "16/20/400"
+       }
+      },
+      {
+       "key": "button:todo sobre nosotros",
+       "role": "button",
+       "text": "todo sobre nosotros",
+       "edsText": "todo sobre nosotros",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 210,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 210,
+        "h": 26,
+        "sel": "button.react-select__button",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/400",
+        "eds": "16/20/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 1443,
+       "w": 210,
+       "h": 26
+      },
+      "eds": {
+       "x": 24,
+       "y": 1443,
+       "w": 210,
+       "h": 26
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 1,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 10,
+  "within": 66,
+  "off": 0,
+  "hidden": 4,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 4
+ }
+}

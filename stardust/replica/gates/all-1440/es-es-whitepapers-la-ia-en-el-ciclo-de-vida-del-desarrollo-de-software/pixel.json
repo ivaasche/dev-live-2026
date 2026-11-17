@@ -1,0 +1,66 @@
+{
+  "a": "stardust/replica/gates/all-1440/es-es-whitepapers-la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software/origin.png",
+  "b": "stardust/replica/gates/all-1440/es-es-whitepapers-la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3632,
+    "mode": "overlap"
+  },
+  "heightDelta": -68,
+  "differingPixels": 145131,
+  "pct": 2.77,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/es-es-whitepapers-la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 1.4,
+  "textBoxes": 81,
+  "textPixels": 717811,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.7
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 3
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 15.2
+    },
+    {
+      "y0": 3500,
+      "y1": 3632,
+      "pct": 3.5
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/whitepapers/la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software"
+  }
+}

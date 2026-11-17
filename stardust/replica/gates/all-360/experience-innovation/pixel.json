@@ -1,0 +1,56 @@
+{
+  "a": "stardust/replica/gates/all-360/experience-innovation/origin.png",
+  "b": "stardust/replica/gates/all-360/experience-innovation/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 2685,
+    "mode": "overlap"
+  },
+  "heightDelta": -5,
+  "differingPixels": 44485,
+  "pct": 4.6,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/experience-innovation/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 5.74,
+  "textBoxes": 68,
+  "textPixels": 182687,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 10.7
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 6.9
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 5.6
+    },
+    {
+      "y0": 2500,
+      "y1": 2685,
+      "pct": 2.1
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--c87ac39f--aemcoder.aem.page/experience-innovation"
+  }
+}

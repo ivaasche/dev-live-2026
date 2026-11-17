@@ -1,0 +1,186 @@
+/* section-nav — source section.section-nav (main.css section-nav rules, values verbatim;
+   BEM -> kebab: __container -> -container, __item__link -> -item-link, __item__icon -> -item-icon) */
+
+.section-nav {
+  background: #002fa7;
+  color: #fff;
+  margin: 0;
+  padding: 3rem 1.5rem;
+}
+
+@media (width >= 33.75rem) {
+  .section-nav {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+  }
+}
+
+@media (width >= 64rem) {
+  .section-nav {
+    margin-right: 64px;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .section-nav {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+  }
+}
+
+@media (width >= 120.001rem) {
+  .section-nav {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 84vw;
+  }
+}
+
+.section-nav .section-nav-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (width >= 33.75rem) {
+  .section-nav .section-nav-container {
+    flex-direction: row;
+    gap: 2rem;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .section-nav .section-nav-container {
+    width: 100%;
+  }
+}
+
+@media (width >= 120.001rem) {
+  .section-nav .section-nav-container {
+    padding: 0;
+  }
+}
+
+.section-nav .section-nav-title {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+  text-wrap: balance;
+  width: 100%;
+}
+
+@media (width >= 33.75rem) {
+  .section-nav .section-nav-title {
+    font-size: 1rem;
+    width: 30%;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .section-nav .section-nav-title {
+    font-size: 1.75rem;
+    width: 25%;
+  }
+}
+
+.section-nav .section-nav-list {
+  border-top: 1px solid hsl(0deg 0% 100% / 50%);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+@media (width >= 58.75rem) {
+  .section-nav .section-nav-list {
+    width: 75%;
+  }
+}
+
+.section-nav .section-nav-item {
+  border-bottom: 1px solid hsl(0deg 0% 100% / 50%);
+  margin: 0;
+}
+
+.section-nav .section-nav-item-icon {
+  fill: currentcolor;
+  height: 1rem;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: right .2s ease-in-out, color .2s ease-in-out;
+  width: 1rem;
+}
+
+@media (width >= 58.75rem) {
+  .section-nav .section-nav-item-icon {
+    height: 2.25rem;
+    width: 2.25rem;
+  }
+}
+
+.section-nav .section-nav-item-link,
+.section-nav .section-nav-item-link:any-link {
+  align-items: center;
+  background: inherit;
+  color: inherit;
+  display: flex;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 300;
+  justify-content: flex-start;
+  line-height: 1.2;
+  margin: 0;
+  padding: 1rem 2.25rem 1rem 0;
+  position: relative;
+  text-decoration: none;
+  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+}
+
+@media (width >= 58.75rem) {
+  .section-nav .section-nav-item-link,
+  .section-nav .section-nav-item-link:any-link {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    padding-right: 3.75rem;
+    padding-top: 2rem;
+  }
+}
+
+.section-nav .section-nav-item-link span {
+  display: block;
+  max-width: calc(100% - 2.625rem);
+  transition: transform .2s ease-in-out;
+  width: 100%;
+}
+
+@media (width >= 58.75rem) {
+  .section-nav .section-nav-item-link span {
+    max-width: calc(100% - 4.5rem);
+  }
+}
+
+.section-nav .section-nav-item-link:is(:focus-visible, :hover) {
+  background: #b3ff60;
+  color: #000;
+}
+
+.section-nav .section-nav-item-link:is(:focus-visible, :hover) .section-nav-item-icon {
+  color: #000;
+  right: 1rem;
+}
+
+.section-nav .section-nav-item-link:is(:focus-visible, :hover) span {
+  transform: translateX(1rem);
+}
+
+@media (width >= 58.75rem) {
+  .section-nav .section-nav-item-link:is(:focus-visible, :hover) .section-nav-item-icon {
+    right: 1.5rem;
+  }
+
+  .section-nav .section-nav-item-link:is(:focus-visible, :hover) span {
+    transform: translateX(1.5rem);
+  }
+}

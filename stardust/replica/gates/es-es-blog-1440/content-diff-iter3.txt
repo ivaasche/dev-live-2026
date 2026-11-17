@@ -1,0 +1,21 @@
+[live-session] waiting to pace live navigations to www.valtech.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 572 ms
+
+Content diff @ 1440px (profile "generic", roots: main.site-content, header, footer)
+root "main.site-content"
+  source: 140 text nodes — 13 headings, 1 eyebrows, 1 CTAs, 125 body; 13 img
+  build: 140 text nodes — 13 headings, 1 eyebrows, 1 CTAs, 125 body; 13 img
+  editable texts (outermost h*/p/ul/ol): source 28 / build 28
+  attributes (placeholder/aria-label/title): source 11 / build 11; icons: source 8 / build 8
+root "header"
+  source: 1 text nodes — 1 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 1 text nodes — 1 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root "footer"
+  source: 11 text nodes — 0 headings, 0 eyebrows, 10 CTAs, 1 body; 1 img
+  build: 11 text nodes — 0 headings, 0 eyebrows, 10 CTAs, 1 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 2
+  attributes (placeholder/aria-label/title): source 6 / build 6; icons: source 7 / build 7
+
+Findings: none — content + roles match
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 0

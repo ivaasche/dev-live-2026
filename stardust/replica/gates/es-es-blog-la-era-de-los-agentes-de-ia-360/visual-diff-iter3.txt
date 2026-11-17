@@ -1,0 +1,700 @@
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/es-es-blog-la-era-de-los-agentes-de-ia-360/vdiff-iter3/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 21515,
+  "textLen": 25272,
+  "images": [
+   {
+    "src": "tsk-9700-personal-agents--customer-relation-seo.png?width=1600&height=720&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "1600x720",
+    "rendered": "432x324",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tsk-9700-personal-agents--customer-relation-seo.png?width=880&height=640&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "880x640",
+    "rendered": "270x196",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tsk-9700-personal-agents--customer-relation-seo.png?width=440&height=230&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "440x230",
+    "rendered": "243x127",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "david-toma.jpeg?width=150&height=150&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "150x150",
+    "rendered": "100x100",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "carsten-riggelsen.jpeg?width=150&height=150&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "150x150",
+    "rendered": "100x100",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "the-agent-readines-ladder.png?width=768&height=1024&rmode=max&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "768x432",
+    "rendered": "312x176",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "blog-post-agentic-era-report-valtech-body-image.png?width=320&height=240&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "320x240",
+    "rendered": "312x234",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "badge-no-outline.png?width=442&height=128&rmode=max&rsampler=bicubic&compand=true&format=jpg",
+    "natural": "435x128",
+    "rendered": "218x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=f528848f-f56f-4924-8d54-463da011a4d8&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=754b4d4f-93e2-4791-a76f-e9ec6ddf9a45&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fes-es%2Fblog%2Fla-era-de-los-agentes-de-ia%2F&tw_engaged_ms=27&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=f528848f-f56f-4924-8d54-463da011a4d8&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=754b4d4f-93e2-4791-a76f-e9ec6ddf9a45&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fes-es%2Fblog%2Fla-era-de-los-agentes-de-ia%2F&tw_engaged_ms=27&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=2&event_id=114c84e1-bee3-42ba-b352-ebc336fb7e30&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=754b4d4f-93e2-4791-a76f-e9ec6ddf9a45&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fes-es%2Fblog%2Fla-era-de-los-agentes-de-ia%2F&tw_engaged_ms=10036&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=2&event_id=114c84e1-bee3-42ba-b352-ebc336fb7e30&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=754b4d4f-93e2-4791-a76f-e9ec6ddf9a45&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fes-es%2Fblog%2Fla-era-de-los-agentes-de-ia%2F&tw_engaged_ms=10036&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "En la era de los agentes persona",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "25px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ir a una sección",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ideas principales",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Conceptos clave",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Agente personal",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Agente de marca",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Delegación con límites definidos",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ejecutable por agentes",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Cómo están cambiando los agentes",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "¿Está tu organización preparada ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Los agentes personales transform",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "¿Seguirán siendo las aplicacione",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Cómo se convierte el contexto en",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "¿Qué significa que una marca est",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "¿Está tu organización preparada ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "¿Qué implican los agentes person",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "¿Cómo pueden las marcas generar ",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "El modelo operativo debe evoluci",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "La era de los agentes de IA",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Prepararse para los agentes pers",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Preguntas frecuentes",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "12px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Los agentes personales en una em",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "masthead-blurred__text",
+    "width": 270,
+    "left": 45
+   },
+   {
+    "sel": "rte-block__container",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "rte-block__container",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "rte-block__container",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "features-showcase__header",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "features-showcase__item__description",
+    "width": 275,
+    "left": 69
+   },
+   {
+    "sel": "features-showcase__item__description",
+    "width": 275,
+    "left": 69
+   },
+   {
+    "sel": "features-showcase__item__description",
+    "width": 275,
+    "left": 69
+   },
+   {
+    "sel": "features-showcase__item__description",
+    "width": 275,
+    "left": 69
+   },
+   {
+    "sel": "rte-block__container",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "highlighted-cta-block__details",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "rte-block__container",
+    "width": 360,
+    "left": 0
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 21515,
+  "textLen": 25272,
+  "images": [
+   {
+    "src": "tsk-9700-personal-agents--customer-relation-seo-1600x720.webp",
+    "natural": "1600x720",
+    "rendered": "432x324",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tsk-9700-personal-agents--customer-relation-seo-880x640.webp",
+    "natural": "880x640",
+    "rendered": "270x196",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tsk-9700-personal-agents--customer-relation-seo-440x230.webp",
+    "natural": "440x230",
+    "rendered": "243x127",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "david-toma-150x150.webp",
+    "natural": "150x150",
+    "rendered": "100x100",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "carsten-riggelsen-150x150.webp",
+    "natural": "150x150",
+    "rendered": "100x100",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "the-agent-readines-ladder-768x1024.webp",
+    "natural": "768x432",
+    "rendered": "312x176",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "blog-post-agentic-era-report-valtech-body-image-320x240.webp",
+    "natural": "320x240",
+    "rendered": "312x234",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "badge-no-outline.png",
+    "natural": "435x128",
+    "rendered": "218x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "En la era de los agentes persona",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "25px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ir a una sección",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ideas principales",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Conceptos clave",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Agente personal",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Agente de marca",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Delegación con límites definidos",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ejecutable por agentes",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Cómo están cambiando los agentes",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "¿Está tu organización preparada ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Los agentes personales transform",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "¿Seguirán siendo las aplicacione",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Cómo se convierte el contexto en",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "¿Qué significa que una marca est",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "¿Está tu organización preparada ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "¿Qué implican los agentes person",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "¿Cómo pueden las marcas generar ",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "El modelo operativo debe evoluci",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "La era de los agentes de IA",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Prepararse para los agentes pers",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Preguntas frecuentes",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "12px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Los agentes personales en una em",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "masthead-blurred__text",
+    "width": 270,
+    "left": 45
+   },
+   {
+    "sel": "rte-block__container",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "rte-block__container",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "rte-block__container",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "features-showcase__header",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "features-showcase__item__description",
+    "width": 275,
+    "left": 69
+   },
+   {
+    "sel": "features-showcase__item__description",
+    "width": 275,
+    "left": 69
+   },
+   {
+    "sel": "features-showcase__item__description",
+    "width": 275,
+    "left": 69
+   },
+   {
+    "sel": "features-showcase__item__description",
+    "width": 275,
+    "left": 69
+   },
+   {
+    "sel": "rte-block__container",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "highlighted-cta-block__details",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "rte-block__container",
+    "width": 360,
+    "left": 0
+   }
+  ]
+ }
+}

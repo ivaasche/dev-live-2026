@@ -1,0 +1,744 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-14T08:41:48.933Z",
+  "tol": 4,
+  "n": 6,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/es-es/la-empresa-inteligente/modelo-operativo/",
+  "at": "2026-11-14T08:41:22.474Z",
+  "docH": 8907
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/es-es/la-empresa-inteligente/modelo-operativo",
+  "at": "2026-11-14T08:41:48.741Z",
+  "docH": 8832
+ },
+ "results": [
+  {
+   "sel": ".iehub-nav__item=.hub-nav-item",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.section.iehub-nav > nav.section__container.iehub-nav__container > a.btn--white.iehub-nav__item"
+     },
+     "eds": {
+      "path": "nav.hub-nav-container > p.hub-nav-cta > a.btn-white.hub-nav-item"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 41,
+       "y": 832,
+       "w": 278,
+       "h": 56
+      },
+      "eds": {
+       "x": 41,
+       "y": 832,
+       "w": 278,
+       "h": 56
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".features-showcase__item=.features-showcase-item",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase-body > ul.features-showcase-list > li.features-showcase-item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 55,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 55,
+        "h": 48,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:planificación inteligente del trabajo",
+       "role": "heading",
+       "text": "planificación inteligente del trabajo",
+       "edsText": "planificación inteligente del trabajo",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58,
+        "sel": "h3#planificación-inteligente-del-trabajo",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/300",
+        "eds": "24/29/300"
+       }
+      },
+      {
+       "key": "text:la ia transforma la forma en que se defi",
+       "role": "text",
+       "text": "la ia transforma la forma en que se define, prioriza y coord",
+       "edsText": "la ia transforma la forma en que se define, prioriza y coord",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      },
+      {
+       "key": "text:resultado: menos carga de coordinación, ",
+       "role": "text",
+       "text": "resultado: menos carga de coordinación, ciclos de planificac",
+       "edsText": "resultado: menos carga de coordinación, ciclos de planificac",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 202,
+        "w": 275,
+        "h": 72
+       },
+       "eds": {
+        "x": 0,
+        "y": 202,
+        "w": 275,
+        "h": 72,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 69,
+       "y": 2388,
+       "w": 275,
+       "h": 274
+      },
+      "eds": {
+       "x": 69,
+       "y": 2388,
+       "w": 275,
+       "h": 274
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase-body > ul.features-showcase-list > li.features-showcase-item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:diseño y entrega conectados",
+       "role": "heading",
+       "text": "diseño y entrega conectados",
+       "edsText": "diseño y entrega conectados",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58,
+        "sel": "h3#diseño-y-entrega-conectados",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/300",
+        "eds": "24/29/300"
+       }
+      },
+      {
+       "key": "text:diseño, ingeniería y qa funcionan como u",
+       "role": "text",
+       "text": "diseño, ingeniería y qa funcionan como un único sistema.",
+       "edsText": "diseño, ingeniería y qa funcionan como un único sistema.",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      },
+      {
+       "key": "text:resultado: entregas más rápidas, mayor c",
+       "role": "text",
+       "text": "resultado: entregas más rápidas, mayor calidad y mejora cont",
+       "edsText": "resultado: entregas más rápidas, mayor calidad y mejora cont",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 202,
+        "w": 275,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 202,
+        "w": 275,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 69,
+       "y": 2699,
+       "w": 275,
+       "h": 313
+      },
+      "eds": {
+       "x": 69,
+       "y": 2699,
+       "w": 275,
+       "h": 250
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": -63
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase-body > ul.features-showcase-list > li.features-showcase-item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:gestión predictiva de despliegues",
+       "role": "heading",
+       "text": "gestión predictiva de despliegues",
+       "edsText": "gestión predictiva de despliegues",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58,
+        "sel": "h3#gestión-predictiva-de-despliegues",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/300",
+        "eds": "24/29/300"
+       }
+      },
+      {
+       "key": "text:la gestión de despliegues pasa a ser pro",
+       "role": "text",
+       "text": "la gestión de despliegues pasa a ser proactiva y basada en d",
+       "edsText": "la gestión de despliegues pasa a ser proactiva y basada en d",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      },
+      {
+       "key": "text:resultado: despliegues más rápidos y con",
+       "role": "text",
+       "text": "resultado: despliegues más rápidos y con menor riesgo.",
+       "edsText": "resultado: despliegues más rápidos y con menor riesgo.",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 202,
+        "w": 275,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 202,
+        "w": 275,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 69,
+       "y": 3048,
+       "w": 275,
+       "h": 250
+      },
+      "eds": {
+       "x": 69,
+       "y": 2985,
+       "w": 275,
+       "h": 250
+      },
+      "dx": 0,
+      "dy": -63,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase-body > ul.features-showcase-list > li.features-showcase-item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 50,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 50,
+        "h": 48,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:operaciones y soporte impulsados por ia",
+       "role": "heading",
+       "text": "operaciones y soporte impulsados por ia",
+       "edsText": "operaciones y soporte impulsados por ia",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58,
+        "sel": "h3#operaciones-y-soporte-impulsados-por-ia",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/300",
+        "eds": "24/29/300"
+       }
+      },
+      {
+       "key": "text:las operaciones pasan de ser reactivas a",
+       "role": "text",
+       "text": "las operaciones pasan de ser reactivas a proactivas.",
+       "edsText": "las operaciones pasan de ser reactivas a proactivas.",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      },
+      {
+       "key": "text:resultado: mayor disponibilidad, menor c",
+       "role": "text",
+       "text": "resultado: mayor disponibilidad, menor coste de servicio y r",
+       "edsText": "resultado: mayor disponibilidad, menor coste de servicio y r",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 202,
+        "w": 275,
+        "h": 72
+       },
+       "eds": {
+        "x": 0,
+        "y": 202,
+        "w": 275,
+        "h": 72,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 69,
+       "y": 3335,
+       "w": 275,
+       "h": 274
+      },
+      "eds": {
+       "x": 69,
+       "y": 3272,
+       "w": 275,
+       "h": 274
+      },
+      "dx": 0,
+      "dy": -63,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 5,
+  "within": 16,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

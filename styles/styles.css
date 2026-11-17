@@ -1,325 +1,1790 @@
+/* stylelint-disable no-descending-specificity -- the source cascade order is lifted verbatim;
+   reordering rules to satisfy the linter would change which declaration wins */
+
 /*
- * Copyright 2020 Adobe. All rights reserved.
- * This file is licensed to you under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License. You may obtain a copy
- * of the License at http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software distributed under
- * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
- * OF ANY KIND, either express or implied. See the License for the specific language
- * governing permissions and limitations under the License.
+ * valtech.com replica — foundation styles (C0). Lifted from the gated shared canon
+ * (stardust/prototypes/css/canon.css + canon-requests.md). Class names are the source BEM names
+ * in kebab-case (site-nav__menu__title -> site-nav-menu-title). Breakpoints are the source own:
+ * 58.75rem (940) layout, 64rem (1024) chrome, 96rem (1536) wide.
  */
 
+/* Linux metric fallback (Arial-class): a local() alias, no derived files, no tuned metrics.
+   Named without quotes in the stacks so the brand family stays the first (named) face. */
+
+@font-face {
+  font-family: LiberationFallback;
+  font-style: normal;
+  font-weight: 100 600;
+  src: local("Liberation Sans"), local("LiberationSans-Regular"), local("Arimo"), local("Arimo-Regular");
+}
+
+@font-face {
+  font-family: LiberationFallback;
+  font-style: normal;
+  font-weight: 700 900;
+  src: local("Liberation Sans Bold"), local("LiberationSans-Bold"), local("Arimo Bold"), local("Arimo-Bold");
+}
+
+@font-face {
+  font-family: LiberationFallback;
+  font-style: italic;
+  font-weight: 100 600;
+  src: local("Liberation Sans Italic"), local("LiberationSans-Italic"), local("Arimo Italic"), local("Arimo-Italic");
+}
+
+/* ---------- tokens ---------- */
+
 :root {
-  /* colors */
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  --font-sans: soehne, liberationfallback, sans-serif;
+  --font-display: valtechneue, liberationfallback, sans-serif;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-canvas: #f3f2ef; /* page background, header, side column */
+  --c-rule: #d1d3ca; /* hairlines */
+  --c-ocean: #002fa7; /* link / selection / brand blue */
+  --c-coral: #ff5959; /* nav active marker, form errors */
+  --c-lime: #b3ff60;
+  --c-cyan: #00c8ff;
+  --c-grey-text: #4c4c49;
+  --c-grey-quote: #363636;
+  --side-col: 64px; /* fixed right column >= 64rem */
+  --header-h-mobile: calc(42px + 1.5rem);
+  --container: 75.5rem; /* 1208px content cap >= 58.75rem */
+  --container-wide: 88rem; /* >= 96rem */
+  --pill: 6.25rem;
 
-  /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
-
-  /* body sizes */
-  --body-font-size-m: 22px;
-  --body-font-size-s: 19px;
-  --body-font-size-xs: 17px;
-
-  /* heading sizes */
-  --heading-font-size-xxl: 55px;
-  --heading-font-size-xl: 44px;
-  --heading-font-size-l: 34px;
-  --heading-font-size-m: 27px;
-  --heading-font-size-s: 24px;
-  --heading-font-size-xs: 22px;
-
-  /* nav height */
-  --nav-height: 64px;
+  /* EDS chrome reservation: the in-flow height of nav.site-nav (65px bar >= 64rem;
+     < 64rem everything is fixed and only the 1px bar rule is in flow) */
+  --nav-height: 1px;
 }
 
-/* fallback fonts */
-@font-face {
-  font-family: roboto-condensed-fallback;
-  size-adjust: 88.82%;
-  src: local('Arial');
-}
-
-@font-face {
-  font-family: roboto-fallback;
-  size-adjust: 99.529%;
-  src: local('Arial');
-}
-
-@media (width >= 900px) {
+@media (width >= 64rem) {
   :root {
-    /* body sizes */
-    --body-font-size-m: 18px;
-    --body-font-size-s: 16px;
-    --body-font-size-xs: 14px;
-
-    /* heading sizes */
-    --heading-font-size-xxl: 45px;
-    --heading-font-size-xl: 36px;
-    --heading-font-size-l: 28px;
-    --heading-font-size-m: 22px;
-    --heading-font-size-s: 20px;
-    --heading-font-size-xs: 18px;
+    --nav-height: 65px;
   }
 }
 
+/* ---------- base ---------- */
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  overflow: hidden scroll;
+}
+
+@media (width <= 20rem) {
+  html {
+    overflow-x: auto;
+  }
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
 body {
+  background: var(--c-canvas);
+  color: var(--c-black);
   display: none;
+  flex-direction: column;
+  height: 100%;
   margin: 0;
-  background-color: var(--background-color);
-  color: var(--text-color);
-  font-family: var(--body-font-family);
-  font-size: var(--body-font-size-m);
-  line-height: 1.6;
+  min-width: 20rem;
+  overflow-anchor: none;
+  font-family: var(--font-sans);
 }
 
 body.appear {
-  display: block;
+  display: flex;
 }
 
-header {
-  height: var(--nav-height);
+body.no-scroll {
+  position: fixed;
+  width: 100%;
 }
 
-header .header,
-footer .footer {
-  visibility: hidden;
+::selection {
+  background-color: var(--c-ocean);
+  color: #fff;
 }
 
-header .header[data-block-status="loaded"],
-footer .footer[data-block-status="loaded"] {
-  visibility: visible;
+a,
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+li a,
+p a {
+  color: inherit;
 }
+
+/* canon-request (article): source order — bare <a> is ocean, links in p/li/headings inherit */
+a {
+  text-decoration: none;
+  color: var(--c-ocean);
+}
+
+button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  font: inherit;
+  font-size: 100%;
+  line-height: 1;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+svg {
+  user-select: none;
+}
+
+use {
+  pointer-events: none;
+}
+
+.hide {
+  display: none;
+}
+
+.visually-hidden {
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+  clip-path: inset(50%);
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+/* type ramp — fluid vw values clamped by the source's own media queries */
 
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
-  font-family: var(--heading-font-family);
-  font-weight: 600;
-  line-height: 1.25;
-  scroll-margin: 40px;
-}
-
-h1 { font-size: var(--heading-font-size-xxl); }
-h2 { font-size: var(--heading-font-size-xl); }
-h3 { font-size: var(--heading-font-size-l); }
-h4 { font-size: var(--heading-font-size-m); }
-h5 { font-size: var(--heading-font-size-s); }
-h6 { font-size: var(--heading-font-size-xs); }
-
+h6,
 p,
-dl,
-ol,
-ul,
-pre,
-blockquote {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
+small {
+  margin: 0 0 1.5rem;
 }
 
-code,
-pre {
-  font-size: var(--body-font-size-s);
+h1,
+h2 {
+  font-family: var(--font-display);
+  font-weight: 300;
+  line-height: 1.2;
 }
 
-pre {
-  padding: 16px;
-  border-radius: 8px;
-  background-color: var(--light-color);
-  overflow-x: auto;
-  white-space: pre;
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  line-height: 1.2;
 }
 
-main > div {
-  margin: 40px 16px;
+a,
+p,
+small {
+  font-weight: 300;
+  line-height: 1.4;
 }
 
-input,
-textarea,
-select,
-button {
-  font: inherit;
+p {
+  font-size: 1.5vw;
 }
 
-/* links */
-a:any-link {
-  color: var(--link-color);
+@media (width <= 1066.6667px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1333.3333px) {
+  p {
+    font-size: 20px;
+  }
+}
+
+h1 {
+  font-size: 5vw;
+  line-height: 1.1;
+}
+
+@media (width <= 640px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+
+@media (width >= 1760px) {
+  h1 {
+    font-size: 88px;
+  }
+}
+
+h2 {
+  font-size: 3vw;
+}
+
+@media (width <= 933.3333px) {
+  h2 {
+    font-size: 28px;
+  }
+}
+
+@media (width >= 1600px) {
+  h2 {
+    font-size: 48px;
+  }
+}
+
+h3 {
+  font-size: 3vw;
+}
+
+@media (width <= 800px) {
+  h3 {
+    font-size: 24px;
+  }
+}
+
+@media (width >= 1200px) {
+  h3 {
+    font-size: 36px;
+  }
+}
+
+h4 {
+  font-size: 3vw;
+}
+
+@media (width <= 666.6667px) {
+  h4 {
+    font-size: 20px;
+  }
+}
+
+@media (width >= 1066.6667px) {
+  h4 {
+    font-size: 32px;
+  }
+}
+
+h5 {
+  font-size: 2vw;
+}
+
+@media (width <= 900px) {
+  h5 {
+    font-size: 18px;
+  }
+}
+
+@media (width >= 1400px) {
+  h5 {
+    font-size: 28px;
+  }
+}
+
+h6 {
+  font-size: 1.8vw;
+}
+
+@media (width <= 888.8889px) {
+  h6 {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1111.1111px) {
+  h6 {
+    font-size: 20px;
+  }
+}
+
+.lead {
+  font-size: 2vw;
+  font-style: italic;
+  font-weight: 300;
+}
+
+@media (width <= 800px) {
+  .lead {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1300px) {
+  .lead {
+    font-size: 26px;
+  }
+}
+
+/* themes */
+
+.dark-theme {
+  background-color: #000;
+  color: #fff;
+}
+
+.blue-theme {
+  background-color: var(--c-ocean);
+  color: #fff;
+}
+
+.white-theme {
+  background-color: #fff;
+  color: #000;
+}
+
+/* ---------- buttons ---------- */
+
+.button {
+  align-items: center;
+  appearance: none;
+  border: none;
+  border-radius: var(--pill);
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1.25rem;
+  font-weight: 300;
+  justify-content: center;
+  line-height: 1;
+  margin-bottom: .625rem;
+  min-width: 190px;
+  outline: none;
+  overflow: hidden;
+  padding: .9375rem 2.5rem;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button:focus-visible {
+  border: 2px solid transparent;
+  outline: 2px solid #000;
+  padding: calc(.9375rem - 2px) calc(2.5rem - 2px);
+}
+
+@media (width <= 58.749rem) {
+  .button {
+    font-size: 1.125rem !important;
+    line-height: 150%;
+    max-width: 100%;
+    padding: 1rem 2.5rem !important;
+    white-space: normal;
+  }
+}
+
+.button-primary {
+  background-color: #fff;
+  color: var(--c-ocean);
+}
+
+.button-secondary {
+  background-color: var(--c-ocean);
+  border: 2px solid var(--c-ocean);
+  color: #fff;
+}
+
+.button-tertiary {
+  background-color: var(--c-canvas);
+  box-shadow: inset 0 0 0 2px var(--c-ocean);
+  color: var(--c-ocean);
+}
+
+/* canon-request (campaign/offering): hollow ocean pill (main.css @525189–525588) */
+.button-primary-hollow {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px var(--c-ocean);
+  color: var(--c-ocean);
+}
+
+/* EDS authored CTAs (decorateButtons): **link** = .button.primary -> the source's rich-text
+   hollow pill; _link_ = .button.secondary -> ocean pill; **_link_** = .button.accent -> tertiary */
+.button.primary {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px var(--c-ocean);
+  color: var(--c-ocean);
+}
+
+.button.secondary {
+  background-color: var(--c-ocean);
+  border: 2px solid var(--c-ocean);
+  color: #fff;
+}
+
+.button.accent {
+  background-color: var(--c-canvas);
+  box-shadow: inset 0 0 0 2px var(--c-ocean);
+  color: var(--c-ocean);
+}
+
+/* canon-request (campaign/offering): hover-wipe spans (main.css @528202–528511); the spans are
+   added by decorateButtonWipes() in scripts.js; the source animates them on hover */
+.button .after,
+.button .before {
+  box-sizing: border-box;
+  left: -.0625rem;
+  padding: inherit;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: calc(100% + 2px);
+}
+
+.button .before {
+  border-radius: 6.25rem;
+  clip-path: inset(0 100% 0 0);
+  text-align: center;
+  transition: clip-path .4s cubic-bezier(.19, 1, .22, 1);
+  z-index: 2;
+}
+
+.button .before::before {
+  content: attr(data-label);
+}
+
+.button .after {
+  height: 100%;
+  transform: translateX(-100%);
+  transition: transform .4s cubic-bezier(.19, 1, .22, 1);
+}
+
+.button-tertiary .before,
+.button-primary-hollow .before,
+.button.primary .before,
+.button.accent .before {
+  color: #fff;
+}
+
+.button-tertiary .after,
+.button-primary-hollow .after,
+.button.primary .after,
+.button.accent .after {
+  background-color: var(--c-ocean);
+  border: inherit;
+}
+
+@media (hover: hover) {
+  .button:hover .before {
+    clip-path: inset(0);
+  }
+
+  .button:hover .after {
+    transform: translateX(0);
+  }
+}
+
+.side-button .button .after,
+.side-button .button .before {
+  display: none;
+}
+
+/* Experience Workspace edit mode: repaint CTAs from their authored marks (zero cost when
+   published — .prosemirror-editor only exists inside the da.live editor) */
+.prosemirror-editor p > :is(strong, em) > a:any-link,
+.prosemirror-editor p > a:any-link:has(> :is(strong, em):only-child) {
+  align-items: center;
+  border-radius: var(--pill);
+  display: inline-flex;
+  font-size: 1.25rem;
+  font-weight: 300;
+  justify-content: center;
+  line-height: 1;
+  min-width: 190px;
+  padding: .9375rem 2.5rem;
+  white-space: nowrap;
+}
+
+.prosemirror-editor p > a:any-link > :is(strong, em) {
+  font-weight: inherit;
+  font-style: inherit;
+}
+
+.prosemirror-editor p > strong > a:any-link,
+.prosemirror-editor p > a:any-link:has(> strong:only-child) {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px var(--c-ocean);
+  color: var(--c-ocean);
+}
+
+.prosemirror-editor p > em > a:any-link,
+.prosemirror-editor p > a:any-link:has(> em:only-child) {
+  background-color: var(--c-ocean);
+  color: #fff;
+}
+
+a .prosemirror-editor a:any-link {
+  color: inherit;
   text-decoration: none;
-  overflow-wrap: break-word;
 }
 
-a:hover {
-  color: var(--link-hover-color);
+.btn-black,
+.btn-white,
+.btn-ocean {
+  align-items: center;
+  border-radius: var(--pill);
+  display: inline-flex;
+  font-size: 1.125rem;
+  font-weight: 400;
+  justify-content: center;
+  line-height: 1.15;
+  min-width: 7.5rem;
+  overflow: hidden;
+  padding: .75rem 1.5rem;
+  position: relative;
+  text-align: center;
+  transition: background-color .2s ease;
+}
+
+.btn-black {
+  background-color: #000;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn-black:hover,
+.btn-black:focus-visible {
+  background-color: #fff;
+  border: 2px solid #000;
+  color: #000;
+}
+
+.btn-white {
+  background-color: #fff;
+  border: 2px solid #000;
+  color: #000;
+}
+
+.btn-white:hover,
+.btn-white:focus-visible {
+  background-color: #000;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn-ocean {
+  background-color: #fff;
+  border: 2px solid var(--c-ocean);
+  color: var(--c-ocean);
+}
+
+.btn-ocean:hover,
+.btn-ocean:focus-visible {
+  background-color: var(--c-ocean);
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+@media (hover: none) {
+  .btn-black:hover {
+    background-color: #000;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+
+  .btn-white:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+  }
+
+  .btn-ocean:hover {
+    background-color: #fff;
+    border: 2px solid var(--c-ocean);
+    color: var(--c-ocean);
+  }
+}
+
+/* ---------- skip link ---------- */
+
+.skip-link {
+  background-color: #000;
+  color: #fff;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 400;
+  height: 1px;
+  left: -999px;
+  line-height: 1.0625rem;
+  padding-left: calc(8vw - 5px);
+  padding-right: .5rem;
+  position: absolute;
+  text-decoration-line: underline;
+  width: 1px;
+}
+
+.skip-link:focus,
+.skip-link:focus-visible {
+  display: inline-block;
+  height: auto;
+  margin: auto;
+  outline: none;
+  padding-bottom: .7188rem;
+  padding-top: .7188rem;
+  position: static;
+  width: 100%;
+}
+
+@media (width <= 63.999rem) {
+  .skip-link {
+    padding-left: 1.5rem;
+  }
+}
+
+/* ---------- content root ---------- */
+
+main {
+  display: block;
+  flex: 1 0 auto;
+}
+
+main:focus {
+  outline: none;
+}
+
+@media (width <= 63.999rem) {
+  main {
+    padding-top: var(--header-h-mobile);
+  }
+}
+
+@media (width >= 58.75rem) {
+  main {
+    min-height: calc(6vh + 150px);
+  }
+}
+
+/* mobile header bar (the fixed strip behind the logo + icons) */
+
+main::before {
+  background-color: var(--c-canvas);
+  border-bottom: 1px solid var(--c-rule);
+  content: "";
+  height: var(--header-h-mobile);
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 800;
+}
+
+@media (width >= 64rem) {
+  main::before {
+    display: none;
+  }
+}
+
+/* ---------- EDS chrome reservation (boilerplate structural layer, scoped to the chrome hosts) ---------- */
+
+body > header {
+  height: var(--nav-height);
+}
+
+body > header .header,
+body > footer .footer {
+  visibility: hidden;
+}
+
+body > header .header[data-block-status="loaded"],
+body > footer .footer[data-block-status="loaded"] {
+  visibility: visible;
+}
+
+/* the page-metadata block leaves its section empty */
+main .section:empty {
+  display: none;
+}
+
+/* EDS media pipeline emits <img width height>; keep the intrinsic ratio under any width cap */
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+/* ---------- breadcrumbs (canon-request: listing + breadcrumbs, main.css @305069–306792) ---------- */
+
+.site-breadcrumbs {
+  padding-bottom: 1.5rem;
+  padding-top: .5rem;
+  position: relative;
+  z-index: 2;
+}
+
+@media (width >= 58.75rem) {
+  .site-breadcrumbs {
+    padding-bottom: 2.5rem;
+    padding-top: 1.5rem;
+  }
+}
+
+.site-breadcrumbs-container {
+  padding: 0 1.5rem;
+}
+
+@media (width >= 64rem) {
+  .site-breadcrumbs-container {
+    margin-right: 64px;
+  }
+}
+
+@media (width >= 120.001rem) {
+  .site-breadcrumbs-container {
+    margin: 0 auto;
+    max-width: 84vw;
+    padding: 0;
+  }
+}
+
+.site-breadcrumbs-list {
+  text-transform: lowercase;
+}
+
+.site-breadcrumbs-list ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.site-breadcrumbs-list-item {
+  font-size: 1rem;
+}
+
+.site-breadcrumbs-list-item a {
+  color: var(--c-ocean);
   text-decoration: underline;
 }
 
-/* buttons */
-p.button-wrapper {
-  margin: 12px 0;
+.site-breadcrumbs-list-item a:hover {
+  text-decoration: none;
 }
 
-a.button:any-link,
-button.button {
-  box-sizing: border-box;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 100%;
-  margin: 0;
-  border: 2px solid transparent;
-  border-radius: 2.4em;
-  padding: 0.5em 1.2em;
-  font: inherit;
-  font-weight: 500;
-  line-height: 1.25;
-  text-decoration: none;
+.site-breadcrumbs-list-item a:focus-visible {
+  background-color: #000;
+  color: #fff;
+  outline: none;
+  padding: .1875rem 0;
+  text-decoration-thickness: .125rem;
+}
+
+/* separator: nbsp + slash (main.css @306548) */
+.site-breadcrumbs-list-item:not(:first-child)::before {
+  content: "\00a0/";
+}
+
+/* ---------- carousel controls (shared by every slider block) ---------- */
+
+.carousel-btn {
+  background: #fff;
+  border: none;
+  border-radius: 0;
+  color: #333;
   cursor: pointer;
-  overflow: hidden;
+  display: block;
+  height: 2.5rem;
+  padding: 0;
+  position: absolute;
+  width: 2.5rem;
+  z-index: 1;
+}
+
+.carousel-btn:hover {
+  background: var(--c-rule);
+}
+
+.carousel-btn:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.carousel-btn:focus-visible {
+  box-shadow: 0 0 0 2px #000;
+}
+
+.carousel-btn::before {
+  background-color: #000;
+  content: "";
+  display: block;
+  height: 1.375rem;
+  margin: 0 auto;
+  position: relative;
+  width: 1.75rem;
+  mask: url("../icons/arrow-strict-left.svg") 50% 50% / 100% no-repeat;
+  transform: rotate(180deg);
+}
+
+.carousel-btn-prev::before {
+  transform: rotate(0deg);
+}
+
+.carousel-btn-long::before {
+  mask-image: url("../icons/arrow-link-long.svg");
+  transform: rotate(0deg);
+}
+
+.carousel-btn-long.carousel-btn-prev::before {
+  transform: rotate(180deg);
+}
+
+.carousel-dots {
+  line-height: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  text-align: left;
+  z-index: 1;
+}
+
+.carousel-dots li {
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* =====================================================================
+   CONTACT BAND — div.contact-us-form (black, title + intro + Marketo form)
+   ≥ 58.75rem: two columns; < 58.75rem: collapsed accordion button.
+   ===================================================================== */
+
+.contact-us-form {
+  background-color: #000;
+  color: #fff;
+}
+
+@media (width >= 64rem) {
+  .contact-us-form {
+    margin-right: var(--side-col);
+  }
+}
+
+@media (width >= 96rem) {
+  .contact-us-form {
+    margin-right: 0;
+  }
+}
+
+.contact-us-form-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (width >= 58.75rem) {
+  .contact-us-form-container {
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--container);
+    padding-top: 5.25rem;
+  }
+
+  .contact-us-form-column {
+    width: 50%;
+  }
+}
+
+@media (width >= 96rem) {
+  .contact-us-form-container {
+    margin: 0 auto;
+    max-width: var(--container-wide);
+  }
+}
+
+.contact-us-form-accordion-button,
+.contact-us-form-title {
+  font-family: var(--font-display);
+  font-size: 3vw;
+  font-weight: 300;
+}
+
+@media (width <= 933.3333px) {
+  .contact-us-form-accordion-button,
+  .contact-us-form-title {
+    font-size: 28px;
+  }
+}
+
+.contact-us-form-title {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin: .75rem 0 2.5rem;
+}
+
+.contact-us-form-title:focus {
+  outline: none;
+}
+
+.contact-us-form-accordion-button {
+  align-items: center;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -1rem;
+  padding: 1.875rem 1rem;
+  position: relative;
+  width: calc(100% + 2rem);
+}
+
+.contact-us-form-accordion-button svg {
+  fill: #fff;
+  height: 8px;
+  position: absolute;
+  right: 1.375rem;
+  top: 2.625rem;
+  transform-origin: 50%;
+  transition: transform .3s ease;
+  width: 12px;
+}
+
+@media (width >= 33.75rem) {
+  .contact-us-form-content {
+    padding: 0 5rem 0 0;
+  }
+}
+
+.contact-us-form-content p {
+  font-size: 1rem;
+}
+
+.contact-us-form-content a {
+  text-decoration: none;
+}
+
+@media (width <= 58.749rem) {
+  .contact-us-form-title {
+    display: none;
+  }
+
+  .contact-us-form-content p {
+    margin-bottom: 1rem;
+  }
+
+  .contact-us-form-accordion-column,
+  .contact-us-form-content {
+    display: none;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+  }
+
+  .contact-us-form .active .contact-us-form-accordion-button {
+    border-bottom-color: transparent;
+    padding-bottom: 1rem;
+  }
+
+  .contact-us-form .active .contact-us-form-accordion-button svg {
+    transform: rotate(-180deg);
+  }
+
+  .contact-us-form .active .contact-us-form-accordion-column,
+  .contact-us-form .active .contact-us-form-content {
+    display: block;
+    max-height: none;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .contact-us-form-accordion-button {
+    display: none;
+  }
+
+  .contact-us-form-content p {
+    font-size: 1.5rem;
+  }
+}
+
+/* Marketo form, as rendered on the contact band */
+
+.marketo-form-block {
+  font-size: 1vw;
+  margin-bottom: 1.25rem;
+}
+
+@media (width <= 1600px) {
+  .marketo-form-block {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .marketo-form-block {
+    margin-bottom: 5rem;
+  }
+}
+
+.marketo-form-block-container {
+  position: relative;
+}
+
+.marketo-form-block-container a {
+  text-decoration: underline;
+}
+
+.marketo-form-block-container a:hover {
+  text-decoration: none;
+}
+
+.contact-us-form .marketo-form-block-container {
+  padding: 0;
+  width: 100%;
+}
+
+.contact-us-form .marketo-form-block-container a {
+  color: inherit;
+}
+
+@media (width >= 58.75rem) {
+  .contact-us-form .marketo-form-block {
+    font-size: 1.25rem;
+    margin-bottom: 3.1875rem;
+    margin-top: -.9375rem;
+  }
+}
+
+@media (width <= 58.749rem) {
+  .contact-us-form .marketo-form-block {
+    margin-bottom: 0;
+    padding: 1.25rem 0 .5625rem;
+  }
+}
+
+.mkto-form {
+  text-align: left;
+  position: relative;
+}
+
+.mkto-form * {
+  font-family: inherit;
+}
+
+.mkto-form-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 -1.25rem;
+}
+
+.mkto-form-col {
+  flex: 1 1 auto;
+  margin-top: 1.25rem;
+  padding: 0 1.25rem;
+  position: relative;
+}
+
+@media (width >= 58.75rem) {
+  .mkto-form-row {
+    flex-direction: row;
+  }
+
+  .mkto-form-col {
+    margin-top: 1.875rem;
+    min-width: 50%;
+  }
+}
+
+@media (width <= 58.749rem) {
+  .mkto-form-col {
+    margin-top: 1.875rem;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .contact-us-form .mkto-form-col {
+    margin-top: 2.0625rem;
+  }
+
+  .contact-us-form .mkto-form-col-single {
+    margin-top: 3.0625rem;
+  }
+
+  .contact-us-form .mkto-form-row-check + .mkto-form-row .mkto-form-col-single {
+    margin-top: 1rem;
+  }
+}
+
+.contact-us-form .mkto-form-row-empty .mkto-form-col-single {
+  margin-top: 0;
+}
+
+.mkto-form-field {
+  position: relative;
+}
+
+.mkto-form-field-float label {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 300;
+  left: 0;
+  line-height: 1;
+  pointer-events: none;
+  position: absolute;
+  top: 1.875rem;
+  transform: translateY(-100%);
+  transition: all .2s ease;
+}
+
+@media (width >= 58.75rem) {
+  .mkto-form-field-float label,
+  .mkto-form select {
+    font-size: 1.25rem;
+  }
+}
+
+.mkto-form-field-float input:focus ~ label,
+.mkto-form-field-float input:not(:placeholder-shown) ~ label,
+.mkto-form-field-float select:focus ~ label,
+.mkto-form-field-float select.has-value ~ label {
+  font-size: 1rem;
+  top: .4375rem;
+}
+
+.mkto-form input,
+.mkto-form select,
+.mkto-form textarea {
+  appearance: none;
+  background: transparent;
+  border: solid #fff;
+  border-width: 0 0 1px;
+  border-radius: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin: 0;
+  text-transform: none;
+  vertical-align: top;
+  width: 100%;
+  transition: border .2s ease, padding .2s ease;
+}
+
+.mkto-form input {
+  display: inline-block;
+  height: 38px;
+  line-height: 1.2em;
+  padding: .375rem 0;
+}
+
+.mkto-form input:focus,
+.mkto-form input:hover,
+.mkto-form select:focus,
+.mkto-form select:hover {
+  border-bottom-width: 2px;
+  outline: none;
+}
+
+.mkto-form select {
+  display: inline-block;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  padding: 0;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-a.button[aria-disabled="true"],
-button.button:disabled {
-  cursor: not-allowed;
+.mkto-form select option {
+  color: #000;
+  text-transform: none;
+}
+
+.mkto-form select ~ label {
+  background-color: #000;
+}
+
+.mkto-form-field-select::after {
+  border: .375rem solid transparent;
+  border-left-color: #fff;
+  content: "";
+  height: .4375rem;
   pointer-events: none;
+  position: absolute;
+  right: .3125rem;
+  top: 1.125rem;
+  transform: rotate(90deg);
+  transform-origin: 50% 50%;
+  width: .4375rem;
+  box-sizing: content-box;
+  border-right: 0;
+  border-top-width: .375rem;
 }
 
-a.button.primary,
-button.button.primary {
-  border-color: var(--text-color);
-  background-color: var(--text-color);
-  color: var(--background-color);
+.mkto-form-textlabel {
+  color: var(--c-rule);
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 2;
+  padding-bottom: .625rem;
 }
 
-a.button.primary:hover,
-a.button.primary:focus-visible,
-button.button.primary:hover,
-button.button.primary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--dark-color);
-  color: var(--light-color);
-}
-
-a.button.primary[aria-disabled="true"],
-a.button.primary[aria-disabled="true"]:hover,
-a.button.primary[aria-disabled="true"]:focus-visible,
-button.button.primary:disabled,
-button.button.primary:disabled:hover,
-button.button.primary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-a.button.secondary,
-button.button.secondary {
-  border-color: var(--text-color);
-  background-color: transparent;
-  color: var(--text-color);
-}
-
-a.button.secondary:hover,
-a.button.secondary:focus-visible,
-button.button.secondary:hover,
-button.button.secondary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-a.button.secondary[aria-disabled="true"],
-a.button.secondary[aria-disabled="true"]:hover,
-a.button.secondary[aria-disabled="true"]:focus-visible,
-button.button.secondary:disabled,
-button.button.secondary:disabled:hover,
-button.button.secondary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-/* high-impact call-to-action */
-a.button.accent,
-button.button.accent {
-  border-color: var(--link-color);
-  background-color: var(--link-color);
-  color: var(--background-color);
-}
-
-a.button.accent:hover,
-a.button.accent:focus-visible,
-button.button.accent:hover,
-button.button.accent:focus-visible {
-  border-color: var(--link-hover-color);
-  background-color: var(--link-hover-color);
-}
-
-a.button.accent[aria-disabled="true"],
-a.button.accent[aria-disabled="true"]:hover,
-a.button.accent[aria-disabled="true"]:focus-visible,
-button.button.accent:disabled,
-button.button.accent:disabled:hover,
-button.button.accent:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-main img {
-  max-width: 100%;
-  width: auto;
-  height: auto;
-}
-
-.icon {
+.mkto-form textarea {
+  border-width: 1px;
   display: inline-block;
-  height: 24px;
-  width: 24px;
+  vertical-align: baseline;
+  height: 180px;
+  line-height: 1.2em;
+  overflow: auto;
+  padding: 10px;
+  resize: none;
 }
 
-.icon img {
-  height: 100%;
-  width: 100%;
+.mkto-form textarea::placeholder {
+  font-size: 0;
 }
 
-/* sections */
-main > .section {
-  margin: 40px 0;
+.mkto-form textarea:focus,
+.mkto-form textarea:hover {
+  border-width: 2px;
+  padding: .5625rem;
+  outline: none;
 }
 
-main > .section > div {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 24px;
+.mkto-form-check {
+  display: block;
+  padding-left: 26px;
+  position: relative;
 }
 
-main > .section:first-of-type {
-  margin-top: 0;
+.contact-us-form .required-control-mark {
+  display: none;
 }
 
-@media (width >= 900px) {
-  main > .section > div {
-    padding: 0 32px;
+.mkto-form-check label {
+  cursor: pointer;
+  display: block;
+  font-weight: 300;
+  position: relative;
+  user-select: none;
+}
+
+.mkto-form-check input {
+  height: 1em;
+  opacity: 0;
+  position: absolute;
+  width: 1em;
+  z-index: -1;
+  left: -25px;
+  top: .1875rem;
+}
+
+.mkto-form-check .indicator {
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  height: 18px;
+  left: -25px;
+  position: absolute;
+  top: .1875rem;
+  transition: all .4s ease-out;
+  width: 18px;
+}
+
+.mkto-form-check .indicator::after {
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  content: "";
+  display: none;
+  height: 10px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -55%) rotate(45deg);
+  width: 4px;
+}
+
+.mkto-form-check input:checked ~ .indicator::after {
+  display: block;
+}
+
+.mkto-form-check input:focus-visible ~ .indicator {
+  outline: 1px solid #fff;
+}
+
+.mkto-form-html {
+  font-weight: 300;
+}
+
+.mkto-form-buttons {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1.875rem;
+}
+
+/* ---------- in-main Marketo form, light (canon-request: campaign, main.css @253073–260382) ----------
+   the dark contact band keeps the rules above; these apply to forms outside .contact-us-form */
+@media (width >= 1800px) {
+  .marketo-form-block:not(.contact-us-form *) {
+    font-size: 18px;
   }
 }
 
-/* section metadata */
-main .section.light,
-main .section.highlight {
-  background-color: var(--light-color);
-  margin: 0;
-  padding: 40px 0;
+@media (width <= 58.749rem) {
+  .marketo-form-block:not(.contact-us-form *) .marketo-form-block-container {
+    padding: 0 6vw;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .marketo-form-block:not(.contact-us-form *) .marketo-form-block-container {
+    margin: 0 auto;
+    width: 84vw;
+  }
+
+  .marketo-form-block:not(.contact-us-form *) .marketo-form-block-container.narrow {
+    width: 50.625rem;
+  }
+}
+
+.marketo-form-block:not(.contact-us-form *) .marketo-form-block-container a {
+  color: var(--c-ocean);
+}
+
+.marketo-form-block:not(.contact-us-form *) .mkto-form {
+  color: #000;
+  font-size: inherit;
+}
+
+.marketo-form-block:not(.contact-us-form *) .mkto-form-col {
+  margin-top: 1.875rem;
+}
+
+.marketo-form-block:not(.contact-us-form *) .required-control-mark {
+  color: #ff5959;
+  font-size: .875rem;
+}
+
+.marketo-form-block:not(.contact-us-form *) .mkto-form-html {
+  font-weight: 400;
+}
+
+.marketo-form-block:not(.contact-us-form *) .mkto-form-field-float label {
+  color: #000;
+  font-size: inherit;
+  font-weight: 400;
+  top: 27px;
+}
+
+.marketo-form-block:not(.contact-us-form *) .mkto-form-field-float input:focus ~ label,
+.marketo-form-block:not(.contact-us-form *) .mkto-form-field-float input:not(:placeholder-shown) ~ label,
+.marketo-form-block:not(.contact-us-form *) .mkto-form-field-float select:focus ~ label,
+.marketo-form-block:not(.contact-us-form *) .mkto-form-field-float select.has-value ~ label {
+  font-size: 1rem;
+  top: .4375rem;
+}
+
+.marketo-form-block:not(.contact-us-form *) .mkto-form input,
+.marketo-form-block:not(.contact-us-form *) .mkto-form select,
+.marketo-form-block:not(.contact-us-form *) .mkto-form textarea {
+  border-color: rgb(118 118 118);
+  border-style: inset;
+  color: #000;
+  font-size: inherit;
+  font-weight: 500;
+}
+
+.marketo-form-block:not(.contact-us-form *) .mkto-form select {
+  line-height: normal;
+  padding: 6px 0;
+}
+
+.marketo-form-block:not(.contact-us-form *) .mkto-form select ~ label {
+  background-color: transparent;
+}
+
+.marketo-form-block:not(.contact-us-form *) .mkto-form-field-select::after {
+  border: 0;
+  border-left: .125rem solid #000;
+  border-top: .125rem solid #000;
+  box-sizing: content-box;
+  height: .4375rem;
+  right: .3125rem;
+  top: .8125rem;
+  transform: rotate(-135deg);
+  width: .4375rem;
+}
+
+.marketo-form-block:not(.contact-us-form *) .mkto-form-textlabel {
+  color: #000;
+  font-size: inherit;
+  font-weight: 400;
+  line-height: 2;
+}
+
+.marketo-form-block:not(.contact-us-form *) .mkto-form textarea {
+  border: 1px solid #000;
+}
+
+.marketo-form-block:not(.contact-us-form *) .mkto-form textarea:focus,
+.marketo-form-block:not(.contact-us-form *) .mkto-form textarea:hover {
+  border-width: 1px;
+  box-shadow: inset -1px -1px #000, inset 1px 1px #000;
+  padding: 10px;
+}
+
+.marketo-form-block:not(.contact-us-form *) .mkto-form-check label {
+  font-weight: 400;
+}
+
+.marketo-form-block:not(.contact-us-form *) .mkto-form-check .indicator {
+  border-color: #000;
+}
+
+.marketo-form-block:not(.contact-us-form *) .mkto-form-check .indicator::after {
+  border-color: #666;
+}
+
+.marketo-form-block:not(.contact-us-form *) .mkto-form-check input:checked ~ .indicator {
+  border-color: #363636;
+}
+
+.marketo-form-block:not(.contact-us-form *) .mkto-form-buttons {
+  justify-content: center;
+}
+
+/* hidden twin of each carousel control (the source slider library keeps its
+   default prev/next buttons in the DOM, display:none) */
+
+.carousel-native {
+  display: none;
+}
+
+/* ---------- rte-block (default-content section, section-metadata style `rte-block`) ----------
+   .rte-block__container.text-content -> .section.rte-block > .default-content-wrapper */
+
+main .section.rte-block:not(:has(~ .section.rte-block)) {
+  margin-bottom: 2.5rem;
+}
+
+@media (width >= 58.75rem) {
+  main .section.rte-block:not(:has(~ .section.rte-block)) {
+    margin-bottom: 5rem;
+  }
+}
+
+@media (width <= 58.749rem) {
+  main .section.rte-block > .default-content-wrapper {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (width >= 58.75rem) {
+  main .section.rte-block > .default-content-wrapper {
+    margin: 0 auto;
+    max-width: 50.625rem;
+  }
+}
+
+main .section.rte-block > .default-content-wrapper:last-child p:last-child {
+  margin-bottom: 0;
+}
+
+main .section.rte-block :is(ol, p, ul) {
+  font-size: 1.5vw;
+  max-width: 38em;
+}
+
+@media (width <= 1066.6667px) {
+  main .section.rte-block :is(ol, p, ul) {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1333.3333px) {
+  main .section.rte-block :is(ol, p, ul) {
+    font-size: 20px;
+  }
+}
+
+/* text-content (rich text) */
+main .section.rte-block h2 {
+  margin-bottom: 1rem;
+}
+
+@media (width >= 58.75rem) {
+  main .section.rte-block h2 {
+    margin-bottom: 2rem;
+  }
+}
+
+main .section.rte-block :is(h6, p) {
+  margin-bottom: .8em;
+}
+
+main .section.rte-block :is(ol, p, ul) + h2 {
+  margin-top: 3.75rem;
+}
+
+main .section.rte-block li {
+  font-size: 1.5vw;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+@media (width <= 1066.6667px) {
+  main .section.rte-block li {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1333.3333px) {
+  main .section.rte-block li {
+    font-size: 20px;
+  }
+}
+
+main .section.rte-block a:not(.button) {
+  text-decoration: underline;
+}
+
+main .section.rte-block a:not(.button):hover {
+  text-decoration: none;
+}
+
+main .section.rte-block :is(ol, ul) {
+  line-height: 1.4;
+  margin: 0 0 .8em;
+  padding-left: 1.25rem;
+}
+
+main .section.rte-block :is(ol, ul) li + li {
+  margin-top: .8rem;
+}
+
+main .section.rte-block h4 {
+  margin-bottom: .4em;
+}
+
+main .section.rte-block :is(ol, p, ul) + h4 {
+  margin-top: 3.75rem;
+}
+
+/* ---------- rte-block section modifiers + remaining text-content rules (lifted at C-final from the
+   interim block copies: masthead-blurred, masthead-big-title, masthead-two-columns-cta,
+   masthead-primary, offering-masthead, hub-nav, success-stories, expandable-block, offering-list;
+   source main.css .text-content / section utilities, prototypes/css/article.css) ---------- */
+
+/* section-metadata style words base-top-indent / base-bottom-indent (source section utilities) */
+main .section.base-top-indent {
+  margin-top: 2.5rem;
+}
+
+main .section.base-bottom-indent {
+  margin-bottom: 2.5rem;
+}
+
+@media (width >= 58.75rem) {
+  main .section.base-top-indent {
+    margin-top: 5rem;
+  }
+
+  main .section.base-bottom-indent {
+    margin-bottom: 5rem;
+  }
+}
+
+/* text-content h3 / h5 / small (main.css .text-content h3 margin-bottom 1rem / 2rem @58.75rem,
+   h5 .5em, @33453 `:is(ol, p, ul) + :is(h3, h5, h6)` 3.75rem, small 1rem) */
+main .section.rte-block h3 {
+  margin-bottom: 1rem;
+}
+
+@media (width >= 58.75rem) {
+  main .section.rte-block h3 {
+    margin-bottom: 2rem;
+  }
+}
+
+main .section.rte-block h5 {
+  margin-bottom: .5em;
+}
+
+main .section.rte-block :is(ol, p, ul) + :is(h3, h5, h6) {
+  margin-top: 3.75rem;
+}
+
+main .section.rte-block small {
+  font-size: 1rem;
+}
+
+/* text-content img (main.css @34116–34214: margin 1.25rem 0 3.75rem, < 58.75rem float none +
+   margin-bottom 1.25rem) — inside an rte-block the later `.rte-block img { margin-bottom: 0 }`
+   (@346418, same specificity) wins at every width: 1.25rem above, nothing below */
+main .section.rte-block img {
+  height: auto;
+  margin: 1.25rem 0 0;
+  max-width: 100%;
+}
+
+@media (width <= 58.75rem) {
+  main .section.rte-block img {
+    float: none !important;
+  }
+}
+
+/* `intro` modifier: the source intro rte-block has no .text-content — paragraphs keep the
+   canon margin and run the full 50.625rem column (no 38em measure) */
+main .section.rte-block.intro :is(ol, p, ul) {
+  margin-bottom: 1.5rem;
+  max-width: none;
+}
+
+main .section.rte-block.intro small {
+  font-size: inherit;
+}
+
+main .section.rte-block.intro > .default-content-wrapper:last-child p:last-child {
+  margin-bottom: 1.5rem;
+}
+
+/* `cta-center` modifier: the source closing CTA paragraph carries text-align: center */
+main .section.rte-block.cta-center .button-wrapper {
+  text-align: center;
+}
+
+/* `heading-center` modifier: centred rich-text heading (source `<h3 style="text-align: center;">`) */
+main .section.rte-block.heading-center :is(h1, h2, h3, h4, h5, h6) {
+  text-align: center;
+}
+
+/* `image-center` modifier: an editor-sized rte image with inline display: block; margin: 0 auto */
+main .section.rte-block.image-center p > a:has(> picture) {
+  display: block;
+}
+
+main .section.rte-block.image-center p picture img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* `secondary-hollow` modifier: the source `.button--secondary.button--primary-hollow` pair — the
+   hollow pill (**link** = .button.primary) plus .button--secondary's 2px solid ocean border
+   (main.css @524352 + @525189); the extra border width makes the label wrap at 360 as on the source */
+main .section.rte-block.secondary-hollow .button.primary {
+  border: 2px solid var(--c-ocean);
+}
+
+/* global blockquote rules (main.css @32052–32819) */
+main .section.rte-block blockquote {
+  border-right: 2px solid #002fa7;
+  color: #363636;
+  display: inline-block;
+  flex-direction: column;
+  font-size: 2vw;
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: -.0625rem;
+  line-height: 1.4;
+  margin: 5rem 0;
+  padding: 0 1.875rem;
+  position: relative;
+  quotes: "“" "„" "‘" "‚";
+  text-align: right;
+  white-space: pre-line;
+}
+
+@media (width <= 800px) {
+  main .section.rte-block blockquote {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1500px) {
+  main .section.rte-block blockquote {
+    font-size: 30px;
+  }
+}
+
+main .section.rte-block blockquote::before {
+  content: open-quote;
+  left: 3.375rem;
+  top: -3.125rem;
+}
+
+main .section.rte-block blockquote::after {
+  bottom: -3.125rem;
+  content: close-quote;
+  right: 1.875rem;
+}
+
+main .section.rte-block blockquote::after,
+main .section.rte-block blockquote::before {
+  color: #002fa7;
+  font-size: 6.25rem;
+  font-size: 5vw;
+  font-weight: 700;
+  line-height: 1;
+  position: absolute;
+}
+
+@media (width <= 1000px) {
+  main .section.rte-block blockquote::after,
+  main .section.rte-block blockquote::before {
+    font-size: 50px;
+  }
+}
+
+@media (width >= 2000px) {
+  main .section.rte-block blockquote::after,
+  main .section.rte-block blockquote::before {
+    font-size: 100px;
+  }
+}
+
+/* global table rules (main.css @34479–34685): the table box and the cell box. The source's grid
+   (td/th 1px #ccc rules, striped even rows) is not lifted — every raw rich-text table in this
+   content carries inline `border: none` / `border-right: 0` on the source; the bordered grid
+   stays with the table block (blocks/table), its only user */
+main table {
+  border: none;
+  border-collapse: collapse;
+  font-size: 1.5vw;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+@media (width <= 933.3333px) {
+  main table {
+    font-size: 14px;
+  }
+}
+
+@media (width >= 1066.6667px) {
+  main table {
+    font-size: 16px;
+  }
+}
+
+main :is(td, th) {
+  padding: .3125rem 6.25px;
+  text-align: left;
 }

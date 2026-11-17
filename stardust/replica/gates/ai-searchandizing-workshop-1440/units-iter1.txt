@@ -1,0 +1,44 @@
+[live-session] waiting to pace live navigations to www.valtech.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 829 ms
+unit-geometry @ 1440px, tol 4px — https://www.valtech.com/ai-searchandizing-workshop/ vs http://localhost:8791/ai-searchandizing-workshop-proposed.html
+unit 1 of results-statistics-item (required) .results-statistics-block_item_container=.results-statistics-block_item_container: origin 24,1597 320×260 vs served 24,1597 320×260 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 1 within 4px, 1 off, 0 hidden, 2 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "80%" | 16,6 126×82 | 16,6 126×82 | 0 | 0 | 0 | 0 | ✓ |
+| text "of customers are more likely to" | 20,137 271×26 | 20,136 280×84 | 0 | -1 | +9 | +58 | ✗ |
+| text "purchase" | 20,165 83×26 | — | | | | | ✗ missing |
+| text "from brands offering personalized ex" | 20,165 269×54 | — | | | | | ✗ missing |
+unit 2 of results-statistics-item (required) .results-statistics-block_item_container=.results-statistics-block_item_container: origin 360,1597 320×260 vs served 360,1597 320×260 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 1 within 4px, 1 off, 0 hidden, 2 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "8.5%" | 16,6 135×82 | 16,6 135×82 | 0 | 0 | 0 | 0 | ✓ |
+| text "increase in revenue per visitor with" | 20,137 264×82 | 20,136 280×84 | 0 | -1 | +16 | +2 | ✗ |
+| text "bloomreach" | 26,193 107×26 | — | | | | | ✗ missing |
+| text ")" | 134,193 6×26 | — | | | | | ✗ missing |
+unit 3 of results-statistics-item (required) .results-statistics-block_item_container=.results-statistics-block_item_container: origin 696,1597 320×260 vs served 696,1597 320×260 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "50%" | 16,6 125×82 | 16,6 125×82 | 0 | 0 | 0 | 0 | ✓ |
+| text "reduction in supply chain errors wit" | 20,151 279×54 | 20,150 280×56 | 0 | -1 | +1 | +2 | ✓ |
+unit 4 of results-statistics-item (required) .results-statistics-block_item_container=.results-statistics-block_item_container: origin 1032,1597 320×260 vs served 1032,1597 320×260 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "50%" | 16,6 125×82 | 16,6 125×82 | 0 | 0 | 0 | 0 | ✓ |
+| text "increase in creative decision-making" | 20,136 280×84 | 20,136 280×84 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of podcast-speakers-info (required) .podcast-speakers__info=.podcast-speakers__info: origin 24,3189 282×329 vs served 24,3189 282×329 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img.podcast-speakers__image#1" | 0,0 150×152 | 0,0 150×152 | 0 | 0 | 0 | 0 | ✓ |
+| text "raphaël iscar​" | 0,176 191×40 | 0,176 191×40 | 0 | 0 | 0 | 0 | ✓ |
+| text "head of experience & commerce (xc) s" | 0,216 282×52 | 0,216 282×52 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a.podcast-speakers__link#1" | 0,268 26×37 | 0,268 26×37 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 2,276 24×24 | 2,276 24×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of podcast-speakers-info (required) .podcast-speakers__info=.podcast-speakers__info: origin 356,3189 282×303 vs served 356,3189 282×303 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img.podcast-speakers__image#1" | 0,0 150×152 | 0,0 150×152 | 0 | 0 | 0 | 0 | ✓ |
+| text "gabriel laliberte" | 0,176 235×40 | 0,176 235×40 | 0 | 0 | 0 | 0 | ✓ |
+| text "evp, strategy" | 0,216 120×26 | 0,216 120×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a.podcast-speakers__link#1" | 0,242 26×37 | 0,242 26×37 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 2,250 24×24 | 2,250 24×24 | 0 | 0 | 0 | 0 | ✓ |
+Units: 6 compared; elements within 16, off 2, hidden 0, missing 4 → FAIL
+json → stardust/replica/gates/ai-searchandizing-workshop-1440/units-iter1.json

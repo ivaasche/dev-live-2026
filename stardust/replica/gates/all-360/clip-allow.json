@@ -1,0 +1,18 @@
+{
+  "es-es-blog": {
+    "max": 10,
+    "reason": "source-parity: the 10 insight excerpts are -webkit-line-clamp:5 (lifted from insights_overview.js); clip-probe on the LIVE page at 360 reports the identical x10 'cut 21px' (run-bg job es-es-blog-clip-live360; stardust/replica/progress.json types.listing.residuals[0], permanent)"
+  },
+  "es-es-podcasts": {
+    "max": 5,
+    "reason": "source-parity: the six podcast card titles are -webkit-line-clamp:2 (PodcastFilter card-button__title, podcast_filter.js); the origin row reports the same clamped titles as TEXT CLIPPED (gates/all-360/es-es-podcasts/clip.json origin.counts.textClipped >= 5)"
+  },
+  "es-es-noticias": {
+    "max": 1,
+    "reason": "source-parity: the news year heading (\"2026\") is cut by its own subheader box (overflow:hidden + margin-bottom:-.22em, main.css @217452-217796); the origin row reports the identical TEXT CLIPPED x1 (gates/all-360/es-es-noticias/clip.json origin.counts.textClipped 1)"
+  },
+  "es-es-carrera": {
+    "max": 1,
+    "reason": "source-parity: the teaser quote card title (\"Technology is very apt at answering the question what can be done…\") is clipped by its fixed-height card on the origin too — clip-probe https://www.valtech.com/es-es/carrera/ @360 (C-final, 2026-11-14): TEXT CLIPPED 1, div.teaser-block__teaser.is-selected > a.teaser-block__teaser__inner > hgroup > h5.teaser-block__teaser__title; build clips the same h5 (1)"
+  }
+}

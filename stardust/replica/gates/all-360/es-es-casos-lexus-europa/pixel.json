@@ -1,0 +1,76 @@
+{
+  "a": "stardust/replica/gates/all-360/es-es-casos-lexus-europa/origin.png",
+  "b": "stardust/replica/gates/all-360/es-es-casos-lexus-europa/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 4819,
+    "mode": "overlap"
+  },
+  "heightDelta": -14,
+  "differingPixels": 101008,
+  "pct": 5.82,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/es-es-casos-lexus-europa/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 12.87,
+  "textBoxes": 131,
+  "textPixels": 519246,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 3.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 8.3
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 9.7
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 11.9
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 8.3
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 5.1
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 6.1
+    },
+    {
+      "y0": 4500,
+      "y1": 4819,
+      "pct": 2.6
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/casos/lexus-europa"
+  }
+}

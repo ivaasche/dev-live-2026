@@ -1,0 +1,214 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-14T08:45:44.127Z",
+  "tol": 4,
+  "n": 3,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/valtech-ukraine-in-media/",
+  "at": "2026-11-14T08:45:19.939Z",
+  "docH": 7864
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/valtech-ukraine-in-media",
+  "at": "2026-11-14T08:45:43.933Z",
+  "docH": 7860
+ },
+ "results": [
+  {
+   "sel": ".columns-rte__content-row=.columns-rte-content-row",
+   "family": null,
+   "required": true,
+   "originMatches": 1,
+   "edsMatches": 1,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.columns-rte > div.columns-rte__container.text-content > div.columns-rte__content-row.columns-rte-3-4--right-column"
+     },
+     "eds": {
+      "path": "div.columns-rte.right-wide > div.columns-rte-container.text-content > div.columns-rte-content-row.columns-rte-3-4-right-column"
+     },
+     "rows": [
+      {
+       "key": "image:svetlana gerassimova_2-modified.png",
+       "role": "image",
+       "text": "svetlana gerassimova_2-modified.png",
+       "edsText": "svetlana gerassimova_2-modified.png",
+       "byPosition": false,
+       "origin": {
+        "x": 83,
+        "y": 44,
+        "w": 147,
+        "h": 147
+       },
+       "eds": {
+        "x": 83,
+        "y": 44,
+        "w": 147,
+        "h": 147,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      },
+      {
+       "key": "text:in a world of constant change, good peop",
+       "role": "text",
+       "text": "in a world of constant change, good people are the only cons",
+       "edsText": "in a world of constant change, good people are the only cons",
+       "byPosition": false,
+       "origin": {
+        "x": 18,
+        "y": 316,
+        "w": 294,
+        "h": 192
+       },
+       "eds": {
+        "x": 18,
+        "y": 316,
+        "w": 294,
+        "h": 192,
+        "sel": "p.columns-rte-content-quote-text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      },
+      {
+       "key": "text:- svitlana gerassimova, managing directo",
+       "role": "text",
+       "text": "- svitlana gerassimova, managing director in valtech ukraine",
+       "edsText": "- svitlana gerassimova, managing director in valtech ukraine",
+       "byPosition": false,
+       "origin": {
+        "x": 18,
+        "y": 516,
+        "w": 294,
+        "h": 48
+       },
+       "eds": {
+        "x": 18,
+        "y": 516,
+        "w": 294,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "​",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 312,
+       "h": 24,
+       "absY": 3762,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "300",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:​"
+      },
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 44,
+       "w": 312,
+       "h": 147,
+       "absY": 3806,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "300",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 3762,
+       "w": 312,
+       "h": 564
+      },
+      "eds": {
+       "x": 24,
+       "y": 3762,
+       "w": 312,
+       "h": 564
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 2,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 1,
+  "within": 3,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

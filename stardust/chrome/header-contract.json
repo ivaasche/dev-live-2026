@@ -1,0 +1,2677 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://www.valtech.com/",
+ "at": "2026-11-13T16:16:51.976Z",
+ "shots": "stardust/.work/chrome/header-contract",
+ "widths": {
+  "390": {
+   "root": "body>nav",
+   "controls": [
+    {
+     "name": "Valtech, go back to homepage The Experience Innovation Company",
+     "key": "valtech go back to homepage the experience innovation company",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>nav>div:nth-of-type(1)>div>div>div>a",
+     "href": "https://www.valtech.com/",
+     "expanded": null,
+     "rect": [
+      24,
+      25,
+      80,
+      21
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Go to Search page",
+     "key": "go to search page",
+     "role": "link",
+     "kind": "search",
+     "sel": "body>nav>div:nth-of-type(2)>a:nth-of-type(1)",
+     "href": "https://www.valtech.com/search/",
+     "expanded": null,
+     "rect": [
+      262,
+      24,
+      22,
+      23
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Open Location Menu",
+     "key": "open location menu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "body>nav>div:nth-of-type(2)>button:nth-of-type(1)",
+     "expanded": "false",
+     "rect": [
+      304,
+      24,
+      18,
+      23
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Valtech Global",
+          "href": "https://www.valtech.com/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Europe",
+         "North America",
+         "Latin America",
+         "Asia Pacific",
+         "Middle East and North Africa"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         134,
+         390,
+         382
+        ]
+       },
+       "expanded": "true",
+       "focus": "elsewhere",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 1000,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.icon-global"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 1000,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.icon-close"
+        }
+       ],
+       "shot": "390-001-Open-Location-Menu-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Valtech Global",
+          "href": "https://www.valtech.com/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Europe",
+         "North America",
+         "Latin America",
+         "Asia Pacific",
+         "Middle East and North Africa"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         134,
+         390,
+         382
+        ]
+       },
+       "expanded": "true",
+       "focus": "elsewhere",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 1000,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.icon-global"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 1000,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.icon-close"
+        }
+       ],
+       "shot": "390-002-Open-Location-Menu-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Europe",
+       "key": "europe",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#siteNavLocations>div>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)",
+       "expanded": "false",
+       "rect": [
+        0,
+        222,
+        390,
+        58
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 4,
+         "panel": {
+          "links": [
+           {
+            "text": "Bulgaria",
+            "href": "https://www.valtech.com/"
+           },
+           {
+            "text": "Denmark",
+            "href": "https://www.valtech.com/en-dk/"
+           },
+           {
+            "text": "France",
+            "href": "https://www.valtech.com/fr-fr/"
+           },
+           {
+            "text": "Germany",
+            "href": "https://www.valtech.com/de-de/"
+           },
+           {
+            "text": "Netherlands",
+            "href": "https://www.valtech.com/nl-nl/"
+           },
+           {
+            "text": "North Macedonia",
+            "href": "https://www.valtech.com/"
+           },
+           {
+            "text": "Poland",
+            "href": "https://www.valtech.com/"
+           },
+           {
+            "text": "Portugal",
+            "href": "https://www.valtech.com/"
+           },
+           {
+            "text": "Romania",
+            "href": "https://www.valtech.com/"
+           },
+           {
+            "text": "Spain",
+            "href": "https://www.valtech.com/es-es/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           280,
+           390,
+           564
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "svg"
+          },
+          {
+           "kind": "transition",
+           "prop": "max-height",
+           "ms": 100,
+           "delay": 0,
+           "easing": "linear",
+           "target": "div.site-nav__locations__region__places"
+          }
+         ],
+         "shot": "390-003-Europe-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 4,
+         "panel": {
+          "links": [
+           {
+            "text": "Bulgaria",
+            "href": "https://www.valtech.com/"
+           },
+           {
+            "text": "Denmark",
+            "href": "https://www.valtech.com/en-dk/"
+           },
+           {
+            "text": "France",
+            "href": "https://www.valtech.com/fr-fr/"
+           },
+           {
+            "text": "Germany",
+            "href": "https://www.valtech.com/de-de/"
+           },
+           {
+            "text": "Netherlands",
+            "href": "https://www.valtech.com/nl-nl/"
+           },
+           {
+            "text": "North Macedonia",
+            "href": "https://www.valtech.com/"
+           },
+           {
+            "text": "Poland",
+            "href": "https://www.valtech.com/"
+           },
+           {
+            "text": "Portugal",
+            "href": "https://www.valtech.com/"
+           },
+           {
+            "text": "Romania",
+            "href": "https://www.valtech.com/"
+           },
+           {
+            "text": "Spain",
+            "href": "https://www.valtech.com/es-es/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           280,
+           390,
+           564
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "svg"
+          },
+          {
+           "kind": "transition",
+           "prop": "max-height",
+           "ms": 100,
+           "delay": 0,
+           "easing": "linear",
+           "target": "div.site-nav__locations__region__places"
+          }
+         ],
+         "shot": "390-004-Europe-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "North America",
+       "key": "north america",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#siteNavLocations>div>div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(1)",
+       "expanded": "false",
+       "rect": [
+        0,
+        281,
+        390,
+        58
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Canada",
+            "href": "https://www.valtech.com/en-ca/"
+           },
+           {
+            "text": "USA",
+            "href": "https://www.valtech.com/en-us/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           339,
+           390,
+           113
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "svg"
+          },
+          {
+           "kind": "transition",
+           "prop": "max-height",
+           "ms": 100,
+           "delay": 0,
+           "easing": "linear",
+           "target": "div.site-nav__locations__region__places"
+          }
+         ],
+         "shot": "390-005-North-America-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Canada",
+            "href": "https://www.valtech.com/en-ca/"
+           },
+           {
+            "text": "USA",
+            "href": "https://www.valtech.com/en-us/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           339,
+           390,
+           113
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "svg"
+          },
+          {
+           "kind": "transition",
+           "prop": "max-height",
+           "ms": 100,
+           "delay": 0,
+           "easing": "linear",
+           "target": "div.site-nav__locations__region__places"
+          }
+         ],
+         "shot": "390-006-North-America-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Latin America",
+       "key": "latin america",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#siteNavLocations>div>div:nth-of-type(2)>div:nth-of-type(3)>button:nth-of-type(1)",
+       "expanded": "false",
+       "rect": [
+        0,
+        340,
+        390,
+        58
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Argentina",
+            "href": "https://www.valtech.com/es-ar/"
+           },
+           {
+            "text": "Brazil",
+            "href": "https://www.valtech.com/pt-br/"
+           },
+           {
+            "text": "Mexico",
+            "href": "https://www.valtech.com/es-mx/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           398,
+           390,
+           170
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "svg"
+          },
+          {
+           "kind": "transition",
+           "prop": "max-height",
+           "ms": 100,
+           "delay": 0,
+           "easing": "linear",
+           "target": "div.site-nav__locations__region__places"
+          }
+         ],
+         "shot": "390-007-Latin-America-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Argentina",
+            "href": "https://www.valtech.com/es-ar/"
+           },
+           {
+            "text": "Brazil",
+            "href": "https://www.valtech.com/pt-br/"
+           },
+           {
+            "text": "Mexico",
+            "href": "https://www.valtech.com/es-mx/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           398,
+           390,
+           170
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "svg"
+          },
+          {
+           "kind": "transition",
+           "prop": "max-height",
+           "ms": 100,
+           "delay": 0,
+           "easing": "linear",
+           "target": "div.site-nav__locations__region__places"
+          }
+         ],
+         "shot": "390-008-Latin-America-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Asia Pacific",
+       "key": "asia pacific",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#siteNavLocations>div>div:nth-of-type(2)>div:nth-of-type(4)>button:nth-of-type(1)",
+       "expanded": "false",
+       "rect": [
+        0,
+        399,
+        390,
+        58
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "China",
+            "href": "https://www.valtech.com/en-cn/"
+           },
+           {
+            "text": "India",
+            "href": "https://www.valtech.com/en-in/"
+           },
+           {
+            "text": "Singapore",
+            "href": "https://www.valtech.com/en-sg/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           457,
+           390,
+           170
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "svg"
+          },
+          {
+           "kind": "transition",
+           "prop": "max-height",
+           "ms": 100,
+           "delay": 0,
+           "easing": "linear",
+           "target": "div.site-nav__locations__region__places"
+          }
+         ],
+         "shot": "390-009-Asia-Pacific-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "China",
+            "href": "https://www.valtech.com/en-cn/"
+           },
+           {
+            "text": "India",
+            "href": "https://www.valtech.com/en-in/"
+           },
+           {
+            "text": "Singapore",
+            "href": "https://www.valtech.com/en-sg/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           457,
+           390,
+           170
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "svg"
+          },
+          {
+           "kind": "transition",
+           "prop": "max-height",
+           "ms": 100,
+           "delay": 0,
+           "easing": "linear",
+           "target": "div.site-nav__locations__region__places"
+          }
+         ],
+         "shot": "390-010-Asia-Pacific-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false
+       }
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 1,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1000,
+     "height": 1,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 1,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 1,
+     "position": "static",
+     "inView": false
+    }
+   ],
+   "states": 10,
+   "truncated": "request-budget",
+   "loads": 19,
+   "requests": 654,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  },
+  "1440": {
+   "root": "body>nav",
+   "controls": [
+    {
+     "name": "Valtech, go back to homepage The Experience Innovation Company",
+     "key": "valtech go back to homepage the experience innovation company",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>nav>div:nth-of-type(1)>div>div>div>a",
+     "href": "https://www.valtech.com/",
+     "expanded": null,
+     "rect": [
+      24,
+      12,
+      159,
+      41
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Our work",
+     "key": "our work",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>nav>div:nth-of-type(1)>div>div>ul>li:nth-of-type(1)>button",
+     "expanded": null,
+     "rect": [
+      373,
+      21,
+      170,
+      24
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://www.valtech.com/"
+         },
+         {
+          "text": "Cases",
+          "href": "https://www.valtech.com/work/"
+         },
+         {
+          "text": "Industries",
+          "href": "https://www.valtech.com/industries/"
+         },
+         {
+          "text": "Our Partners",
+          "href": "https://www.valtech.com/partners/"
+         },
+         {
+          "text": "Experience Elevation",
+          "href": "https://www.valtech.com/offerings/experience-elevation/"
+         },
+         {
+          "text": "Commerce Acceleration",
+          "href": "https://www.valtech.com/offerings/commerce-acceleration/"
+         },
+         {
+          "text": "Enterprise Transformation",
+          "href": "https://www.valtech.com/offerings/enterprise-transformation/"
+         },
+         {
+          "text": "Marketing Creativity & Performance",
+          "href": "https://www.valtech.com/offerings/marketing-creativity-performance/"
+         },
+         {
+          "text": "Data & AI Revolution",
+          "href": "https://www.valtech.com/offerings/data-and-ai-revolution/"
+         },
+         {
+          "text": "Joblist",
+          "href": "https://www.valtech.com/career/jobs/"
+         },
+         {
+          "text": "Valtech as workplace",
+          "href": "https://www.valtech.com/valtech-as-workplace/"
+         },
+         {
+          "text": "Diversity & Inclusion",
+          "href": "https://www.valtech.com/diversity-inclusion/"
+         },
+         {
+          "text": "Podcasts",
+          "href": "https://www.valtech.com/podcasts/"
+         },
+         {
+          "text": "Whitepapers",
+          "href": "https://www.valtech.com/whitepapers/"
+         },
+         {
+          "text": "Content Hub",
+          "href": "https://www.valtech.com/content-hub/"
+         },
+         {
+          "text": "Blog",
+          "href": "https://www.valtech.com/blog/"
+         },
+         {
+          "text": "Events",
+          "href": "https://www.valtech.com/events/"
+         },
+         {
+          "text": "The Intelligent Enterprise",
+          "href": "https://www.valtech.com/the-intelligent-enterprise/"
+         },
+         {
+          "text": "Newsroom",
+          "href": "https://www.valtech.com/newsroom/"
+         },
+         {
+          "text": "About",
+          "href": "https://www.valtech.com/about/"
+         },
+         {
+          "text": "Offices",
+          "href": "https://www.valtech.com/about/offices/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         24,
+         0,
+         1416,
+         332
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.site-nav__menu__container"
+        }
+       ],
+       "shot": "1440-001-Our-work-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://www.valtech.com/"
+         },
+         {
+          "text": "Cases",
+          "href": "https://www.valtech.com/work/"
+         },
+         {
+          "text": "Industries",
+          "href": "https://www.valtech.com/industries/"
+         },
+         {
+          "text": "Our Partners",
+          "href": "https://www.valtech.com/partners/"
+         },
+         {
+          "text": "Experience Elevation",
+          "href": "https://www.valtech.com/offerings/experience-elevation/"
+         },
+         {
+          "text": "Commerce Acceleration",
+          "href": "https://www.valtech.com/offerings/commerce-acceleration/"
+         },
+         {
+          "text": "Enterprise Transformation",
+          "href": "https://www.valtech.com/offerings/enterprise-transformation/"
+         },
+         {
+          "text": "Marketing Creativity & Performance",
+          "href": "https://www.valtech.com/offerings/marketing-creativity-performance/"
+         },
+         {
+          "text": "Data & AI Revolution",
+          "href": "https://www.valtech.com/offerings/data-and-ai-revolution/"
+         },
+         {
+          "text": "Joblist",
+          "href": "https://www.valtech.com/career/jobs/"
+         },
+         {
+          "text": "Valtech as workplace",
+          "href": "https://www.valtech.com/valtech-as-workplace/"
+         },
+         {
+          "text": "Diversity & Inclusion",
+          "href": "https://www.valtech.com/diversity-inclusion/"
+         },
+         {
+          "text": "Podcasts",
+          "href": "https://www.valtech.com/podcasts/"
+         },
+         {
+          "text": "Whitepapers",
+          "href": "https://www.valtech.com/whitepapers/"
+         },
+         {
+          "text": "Content Hub",
+          "href": "https://www.valtech.com/content-hub/"
+         },
+         {
+          "text": "Blog",
+          "href": "https://www.valtech.com/blog/"
+         },
+         {
+          "text": "Events",
+          "href": "https://www.valtech.com/events/"
+         },
+         {
+          "text": "The Intelligent Enterprise",
+          "href": "https://www.valtech.com/the-intelligent-enterprise/"
+         },
+         {
+          "text": "Newsroom",
+          "href": "https://www.valtech.com/newsroom/"
+         },
+         {
+          "text": "About",
+          "href": "https://www.valtech.com/about/"
+         },
+         {
+          "text": "Offices",
+          "href": "https://www.valtech.com/about/offices/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         24,
+         0,
+         1416,
+         332
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.site-nav__menu__container"
+        }
+       ],
+       "shot": "1440-002-Our-work-click.png"
+      },
+      "key": null
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Offerings",
+     "key": "offerings",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>nav>div:nth-of-type(1)>div>div>ul>li:nth-of-type(2)>button",
+     "expanded": null,
+     "rect": [
+      569,
+      21,
+      170,
+      24
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://www.valtech.com/"
+         },
+         {
+          "text": "Cases",
+          "href": "https://www.valtech.com/work/"
+         },
+         {
+          "text": "Industries",
+          "href": "https://www.valtech.com/industries/"
+         },
+         {
+          "text": "Our Partners",
+          "href": "https://www.valtech.com/partners/"
+         },
+         {
+          "text": "Experience Elevation",
+          "href": "https://www.valtech.com/offerings/experience-elevation/"
+         },
+         {
+          "text": "Commerce Acceleration",
+          "href": "https://www.valtech.com/offerings/commerce-acceleration/"
+         },
+         {
+          "text": "Enterprise Transformation",
+          "href": "https://www.valtech.com/offerings/enterprise-transformation/"
+         },
+         {
+          "text": "Marketing Creativity & Performance",
+          "href": "https://www.valtech.com/offerings/marketing-creativity-performance/"
+         },
+         {
+          "text": "Data & AI Revolution",
+          "href": "https://www.valtech.com/offerings/data-and-ai-revolution/"
+         },
+         {
+          "text": "Joblist",
+          "href": "https://www.valtech.com/career/jobs/"
+         },
+         {
+          "text": "Valtech as workplace",
+          "href": "https://www.valtech.com/valtech-as-workplace/"
+         },
+         {
+          "text": "Diversity & Inclusion",
+          "href": "https://www.valtech.com/diversity-inclusion/"
+         },
+         {
+          "text": "Podcasts",
+          "href": "https://www.valtech.com/podcasts/"
+         },
+         {
+          "text": "Whitepapers",
+          "href": "https://www.valtech.com/whitepapers/"
+         },
+         {
+          "text": "Content Hub",
+          "href": "https://www.valtech.com/content-hub/"
+         },
+         {
+          "text": "Blog",
+          "href": "https://www.valtech.com/blog/"
+         },
+         {
+          "text": "Events",
+          "href": "https://www.valtech.com/events/"
+         },
+         {
+          "text": "The Intelligent Enterprise",
+          "href": "https://www.valtech.com/the-intelligent-enterprise/"
+         },
+         {
+          "text": "Newsroom",
+          "href": "https://www.valtech.com/newsroom/"
+         },
+         {
+          "text": "About",
+          "href": "https://www.valtech.com/about/"
+         },
+         {
+          "text": "Offices",
+          "href": "https://www.valtech.com/about/offices/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         24,
+         0,
+         1416,
+         332
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.site-nav__menu__container"
+        }
+       ],
+       "shot": "1440-003-Offerings-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://www.valtech.com/"
+         },
+         {
+          "text": "Cases",
+          "href": "https://www.valtech.com/work/"
+         },
+         {
+          "text": "Industries",
+          "href": "https://www.valtech.com/industries/"
+         },
+         {
+          "text": "Our Partners",
+          "href": "https://www.valtech.com/partners/"
+         },
+         {
+          "text": "Experience Elevation",
+          "href": "https://www.valtech.com/offerings/experience-elevation/"
+         },
+         {
+          "text": "Commerce Acceleration",
+          "href": "https://www.valtech.com/offerings/commerce-acceleration/"
+         },
+         {
+          "text": "Enterprise Transformation",
+          "href": "https://www.valtech.com/offerings/enterprise-transformation/"
+         },
+         {
+          "text": "Marketing Creativity & Performance",
+          "href": "https://www.valtech.com/offerings/marketing-creativity-performance/"
+         },
+         {
+          "text": "Data & AI Revolution",
+          "href": "https://www.valtech.com/offerings/data-and-ai-revolution/"
+         },
+         {
+          "text": "Joblist",
+          "href": "https://www.valtech.com/career/jobs/"
+         },
+         {
+          "text": "Valtech as workplace",
+          "href": "https://www.valtech.com/valtech-as-workplace/"
+         },
+         {
+          "text": "Diversity & Inclusion",
+          "href": "https://www.valtech.com/diversity-inclusion/"
+         },
+         {
+          "text": "Podcasts",
+          "href": "https://www.valtech.com/podcasts/"
+         },
+         {
+          "text": "Whitepapers",
+          "href": "https://www.valtech.com/whitepapers/"
+         },
+         {
+          "text": "Content Hub",
+          "href": "https://www.valtech.com/content-hub/"
+         },
+         {
+          "text": "Blog",
+          "href": "https://www.valtech.com/blog/"
+         },
+         {
+          "text": "Events",
+          "href": "https://www.valtech.com/events/"
+         },
+         {
+          "text": "The Intelligent Enterprise",
+          "href": "https://www.valtech.com/the-intelligent-enterprise/"
+         },
+         {
+          "text": "Newsroom",
+          "href": "https://www.valtech.com/newsroom/"
+         },
+         {
+          "text": "About",
+          "href": "https://www.valtech.com/about/"
+         },
+         {
+          "text": "Offices",
+          "href": "https://www.valtech.com/about/offices/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         24,
+         0,
+         1416,
+         332
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.site-nav__menu__container"
+        }
+       ],
+       "shot": "1440-004-Offerings-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://www.valtech.com/"
+         },
+         {
+          "text": "Cases",
+          "href": "https://www.valtech.com/work/"
+         },
+         {
+          "text": "Industries",
+          "href": "https://www.valtech.com/industries/"
+         },
+         {
+          "text": "Our Partners",
+          "href": "https://www.valtech.com/partners/"
+         },
+         {
+          "text": "Experience Elevation",
+          "href": "https://www.valtech.com/offerings/experience-elevation/"
+         },
+         {
+          "text": "Commerce Acceleration",
+          "href": "https://www.valtech.com/offerings/commerce-acceleration/"
+         },
+         {
+          "text": "Enterprise Transformation",
+          "href": "https://www.valtech.com/offerings/enterprise-transformation/"
+         },
+         {
+          "text": "Marketing Creativity & Performance",
+          "href": "https://www.valtech.com/offerings/marketing-creativity-performance/"
+         },
+         {
+          "text": "Data & AI Revolution",
+          "href": "https://www.valtech.com/offerings/data-and-ai-revolution/"
+         },
+         {
+          "text": "Joblist",
+          "href": "https://www.valtech.com/career/jobs/"
+         },
+         {
+          "text": "Valtech as workplace",
+          "href": "https://www.valtech.com/valtech-as-workplace/"
+         },
+         {
+          "text": "Diversity & Inclusion",
+          "href": "https://www.valtech.com/diversity-inclusion/"
+         },
+         {
+          "text": "Podcasts",
+          "href": "https://www.valtech.com/podcasts/"
+         },
+         {
+          "text": "Whitepapers",
+          "href": "https://www.valtech.com/whitepapers/"
+         },
+         {
+          "text": "Content Hub",
+          "href": "https://www.valtech.com/content-hub/"
+         },
+         {
+          "text": "Blog",
+          "href": "https://www.valtech.com/blog/"
+         },
+         {
+          "text": "Events",
+          "href": "https://www.valtech.com/events/"
+         },
+         {
+          "text": "The Intelligent Enterprise",
+          "href": "https://www.valtech.com/the-intelligent-enterprise/"
+         },
+         {
+          "text": "Newsroom",
+          "href": "https://www.valtech.com/newsroom/"
+         },
+         {
+          "text": "About",
+          "href": "https://www.valtech.com/about/"
+         },
+         {
+          "text": "Offices",
+          "href": "https://www.valtech.com/about/offices/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         24,
+         0,
+         1416,
+         332
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.site-nav__menu__container"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.hero-block__item"
+        }
+       ],
+       "shot": "1440-005-Offerings-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Careers",
+     "key": "careers",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>nav>div:nth-of-type(1)>div>div>ul>li:nth-of-type(3)>button",
+     "expanded": null,
+     "rect": [
+      764,
+      21,
+      170,
+      24
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://www.valtech.com/"
+         },
+         {
+          "text": "Cases",
+          "href": "https://www.valtech.com/work/"
+         },
+         {
+          "text": "Industries",
+          "href": "https://www.valtech.com/industries/"
+         },
+         {
+          "text": "Our Partners",
+          "href": "https://www.valtech.com/partners/"
+         },
+         {
+          "text": "Experience Elevation",
+          "href": "https://www.valtech.com/offerings/experience-elevation/"
+         },
+         {
+          "text": "Commerce Acceleration",
+          "href": "https://www.valtech.com/offerings/commerce-acceleration/"
+         },
+         {
+          "text": "Enterprise Transformation",
+          "href": "https://www.valtech.com/offerings/enterprise-transformation/"
+         },
+         {
+          "text": "Marketing Creativity & Performance",
+          "href": "https://www.valtech.com/offerings/marketing-creativity-performance/"
+         },
+         {
+          "text": "Data & AI Revolution",
+          "href": "https://www.valtech.com/offerings/data-and-ai-revolution/"
+         },
+         {
+          "text": "Joblist",
+          "href": "https://www.valtech.com/career/jobs/"
+         },
+         {
+          "text": "Valtech as workplace",
+          "href": "https://www.valtech.com/valtech-as-workplace/"
+         },
+         {
+          "text": "Diversity & Inclusion",
+          "href": "https://www.valtech.com/diversity-inclusion/"
+         },
+         {
+          "text": "Podcasts",
+          "href": "https://www.valtech.com/podcasts/"
+         },
+         {
+          "text": "Whitepapers",
+          "href": "https://www.valtech.com/whitepapers/"
+         },
+         {
+          "text": "Content Hub",
+          "href": "https://www.valtech.com/content-hub/"
+         },
+         {
+          "text": "Blog",
+          "href": "https://www.valtech.com/blog/"
+         },
+         {
+          "text": "Events",
+          "href": "https://www.valtech.com/events/"
+         },
+         {
+          "text": "The Intelligent Enterprise",
+          "href": "https://www.valtech.com/the-intelligent-enterprise/"
+         },
+         {
+          "text": "Newsroom",
+          "href": "https://www.valtech.com/newsroom/"
+         },
+         {
+          "text": "About",
+          "href": "https://www.valtech.com/about/"
+         },
+         {
+          "text": "Offices",
+          "href": "https://www.valtech.com/about/offices/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         24,
+         0,
+         1416,
+         332
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.site-nav__menu__container"
+        }
+       ],
+       "shot": "1440-006-Careers-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://www.valtech.com/"
+         },
+         {
+          "text": "Cases",
+          "href": "https://www.valtech.com/work/"
+         },
+         {
+          "text": "Industries",
+          "href": "https://www.valtech.com/industries/"
+         },
+         {
+          "text": "Our Partners",
+          "href": "https://www.valtech.com/partners/"
+         },
+         {
+          "text": "Experience Elevation",
+          "href": "https://www.valtech.com/offerings/experience-elevation/"
+         },
+         {
+          "text": "Commerce Acceleration",
+          "href": "https://www.valtech.com/offerings/commerce-acceleration/"
+         },
+         {
+          "text": "Enterprise Transformation",
+          "href": "https://www.valtech.com/offerings/enterprise-transformation/"
+         },
+         {
+          "text": "Marketing Creativity & Performance",
+          "href": "https://www.valtech.com/offerings/marketing-creativity-performance/"
+         },
+         {
+          "text": "Data & AI Revolution",
+          "href": "https://www.valtech.com/offerings/data-and-ai-revolution/"
+         },
+         {
+          "text": "Joblist",
+          "href": "https://www.valtech.com/career/jobs/"
+         },
+         {
+          "text": "Valtech as workplace",
+          "href": "https://www.valtech.com/valtech-as-workplace/"
+         },
+         {
+          "text": "Diversity & Inclusion",
+          "href": "https://www.valtech.com/diversity-inclusion/"
+         },
+         {
+          "text": "Podcasts",
+          "href": "https://www.valtech.com/podcasts/"
+         },
+         {
+          "text": "Whitepapers",
+          "href": "https://www.valtech.com/whitepapers/"
+         },
+         {
+          "text": "Content Hub",
+          "href": "https://www.valtech.com/content-hub/"
+         },
+         {
+          "text": "Blog",
+          "href": "https://www.valtech.com/blog/"
+         },
+         {
+          "text": "Events",
+          "href": "https://www.valtech.com/events/"
+         },
+         {
+          "text": "The Intelligent Enterprise",
+          "href": "https://www.valtech.com/the-intelligent-enterprise/"
+         },
+         {
+          "text": "Newsroom",
+          "href": "https://www.valtech.com/newsroom/"
+         },
+         {
+          "text": "About",
+          "href": "https://www.valtech.com/about/"
+         },
+         {
+          "text": "Offices",
+          "href": "https://www.valtech.com/about/offices/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         24,
+         0,
+         1416,
+         332
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.site-nav__menu__container"
+        }
+       ],
+       "shot": "1440-007-Careers-click.png"
+      },
+      "key": null
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Our insights",
+     "key": "our insights",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>nav>div:nth-of-type(1)>div>div>ul>li:nth-of-type(4)>button",
+     "expanded": null,
+     "rect": [
+      960,
+      21,
+      170,
+      24
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://www.valtech.com/"
+         },
+         {
+          "text": "Cases",
+          "href": "https://www.valtech.com/work/"
+         },
+         {
+          "text": "Industries",
+          "href": "https://www.valtech.com/industries/"
+         },
+         {
+          "text": "Our Partners",
+          "href": "https://www.valtech.com/partners/"
+         },
+         {
+          "text": "Experience Elevation",
+          "href": "https://www.valtech.com/offerings/experience-elevation/"
+         },
+         {
+          "text": "Commerce Acceleration",
+          "href": "https://www.valtech.com/offerings/commerce-acceleration/"
+         },
+         {
+          "text": "Enterprise Transformation",
+          "href": "https://www.valtech.com/offerings/enterprise-transformation/"
+         },
+         {
+          "text": "Marketing Creativity & Performance",
+          "href": "https://www.valtech.com/offerings/marketing-creativity-performance/"
+         },
+         {
+          "text": "Data & AI Revolution",
+          "href": "https://www.valtech.com/offerings/data-and-ai-revolution/"
+         },
+         {
+          "text": "Joblist",
+          "href": "https://www.valtech.com/career/jobs/"
+         },
+         {
+          "text": "Valtech as workplace",
+          "href": "https://www.valtech.com/valtech-as-workplace/"
+         },
+         {
+          "text": "Diversity & Inclusion",
+          "href": "https://www.valtech.com/diversity-inclusion/"
+         },
+         {
+          "text": "Podcasts",
+          "href": "https://www.valtech.com/podcasts/"
+         },
+         {
+          "text": "Whitepapers",
+          "href": "https://www.valtech.com/whitepapers/"
+         },
+         {
+          "text": "Content Hub",
+          "href": "https://www.valtech.com/content-hub/"
+         },
+         {
+          "text": "Blog",
+          "href": "https://www.valtech.com/blog/"
+         },
+         {
+          "text": "Events",
+          "href": "https://www.valtech.com/events/"
+         },
+         {
+          "text": "The Intelligent Enterprise",
+          "href": "https://www.valtech.com/the-intelligent-enterprise/"
+         },
+         {
+          "text": "Newsroom",
+          "href": "https://www.valtech.com/newsroom/"
+         },
+         {
+          "text": "About",
+          "href": "https://www.valtech.com/about/"
+         },
+         {
+          "text": "Offices",
+          "href": "https://www.valtech.com/about/offices/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         24,
+         0,
+         1416,
+         332
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.site-nav__menu__container"
+        }
+       ],
+       "shot": "1440-008-Our-insights-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://www.valtech.com/"
+         },
+         {
+          "text": "Cases",
+          "href": "https://www.valtech.com/work/"
+         },
+         {
+          "text": "Industries",
+          "href": "https://www.valtech.com/industries/"
+         },
+         {
+          "text": "Our Partners",
+          "href": "https://www.valtech.com/partners/"
+         },
+         {
+          "text": "Experience Elevation",
+          "href": "https://www.valtech.com/offerings/experience-elevation/"
+         },
+         {
+          "text": "Commerce Acceleration",
+          "href": "https://www.valtech.com/offerings/commerce-acceleration/"
+         },
+         {
+          "text": "Enterprise Transformation",
+          "href": "https://www.valtech.com/offerings/enterprise-transformation/"
+         },
+         {
+          "text": "Marketing Creativity & Performance",
+          "href": "https://www.valtech.com/offerings/marketing-creativity-performance/"
+         },
+         {
+          "text": "Data & AI Revolution",
+          "href": "https://www.valtech.com/offerings/data-and-ai-revolution/"
+         },
+         {
+          "text": "Joblist",
+          "href": "https://www.valtech.com/career/jobs/"
+         },
+         {
+          "text": "Valtech as workplace",
+          "href": "https://www.valtech.com/valtech-as-workplace/"
+         },
+         {
+          "text": "Diversity & Inclusion",
+          "href": "https://www.valtech.com/diversity-inclusion/"
+         },
+         {
+          "text": "Podcasts",
+          "href": "https://www.valtech.com/podcasts/"
+         },
+         {
+          "text": "Whitepapers",
+          "href": "https://www.valtech.com/whitepapers/"
+         },
+         {
+          "text": "Content Hub",
+          "href": "https://www.valtech.com/content-hub/"
+         },
+         {
+          "text": "Blog",
+          "href": "https://www.valtech.com/blog/"
+         },
+         {
+          "text": "Events",
+          "href": "https://www.valtech.com/events/"
+         },
+         {
+          "text": "The Intelligent Enterprise",
+          "href": "https://www.valtech.com/the-intelligent-enterprise/"
+         },
+         {
+          "text": "Newsroom",
+          "href": "https://www.valtech.com/newsroom/"
+         },
+         {
+          "text": "About",
+          "href": "https://www.valtech.com/about/"
+         },
+         {
+          "text": "Offices",
+          "href": "https://www.valtech.com/about/offices/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         24,
+         0,
+         1416,
+         332
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.site-nav__menu__container"
+        }
+       ],
+       "shot": "1440-009-Our-insights-click.png"
+      },
+      "key": null
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "About us",
+     "key": "about us",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>nav>div:nth-of-type(1)>div>div>ul>li:nth-of-type(5)>button",
+     "expanded": null,
+     "rect": [
+      1156,
+      21,
+      170,
+      24
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://www.valtech.com/"
+         },
+         {
+          "text": "Cases",
+          "href": "https://www.valtech.com/work/"
+         },
+         {
+          "text": "Industries",
+          "href": "https://www.valtech.com/industries/"
+         },
+         {
+          "text": "Our Partners",
+          "href": "https://www.valtech.com/partners/"
+         },
+         {
+          "text": "Experience Elevation",
+          "href": "https://www.valtech.com/offerings/experience-elevation/"
+         },
+         {
+          "text": "Commerce Acceleration",
+          "href": "https://www.valtech.com/offerings/commerce-acceleration/"
+         },
+         {
+          "text": "Enterprise Transformation",
+          "href": "https://www.valtech.com/offerings/enterprise-transformation/"
+         },
+         {
+          "text": "Marketing Creativity & Performance",
+          "href": "https://www.valtech.com/offerings/marketing-creativity-performance/"
+         },
+         {
+          "text": "Data & AI Revolution",
+          "href": "https://www.valtech.com/offerings/data-and-ai-revolution/"
+         },
+         {
+          "text": "Joblist",
+          "href": "https://www.valtech.com/career/jobs/"
+         },
+         {
+          "text": "Valtech as workplace",
+          "href": "https://www.valtech.com/valtech-as-workplace/"
+         },
+         {
+          "text": "Diversity & Inclusion",
+          "href": "https://www.valtech.com/diversity-inclusion/"
+         },
+         {
+          "text": "Podcasts",
+          "href": "https://www.valtech.com/podcasts/"
+         },
+         {
+          "text": "Whitepapers",
+          "href": "https://www.valtech.com/whitepapers/"
+         },
+         {
+          "text": "Content Hub",
+          "href": "https://www.valtech.com/content-hub/"
+         },
+         {
+          "text": "Blog",
+          "href": "https://www.valtech.com/blog/"
+         },
+         {
+          "text": "Events",
+          "href": "https://www.valtech.com/events/"
+         },
+         {
+          "text": "The Intelligent Enterprise",
+          "href": "https://www.valtech.com/the-intelligent-enterprise/"
+         },
+         {
+          "text": "Newsroom",
+          "href": "https://www.valtech.com/newsroom/"
+         },
+         {
+          "text": "About",
+          "href": "https://www.valtech.com/about/"
+         },
+         {
+          "text": "Offices",
+          "href": "https://www.valtech.com/about/offices/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         24,
+         0,
+         1416,
+         332
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.site-nav__menu__container"
+        }
+       ],
+       "shot": "1440-010-About-us-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://www.valtech.com/"
+         },
+         {
+          "text": "Cases",
+          "href": "https://www.valtech.com/work/"
+         },
+         {
+          "text": "Industries",
+          "href": "https://www.valtech.com/industries/"
+         },
+         {
+          "text": "Our Partners",
+          "href": "https://www.valtech.com/partners/"
+         },
+         {
+          "text": "Experience Elevation",
+          "href": "https://www.valtech.com/offerings/experience-elevation/"
+         },
+         {
+          "text": "Commerce Acceleration",
+          "href": "https://www.valtech.com/offerings/commerce-acceleration/"
+         },
+         {
+          "text": "Enterprise Transformation",
+          "href": "https://www.valtech.com/offerings/enterprise-transformation/"
+         },
+         {
+          "text": "Marketing Creativity & Performance",
+          "href": "https://www.valtech.com/offerings/marketing-creativity-performance/"
+         },
+         {
+          "text": "Data & AI Revolution",
+          "href": "https://www.valtech.com/offerings/data-and-ai-revolution/"
+         },
+         {
+          "text": "Joblist",
+          "href": "https://www.valtech.com/career/jobs/"
+         },
+         {
+          "text": "Valtech as workplace",
+          "href": "https://www.valtech.com/valtech-as-workplace/"
+         },
+         {
+          "text": "Diversity & Inclusion",
+          "href": "https://www.valtech.com/diversity-inclusion/"
+         },
+         {
+          "text": "Podcasts",
+          "href": "https://www.valtech.com/podcasts/"
+         },
+         {
+          "text": "Whitepapers",
+          "href": "https://www.valtech.com/whitepapers/"
+         },
+         {
+          "text": "Content Hub",
+          "href": "https://www.valtech.com/content-hub/"
+         },
+         {
+          "text": "Blog",
+          "href": "https://www.valtech.com/blog/"
+         },
+         {
+          "text": "Events",
+          "href": "https://www.valtech.com/events/"
+         },
+         {
+          "text": "The Intelligent Enterprise",
+          "href": "https://www.valtech.com/the-intelligent-enterprise/"
+         },
+         {
+          "text": "Newsroom",
+          "href": "https://www.valtech.com/newsroom/"
+         },
+         {
+          "text": "About",
+          "href": "https://www.valtech.com/about/"
+         },
+         {
+          "text": "Offices",
+          "href": "https://www.valtech.com/about/offices/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         24,
+         0,
+         1416,
+         332
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.site-nav__menu__container"
+        }
+       ],
+       "shot": "1440-011-About-us-click.png"
+      },
+      "key": null
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Open Location Menu",
+     "key": "open location menu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "body>nav>div:nth-of-type(2)>button:nth-of-type(3)",
+     "expanded": "false",
+     "rect": [
+      1376,
+      16,
+      64,
+      40
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Valtech Global",
+          "href": "https://www.valtech.com/"
+         },
+         {
+          "text": "Bulgaria",
+          "href": "https://www.valtech.com/"
+         },
+         {
+          "text": "Denmark",
+          "href": "https://www.valtech.com/en-dk/"
+         },
+         {
+          "text": "France",
+          "href": "https://www.valtech.com/fr-fr/"
+         },
+         {
+          "text": "Germany",
+          "href": "https://www.valtech.com/de-de/"
+         },
+         {
+          "text": "Netherlands",
+          "href": "https://www.valtech.com/nl-nl/"
+         },
+         {
+          "text": "North Macedonia",
+          "href": "https://www.valtech.com/"
+         },
+         {
+          "text": "Poland",
+          "href": "https://www.valtech.com/"
+         },
+         {
+          "text": "Portugal",
+          "href": "https://www.valtech.com/"
+         },
+         {
+          "text": "Romania",
+          "href": "https://www.valtech.com/"
+         },
+         {
+          "text": "Spain",
+          "href": "https://www.valtech.com/es-es/"
+         },
+         {
+          "text": "Sweden",
+          "href": "https://www.valtech.com/sv-se/"
+         },
+         {
+          "text": "Switzerland",
+          "href": "https://www.valtech.com/en-ch/"
+         },
+         {
+          "text": "Ukraine",
+          "href": "https://www.valtech.com/"
+         },
+         {
+          "text": "United Kingdom",
+          "href": "https://www.valtech.com/en-gb/"
+         },
+         {
+          "text": "Canada",
+          "href": "https://www.valtech.com/en-ca/"
+         },
+         {
+          "text": "USA",
+          "href": "https://www.valtech.com/en-us/"
+         },
+         {
+          "text": "Argentina",
+          "href": "https://www.valtech.com/es-ar/"
+         },
+         {
+          "text": "Brazil",
+          "href": "https://www.valtech.com/pt-br/"
+         },
+         {
+          "text": "Mexico",
+          "href": "https://www.valtech.com/es-mx/"
+         },
+         {
+          "text": "China",
+          "href": "https://www.valtech.com/en-cn/"
+         },
+         {
+          "text": "India",
+          "href": "https://www.valtech.com/en-in/"
+         },
+         {
+          "text": "Singapore",
+          "href": "https://www.valtech.com/en-sg/"
+         },
+         {
+          "text": "United Arab Emirates",
+          "href": "https://www.valtech.com/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Europe",
+         "North America",
+         "Latin America",
+         "Asia Pacific",
+         "Middle East and North Africa"
+        ],
+        "options": 0,
+        "rect": [
+         115,
+         18,
+         1146,
+         882
+        ]
+       },
+       "expanded": "true",
+       "focus": "elsewhere",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 1000,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.icon-close"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 1000,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.icon-global"
+        }
+       ],
+       "shot": "1440-012-Open-Location-Menu-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Valtech Global",
+          "href": "https://www.valtech.com/"
+         },
+         {
+          "text": "Bulgaria",
+          "href": "https://www.valtech.com/"
+         },
+         {
+          "text": "Denmark",
+          "href": "https://www.valtech.com/en-dk/"
+         },
+         {
+          "text": "France",
+          "href": "https://www.valtech.com/fr-fr/"
+         },
+         {
+          "text": "Germany",
+          "href": "https://www.valtech.com/de-de/"
+         },
+         {
+          "text": "Netherlands",
+          "href": "https://www.valtech.com/nl-nl/"
+         },
+         {
+          "text": "North Macedonia",
+          "href": "https://www.valtech.com/"
+         },
+         {
+          "text": "Poland",
+          "href": "https://www.valtech.com/"
+         },
+         {
+          "text": "Portugal",
+          "href": "https://www.valtech.com/"
+         },
+         {
+          "text": "Romania",
+          "href": "https://www.valtech.com/"
+         },
+         {
+          "text": "Spain",
+          "href": "https://www.valtech.com/es-es/"
+         },
+         {
+          "text": "Sweden",
+          "href": "https://www.valtech.com/sv-se/"
+         },
+         {
+          "text": "Switzerland",
+          "href": "https://www.valtech.com/en-ch/"
+         },
+         {
+          "text": "Ukraine",
+          "href": "https://www.valtech.com/"
+         },
+         {
+          "text": "United Kingdom",
+          "href": "https://www.valtech.com/en-gb/"
+         },
+         {
+          "text": "Canada",
+          "href": "https://www.valtech.com/en-ca/"
+         },
+         {
+          "text": "USA",
+          "href": "https://www.valtech.com/en-us/"
+         },
+         {
+          "text": "Argentina",
+          "href": "https://www.valtech.com/es-ar/"
+         },
+         {
+          "text": "Brazil",
+          "href": "https://www.valtech.com/pt-br/"
+         },
+         {
+          "text": "Mexico",
+          "href": "https://www.valtech.com/es-mx/"
+         },
+         {
+          "text": "China",
+          "href": "https://www.valtech.com/en-cn/"
+         },
+         {
+          "text": "India",
+          "href": "https://www.valtech.com/en-in/"
+         },
+         {
+          "text": "Singapore",
+          "href": "https://www.valtech.com/en-sg/"
+         },
+         {
+          "text": "United Arab Emirates",
+          "href": "https://www.valtech.com/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Europe",
+         "North America",
+         "Latin America",
+         "Asia Pacific",
+         "Middle East and North Africa"
+        ],
+        "options": 0,
+        "rect": [
+         115,
+         18,
+         1146,
+         882
+        ]
+       },
+       "expanded": "true",
+       "focus": "elsewhere",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 1000,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.icon-close"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 1000,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.icon-global"
+        }
+       ],
+       "shot": "1440-013-Open-Location-Menu-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": false,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Europe",
+       "key": "europe",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#siteNavLocations>div>div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)",
+       "expanded": null,
+       "rect": [
+        115,
+        118,
+        1146,
+        57
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "North America",
+       "key": "north america",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#siteNavLocations>div>div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(2)",
+       "expanded": null,
+       "rect": [
+        115,
+        401,
+        1146,
+        57
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Latin America",
+       "key": "latin america",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#siteNavLocations>div>div:nth-of-type(2)>div:nth-of-type(3)>button:nth-of-type(2)",
+       "expanded": null,
+       "rect": [
+        115,
+        540,
+        1146,
+        57
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Asia Pacific",
+       "key": "asia pacific",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#siteNavLocations>div>div:nth-of-type(2)>div:nth-of-type(4)>button:nth-of-type(2)",
+       "expanded": null,
+       "rect": [
+        115,
+        679,
+        1146,
+        57
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Middle East and North Africa",
+       "key": "middle east and north africa",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#siteNavLocations>div>div:nth-of-type(2)>div:nth-of-type(5)>button:nth-of-type(2)",
+       "expanded": null,
+       "rect": [
+        115,
+        818,
+        1146,
+        57
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "Go to Search page",
+     "key": "go to search page",
+     "role": "link",
+     "kind": "search",
+     "sel": "body>nav>div:nth-of-type(2)>a:nth-of-type(2)",
+     "href": "https://www.valtech.com/search/",
+     "expanded": null,
+     "rect": [
+      1376,
+      56,
+      64,
+      40
+     ],
+     "actions": {}
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 65,
+     "position": "static",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1000,
+     "height": 65,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 65,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 65,
+     "position": "static",
+     "inView": true
+    }
+   ],
+   "states": 13,
+   "truncated": null,
+   "loads": 1,
+   "requests": 40,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  }
+ },
+ "probe": null
+}

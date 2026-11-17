@@ -1,0 +1,944 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-13T20:58:26.009Z",
+  "tol": 4,
+  "n": 6,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/experience-innovation3/",
+  "at": "2026-11-13T20:57:32.248Z",
+  "docH": 7724
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/experience-innovation3",
+  "at": "2026-11-13T20:58:25.775Z",
+  "docH": 7593
+ },
+ "results": [
+  {
+   "sel": ".features-showcase__item=.features-showcase-item",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase-body > ul.features-showcase-list > li.features-showcase-item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 46,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 46,
+        "h": 48,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:make better, faster decisions",
+       "role": "heading",
+       "text": "make better, faster decisions",
+       "edsText": "make better, faster decisions",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58,
+        "sel": "h3#make-better-faster-decisions",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/300",
+        "eds": "24/29/300"
+       }
+      },
+      {
+       "key": "text:through predictive modeling, real-time",
+       "role": "text",
+       "text": "through predictive modeling, real-time",
+       "edsText": "through predictive modeling, real-time analytics and explain",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 131,
+        "w": 273,
+        "h": 21
+       },
+       "eds": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 2,
+       "dh": 27,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.NormalTextRun.SCXW204837017",
+       "text": "analytics",
+       "boxed": false,
+       "x": 0,
+       "y": 155,
+       "w": 63,
+       "h": 21,
+       "absY": 1260,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "300",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:analytics"
+      },
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.NormalTextRun.SCXW204837017",
+       "text": "and explainable ai.",
+       "boxed": false,
+       "x": 63,
+       "y": 155,
+       "w": 137,
+       "h": 21,
+       "absY": 1260,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "300",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:and explainable ai."
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 69,
+       "y": 1105,
+       "w": 275,
+       "h": 178
+      },
+      "eds": {
+       "x": 69,
+       "y": 1063,
+       "w": 275,
+       "h": 178
+      },
+      "dx": 0,
+      "dy": -42,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 2,
+      "off": 1,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase-body > ul.features-showcase-list > li.features-showcase-item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:create standout customer experiences",
+       "role": "heading",
+       "text": "create standout customer experiences",
+       "edsText": "create standout customer experiences",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58,
+        "sel": "h3#create-standout-customer-experiences",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/300",
+        "eds": "24/29/300"
+       }
+      },
+      {
+       "key": "text:with hyper-personalization, ai search an",
+       "role": "text",
+       "text": "with hyper-personalization, ai search and intelligent recomm",
+       "edsText": "with hyper-personalization, ai search and intelligent recomm",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 131,
+        "w": 261,
+        "h": 45
+       },
+       "eds": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 14,
+       "dh": 3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 69,
+       "y": 1320,
+       "w": 275,
+       "h": 178
+      },
+      "eds": {
+       "x": 69,
+       "y": 1277,
+       "w": 275,
+       "h": 178
+      },
+      "dx": 0,
+      "dy": -43,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 2,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase-body > ul.features-showcase-list > li.features-showcase-item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 48,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:boost operational productivity",
+       "role": "heading",
+       "text": "boost operational productivity",
+       "edsText": "boost operational productivity",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58,
+        "sel": "h3#boost-operational-productivity",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/300",
+        "eds": "24/29/300"
+       }
+      },
+      {
+       "key": "text:by automating repetitive tasks and enhan",
+       "role": "text",
+       "text": "by automating repetitive tasks and enhancing internal workfl",
+       "edsText": "by automating repetitive tasks and enhancing internal workfl",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 131,
+        "w": 245,
+        "h": 45
+       },
+       "eds": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 30,
+       "dh": 3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 69,
+       "y": 1534,
+       "w": 275,
+       "h": 178
+      },
+      "eds": {
+       "x": 69,
+       "y": 1492,
+       "w": 275,
+       "h": 178
+      },
+      "dx": 0,
+      "dy": -42,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 2,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase-body > ul.features-showcase-list > li.features-showcase-item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 50,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 50,
+        "h": 48,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:empower your teams",
+       "role": "heading",
+       "text": "empower your teams",
+       "edsText": "empower your teams",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 29
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 29,
+        "sel": "h3#empower-your-teams",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/300",
+        "eds": "24/29/300"
+       }
+      },
+      {
+       "key": "text:to reinvest in growth, amplifying human ",
+       "role": "text",
+       "text": "to reinvest in growth, amplifying human creativity and freei",
+       "edsText": "to reinvest in growth, amplifying human creativity and freei",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 102,
+        "w": 259,
+        "h": 69
+       },
+       "eds": {
+        "x": 0,
+        "y": 101,
+        "w": 275,
+        "h": 72,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 16,
+       "dh": 3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 69,
+       "y": 1749,
+       "w": 275,
+       "h": 173
+      },
+      "eds": {
+       "x": 69,
+       "y": 1706,
+       "w": 275,
+       "h": 173
+      },
+      "dx": 0,
+      "dy": -43,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 2,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".two-columns__item__text=.two-columns-item-text",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+     },
+     "eds": {
+      "path": "div.two-columns-item > div.two-columns-item-column > div.two-columns-item-text"
+     },
+     "rows": [
+      {
+       "key": "text:enable your marketing and communications",
+       "role": "text",
+       "text": "enable your marketing and communications teams to create sea",
+       "edsText": "enable your marketing and communications teams to create sea",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 296,
+        "h": 111
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 112,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 16,
+       "dh": 1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 3680,
+       "w": 312,
+       "h": 112
+      },
+      "eds": {
+       "x": 24,
+       "y": 3639,
+       "w": 312,
+       "h": 112
+      },
+      "dx": 0,
+      "dy": -41,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+     },
+     "eds": {
+      "path": "div.two-columns-item > div.two-columns-item-column > div.two-columns-item-text"
+     },
+     "rows": [
+      {
+       "key": "text:empower designers and content creators t",
+       "role": "text",
+       "text": "empower designers and content creators to improve creative o",
+       "edsText": "empower designers and content creators to improve creative o",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 310,
+        "h": 66
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 90,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 2,
+       "dh": 24,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.NormalTextRun.SCXW108598702",
+       "text": "maintaining",
+       "boxed": false,
+       "x": 0,
+       "y": 67,
+       "w": 84,
+       "h": 21,
+       "absY": 4320,
+       "hidden": false,
+       "fs": 16,
+       "lh": 22,
+       "fw": "300",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:maintaining"
+      },
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.NormalTextRun.SCXW108598702",
+       "text": "brand consistency.",
+       "boxed": false,
+       "x": 84,
+       "y": 67,
+       "w": 136,
+       "h": 21,
+       "absY": 4320,
+       "hidden": false,
+       "fs": 16,
+       "lh": 22,
+       "fw": "300",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:brand consistency."
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 4253,
+       "w": 312,
+       "h": 90
+      },
+      "eds": {
+       "x": 24,
+       "y": 4214,
+       "w": 312,
+       "h": 90
+      },
+      "dx": 0,
+      "dy": -39,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.two-columns__item > div.two-columns__item__column > div.two-columns__item__text"
+     },
+     "eds": {
+      "path": "div.two-columns-item > div.two-columns-item-column > div.two-columns-item-text"
+     },
+     "rows": [
+      {
+       "key": "text:support sales, marketing, data science a",
+       "role": "text",
+       "text": "support sales, marketing, data science and data engineering ",
+       "edsText": "support sales, marketing, data science and data engineering ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 303,
+        "h": 88
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 157,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 9,
+       "dh": 69,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.NormalTextRun.SCXW17400763",
+       "text": "validate",
+       "boxed": false,
+       "x": 59,
+       "y": 67,
+       "w": 56,
+       "h": 21,
+       "absY": 4795,
+       "hidden": false,
+       "fs": 16,
+       "lh": 22,
+       "fw": "300",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:validate"
+      },
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.NormalTextRun.SCXW17400763",
+       "text": "and quantify business opportunities and accelerate model dev",
+       "boxed": false,
+       "x": 0,
+       "y": 67,
+       "w": 304,
+       "h": 88,
+       "absY": 4795,
+       "hidden": false,
+       "fs": 16,
+       "lh": 22,
+       "fw": "300",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:and quantify business opportunities and "
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 4728,
+       "w": 312,
+       "h": 157
+      },
+      "eds": {
+       "x": 24,
+       "y": 4692,
+       "w": 312,
+       "h": 157
+      },
+      "dx": 0,
+      "dy": -36,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".partners-block__section.inline .partners-block__logo=.partners-block-section.inline .partners-block-logo",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  },
+  {
+   "sel": ".podcast-speakers__info=.podcast-speakers-info",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  },
+  {
+   "sel": ".faq-block__list__item:nth-child(-n+5)=.faq-block-list-item:nth-child(-n+5)",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  }
+ ],
+ "verdict": {
+  "units": 7,
+  "within": 8,
+  "off": 7,
+  "hidden": 0,
+  "missing": 6,
+  "errors": 3,
+  "requiredOff": 13
+ }
+}

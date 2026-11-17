@@ -1,0 +1,262 @@
+{
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "campaign",
+        "offering",
+        "editorial",
+        "article",
+        "listing",
+        "microsite",
+        "static",
+        "whitepaper",
+        "landing"
+      ],
+      "pages": 9,
+      "startedAt": "2026-11-13T15:08:05.135Z",
+      "endedAt": "2026-11-13T15:08:05.135Z",
+      "verdict": "rendered 9, unchanged 0, refused 0, passthrough 0"
+    },
+    "campaign-1": {
+      "status": "pending",
+      "kind": "render",
+      "templates": [
+        "campaign"
+      ],
+      "pages": 8,
+      "slugs": [
+        "ai-assessment",
+        "ai-mythbusting",
+        "ai-readiness-starts-here",
+        "b2b-portal-discovery-workshop",
+        "becoming-a-connected-manufacturer",
+        "composable-enterprise-assessment",
+        "digitalxelerate",
+        "enterprise-ai-foundations-vtiq"
+      ]
+    },
+    "campaign-2": {
+      "status": "pending",
+      "kind": "render",
+      "templates": [
+        "campaign"
+      ],
+      "pages": 8,
+      "slugs": [
+        "es-es-nuestros-partners",
+        "es-es-retail-maturity-assessment",
+        "es-es-thread-magazine",
+        "gear-accelerator",
+        "health-digital-leadership-roundtables",
+        "innovation-marathon-2027",
+        "intelligent-journeys",
+        "retail-maturity-assessment"
+      ]
+    },
+    "offering-1": {
+      "status": "pending",
+      "kind": "render",
+      "templates": [
+        "offering"
+      ],
+      "pages": 7,
+      "slugs": [
+        "ai-first-product-operating-model",
+        "content-supply-chain",
+        "digital-consulting-discovery-call",
+        "enterprise-ai-foundations-financial-services",
+        "es-es-guia-para-la-empresa-inteligente",
+        "es-es-retail-en-la-encrucijada-2026",
+        "es-es-servicios-revolucion-del-dato-y-ia"
+      ]
+    },
+    "offering-2": {
+      "status": "pending",
+      "kind": "render",
+      "templates": [
+        "offering"
+      ],
+      "pages": 7,
+      "slugs": [
+        "es-es-whitepapers-el-ciclo-de-relevancia-de-las-marcas",
+        "experience-innovation3",
+        "geo-quick-start",
+        "is-your-adobe-investment-delivering",
+        "retail-at-the-crossroads-2026",
+        "valtech-agentic-commerce-catalyst",
+        "valtech-enterprise-ai-foundations"
+      ]
+    },
+    "editorial-1": {
+      "status": "pending",
+      "kind": "render",
+      "templates": [
+        "editorial"
+      ],
+      "pages": 8,
+      "slugs": [
+        "brand-strategy-design-agency",
+        "creative-content",
+        "dataprod",
+        "es-es-carrera",
+        "es-es-diversidad-e-inclusion",
+        "es-es-industrias",
+        "es-es-nuestros-partners-oracle",
+        "es-es-servicios"
+      ]
+    },
+    "editorial-2": {
+      "status": "pending",
+      "kind": "render",
+      "templates": [
+        "editorial"
+      ],
+      "pages": 8,
+      "slugs": [
+        "es-es-trabajar-en-valtech",
+        "experience-innovation-on-azure",
+        "experience-innovation",
+        "lead-scoring",
+        "meet-the-expert-vera-schnitzlein",
+        "next2025-highlights",
+        "valtech-and-salesforce",
+        "valtech-ukraine-in-media"
+      ]
+    },
+    "article-1": {
+      "status": "pending",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "pages": 8,
+      "slugs": [
+        "es-es-blog-asi-se-creo-valtech-concierge",
+        "es-es-blog-como-marcas-locales-escalan-de-forma-diferente",
+        "es-es-blog-el-geo-como-la-nueva-frontera-de-la-visibilidad-digital",
+        "es-es-blog-embedding-ai-in-government-case-management",
+        "es-es-blog-estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion",
+        "es-es-blog-ia-transforma-busquedas-y-webs-de-marca",
+        "es-es-blog-presentamos-el-muro-de-datos-b2b",
+        "es-es-casos-lexus-europa"
+      ]
+    },
+    "article-2": {
+      "status": "pending",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "pages": 8,
+      "slugs": [
+        "es-es-eventos-ai-in-retail-from-pilots-to-performanceexclusive",
+        "es-es-eventos-google-cloud-and-valtech-roundtable",
+        "es-es-eventos-valtech-at-shoptalk-europe-2026",
+        "es-es-eventos-valtech-optimizely-at-resume-martech-2026",
+        "es-es-noticias-conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds",
+        "es-es-noticias-valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente",
+        "es-es-quienes-somos",
+        "leap-into-composable-commerce"
+      ]
+    },
+    "listing": {
+      "status": "pending",
+      "kind": "render",
+      "templates": [
+        "listing"
+      ],
+      "pages": 6,
+      "slugs": [
+        "es-es-casos",
+        "es-es-content-hub",
+        "es-es-eventos",
+        "es-es-noticias",
+        "es-es-podcasts",
+        "es-es-whitepapers"
+      ]
+    },
+    "microsite": {
+      "status": "pending",
+      "kind": "render",
+      "templates": [
+        "microsite"
+      ],
+      "pages": 6,
+      "slugs": [
+        "es-es-la-empresa-inteligente-crecer",
+        "es-es-la-empresa-inteligente-liderar",
+        "es-es-la-empresa-inteligente-modelo-operativo",
+        "es-es-la-empresa-inteligente-organizar",
+        "es-es-la-empresa-inteligente",
+        "the-intelligent-enterprise"
+      ]
+    },
+    "static": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "static"
+      ],
+      "pages": 3,
+      "slugs": [
+        "es-es-politica-de-cookies",
+        "es-es-politica-privacidad",
+        "fabric-real-time-intelligence"
+      ],
+      "endedAt": "2026-11-13T18:07:22.998Z",
+      "verdict": "static render: 3/3 rendered sibling tier from the aviso-legal encoder, deployed and live"
+    },
+    "whitepaper-1": {
+      "status": "pending",
+      "kind": "render",
+      "templates": [
+        "whitepaper"
+      ],
+      "pages": 7,
+      "slugs": [
+        "es-es-thread-magazine-edition-10-the-experience-loop",
+        "es-es-whitepapers-el-giro-hacia-la-ia",
+        "es-es-whitepapers-experiencias-inteligentes",
+        "es-es-whitepapers-fidelizacion-digital-sector-sanitario",
+        "es-es-whitepapers-guia-estrategica-salud-digital-optimizely-2026",
+        "es-es-whitepapers-infome-la-era-del-comercio-conversacional-2026",
+        "es-es-whitepapers-informe-tendencias-cliente-movilidad-2026"
+      ]
+    },
+    "whitepaper-2": {
+      "status": "pending",
+      "kind": "render",
+      "templates": [
+        "whitepaper"
+      ],
+      "pages": 6,
+      "slugs": [
+        "es-es-whitepapers-la-era-agentica-tendencias-de-la-ia-empresarial-2026",
+        "es-es-whitepapers-la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software",
+        "es-es-whitepapers-la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026",
+        "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2025",
+        "es-es-whitepapers-retail-en-la-encrucijada-2026",
+        "es-es-whitepapers-transformar-los-servicios-financieros-la-inteligencia-a-gran-escala"
+      ]
+    },
+    "landing": {
+      "status": "pending",
+      "kind": "render",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "slugs": [
+        "es-es"
+      ]
+    },
+    "report": {
+      "status": "pending",
+      "kind": "report",
+      "templates": [],
+      "pages": 100
+    }
+  }
+}

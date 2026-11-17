@@ -1,0 +1,61 @@
+{
+  "a": "stardust/replica/gates/prototypes-360/es-es-aviso-legal/origin.png",
+  "b": "stardust/replica/gates/prototypes-360/es-es-aviso-legal/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3191,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 1,
+  "pct": 0,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/prototypes-360/es-es-aviso-legal/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3191,
+      "pct": 0
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "http://localhost:8791/es-es-aviso-legal-proposed.html"
+  }
+}

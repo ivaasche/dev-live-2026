@@ -1,0 +1,1981 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-13T14:20:59.164Z",
+  "tol": 4,
+  "n": 6,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/es-es/la-empresa-inteligente/operar/",
+  "at": "2026-11-13T14:20:36.856Z",
+  "docH": 8040
+ },
+ "eds": {
+  "url": "http://localhost:8791/es-es-la-empresa-inteligente-operar-proposed.html",
+  "at": "2026-11-13T14:20:58.984Z",
+  "docH": 8041
+ },
+ "results": [
+  {
+   "sel": ".features-showcase__item=.features-showcase__item",
+   "family": "microsite-features-showcase-item",
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 40,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 40,
+        "h": 48,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "heading:monitorización inteligente del rendimien",
+       "role": "heading",
+       "text": "monitorización inteligente del rendimiento y la disponibilid",
+       "edsText": "monitorización inteligente del rendimiento y la disponibilid",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 115
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 115,
+        "sel": "h3.features-showcase__item__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/300",
+        "eds": "24/29/300"
+       }
+      },
+      {
+       "key": "text:con clasificación de incidencias y análi",
+       "role": "text",
+       "text": "con clasificación de incidencias y análisis de causa raíz im",
+       "edsText": "con clasificación de incidencias y análisis de causa raíz im",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 187,
+        "w": 275,
+        "h": 120
+       },
+       "eds": {
+        "x": 0,
+        "y": 187,
+        "w": 275,
+        "h": 120,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 69,
+       "y": 786,
+       "w": 275,
+       "h": 307
+      },
+      "eds": {
+       "x": 69,
+       "y": 786,
+       "w": 275,
+       "h": 307
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "heading:reducir los costes de mantenimiento de a",
+       "role": "heading",
+       "text": "reducir los costes de mantenimiento de aplicaciones",
+       "edsText": "reducir los costes de mantenimiento de aplicaciones",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 86
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 86,
+        "sel": "h3.features-showcase__item__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/300",
+        "eds": "24/29/300"
+       }
+      },
+      {
+       "key": "text:los análisis automatizados de parches y ",
+       "role": "text",
+       "text": "los análisis automatizados de parches y dependencias mantien",
+       "edsText": "los análisis automatizados de parches y dependencias mantien",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 158,
+        "w": 275,
+        "h": 96
+       },
+       "eds": {
+        "x": 0,
+        "y": 158,
+        "w": 275,
+        "h": 96,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 69,
+       "y": 1131,
+       "w": 275,
+       "h": 254
+      },
+      "eds": {
+       "x": 69,
+       "y": 1131,
+       "w": 275,
+       "h": 254
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 69,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 69,
+        "h": 48,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "heading:reducir los costes de optimización",
+       "role": "heading",
+       "text": "reducir los costes de optimización",
+       "edsText": "reducir los costes de optimización",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58,
+        "sel": "h3.features-showcase__item__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/300",
+        "eds": "24/29/300"
+       }
+      },
+      {
+       "key": "text:los flujos de trabajo impulsados por ia ",
+       "role": "text",
+       "text": "los flujos de trabajo impulsados por ia reducen la carga de ",
+       "edsText": "los flujos de trabajo impulsados por ia reducen la carga de ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 96
+       },
+       "eds": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 96,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 69,
+       "y": 1422,
+       "w": 275,
+       "h": 226
+      },
+      "eds": {
+       "x": 69,
+       "y": 1422,
+       "w": 275,
+       "h": 226
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "heading:menos carga operativa y ciclos de lanzam",
+       "role": "heading",
+       "text": "menos carga operativa y ciclos de lanzamiento más rápidos",
+       "edsText": "menos carga operativa y ciclos de lanzamiento más rápidos",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 86
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 86,
+        "sel": "h3.features-showcase__item__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/300",
+        "eds": "24/29/300"
+       }
+      },
+      {
+       "key": "text:la ia basada en agentes en operaciones i",
+       "role": "text",
+       "text": "la ia basada en agentes en operaciones it puede supervisar i",
+       "edsText": "la ia basada en agentes en operaciones it puede supervisar i",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 158,
+        "w": 275,
+        "h": 144
+       },
+       "eds": {
+        "x": 0,
+        "y": 158,
+        "w": 275,
+        "h": 144,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 69,
+       "y": 1685,
+       "w": 275,
+       "h": 302
+      },
+      "eds": {
+       "x": 69,
+       "y": 1685,
+       "w": 275,
+       "h": 302
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "heading:reducir los costes de continuidad del ne",
+       "role": "heading",
+       "text": "reducir los costes de continuidad del negocio",
+       "edsText": "reducir los costes de continuidad del negocio",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 275,
+        "h": 58,
+        "sel": "h3.features-showcase__item__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/300",
+        "eds": "24/29/300"
+       }
+      },
+      {
+       "key": "text:las bases de conocimiento conversacional",
+       "role": "text",
+       "text": "las bases de conocimiento conversacionales y los agentes agi",
+       "edsText": "las bases de conocimiento conversacionales y los agentes agi",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 144
+       },
+       "eds": {
+        "x": 0,
+        "y": 130,
+        "w": 275,
+        "h": 144,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 69,
+       "y": 2024,
+       "w": 275,
+       "h": 274
+      },
+      "eds": {
+       "x": 69,
+       "y": 2024,
+       "w": 275,
+       "h": 274
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".related-cases__item=.related-cases__item",
+   "family": "microsite-related-case",
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.section__container.centralized > ul.related-cases__list > li.related-cases__item"
+     },
+     "eds": {
+      "path": "div.section__container.centralized > ul.related-cases__list > li.related-cases__item"
+     },
+     "rows": [
+      {
+       "key": "link:national veterinary associates",
+       "role": "link",
+       "text": "national veterinary associates",
+       "edsText": "national veterinary associates",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 328
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 328,
+        "sel": "a.related-cases__item-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:picture.related-cases__item__image-block--static#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 293
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 293,
+        "sel": "picture.related-cases__item__image-block--static",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:national veterinary associates",
+       "role": "image",
+       "text": "national veterinary associates",
+       "edsText": "national veterinary associates",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 293
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 293,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "box:div.related-cases__item-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 280,
+        "w": 328,
+        "h": 92
+       },
+       "eds": {
+        "x": 0,
+        "y": 267,
+        "w": 328,
+        "h": 92,
+        "sel": "div.related-cases__item-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": -13,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "heading:national veterinary associates",
+       "role": "heading",
+       "text": "national veterinary associates",
+       "edsText": "national veterinary associates",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 288,
+        "w": 266,
+        "h": 18
+       },
+       "eds": {
+        "x": 16,
+        "y": 275,
+        "w": 266,
+        "h": 18,
+        "sel": "h3.related-cases__item-title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": -13,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/20/300",
+        "eds": "20/20/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 3948,
+       "w": 328,
+       "h": 328
+      },
+      "eds": {
+       "x": 16,
+       "y": 3948,
+       "w": 328,
+       "h": 328
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 3,
+      "off": 2,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".podcast-speakers__info=.podcast-speakers__info",
+   "family": "microsite-speaker",
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.wrapper.section__container > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.wrapper.section__container > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 103,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 102,
+        "y": 0,
+        "w": 120,
+        "h": 120,
+        "sel": "img.podcast-speakers__image",
+        "role": "image"
+       },
+       "dx": -1,
+       "dy": 0,
+       "dw": 2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:gabriel laliberte",
+       "role": "text",
+       "text": "gabriel laliberte",
+       "edsText": "gabriel laliberte",
+       "byPosition": false,
+       "origin": {
+        "x": 96,
+        "y": 128,
+        "w": 132,
+        "h": 23
+       },
+       "eds": {
+        "x": 96,
+        "y": 128,
+        "w": 132,
+        "h": 23,
+        "sel": "div.podcast-speakers__name",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:evp, strategy",
+       "role": "text",
+       "text": "evp, strategy",
+       "edsText": "evp, strategy",
+       "byPosition": false,
+       "origin": {
+        "x": 114,
+        "y": 161,
+        "w": 96,
+        "h": 21
+       },
+       "eds": {
+        "x": 114,
+        "y": 161,
+        "w": 96,
+        "h": 21,
+        "sel": "div.podcast-speakers__company",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 147,
+        "y": 182,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 147,
+        "y": 182,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers__link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 149,
+        "y": 190,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 149,
+        "y": 190,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 18,
+       "y": 5152,
+       "w": 324,
+       "h": 227
+      },
+      "eds": {
+       "x": 18,
+       "y": 5153,
+       "w": 324,
+       "h": 227
+      },
+      "dx": 0,
+      "dy": 1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.wrapper.section__container > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.wrapper.section__container > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 103,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 102,
+        "y": 0,
+        "w": 120,
+        "h": 120,
+        "sel": "img.podcast-speakers__image",
+        "role": "image"
+       },
+       "dx": -1,
+       "dy": 0,
+       "dw": 2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:casper rasmussen",
+       "role": "text",
+       "text": "casper rasmussen",
+       "edsText": "casper rasmussen",
+       "byPosition": false,
+       "origin": {
+        "x": 85,
+        "y": 128,
+        "w": 153,
+        "h": 23
+       },
+       "eds": {
+        "x": 85,
+        "y": 128,
+        "w": 153,
+        "h": 23,
+        "sel": "div.podcast-speakers__name",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:director de transformación del grupo",
+       "role": "text",
+       "text": "director de transformación del grupo",
+       "edsText": "director de transformación del grupo",
+       "byPosition": false,
+       "origin": {
+        "x": 28,
+        "y": 161,
+        "w": 267,
+        "h": 21
+       },
+       "eds": {
+        "x": 28,
+        "y": 161,
+        "w": 267,
+        "h": 21,
+        "sel": "div.podcast-speakers__company",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 147,
+        "y": 182,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 147,
+        "y": 182,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers__link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 149,
+        "y": 190,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 149,
+        "y": 190,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 18,
+       "y": 5420,
+       "w": 324,
+       "h": 227
+      },
+      "eds": {
+       "x": 18,
+       "y": 5420,
+       "w": 324,
+       "h": 227
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.wrapper.section__container > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.wrapper.section__container > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 103,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 102,
+        "y": 0,
+        "w": 120,
+        "h": 120,
+        "sel": "img.podcast-speakers__image",
+        "role": "image"
+       },
+       "dx": -1,
+       "dy": 0,
+       "dw": 2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:matt redman",
+       "role": "text",
+       "text": "matt redman",
+       "edsText": "matt redman",
+       "byPosition": false,
+       "origin": {
+        "x": 108,
+        "y": 128,
+        "w": 108,
+        "h": 23
+       },
+       "eds": {
+        "x": 108,
+        "y": 128,
+        "w": 108,
+        "h": 23,
+        "sel": "div.podcast-speakers__name",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:svp, strategy",
+       "role": "text",
+       "text": "svp, strategy",
+       "edsText": "svp, strategy",
+       "byPosition": false,
+       "origin": {
+        "x": 114,
+        "y": 161,
+        "w": 95,
+        "h": 21
+       },
+       "eds": {
+        "x": 114,
+        "y": 161,
+        "w": 95,
+        "h": 21,
+        "sel": "div.podcast-speakers__company",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 147,
+        "y": 182,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 147,
+        "y": 182,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers__link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 149,
+        "y": 190,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 149,
+        "y": 190,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 18,
+       "y": 5687,
+       "w": 324,
+       "h": 227
+      },
+      "eds": {
+       "x": 18,
+       "y": 5687,
+       "w": 324,
+       "h": 227
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.wrapper.section__container > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "eds": {
+      "path": "div.wrapper.section__container > div.podcast-speakers__container > div.podcast-speakers__info"
+     },
+     "rows": [
+      {
+       "key": "image:img.podcast-speakers__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 103,
+        "y": 0,
+        "w": 118,
+        "h": 120
+       },
+       "eds": {
+        "x": 102,
+        "y": 0,
+        "w": 120,
+        "h": 120,
+        "sel": "img.podcast-speakers__image",
+        "role": "image"
+       },
+       "dx": -1,
+       "dy": 0,
+       "dw": 2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:kristoffer nielsen-refs",
+       "role": "text",
+       "text": "kristoffer nielsen-refs",
+       "edsText": "kristoffer nielsen-refs",
+       "byPosition": false,
+       "origin": {
+        "x": 72,
+        "y": 128,
+        "w": 180,
+        "h": 23
+       },
+       "eds": {
+        "x": 72,
+        "y": 128,
+        "w": 180,
+        "h": 23,
+        "sel": "div.podcast-speakers__name",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/300",
+        "eds": "18/0/300"
+       }
+      },
+      {
+       "key": "text:vp, strategy & consulting",
+       "role": "text",
+       "text": "vp, strategy & consulting",
+       "edsText": "vp, strategy & consulting",
+       "byPosition": false,
+       "origin": {
+        "x": 71,
+        "y": 161,
+        "w": 181,
+        "h": 21
+       },
+       "eds": {
+        "x": 71,
+        "y": 161,
+        "w": 181,
+        "h": 21,
+        "sel": "div.podcast-speakers__company",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/300",
+        "eds": "16/0/300"
+       }
+      },
+      {
+       "key": "link:a.podcast-speakers__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 147,
+        "y": 182,
+        "w": 26,
+        "h": 37
+       },
+       "eds": {
+        "x": 147,
+        "y": 182,
+        "w": 26,
+        "h": 37,
+        "sel": "a.podcast-speakers__link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 149,
+        "y": 190,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 149,
+        "y": 190,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/300",
+        "eds": "16/22/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 18,
+       "y": 5954,
+       "w": 324,
+       "h": 227
+      },
+      "eds": {
+       "x": 18,
+       "y": 5955,
+       "w": 324,
+       "h": 227
+      },
+      "dx": 0,
+      "dy": 1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".featured-verticals-block__item.is-selected=.featured-verticals-block__item.is-selected",
+   "family": "microsite-featured-verticals-item",
+   "required": true,
+   "originMatches": 1,
+   "edsMatches": 1,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.flickity-viewport > div.flickity-slider > div.featured-verticals-block__item.is-selected"
+     },
+     "eds": {
+      "path": "div.featured-verticals-block__viewport > div.featured-verticals-block__track > div.featured-verticals-block__item.is-selected"
+     },
+     "rows": [
+      {
+       "key": "image:img.featured-verticals-block__item__image#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": -1,
+        "y": -1,
+        "w": 268,
+        "h": 268
+       },
+       "eds": {
+        "x": -1,
+        "y": -1,
+        "w": 268,
+        "h": 268,
+        "sel": "img.featured-verticals-block__item__image",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": -1,
+        "w": 266,
+        "h": 268
+       },
+       "eds": {
+        "x": 0,
+        "y": -1,
+        "w": 266,
+        "h": 268,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:metodología",
+       "role": "text",
+       "text": "metodología",
+       "edsText": "metodología",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 326,
+        "w": 101,
+        "h": 23
+       },
+       "eds": {
+        "x": 0,
+        "y": 326,
+        "w": 101,
+        "h": 23,
+        "sel": "span.featured-verticals-block__item__pretitle",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/0/400",
+        "eds": "18/0/400"
+       }
+      },
+      {
+       "key": "heading:modelo operativo inteligente",
+       "role": "heading",
+       "text": "modelo operativo inteligente",
+       "edsText": "modelo operativo inteligente",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 349,
+        "w": 266,
+        "h": 77
+       },
+       "eds": {
+        "x": 0,
+        "y": 349,
+        "w": 266,
+        "h": 77,
+        "sel": "h3.featured-verticals-block__item__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "32/38/350",
+        "eds": "32/38/350"
+       }
+      },
+      {
+       "key": "text:nuestro enfoque de transformación del mo",
+       "role": "text",
+       "text": "nuestro enfoque de transformación del modelo operativo con i",
+       "edsText": "nuestro enfoque de transformación del modelo operativo con i",
+       "byPosition": false,
+       "origin": {
+        "x": 2,
+        "y": 442,
+        "w": 264,
+        "h": 112
+       },
+       "eds": {
+        "x": 2,
+        "y": 442,
+        "w": 264,
+        "h": 112,
+        "sel": "p.featured-verticals-block__item__text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      },
+      {
+       "key": "link:nuestro enfoque",
+       "role": "link",
+       "text": "nuestro enfoque",
+       "edsText": "nuestro enfoque",
+       "byPosition": false,
+       "origin": {
+        "x": 2,
+        "y": 570,
+        "w": 186,
+        "h": 49
+       },
+       "eds": {
+        "x": 2,
+        "y": 570,
+        "w": 186,
+        "h": 49,
+        "sel": "a.featured-verticals-block__item__link.btn--white",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/21/400",
+        "eds": "18/21/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 4396,
+       "w": 266,
+       "h": 619
+      },
+      "eds": {
+       "x": 16,
+       "y": 4396,
+       "w": 266,
+       "h": 619
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".iehub-nav__item=.iehub-nav__item",
+   "family": "microsite-iehub-nav-item",
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.section.iehub-nav > nav.section__container.iehub-nav__container > a.btn--white.iehub-nav__item"
+     },
+     "eds": {
+      "path": "div.section.iehub-nav > nav.section__container.iehub-nav__container > a.btn--white.iehub-nav__item"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 41,
+       "y": 832,
+       "w": 278,
+       "h": 56
+      },
+      "eds": {
+       "x": 41,
+       "y": 832,
+       "w": 278,
+       "h": 56
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 12,
+  "within": 44,
+  "off": 2,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 2
+ }
+}

@@ -1,0 +1,30 @@
+
+Content diff @ 1440px (profile "generic", roots: main.site-content, header, footer)
+root "main.site-content"
+  source: 353 text nodes — 8 headings, 0 eyebrows, 6 CTAs, 339 body; 3 img
+  build: 353 text nodes — 8 headings, 0 eyebrows, 6 CTAs, 339 body; 3 img
+  editable texts (outermost h*/p/ul/ol): source 24 / build 24
+  attributes (placeholder/aria-label/title): source 9 / build 17; icons: source 2 / build 4
+root "header"
+  source: 1 text nodes — 1 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 1 text nodes — 1 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root "footer"
+  source: 11 text nodes — 0 headings, 0 eyebrows, 10 CTAs, 1 body; 2 img
+  build: 11 text nodes — 0 headings, 0 eyebrows, 10 CTAs, 1 body; 2 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 2
+  attributes (placeholder/aria-label/title): source 7 / build 7; icons: source 8 / build 8
+
+Findings: 10 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 10
+  🟡 EXTRA ARIA-LABEL [main.site-content]: build <button> aria-label="Previous" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main.site-content]: build <button> aria-label="Next" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main.site-content]: build <li> aria-label="Slide 1" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main.site-content]: build <li> aria-label="Slide 2" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main.site-content]: build <li> aria-label="Slide 3" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main.site-content]: build <li> aria-label="Slide 4" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main.site-content]: build <button> aria-label="Previous" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main.site-content]: build <button> aria-label="Next" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ICON [main.site-content]: build inline svg 0 0 100 100 / 1 shape(s) (0×0) at "previous" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main.site-content]: build inline svg 0 0 100 100 / 1 shape(s) (0×0) at "next" has no source source. Build-only icon — confirm it is intended.

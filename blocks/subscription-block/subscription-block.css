@@ -1,0 +1,124 @@
+/* subscription-block — source main.css @400619–402710 + .button / .button--secondary */
+.subscription-block .subscription-block-inner {
+  background: var(--c-ocean);
+  color: #fff;
+}
+
+@media (width >= 64rem) {
+  .subscription-block .subscription-block-inner {
+    margin-right: var(--side-col);
+  }
+}
+
+@media (width >= 120.001rem) {
+  .subscription-block .subscription-block-inner {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 84vw;
+  }
+}
+
+.subscription-block.dark .subscription-block-inner {
+  background: #000;
+}
+
+.subscription-block.white .subscription-block-inner {
+  background: #fff;
+  color: #000;
+}
+
+.subscription-block.off-white .subscription-block-inner {
+  background: var(--c-canvas);
+  color: #000;
+}
+
+.subscription-block .subscription-block-band {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+}
+
+@media (width >= 58.75rem) {
+  .subscription-block .subscription-block-band {
+    padding-bottom: 7.5rem;
+    padding-top: 7.5rem;
+  }
+}
+
+.subscription-block .subscription-block-title {
+  color: inherit;
+  font-family: var(--font-display);
+  font-size: 3vw;
+  font-weight: 300;
+  line-height: 1.16;
+  margin: 0 auto 2rem;
+  max-width: 78ch;
+}
+
+@media (width <= 800px) {
+  .subscription-block .subscription-block-title {
+    font-size: 24px;
+  }
+}
+
+@media (width >= 1200px) {
+  .subscription-block .subscription-block-title {
+    font-size: 36px;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .subscription-block .subscription-block-title {
+    line-height: 1.33;
+  }
+}
+
+.subscription-block .subscription-block-action {
+  margin: 0;
+}
+
+.subscription-block .subscription-block-button {
+  align-items: center;
+  background-color: var(--c-ocean);
+  border: 2px solid var(--c-ocean);
+  border-radius: 6.25rem;
+  box-shadow: inset 0 0 0 2px #fff;
+  color: #fff;
+  display: inline-flex;
+  font-family: var(--font-sans);
+  font-size: 1.25rem;
+  font-weight: 300;
+  justify-content: center;
+  line-height: 1.2;
+  margin: 0;
+  max-width: 25rem;
+  min-width: 190px;
+  overflow: hidden;
+  padding: 0.875rem 2.5rem;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  white-space: normal;
+}
+
+@media (width <= 58.749rem) {
+  .subscription-block .subscription-block-button {
+    font-size: 1.125rem;
+    max-width: 100%;
+    padding: 1rem 2.5rem;
+  }
+}
+
+.subscription-block.white .subscription-block-button,
+.subscription-block.off-white .subscription-block-button {
+  background-color: #000;
+  border-color: #000;
+  box-shadow: none;
+}
+
+.subscription-block.dark .subscription-block-button {
+  background-color: #000;
+  border-color: #000;
+}

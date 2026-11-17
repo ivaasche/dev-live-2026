@@ -1,0 +1,108 @@
+{
+ "type": "static",
+ "slug": "es-es-aviso-legal",
+ "liveUrl": "https://www.valtech.com/es-es/aviso-legal/",
+ "prototype": "stardust/prototypes/es-es-aviso-legal-proposed.html",
+ "css": [
+  "stardust/prototypes/css/canon.css",
+  "stardust/prototypes/css/static.css"
+ ],
+ "js": [
+  "stardust/prototypes/js/chrome.js"
+ ],
+ "regime": "prototype",
+ "iterations": {
+  "360": 2,
+  "1440": 2
+ },
+ "gates": {
+  "360": {
+   "pixel": "0.00%",
+   "heightDelta": 0,
+   "contentDiff": "0 🔴 · 0 nothing-lost 🟡",
+   "visualDiff": "1 advisory flag, justified (IMAGERY GAP 5 vs 1: the 4 extra live images are ads.twitter adsct tracking pixels; the 1 real image, the footer badge, is present)",
+   "clip": 0,
+   "overflow": "ok",
+   "chromeParity": "✓",
+   "chromeCrops": "not run — full page 0.01%/0.00% with chrome-parity ✓",
+   "units": "n/a (no repeated-unit family)",
+   "evidence": "stardust/replica/gates/es-es-aviso-legal-360/verdict-iter2.json"
+  },
+  "1440": {
+   "pixel": "0.01%",
+   "heightDelta": 0,
+   "contentDiff": "0 🔴 · 0 nothing-lost 🟡",
+   "visualDiff": "1 advisory flag, justified (IMAGERY GAP 5 vs 1: the 4 extra live images are ads.twitter adsct tracking pixels; the 1 real image, the footer badge, is present)",
+   "clip": 0,
+   "overflow": "ok",
+   "chromeParity": "✓",
+   "chromeCrops": "not run — full page 0.01%/0.00% with chrome-parity ✓",
+   "units": "n/a (no repeated-unit family)",
+   "evidence": "stardust/replica/gates/es-es-aviso-legal-1440/verdict-iter2.json"
+  }
+ },
+ "capProbe": "PASS (2560: 0 of 4 rows failed — stardust/replica/gates/es-es-aviso-legal-2560/cap-iter.json)",
+ "residuals": [],
+ "captureState": [
+  {
+   "zone": "contact band (Marketo form 7474, #contact-us-form)",
+   "gate": "rendered statically in its post-load state via the canon contact-band markup (Spanish copy, same as the article archetype)",
+   "restoreAtDelivery": "Marketo forms2 embed of form 7474 (munchkin 353-SAE-487) + contact band reveal",
+   "implementedInPrototype": false
+  }
+ ],
+ "liftNotes": [
+  "chrome (head slopes, Spanish nav, side tab Contáctanos, contact band 7474, footer, modals) taken verbatim from the gated article prototype; side tab and contact band verified present in the live capture (stardust/current/pages/es-es-aviso-legal.html)",
+  "main re-authored from the page capture: breadcrumbs (Inicio / Aviso Legal), masthead-big-title h1, one rte-block of h4/p rich text; the mailto link carries the live title attribute (content-diff MISSING TITLE advisory iter1)",
+  "static.css lifted from main.css in source order: masthead-big-title @77492–78071 (84vw container ≥940, 2.5rem/6.25rem 7.5rem padding, 5vw title clamped 30px ≤600 / 80px ≥1600), .text-content h4 margin-bottom .4em @33109, p/ol/ul + h4 margin-top 3.75rem @33453; breadcrumbs (nbsp separator @306548)/utilities/text-content/rte-block re-declared from the same rules as whitepaper.css",
+  "img/static-sprite.svg = copy of img/article-sprite.svg (icon-linkedin for the /es-es/ footer, pending the canon sprite request)"
+ ],
+ "motion": {
+  "observed": [
+   "header ready-to-fixed-menu / fixed-menu on scroll (transform .3s)",
+   "contact band: .played reveal and Marketo hydration classes (mktoForm, convertedField, mkto-input-group, singleCol, control-checkbox, visible-label, hide, btn--white) with 1 s opacity/visibility fade-in",
+   "hover .rte-block a: no measured diff on live"
+  ],
+  "implemented": [
+   "header morph (chrome.js) — parity"
+  ],
+  "dead": [
+   "contact-band .played / Marketo hydration classes and 1 s fade-in — chrome-owned, static band rendered in its end state (same as article)",
+   "rte link hover (no measured hover diff on live)",
+   "#progressBar reading progress (stays .hide)"
+  ]
+ },
+ "blocks": [
+  {
+   "section": "nav.site-nav + side tab + modals",
+   "block": "header (fragment)",
+   "variant": "es"
+  },
+  {
+   "section": "div.site-breadcrumbs",
+   "block": "breadcrumbs",
+   "variant": "default"
+  },
+  {
+   "section": "section.masthead-big-title",
+   "block": "hero",
+   "variant": "big-title (centred h1, no media)"
+  },
+  {
+   "section": "section.rte-block",
+   "block": "default content (section metadata: rte)",
+   "variant": "text-content"
+  },
+  {
+   "section": "div.contact-us-form",
+   "block": "contact-form (marketo-form)",
+   "variant": "band (es, form 7474)"
+  },
+  {
+   "section": "footer.site-footer",
+   "block": "footer (fragment)",
+   "variant": "es"
+  }
+ ],
+ "verdict": "pass"
+}

@@ -1,0 +1,251 @@
+/* stylelint-disable no-descending-specificity -- the source cascade order is lifted verbatim */
+
+/* tile-images — main.css @157053–160686, values verbatim (BEM -> kebab-case; the
+   root modifier --<n> is the tile-images-<n> class the block JS sets from the tile count) */
+
+.tile-images {
+  margin: 0 0 2.5rem;
+  padding: 0 1.5rem;
+}
+
+@media (width >= 58.75rem) {
+  .tile-images {
+    margin: 0 auto 5rem;
+    max-width: 84vw;
+    padding: 0;
+  }
+}
+
+.tile-images .tile-images-title {
+  color: #111;
+  font-size: 1.75rem;
+  margin: 0 0 1rem;
+}
+
+@media (width >= 58.75rem) {
+  .tile-images .tile-images-title {
+    font-size: 3rem;
+    margin: 0 0 2rem;
+  }
+}
+
+.tile-images .tile-images-text {
+  color: #000;
+  font-size: .875rem;
+  margin: 0 0 1rem;
+}
+
+@media (width >= 58.75rem) {
+  .tile-images .tile-images-text {
+    font-size: 1.5rem;
+    margin: 0 0 2rem;
+  }
+}
+
+.tile-images .tile-images-images-list {
+  display: grid;
+  list-style: none;
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+}
+
+.tile-images .tile-images-images-item {
+  overflow: hidden;
+  padding-bottom: 55%;
+  position: relative;
+}
+
+.tile-images .tile-images-images-item-img {
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.tile-images.tile-images-2 .tile-images-images-list {
+  row-gap: 1rem;
+}
+
+@media (width >= 58.75rem) {
+  .tile-images.tile-images-2 .tile-images-images-list {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.25rem;
+  }
+}
+
+.tile-images.tile-images-2 .tile-images-images-item {
+  padding-bottom: 55%;
+}
+
+@media (width >= 58.75rem) {
+  .tile-images.tile-images-2 .tile-images-images-item {
+    padding-bottom: 55.8%;
+  }
+}
+
+.tile-images.tile-images-3 .tile-images-images-list {
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+@media (width >= 58.75rem) {
+  .tile-images.tile-images-3 .tile-images-images-list {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0 1.25rem;
+  }
+}
+
+.tile-images.tile-images-3 .tile-images-images-item {
+  grid-column: span 2;
+  padding-bottom: 100%;
+}
+
+.tile-images.tile-images-3 .tile-images-images-item+.tile-images-images-item {
+  grid-column: span 1;
+}
+
+@media (width >= 58.75rem) {
+  .tile-images.tile-images-3 .tile-images-images-item {
+    grid-column: span 1;
+    padding-bottom: 100%;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .tile-images.tile-images-3 .tile-images-images-item+.tile-images-images-item {
+    grid-column: span 1;
+  }
+}
+
+.tile-images.tile-images-4 .tile-images-images-list {
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+@media (width >= 58.75rem) {
+  .tile-images.tile-images-4 .tile-images-images-list {
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.25rem;
+  }
+}
+
+.tile-images.tile-images-4 .tile-images-images-item {
+  grid-column: span 2;
+  padding-bottom: 56%;
+}
+
+.tile-images.tile-images-4 .tile-images-images-item:nth-child(n+3) {
+  grid-column: span 1;
+  padding-bottom: 100%;
+}
+
+@media (width >= 58.75rem) {
+  .tile-images.tile-images-4 .tile-images-images-item {
+    grid-column: auto;
+    grid-row: 1;
+    padding-bottom: 47.4%;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .tile-images.tile-images-4 .tile-images-images-item:nth-child(n+2) {
+    grid-row: 2;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .tile-images.tile-images-4 .tile-images-images-item:nth-child(n+3) {
+    grid-column: auto;
+    grid-row: span 2;
+    padding-bottom: 100%;
+  }
+}
+
+.tile-images.tile-images-5 .tile-images-images-list {
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+@media (width >= 58.75rem) {
+  .tile-images.tile-images-5 .tile-images-images-list {
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.25rem;
+  }
+}
+
+.tile-images.tile-images-5 .tile-images-images-item {
+  grid-column: span 1;
+  padding-bottom: 55%;
+}
+
+.tile-images.tile-images-5 .tile-images-images-item:nth-child(3) {
+  grid-column: span 2;
+  padding-bottom: 100%;
+}
+
+@media (width >= 58.75rem) {
+  .tile-images.tile-images-5 .tile-images-images-item {
+    grid-column: auto;
+    grid-row: 1;
+    padding-bottom: 100%;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .tile-images.tile-images-5 .tile-images-images-item:nth-child(n+2) {
+    grid-row: 2;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .tile-images.tile-images-5 .tile-images-images-item:nth-child(3) {
+    grid-column: 2;
+    grid-row: span 2;
+    padding-bottom: 47.4%;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .tile-images.tile-images-5 .tile-images-images-item:nth-child(4) {
+    grid-column: 3;
+    grid-row: span 1;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .tile-images.tile-images-5 .tile-images-images-item:nth-child(5) {
+    grid-column: 3;
+    grid-row: 2;
+  }
+}
+
+.tile-images.tile-images-6 .tile-images-images-list {
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+@media (width >= 58.75rem) {
+  .tile-images.tile-images-6 .tile-images-images-list {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.25rem;
+  }
+}
+
+.tile-images.tile-images-6 .tile-images-images-item {
+  padding-bottom: 55%;
+}
+
+@media (width >= 58.75rem) {
+  .tile-images.tile-images-6 .tile-images-images-item {
+    padding-bottom: 47.4%;
+  }
+}
+
+/* EDS wraps the img in a <picture>: the source img is the absolutely positioned child of
+   the item, the picture box must not take part in the padding-ratio layout */
+.tile-images .tile-images-images-item picture {
+  display: contents;
+}

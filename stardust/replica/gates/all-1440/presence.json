@@ -1,0 +1,26 @@
+{
+  "index": {
+    "variable": [
+      ".hero-block__content=.hero-block-content"
+    ],
+    "reason": "hero carousel autoplays every 6 s on both sides (source flickity autoPlay 6000; delivered per progress.json types.landing captureState restoreAtDelivery): which slide's heading/link is visible at probe time is time-variable — progress.json types.landing residuals[0] (nondeterministic, permanent). Counts only; HIDDEN still counts."
+  },
+  "es-es-podcasts": {
+    "variable": [
+      ".js-flickity-teaser=.teaser-block-container"
+    ],
+    "reason": "session-variable region: the source server shuffles teasers 3-7 of the \"Centro de Contenidos\" row on every request (three consecutive fetches of /es-es/podcasts/ returned three different orders; only the first two are fixed) - which two random teasers are visible at probe time is nondeterministic; the delivered row is the snapshot taken at render. Counts only; HIDDEN still counts."
+  },
+  "es-es": {
+    "variable": [
+      ".hero-block__content=.hero-block-content"
+    ],
+    "reason": "landing sibling of index: same hero carousel (5 slides, source flickity autoPlay 6000, delivered per progress.json types.landing captureState restoreAtDelivery) - which slide's heading/link is visible at probe time is time-variable on both sides (archetype residual, nondeterministic). Counts only; HIDDEN still counts."
+  },
+  "es-es-carrera": {
+    "variable": [
+      ".jobs__list=.jobs-list"
+    ],
+    "reason": "live job feed: the source jobs list (div.jobs, data-testid career-job-list) renders the latest 4 open positions from the ATS on every request — the captured snapshot (Copywriter / Technical Delivery Manager / Software Test Engineer / Salesforce Marketing Cloud Developer) already differed from the live list at gate time (Senior Performance Media Manager / Lead Product Manager ×2 / Copywriter). Which jobs are listed is time-variable; the delivered list is the capture snapshot. Counts only; HIDDEN still counts."
+  }
+}

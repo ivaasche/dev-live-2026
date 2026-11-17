@@ -1,0 +1,3639 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-11-13T13:33:32.260Z",
+    "urls": [
+      "https://www.valtech.com/ai-searchandizing-workshop/",
+      "http://localhost:8791/ai-searchandizing-workshop-proposed.html"
+    ],
+    "widths": [
+      1440,
+      360
+    ],
+    "selectors": [
+      ".site-breadcrumbs",
+      ".masthead-primary",
+      ".masthead-primary__hgroup__title",
+      ".masthead-primary__lead",
+      ".rte-block",
+      ".results-statistics-block",
+      ".podcast-speakers",
+      ".podcast-speakers__info",
+      ".marketo-form-block",
+      "form",
+      "input#FirstName",
+      "select#Lead_title__c",
+      "textarea",
+      ".mkto-form__check label",
+      ".mktoCheckboxList label",
+      ".mkto-form__buttons",
+      ".mktoButtonRow",
+      ".site-footer",
+      ".mkto-form__row",
+      ".mktoFormRow"
+    ],
+    "props": [
+      "display",
+      "position",
+      "boxSizing",
+      "width",
+      "height",
+      "maxWidth",
+      "margin",
+      "padding",
+      "gap",
+      "backgroundColor",
+      "backgroundImage",
+      "color",
+      "fontFamily",
+      "fontSize",
+      "fontWeight",
+      "lineHeight",
+      "letterSpacing",
+      "textTransform",
+      "textAlign",
+      "borderRadius",
+      "border",
+      "boxShadow",
+      "opacity",
+      "objectFit"
+    ],
+    "allMatches": false,
+    "failed": [],
+    "warnings": []
+  },
+  "widths": [
+    1440,
+    360
+  ],
+  "selectors": [
+    ".site-breadcrumbs",
+    ".masthead-primary",
+    ".masthead-primary__hgroup__title",
+    ".masthead-primary__lead",
+    ".rte-block",
+    ".results-statistics-block",
+    ".podcast-speakers",
+    ".podcast-speakers__info",
+    ".marketo-form-block",
+    "form",
+    "input#FirstName",
+    "select#Lead_title__c",
+    "textarea",
+    ".mkto-form__check label",
+    ".mktoCheckboxList label",
+    ".mkto-form__buttons",
+    ".mktoButtonRow",
+    ".site-footer",
+    ".mkto-form__row",
+    ".mktoFormRow"
+  ],
+  "root": {
+    "https://www.valtech.com/ai-searchandizing-workshop/": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "scrollHeight": 5499,
+        "overflowX": 0
+      },
+      "1440": {
+        "viewport": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 4953,
+        "overflowX": 0
+      }
+    },
+    "http://localhost:8791/ai-searchandizing-workshop-proposed.html": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "scrollHeight": 5504,
+        "overflowX": 0
+      },
+      "1440": {
+        "viewport": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 4953,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "https://www.valtech.com/ai-searchandizing-workshop/": {
+      "360": {
+        ".site-breadcrumbs": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 67,
+              "w": 360,
+              "h": 54
+            },
+            "visible": true,
+            "text": "home ai product discovery workshop",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "54.3906px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "8px 0px 24px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".masthead-primary": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 121,
+              "w": 360,
+              "h": 389
+            },
+            "visible": true,
+            "text": "AI Product Discovery Workshop Accelerat…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "389.438px",
+              "maxWidth": "none",
+              "margin": "0px 0px 40px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".masthead-primary__hgroup__title": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 46,
+              "y": 329,
+              "w": 269,
+              "h": 55
+            },
+            "visible": true,
+            "text": "AI Product Discovery Workshop",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "268.812px",
+              "height": "55px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "ValtechNeue, sans-serif",
+              "fontSize": "25px",
+              "fontWeight": "300",
+              "lineHeight": "27.5px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".masthead-primary__lead": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 46,
+              "y": 404,
+              "w": 269,
+              "h": 67
+            },
+            "visible": true,
+            "text": "Accelerate your commerce strategy with …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "268.812px",
+              "height": "67.1719px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(102, 102, 102)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "300",
+              "lineHeight": "24px",
+              "letterSpacing": "-1px",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(102, 102, 102)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".rte-block": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 0,
+              "y": 551,
+              "w": 360,
+              "h": 674
+            },
+            "visible": true,
+            "text": "Download now If they can’t find it, the…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "673.641px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".results-statistics-block": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1264,
+              "w": 360,
+              "h": 348
+            },
+            "visible": true,
+            "text": "80% of customers are more likely to pur…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "348px",
+              "maxWidth": "none",
+              "margin": "40px 0px 0px",
+              "padding": "0px 24px 40px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".podcast-speakers": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2862,
+              "w": 360,
+              "h": 589
+            },
+            "visible": true,
+            "text": "Our experts Raphaël Iscar​ Head of Expe…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "589.375px",
+              "maxWidth": "none",
+              "margin": "40px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".podcast-speakers__info": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 24,
+              "y": 2935,
+              "w": 312,
+              "h": 248
+            },
+            "visible": true,
+            "text": "Raphaël Iscar​ Head of Experience & Com…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "312px",
+              "height": "248.391px",
+              "maxWidth": "345px",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".marketo-form-block": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 3598,
+              "w": 360,
+              "h": 1165
+            },
+            "visible": true,
+            "text": "* Fields marked with an asterisk are ma…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "1165.17px",
+              "maxWidth": "none",
+              "margin": "0px 0px 20px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "form": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 22,
+              "y": 3598,
+              "w": 317,
+              "h": 1165
+            },
+            "visible": true,
+            "text": "* Fields marked with an asterisk are ma…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "316.812px",
+              "height": "1165.17px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "input#FirstName": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 22,
+              "y": 3700,
+              "w": 317,
+              "h": 38
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "316.812px",
+              "height": "38px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "6px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "select#Lead_title__c": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 22,
+              "y": 3836,
+              "w": 317,
+              "h": 38
+            },
+            "visible": true,
+            "text": "CDO CEO CFO CIO CMO COO CTO Executive L…",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "316.812px",
+              "height": "38px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "6px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "textarea": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 22,
+              "y": 4218,
+              "w": 317,
+              "h": 180
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "316.812px",
+              "height": "180px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "10px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "1px solid rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".mkto-form__check label": [],
+        ".mktoCheckboxList label": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 48,
+              "y": 4432,
+              "w": 291,
+              "h": 106
+            },
+            "visible": true,
+            "text": "I accept to receive relevant news and m…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "290.812px",
+              "height": "106.391px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".mkto-form__buttons": [],
+        ".mktoButtonRow": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 22,
+              "y": 4694,
+              "w": 317,
+              "h": 69
+            },
+            "visible": true,
+            "text": "Send request",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "316.812px",
+              "height": "69px",
+              "maxWidth": "none",
+              "margin": "30px 0px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".site-footer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 4783,
+              "w": 360,
+              "h": 716
+            },
+            "visible": true,
+            "text": "Home About Offices Who We Are Privacy N…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "716px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".mkto-form__row": [],
+        ".mktoFormRow": [
+          {
+            "index": 0,
+            "of": 15,
+            "rect": {
+              "x": 2,
+              "y": 3598,
+              "w": 357,
+              "h": 72
+            },
+            "visible": true,
+            "text": "* Fields marked with an asterisk are ma…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "356.812px",
+              "height": "72px",
+              "maxWidth": "none",
+              "margin": "0px -20px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ]
+      },
+      "1440": {
+        ".site-breadcrumbs": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 65,
+              "w": 1440,
+              "h": 86
+            },
+            "visible": true,
+            "text": "home ai product discovery workshop",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "86.3906px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "24px 0px 40px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".masthead-primary": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 151,
+              "w": 1440,
+              "h": 678
+            },
+            "visible": true,
+            "text": "AI Product Discovery Workshop Accelerat…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "678.234px",
+              "maxWidth": "none",
+              "margin": "0px 0px 40px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".masthead-primary__hgroup__title": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 93,
+              "y": 359,
+              "w": 526,
+              "h": 166
+            },
+            "visible": true,
+            "text": "AI Product Discovery Workshop",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "526.406px",
+              "height": "166.312px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "ValtechNeue, sans-serif",
+              "fontSize": "50.4px",
+              "fontWeight": "300",
+              "lineHeight": "55.44px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "right",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".masthead-primary__lead": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 198,
+              "y": 566,
+              "w": 421,
+              "h": 56
+            },
+            "visible": true,
+            "text": "Accelerate your commerce strategy with …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "421.125px",
+              "height": "56px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(102, 102, 102)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "28.8px",
+              "fontWeight": "300",
+              "lineHeight": "43.2px",
+              "letterSpacing": "-1px",
+              "textTransform": "none",
+              "textAlign": "right",
+              "borderRadius": "0px",
+              "border": "0px none rgb(102, 102, 102)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".rte-block": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 0,
+              "y": 870,
+              "w": 1440,
+              "h": 648
+            },
+            "visible": true,
+            "text": "Download now If they can’t find it, the…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "647.688px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".results-statistics-block": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1597,
+              "w": 1376,
+              "h": 276
+            },
+            "visible": true,
+            "text": "80% of customers are more likely to pur…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1376px",
+              "height": "276px",
+              "maxWidth": "none",
+              "margin": "80px 64px 64px 0px",
+              "padding": "0px 24px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".podcast-speakers": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 3097,
+              "w": 1376,
+              "h": 421
+            },
+            "visible": true,
+            "text": "Our experts Raphaël Iscar​ Head of Expe…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1376px",
+              "height": "421.234px",
+              "maxWidth": "none",
+              "margin": "80px 64px 80px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".podcast-speakers__info": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 24,
+              "y": 3189,
+              "w": 282,
+              "h": 329
+            },
+            "visible": true,
+            "text": "Raphaël Iscar​ Head of Experience & Com…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "282px",
+              "height": "329.391px",
+              "maxWidth": "400px",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".marketo-form-block": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 3730,
+              "w": 1440,
+              "h": 825
+            },
+            "visible": true,
+            "text": "* Fields marked with an asterisk are ma…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "824.781px",
+              "maxWidth": "none",
+              "margin": "0px 0px 80px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "form": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 315,
+              "y": 3730,
+              "w": 810,
+              "h": 825
+            },
+            "visible": true,
+            "text": "* Fields marked with an asterisk are ma…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "810px",
+              "height": "824.781px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "0.295244",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "input#FirstName": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 315,
+              "y": 3811,
+              "w": 385,
+              "h": 38
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "385px",
+              "height": "38px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "6px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "select#Lead_title__c": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 315,
+              "y": 3879,
+              "w": 385,
+              "h": 38
+            },
+            "visible": true,
+            "text": "CDO CEO CFO CIO CMO COO CTO Executive L…",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "385px",
+              "height": "38px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "6px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "textarea": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 315,
+              "y": 4125,
+              "w": 810,
+              "h": 180
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "810px",
+              "height": "180px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "10px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "1px solid rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".mkto-form__check label": [],
+        ".mktoCheckboxList label": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 341,
+              "y": 4339,
+              "w": 784,
+              "h": 43
+            },
+            "visible": true,
+            "text": "I accept to receive relevant news and m…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "784px",
+              "height": "43.3906px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".mkto-form__buttons": [],
+        ".mktoButtonRow": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 315,
+              "y": 4495,
+              "w": 810,
+              "h": 60
+            },
+            "visible": true,
+            "text": "Send request",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "810px",
+              "height": "60px",
+              "maxWidth": "none",
+              "margin": "30px 0px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".site-footer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 4635,
+              "w": 1440,
+              "h": 318
+            },
+            "visible": true,
+            "text": "Home About Offices Who We Are Privacy N…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "318px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 64px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".mkto-form__row": [],
+        ".mktoFormRow": [
+          {
+            "index": 0,
+            "of": 15,
+            "rect": {
+              "x": 295,
+              "y": 3730,
+              "w": 850,
+              "h": 51
+            },
+            "visible": true,
+            "text": "* Fields marked with an asterisk are ma…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "850px",
+              "height": "51px",
+              "maxWidth": "none",
+              "margin": "0px -20px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ]
+      }
+    },
+    "http://localhost:8791/ai-searchandizing-workshop-proposed.html": {
+      "360": {
+        ".site-breadcrumbs": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 67,
+              "w": 360,
+              "h": 54
+            },
+            "visible": true,
+            "text": "home ai product discovery workshop",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "54.3906px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "8px 0px 24px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".masthead-primary": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 121,
+              "w": 360,
+              "h": 394
+            },
+            "visible": true,
+            "text": "AI Product Discovery Workshop Accelerat…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "394.266px",
+              "maxWidth": "none",
+              "margin": "0px 0px 40px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".masthead-primary__hgroup__title": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 46,
+              "y": 329,
+              "w": 269,
+              "h": 55
+            },
+            "visible": true,
+            "text": "AI Product Discovery Workshop",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "268.812px",
+              "height": "55px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "ValtechNeue, LiberationFallback, sans-serif",
+              "fontSize": "25px",
+              "fontWeight": "300",
+              "lineHeight": "27.5px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".masthead-primary__lead": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 46,
+              "y": 404,
+              "w": 269,
+              "h": 72
+            },
+            "visible": true,
+            "text": "Accelerate your commerce strategy with …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "268.812px",
+              "height": "72px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(102, 102, 102)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "300",
+              "lineHeight": "24px",
+              "letterSpacing": "-1px",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(102, 102, 102)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".rte-block": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 0,
+              "y": 556,
+              "w": 360,
+              "h": 674
+            },
+            "visible": true,
+            "text": "Download now If they can’t find it, the…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "673.641px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".results-statistics-block": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1269,
+              "w": 360,
+              "h": 348
+            },
+            "visible": true,
+            "text": "80% of customers are more likely to pur…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "348px",
+              "maxWidth": "none",
+              "margin": "40px 0px 0px",
+              "padding": "0px 24px 40px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".podcast-speakers": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2867,
+              "w": 360,
+              "h": 589
+            },
+            "visible": true,
+            "text": "Our experts Raphaël Iscar​ Head of Expe…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "589.375px",
+              "maxWidth": "none",
+              "margin": "40px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".podcast-speakers__info": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 24,
+              "y": 2940,
+              "w": 312,
+              "h": 248
+            },
+            "visible": true,
+            "text": "Raphaël Iscar​ Head of Experience & Com…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "312px",
+              "height": "248.391px",
+              "maxWidth": "345px",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".marketo-form-block": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 3603,
+              "w": 360,
+              "h": 1165
+            },
+            "visible": true,
+            "text": "* Fields marked with an asterisk are ma…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "1165.17px",
+              "maxWidth": "none",
+              "margin": "0px 0px 20px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "form": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 22,
+              "y": 3603,
+              "w": 317,
+              "h": 1165
+            },
+            "visible": true,
+            "text": "* Fields marked with an asterisk are ma…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "316.812px",
+              "height": "1165.17px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "input#FirstName": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 22,
+              "y": 3705,
+              "w": 317,
+              "h": 38
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "316.812px",
+              "height": "38px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "6px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "19.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "select#Lead_title__c": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 22,
+              "y": 3841,
+              "w": 317,
+              "h": 38
+            },
+            "visible": true,
+            "text": "CDO CEO CFO CIO CMO COO CTO Executive L…",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "316.812px",
+              "height": "38px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "38px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "textarea": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 22,
+              "y": 4223,
+              "w": 317,
+              "h": 180
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "316.812px",
+              "height": "180px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "10px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "19.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "1px inset rgb(118, 118, 118)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".mkto-form__check label": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 48,
+              "y": 4437,
+              "w": 291,
+              "h": 106
+            },
+            "visible": true,
+            "text": "I accept to receive relevant news and m…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "290.812px",
+              "height": "106.391px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".mktoCheckboxList label": [],
+        ".mkto-form__buttons": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 22,
+              "y": 4699,
+              "w": 317,
+              "h": 69
+            },
+            "visible": true,
+            "text": "Send request",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "316.812px",
+              "height": "69px",
+              "maxWidth": "none",
+              "margin": "30px 0px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".mktoButtonRow": [],
+        ".site-footer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 4788,
+              "w": 360,
+              "h": 716
+            },
+            "visible": true,
+            "text": "Home About Offices Who We Are Privacy N…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "716px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".mkto-form__row": [
+          {
+            "index": 0,
+            "of": 9,
+            "rect": {
+              "x": 2,
+              "y": 3603,
+              "w": 357,
+              "h": 72
+            },
+            "visible": true,
+            "text": "* Fields marked with an asterisk are ma…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "356.812px",
+              "height": "72px",
+              "maxWidth": "none",
+              "margin": "0px -20px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".mktoFormRow": []
+      },
+      "1440": {
+        ".site-breadcrumbs": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 65,
+              "w": 1440,
+              "h": 86
+            },
+            "visible": true,
+            "text": "home ai product discovery workshop",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "86.3906px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "24px 0px 40px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".masthead-primary": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 151,
+              "w": 1440,
+              "h": 678
+            },
+            "visible": true,
+            "text": "AI Product Discovery Workshop Accelerat…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "678.234px",
+              "maxWidth": "none",
+              "margin": "0px 0px 40px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".masthead-primary__hgroup__title": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 93,
+              "y": 301,
+              "w": 526,
+              "h": 166
+            },
+            "visible": true,
+            "text": "AI Product Discovery Workshop",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "526.406px",
+              "height": "166.312px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "ValtechNeue, LiberationFallback, sans-serif",
+              "fontSize": "50.4px",
+              "fontWeight": "300",
+              "lineHeight": "55.44px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "right",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".masthead-primary__lead": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 198,
+              "y": 507,
+              "w": 421,
+              "h": 173
+            },
+            "visible": true,
+            "text": "Accelerate your commerce strategy with …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "421.125px",
+              "height": "172.75px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(102, 102, 102)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "28.8px",
+              "fontWeight": "300",
+              "lineHeight": "43.2px",
+              "letterSpacing": "-1px",
+              "textTransform": "none",
+              "textAlign": "right",
+              "borderRadius": "0px",
+              "border": "0px none rgb(102, 102, 102)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".rte-block": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 0,
+              "y": 870,
+              "w": 1440,
+              "h": 648
+            },
+            "visible": true,
+            "text": "Download now If they can’t find it, the…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "647.688px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".results-statistics-block": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1597,
+              "w": 1376,
+              "h": 276
+            },
+            "visible": true,
+            "text": "80% of customers are more likely to pur…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1376px",
+              "height": "276px",
+              "maxWidth": "none",
+              "margin": "80px 64px 64px 0px",
+              "padding": "0px 24px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".podcast-speakers": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 3097,
+              "w": 1376,
+              "h": 421
+            },
+            "visible": true,
+            "text": "Our experts Raphaël Iscar​ Head of Expe…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1376px",
+              "height": "421.234px",
+              "maxWidth": "none",
+              "margin": "80px 64px 80px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".podcast-speakers__info": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 24,
+              "y": 3189,
+              "w": 282,
+              "h": 329
+            },
+            "visible": true,
+            "text": "Raphaël Iscar​ Head of Experience & Com…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "282px",
+              "height": "329.391px",
+              "maxWidth": "400px",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".marketo-form-block": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 3730,
+              "w": 1440,
+              "h": 825
+            },
+            "visible": true,
+            "text": "* Fields marked with an asterisk are ma…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "824.781px",
+              "maxWidth": "none",
+              "margin": "0px 0px 80px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "form": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 315,
+              "y": 3730,
+              "w": 810,
+              "h": 825
+            },
+            "visible": true,
+            "text": "* Fields marked with an asterisk are ma…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "810px",
+              "height": "824.781px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "input#FirstName": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 315,
+              "y": 3811,
+              "w": 385,
+              "h": 38
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "385px",
+              "height": "38px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "6px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "19.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "select#Lead_title__c": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 315,
+              "y": 3879,
+              "w": 385,
+              "h": 38
+            },
+            "visible": true,
+            "text": "CDO CEO CFO CIO CMO COO CTO Executive L…",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "385px",
+              "height": "38px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "38px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "textarea": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 315,
+              "y": 4125,
+              "w": 810,
+              "h": 180
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "810px",
+              "height": "180px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "10px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "19.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "1px inset rgb(118, 118, 118)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".mkto-form__check label": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 341,
+              "y": 4339,
+              "w": 784,
+              "h": 43
+            },
+            "visible": true,
+            "text": "I accept to receive relevant news and m…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "784px",
+              "height": "43.3906px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".mktoCheckboxList label": [],
+        ".mkto-form__buttons": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 315,
+              "y": 4495,
+              "w": 810,
+              "h": 60
+            },
+            "visible": true,
+            "text": "Send request",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "810px",
+              "height": "60px",
+              "maxWidth": "none",
+              "margin": "30px 0px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".mktoButtonRow": [],
+        ".site-footer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 4635,
+              "w": 1440,
+              "h": 318
+            },
+            "visible": true,
+            "text": "Home About Offices Who We Are Privacy N…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "318px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 64px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".mkto-form__row": [
+          {
+            "index": 0,
+            "of": 9,
+            "rect": {
+              "x": 295,
+              "y": 3730,
+              "w": 850,
+              "h": 51
+            },
+            "visible": true,
+            "text": "* Fields marked with an asterisk are ma…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "850px",
+              "height": "51px",
+              "maxWidth": "none",
+              "margin": "0px -20px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Soehne, LiberationFallback, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".mktoFormRow": []
+      }
+    }
+  },
+  "deltas": {
+    "360": {
+      ".site-breadcrumbs": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "Soehne, sans-serif",
+                "Soehne, LiberationFallback, sans-serif"
+              ]
+            }
+          }
+        ]
+      },
+      ".masthead-primary": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 5
+            },
+            "props": {
+              "height": [
+                "389.438px",
+                "394.266px"
+              ],
+              "fontFamily": [
+                "Soehne, sans-serif",
+                "Soehne, LiberationFallback, sans-serif"
+              ]
+            }
+          }
+        ]
+      },
+      ".masthead-primary__hgroup__title": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "ValtechNeue, sans-serif",
+                "ValtechNeue, LiberationFallback, sans-serif"
+              ]
+            }
+          }
+        ]
+      },
+      ".masthead-primary__lead": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 5
+            },
+            "props": {
+              "height": [
+                "67.1719px",
+                "72px"
+              ],
+              "fontFamily": [
+                "Soehne, sans-serif",
+                "Soehne, LiberationFallback, sans-serif"
+              ]
+            }
+          }
+        ]
+      },
+      ".rte-block": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 5,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "Soehne, sans-serif",
+                "Soehne, LiberationFallback, sans-serif"
+              ]
+            }
+          }
+        ]
+      },
+      ".results-statistics-block": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 5,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "Soehne, sans-serif",
+                "Soehne, LiberationFallback, sans-serif"
+              ]
+            }
+          }
+        ]
+      },
+      ".podcast-speakers": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 5,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "Soehne, sans-serif",
+                "Soehne, LiberationFallback, sans-serif"
+              ]
+            }
+          }
+        ]
+      },
+      ".podcast-speakers__info": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 5,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "Soehne, sans-serif",
+                "Soehne, LiberationFallback, sans-serif"
+              ]
+            }
+          }
+        ]
+      },
+      ".marketo-form-block": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 5,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "Soehne, sans-serif",
+                "Soehne, LiberationFallback, sans-serif"
+              ]
+            }
+          }
+        ]
+      },
+      "form": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 5,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "Soehne, sans-serif",
+                "Soehne, LiberationFallback, sans-serif"
+              ],
+              "textAlign": [
+                "start",
+                "left"
+              ]
+            }
+          }
+        ]
+      },
+      "input#FirstName": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 5,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "Soehne, sans-serif",
+                "Soehne, LiberationFallback, sans-serif"
+              ],
+              "lineHeight": [
+                "normal",
+                "19.2px"
+              ]
+            }
+          }
+        ]
+      },
+      "select#Lead_title__c": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 5,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "padding": [
+                "6px 0px",
+                "0px"
+              ],
+              "fontFamily": [
+                "Soehne, sans-serif",
+                "Soehne, LiberationFallback, sans-serif"
+              ],
+              "lineHeight": [
+                "normal",
+                "38px"
+              ]
+            }
+          }
+        ]
+      },
+      "textarea": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 5,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "Soehne, sans-serif",
+                "Soehne, LiberationFallback, sans-serif"
+              ],
+              "lineHeight": [
+                "normal",
+                "19.2px"
+              ],
+              "border": [
+                "1px solid rgb(0, 0, 0)",
+                "1px inset rgb(118, 118, 118)"
+              ]
+            }
+          }
+        ]
+      },
+      ".mkto-form__check label": {
+        "status": "missing-a",
+        "countA": 0,
+        "countB": 1,
+        "pairs": []
+      },
+      ".mktoCheckboxList label": {
+        "status": "missing-b",
+        "countA": 1,
+        "countB": 0,
+        "pairs": []
+      },
+      ".mkto-form__buttons": {
+        "status": "missing-a",
+        "countA": 0,
+        "countB": 1,
+        "pairs": []
+      },
+      ".mktoButtonRow": {
+        "status": "missing-b",
+        "countA": 1,
+        "countB": 0,
+        "pairs": []
+      },
+      ".site-footer": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 5,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "Soehne, sans-serif",
+                "Soehne, LiberationFallback, sans-serif"
+              ]
+            }
+          }
+        ]
+      },
+      ".mkto-form__row": {
+        "status": "missing-a",
+        "countA": 0,
+        "countB": 1,
+        "pairs": []
+      },
+      ".mktoFormRow": {
+        "status": "missing-b",
+        "countA": 1,
+        "countB": 0,
+        "pairs": []
+      }
+    },
+    "1440": {
+      ".site-breadcrumbs": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "Soehne, sans-serif",
+                "Soehne, LiberationFallback, sans-serif"
+              ]
+            }
+          }
+        ]
+      },
+      ".masthead-primary": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "Soehne, sans-serif",
+                "Soehne, LiberationFallback, sans-serif"
+              ]
+            }
+          }
+        ]
+      },
+      ".masthead-primary__hgroup__title": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": -58,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "ValtechNeue, sans-serif",
+                "ValtechNeue, LiberationFallback, sans-serif"
+              ]
+            }
+          }
+        ]
+      },
+      ".masthead-primary__lead": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": -59,
+              "dw": 0,
+              "dh": 117
+            },
+            "props": {
+              "height": [
+                "56px",
+                "172.75px"
+              ],
+              "fontFamily": [
+                "Soehne, sans-serif",
+                "Soehne, LiberationFallback, sans-serif"
+              ]
+            }
+          }
+        ]
+      },
+      ".rte-block": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "Soehne, sans-serif",
+                "Soehne, LiberationFallback, sans-serif"
+              ]
+            }
+          }
+        ]
+      },
+      ".results-statistics-block": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "Soehne, sans-serif",
+                "Soehne, LiberationFallback, sans-serif"
+              ]
+            }
+          }
+        ]
+      },
+      ".podcast-speakers": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "Soehne, sans-serif",
+                "Soehne, LiberationFallback, sans-serif"
+              ]
+            }
+          }
+        ]
+      },
+      ".podcast-speakers__info": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "Soehne, sans-serif",
+                "Soehne, LiberationFallback, sans-serif"
+              ]
+            }
+          }
+        ]
+      },
+      ".marketo-form-block": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "Soehne, sans-serif",
+                "Soehne, LiberationFallback, sans-serif"
+              ]
+            }
+          }
+        ]
+      },
+      "form": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "Soehne, sans-serif",
+                "Soehne, LiberationFallback, sans-serif"
+              ],
+              "textAlign": [
+                "start",
+                "left"
+              ],
+              "opacity": [
+                "0.295244",
+                "1"
+              ]
+            }
+          }
+        ]
+      },
+      "input#FirstName": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "Soehne, sans-serif",
+                "Soehne, LiberationFallback, sans-serif"
+              ],
+              "lineHeight": [
+                "normal",
+                "19.2px"
+              ]
+            }
+          }
+        ]
+      },
+      "select#Lead_title__c": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "padding": [
+                "6px 0px",
+                "0px"
+              ],
+              "fontFamily": [
+                "Soehne, sans-serif",
+                "Soehne, LiberationFallback, sans-serif"
+              ],
+              "lineHeight": [
+                "normal",
+                "38px"
+              ]
+            }
+          }
+        ]
+      },
+      "textarea": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "Soehne, sans-serif",
+                "Soehne, LiberationFallback, sans-serif"
+              ],
+              "lineHeight": [
+                "normal",
+                "19.2px"
+              ],
+              "border": [
+                "1px solid rgb(0, 0, 0)",
+                "1px inset rgb(118, 118, 118)"
+              ]
+            }
+          }
+        ]
+      },
+      ".mkto-form__check label": {
+        "status": "missing-a",
+        "countA": 0,
+        "countB": 1,
+        "pairs": []
+      },
+      ".mktoCheckboxList label": {
+        "status": "missing-b",
+        "countA": 1,
+        "countB": 0,
+        "pairs": []
+      },
+      ".mkto-form__buttons": {
+        "status": "missing-a",
+        "countA": 0,
+        "countB": 1,
+        "pairs": []
+      },
+      ".mktoButtonRow": {
+        "status": "missing-b",
+        "countA": 1,
+        "countB": 0,
+        "pairs": []
+      },
+      ".site-footer": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "Soehne, sans-serif",
+                "Soehne, LiberationFallback, sans-serif"
+              ]
+            }
+          }
+        ]
+      },
+      ".mkto-form__row": {
+        "status": "missing-a",
+        "countA": 0,
+        "countB": 1,
+        "pairs": []
+      },
+      ".mktoFormRow": {
+        "status": "missing-b",
+        "countA": 1,
+        "countB": 0,
+        "pairs": []
+      }
+    }
+  },
+  "rootDeltas": {
+    "360": {
+      "scrollWidth": 0,
+      "scrollHeight": 5
+    },
+    "1440": {
+      "scrollWidth": 0,
+      "scrollHeight": 0
+    }
+  }
+}

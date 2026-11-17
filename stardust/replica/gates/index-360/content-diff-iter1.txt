@@ -1,0 +1,33 @@
+[live-session] waiting to pace live navigations to www.valtech.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 834 ms
+
+Content diff @ 360px (profile "generic", roots: main.site-content, header, footer)
+root "main.site-content"
+  source: 97 text nodes — 22 headings, 0 eyebrows, 30 CTAs, 45 body; 24 img
+  build: 96 text nodes — 22 headings, 0 eyebrows, 30 CTAs, 44 body; 24 img
+  editable texts (outermost h*/p/ul/ol): source 44 / build 44
+  attributes (placeholder/aria-label/title): source 12 / build 8; icons: source 13 / build 9
+root "header" — build: absent (no <header> / [role="banner"] outside the main root(s)) — measured as empty
+  source: 1 text nodes — 1 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 0
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root "footer"
+  source: 11 text nodes — 0 headings, 0 eyebrows, 10 CTAs, 1 body; 2 img
+  build: 11 text nodes — 0 headings, 0 eyebrows, 10 CTAs, 1 body; 2 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 2
+  attributes (placeholder/aria-label/title): source 7 / build 7; icons: source 8 / build 8
+  accepted (invisible, nothing lost): 1 SAME IMAGE — "cdp_discloser_2026.png ↔ cdp_discloser_2026-128x128.jpg"
+
+Findings: 11 (5 structural 🔴)
+Tiers: looks-same 🔴 5 · nothing-lost 🟡 5 · accepted 🟢 1 (owner 0, auto 1) · advisory 1
+  🔴 MISSING ICON [main.site-content]: source inline svg 0 0 100 100 / 1 shape(s) (0×0) at "previous" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [main.site-content]: source inline svg 0 0 100 100 / 1 shape(s) (0×0) at "next" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [main.site-content]: source inline svg 0 0 100 100 / 1 shape(s) (0×0) at "previous" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [main.site-content]: source inline svg 0 0 100 100 / 1 shape(s) (0×0) at "next" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING HEADING [header]: source heading "Revonic is now a part of the Valtech family" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🟡 MISSING SR-ONLY TEXT [main.site-content]: source body "Slide 2 of 4" (visually hidden, read by assistive tech) not found in build. Visually hidden text the source gives screen readers is gone — restore it (sr-only text or the aria-label it fed).
+  🟡 MISSING ARIA-LABEL [main.site-content]: source <button> aria-label="Previous" has no build <button> with that aria-label (build <button> aria-labels: "Previous", "Next", "Previous"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main.site-content]: source <button> aria-label="Next" has no build <button> with that aria-label (build <button> aria-labels: "Previous", "Next", "Previous"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main.site-content]: source <button> aria-label="Previous" has no build <button> with that aria-label (build <button> aria-labels: "Previous", "Next", "Previous"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main.site-content]: source <button> aria-label="Next" has no build <button> with that aria-label (build <button> aria-labels: "Previous", "Next", "Previous"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EDITABLE COUNT [header]: build has 0 outermost editable element(s) vs 1 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).

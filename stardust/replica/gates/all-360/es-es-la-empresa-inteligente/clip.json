@@ -1,0 +1,67 @@
+{
+ "url": "https://main--c87ac39f--aemcoder.aem.page/es-es/la-empresa-inteligente/",
+ "at": "2026-11-14T08:41:32.039Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 3,
+  "offPage": 8,
+  "textNodes": 106,
+  "controls": 49,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": null,
+   "path": "div.section-container.iehub-offering-container > div.iehub-offering-pagination > button.iehub-offering-tab > span.iehub-offering-tab-name",
+   "text": "liderar",
+   "cutMin": 38,
+   "cutMax": 38
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.iehub-offering-slides-rectangle",
+   "path": "div.iehub-offering-slides > div.iehub-offering-slide > div.iehub-offering-text > h3#conecta-equipos-y-tecnologías-para-que-el-trabajo-fluya-por-toda-la-empresa-sin-fricciones",
+   "text": "conecta equipos y tecnologías para que el trabajo fluya por ",
+   "cutMin": 308,
+   "cutMax": 308
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.iehub-offering-slides-rectangle",
+   "path": "div.iehub-offering-slide > div.iehub-offering-text > div.iehub-offering-btn-wrapper > a.btn-white.iehub-offering-cta",
+   "text": "explora organizar",
+   "cutMin": null,
+   "cutMax": null
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 3,
+   "offPage": 13,
+   "textNodes": 111,
+   "controls": 51,
+   "total": 0
+  }
+ }
+}

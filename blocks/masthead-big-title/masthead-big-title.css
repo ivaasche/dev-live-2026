@@ -1,0 +1,41 @@
+/* masthead-big-title — main.css @77492–78071 (prototype css/static.css) */
+
+.masthead-big-title .masthead-big-title-inner {
+  position: relative;
+}
+
+@media (width >= 58.75rem) {
+  .masthead-big-title .masthead-big-title-inner {
+    margin: 0 auto;
+    width: 84vw;
+  }
+}
+
+.masthead-big-title .masthead-big-title-text {
+  color: #000;
+  padding: 2.5rem;
+  text-align: center;
+}
+
+@media (width >= 58.75rem) {
+  .masthead-big-title .masthead-big-title-text {
+    padding: 6.25rem 7.5rem;
+  }
+}
+
+.masthead-big-title .masthead-big-title-text :is(h1, h2) {
+  display: inline-block;
+  font-size: 5vw;
+}
+
+@media (width <= 600px) {
+  .masthead-big-title .masthead-big-title-text :is(h1, h2) {
+    font-size: 30px;
+  }
+}
+
+@media (width >= 1600px) {
+  .masthead-big-title .masthead-big-title-text :is(h1, h2) {
+    font-size: 80px;
+  }
+}

@@ -1,0 +1,19 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.valtech.com/
+  other    2 capped box(es) outside the section tier (in the JSON) — e.g. 1408px #contact-us-form > div.contact-us-form__container.js-accordion
+  modules  7 sections: capped 1408 ×7 · full-bleed ×0
+  contentMaxWidth 1408px (module) · shellMaxWidth fluid · root #valtech-content
+build  http://localhost:8791/index-proposed.html
+  other    1 capped box(es) outside the section tier (in the JSON) — e.g. 1408px #contact-us-form > div.contact-us-form__container.js-accordion
+  modules  7 sections: capped 1408 ×7 · full-bleed ×0
+  contentMaxWidth 1408px (module) · shellMaxWidth fluid · root #valtech-content
+rows
+  ✓ content cap: live 1408px = build 1408px (±20, shared module cap)
+  ✓ module 1/7: 1408px = 1408px
+  ✓ module 2/7: 1408px = 1408px
+  ✓ module 3/7: 1408px = 1408px
+  ✓ module 4/7: 1408px = 1408px
+  ✓ module 5/7: 1408px = 1408px
+  ✓ module 6/7: 1408px = 1408px
+  ✓ module 7/7: 1408px = 1408px
+cap-probe: PASS at 2560 — 0 of 8 rows failed (evidence stardust/replica/gates/index-2560/cap-iter.json)

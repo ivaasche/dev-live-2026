@@ -1,0 +1,21 @@
+
+Content diff @ 360px (profile "generic", roots: main.site-content, header, footer)
+root "main.site-content"
+  source: 97 text nodes — 22 headings, 0 eyebrows, 30 CTAs, 45 body; 24 img
+  build: 96 text nodes — 22 headings, 0 eyebrows, 30 CTAs, 44 body; 24 img
+  editable texts (outermost h*/p/ul/ol): source 44 / build 44
+  attributes (placeholder/aria-label/title): source 12 / build 12; icons: source 13 / build 13
+root "header"
+  source: 1 text nodes — 1 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 1 text nodes — 1 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root "footer"
+  source: 11 text nodes — 0 headings, 0 eyebrows, 10 CTAs, 1 body; 2 img
+  build: 11 text nodes — 0 headings, 0 eyebrows, 10 CTAs, 1 body; 2 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 2
+  attributes (placeholder/aria-label/title): source 7 / build 7; icons: source 8 / build 8
+
+Findings: 1 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 1 · accepted 🟢 0 (owner 0, auto 0) · advisory 0
+  🟡 MISSING SR-ONLY TEXT [main.site-content]: source body "Slide 3 of 4" (visually hidden, read by assistive tech) not found in build. Visually hidden text the source gives screen readers is gone — restore it (sr-only text or the aria-label it fed).

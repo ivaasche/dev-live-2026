@@ -1,0 +1,60 @@
+/* image-block — article full-width image (prototypes/css/article.css, main.css) */
+
+.image-block {
+  padding-bottom: 5rem;
+}
+
+.image-block .image-block-inner {
+  display: block;
+  padding: 0 1.5rem;
+}
+
+@media (width >= 64rem) {
+  .image-block .image-block-inner {
+    margin-right: 64px;
+  }
+}
+
+@media (width >= 120.001rem) {
+  .image-block .image-block-inner {
+    margin: 0 auto;
+    max-width: 84vw;
+    padding: 0;
+  }
+}
+
+.image-block picture {
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+}
+
+.image-block picture img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media (orientation: portrait) {
+  .image-block .has-portrait .image-block-landscape {
+    display: none;
+  }
+}
+
+@media (orientation: landscape) {
+  .image-block .has-portrait .image-block-portrait {
+    display: none;
+  }
+}
+
+/* reveal variant (source .slide-fade-in -> .played) */
+.image-block.slide-fade-in {
+  opacity: .01;
+  visibility: hidden;
+}
+
+.image-block.slide-fade-in.played {
+  opacity: 1;
+  transition: opacity .3s ease-out;
+  visibility: visible;
+}

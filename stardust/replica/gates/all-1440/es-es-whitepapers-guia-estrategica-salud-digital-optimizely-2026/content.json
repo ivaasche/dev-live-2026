@@ -1,0 +1,5440 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T06:55:22.997Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/es-es/whitepapers/guia-estrategica-salud-digital-optimizely-2026/",
+  "at": "2026-11-14T06:55:03.605Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4124,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.site-nav__menu-wrapper.site-nav__menu__labels > div.site-nav__logo > a.site-nav__logo__link",
+    "x": 24,
+    "y": 12,
+    "w": 159,
+    "h": 41,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 373,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "nuestro trabajo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 569,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "servicios"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 764,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "talento"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title.active",
+    "x": 960,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "perspectivas"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 1156,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "sobre nosotros"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.desktop",
+    "x": 1376,
+    "y": 36,
+    "w": 64,
+    "h": 40,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.desktop",
+    "x": 1376,
+    "y": 36,
+    "w": 64,
+    "h": 40,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > a.search-select.desktop",
+    "x": 1376,
+    "y": 76,
+    "w": 64,
+    "h": 40,
+    "text": "go to search page",
+    "href": "/es-es/search/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > a",
+    "x": 24,
+    "y": 89,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > a",
+    "x": 75,
+    "y": 89,
+    "w": 99,
+    "h": 21,
+    "text": "publicaciones",
+    "href": "/es-es/whitepapers/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 187,
+    "y": 89,
+    "w": 365,
+    "h": 21,
+    "label": "current",
+    "value": "guía estratégica de salud digital de optimizely 2026",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 187,
+    "y": 89,
+    "w": 365,
+    "h": 21,
+    "text": "Guía estratégica de salud digital de Optimizely 2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta__text > hgroup.masthead-two-columns-cta__hgroup > h1.masthead-two-columns-cta__hgroup__title",
+    "x": 757,
+    "y": 247,
+    "w": 526,
+    "h": 166,
+    "level": 1,
+    "text": "guía estratégica de salud digital de optimizely 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta__text > div.masthead-two-columns-cta__intro > p",
+    "x": 757,
+    "y": 453,
+    "w": 526,
+    "h": 112,
+    "text": "Esta guía conjunta de Valtech y Optimizely ofrece a los líderes del sector sanit"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta__parameters > p.masthead-two-columns-cta__parameter > span.masthead-two-columns-cta__label",
+    "x": 811,
+    "y": 616,
+    "w": 165,
+    "h": 26,
+    "text": "Minutos de lectura"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta__parameters > p.masthead-two-columns-cta__parameter > span.masthead-two-columns-cta__label",
+    "x": 1051,
+    "y": 616,
+    "w": 70,
+    "h": 26,
+    "text": "Páginas"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta__text > div.masthead-two-columns-cta__cta > a.button.button--primary-hollow",
+    "x": 757,
+    "y": 674,
+    "w": 258,
+    "h": 50,
+    "text": "descarga el informe",
+    "href": "/es-es/whitepapers/guia-estrategica-salud-digital-optimizely-2026/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta__media > picture > img",
+    "x": 24,
+    "y": 151,
+    "w": 664,
+    "h": 678,
+    "text": "",
+    "file": "tsk-6286-valtech-x-optimizely-2026-body-"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p > span",
+    "x": 315,
+    "y": 871,
+    "w": 749,
+    "h": 110,
+    "text": "A las organizaciones sanitarias de Estados Unidos se les exige hacer más con men"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p > strong",
+    "x": 315,
+    "y": 999,
+    "w": 200,
+    "h": 26,
+    "text": "Principales presiones:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > span",
+    "x": 335,
+    "y": 1043,
+    "w": 367,
+    "h": 26,
+    "text": "Cambios en la regulación y la financiación"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > span",
+    "x": 335,
+    "y": 1083,
+    "w": 480,
+    "h": 26,
+    "text": "Vencimiento de patentes y cambios en los reembolsos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > span",
+    "x": 335,
+    "y": 1124,
+    "w": 298,
+    "h": 26,
+    "text": "Escasez de talento y auge de la IA"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > span",
+    "x": 335,
+    "y": 1165,
+    "w": 620,
+    "h": 54,
+    "text": "Fuerte competencia de las clínicas minoristas y los sistemas sanitarios consolid"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > span",
+    "x": 335,
+    "y": 1234,
+    "w": 363,
+    "h": 26,
+    "text": "Descenso de la fidelidad de los pacientes"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > h2",
+    "x": 315,
+    "y": 1321,
+    "w": 810,
+    "h": 52,
+    "level": 2,
+    "text": "por qué optimizely y por qué ahora"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p > span",
+    "x": 315,
+    "y": 1406,
+    "w": 709,
+    "h": 138,
+    "text": "Los componentes de la plataforma de Optimizely, preparados para cumplir la norma"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p > span",
+    "x": 315,
+    "y": 1562,
+    "w": 711,
+    "h": 82,
+    "text": "Esta guía combina las mejores prácticas del sector sanitario estadounidense con "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 502,
+    "y": 2060,
+    "w": 277,
+    "h": 34,
+    "text": "A 2026 Optimizely"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 502,
+    "y": 2100,
+    "w": 275,
+    "h": 34,
+    "text": "Digital Healthcare"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 502,
+    "y": 2139,
+    "w": 284,
+    "h": 34,
+    "text": "Strategy Playbook"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 502,
+    "y": 2194,
+    "w": 205,
+    "h": 10,
+    "text": "John Berndt, SVP Health, the Americas, Valtech"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 502,
+    "y": 2209,
+    "w": 195,
+    "h": 10,
+    "text": "Nicola Ayan, VP Solution Strategy, Optimizely"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 502,
+    "y": 2447,
+    "w": 98,
+    "h": 23,
+    "text": "Contents"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 696,
+    "y": 2446,
+    "w": 51,
+    "h": 11,
+    "text": "Why now?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 696,
+    "y": 2471,
+    "w": 84,
+    "h": 11,
+    "text": "Why Optimizely?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 696,
+    "y": 2496,
+    "w": 47,
+    "h": 11,
+    "text": "Key plays"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 696,
+    "y": 2520,
+    "w": 113,
+    "h": 11,
+    "text": "Patient acquisition and"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 696,
+    "y": 2535,
+    "w": 113,
+    "h": 11,
+    "text": "competitive reputation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 696,
+    "y": 2560,
+    "w": 94,
+    "h": 11,
+    "text": "Patient access and"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 696,
+    "y": 2575,
+    "w": 77,
+    "h": 11,
+    "text": "patient support"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 696,
+    "y": 2600,
+    "w": 88,
+    "h": 11,
+    "text": "Digital loyalty and"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 696,
+    "y": 2614,
+    "w": 139,
+    "h": 11,
+    "text": "population health outcomes"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 696,
+    "y": 2639,
+    "w": 97,
+    "h": 11,
+    "text": "Content supply and"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 696,
+    "y": 2654,
+    "w": 120,
+    "h": 11,
+    "text": "meeting the demand for"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 696,
+    "y": 2669,
+    "w": 94,
+    "h": 11,
+    "text": "healthcare content"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 595,
+    "y": 2351,
+    "w": 142,
+    "h": 6,
+    "text": "A 2026 Optimizely Digital Healthcare Strategy Playbook"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > h2",
+    "x": 315,
+    "y": 2452,
+    "w": 810,
+    "h": 52,
+    "level": 2,
+    "text": "para quién es esta guía"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > span",
+    "x": 335,
+    "y": 2537,
+    "w": 706,
+    "h": 54,
+    "text": "CMO, CIO y CTO que necesitan acelerar la transformación digital con estrategias "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > span",
+    "x": 335,
+    "y": 2605,
+    "w": 729,
+    "h": 82,
+    "text": "Organizaciones de los sectores sanitario, de tecnología médica y farmacéutico qu"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > span",
+    "x": 335,
+    "y": 2702,
+    "w": 730,
+    "h": 82,
+    "text": "Responsables de salud digital que buscan formas prácticas de garantizar que la t"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > h2",
+    "x": 315,
+    "y": 2845,
+    "w": 810,
+    "h": 52,
+    "level": 2,
+    "text": "descarga la guía"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p > span",
+    "x": 315,
+    "y": 2930,
+    "w": 717,
+    "h": 82,
+    "text": "Descubre cómo Valtech y Optimizely pueden ayudar a tu organización a integrar ma"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldWrap.convertedField > div.mktoHtmlText.mktoHasWidth > span",
+    "x": 315,
+    "y": 3123,
+    "w": 577,
+    "h": 21,
+    "text": "Los campos marcados con un asterisco ( ) son obligatorios y deben completarse."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblFirstName",
+    "x": 315,
+    "y": 3185,
+    "w": 67,
+    "h": 16,
+    "text": "Nombre"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblLastName",
+    "x": 740,
+    "y": 3185,
+    "w": 76,
+    "h": 16,
+    "text": "Apellidos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblCompany",
+    "x": 315,
+    "y": 3253,
+    "w": 170,
+    "h": 16,
+    "text": "Nombre de la empresa"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#Industry",
+    "x": 740,
+    "y": 3242,
+    "w": 385,
+    "h": 38,
+    "label": "industria *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblIndustry",
+    "x": 740,
+    "y": 3253,
+    "w": 72,
+    "h": 16,
+    "text": "Industria"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#Lead_title__c",
+    "x": 315,
+    "y": 3310,
+    "w": 385,
+    "h": 38,
+    "label": "cargo *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblLead_title__c",
+    "x": 315,
+    "y": 3321,
+    "w": 52,
+    "h": 16,
+    "text": "Cargo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblEmail",
+    "x": 740,
+    "y": 3321,
+    "w": 224,
+    "h": 16,
+    "text": "Correo electrónico profesional"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#CountryCode",
+    "x": 315,
+    "y": 3378,
+    "w": 810,
+    "h": 38,
+    "label": "pais *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblCountryCode",
+    "x": 315,
+    "y": 3389,
+    "w": 39,
+    "h": 16,
+    "text": "Pais"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoLogicalField.mktoCheckboxList > label#LblmktoCheckbox_204848_0 > span",
+    "x": 341,
+    "y": 3446,
+    "w": 780,
+    "h": 42,
+    "text": "Acepto recibir noticias y comunicaciones de marketing relevantes por parte de Va"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoLogicalField.mktoCheckboxList > label#LblmktoCheckbox_204848_0 > a",
+    "x": 944,
+    "y": 3467,
+    "w": 152,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldWrap.convertedField > div.mktoLogicalField.mktoCheckboxList > label#LblmktoCheckbox_204858_0",
+    "x": 341,
+    "y": 3519,
+    "w": 784,
+    "h": 43,
+    "text": "Optimizely almacenará y tratará tus datos personales tal y como se describe en n"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoLogicalField.mktoCheckboxList > label#LblmktoCheckbox_204858_0 > a",
+    "x": 961,
+    "y": 3519,
+    "w": 152,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/legal/privacy-notice"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 315,
+    "y": 3593,
+    "w": 382,
+    "h": 21,
+    "text": "Este sitio está protegido por CAPTCHA y se aplican la"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893 > a",
+    "x": 697,
+    "y": 3593,
+    "w": 155,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/legal/privacy-end-users/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 852,
+    "y": 3593,
+    "w": 206,
+    "h": 21,
+    "text": "y los"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.NormalTextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893 > a",
+    "x": 887,
+    "y": 3593,
+    "w": 170,
+    "h": 21,
+    "text": "términos y condiciones",
+    "href": "/legal/terms/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 315,
+    "y": 3593,
+    "w": 790,
+    "h": 43,
+    "text": "de uso de Friendly Captcha."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoButtonRow > span.mktoButtonWrap.mktoInset > button.mktoButton.button",
+    "x": 625,
+    "y": 3666,
+    "w": 190,
+    "h": 50,
+    "text": "descargar"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 370,
+    "y": 3875,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 482,
+    "y": 3875,
+    "w": 109,
+    "h": 21,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 667,
+    "y": 3875,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 799,
+    "y": 3875,
+    "w": 148,
+    "h": 21,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer__column.site-footer__stamp > picture > img",
+    "x": 1075,
+    "y": 3851,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "badge-no-outline"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 84,
+    "y": 4003,
+    "w": 153,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 288,
+    "y": 4003,
+    "w": 135,
+    "h": 21,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 516,
+    "y": 4003,
+    "w": 82,
+    "h": 21,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 646,
+    "y": 4003,
+    "w": 96,
+    "h": 21,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 84,
+    "y": 4044,
+    "w": 156,
+    "h": 21,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a.cookiebot-reset",
+    "x": 288,
+    "y": 4044,
+    "w": 180,
+    "h": 21,
+    "text": "configuración de cookies",
+    "href": "/es-es/whitepapers/guia-estrategica-salud-digital-optimizely-2026/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 962,
+    "y": 4008,
+    "w": 23,
+    "h": 21,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 1017,
+    "y": 4008,
+    "w": 23,
+    "h": 21,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 1072,
+    "y": 4008,
+    "w": 23,
+    "h": 21,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 1127,
+    "y": 4008,
+    "w": 23,
+    "h": 21,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 1182,
+    "y": 4008,
+    "w": 23,
+    "h": 21,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 1237,
+    "y": 4008,
+    "w": 23,
+    "h": 21,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 26,
+    "horizontal": 0,
+    "offPage": 6,
+    "textNodes": 106,
+    "controls": 38,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 26,
+     "clipper": "div#viewerContainer",
+     "path": "div#pdfViewer > div.page > div.textLayer > span",
+     "text": "contents",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/es-es/whitepapers/guia-estrategica-salud-digital-optimizely-2026",
+  "at": "2026-11-14T06:55:22.839Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4113,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-nav-menu-wrapper.site-nav-menu-labels > div.site-nav-logo > a.site-nav-logo-link",
+    "x": 24,
+    "y": 12,
+    "w": 159,
+    "h": 41,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu-list > li.site-nav-menu-item > button.site-nav-menu-title",
+    "x": 373,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "nuestro trabajo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu-list > li.site-nav-menu-item > button.site-nav-menu-title",
+    "x": 569,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "servicios"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu-list > li.site-nav-menu-item > button.site-nav-menu-title",
+    "x": 764,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "talento"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu-list > li.site-nav-menu-item > button.site-nav-menu-title.active",
+    "x": 960,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "perspectivas"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu-list > li.site-nav-menu-item > button.site-nav-menu-title",
+    "x": 1156,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "sobre nosotros"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.desktop",
+    "x": 1376,
+    "y": 36,
+    "w": 64,
+    "h": 40,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.desktop",
+    "x": 1376,
+    "y": 36,
+    "w": 64,
+    "h": 40,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > a.search-select.desktop",
+    "x": 1376,
+    "y": 76,
+    "w": 64,
+    "h": 40,
+    "text": "go to search page",
+    "href": "/es-es/search/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.side-button > p > a#side-button",
+    "x": 1392,
+    "y": 152,
+    "w": 28,
+    "h": 190,
+    "text": "contáctanos",
+    "href": "/es-es/whitepapers/guia-estrategica-salud-digital-optimizely-2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 24,
+    "y": 89,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 75,
+    "y": 89,
+    "w": 99,
+    "h": 21,
+    "text": "publicaciones",
+    "href": "/es-es/whitepapers"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 174,
+    "y": 89,
+    "w": 378,
+    "h": 22,
+    "label": "current",
+    "value": "guía estratégica de salud digital de optimizely 2026",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 174,
+    "y": 89,
+    "w": 378,
+    "h": 22,
+    "text": "Guía estratégica de salud digital de Optimizely 2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta-text > hgroup.masthead-two-columns-cta-hgroup > h1#guía-estratégica-de-salud-digital-de-optimizely-2026",
+    "x": 757,
+    "y": 247,
+    "w": 526,
+    "h": 166,
+    "level": 1,
+    "text": "guía estratégica de salud digital de optimizely 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta-text > div.masthead-two-columns-cta-intro > p",
+    "x": 757,
+    "y": 453,
+    "w": 526,
+    "h": 112,
+    "text": "Esta guía conjunta de Valtech y Optimizely ofrece a los líderes del sector sanit"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta-parameters > div.masthead-two-columns-cta-parameter > p.masthead-two-columns-cta-label",
+    "x": 806,
+    "y": 616,
+    "w": 165,
+    "h": 26,
+    "text": "Minutos de lectura"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta-parameters > div.masthead-two-columns-cta-parameter > p.masthead-two-columns-cta-label",
+    "x": 1042,
+    "y": 616,
+    "w": 70,
+    "h": 26,
+    "text": "Páginas"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta-cta > p > a.button.button-primary-hollow",
+    "x": 757,
+    "y": 674,
+    "w": 258,
+    "h": 50,
+    "text": "descarga el informe",
+    "href": "/es-es/whitepapers/guia-estrategica-salud-digital-optimizely-2026"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta-media > picture.masthead-two-columns-cta-wide > img",
+    "x": 24,
+    "y": 151,
+    "w": 664,
+    "h": 678,
+    "text": "",
+    "file": "media_1c4e3024d78dd9dcc73c87d917fdedbc1e"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 870,
+    "w": 760,
+    "h": 112,
+    "text": "A las organizaciones sanitarias de Estados Unidos se les exige hacer más con men"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > strong",
+    "x": 315,
+    "y": 999,
+    "w": 200,
+    "h": 26,
+    "text": "Principales presiones:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 335,
+    "y": 1042,
+    "w": 740,
+    "h": 28,
+    "text": "Cambios en la regulación y la financiación"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 335,
+    "y": 1082,
+    "w": 740,
+    "h": 28,
+    "text": "Vencimiento de patentes y cambios en los reembolsos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 335,
+    "y": 1123,
+    "w": 740,
+    "h": 28,
+    "text": "Escasez de talento y auge de la IA"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 335,
+    "y": 1164,
+    "w": 740,
+    "h": 56,
+    "text": "Fuerte competencia de las clínicas minoristas y los sistemas sanitarios consolid"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 335,
+    "y": 1233,
+    "w": 740,
+    "h": 28,
+    "text": "Descenso de la fidelidad de los pacientes"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > h2#por-qué-optimizely-y-por-qué-ahora",
+    "x": 315,
+    "y": 1321,
+    "w": 810,
+    "h": 52,
+    "level": 2,
+    "text": "por qué optimizely y por qué ahora"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 1405,
+    "w": 760,
+    "h": 140,
+    "text": "Los componentes de la plataforma de Optimizely, preparados para cumplir la norma"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 1561,
+    "w": 760,
+    "h": 84,
+    "text": "Esta guía combina las mejores prácticas del sector sanitario estadounidense con "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-1 > div.pdf-view-block-text-layer > span",
+    "x": 502,
+    "y": 2060,
+    "w": 276,
+    "h": 34,
+    "text": "A 2026 Optimizely"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-1 > div.pdf-view-block-text-layer > span",
+    "x": 502,
+    "y": 2099,
+    "w": 275,
+    "h": 34,
+    "text": "Digital Healthcare"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-1 > div.pdf-view-block-text-layer > span",
+    "x": 502,
+    "y": 2139,
+    "w": 284,
+    "h": 34,
+    "text": "Strategy Playbook"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-1 > div.pdf-view-block-text-layer > span",
+    "x": 502,
+    "y": 2193,
+    "w": 204,
+    "h": 10,
+    "text": "John Berndt, SVP Health, the Americas, Valtech"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-1 > div.pdf-view-block-text-layer > span",
+    "x": 502,
+    "y": 2208,
+    "w": 194,
+    "h": 10,
+    "text": "Nicola Ayan, VP Solution Strategy, Optimizely"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-2 > div.pdf-view-block-text-layer > span",
+    "x": 502,
+    "y": 2446,
+    "w": 98,
+    "h": 23,
+    "text": "Contents"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-2 > div.pdf-view-block-text-layer > span",
+    "x": 696,
+    "y": 2445,
+    "w": 51,
+    "h": 11,
+    "text": "Why now?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-2 > div.pdf-view-block-text-layer > span",
+    "x": 696,
+    "y": 2470,
+    "w": 83,
+    "h": 11,
+    "text": "Why Optimizely?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-2 > div.pdf-view-block-text-layer > span",
+    "x": 696,
+    "y": 2494,
+    "w": 47,
+    "h": 11,
+    "text": "Key plays"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-2 > div.pdf-view-block-text-layer > span",
+    "x": 696,
+    "y": 2519,
+    "w": 113,
+    "h": 11,
+    "text": "Patient acquisition and"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-2 > div.pdf-view-block-text-layer > span",
+    "x": 696,
+    "y": 2534,
+    "w": 113,
+    "h": 11,
+    "text": "competitive reputation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-2 > div.pdf-view-block-text-layer > span",
+    "x": 696,
+    "y": 2559,
+    "w": 93,
+    "h": 11,
+    "text": "Patient access and"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-2 > div.pdf-view-block-text-layer > span",
+    "x": 696,
+    "y": 2573,
+    "w": 77,
+    "h": 11,
+    "text": "patient support"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-2 > div.pdf-view-block-text-layer > span",
+    "x": 696,
+    "y": 2598,
+    "w": 88,
+    "h": 11,
+    "text": "Digital loyalty and"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-2 > div.pdf-view-block-text-layer > span",
+    "x": 696,
+    "y": 2613,
+    "w": 138,
+    "h": 11,
+    "text": "population health outcomes"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-2 > div.pdf-view-block-text-layer > span",
+    "x": 696,
+    "y": 2638,
+    "w": 96,
+    "h": 11,
+    "text": "Content supply and"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-2 > div.pdf-view-block-text-layer > span",
+    "x": 696,
+    "y": 2652,
+    "w": 119,
+    "h": 11,
+    "text": "meeting the demand for"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-2 > div.pdf-view-block-text-layer > span",
+    "x": 696,
+    "y": 2667,
+    "w": 93,
+    "h": 11,
+    "text": "healthcare content"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-2 > div.pdf-view-block-text-layer > span",
+    "x": 595,
+    "y": 2350,
+    "w": 142,
+    "h": 6,
+    "text": "A 2026 Optimizely Digital Healthcare Strategy Playbook"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-3 > div.pdf-view-block-text-layer > span",
+    "x": 502,
+    "y": 3045,
+    "w": 107,
+    "h": 23,
+    "text": "Why now?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-3 > div.pdf-view-block-text-layer > span",
+    "x": 502,
+    "y": 3088,
+    "w": 245,
+    "h": 11,
+    "text": "U.S. healthcare digital experience has been under"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-3 > div.pdf-view-block-text-layer > span",
+    "x": 502,
+    "y": 3103,
+    "w": 226,
+    "h": 11,
+    "text": "tremendous pressure for more than a decade,"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-3 > div.pdf-view-block-text-layer > span",
+    "x": 502,
+    "y": 3118,
+    "w": 167,
+    "h": 11,
+    "text": "and the challenges keep piling up."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-3 > div.pdf-view-block-text-layer > span",
+    "x": 502,
+    "y": 3156,
+    "w": 159,
+    "h": 7,
+    "text": "Asked to do more with less, to be strategic at every"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-3 > div.pdf-view-block-text-layer > span",
+    "x": 502,
+    "y": 3166,
+    "w": 157,
+    "h": 7,
+    "text": "turn, and to blend effective marketing with service"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-3 > div.pdf-view-block-text-layer > span",
+    "x": 502,
+    "y": 3176,
+    "w": 176,
+    "h": 7,
+    "text": "design, CMOs, CIOs, CTOs and their teams face an uphill"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-3 > div.pdf-view-block-text-layer > span",
+    "x": 502,
+    "y": 3186,
+    "w": 161,
+    "h": 7,
+    "text": "battle. Healthcare business models are under great"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-3 > div.pdf-view-block-text-layer > span",
+    "x": 502,
+    "y": 3196,
+    "w": 174,
+    "h": 7,
+    "text": "pressure, competition is fierce and growing, regulations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-3 > div.pdf-view-block-text-layer > span",
+    "x": 502,
+    "y": 3206,
+    "w": 170,
+    "h": 7,
+    "text": "are shifting, and consumer expectations are set not by"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-3 > div.pdf-view-block-text-layer > span",
+    "x": 502,
+    "y": 3215,
+    "w": 172,
+    "h": 7,
+    "text": "healthcare competitors but rather by the largest digital"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-3 > div.pdf-view-block-text-layer > span",
+    "x": 502,
+    "y": 3225,
+    "w": 74,
+    "h": 7,
+    "text": "companies in the world."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-3 > div.pdf-view-block-text-layer > span",
+    "x": 696,
+    "y": 3156,
+    "w": 178,
+    "h": 7,
+    "text": "In this environment, the usability, accessibility and power"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-3 > div.pdf-view-block-text-layer > span",
+    "x": 696,
+    "y": 3166,
+    "w": 173,
+    "h": 7,
+    "text": "of tools provide crucial leverage for smaller, overtasked"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-3 > div.pdf-view-block-text-layer > span",
+    "x": 696,
+    "y": 3176,
+    "w": 150,
+    "h": 7,
+    "text": "teams. But great, user-friendly technology is not"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-3 > div.pdf-view-block-text-layer > span",
+    "x": 696,
+    "y": 3186,
+    "w": 175,
+    "h": 7,
+    "text": "enough. Organizations must develop an effective digital"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-3 > div.pdf-view-block-text-layer > span",
+    "x": 696,
+    "y": 3196,
+    "w": 170,
+    "h": 7,
+    "text": "practice and associated strategies to get the value out"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-3 > div.pdf-view-block-text-layer > span",
+    "x": 696,
+    "y": 3206,
+    "w": 173,
+    "h": 7,
+    "text": "of technology, which has little value without it. However,"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-3 > div.pdf-view-block-text-layer > span",
+    "x": 696,
+    "y": 3215,
+    "w": 150,
+    "h": 7,
+    "text": "developing these strategies requires resources."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-3 > div.pdf-view-block-text-layer > span",
+    "x": 696,
+    "y": 3225,
+    "w": 162,
+    "h": 7,
+    "text": "A strong jump start is essential to build momentum."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-3 > div.pdf-view-block-text-layer > span",
+    "x": 696,
+    "y": 3235,
+    "w": 66,
+    "h": 7,
+    "text": "Hence this playbook."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-3 > div.pdf-view-block-text-layer > span",
+    "x": 595,
+    "y": 2949,
+    "w": 142,
+    "h": 6,
+    "text": "A 2026 Optimizely Digital Healthcare Strategy Playbook"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > h2#para-quién-es-esta-guía",
+    "x": 315,
+    "y": 2452,
+    "w": 810,
+    "h": 52,
+    "level": 2,
+    "text": "para quién es esta guía"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 335,
+    "y": 2536,
+    "w": 740,
+    "h": 56,
+    "text": "CMO, CIO y CTO que necesitan acelerar la transformación digital con estrategias "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 335,
+    "y": 2604,
+    "w": 740,
+    "h": 84,
+    "text": "Organizaciones de los sectores sanitario, de tecnología médica y farmacéutico qu"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 335,
+    "y": 2701,
+    "w": 740,
+    "h": 84,
+    "text": "Responsables de salud digital que buscan formas prácticas de garantizar que la t"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > h2#descarga-la-guía",
+    "x": 315,
+    "y": 2845,
+    "w": 810,
+    "h": 52,
+    "level": 2,
+    "text": "descarga la guía"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 315,
+    "y": 2929,
+    "w": 760,
+    "h": 84,
+    "text": "Descubre cómo Valtech y Optimizely pueden ayudar a tu organización a integrar ma"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-html > span",
+    "x": 315,
+    "y": 3123,
+    "w": 578,
+    "h": 21,
+    "text": "Los campos marcados con un asterisco ( ) son obligatorios y deben completarse."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 315,
+    "y": 3185,
+    "w": 67,
+    "h": 16,
+    "text": "Nombre"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 740,
+    "y": 3185,
+    "w": 76,
+    "h": 16,
+    "text": "Apellidos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 315,
+    "y": 3253,
+    "w": 170,
+    "h": 16,
+    "text": "Nombre de la empresa"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > select#Industry",
+    "x": 740,
+    "y": 3242,
+    "w": 385,
+    "h": 38,
+    "label": "industria *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 740,
+    "y": 3253,
+    "w": 72,
+    "h": 16,
+    "text": "Industria"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > select#Lead_title__c",
+    "x": 315,
+    "y": 3310,
+    "w": 385,
+    "h": 38,
+    "label": "cargo *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 315,
+    "y": 3321,
+    "w": 52,
+    "h": 16,
+    "text": "Cargo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 740,
+    "y": 3321,
+    "w": 224,
+    "h": 16,
+    "text": "Correo electrónico profesional"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-field.mkto-form-field-float > select#CountryCode",
+    "x": 315,
+    "y": 3378,
+    "w": 810,
+    "h": 38,
+    "label": "pais *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 315,
+    "y": 3389,
+    "w": 39,
+    "h": 16,
+    "text": "Pais"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-check > label > span",
+    "x": 341,
+    "y": 3446,
+    "w": 780,
+    "h": 42,
+    "text": "Acepto recibir noticias y comunicaciones de marketing relevantes por parte de Va"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-check > label > a",
+    "x": 944,
+    "y": 3467,
+    "w": 152,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-check > label",
+    "x": 341,
+    "y": 3519,
+    "w": 784,
+    "h": 43,
+    "text": "Optimizely almacenará y tratará tus datos personales tal y como se describe en n"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-check > label > a",
+    "x": 961,
+    "y": 3519,
+    "w": 152,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/legal/privacy-notice"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 315,
+    "y": 3593,
+    "w": 382,
+    "h": 21,
+    "text": "Este sitio está protegido por CAPTCHA y se aplican la"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span > span > a",
+    "x": 697,
+    "y": 3593,
+    "w": 155,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/legal/privacy-end-users/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 852,
+    "y": 3593,
+    "w": 206,
+    "h": 21,
+    "text": "y los"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span > span > a",
+    "x": 887,
+    "y": 3593,
+    "w": 170,
+    "h": 21,
+    "text": "términos y condiciones",
+    "href": "/legal/terms/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 315,
+    "y": 3593,
+    "w": 790,
+    "h": 43,
+    "text": "de uso de Friendly Captcha."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-buttons > span.mkto-form-button-wrap > button.mktoButton.btn-white",
+    "x": 652,
+    "y": 3666,
+    "w": 135,
+    "h": 49,
+    "text": "descargar"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 370,
+    "y": 3864,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 482,
+    "y": 3864,
+    "w": 109,
+    "h": 21,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 667,
+    "y": 3864,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 799,
+    "y": 3864,
+    "w": 148,
+    "h": 21,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer-column.site-footer-stamp > picture > img",
+    "x": 1075,
+    "y": 3840,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "media_18686ce5d542e21460f5b9773dc388b150"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 84,
+    "y": 3992,
+    "w": 153,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 288,
+    "y": 3992,
+    "w": 135,
+    "h": 21,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 516,
+    "y": 3992,
+    "w": 82,
+    "h": 21,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 646,
+    "y": 3992,
+    "w": 96,
+    "h": 21,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 84,
+    "y": 4033,
+    "w": 156,
+    "h": 21,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a.cookiebot-reset",
+    "x": 288,
+    "y": 4033,
+    "w": 180,
+    "h": 21,
+    "text": "configuración de cookies",
+    "href": "/es-es/whitepapers/guia-estrategica-salud-digital-optimizely-2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 962,
+    "y": 3997,
+    "w": 23,
+    "h": 21,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 1017,
+    "y": 3997,
+    "w": 23,
+    "h": 21,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 1072,
+    "y": 3997,
+    "w": 23,
+    "h": 21,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 1127,
+    "y": 3997,
+    "w": 23,
+    "h": 21,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 1182,
+    "y": 3997,
+    "w": 23,
+    "h": 21,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 1237,
+    "y": 3997,
+    "w": 23,
+    "h": 21,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 49,
+    "horizontal": 0,
+    "offPage": 1,
+    "textNodes": 126,
+    "controls": 37,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 49,
+     "clipper": "div.pdf-view-block-scroller",
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "contents",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ],
+   "findings": [
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "contents",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 502,
+      "t": 2444,
+      "r": 600,
+      "b": 2469,
+      "w": 98,
+      "h": 25
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "why now?",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 696,
+      "t": 2444,
+      "r": 747,
+      "b": 2456,
+      "w": 51,
+      "h": 12
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "why optimizely?",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 696,
+      "t": 2469,
+      "r": 779,
+      "b": 2481,
+      "w": 83,
+      "h": 12
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "key plays",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 696,
+      "t": 2493,
+      "r": 743,
+      "b": 2505,
+      "w": 47,
+      "h": 12
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "patient acquisition and",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 696,
+      "t": 2518,
+      "r": 809,
+      "b": 2530,
+      "w": 113,
+      "h": 12
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "competitive reputation",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 696,
+      "t": 2533,
+      "r": 808,
+      "b": 2545,
+      "w": 113,
+      "h": 12
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "patient access and",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 696,
+      "t": 2558,
+      "r": 789,
+      "b": 2570,
+      "w": 93,
+      "h": 12
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "patient support",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 696,
+      "t": 2572,
+      "r": 773,
+      "b": 2584,
+      "w": 77,
+      "h": 12
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "digital loyalty and",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 696,
+      "t": 2597,
+      "r": 784,
+      "b": 2609,
+      "w": 88,
+      "h": 12
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "population health outcomes",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 696,
+      "t": 2612,
+      "r": 834,
+      "b": 2624,
+      "w": 138,
+      "h": 12
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "content supply and",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 696,
+      "t": 2637,
+      "r": 792,
+      "b": 2649,
+      "w": 96,
+      "h": 12
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "meeting the demand for",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 696,
+      "t": 2651,
+      "r": 815,
+      "b": 2663,
+      "w": 119,
+      "h": 12
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "healthcare content",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 696,
+      "t": 2666,
+      "r": 789,
+      "b": 2678,
+      "w": 93,
+      "h": 12
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "01",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 664,
+      "t": 2518,
+      "r": 675,
+      "b": 2530,
+      "w": 11,
+      "h": 12
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "02",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 664,
+      "t": 2558,
+      "r": 677,
+      "b": 2570,
+      "w": 13,
+      "h": 12
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "03",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 664,
+      "t": 2597,
+      "r": 677,
+      "b": 2609,
+      "w": 13,
+      "h": 12
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "04",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 664,
+      "t": 2637,
+      "r": 678,
+      "b": 2649,
+      "w": 14,
+      "h": 12
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "3",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 868,
+      "t": 2444,
+      "r": 874,
+      "b": 2456,
+      "w": 6,
+      "h": 12
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "4",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 867,
+      "t": 2469,
+      "r": 873,
+      "b": 2481,
+      "w": 6,
+      "h": 12
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "8",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 867,
+      "t": 2493,
+      "r": 874,
+      "b": 2505,
+      "w": 6,
+      "h": 12
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "9",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 867,
+      "t": 2518,
+      "r": 874,
+      "b": 2530,
+      "w": 6,
+      "h": 12
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "12",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 864,
+      "t": 2558,
+      "r": 874,
+      "b": 2570,
+      "w": 10,
+      "h": 12
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "14",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 863,
+      "t": 2597,
+      "r": 874,
+      "b": 2609,
+      "w": 11,
+      "h": 12
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "16",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 863,
+      "t": 2637,
+      "r": 874,
+      "b": 2649,
+      "w": 11,
+      "h": 12
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "a 2026 optimizely digital healthcare strategy playbook",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 595,
+      "t": 2349,
+      "r": 737,
+      "b": 2355,
+      "w": 142,
+      "h": 6
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "2",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 871,
+      "t": 2349,
+      "r": 874,
+      "b": 2355,
+      "w": 3,
+      "h": 6
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "why now?",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 502,
+      "t": 3043,
+      "r": 609,
+      "b": 3068,
+      "w": 107,
+      "h": 25
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "u.s. healthcare digital experience has been under",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 502,
+      "t": 3087,
+      "r": 747,
+      "b": 3099,
+      "w": 245,
+      "h": 12
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "tremendous pressure for more than a decade,",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 502,
+      "t": 3102,
+      "r": 728,
+      "b": 3114,
+      "w": 226,
+      "h": 12
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "and the challenges keep piling up.",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 502,
+      "t": 3117,
+      "r": 669,
+      "b": 3129,
+      "w": 167,
+      "h": 12
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "asked to do more with less, to be strategic at every",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 502,
+      "t": 3156,
+      "r": 661,
+      "b": 3163,
+      "w": 159,
+      "h": 7
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "turn, and to blend effective marketing with service",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 502,
+      "t": 3166,
+      "r": 659,
+      "b": 3173,
+      "w": 157,
+      "h": 7
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "design, cmos, cios, ctos and their teams face an uphill",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 502,
+      "t": 3176,
+      "r": 678,
+      "b": 3183,
+      "w": 176,
+      "h": 7
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "battle. healthcare business models are under great",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 502,
+      "t": 3186,
+      "r": 663,
+      "b": 3193,
+      "w": 161,
+      "h": 7
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "pressure, competition is fierce and growing, regulations",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 502,
+      "t": 3196,
+      "r": 676,
+      "b": 3203,
+      "w": 174,
+      "h": 7
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "are shifting, and consumer expectations are set not by",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 502,
+      "t": 3206,
+      "r": 672,
+      "b": 3213,
+      "w": 170,
+      "h": 7
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "healthcare competitors but rather by the largest digital",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 502,
+      "t": 3215,
+      "r": 674,
+      "b": 3222,
+      "w": 172,
+      "h": 7
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "companies in the world.",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 502,
+      "t": 3225,
+      "r": 576,
+      "b": 3232,
+      "w": 74,
+      "h": 7
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "in this environment, the usability, accessibility and power",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 696,
+      "t": 3156,
+      "r": 874,
+      "b": 3163,
+      "w": 178,
+      "h": 7
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "of tools provide crucial leverage for smaller, overtasked",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 696,
+      "t": 3166,
+      "r": 869,
+      "b": 3173,
+      "w": 173,
+      "h": 7
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "teams. but great, user-friendly technology is not",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 696,
+      "t": 3176,
+      "r": 846,
+      "b": 3183,
+      "w": 150,
+      "h": 7
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "enough. organizations must develop an effective digital",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 696,
+      "t": 3186,
+      "r": 871,
+      "b": 3193,
+      "w": 175,
+      "h": 7
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "practice and associated strategies to get the value out",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 696,
+      "t": 3196,
+      "r": 866,
+      "b": 3203,
+      "w": 170,
+      "h": 7
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "of technology, which has little value without it. however,",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 696,
+      "t": 3206,
+      "r": 869,
+      "b": 3213,
+      "w": 173,
+      "h": 7
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "developing these strategies requires resources.",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 696,
+      "t": 3215,
+      "r": 846,
+      "b": 3222,
+      "w": 150,
+      "h": 7
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "a strong jump start is essential to build momentum.",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 696,
+      "t": 3225,
+      "r": 858,
+      "b": 3232,
+      "w": 162,
+      "h": 7
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "hence this playbook.",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 696,
+      "t": 3235,
+      "r": 762,
+      "b": 3242,
+      "w": 66,
+      "h": 7
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "a 2026 optimizely digital healthcare strategy playbook",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 595,
+      "t": 2948,
+      "r": 737,
+      "b": 2954,
+      "w": 142,
+      "h": 6
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "3",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 871,
+      "t": 2948,
+      "r": 874,
+      "b": 2954,
+      "w": 3,
+      "h": 6
+     },
+     "clip": {
+      "l": 24,
+      "t": 1732,
+      "r": 1352,
+      "b": 2332,
+      "w": 1328,
+      "h": 600
+     },
+     "lines": 1
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "guía estratégica de salud digital de optimizely 2026",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 10,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 10,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "por qué optimizely y por qué ahora",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 10,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 10,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "para quién es esta guía",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 14,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 14,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "descarga la guía",
+   "variable": false,
+   "origin": {
+    "link": 4,
+    "button": 1,
+    "text": 14,
+    "image": 0
+   },
+   "eds": {
+    "link": 4,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 36,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "COUNT TEXT"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "COUNT TEXT",
+   "msg": "band \"descarga la guía\": 14 origin → 36 served visible",
+   "band": 4,
+   "origin": 14,
+   "eds": 36,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 1,
+  "findings": 1,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 373,
+    "y": 21,
+    "w": 125,
+    "h": 23
+   },
+   {
+    "x": 569,
+    "y": 21,
+    "w": 73,
+    "h": 23
+   },
+   {
+    "x": 764,
+    "y": 21,
+    "w": 59,
+    "h": 23
+   },
+   {
+    "x": 960,
+    "y": 21,
+    "w": 103,
+    "h": 23
+   },
+   {
+    "x": 1156,
+    "y": 21,
+    "w": 122,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 89,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 75,
+    "y": 89,
+    "w": 99,
+    "h": 21
+   },
+   {
+    "x": 187,
+    "y": 89,
+    "w": 365,
+    "h": 21
+   },
+   {
+    "x": 757,
+    "y": 239,
+    "w": 464,
+    "h": 70
+   },
+   {
+    "x": 757,
+    "y": 294,
+    "w": 360,
+    "h": 70
+   },
+   {
+    "x": 757,
+    "y": 349,
+    "w": 380,
+    "h": 70
+   },
+   {
+    "x": 757,
+    "y": 454,
+    "w": 480,
+    "h": 26
+   },
+   {
+    "x": 757,
+    "y": 482,
+    "w": 455,
+    "h": 26
+   },
+   {
+    "x": 757,
+    "y": 510,
+    "w": 502,
+    "h": 26
+   },
+   {
+    "x": 757,
+    "y": 538,
+    "w": 435,
+    "h": 26
+   },
+   {
+    "x": 757,
+    "y": 591,
+    "w": 43,
+    "h": 56
+   },
+   {
+    "x": 811,
+    "y": 616,
+    "w": 165,
+    "h": 26
+   },
+   {
+    "x": 996,
+    "y": 591,
+    "w": 44,
+    "h": 56
+   },
+   {
+    "x": 1051,
+    "y": 616,
+    "w": 70,
+    "h": 26
+   },
+   {
+    "x": 797,
+    "y": 686,
+    "w": 178,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 871,
+    "w": 749,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 899,
+    "w": 725,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 927,
+    "w": 730,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 955,
+    "w": 618,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 999,
+    "w": 200,
+    "h": 26
+   },
+   {
+    "x": 335,
+    "y": 1043,
+    "w": 367,
+    "h": 26
+   },
+   {
+    "x": 335,
+    "y": 1083,
+    "w": 480,
+    "h": 26
+   },
+   {
+    "x": 335,
+    "y": 1124,
+    "w": 298,
+    "h": 26
+   },
+   {
+    "x": 335,
+    "y": 1165,
+    "w": 620,
+    "h": 26
+   },
+   {
+    "x": 335,
+    "y": 1193,
+    "w": 118,
+    "h": 26
+   },
+   {
+    "x": 335,
+    "y": 1234,
+    "w": 363,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1316,
+    "w": 713,
+    "h": 61
+   },
+   {
+    "x": 315,
+    "y": 1406,
+    "w": 677,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1434,
+    "w": 672,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1462,
+    "w": 704,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1490,
+    "w": 709,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1518,
+    "w": 105,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1562,
+    "w": 711,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1590,
+    "w": 696,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1618,
+    "w": 425,
+    "h": 26
+   },
+   {
+    "x": 502,
+    "y": 2057,
+    "w": 277,
+    "h": 38
+   },
+   {
+    "x": 502,
+    "y": 2097,
+    "w": 275,
+    "h": 38
+   },
+   {
+    "x": 502,
+    "y": 2136,
+    "w": 284,
+    "h": 38
+   },
+   {
+    "x": 502,
+    "y": 2193,
+    "w": 205,
+    "h": 11
+   },
+   {
+    "x": 502,
+    "y": 2208,
+    "w": 195,
+    "h": 11
+   },
+   {
+    "x": 315,
+    "y": 2447,
+    "w": 470,
+    "h": 61
+   },
+   {
+    "x": 335,
+    "y": 2537,
+    "w": 706,
+    "h": 26
+   },
+   {
+    "x": 335,
+    "y": 2565,
+    "w": 84,
+    "h": 26
+   },
+   {
+    "x": 335,
+    "y": 2605,
+    "w": 729,
+    "h": 26
+   },
+   {
+    "x": 335,
+    "y": 2633,
+    "w": 726,
+    "h": 26
+   },
+   {
+    "x": 335,
+    "y": 2661,
+    "w": 280,
+    "h": 26
+   },
+   {
+    "x": 335,
+    "y": 2702,
+    "w": 702,
+    "h": 26
+   },
+   {
+    "x": 335,
+    "y": 2730,
+    "w": 730,
+    "h": 26
+   },
+   {
+    "x": 335,
+    "y": 2758,
+    "w": 380,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2840,
+    "w": 333,
+    "h": 61
+   },
+   {
+    "x": 315,
+    "y": 2930,
+    "w": 708,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2958,
+    "w": 717,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2986,
+    "w": 59,
+    "h": 26
+   },
+   {
+    "x": 318,
+    "y": 3123,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 607,
+    "y": 3125,
+    "w": 6,
+    "h": 18
+   },
+   {
+    "x": 613,
+    "y": 3123,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 315,
+    "y": 3182,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 373,
+    "y": 3184,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 3182,
+    "w": 67,
+    "h": 21
+   },
+   {
+    "x": 807,
+    "y": 3184,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 315,
+    "y": 3250,
+    "w": 161,
+    "h": 21
+   },
+   {
+    "x": 476,
+    "y": 3252,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 3250,
+    "w": 63,
+    "h": 21
+   },
+   {
+    "x": 803,
+    "y": 3252,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 315,
+    "y": 3318,
+    "w": 43,
+    "h": 21
+   },
+   {
+    "x": 358,
+    "y": 3320,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 3318,
+    "w": 215,
+    "h": 21
+   },
+   {
+    "x": 955,
+    "y": 3320,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 315,
+    "y": 3386,
+    "w": 30,
+    "h": 21
+   },
+   {
+    "x": 345,
+    "y": 3388,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 341,
+    "y": 3446,
+    "w": 780,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 3467,
+    "w": 603,
+    "h": 21
+   },
+   {
+    "x": 944,
+    "y": 3467,
+    "w": 152,
+    "h": 21
+   },
+   {
+    "x": 1096,
+    "y": 3467,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 3519,
+    "w": 620,
+    "h": 21
+   },
+   {
+    "x": 961,
+    "y": 3519,
+    "w": 152,
+    "h": 21
+   },
+   {
+    "x": 1112,
+    "y": 3519,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 3542,
+    "w": 316,
+    "h": 21
+   },
+   {
+    "x": 315,
+    "y": 3593,
+    "w": 382,
+    "h": 21
+   },
+   {
+    "x": 697,
+    "y": 3593,
+    "w": 155,
+    "h": 21
+   },
+   {
+    "x": 852,
+    "y": 3593,
+    "w": 36,
+    "h": 21
+   },
+   {
+    "x": 887,
+    "y": 3593,
+    "w": 170,
+    "h": 21
+   },
+   {
+    "x": 1058,
+    "y": 3593,
+    "w": 47,
+    "h": 21
+   },
+   {
+    "x": 315,
+    "y": 3615,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 674,
+    "y": 3678,
+    "w": 92,
+    "h": 26
+   },
+   {
+    "x": 370,
+    "y": 3875,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 482,
+    "y": 3875,
+    "w": 109,
+    "h": 21
+   },
+   {
+    "x": 667,
+    "y": 3875,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 799,
+    "y": 3875,
+    "w": 148,
+    "h": 21
+   },
+   {
+    "x": 84,
+    "y": 4003,
+    "w": 153,
+    "h": 21
+   },
+   {
+    "x": 288,
+    "y": 4003,
+    "w": 135,
+    "h": 21
+   },
+   {
+    "x": 516,
+    "y": 4003,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 646,
+    "y": 4003,
+    "w": 96,
+    "h": 21
+   },
+   {
+    "x": 84,
+    "y": 4044,
+    "w": 156,
+    "h": 21
+   },
+   {
+    "x": 288,
+    "y": 4044,
+    "w": 180,
+    "h": 21
+   }
+  ],
+  "eds": [
+   {
+    "x": 373,
+    "y": 21,
+    "w": 125,
+    "h": 23
+   },
+   {
+    "x": 569,
+    "y": 21,
+    "w": 73,
+    "h": 23
+   },
+   {
+    "x": 764,
+    "y": 21,
+    "w": 59,
+    "h": 23
+   },
+   {
+    "x": 960,
+    "y": 21,
+    "w": 103,
+    "h": 23
+   },
+   {
+    "x": 1156,
+    "y": 21,
+    "w": 122,
+    "h": 23
+   },
+   {
+    "x": 1394,
+    "y": 196,
+    "w": 23,
+    "h": 101
+   },
+   {
+    "x": 24,
+    "y": 89,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 75,
+    "y": 89,
+    "w": 99,
+    "h": 21
+   },
+   {
+    "x": 187,
+    "y": 89,
+    "w": 365,
+    "h": 21
+   },
+   {
+    "x": 757,
+    "y": 239,
+    "w": 464,
+    "h": 70
+   },
+   {
+    "x": 757,
+    "y": 294,
+    "w": 360,
+    "h": 70
+   },
+   {
+    "x": 757,
+    "y": 349,
+    "w": 380,
+    "h": 70
+   },
+   {
+    "x": 757,
+    "y": 454,
+    "w": 480,
+    "h": 26
+   },
+   {
+    "x": 757,
+    "y": 482,
+    "w": 455,
+    "h": 26
+   },
+   {
+    "x": 757,
+    "y": 510,
+    "w": 502,
+    "h": 26
+   },
+   {
+    "x": 757,
+    "y": 538,
+    "w": 435,
+    "h": 26
+   },
+   {
+    "x": 757,
+    "y": 591,
+    "w": 43,
+    "h": 56
+   },
+   {
+    "x": 806,
+    "y": 616,
+    "w": 165,
+    "h": 26
+   },
+   {
+    "x": 991,
+    "y": 591,
+    "w": 44,
+    "h": 56
+   },
+   {
+    "x": 1042,
+    "y": 616,
+    "w": 70,
+    "h": 26
+   },
+   {
+    "x": 797,
+    "y": 686,
+    "w": 178,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 871,
+    "w": 749,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 899,
+    "w": 725,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 927,
+    "w": 730,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 955,
+    "w": 618,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 999,
+    "w": 200,
+    "h": 26
+   },
+   {
+    "x": 335,
+    "y": 1043,
+    "w": 367,
+    "h": 26
+   },
+   {
+    "x": 335,
+    "y": 1083,
+    "w": 480,
+    "h": 26
+   },
+   {
+    "x": 335,
+    "y": 1124,
+    "w": 298,
+    "h": 26
+   },
+   {
+    "x": 335,
+    "y": 1165,
+    "w": 620,
+    "h": 26
+   },
+   {
+    "x": 335,
+    "y": 1193,
+    "w": 118,
+    "h": 26
+   },
+   {
+    "x": 335,
+    "y": 1234,
+    "w": 363,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1316,
+    "w": 713,
+    "h": 61
+   },
+   {
+    "x": 315,
+    "y": 1406,
+    "w": 677,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1434,
+    "w": 672,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1462,
+    "w": 704,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1490,
+    "w": 709,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1518,
+    "w": 105,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1562,
+    "w": 711,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1590,
+    "w": 696,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 1618,
+    "w": 425,
+    "h": 26
+   },
+   {
+    "x": 502,
+    "y": 2057,
+    "w": 276,
+    "h": 38
+   },
+   {
+    "x": 502,
+    "y": 2096,
+    "w": 275,
+    "h": 38
+   },
+   {
+    "x": 502,
+    "y": 2136,
+    "w": 284,
+    "h": 38
+   },
+   {
+    "x": 502,
+    "y": 2192,
+    "w": 204,
+    "h": 11
+   },
+   {
+    "x": 502,
+    "y": 2207,
+    "w": 194,
+    "h": 11
+   },
+   {
+    "x": 315,
+    "y": 2447,
+    "w": 470,
+    "h": 61
+   },
+   {
+    "x": 335,
+    "y": 2537,
+    "w": 706,
+    "h": 26
+   },
+   {
+    "x": 335,
+    "y": 2565,
+    "w": 84,
+    "h": 26
+   },
+   {
+    "x": 335,
+    "y": 2605,
+    "w": 729,
+    "h": 26
+   },
+   {
+    "x": 335,
+    "y": 2633,
+    "w": 726,
+    "h": 26
+   },
+   {
+    "x": 335,
+    "y": 2661,
+    "w": 280,
+    "h": 26
+   },
+   {
+    "x": 335,
+    "y": 2702,
+    "w": 702,
+    "h": 26
+   },
+   {
+    "x": 335,
+    "y": 2730,
+    "w": 730,
+    "h": 26
+   },
+   {
+    "x": 335,
+    "y": 2758,
+    "w": 380,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2840,
+    "w": 333,
+    "h": 61
+   },
+   {
+    "x": 315,
+    "y": 2930,
+    "w": 708,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2958,
+    "w": 717,
+    "h": 26
+   },
+   {
+    "x": 315,
+    "y": 2986,
+    "w": 59,
+    "h": 26
+   },
+   {
+    "x": 318,
+    "y": 3123,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 607,
+    "y": 3123,
+    "w": 7,
+    "h": 21
+   },
+   {
+    "x": 614,
+    "y": 3123,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 315,
+    "y": 3182,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 373,
+    "y": 3184,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 3182,
+    "w": 67,
+    "h": 21
+   },
+   {
+    "x": 807,
+    "y": 3184,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 315,
+    "y": 3250,
+    "w": 161,
+    "h": 21
+   },
+   {
+    "x": 476,
+    "y": 3252,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 3250,
+    "w": 63,
+    "h": 21
+   },
+   {
+    "x": 803,
+    "y": 3252,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 315,
+    "y": 3318,
+    "w": 43,
+    "h": 21
+   },
+   {
+    "x": 358,
+    "y": 3320,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 3318,
+    "w": 215,
+    "h": 21
+   },
+   {
+    "x": 955,
+    "y": 3320,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 315,
+    "y": 3386,
+    "w": 30,
+    "h": 21
+   },
+   {
+    "x": 345,
+    "y": 3388,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 341,
+    "y": 3446,
+    "w": 780,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 3467,
+    "w": 603,
+    "h": 21
+   },
+   {
+    "x": 944,
+    "y": 3467,
+    "w": 152,
+    "h": 21
+   },
+   {
+    "x": 1096,
+    "y": 3467,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 3519,
+    "w": 620,
+    "h": 21
+   },
+   {
+    "x": 961,
+    "y": 3519,
+    "w": 152,
+    "h": 21
+   },
+   {
+    "x": 1112,
+    "y": 3519,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 3542,
+    "w": 316,
+    "h": 21
+   },
+   {
+    "x": 315,
+    "y": 3593,
+    "w": 382,
+    "h": 21
+   },
+   {
+    "x": 697,
+    "y": 3593,
+    "w": 155,
+    "h": 21
+   },
+   {
+    "x": 852,
+    "y": 3593,
+    "w": 36,
+    "h": 21
+   },
+   {
+    "x": 887,
+    "y": 3593,
+    "w": 170,
+    "h": 21
+   },
+   {
+    "x": 1058,
+    "y": 3593,
+    "w": 47,
+    "h": 21
+   },
+   {
+    "x": 315,
+    "y": 3615,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 678,
+    "y": 3678,
+    "w": 83,
+    "h": 23
+   },
+   {
+    "x": 370,
+    "y": 3864,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 482,
+    "y": 3864,
+    "w": 109,
+    "h": 21
+   },
+   {
+    "x": 667,
+    "y": 3864,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 799,
+    "y": 3864,
+    "w": 148,
+    "h": 21
+   },
+   {
+    "x": 84,
+    "y": 3992,
+    "w": 153,
+    "h": 21
+   },
+   {
+    "x": 288,
+    "y": 3992,
+    "w": 135,
+    "h": 21
+   },
+   {
+    "x": 516,
+    "y": 3992,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 646,
+    "y": 3992,
+    "w": 96,
+    "h": 21
+   },
+   {
+    "x": 84,
+    "y": 4033,
+    "w": 156,
+    "h": 21
+   },
+   {
+    "x": 288,
+    "y": 4033,
+    "w": 180,
+    "h": 21
+   }
+  ]
+ }
+}

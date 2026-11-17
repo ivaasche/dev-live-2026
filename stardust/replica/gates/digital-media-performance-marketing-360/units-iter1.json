@@ -1,0 +1,997 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-13T13:51:09.488Z",
+  "tol": 4,
+  "n": 3,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/digital-media-performance-marketing/",
+  "at": "2026-11-13T13:47:20.309Z",
+  "docH": 7359
+ },
+ "eds": {
+  "url": "http://localhost:8791/digital-media-performance-marketing-proposed.html",
+  "at": "2026-11-13T13:51:09.029Z",
+  "docH": 7931
+ },
+ "results": [
+  {
+   "sel": ".columns-rte__content-row=.columns-rte__content-row",
+   "family": "columns-rte-row",
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.columns-rte > div.columns-rte__container.text-content > div.columns-rte__content-row"
+     },
+     "eds": {
+      "path": "div.columns-rte > div.columns-rte__container.text-content > div.columns-rte__content-row"
+     },
+     "rows": [
+      {
+       "key": "heading:multi-channel planning & buying",
+       "role": "heading",
+       "text": "multi-channel planning & buying",
+       "edsText": "multi-channel planning & buying",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 650,
+        "h": 52
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 34,
+        "sel": "h2",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -338,
+       "dh": -18,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "43/52/300",
+        "eds": "28/34/300"
+       }
+      },
+      {
+       "key": "heading:creative concept advertising",
+       "role": "heading",
+       "text": "creative concept advertising",
+       "edsText": "creative concept advertising",
+       "byPosition": false,
+       "origin": {
+        "x": 678,
+        "y": 0,
+        "w": 650,
+        "h": 52
+       },
+       "eds": {
+        "x": 0,
+        "y": 1002,
+        "w": 312,
+        "h": 34,
+        "sel": "h2",
+        "role": "heading"
+       },
+       "dx": -678,
+       "dy": 1002,
+       "dw": -338,
+       "dh": -18,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "43/52/300",
+        "eds": "28/34/300"
+       }
+      },
+      {
+       "key": "text:media plans built on data",
+       "role": "text",
+       "text": "media plans built on data",
+       "edsText": "media plans built on data",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 86,
+        "w": 222,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 51,
+        "w": 177,
+        "h": 21,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -35,
+       "dw": -45,
+       "dh": -5,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/700",
+        "eds": "16/24/700"
+       }
+      },
+      {
+       "key": "text:compelling creative, meaningful results",
+       "role": "text",
+       "text": "compelling creative, meaningful results",
+       "edsText": "compelling creative, meaningful results",
+       "byPosition": false,
+       "origin": {
+        "x": 678,
+        "y": 116,
+        "w": 349,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 1077,
+        "w": 279,
+        "h": 21,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": -678,
+       "dy": 961,
+       "dw": -70,
+       "dh": -5,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/700",
+        "eds": "16/24/700"
+       }
+      },
+      {
+       "key": "text:effective marketing is all about meeting",
+       "role": "text",
+       "text": "effective marketing is all about meeting your customers wher",
+       "edsText": "effective marketing is all about meeting your customers wher",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 127,
+        "w": 650,
+        "h": 120
+       },
+       "eds": {
+        "x": 0,
+        "y": 87,
+        "w": 312,
+        "h": 168,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -40,
+       "dw": -338,
+       "dh": 48,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/300",
+        "eds": "16/24/300"
+       }
+      },
+      {
+       "key": "text:effective advertising is all about havin",
+       "role": "text",
+       "text": "effective advertising is all about having compelling creativ",
+       "edsText": "effective advertising is all about having compelling creativ",
+       "byPosition": false,
+       "origin": {
+        "x": 678,
+        "y": 157,
+        "w": 650,
+        "h": 150
+       },
+       "eds": {
+        "x": 0,
+        "y": 1113,
+        "w": 312,
+        "h": 192,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": -678,
+       "dy": 956,
+       "dw": -338,
+       "dh": 42,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/300",
+        "eds": "16/24/300"
+       }
+      },
+      {
+       "key": "text:at valtech, we know that your customers ",
+       "role": "text",
+       "text": "at valtech, we know that your customers don't limit themselv",
+       "edsText": "at valtech, we know that your customers don't limit themselv",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 259,
+        "w": 650,
+        "h": 150
+       },
+       "eds": {
+        "x": 0,
+        "y": 267,
+        "w": 312,
+        "h": 216,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 8,
+       "dw": -338,
+       "dh": 66,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/300",
+        "eds": "16/24/300"
+       }
+      },
+      {
+       "key": "text:at valtech, we understand that the right",
+       "role": "text",
+       "text": "at valtech, we understand that the right creative concept ca",
+       "edsText": "at valtech, we understand that the right creative concept ca",
+       "byPosition": false,
+       "origin": {
+        "x": 678,
+        "y": 319,
+        "w": 650,
+        "h": 150
+       },
+       "eds": {
+        "x": 0,
+        "y": 1317,
+        "w": 312,
+        "h": 192,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": -678,
+       "dy": 998,
+       "dw": -338,
+       "dh": 42,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/300",
+        "eds": "16/24/300"
+       }
+      },
+      {
+       "key": "text:multi-channel marketing is about more th",
+       "role": "text",
+       "text": "multi-channel marketing is about more than just casting a wi",
+       "edsText": "multi-channel marketing is about more than just casting a wi",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 422,
+        "w": 650,
+        "h": 180
+       },
+       "eds": {
+        "x": 0,
+        "y": 496,
+        "w": 312,
+        "h": 240,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 74,
+       "dw": -338,
+       "dh": 60,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/300",
+        "eds": "16/24/300"
+       }
+      },
+      {
+       "key": "text:our team of creative experts ensures tha",
+       "role": "text",
+       "text": "our team of creative experts ensures that every element of y",
+       "edsText": "our team of creative experts ensures that every element of y",
+       "byPosition": false,
+       "origin": {
+        "x": 678,
+        "y": 482,
+        "w": 650,
+        "h": 120
+       },
+       "eds": {
+        "x": 0,
+        "y": 1522,
+        "w": 312,
+        "h": 168,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": -678,
+       "dy": 1040,
+       "dw": -338,
+       "dh": 48,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/300",
+        "eds": "16/24/300"
+       }
+      },
+      {
+       "key": "text:when you work with valtech, you can be c",
+       "role": "text",
+       "text": "when you work with valtech, you can be confident that your m",
+       "edsText": "when you work with valtech, you can be confident that your m",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 615,
+        "w": 650,
+        "h": 150
+       },
+       "eds": {
+        "x": 0,
+        "y": 749,
+        "w": 312,
+        "h": 192,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 134,
+       "dw": -338,
+       "dh": 42,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 2500,
+       "w": 1328,
+       "h": 808
+      },
+      "eds": {
+       "x": 24,
+       "y": 2120,
+       "w": 312,
+       "h": 1727
+      },
+      "dx": 0,
+      "dy": -380,
+      "dw": -1016,
+      "dh": 919
+     },
+     "summary": {
+      "elements": 11,
+      "within": 0,
+      "off": 11,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.columns-rte > div.columns-rte__container.text-content > div.columns-rte__content-row"
+     },
+     "eds": {
+      "path": "div.columns-rte > div.columns-rte__container.text-content > div.columns-rte__content-row"
+     },
+     "rows": [
+      {
+       "key": "text:paid search marketing",
+       "role": "text",
+       "text": "paid search marketing",
+       "edsText": "paid search marketing",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 2,
+        "w": 205,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 1,
+        "w": 164,
+        "h": 21,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": -41,
+       "dh": -5,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/700",
+        "eds": "16/24/700"
+       }
+      },
+      {
+       "key": "text:programmatic advertising",
+       "role": "text",
+       "text": "programmatic advertising",
+       "edsText": "programmatic advertising",
+       "byPosition": false,
+       "origin": {
+        "x": 678,
+        "y": 2,
+        "w": 240,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 663,
+        "w": 192,
+        "h": 21,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": -678,
+       "dy": 661,
+       "dw": -48,
+       "dh": -5,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/700",
+        "eds": "16/24/700"
+       }
+      },
+      {
+       "key": "text:smarter returns driven by search",
+       "role": "text",
+       "text": "smarter returns driven by search",
+       "edsText": "smarter returns driven by search",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 32,
+        "w": 289,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 25,
+        "w": 231,
+        "h": 21,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -7,
+       "dw": -58,
+       "dh": -5,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/300",
+        "eds": "16/24/300"
+       }
+      },
+      {
+       "key": "text:leverage algorithms to drive campaign pe",
+       "role": "text",
+       "text": "leverage algorithms to drive campaign performance",
+       "edsText": "leverage algorithms to drive campaign performance",
+       "byPosition": false,
+       "origin": {
+        "x": 678,
+        "y": 32,
+        "w": 464,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 687,
+        "w": 276,
+        "h": 45,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": -678,
+       "dy": 655,
+       "dw": -188,
+       "dh": 19,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/300",
+        "eds": "16/24/300"
+       }
+      },
+      {
+       "key": "text:valtech's paid search marketing services",
+       "role": "text",
+       "text": "valtech's paid search marketing services help brands drive s",
+       "edsText": "valtech's paid search marketing services help brands drive s",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 73,
+        "w": 650,
+        "h": 150
+       },
+       "eds": {
+        "x": 0,
+        "y": 61,
+        "w": 312,
+        "h": 168,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -12,
+       "dw": -338,
+       "dh": 18,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/300",
+        "eds": "16/24/300"
+       }
+      },
+      {
+       "key": "text:valtech understands the power of algorit",
+       "role": "text",
+       "text": "valtech understands the power of algorithms and data-driven ",
+       "edsText": "valtech understands the power of algorithms and data-driven ",
+       "byPosition": false,
+       "origin": {
+        "x": 678,
+        "y": 73,
+        "w": 650,
+        "h": 270
+       },
+       "eds": {
+        "x": 0,
+        "y": 747,
+        "w": 312,
+        "h": 360,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": -678,
+       "dy": 674,
+       "dw": -338,
+       "dh": 90,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/300",
+        "eds": "16/24/300"
+       }
+      },
+      {
+       "key": "text:we understands that a successful paid se",
+       "role": "text",
+       "text": "we understands that a successful paid search campaign involv",
+       "edsText": "we understands that a successful paid search campaign involv",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 236,
+        "w": 650,
+        "h": 150
+       },
+       "eds": {
+        "x": 0,
+        "y": 242,
+        "w": 312,
+        "h": 192,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 6,
+       "dw": -338,
+       "dh": 42,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/300",
+        "eds": "16/24/300"
+       }
+      },
+      {
+       "key": "text:with our expertise in paid search market",
+       "role": "text",
+       "text": "with our expertise in paid search marketing, you can rest as",
+       "edsText": "with our expertise in paid search marketing, you can rest as",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 398,
+        "w": 650,
+        "h": 150
+       },
+       "eds": {
+        "x": 0,
+        "y": 446,
+        "w": 312,
+        "h": 192,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 48,
+       "dw": -338,
+       "dh": 42,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 3388,
+       "w": 1328,
+       "h": 548
+      },
+      "eds": {
+       "x": 24,
+       "y": 3887,
+       "w": 312,
+       "h": 1107
+      },
+      "dx": 0,
+      "dy": 499,
+      "dw": -1016,
+      "dh": 559
+     },
+     "summary": {
+      "elements": 8,
+      "within": 0,
+      "off": 8,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.columns-rte > div.columns-rte__container.text-content > div.columns-rte__content-row"
+     },
+     "eds": {
+      "path": "div.columns-rte > div.columns-rte__container.text-content > div.columns-rte__content-row"
+     },
+     "rows": [
+      {
+       "key": "text:performance influencer marketing",
+       "role": "text",
+       "text": "performance influencer marketing",
+       "edsText": "performance influencer marketing",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 2,
+        "w": 311,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 1,
+        "w": 249,
+        "h": 21,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": -62,
+       "dh": -5,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/700",
+        "eds": "16/24/700"
+       }
+      },
+      {
+       "key": "text:measurable social media campaigns for re",
+       "role": "text",
+       "text": "measurable social media campaigns for real results",
+       "edsText": "measurable social media campaigns for real results",
+       "byPosition": false,
+       "origin": {
+        "x": 678,
+        "y": 2,
+        "w": 479,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 579,
+        "w": 291,
+        "h": 45,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": -678,
+       "dy": 577,
+       "dw": -188,
+       "dh": 19,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/700",
+        "eds": "16/24/700"
+       }
+      },
+      {
+       "key": "text:driving results through authentic connec",
+       "role": "text",
+       "text": "driving results through authentic connections",
+       "edsText": "driving results through authentic connections",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 32,
+        "w": 415,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 25,
+        "w": 239,
+        "h": 45,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -7,
+       "dw": -176,
+       "dh": 19,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/300",
+        "eds": "16/24/300"
+       }
+      },
+      {
+       "key": "text:forging authentic connections with your ",
+       "role": "text",
+       "text": "forging authentic connections with your audience",
+       "edsText": "forging authentic connections with your audience",
+       "byPosition": false,
+       "origin": {
+        "x": 678,
+        "y": 32,
+        "w": 450,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 627,
+        "w": 289,
+        "h": 45,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": -678,
+       "dy": 595,
+       "dw": -161,
+       "dh": 19,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/300",
+        "eds": "16/24/300"
+       }
+      },
+      {
+       "key": "text:in today's marketing landscape, influenc",
+       "role": "text",
+       "text": "in today's marketing landscape, influencer marketing has bec",
+       "edsText": "in today's marketing landscape, influencer marketing has bec",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 73,
+        "w": 650,
+        "h": 120
+       },
+       "eds": {
+        "x": 0,
+        "y": 85,
+        "w": 312,
+        "h": 168,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 12,
+       "dw": -338,
+       "dh": 48,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/300",
+        "eds": "16/24/300"
+       }
+      },
+      {
+       "key": "text:the key to success on social media lies ",
+       "role": "text",
+       "text": "the key to success on social media lies in more than just au",
+       "edsText": "the key to success on social media lies in more than just au",
+       "byPosition": false,
+       "origin": {
+        "x": 678,
+        "y": 73,
+        "w": 650,
+        "h": 90
+       },
+       "eds": {
+        "x": 0,
+        "y": 686,
+        "w": 312,
+        "h": 120,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": -678,
+       "dy": 613,
+       "dw": -338,
+       "dh": 30,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/300",
+        "eds": "16/24/300"
+       }
+      },
+      {
+       "key": "text:at valtech, we understand that the brand",
+       "role": "text",
+       "text": "at valtech, we understand that the brands that achieve measu",
+       "edsText": "at valtech, we understand that the brands that achieve measu",
+       "byPosition": false,
+       "origin": {
+        "x": 678,
+        "y": 176,
+        "w": 650,
+        "h": 270
+       },
+       "eds": {
+        "x": 0,
+        "y": 819,
+        "w": 312,
+        "h": 336,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": -678,
+       "dy": 643,
+       "dw": -338,
+       "dh": 66,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/300",
+        "eds": "16/24/300"
+       }
+      },
+      {
+       "key": "text:through our people-focused performance i",
+       "role": "text",
+       "text": "through our people-focused performance influencer marketing ",
+       "edsText": "through our people-focused performance influencer marketing ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 206,
+        "w": 650,
+        "h": 210
+       },
+       "eds": {
+        "x": 0,
+        "y": 266,
+        "w": 312,
+        "h": 288,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 60,
+       "dw": -338,
+       "dh": 78,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/300",
+        "eds": "16/24/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 24,
+       "y": 4017,
+       "w": 1328,
+       "h": 446
+      },
+      "eds": {
+       "x": 24,
+       "y": 5034,
+       "w": 312,
+       "h": 1155
+      },
+      "dx": 0,
+      "dy": 1017,
+      "dw": -1016,
+      "dh": 709
+     },
+     "summary": {
+      "elements": 8,
+      "within": 0,
+      "off": 8,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 3,
+  "within": 0,
+  "off": 27,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 27
+ }
+}

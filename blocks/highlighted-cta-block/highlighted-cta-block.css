@@ -1,0 +1,148 @@
+/* highlighted-cta-block — coloured CTA band (main.css @497378–498151 + the source .section /
+   .section__container.centralized utilities it carries; prototypes/css/article.css) */
+
+.highlighted-cta-block {
+  padding: clamp(5rem, 5rem + 28 * (100vw - 52.125rem) / 446, 6.75rem) 0;
+}
+
+@media (width >= 80rem) {
+  .highlighted-cta-block {
+    padding: clamp(6.75rem, 6.75rem + 12 * (100vw - 80rem) / 160, 7.5rem) 0;
+  }
+}
+
+@media (width >= 90rem) {
+  .highlighted-cta-block {
+    padding: clamp(7.5rem, 7.5rem + 24 * (100vw - 90rem) / 288, 9rem) 0;
+  }
+}
+
+@media (width >= 108rem) {
+  .highlighted-cta-block {
+    padding: clamp(9rem, 9rem + 16 * (100vw - 108rem) / 192, 10rem) 0;
+  }
+}
+
+@media (width >= 64rem) {
+  .highlighted-cta-block {
+    margin-right: 64px;
+  }
+}
+
+.highlighted-cta-block .highlighted-cta-block-inner {
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* max-width: the source .section__container.centralized steps win over the module's own
+   75.5rem / 72% / 88rem caps (measured on the live page: 78.5% at 1440) */
+@media (width >= 52.125rem) {
+  .highlighted-cta-block .highlighted-cta-block-inner {
+    max-width: 77.5%;
+  }
+}
+
+@media (width >= 80rem) {
+  .highlighted-cta-block .highlighted-cta-block-inner {
+    max-width: 79.5%;
+  }
+}
+
+@media (width >= 90rem) {
+  .highlighted-cta-block .highlighted-cta-block-inner {
+    max-width: 78.5%;
+  }
+}
+
+@media (width >= 108rem) {
+  .highlighted-cta-block .highlighted-cta-block-inner {
+    max-width: 77%;
+  }
+}
+
+@media (width >= 120rem) {
+  .highlighted-cta-block .highlighted-cta-block-inner {
+    max-width: 1440px;
+  }
+}
+
+.highlighted-cta-block .highlighted-cta-block-title :is(h2, h3) {
+  color: inherit;
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+@media (width >= 58.75rem) {
+  .highlighted-cta-block .highlighted-cta-block-title :is(h2, h3) {
+    font-size: 4rem;
+  }
+}
+
+.highlighted-cta-block .highlighted-cta-block-details p {
+  color: inherit;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@media (width >= 58.75rem) {
+  .highlighted-cta-block .highlighted-cta-block-details p {
+    font-size: 1.5rem;
+  }
+}
+
+/* the source CTA anchor sits directly in the details box (no paragraph) */
+.highlighted-cta-block .highlighted-cta-block-details .highlighted-cta-block-action {
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+}
+
+.highlighted-cta-block .highlighted-cta-block-details a:any-link:not(.button) {
+  align-items: center;
+  align-self: flex-start;
+  background-color: #fff;
+  border: 2px solid var(--c-ocean);
+  border-radius: var(--pill);
+  color: var(--c-ocean);
+  display: inline-flex;
+  font-size: 1.125rem;
+  font-weight: 400;
+  justify-content: center;
+  line-height: 1.15;
+  min-width: 7.5rem;
+  overflow: hidden;
+  padding: .75rem 1.5rem;
+  position: relative;
+  text-align: center;
+  transition: background-color .2s ease;
+}
+
+@media (hover: hover) {
+  .highlighted-cta-block .highlighted-cta-block-details a:any-link:not(.button):hover {
+    background-color: var(--c-ocean);
+    border: 2px solid #fff;
+    color: #fff;
+  }
+}
+
+.highlighted-cta-block .highlighted-cta-block-details a:any-link:not(.button):focus-visible {
+  background-color: var(--c-ocean);
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+/* source `.blue-theme + .blue-theme { padding-top: 0 !important }` (@42311): a blue band right
+   after another blue band (offering: podcast-speakers blue, then this CTA) joins it — in EDS the
+   previous band is the last block of the previous section */
+main .section:has(> div:last-child > :is(.blue-theme, .blue)) + .section > div:first-child > .highlighted-cta-block.blue-theme {
+  padding-top: 0 !important;
+}
+
+/* variant `white` — the source CTA is a.btn--white (black outline pill, main.css .btn--white) */
+.highlighted-cta-block.white-theme .highlighted-cta-block-details a:any-link:not(.button) {
+  border-color: #000;
+  color: #000;
+}

@@ -1,0 +1,667 @@
+/* stylelint-disable no-descending-specificity -- the source cascade order is lifted verbatim */
+
+/* new-event-detail — main.css rules for .row/.column (grid utilities), .text-content,
+   .masthead-quaternary (media part), .event-block and .event-detail__info (scoped with
+   :where(.new-event-detail), source specificity kept), then the @new-event-detail rules;
+   values verbatim (BEM -> kebab-case), in source order */
+
+:where(.new-event-detail) .text-content h1 {
+  margin-bottom: .2em;
+}
+
+:where(.new-event-detail) .text-content h2 {
+  margin-bottom: 1rem;
+}
+
+@media (width >= 58.75rem) {
+  :where(.new-event-detail) .text-content h2 {
+    margin-bottom: 2rem;
+  }
+}
+
+:where(.new-event-detail) .text-content h3 {
+  margin-bottom: 1rem;
+}
+
+@media (width >= 58.75rem) {
+  :where(.new-event-detail) .text-content h3 {
+    margin-bottom: 2rem;
+  }
+}
+
+:where(.new-event-detail) .text-content h4 {
+  margin-bottom: .4em;
+}
+
+:where(.new-event-detail) .text-content h5 {
+  margin-bottom: .5em;
+}
+
+:where(.new-event-detail) .text-content h6,
+:where(.new-event-detail) .text-content p {
+  margin-bottom: .8em;
+}
+
+:where(.new-event-detail) .text-content ol,
+:where(.new-event-detail) .text-content p,
+:where(.new-event-detail) .text-content ul {
+  max-width: 38em;
+}
+
+:where(.new-event-detail) .text-content ol+h2,
+:where(.new-event-detail) .text-content ol+h3,
+:where(.new-event-detail) .text-content ol+h4,
+:where(.new-event-detail) .text-content ol+h5,
+:where(.new-event-detail) .text-content ol+h6,
+:where(.new-event-detail) .text-content p+h2,
+:where(.new-event-detail) .text-content p+h3,
+:where(.new-event-detail) .text-content p+h4,
+:where(.new-event-detail) .text-content p+h5,
+:where(.new-event-detail) .text-content p+h6,
+:where(.new-event-detail) .text-content ul+h2,
+:where(.new-event-detail) .text-content ul+h3,
+:where(.new-event-detail) .text-content ul+h4,
+:where(.new-event-detail) .text-content ul+h5,
+:where(.new-event-detail) .text-content ul+h6 {
+  margin-top: 3.75rem;
+}
+
+:where(.new-event-detail) .text-content li {
+  font-size: 1.5vw;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+@media (width <= 1066.6667px) {
+  :where(.new-event-detail) .text-content li {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1333.3333px) {
+  :where(.new-event-detail) .text-content li {
+    font-size: 20px;
+  }
+}
+
+:where(.new-event-detail) .text-content img {
+  height: auto;
+  margin: 1.25rem 0 3.75rem;
+  max-width: 100%;
+}
+
+@media (width <= 58.75rem) {
+  :where(.new-event-detail) .text-content img {
+    float: none!important;
+    margin-bottom: 1.25rem;
+  }
+}
+
+:where(.new-event-detail) .text-content ol,
+:where(.new-event-detail) .text-content ul {
+  line-height: 1.4;
+  margin: 0 0 .8em;
+  padding-left: 1.25rem;
+}
+
+:where(.new-event-detail) .text-content ol li+li,
+:where(.new-event-detail) .text-content ul li+li {
+  margin-top: .8rem;
+}
+
+:where(.new-event-detail) .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (width >= 58.75rem) {
+  :where(.new-event-detail) .row {
+    flex-direction: row;
+  }
+}
+
+:where(.new-event-detail) .column.one-third,
+:where(.new-event-detail) .column.two-thirds {
+  width: 100%;
+}
+
+@media (width >= 58.75rem) {
+  :where(.new-event-detail) .column.one-third {
+    width: 33.3333%;
+  }
+}
+
+@media (width >= 58.75rem) {
+  :where(.new-event-detail) .column.two-thirds {
+    width: 66.6667%;
+  }
+}
+
+:where(.new-event-detail) .masthead-quaternary {
+  margin-bottom: 2.5rem;
+}
+
+@media (width >= 58.75rem) {
+  :where(.new-event-detail) .masthead-quaternary {
+    margin-bottom: 5rem;
+  }
+}
+
+:where(.new-event-detail) .masthead-quaternary-container {
+  padding: 0 1.5rem;
+}
+
+@media (width >= 64rem) {
+  :where(.new-event-detail) .masthead-quaternary-container {
+    margin-right: 64px;
+  }
+}
+
+@media (width >= 120.001rem) {
+  :where(.new-event-detail) .masthead-quaternary-container {
+    margin: 0 auto;
+    max-width: 84vw;
+    padding: 0;
+  }
+}
+
+:where(.new-event-detail) .masthead-quaternary-inner {
+  position: relative;
+}
+
+@media (width >= 58.75rem) {
+  :where(.new-event-detail) .masthead-quaternary-inner {
+    padding-top: 56.25%;
+  }
+}
+
+:where(.new-event-detail) .masthead-quaternary-inner-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (width >= 58.75rem) {
+  :where(.new-event-detail) .masthead-quaternary-inner-wrap {
+    flex-direction: row;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+
+@media (width >= 58.75rem) {
+  :where(.new-event-detail) .masthead-quaternary-media {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+}
+
+:where(.new-event-detail) .masthead-quaternary-media picture {
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+}
+
+:where(.new-event-detail) .masthead-quaternary-media picture img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media (width >= 58.75rem) {
+  :where(.new-event-detail) .two-thirds .masthead-quaternary-container {
+    width: 100%;
+  }
+}
+
+:where(.new-event-detail) .event-block {
+  padding-bottom: 2.5rem;
+}
+
+@media (width >= 58.75rem) {
+  :where(.new-event-detail) .event-block {
+    padding-bottom: 5rem;
+  }
+}
+
+:where(.new-event-detail) .event-block-text-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (width <= 33.75rem) {
+  :where(.new-event-detail) .event-block-text-wrapper {
+    margin: 0 0 2rem;
+  }
+}
+
+@media (width >= 33.75rem) {
+  :where(.new-event-detail) .event-block-text-wrapper {
+    margin-right: 1rem;
+  }
+}
+
+@media (width >= 58.75rem) {
+  :where(.new-event-detail) .event-block-text-wrapper {
+    margin-right: 0;
+  }
+}
+
+:where(.new-event-detail) .event-block-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (width <= 58.749rem) {
+  :where(.new-event-detail) .event-block-container {
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0 1.5rem;
+  }
+}
+
+@media (width >= 58.749rem) {
+  :where(.new-event-detail) .event-block-container {
+    margin: 0 auto;
+    max-width: 50.625rem;
+  }
+}
+
+:where(.new-event-detail) .event-block-date,
+:where(.new-event-detail) .event-block-time {
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+:where(.new-event-detail) .event-block-date-label,
+:where(.new-event-detail) .event-block-time-label {
+  font-weight: 700;
+}
+
+:where(.new-event-detail) .event-block-time span {
+  white-space: nowrap;
+}
+
+:where(.new-event-detail) .event-block-free-text {
+  margin-bottom: 1.25rem;
+}
+
+:where(.new-event-detail) .event-block-free-text p {
+  font-size: medium;
+  line-height: normal;
+}
+
+:where(.new-event-detail) .event-block-location {
+  margin-bottom: 1.25rem;
+}
+
+:where(.new-event-detail) .event-block-location-label {
+  font-weight: 700;
+}
+
+:where(.new-event-detail) .event-block-location svg {
+  height: 16px;
+  margin: -2px;
+  width: 16px;
+}
+
+:where(.new-event-detail) .event-detail-info {
+  margin-top: 2vw;
+  padding: 0 3.75rem 2.5rem;
+  position: sticky;
+  top: 2.5rem;
+  z-index: 666;
+}
+
+:where(.new-event-detail) .event-detail-info.event-passed {
+  margin-top: 0;
+}
+
+@media (width <= 58.749rem) {
+  :where(.new-event-detail) .event-detail-info {
+    height: 0;
+    left: -3000em;
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+  }
+}
+
+@media (width >= 58.749rem) {
+  :where(.new-event-detail) .event-detail-mobile {
+    height: 0;
+    left: -3000em;
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+  }
+}
+
+@media (width <= 58.749rem) {
+  :where(.new-event-detail) .event-detail-mobile .event-block-container {
+    justify-content: space-between;
+  }
+}
+
+.new-event-detail {
+  margin-bottom: 2.5rem;
+  padding: 0 1.5rem;
+}
+
+@media (width >= 58.75rem) {
+  .new-event-detail {
+    margin-bottom: 5rem;
+  }
+}
+
+@media (width >= 64rem) {
+  .new-event-detail {
+    margin-right: 4rem;
+  }
+}
+
+@media (width >= 120.001rem) {
+  .new-event-detail {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 84vw;
+  }
+}
+
+.new-event-detail h1 {
+  font-size: 2rem;
+  margin: 0 0 .5rem;
+}
+
+@media (width >= 58.75rem) {
+  .new-event-detail h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.new-event-detail picture {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.new-event-detail picture img {
+  display: block;
+}
+
+.new-event-detail .masthead-quaternary {
+  margin-bottom: 0;
+}
+
+.new-event-detail .masthead-quaternary-container {
+  margin: 0;
+  padding: 0;
+}
+
+.new-event-detail .masthead-quaternary img {
+  height: auto;
+  max-height: 64vh;
+  max-width: 100%;
+}
+
+.new-event-detail .event-detail-info {
+  height: auto;
+  left: 0;
+  margin: 0;
+  overflow: initial;
+  padding: 1rem 1.5rem 2.5rem;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+@media (width >= 58.75rem) {
+  .new-event-detail .event-detail-info {
+    padding-top: 2.5rem;
+  }
+}
+
+.new-event-detail .event-detail-info>:last-child {
+  margin-bottom: 0;
+}
+
+.new-event-detail .event-detail-banner {
+  display: flex;
+}
+
+.new-event-detail .event-detail-banner-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-start;
+  padding: 1rem 1.5rem .625rem;
+}
+
+@media (width >= 58.75rem) {
+  .new-event-detail .event-detail-banner-wrapper {
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+  }
+}
+
+.new-event-detail .event-detail-banner-title {
+  font-size: 2rem;
+  margin-bottom: .5rem;
+}
+
+@media (width >= 58.75rem) {
+  .new-event-detail .event-detail-banner-title {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.new-event-detail .event-detail-banner-description {
+  font-size: 1rem;
+}
+
+.new-event-detail .event-detail-banner-description:last-child {
+  margin-bottom: 0;
+}
+
+@media (width >= 58.75rem) {
+  .new-event-detail .event-detail-banner-description {
+    font-size: 1.75rem;
+  }
+}
+
+.new-event-detail .event-block {
+  padding: 0;
+}
+
+.new-event-detail .event-block-container {
+  justify-content: flex-start;
+  padding: 0;
+  width: 100%;
+}
+
+.new-event-detail .event-block-text-wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.new-event-detail .event-block-date,
+.new-event-detail .event-block-free-text,
+.new-event-detail .event-block-language,
+.new-event-detail .event-block-location,
+.new-event-detail .event-block-time {
+  margin-bottom: .5rem;
+}
+
+@media (width >= 58.75rem) {
+  .new-event-detail .event-block-date,
+  .new-event-detail .event-block-free-text,
+  .new-event-detail .event-block-language,
+  .new-event-detail .event-block-location,
+  .new-event-detail .event-block-time {
+    margin-bottom: 1rem;
+  }
+}
+
+.new-event-detail .event-block-date-label,
+.new-event-detail .event-block-language-label,
+.new-event-detail .event-block-location-label,
+.new-event-detail .event-block-time-label {
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.new-event-detail .event-block-date-value,
+.new-event-detail .event-block-language-value,
+.new-event-detail .event-block-location-value,
+.new-event-detail .event-block-time-value {
+  font-weight: 300;
+  white-space: normal;
+}
+
+@media (width >= 58.75rem) {
+  .new-event-detail .event-block-date-value,
+  .new-event-detail .event-block-language-value,
+  .new-event-detail .event-block-location-value,
+  .new-event-detail .event-block-time-value {
+    font-size: 1.25rem;
+  }
+}
+
+.new-event-detail .event-block-free-text {
+  font-weight: 300;
+}
+
+.new-event-detail .event-block-free-text p:first-child {
+  margin: 0;
+}
+
+.new-event-detail .event-block-free-text strong {
+  display: block;
+  font-weight: 400;
+}
+
+.new-event-detail .new-event-detail-header {
+  margin: 0 0 1rem;
+}
+
+@media (width >= 58.75rem) {
+  .new-event-detail .new-event-detail-header {
+    margin-bottom: 2.5rem;
+  }
+}
+
+.new-event-detail .new-event-detail-header-text {
+  font-size: 1rem;
+  margin: 0;
+}
+
+@media (width >= 58.75rem) {
+  .new-event-detail .new-event-detail-header-text {
+    font-size: 1.75rem;
+  }
+}
+
+.new-event-detail .masthead-quaternary,
+.new-event-detail .masthead-quaternary-container,
+.new-event-detail .masthead-quaternary-video-control {
+  height: 100%;
+}
+
+.new-event-detail .masthead-quaternary-inner {
+  height: 100%;
+  padding: 0;
+}
+
+.new-event-detail .masthead-quaternary-inner-wrap,
+.new-event-detail .masthead-quaternary-media {
+  position: relative;
+}
+
+.new-event-detail .blue-theme {
+  background-color: #002fa7;
+  color: #fff;
+  margin: 0 -1.5rem;
+}
+
+@media (width >= 58.75rem) {
+  .new-event-detail .blue-theme {
+    flex-direction: row-reverse;
+  }
+}
+
+.new-event-detail .blue-theme a {
+  color: #fff;
+}
+
+.new-event-detail .dark-theme {
+  background-color: #000;
+  color: #fff;
+  margin: 0 -1.5rem;
+}
+
+.new-event-detail .dark-theme a {
+  color: #fff;
+}
+
+.new-event-detail.new-event-detail-sub .event-detail-info {
+  align-content: center;
+  height: 100%;
+}
+
+.new-event-detail.new-event-detail-hub .masthead-quaternary {
+  margin: 0 -1.5rem;
+}
+
+/* the source <img width="200"> partner logos in the free text (authored images carry no width) */
+.new-event-detail .event-block-free-text img {
+  width: 200px;
+}
+
+/* the authored fact paragraphs stand in for the source's inline spans (labels, values, time):
+   no paragraph box (beats the .text-content p rules) … */
+:where(.new-event-detail) .event-block-text-wrapper > div:not(.event-block-free-text) > p,
+:where(.new-event-detail) .event-block-time-value > p {
+  margin: 0;
+  max-width: none;
+}
+
+/* … inline, in the font of their fact line, as the source spans — specificity 0,0,1: the label /
+   value class rules above still win (labels display: block, as on the source) */
+:where(.new-event-detail .event-block-text-wrapper > div:not(.event-block-free-text)) > p,
+:where(.new-event-detail .event-block-time-value) > p {
+  display: inline;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+/* the source .text-content a:not(.button) underline on the location map link (main.css) */
+.new-event-detail .event-block-location-link a {
+  text-decoration: underline;
+}
+
+/* art direction (two authored pictures): the source <picture> serves its portrait crop in a
+   portrait viewport, the landscape one otherwise */
+@media (orientation: portrait) {
+  .new-event-detail .masthead-quaternary-landscape {
+    display: none;
+  }
+}
+
+@media (orientation: landscape) {
+  .new-event-detail .masthead-quaternary-portrait {
+    display: none;
+  }
+}

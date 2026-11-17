@@ -1,0 +1,213 @@
+/* jobs — source div.jobs (main.css jobs rules + the .row / .column grid, values verbatim) */
+
+.jobs {
+  padding-bottom: 2.5rem;
+}
+
+.jobs .jobs-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.jobs .jobs-list {
+  background-color: #f2f2f2;
+  overflow: hidden;
+  padding: 6vw;
+  position: relative;
+}
+
+.jobs .jobs-list .row {
+  border-bottom: 1px solid #999;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.875rem 0;
+  position: relative;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.jobs .jobs-list .row:first-child {
+  padding-top: 0;
+}
+
+.jobs .jobs-list .column {
+  width: 100%;
+}
+
+.jobs .jobs-list-title,
+.jobs .jobs-list-city {
+  color: inherit;
+  font-family: var(--font-sans);
+  font-size: 1.5vw;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.jobs .jobs-list-title {
+  display: inline-block;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.jobs .jobs-list-title::after {
+  background-color: #000;
+  bottom: 0;
+  content: "";
+  display: inline-block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%) scaleX(0);
+  transform-origin: right;
+  transition: transform 1s cubic-bezier(.19, 1, .22, 1);
+  width: 100%;
+}
+
+.jobs .jobs-list .row:hover .jobs-list-title::after {
+  transform: translateX(-50%) scaleX(1);
+  transform-origin: left;
+  transition: transform .4s cubic-bezier(.19, 1, .22, 1);
+}
+
+@media (width <= 933.3333px) {
+  .jobs .jobs-list-title,
+  .jobs .jobs-list-city {
+    font-size: 14px;
+  }
+}
+
+@media (width >= 1333.3333px) {
+  .jobs .jobs-list-title,
+  .jobs .jobs-list-city {
+    font-size: 20px;
+  }
+}
+
+.jobs .jobs-list-actions {
+  margin-top: 2.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.jobs .jobs-list svg {
+  height: 100%;
+  position: absolute;
+  right: -10px;
+  top: 0;
+  transform: rotate(-180deg);
+  width: auto;
+}
+
+.jobs .jobs-list svg text {
+  fill: hsl(0deg 0% 100% / 80%);
+  font-family: var(--font-sans);
+  font-size: 305px;
+  font-weight: 700;
+  pointer-events: none;
+  text-anchor: start;
+}
+
+.jobs .jobs-media img {
+  display: block;
+  margin-bottom: 1.25rem;
+  max-width: 100%;
+  width: 100%;
+}
+
+.jobs .jobs-media-text {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.jobs .jobs-media-text-title {
+  font-family: var(--font-sans);
+  font-size: 3vw;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0 0 1.5rem;
+}
+
+@media (width <= 600px) {
+  .jobs .jobs-media-text-title {
+    font-size: 18px;
+  }
+}
+
+@media (width >= 1333.3333px) {
+  .jobs .jobs-media-text-title {
+    font-size: 40px;
+  }
+}
+
+@media (width <= 58.749rem) {
+  .jobs .jobs-list {
+    margin-bottom: 2.5rem;
+  }
+
+  .jobs .jobs-list p {
+    margin-bottom: .625rem;
+  }
+
+  .jobs .jobs-media-text {
+    padding: 0 6vw;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .jobs {
+    padding-bottom: 7.5rem;
+  }
+
+  .jobs .jobs-container {
+    flex-direction: row;
+    margin: 0 auto;
+    width: 84vw;
+  }
+
+  .jobs .jobs-list {
+    padding: 3.75rem;
+    width: 60%;
+  }
+
+  .jobs .jobs-list .row {
+    flex-direction: row;
+  }
+
+  .jobs .jobs-list .column.eight {
+    width: 66.6667%;
+  }
+
+  .jobs .jobs-list .column.four {
+    width: 33.3333%;
+  }
+
+  .jobs .jobs-list-city {
+    text-align: right;
+  }
+
+  .jobs .jobs-media {
+    margin-left: 3.75rem;
+    width: 40%;
+  }
+}
+
+@media (width >= 64rem) {
+  .jobs .jobs-media p {
+    padding: 0 2.5rem;
+  }
+}
+
+.jobs .button-secondary-hollow {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px var(--c-ocean);
+  color: var(--c-ocean);
+}
+
+/* source: the jobs band sits flush under a preceding rte-block (measured: source rte-block bottom
+   = jobs top at 1440) — the section-level rte bottom margin is dropped before a jobs section */
+main .section.rte-block:has(+ .section .jobs) {
+  margin-bottom: 0;
+}

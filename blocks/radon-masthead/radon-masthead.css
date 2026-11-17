@@ -1,0 +1,9 @@
+/* radon-masthead — the source's blank <p> lines above and below the title (p type ramp:
+   1.5vw clamped 16–20 px, line-height 1.4, margin-bottom 1.5rem) */
+.radon-masthead::before,
+.radon-masthead::after {
+  content: "";
+  display: block;
+  height: calc(1.4 * clamp(16px, 1.5vw, 20px));
+  margin-bottom: 1.5rem;
+}

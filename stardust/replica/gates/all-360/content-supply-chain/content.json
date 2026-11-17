@@ -1,0 +1,8284 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T08:48:06.126Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/content-supply-chain/",
+  "at": "2026-11-14T08:47:37.035Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 11268,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.site-nav__menu-wrapper.site-nav__menu__labels > div.site-nav__logo > a.site-nav__logo__link",
+    "x": 24,
+    "y": 25,
+    "w": 80,
+    "h": 21,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > a.search-select.mobile",
+    "x": 232,
+    "y": 24,
+    "w": 22,
+    "h": 23,
+    "text": "go to search page",
+    "href": "/search/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open main menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open main menu",
+    "value": "open main menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > a",
+    "x": 24,
+    "y": 75,
+    "w": 41,
+    "h": 21,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 78,
+    "y": 75,
+    "w": 148,
+    "h": 21,
+    "label": "current",
+    "value": "content supply chain",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 78,
+    "y": 75,
+    "w": 148,
+    "h": 21,
+    "text": "Content Supply Chain"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta__text > hgroup.masthead-two-columns-cta__hgroup > h1.masthead-two-columns-cta__hgroup__title",
+    "x": 24,
+    "y": 505,
+    "w": 312,
+    "h": 55,
+    "level": 1,
+    "text": "scaling content shouldn’t feel this hard"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta__text > div.masthead-two-columns-cta__intro > p",
+    "x": 24,
+    "y": 580,
+    "w": 312,
+    "h": 112,
+    "text": "Delayed launches, rising production costs and inconsistent content across channe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta__text > div.masthead-two-columns-cta__cta > a.button.button--primary-hollow",
+    "x": 24,
+    "y": 716,
+    "w": 312,
+    "h": 86,
+    "text": "talk to a content supply chain expert",
+    "href": "/content-supply-chain/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta__media > picture > img",
+    "x": 0,
+    "y": 121,
+    "w": 360,
+    "h": 360,
+    "text": "",
+    "file": "content-supply-chain"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > h2",
+    "x": 24,
+    "y": 852,
+    "w": 312,
+    "h": 101,
+    "level": 2,
+    "text": "unlock the value trapped in your content operations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 969,
+    "w": 312,
+    "h": 67,
+    "text": "Content demand is exploding. Most organizations aren’t struggling to create cont"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 1049,
+    "w": 312,
+    "h": 112,
+    "text": "Content is produced across teams, tools and channels, but it rarely connects. Pr"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 1174,
+    "w": 312,
+    "h": 45,
+    "text": "The result: more content, more complexity, less impact."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 1231,
+    "w": 312,
+    "h": 134,
+    "text": "The Valtech Content Supply Chain identifies where content is breaking down and d"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 1379,
+    "w": 312,
+    "h": 67,
+    "text": "Content only scales when it operates as a system, not a series of disconnected a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "main#valtech-content > div.results-statistics-block > div.results-statistics-block_header",
+    "x": 24,
+    "y": 1486,
+    "w": 292,
+    "h": 39,
+    "text": "Industry trends"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.results-statistics-block_item_container > div.results-statistics-block_item_title.smaller-title > span",
+    "x": 40,
+    "y": 1557,
+    "w": 129,
+    "h": 45,
+    "text": "5 to 20x"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.results-statistics-block_item_container > div.results-statistics-block_item_content > p",
+    "x": 44,
+    "y": 1695,
+    "w": 256,
+    "h": 45,
+    "text": "Content demand growth due to AI and channel expansion"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.results-statistics-block_item_container > div.results-statistics-block_item_title.smaller-title > span",
+    "x": 352,
+    "y": 1557,
+    "w": 218,
+    "h": 45,
+    "text": "$1 billion-plus"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.results-statistics-block_item_container > div.results-statistics-block_item_content > p",
+    "x": 356,
+    "y": 1684,
+    "w": 256,
+    "h": 67,
+    "text": "Annual inefficiency costs organizations with fragmented content operations face"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.results-statistics-block_container.results-statistics-block_container--4 > ol.flickity-page-dots > li.dot.is-selected",
+    "x": 24,
+    "y": 1831,
+    "w": 23,
+    "h": 4,
+    "label": "current",
+    "value": "slide 1",
+    "via": "aria-current"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.results-statistics-block > div.results-statistics-block_container.results-statistics-block_container--4 > button.flickity-button.flickity-prev-next-button",
+    "x": 240,
+    "y": 1813,
+    "w": 40,
+    "h": 40,
+    "text": "previous"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.results-statistics-block > div.results-statistics-block_container.results-statistics-block_container--4 > button.flickity-button.flickity-prev-next-button",
+    "x": 296,
+    "y": 1813,
+    "w": 40,
+    "h": 40,
+    "text": "next"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.features-showcase__wrapper > div.features-showcase__header > h2.features-showcase__header__title",
+    "x": 16,
+    "y": 1937,
+    "w": 328,
+    "h": 101,
+    "level": 2,
+    "text": "what the valtech content supply chain delivers"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.features-showcase__list > li.features-showcase__item > h3.features-showcase__item__title",
+    "x": 69,
+    "y": 2139,
+    "w": 275,
+    "h": 58,
+    "level": 3,
+    "text": "visibility into your content supply chain"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.features-showcase__item > div.features-showcase__item__description > p",
+    "x": 69,
+    "y": 2204,
+    "w": 275,
+    "h": 72,
+    "text": "Map how content flows across data, assets, workflows and channels — and where in"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.features-showcase__list > li.features-showcase__item > h3.features-showcase__item__title",
+    "x": 69,
+    "y": 2377,
+    "w": 275,
+    "h": 58,
+    "level": 3,
+    "text": "a prioritized content blueprint"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span > span",
+    "x": 69,
+    "y": 2444,
+    "w": 53,
+    "h": 21,
+    "text": "Identify"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span > span",
+    "x": 69,
+    "y": 2444,
+    "w": 274,
+    "h": 45,
+    "text": "high-impact opportunities tied to speed,"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span > span",
+    "x": 138,
+    "y": 2468,
+    "w": 30,
+    "h": 21,
+    "text": "cost"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span > span",
+    "x": 168,
+    "y": 2468,
+    "w": 169,
+    "h": 21,
+    "text": "and revenue outcomes."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.features-showcase__list > li.features-showcase__item > h3.features-showcase__item__title",
+    "x": 69,
+    "y": 2592,
+    "w": 275,
+    "h": 58,
+    "level": 3,
+    "text": "a realistic view of your readiness"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.features-showcase__item > div.features-showcase__item__description > p",
+    "x": 69,
+    "y": 2657,
+    "w": 275,
+    "h": 96,
+    "text": "Visualize your technology, workflows, governance and AI maturity. Learn what’s r"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.features-showcase__list > li.features-showcase__item > h3.features-showcase__item__title",
+    "x": 69,
+    "y": 2854,
+    "w": 275,
+    "h": 58,
+    "level": 3,
+    "text": "a path to scalable content operations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.features-showcase__item > div.features-showcase__item__description > p",
+    "x": 69,
+    "y": 2920,
+    "w": 275,
+    "h": 48,
+    "text": "Move from fragmented production to a connected, repeatable system."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__column.two-columns__item__column--image > picture > img.two-columns__item__image",
+    "x": 24,
+    "y": 3056,
+    "w": 312,
+    "h": 205,
+    "text": "",
+    "file": "content-supply-chain-1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item > div.two-columns__item__column > h3.two-columns__item__title",
+    "x": 24,
+    "y": 3285,
+    "w": 312,
+    "h": 67,
+    "level": 3,
+    "text": "what this unlocks for your business"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__column > div.two-columns__item__text > p",
+    "x": 24,
+    "y": 3368,
+    "w": 312,
+    "h": 112,
+    "text": "When content operates as a connected system, it becomes a measurable growth driv"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__text > ul > li",
+    "x": 64,
+    "y": 3504,
+    "w": 272,
+    "h": 42,
+    "text": "Increase revenue through better product visibility and conversion"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__text > ul > li",
+    "x": 64,
+    "y": 3562,
+    "w": 272,
+    "h": 63,
+    "text": "Reduce costs by eliminating duplication and manual processes"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__text > ul > li",
+    "x": 64,
+    "y": 3641,
+    "w": 272,
+    "h": 42,
+    "text": "Accelerate time-to-market for products and campaigns"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__text > ul > li",
+    "x": 64,
+    "y": 3699,
+    "w": 272,
+    "h": 42,
+    "text": "Scale content production without scaling teams"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__text > ul > li",
+    "x": 64,
+    "y": 3757,
+    "w": 272,
+    "h": 42,
+    "text": "Deliver consistent, high-quality brand experiences across every channel"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__column.two-columns__item__column--image > picture > img.two-columns__item__image",
+    "x": 24,
+    "y": 3839,
+    "w": 312,
+    "h": 205,
+    "text": "",
+    "file": "content-supply-chain-6"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item > div.two-columns__item__column > h3.two-columns__item__title",
+    "x": 24,
+    "y": 4068,
+    "w": 312,
+    "h": 34,
+    "level": 3,
+    "text": "what we focus on"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__column > div.two-columns__item__text > p",
+    "x": 24,
+    "y": 4118,
+    "w": 312,
+    "h": 45,
+    "text": "We target the orchestration points where content must deliver real impact:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__text > ul > li",
+    "x": 64,
+    "y": 4186,
+    "w": 272,
+    "h": 42,
+    "text": "Connecting product data, assets and other content into robust ecosystems"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__text > ul > li",
+    "x": 64,
+    "y": 4244,
+    "w": 272,
+    "h": 42,
+    "text": "Streamlining workflows across teams and tools"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__text > ul > li",
+    "x": 64,
+    "y": 4302,
+    "w": 272,
+    "h": 42,
+    "text": "Scaling content creation with AI and modular systems"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__text > ul > li",
+    "x": 64,
+    "y": 4360,
+    "w": 272,
+    "h": 42,
+    "text": "Distributing content across marketplaces, channels and regions"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__text > ul > li",
+    "x": 64,
+    "y": 4418,
+    "w": 272,
+    "h": 42,
+    "text": "Measuring and optimizing content performance"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__column.two-columns__item__column--image > picture > img.two-columns__item__image",
+    "x": 24,
+    "y": 4500,
+    "w": 312,
+    "h": 205,
+    "text": "",
+    "file": "content-supply-chain-5"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item > div.two-columns__item__column > h3.two-columns__item__title",
+    "x": 24,
+    "y": 4729,
+    "w": 312,
+    "h": 34,
+    "level": 3,
+    "text": "how it works"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__column > div.two-columns__item__text > p",
+    "x": 24,
+    "y": 4779,
+    "w": 312,
+    "h": 45,
+    "text": "We follow a structured path from insight to scale:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__text > ul > li",
+    "x": 64,
+    "y": 4848,
+    "w": 272,
+    "h": 42,
+    "text": "Map how content flows across your organization"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__text > ul > li",
+    "x": 64,
+    "y": 4906,
+    "w": 272,
+    "h": 21,
+    "text": "Identify bottlenecks and inefficiencies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__text > ul > li",
+    "x": 64,
+    "y": 4943,
+    "w": 272,
+    "h": 21,
+    "text": "Define a clear path to scale"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__text > ul > li",
+    "x": 64,
+    "y": 4980,
+    "w": 272,
+    "h": 42,
+    "text": "Prove value through a focused use case"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__text > ul > li",
+    "x": 64,
+    "y": 5038,
+    "w": 272,
+    "h": 42,
+    "text": "Scale into a connected, enterprise-wide content system"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__column.two-columns__item__column--image > picture > img.two-columns__item__image",
+    "x": 24,
+    "y": 5120,
+    "w": 312,
+    "h": 205,
+    "text": "",
+    "file": "content-supply-chain-4"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item > div.two-columns__item__column > h3.two-columns__item__title",
+    "x": 24,
+    "y": 5349,
+    "w": 312,
+    "h": 67,
+    "level": 3,
+    "text": "why this approach works"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__column > div.two-columns__item__text > p",
+    "x": 24,
+    "y": 5432,
+    "w": 312,
+    "h": 67,
+    "text": "Most organizations try to scale content by adding more tools or more production."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__text > ul > li",
+    "x": 64,
+    "y": 5523,
+    "w": 272,
+    "h": 21,
+    "text": "System-first, not production-first"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__text > ul > li",
+    "x": 64,
+    "y": 5560,
+    "w": 272,
+    "h": 21,
+    "text": "Focused on outcomes, not output"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__text > ul > li",
+    "x": 64,
+    "y": 5597,
+    "w": 272,
+    "h": 21,
+    "text": "Built for scale, not one-off campaigns"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__text > ul > li",
+    "x": 64,
+    "y": 5634,
+    "w": 272,
+    "h": 42,
+    "text": "Designed to work with your existing ecosystem"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__text > ul > li",
+    "x": 64,
+    "y": 5692,
+    "w": 272,
+    "h": 42,
+    "text": "Aligned across marketing, commerce, and technology teams"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item__column > div.two-columns__item__text > p",
+    "x": 24,
+    "y": 5750,
+    "w": 312,
+    "h": 45,
+    "text": "Built to orchestrate how content, data, and workflows operate as one system."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns__item > div.two-columns__item__column > a.button.button--tertiary",
+    "x": 24,
+    "y": 5811,
+    "w": 312,
+    "h": 86,
+    "text": "talk to a content supply chain expert",
+    "href": "/content-supply-chain/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block__section.inline > div.partners-block__list > a.partners-block__logo",
+    "x": 24,
+    "y": 5977,
+    "w": 154,
+    "h": 100,
+    "text": "",
+    "href": "/partners/google/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block__section.inline > div.partners-block__list > a.partners-block__logo",
+    "x": 182,
+    "y": 5977,
+    "w": 154,
+    "h": 100,
+    "text": "",
+    "href": "/partners/microsoft/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block__section.inline > div.partners-block__list > a.partners-block__logo",
+    "x": 24,
+    "y": 6101,
+    "w": 154,
+    "h": 100,
+    "text": "",
+    "href": "/partners/databricks/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block__section.inline > div.partners-block__list > a.partners-block__logo",
+    "x": 182,
+    "y": 6101,
+    "w": 154,
+    "h": 100,
+    "text": "",
+    "href": "/partners/salesforce/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block__section.inline > div.partners-block__list > a.partners-block__logo",
+    "x": 24,
+    "y": 6225,
+    "w": 154,
+    "h": 100,
+    "text": "",
+    "href": "/partners/adobe/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block__section.inline > div.partners-block__list > a.partners-block__logo",
+    "x": 182,
+    "y": 6225,
+    "w": 154,
+    "h": 100,
+    "text": "",
+    "href": "/partners/shopify/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block__section.inline > div.partners-block__list > a.partners-block__logo",
+    "x": 24,
+    "y": 6349,
+    "w": 154,
+    "h": 100,
+    "text": "",
+    "href": "/partners/commercetools/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block__section.inline > div.partners-block__list > a.partners-block__logo",
+    "x": 182,
+    "y": 6349,
+    "w": 154,
+    "h": 100,
+    "text": "",
+    "href": "/partners/optimizely/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block__section.inline > div.partners-block__list > a.partners-block__logo",
+    "x": 24,
+    "y": 6473,
+    "w": 154,
+    "h": 100,
+    "text": "",
+    "href": "/partners/contentstack/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block__section.inline > div.partners-block__list > a.partners-block__logo",
+    "x": 182,
+    "y": 6473,
+    "w": 154,
+    "h": 100,
+    "text": "",
+    "href": "/partners/contentful/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.wrapper > div.podcast-speakers__wrapper > h2.podcast-speakers__title",
+    "x": 24,
+    "y": 6653,
+    "w": 312,
+    "h": 67,
+    "level": 2,
+    "text": "our content supply chain experts"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > img.podcast-speakers__image",
+    "x": 121,
+    "y": 6760,
+    "w": 118,
+    "h": 120,
+    "text": "",
+    "file": "raphael_iscar_gutierrez2"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__name",
+    "x": 126,
+    "y": 6888,
+    "w": 107,
+    "h": 23,
+    "text": "Raphaël Iscar​"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__company",
+    "x": 24,
+    "y": 6921,
+    "w": 312,
+    "h": 42,
+    "text": "Head of Experience & Commerce (XC) Strategy​"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__info > div.podcast-speakers__social-links > a.podcast-speakers__link",
+    "x": 165,
+    "y": 6963,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/raphael-iscar-pxm-pim/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > img.podcast-speakers__image",
+    "x": 121,
+    "y": 7049,
+    "w": 118,
+    "h": 120,
+    "text": "",
+    "file": "screenshot-2026-05-13-at-12.14.46-pm"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__name",
+    "x": 126,
+    "y": 7177,
+    "w": 107,
+    "h": 23,
+    "text": "Melanie Pearl"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__company",
+    "x": 114,
+    "y": 7210,
+    "w": 131,
+    "h": 21,
+    "text": "SVP, Client Growth"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__info > div.podcast-speakers__social-links > a.podcast-speakers__link",
+    "x": 165,
+    "y": 7231,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/melanieajackson/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > img.podcast-speakers__image",
+    "x": 121,
+    "y": 7316,
+    "w": 118,
+    "h": 120,
+    "text": "",
+    "file": "1709746506858"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__name",
+    "x": 129,
+    "y": 7444,
+    "w": 103,
+    "h": 23,
+    "text": "Kevin Larson"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__company",
+    "x": 115,
+    "y": 7477,
+    "w": 131,
+    "h": 21,
+    "text": "VP, Head of Studio"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__info > div.podcast-speakers__social-links > a.podcast-speakers__link",
+    "x": 165,
+    "y": 7498,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/kevinandrewlarson/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.highlighted-cta-block.section > div.highlighted-cta-block__container.section__container > h2.highlighted-cta-block__title",
+    "x": 16,
+    "y": 7663,
+    "w": 328,
+    "h": 101,
+    "level": 2,
+    "text": "turn content into a scalable system for growth"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.highlighted-cta-block__container.section__container > div.highlighted-cta-block__details > p.highlighted-cta-block__description",
+    "x": 16,
+    "y": 7788,
+    "w": 328,
+    "h": 120,
+    "text": "You don’t need more content. You need a system that makes it work. The Valtech C"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.highlighted-cta-block__container.section__container > div.highlighted-cta-block__details > a.btn--white.highlighted-cta-block__button",
+    "x": 16,
+    "y": 7932,
+    "w": 171,
+    "h": 49,
+    "text": "book a session",
+    "href": "/content-supply-chain/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldWrap.convertedField > div.mktoHtmlText.mktoHasWidth > span",
+    "x": 22,
+    "y": 8091,
+    "w": 250,
+    "h": 42,
+    "text": "Fields marked with an asterisk are mandatory and must be filled in."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblFirstName",
+    "x": 22,
+    "y": 8174,
+    "w": 87,
+    "h": 16,
+    "text": "First Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblLastName",
+    "x": 22,
+    "y": 8242,
+    "w": 86,
+    "h": 16,
+    "text": "Last Name"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#Lead_title__c",
+    "x": 22,
+    "y": 8299,
+    "w": 317,
+    "h": 38,
+    "label": "job title *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblLead_title__c",
+    "x": 22,
+    "y": 8310,
+    "w": 69,
+    "h": 16,
+    "text": "Job Title"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblEmail",
+    "x": 22,
+    "y": 8378,
+    "w": 89,
+    "h": 16,
+    "text": "Work Email"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblCompany",
+    "x": 22,
+    "y": 8446,
+    "w": 124,
+    "h": 16,
+    "text": "Company Name"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#Industry",
+    "x": 22,
+    "y": 8503,
+    "w": 317,
+    "h": 38,
+    "label": "industry *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblIndustry",
+    "x": 22,
+    "y": 8514,
+    "w": 68,
+    "h": 16,
+    "text": "Industry"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#CountryCode",
+    "x": 22,
+    "y": 8571,
+    "w": 317,
+    "h": 38,
+    "label": "country *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblCountryCode",
+    "x": 22,
+    "y": 8582,
+    "w": 66,
+    "h": 16,
+    "text": "Country"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.convertedField > label#LblcommentCapture",
+    "x": 22,
+    "y": 8639,
+    "w": 317,
+    "h": 42,
+    "text": "Share your comments"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldWrap.mktoRequiredField > div.mktoLogicalField.mktoCheckboxList > label#LblmktoCheckbox_195204_0",
+    "x": 48,
+    "y": 8895,
+    "w": 291,
+    "h": 106,
+    "text": "I accept to receive relevant news and marketing communication from Valtech and I"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoLogicalField.mktoCheckboxList > label#LblmktoCheckbox_195204_0 > a",
+    "x": 103,
+    "y": 8979,
+    "w": 102,
+    "h": 21,
+    "text": "privacy notice",
+    "href": "/privacy-notice/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 22,
+    "y": 9031,
+    "w": 302,
+    "h": 42,
+    "text": "This site is protected by CAPTCHA and the Friendly Captcha"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893 > a",
+    "x": 145,
+    "y": 9052,
+    "w": 98,
+    "h": 21,
+    "text": "privacy policy",
+    "href": "/legal/privacy-end-users/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 22,
+    "y": 9052,
+    "w": 316,
+    "h": 43,
+    "text": "and"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.NormalTextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893 > a",
+    "x": 22,
+    "y": 9052,
+    "w": 316,
+    "h": 43,
+    "text": "terms of use",
+    "href": "/legal/terms/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 49,
+    "y": 9075,
+    "w": 45,
+    "h": 21,
+    "text": "apply."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoButtonRow > span.mktoButtonWrap.mktoSimple > button.mktoButton.button",
+    "x": 85,
+    "y": 9157,
+    "w": 190,
+    "h": 59,
+    "text": "send request"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block > div.teaser-block__header.slide-fade-in > h4.teaser-block__header__title",
+    "x": 24,
+    "y": 9266,
+    "w": 292,
+    "h": 34,
+    "level": 4,
+    "text": "related content"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flickity-slider > div.teaser-block__teaser.is-selected > a.teaser-block__teaser__inner",
+    "x": 24,
+    "y": 9316,
+    "w": 270,
+    "h": 420,
+    "text": "case gordon food service",
+    "href": "/work/gordon-food-service/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block__teaser.is-selected > a.teaser-block__teaser__inner > h2.teaser-block__teaser__pretitle.case",
+    "x": 24,
+    "y": 9316,
+    "w": 113,
+    "h": 43,
+    "level": 2,
+    "text": "case"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.teaser-block__teaser__inner > hgroup.teaser-block__teaser__hgroup > h5.teaser-block__teaser__title",
+    "x": 48,
+    "y": 9634,
+    "w": 212,
+    "h": 20,
+    "level": 5,
+    "text": "gordon food service"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block__teaser.is-selected > picture > img",
+    "x": -124,
+    "y": 9313,
+    "w": 566,
+    "h": 424,
+    "text": "a server in a white shirt standing in a modern, well-lit kit",
+    "file": "server-looking-at-tablet-valtech-navigat"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flickity-slider > div.teaser-block__teaser > a.teaser-block__teaser__inner",
+    "x": 314,
+    "y": 9316,
+    "w": 270,
+    "h": 420,
+    "text": "insight the intelligent enterprise",
+    "href": "/landingpages-en-en-folder/landingpages-2026/the-intelligent-enterprise-playbook/"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block__teaser > a.teaser-block__teaser__inner > h2.teaser-block__teaser__pretitle.insight",
+    "x": 314,
+    "y": 9316,
+    "w": 113,
+    "h": 43,
+    "level": 2,
+    "text": "insight"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.teaser-block__teaser__inner > hgroup.teaser-block__teaser__hgroup > h5.teaser-block__teaser__title",
+    "x": 338,
+    "y": 9634,
+    "w": 212,
+    "h": 20,
+    "level": 5,
+    "text": "the intelligent enterprise"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block__teaser > picture > img",
+    "x": 166,
+    "y": 9313,
+    "w": 566,
+    "h": 424,
+    "text": "",
+    "file": "activating-agentic-navigation"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block__container.js-flickity-teaser > ol.flickity-page-dots > li.dot.is-selected",
+    "x": 24,
+    "y": 9768,
+    "w": 30,
+    "h": 4,
+    "label": "current",
+    "value": "slide 1",
+    "via": "aria-current"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block > div.teaser-block__container.js-flickity-teaser > button.flickity-button.flickity-prev-next-button",
+    "x": 240,
+    "y": 9750,
+    "w": 40,
+    "h": 40,
+    "text": "previous"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block > div.teaser-block__container.js-flickity-teaser > button.flickity-button.flickity-prev-next-button",
+    "x": 296,
+    "y": 9750,
+    "w": 40,
+    "h": 40,
+    "text": "next"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-block.faq-block--default > section.faq-block__container > h2.faq-block__title",
+    "x": 0,
+    "y": 9839,
+    "w": 360,
+    "h": 34,
+    "level": 2,
+    "text": "faqs"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title",
+    "x": 24,
+    "y": 9905,
+    "w": 252,
+    "h": 48,
+    "level": 3,
+    "text": "what is a content supply chain?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "details.faq-block__list__item__dropdown > div.faq-block__list__item__description.text-content > p",
+    "x": 24,
+    "y": 9994,
+    "w": 312,
+    "h": 90,
+    "text": "It’s the system that connects product data, content creation, workflows, and dis"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title",
+    "x": 24,
+    "y": 10138,
+    "w": 252,
+    "h": 48,
+    "level": 3,
+    "text": "how is this different from content production?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "details.faq-block__list__item__dropdown > div.faq-block__list__item__description.text-content > p",
+    "x": 24,
+    "y": 10227,
+    "w": 312,
+    "h": 90,
+    "text": "This isn’t about producing more content. It’s about fixing how content is create"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title",
+    "x": 24,
+    "y": 10219,
+    "w": 252,
+    "h": 48,
+    "level": 3,
+    "text": "what problem does this solve?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "details.faq-block__list__item__dropdown > div.faq-block__list__item__description.text-content > p",
+    "x": 24,
+    "y": 10308,
+    "w": 312,
+    "h": 67,
+    "text": "It solves how content, product data and workflows connect and scale across your "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title",
+    "x": 24,
+    "y": 10300,
+    "w": 252,
+    "h": 48,
+    "level": 3,
+    "text": "do we need a pim, dam or cms in place?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span.TextRun.SCXW19861950 > span.NormalTextRun.SCXW19861950",
+    "x": 24,
+    "y": 10392,
+    "w": 29,
+    "h": 17,
+    "text": "No."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span.TextRun.SCXW19861950 > span.NormalTextRun.SpellingErrorV2Themed",
+    "x": 53,
+    "y": 10392,
+    "w": 52,
+    "h": 17,
+    "text": "Valtech"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span.TextRun.SCXW19861950 > span.NormalTextRun.SCXW19861950",
+    "x": 106,
+    "y": 10392,
+    "w": 38,
+    "h": 17,
+    "text": "work"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span.TextRun.SCXW19861950 > span.NormalTextRun.SCXW19861950",
+    "x": 24,
+    "y": 10392,
+    "w": 255,
+    "h": 40,
+    "text": "with your existing systems"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span.TextRun.SCXW19861950 > span.NormalTextRun.SCXW19861950",
+    "x": 24,
+    "y": 10414,
+    "w": 186,
+    "h": 40,
+    "text": "help connect and"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span.TextRun.SCXW19861950 > span.NormalTextRun.SCXW19861950",
+    "x": 53,
+    "y": 10437,
+    "w": 60,
+    "h": 17,
+    "text": "optimize"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span.TextRun.SCXW19861950 > span.NormalTextRun.SCXW19861950",
+    "x": 24,
+    "y": 10437,
+    "w": 274,
+    "h": 40,
+    "text": "them as part of a scalable model."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title",
+    "x": 24,
+    "y": 10381,
+    "w": 229,
+    "h": 24,
+    "level": 3,
+    "text": "how does ai fit into this?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span.TextRun.SCXW66002131 > span.NormalTextRun.SCXW66002131",
+    "x": 24,
+    "y": 10450,
+    "w": 251,
+    "h": 40,
+    "text": "AI accelerates content creation and optimization, but only when"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span.TextRun.SCXW66002131 > span.NormalTextRun.SCXW66002131",
+    "x": 219,
+    "y": 10472,
+    "w": 19,
+    "h": 17,
+    "text": "it’s"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span.TextRun.SCXW66002131 > span.NormalTextRun.SCXW66002131",
+    "x": 24,
+    "y": 10472,
+    "w": 292,
+    "h": 63,
+    "text": "embedded into structured workflows and governed properly."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "details.faq-block__list__item__dropdown > summary.faq-block__list__item__toggle > h3.faq-block__list__item__title",
+    "x": 24,
+    "y": 10439,
+    "w": 252,
+    "h": 48,
+    "level": 3,
+    "text": "how quickly can we see value?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span.TextRun.SCXW193995157 > span.NormalTextRun.SCXW193995157",
+    "x": 24,
+    "y": 10531,
+    "w": 298,
+    "h": 63,
+    "text": "We focus on proving impact in weeks through targeted use cases before scaling ac"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 16,
+    "y": 10650,
+    "w": 43,
+    "h": 21,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 226,
+    "y": 10650,
+    "w": 44,
+    "h": 21,
+    "text": "about",
+    "href": "/about/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 16,
+    "y": 10690,
+    "w": 50,
+    "h": 21,
+    "text": "offices",
+    "href": "/about/offices/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 226,
+    "y": 10690,
+    "w": 87,
+    "h": 21,
+    "text": "who we are",
+    "href": "/career/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer__column.site-footer__stamp > picture > img",
+    "x": 16,
+    "y": 10729,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "badge-no-outline"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer__links > aside.site-footer__column.site-footer__stamp > a",
+    "x": 274,
+    "y": 10729,
+    "w": 64,
+    "h": 70,
+    "text": "sustainability stamp",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 274,
+    "y": 10729,
+    "w": 64,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "cdp_discloser_2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 10870,
+    "w": 90,
+    "h": 18,
+    "text": "privacy notice",
+    "href": "/privacy-notice/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 10911,
+    "w": 111,
+    "h": 18,
+    "text": "cookie statement",
+    "href": "/cookie-statement/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 10952,
+    "w": 83,
+    "h": 18,
+    "text": "legal notices",
+    "href": "/legal-notices/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 10993,
+    "w": 79,
+    "h": 18,
+    "text": "accessibility",
+    "href": "/about/accessibility/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 11034,
+    "w": 80,
+    "h": 18,
+    "text": "stay in touch",
+    "href": "/about/stay-in-touch/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a.cookiebot-reset",
+    "x": 16,
+    "y": 11075,
+    "w": 149,
+    "h": 18,
+    "text": "change cookie settings",
+    "href": "/content-supply-chain/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 16,
+    "y": 11156,
+    "w": 23,
+    "h": 18,
+    "text": "linkedin footer",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 87,
+    "y": 11156,
+    "w": 23,
+    "h": 18,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 158,
+    "y": 11156,
+    "w": 23,
+    "h": 18,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 229,
+    "y": 11156,
+    "w": 23,
+    "h": 18,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 16,
+    "y": 11201,
+    "w": 23,
+    "h": 18,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 87,
+    "y": 11201,
+    "w": 23,
+    "h": 18,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 4,
+    "offPage": 18,
+    "textNodes": 149,
+    "controls": 61,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.results-statistics-block",
+     "path": "div.results-statistics-block_item > div.results-statistics-block_item_container > div.results-statistics-block_item_title.smaller-title > span",
+     "text": "$1 billion-plus",
+     "cutMin": 210,
+     "cutMax": 210
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.results-statistics-block",
+     "path": "div.results-statistics-block_item > div.results-statistics-block_item_container > div.results-statistics-block_item_content > p",
+     "text": "annual inefficiency costs organizations with fragmented cont",
+     "cutMin": 212,
+     "cutMax": 212
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.teaser-block__teaser",
+     "path": "div.flickity-viewport > div.flickity-slider > div.teaser-block__teaser > a.teaser-block__teaser__inner",
+     "text": "insight the intelligent enterprise",
+     "cutMin": 224,
+     "cutMax": 224
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.teaser-block__teaser",
+     "path": "div.teaser-block__teaser > a.teaser-block__teaser__inner > hgroup.teaser-block__teaser__hgroup > h5.teaser-block__teaser__title",
+     "text": "the intelligent enterprise",
+     "cutMin": 160,
+     "cutMax": 160
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/content-supply-chain",
+  "at": "2026-11-14T08:48:05.932Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 11273,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-nav-menu-wrapper.site-nav-menu-labels > div.site-nav-logo > a.site-nav-logo-link",
+    "x": 24,
+    "y": 25,
+    "w": 80,
+    "h": 21,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > a.search-select.mobile",
+    "x": 232,
+    "y": 24,
+    "w": 22,
+    "h": 23,
+    "text": "go to search page",
+    "href": "/search/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open main menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open main menu",
+    "value": "open main menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 24,
+    "y": 75,
+    "w": 41,
+    "h": 21,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 65,
+    "y": 75,
+    "w": 161,
+    "h": 22,
+    "label": "current",
+    "value": "content supply chain",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 65,
+    "y": 75,
+    "w": 161,
+    "h": 22,
+    "text": "Content Supply Chain"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta-text > hgroup.masthead-two-columns-cta-hgroup > h1#scaling-content-shouldnt-feel-this-hard",
+    "x": 24,
+    "y": 501,
+    "w": 312,
+    "h": 55,
+    "level": 1,
+    "text": "scaling content shouldn’t feel this hard"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta-text > div.masthead-two-columns-cta-intro > p",
+    "x": 24,
+    "y": 576,
+    "w": 312,
+    "h": 112,
+    "text": "Delayed launches, rising production costs and inconsistent content across channe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta-cta > p > a.button.button-primary-hollow",
+    "x": 24,
+    "y": 712,
+    "w": 312,
+    "h": 86,
+    "text": "talk to a content supply chain expert",
+    "href": "/content-supply-chain"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta-media > picture.masthead-two-columns-cta-narrow > img",
+    "x": 0,
+    "y": 121,
+    "w": 360,
+    "h": 360,
+    "text": "",
+    "file": "media_102b0c0b2b013a862ecfc05343c2587a9d"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > h2#unlock-the-value-trapped-in-your-content-operations",
+    "x": 24,
+    "y": 848,
+    "w": 312,
+    "h": 101,
+    "level": 2,
+    "text": "unlock the value trapped in your content operations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 965,
+    "w": 312,
+    "h": 67,
+    "text": "Content demand is exploding. Most organizations aren’t struggling to create cont"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 1045,
+    "w": 312,
+    "h": 112,
+    "text": "Content is produced across teams, tools and channels, but it rarely connects. Pr"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 1170,
+    "w": 312,
+    "h": 45,
+    "text": "The result: more content, more complexity, less impact."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 1227,
+    "w": 312,
+    "h": 134,
+    "text": "The Valtech Content Supply Chain identifies where content is breaking down and d"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 1375,
+    "w": 312,
+    "h": 67,
+    "text": "Content only scales when it operates as a system, not a series of disconnected a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.results-statistics.smaller-title > div.results-statistics-header > h2#industry-trends",
+    "x": 24,
+    "y": 1482,
+    "w": 292,
+    "h": 39,
+    "level": 2,
+    "text": "industry trends"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.results-statistics-item-container > div.results-statistics-item-title > p",
+    "x": 40,
+    "y": 1553,
+    "w": 129,
+    "h": 45,
+    "text": "5 to 20x"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.results-statistics-item-container > div.results-statistics-item-content > p",
+    "x": 44,
+    "y": 1691,
+    "w": 256,
+    "h": 45,
+    "text": "Content demand growth due to AI and channel expansion"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.results-statistics-item-container > div.results-statistics-item-title > p",
+    "x": 352,
+    "y": 1553,
+    "w": 218,
+    "h": 45,
+    "text": "$1 billion-plus"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.results-statistics-item-container > div.results-statistics-item-content > p",
+    "x": 356,
+    "y": 1680,
+    "w": 256,
+    "h": 67,
+    "text": "Annual inefficiency costs organizations with fragmented content operations face"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.results-statistics-container.two-types-title > ol.results-statistics-dots.carousel-dots > li.dot.is-selected",
+    "x": 24,
+    "y": 1827,
+    "w": 23,
+    "h": 4,
+    "label": "current",
+    "value": "slide 1",
+    "via": "aria-current"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.results-statistics.smaller-title > div.results-statistics-container.two-types-title > button.carousel-btn.carousel-btn-prev",
+    "x": 240,
+    "y": 1809,
+    "w": 40,
+    "h": 40,
+    "text": "previous"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.results-statistics.smaller-title > div.results-statistics-container.two-types-title > button.carousel-btn.carousel-btn-next",
+    "x": 296,
+    "y": 1809,
+    "w": 40,
+    "h": 40,
+    "text": "next"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.features-showcase-inner > div.features-showcase-header > h2#what-the-valtech-content-supply-chain-delivers",
+    "x": 16,
+    "y": 1933,
+    "w": 328,
+    "h": 101,
+    "level": 2,
+    "text": "what the valtech content supply chain delivers"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span.icon.icon-feature-7075e4 > img",
+    "x": 69,
+    "y": 2071,
+    "w": 46,
+    "h": 48,
+    "text": "",
+    "file": "feature-7075e4"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.features-showcase-item > div.features-showcase-item-title > h3#visibility-into-your-content-supply-chain",
+    "x": 69,
+    "y": 2135,
+    "w": 275,
+    "h": 58,
+    "level": 3,
+    "text": "visibility into your content supply chain"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.features-showcase-item > div.features-showcase-item-description > p",
+    "x": 69,
+    "y": 2200,
+    "w": 275,
+    "h": 72,
+    "text": "Map how content flows across data, assets, workflows and channels — and where in"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span.icon.icon-feature-01b130 > img",
+    "x": 69,
+    "y": 2309,
+    "w": 49,
+    "h": 48,
+    "text": "",
+    "file": "feature-01b130"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.features-showcase-item > div.features-showcase-item-title > h3#a-prioritized-content-blueprint",
+    "x": 69,
+    "y": 2373,
+    "w": 275,
+    "h": 58,
+    "level": 3,
+    "text": "a prioritized content blueprint"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.features-showcase-item > div.features-showcase-item-description > p",
+    "x": 69,
+    "y": 2439,
+    "w": 275,
+    "h": 48,
+    "text": "Identify high-impact opportunities tied to speed, cost and revenue outcomes."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span.icon.icon-feature-7c5dfd > img",
+    "x": 69,
+    "y": 2524,
+    "w": 50,
+    "h": 48,
+    "text": "",
+    "file": "feature-7c5dfd"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.features-showcase-item > div.features-showcase-item-title > h3#a-realistic-view-of-your-readiness",
+    "x": 69,
+    "y": 2588,
+    "w": 275,
+    "h": 58,
+    "level": 3,
+    "text": "a realistic view of your readiness"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.features-showcase-item > div.features-showcase-item-description > p",
+    "x": 69,
+    "y": 2653,
+    "w": 275,
+    "h": 96,
+    "text": "Visualize your technology, workflows, governance and AI maturity. Learn what’s r"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span.icon.icon-feature-6d0c43 > img",
+    "x": 69,
+    "y": 2786,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "file": "feature-6d0c43"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.features-showcase-item > div.features-showcase-item-title > h3#a-path-to-scalable-content-operations",
+    "x": 69,
+    "y": 2850,
+    "w": 275,
+    "h": 58,
+    "level": 3,
+    "text": "a path to scalable content operations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.features-showcase-item > div.features-showcase-item-description > p",
+    "x": 69,
+    "y": 2916,
+    "w": 275,
+    "h": 48,
+    "text": "Move from fragmented production to a connected, repeatable system."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-column.two-columns-item-column-image > picture > img.two-columns-item-image",
+    "x": 24,
+    "y": 3052,
+    "w": 312,
+    "h": 207,
+    "text": "",
+    "file": "media_1f804d0dab388bba8f338dd798bd92f5dc"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item > div.two-columns-item-column > h3#what-this-unlocks-for-your-business",
+    "x": 24,
+    "y": 3283,
+    "w": 312,
+    "h": 67,
+    "level": 3,
+    "text": "what this unlocks for your business"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-column > div.two-columns-item-text > p",
+    "x": 24,
+    "y": 3366,
+    "w": 312,
+    "h": 112,
+    "text": "When content operates as a connected system, it becomes a measurable growth driv"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-text > ul > li",
+    "x": 64,
+    "y": 3502,
+    "w": 272,
+    "h": 42,
+    "text": "Increase revenue through better product visibility and conversion"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-text > ul > li",
+    "x": 64,
+    "y": 3560,
+    "w": 272,
+    "h": 63,
+    "text": "Reduce costs by eliminating duplication and manual processes"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-text > ul > li",
+    "x": 64,
+    "y": 3639,
+    "w": 272,
+    "h": 42,
+    "text": "Accelerate time-to-market for products and campaigns"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-text > ul > li",
+    "x": 64,
+    "y": 3697,
+    "w": 272,
+    "h": 42,
+    "text": "Scale content production without scaling teams"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-text > ul > li",
+    "x": 64,
+    "y": 3755,
+    "w": 272,
+    "h": 42,
+    "text": "Deliver consistent, high-quality brand experiences across every channel"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-column.two-columns-item-column-image > picture > img.two-columns-item-image",
+    "x": 24,
+    "y": 3837,
+    "w": 312,
+    "h": 207,
+    "text": "",
+    "file": "media_1fd127a9b1e7ddaf4839d657b1a510800c"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item > div.two-columns-item-column > h3#what-we-focus-on",
+    "x": 24,
+    "y": 4069,
+    "w": 312,
+    "h": 34,
+    "level": 3,
+    "text": "what we focus on"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-column > div.two-columns-item-text > p",
+    "x": 24,
+    "y": 4118,
+    "w": 312,
+    "h": 45,
+    "text": "We target the orchestration points where content must deliver real impact:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-text > ul > li",
+    "x": 64,
+    "y": 4187,
+    "w": 272,
+    "h": 42,
+    "text": "Connecting product data, assets and other content into robust ecosystems"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-text > ul > li",
+    "x": 64,
+    "y": 4245,
+    "w": 272,
+    "h": 42,
+    "text": "Streamlining workflows across teams and tools"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-text > ul > li",
+    "x": 64,
+    "y": 4303,
+    "w": 272,
+    "h": 42,
+    "text": "Scaling content creation with AI and modular systems"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-text > ul > li",
+    "x": 64,
+    "y": 4361,
+    "w": 272,
+    "h": 42,
+    "text": "Distributing content across marketplaces, channels and regions"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-text > ul > li",
+    "x": 64,
+    "y": 4419,
+    "w": 272,
+    "h": 42,
+    "text": "Measuring and optimizing content performance"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-column.two-columns-item-column-image > picture > img.two-columns-item-image",
+    "x": 24,
+    "y": 4501,
+    "w": 312,
+    "h": 207,
+    "text": "",
+    "file": "media_117bfab311471bcdb1f61c08b5252b65aa"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item > div.two-columns-item-column > h3#how-it-works",
+    "x": 24,
+    "y": 4732,
+    "w": 312,
+    "h": 34,
+    "level": 3,
+    "text": "how it works"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-column > div.two-columns-item-text > p",
+    "x": 24,
+    "y": 4782,
+    "w": 312,
+    "h": 45,
+    "text": "We follow a structured path from insight to scale:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-text > ul > li",
+    "x": 64,
+    "y": 4851,
+    "w": 272,
+    "h": 42,
+    "text": "Map how content flows across your organization"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-text > ul > li",
+    "x": 64,
+    "y": 4909,
+    "w": 272,
+    "h": 21,
+    "text": "Identify bottlenecks and inefficiencies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-text > ul > li",
+    "x": 64,
+    "y": 4946,
+    "w": 272,
+    "h": 21,
+    "text": "Define a clear path to scale"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-text > ul > li",
+    "x": 64,
+    "y": 4983,
+    "w": 272,
+    "h": 42,
+    "text": "Prove value through a focused use case"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-text > ul > li",
+    "x": 64,
+    "y": 5041,
+    "w": 272,
+    "h": 42,
+    "text": "Scale into a connected, enterprise-wide content system"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-column.two-columns-item-column-image > picture > img.two-columns-item-image",
+    "x": 24,
+    "y": 5123,
+    "w": 312,
+    "h": 207,
+    "text": "",
+    "file": "media_193e2cf2c232117ff212e11b05fd110580"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item > div.two-columns-item-column > h3#why-this-approach-works",
+    "x": 24,
+    "y": 5354,
+    "w": 312,
+    "h": 67,
+    "level": 3,
+    "text": "why this approach works"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-column > div.two-columns-item-text > p",
+    "x": 24,
+    "y": 5437,
+    "w": 312,
+    "h": 67,
+    "text": "Most organizations try to scale content by adding more tools or more production."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-text > ul > li",
+    "x": 64,
+    "y": 5528,
+    "w": 272,
+    "h": 21,
+    "text": "System-first, not production-first"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-text > ul > li",
+    "x": 64,
+    "y": 5565,
+    "w": 272,
+    "h": 21,
+    "text": "Focused on outcomes, not output"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-text > ul > li",
+    "x": 64,
+    "y": 5602,
+    "w": 272,
+    "h": 21,
+    "text": "Built for scale, not one-off campaigns"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-text > ul > li",
+    "x": 64,
+    "y": 5639,
+    "w": 272,
+    "h": 42,
+    "text": "Designed to work with your existing ecosystem"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-text > ul > li",
+    "x": 64,
+    "y": 5697,
+    "w": 272,
+    "h": 42,
+    "text": "Aligned across marketing, commerce, and technology teams"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-column > div.two-columns-item-text > p",
+    "x": 24,
+    "y": 5755,
+    "w": 312,
+    "h": 45,
+    "text": "Built to orchestrate how content, data, and workflows operate as one system."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.two-columns-item-column > p.button-wrapper.two-columns-item-cta > a.button.accent",
+    "x": 24,
+    "y": 5816,
+    "w": 312,
+    "h": 86,
+    "text": "talk to a content supply chain expert",
+    "href": "/content-supply-chain"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block-list > p > a.partners-block-logo",
+    "x": 24,
+    "y": 5982,
+    "w": 154,
+    "h": 100,
+    "text": "partner: google",
+    "href": "/partners/google/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.partners-block-logo > span.icon.icon-partner-inline-google > img",
+    "x": 36,
+    "y": 6021,
+    "w": 130,
+    "h": 23,
+    "text": "",
+    "file": "partner-inline-google"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block-list > p > a.partners-block-logo",
+    "x": 182,
+    "y": 5982,
+    "w": 154,
+    "h": 100,
+    "text": "partner: microsoft",
+    "href": "/partners/microsoft/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.partners-block-logo > span.icon.icon-partner-inline-microsoft > img",
+    "x": 196,
+    "y": 6005,
+    "w": 126,
+    "h": 54,
+    "text": "",
+    "file": "partner-inline-microsoft"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block-list > p > a.partners-block-logo",
+    "x": 24,
+    "y": 6106,
+    "w": 154,
+    "h": 100,
+    "text": "databricks",
+    "href": "/partners/databricks/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.partners-block-logo > span.icon.icon-partner-inline-databricks > img",
+    "x": 45,
+    "y": 6147,
+    "w": 113,
+    "h": 19,
+    "text": "",
+    "file": "partner-inline-databricks"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block-list > p > a.partners-block-logo",
+    "x": 182,
+    "y": 6106,
+    "w": 154,
+    "h": 100,
+    "text": "salesforce",
+    "href": "/partners/salesforce/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.partners-block-logo > span.icon.icon-partner-inline-salesforce > img",
+    "x": 214,
+    "y": 6125,
+    "w": 90,
+    "h": 63,
+    "text": "",
+    "file": "partner-inline-salesforce"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block-list > p > a.partners-block-logo",
+    "x": 24,
+    "y": 6230,
+    "w": 154,
+    "h": 100,
+    "text": "partner: adobe",
+    "href": "/partners/adobe/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.partners-block-logo > span.icon.icon-partner-inline-adobe > img",
+    "x": 38,
+    "y": 6253,
+    "w": 126,
+    "h": 54,
+    "text": "",
+    "file": "partner-inline-adobe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block-list > p > a.partners-block-logo",
+    "x": 182,
+    "y": 6230,
+    "w": 154,
+    "h": 100,
+    "text": "shopify",
+    "href": "/partners/shopify/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.partners-block-logo > span.icon.icon-partner-inline-shopify > img",
+    "x": 214,
+    "y": 6266,
+    "w": 90,
+    "h": 28,
+    "text": "",
+    "file": "partner-inline-shopify"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block-list > p > a.partners-block-logo",
+    "x": 24,
+    "y": 6354,
+    "w": 154,
+    "h": 100,
+    "text": "commercetools",
+    "href": "/partners/commercetools/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.partners-block-logo > span.icon.icon-partner-inline-commercetools > img",
+    "x": 66,
+    "y": 6392,
+    "w": 69,
+    "h": 25,
+    "text": "",
+    "file": "partner-inline-commercetools"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block-list > p > a.partners-block-logo",
+    "x": 182,
+    "y": 6354,
+    "w": 154,
+    "h": 100,
+    "text": "optimizely",
+    "href": "/partners/optimizely/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.partners-block-logo > span.icon.icon-partner-inline-optimizely > img",
+    "x": 188,
+    "y": 6387,
+    "w": 142,
+    "h": 34,
+    "text": "",
+    "file": "partner-inline-optimizely"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block-list > p > a.partners-block-logo",
+    "x": 24,
+    "y": 6478,
+    "w": 154,
+    "h": 100,
+    "text": "contentstack",
+    "href": "/partners/contentstack/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.partners-block-logo > span.icon.icon-partner-inline-contentstack > img",
+    "x": 34,
+    "y": 6494,
+    "w": 135,
+    "h": 68,
+    "text": "",
+    "file": "partner-inline-contentstack"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.partners-block-list > p > a.partners-block-logo",
+    "x": 182,
+    "y": 6478,
+    "w": 154,
+    "h": 100,
+    "text": "contentful",
+    "href": "/partners/contentful/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.partners-block-logo > span.icon.icon-partner-inline-contentful > img",
+    "x": 214,
+    "y": 6514,
+    "w": 90,
+    "h": 28,
+    "text": "",
+    "file": "partner-inline-contentful"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-wrapper > div.podcast-speakers-title > h2#our-content-supply-chain-experts",
+    "x": 24,
+    "y": 6658,
+    "w": 312,
+    "h": 67,
+    "level": 2,
+    "text": "our content supply chain experts"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-image > picture > img",
+    "x": 121,
+    "y": 6765,
+    "w": 118,
+    "h": 120,
+    "text": "",
+    "file": "media_15d0f41b6008288c488d5cb58fe8c5ce0a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-name > p",
+    "x": 126,
+    "y": 6893,
+    "w": 107,
+    "h": 23,
+    "text": "Raphaël Iscar​"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-company > p",
+    "x": 24,
+    "y": 6926,
+    "w": 312,
+    "h": 42,
+    "text": "Head of Experience & Commerce (XC) Strategy​"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-social-links > p > a.podcast-speakers-link",
+    "x": 165,
+    "y": 6968,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/raphael-iscar-pxm-pim/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-image > picture > img",
+    "x": 121,
+    "y": 7054,
+    "w": 118,
+    "h": 120,
+    "text": "",
+    "file": "media_1ad3a10464a5d72e81eada2780214e6f21"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-name > p",
+    "x": 126,
+    "y": 7182,
+    "w": 107,
+    "h": 23,
+    "text": "Melanie Pearl"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-company > p",
+    "x": 114,
+    "y": 7215,
+    "w": 131,
+    "h": 21,
+    "text": "SVP, Client Growth"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-social-links > p > a.podcast-speakers-link",
+    "x": 165,
+    "y": 7236,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/melanieajackson/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-image > picture > img",
+    "x": 121,
+    "y": 7321,
+    "w": 118,
+    "h": 120,
+    "text": "",
+    "file": "media_1530be17d335b8d90762b1d5869a2d55f9"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-name > p",
+    "x": 129,
+    "y": 7449,
+    "w": 103,
+    "h": 23,
+    "text": "Kevin Larson"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-company > p",
+    "x": 115,
+    "y": 7482,
+    "w": 131,
+    "h": 21,
+    "text": "VP, Head of Studio"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-social-links > p > a.podcast-speakers-link",
+    "x": 165,
+    "y": 7503,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/kevinandrewlarson/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.highlighted-cta-block-inner > div.highlighted-cta-block-title > h2#turn-content-into-a-scalable-system-for-growth",
+    "x": 16,
+    "y": 7668,
+    "w": 328,
+    "h": 101,
+    "level": 2,
+    "text": "turn content into a scalable system for growth"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.highlighted-cta-block-inner > div.highlighted-cta-block-details > p",
+    "x": 16,
+    "y": 7793,
+    "w": 328,
+    "h": 120,
+    "text": "You don’t need more content. You need a system that makes it work. The Valtech C"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.highlighted-cta-block-details > p.highlighted-cta-block-action > a.btn-ocean",
+    "x": 16,
+    "y": 7937,
+    "w": 171,
+    "h": 49,
+    "text": "book a session",
+    "href": "/content-supply-chain"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-html > span",
+    "x": 22,
+    "y": 8096,
+    "w": 251,
+    "h": 42,
+    "text": "Fields marked with an asterisk are mandatory and must be filled in."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 8179,
+    "w": 87,
+    "h": 16,
+    "text": "First Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 8247,
+    "w": 86,
+    "h": 16,
+    "text": "Last Name"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > select#Lead_title__c",
+    "x": 22,
+    "y": 8304,
+    "w": 317,
+    "h": 38,
+    "label": "job title *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 8315,
+    "w": 69,
+    "h": 16,
+    "text": "Job Title"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 8383,
+    "w": 89,
+    "h": 16,
+    "text": "Work Email"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 8451,
+    "w": 124,
+    "h": 16,
+    "text": "Company Name"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > select#Industry",
+    "x": 22,
+    "y": 8508,
+    "w": 317,
+    "h": 38,
+    "label": "industry *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 8519,
+    "w": 68,
+    "h": 16,
+    "text": "Industry"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-field.mkto-form-field-float > select#CountryCode",
+    "x": 22,
+    "y": 8576,
+    "w": 317,
+    "h": 38,
+    "label": "country *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 8587,
+    "w": 66,
+    "h": 16,
+    "text": "Country"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-field > label.mkto-form-textlabel",
+    "x": 22,
+    "y": 8644,
+    "w": 317,
+    "h": 42,
+    "text": "Share your comments"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-check > label",
+    "x": 48,
+    "y": 8900,
+    "w": 291,
+    "h": 106,
+    "text": "I accept to receive relevant news and marketing communication from Valtech and I"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-check > label > a",
+    "x": 103,
+    "y": 8984,
+    "w": 102,
+    "h": 21,
+    "text": "privacy notice",
+    "href": "/privacy-notice/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 22,
+    "y": 9036,
+    "w": 302,
+    "h": 42,
+    "text": "This site is protected by CAPTCHA and the Friendly Captcha"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span > span > a",
+    "x": 145,
+    "y": 9057,
+    "w": 98,
+    "h": 21,
+    "text": "privacy policy",
+    "href": "/legal/privacy-end-users/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 22,
+    "y": 9057,
+    "w": 316,
+    "h": 43,
+    "text": "and"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span > span > a",
+    "x": 22,
+    "y": 9057,
+    "w": 316,
+    "h": 43,
+    "text": "terms of use",
+    "href": "/legal/terms/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 49,
+    "y": 9080,
+    "w": 45,
+    "h": 21,
+    "text": "apply."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-buttons > span.mkto-form-button-wrap > button.mktoButton.button",
+    "x": 85,
+    "y": 9162,
+    "w": 190,
+    "h": 59,
+    "text": "send request"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block.block > div.teaser-block-header > h4#related-content",
+    "x": 24,
+    "y": 9271,
+    "w": 292,
+    "h": 34,
+    "level": 4,
+    "text": "related content"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flickity-slider > div.teaser-block-teaser.is-selected > a.teaser-block-teaser-inner",
+    "x": 24,
+    "y": 9321,
+    "w": 270,
+    "h": 420,
+    "text": "case gordon food service",
+    "href": "/work/gordon-food-service/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-teaser.is-selected > a.teaser-block-teaser-inner > h2#case",
+    "x": 24,
+    "y": 9321,
+    "w": 113,
+    "h": 43,
+    "level": 2,
+    "text": "case"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#gordon-food-service",
+    "x": 48,
+    "y": 9639,
+    "w": 215,
+    "h": 20,
+    "level": 5,
+    "text": "gordon food service"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-teaser-image-wrapper > picture > img",
+    "x": -124,
+    "y": 9319,
+    "w": 566,
+    "h": 424,
+    "text": "a server in a white shirt standing in a modern, well-lit kit",
+    "file": "media_17f3e567b5cf4b4c007241e9ffd63ac935"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flickity-slider > div.teaser-block-teaser > a.teaser-block-teaser-inner",
+    "x": 314,
+    "y": 9321,
+    "w": 270,
+    "h": 420,
+    "text": "insight the intelligent enterprise",
+    "href": "/landingpages-en-en-folder/landingpages-2026/the-intelligent-enterprise-playbook/"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-teaser > a.teaser-block-teaser-inner > h2#insight",
+    "x": 314,
+    "y": 9321,
+    "w": 113,
+    "h": 43,
+    "level": 2,
+    "text": "insight"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#the-intelligent-enterprise",
+    "x": 338,
+    "y": 9639,
+    "w": 215,
+    "h": 20,
+    "level": 5,
+    "text": "the intelligent enterprise"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-teaser-image-wrapper > picture > img",
+    "x": 166,
+    "y": 9319,
+    "w": 566,
+    "h": 424,
+    "text": "",
+    "file": "media_1df1ff39597e4b3aaa0b58f9e6b706b605"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block.block > div.teaser-block-container.flickity-enabled > button.carousel-btn.carousel-btn-long",
+    "x": 240,
+    "y": 9755,
+    "w": 40,
+    "h": 40,
+    "text": "previous"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block.block > div.teaser-block-container.flickity-enabled > button.carousel-btn.carousel-btn-long",
+    "x": 296,
+    "y": 9755,
+    "w": 40,
+    "h": 40,
+    "text": "next"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-block.first-open > section.faq-block-container > h2#faqs",
+    "x": 0,
+    "y": 9844,
+    "w": 360,
+    "h": 34,
+    "level": 2,
+    "text": "faqs"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "details.faq-block-list-item-dropdown > summary.faq-block-list-item-toggle > h3#what-is-a-content-supply-chain",
+    "x": 24,
+    "y": 9910,
+    "w": 252,
+    "h": 48,
+    "level": 3,
+    "text": "what is a content supply chain?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "details.faq-block-list-item-dropdown > div.faq-block-list-item-description.text-content > p",
+    "x": 24,
+    "y": 9999,
+    "w": 312,
+    "h": 90,
+    "text": "It’s the system that connects product data, content creation, workflows, and dis"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "details.faq-block-list-item-dropdown > summary.faq-block-list-item-toggle > h3#how-is-this-different-from-content-production",
+    "x": 24,
+    "y": 10143,
+    "w": 252,
+    "h": 48,
+    "level": 3,
+    "text": "how is this different from content production?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "details.faq-block-list-item-dropdown > div.faq-block-list-item-description.text-content > p",
+    "x": 24,
+    "y": 10232,
+    "w": 312,
+    "h": 90,
+    "text": "This isn’t about producing more content. It’s about fixing how content is create"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "details.faq-block-list-item-dropdown > summary.faq-block-list-item-toggle > h3#what-problem-does-this-solve",
+    "x": 24,
+    "y": 10224,
+    "w": 252,
+    "h": 48,
+    "level": 3,
+    "text": "what problem does this solve?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "details.faq-block-list-item-dropdown > div.faq-block-list-item-description.text-content > p",
+    "x": 24,
+    "y": 10313,
+    "w": 312,
+    "h": 67,
+    "text": "It solves how content, product data and workflows connect and scale across your "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "details.faq-block-list-item-dropdown > summary.faq-block-list-item-toggle > h3#do-we-need-a-pim-dam-or-cms-in-place",
+    "x": 24,
+    "y": 10305,
+    "w": 252,
+    "h": 48,
+    "level": 3,
+    "text": "do we need a pim, dam or cms in place?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "details.faq-block-list-item-dropdown > div.faq-block-list-item-description.text-content > p",
+    "x": 24,
+    "y": 10394,
+    "w": 312,
+    "h": 90,
+    "text": "No. Valtech works with your existing systems. We help connect and optimize them "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "details.faq-block-list-item-dropdown > summary.faq-block-list-item-toggle > h3#how-does-ai-fit-into-this",
+    "x": 24,
+    "y": 10386,
+    "w": 229,
+    "h": 24,
+    "level": 3,
+    "text": "how does ai fit into this?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "details.faq-block-list-item-dropdown > div.faq-block-list-item-description.text-content > p",
+    "x": 24,
+    "y": 10452,
+    "w": 312,
+    "h": 90,
+    "text": "AI accelerates content creation and optimization, but only when it’s embedded in"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "details.faq-block-list-item-dropdown > summary.faq-block-list-item-toggle > h3#how-quickly-can-we-see-value",
+    "x": 24,
+    "y": 10444,
+    "w": 252,
+    "h": 48,
+    "level": 3,
+    "text": "how quickly can we see value?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "details.faq-block-list-item-dropdown > div.faq-block-list-item-description.text-content > p",
+    "x": 24,
+    "y": 10533,
+    "w": 312,
+    "h": 67,
+    "text": "We focus on proving impact in weeks through targeted use cases before scaling ac"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 16,
+    "y": 10655,
+    "w": 43,
+    "h": 21,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 226,
+    "y": 10655,
+    "w": 44,
+    "h": 21,
+    "text": "about",
+    "href": "/about/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 16,
+    "y": 10695,
+    "w": 50,
+    "h": 21,
+    "text": "offices",
+    "href": "/about/offices/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 226,
+    "y": 10695,
+    "w": 87,
+    "h": 21,
+    "text": "who we are",
+    "href": "/career/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "p > picture > img",
+    "x": 16,
+    "y": 10734,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "media_18686ce5d542e21460f5b9773dc388b150"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer-column.site-footer-stamp > p > a",
+    "x": 274,
+    "y": 10734,
+    "w": 64,
+    "h": 70,
+    "text": "sustainability stamp",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 274,
+    "y": 10734,
+    "w": 64,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "media_147addfc96d6d3db8ad2ecb6422a634aed"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 10875,
+    "w": 90,
+    "h": 18,
+    "text": "privacy notice",
+    "href": "/privacy-notice/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 10916,
+    "w": 111,
+    "h": 18,
+    "text": "cookie statement",
+    "href": "/cookie-statement/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 10957,
+    "w": 83,
+    "h": 18,
+    "text": "legal notices",
+    "href": "/legal-notices/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 10998,
+    "w": 79,
+    "h": 18,
+    "text": "accessibility",
+    "href": "/about/accessibility/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 11039,
+    "w": 80,
+    "h": 18,
+    "text": "stay in touch",
+    "href": "/about/stay-in-touch/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a.cookiebot-reset",
+    "x": 16,
+    "y": 11080,
+    "w": 149,
+    "h": 18,
+    "text": "change cookie settings",
+    "href": "/content-supply-chain"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 16,
+    "y": 11161,
+    "w": 23,
+    "h": 18,
+    "text": "linkedin footer",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 87,
+    "y": 11161,
+    "w": 23,
+    "h": 18,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 158,
+    "y": 11161,
+    "w": 23,
+    "h": 18,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 229,
+    "y": 11161,
+    "w": 23,
+    "h": 18,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 16,
+    "y": 11206,
+    "w": 23,
+    "h": 18,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 87,
+    "y": 11206,
+    "w": 23,
+    "h": 18,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 4,
+    "offPage": 9,
+    "textNodes": 127,
+    "controls": 59,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.results-statistics.smaller-title",
+     "path": "div.results-statistics-item > div.results-statistics-item-container > div.results-statistics-item-title > p",
+     "text": "$1 billion-plus",
+     "cutMin": 210,
+     "cutMax": 212
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.teaser-block-teaser",
+     "path": "div.flickity-viewport > div.flickity-slider > div.teaser-block-teaser > a.teaser-block-teaser-inner",
+     "text": "insightthe intelligent enterprise",
+     "cutMin": 224,
+     "cutMax": 224
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.teaser-block-teaser",
+     "path": "div.teaser-block-teaser > a.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#the-intelligent-enterprise",
+     "text": "the intelligent enterprise",
+     "cutMin": 160,
+     "cutMax": 160
+    }
+   ],
+   "findings": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 210,
+     "path": "div.results-statistics-item > div.results-statistics-item-container > div.results-statistics-item-title > p",
+     "text": "$1 billion-plus",
+     "clipper": "div.results-statistics.smaller-title",
+     "rect": {
+      "l": 352,
+      "t": 1553,
+      "r": 570,
+      "b": 1598,
+      "w": 218,
+      "h": 45
+     },
+     "clip": {
+      "l": 0,
+      "t": 1482,
+      "r": 360,
+      "b": 1885,
+      "w": 360,
+      "h": 403
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 212,
+     "path": "div.results-statistics-item > div.results-statistics-item-container > div.results-statistics-item-content > p",
+     "text": "annual inefficiency costs organizations with fragmented cont",
+     "clipper": "div.results-statistics.smaller-title",
+     "rect": {
+      "l": 356,
+      "t": 1680,
+      "r": 532,
+      "b": 1701,
+      "w": 176,
+      "h": 21
+     },
+     "clip": {
+      "l": 0,
+      "t": 1482,
+      "r": 360,
+      "b": 1885,
+      "w": 360,
+      "h": 403
+     },
+     "lines": 3
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 224,
+     "path": "div.flickity-viewport > div.flickity-slider > div.teaser-block-teaser > a.teaser-block-teaser-inner",
+     "text": "insightthe intelligent enterprise",
+     "clipper": "div.teaser-block-teaser",
+     "rect": {
+      "l": 314,
+      "t": 9321,
+      "r": 584,
+      "b": 9741,
+      "w": 270,
+      "h": 420
+     },
+     "clip": {
+      "l": 314,
+      "t": 9321,
+      "r": 584,
+      "b": 9741,
+      "w": 270,
+      "h": 420
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 160,
+     "path": "div.teaser-block-teaser > a.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#the-intelligent-enterprise",
+     "text": "the intelligent enterprise",
+     "clipper": "div.teaser-block-teaser",
+     "rect": {
+      "l": 341,
+      "t": 9638,
+      "r": 520,
+      "b": 9659,
+      "w": 179,
+      "h": 21
+     },
+     "clip": {
+      "l": 314,
+      "t": 9321,
+      "r": 584,
+      "b": 9741,
+      "w": 270,
+      "h": 420
+     },
+     "lines": 1
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "scaling content shouldn’t feel this hard",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "unlock the value trapped in your content operations",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 2,
+    "text": 8,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 7,
+    "textHidden": 2,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "what the valtech content supply chain delivers",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "visibility into your content supply chain",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "a prioritized content blueprint",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 4,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "a realistic view of your readiness",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "a path to scalable content operations",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "what this unlocks for your business",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 6,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "what we focus on",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 6,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "how it works",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 6,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "why this approach works",
+   "variable": false,
+   "origin": {
+    "link": 11,
+    "button": 0,
+    "text": 7,
+    "image": 0
+   },
+   "eds": {
+    "link": 11,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 7,
+    "textHidden": 0,
+    "image": 10,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "COUNT IMAGES"
+   ]
+  },
+  {
+   "index": 12,
+   "heading": "our content supply chain experts",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 6,
+    "image": 3
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 13,
+   "heading": "turn content into a scalable system for growth",
+   "variable": false,
+   "origin": {
+    "link": 4,
+    "button": 1,
+    "text": 14,
+    "image": 0
+   },
+   "eds": {
+    "link": 4,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 14,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 2
+   },
+   "findings": []
+  },
+  {
+   "index": 14,
+   "heading": "case",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 2,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 1,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "CONTROL MISSING"
+   ]
+  },
+  {
+   "index": 15,
+   "heading": "faqs",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 16,
+   "heading": "what is a content supply chain?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 17,
+   "heading": "how is this different from content production?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 18,
+   "heading": "what problem does this solve?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 19,
+   "heading": "do we need a pim, dam or cms in place?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 20,
+   "heading": "how does ai fit into this?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 7,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "COUNT TEXT"
+   ]
+  },
+  {
+   "index": 21,
+   "heading": "how quickly can we see value?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 4,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"industry trends\" (y 1482) has no origin heading",
+   "text": "industry trends"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"partner: google\" served in band \"why this approach works\", no origin link or button",
+   "band": 11,
+   "n": 1,
+   "text": "partner: google"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"partner: microsoft\" served in band \"why this approach works\", no origin link or button",
+   "band": 11,
+   "n": 1,
+   "text": "partner: microsoft"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"databricks\" served in band \"why this approach works\", no origin link or button",
+   "band": 11,
+   "n": 1,
+   "text": "databricks"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"salesforce\" served in band \"why this approach works\", no origin link or button",
+   "band": 11,
+   "n": 1,
+   "text": "salesforce"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"partner: adobe\" served in band \"why this approach works\", no origin link or button",
+   "band": 11,
+   "n": 1,
+   "text": "partner: adobe"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"shopify\" served in band \"why this approach works\", no origin link or button",
+   "band": 11,
+   "n": 1,
+   "text": "shopify"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"commercetools\" served in band \"why this approach works\", no origin link or button",
+   "band": 11,
+   "n": 1,
+   "text": "commercetools"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"optimizely\" served in band \"why this approach works\", no origin link or button",
+   "band": 11,
+   "n": 1,
+   "text": "optimizely"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"contentstack\" served in band \"why this approach works\", no origin link or button",
+   "band": 11,
+   "n": 1,
+   "text": "contentstack"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"contentful\" served in band \"why this approach works\", no origin link or button",
+   "band": 11,
+   "n": 1,
+   "text": "contentful"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT IMAGES",
+   "msg": "band \"why this approach works\": 0 origin → 10 served visible",
+   "band": 11,
+   "origin": 0,
+   "eds": 10,
+   "hidden": 0
+  },
+  {
+   "sev": "🟡",
+   "kind": "CONTROL MISSING",
+   "msg": "current = \"slide 1\" (band \"case\") has no served counterpart",
+   "band": 14,
+   "label": "current",
+   "value": "slide 1"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT TEXT",
+   "msg": "band \"how does ai fit into this?\": 7 origin → 1 served visible",
+   "band": 20,
+   "origin": 7,
+   "eds": 1,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 1,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 10,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 2,
+  "findings": 14,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 24,
+    "y": 75,
+    "w": 41,
+    "h": 21
+   },
+   {
+    "x": 78,
+    "y": 75,
+    "w": 148,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 501,
+    "w": 300,
+    "h": 35
+   },
+   {
+    "x": 24,
+    "y": 529,
+    "w": 152,
+    "h": 35
+   },
+   {
+    "x": 24,
+    "y": 580,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 603,
+    "w": 293,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 625,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 648,
+    "w": 293,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 670,
+    "w": 187,
+    "h": 21
+   },
+   {
+    "x": 86,
+    "y": 734,
+    "w": 189,
+    "h": 23
+   },
+   {
+    "x": 131,
+    "y": 761,
+    "w": 99,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 849,
+    "w": 217,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 883,
+    "w": 203,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 917,
+    "w": 262,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 969,
+    "w": 251,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 992,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1014,
+    "w": 267,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1049,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1071,
+    "w": 254,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1094,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1116,
+    "w": 309,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1139,
+    "w": 260,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1174,
+    "w": 301,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1196,
+    "w": 89,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1231,
+    "w": 194,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1254,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1276,
+    "w": 276,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1299,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1321,
+    "w": 283,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1343,
+    "w": 80,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1379,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1401,
+    "w": 257,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1423,
+    "w": 72,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1486,
+    "w": 201,
+    "h": 39
+   },
+   {
+    "x": 40,
+    "y": 1557,
+    "w": 129,
+    "h": 45
+   },
+   {
+    "x": 44,
+    "y": 1695,
+    "w": 240,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1718,
+    "w": 163,
+    "h": 21
+   },
+   {
+    "x": 352,
+    "y": 1557,
+    "w": 218,
+    "h": 45
+   },
+   {
+    "x": 356,
+    "y": 1684,
+    "w": 176,
+    "h": 21
+   },
+   {
+    "x": 356,
+    "y": 1707,
+    "w": 216,
+    "h": 21
+   },
+   {
+    "x": 356,
+    "y": 1729,
+    "w": 168,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1934,
+    "w": 226,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 1967,
+    "w": 206,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 2001,
+    "w": 185,
+    "h": 39
+   },
+   {
+    "x": 69,
+    "y": 2136,
+    "w": 196,
+    "h": 34
+   },
+   {
+    "x": 69,
+    "y": 2164,
+    "w": 238,
+    "h": 34
+   },
+   {
+    "x": 69,
+    "y": 2205,
+    "w": 252,
+    "h": 21
+   },
+   {
+    "x": 69,
+    "y": 2229,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 69,
+    "y": 2253,
+    "w": 182,
+    "h": 21
+   },
+   {
+    "x": 69,
+    "y": 2374,
+    "w": 231,
+    "h": 34
+   },
+   {
+    "x": 69,
+    "y": 2403,
+    "w": 102,
+    "h": 34
+   },
+   {
+    "x": 69,
+    "y": 2444,
+    "w": 53,
+    "h": 21
+   },
+   {
+    "x": 122,
+    "y": 2444,
+    "w": 220,
+    "h": 21
+   },
+   {
+    "x": 69,
+    "y": 2468,
+    "w": 69,
+    "h": 21
+   },
+   {
+    "x": 138,
+    "y": 2468,
+    "w": 30,
+    "h": 21
+   },
+   {
+    "x": 168,
+    "y": 2468,
+    "w": 169,
+    "h": 21
+   },
+   {
+    "x": 69,
+    "y": 2589,
+    "w": 248,
+    "h": 34
+   },
+   {
+    "x": 69,
+    "y": 2618,
+    "w": 111,
+    "h": 34
+   },
+   {
+    "x": 69,
+    "y": 2658,
+    "w": 261,
+    "h": 21
+   },
+   {
+    "x": 69,
+    "y": 2682,
+    "w": 196,
+    "h": 21
+   },
+   {
+    "x": 69,
+    "y": 2706,
+    "w": 240,
+    "h": 21
+   },
+   {
+    "x": 69,
+    "y": 2730,
+    "w": 114,
+    "h": 21
+   },
+   {
+    "x": 69,
+    "y": 2851,
+    "w": 205,
+    "h": 34
+   },
+   {
+    "x": 69,
+    "y": 2880,
+    "w": 218,
+    "h": 34
+   },
+   {
+    "x": 69,
+    "y": 2921,
+    "w": 274,
+    "h": 21
+   },
+   {
+    "x": 69,
+    "y": 2945,
+    "w": 219,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3282,
+    "w": 233,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 3316,
+    "w": 224,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 3368,
+    "w": 273,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3390,
+    "w": 289,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3413,
+    "w": 283,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3435,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3458,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 3504,
+    "w": 228,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 3525,
+    "w": 234,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 3562,
+    "w": 96,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 3583,
+    "w": 266,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 3604,
+    "w": 78,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 3641,
+    "w": 212,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 3662,
+    "w": 181,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 3699,
+    "w": 235,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 3720,
+    "w": 103,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 3757,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 3778,
+    "w": 244,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4065,
+    "w": 233,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 4118,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4140,
+    "w": 237,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4186,
+    "w": 260,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4207,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4244,
+    "w": 262,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4265,
+    "w": 70,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4302,
+    "w": 254,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4323,
+    "w": 127,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4360,
+    "w": 192,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4381,
+    "w": 259,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4418,
+    "w": 240,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4439,
+    "w": 97,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4726,
+    "w": 164,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 4779,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4801,
+    "w": 46,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4848,
+    "w": 246,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4869,
+    "w": 94,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4906,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4943,
+    "w": 190,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4980,
+    "w": 241,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 5001,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 5038,
+    "w": 247,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 5059,
+    "w": 152,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5346,
+    "w": 111,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 5379,
+    "w": 211,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 5432,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5454,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5477,
+    "w": 249,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 5523,
+    "w": 237,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 5560,
+    "w": 243,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 5597,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 5634,
+    "w": 251,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 5655,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 5692,
+    "w": 268,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 5713,
+    "w": 163,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5750,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5773,
+    "w": 239,
+    "h": 21
+   },
+   {
+    "x": 154,
+    "y": 5829,
+    "w": 52,
+    "h": 23
+   },
+   {
+    "x": 65,
+    "y": 5856,
+    "w": 229,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 6650,
+    "w": 254,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 6684,
+    "w": 181,
+    "h": 39
+   },
+   {
+    "x": 126,
+    "y": 6888,
+    "w": 107,
+    "h": 23
+   },
+   {
+    "x": 46,
+    "y": 6921,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 150,
+    "y": 6942,
+    "w": 60,
+    "h": 21
+   },
+   {
+    "x": 126,
+    "y": 7177,
+    "w": 107,
+    "h": 23
+   },
+   {
+    "x": 114,
+    "y": 7210,
+    "w": 131,
+    "h": 21
+   },
+   {
+    "x": 129,
+    "y": 7444,
+    "w": 103,
+    "h": 23
+   },
+   {
+    "x": 115,
+    "y": 7477,
+    "w": 131,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7660,
+    "w": 248,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 7694,
+    "w": 257,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 7728,
+    "w": 92,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 7789,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7813,
+    "w": 189,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7837,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7861,
+    "w": 243,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7885,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 42,
+    "y": 7944,
+    "w": 119,
+    "h": 23
+   },
+   {
+    "x": 22,
+    "y": 8093,
+    "w": 6,
+    "h": 18
+   },
+   {
+    "x": 31,
+    "y": 8091,
+    "w": 240,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 8112,
+    "w": 227,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 8171,
+    "w": 78,
+    "h": 21
+   },
+   {
+    "x": 99,
+    "y": 8173,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 8239,
+    "w": 77,
+    "h": 21
+   },
+   {
+    "x": 98,
+    "y": 8241,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 8307,
+    "w": 60,
+    "h": 21
+   },
+   {
+    "x": 82,
+    "y": 8309,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 8375,
+    "w": 80,
+    "h": 21
+   },
+   {
+    "x": 102,
+    "y": 8377,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 8443,
+    "w": 114,
+    "h": 21
+   },
+   {
+    "x": 136,
+    "y": 8445,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 8511,
+    "w": 59,
+    "h": 21
+   },
+   {
+    "x": 81,
+    "y": 8513,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 8579,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 79,
+    "y": 8581,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 8644,
+    "w": 156,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 8895,
+    "w": 260,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 8916,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 8937,
+    "w": 283,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 8958,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 8979,
+    "w": 56,
+    "h": 21
+   },
+   {
+    "x": 103,
+    "y": 8979,
+    "w": 102,
+    "h": 21
+   },
+   {
+    "x": 205,
+    "y": 8979,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 209,
+    "y": 8981,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 9031,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 9052,
+    "w": 120,
+    "h": 21
+   },
+   {
+    "x": 145,
+    "y": 9052,
+    "w": 98,
+    "h": 21
+   },
+   {
+    "x": 243,
+    "y": 9052,
+    "w": 34,
+    "h": 21
+   },
+   {
+    "x": 277,
+    "y": 9052,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 9075,
+    "w": 28,
+    "h": 21
+   },
+   {
+    "x": 49,
+    "y": 9075,
+    "w": 45,
+    "h": 21
+   },
+   {
+    "x": 127,
+    "y": 9175,
+    "w": 106,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 9263,
+    "w": 213,
+    "h": 39
+   },
+   {
+    "x": 72,
+    "y": 9326,
+    "w": 35,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 9633,
+    "w": 149,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 9633,
+    "w": 179,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 9836,
+    "w": 69,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 9903,
+    "w": 235,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 9927,
+    "w": 62,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 9994,
+    "w": 300,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10017,
+    "w": 228,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10039,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10061,
+    "w": 248,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10136,
+    "w": 231,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 10160,
+    "w": 195,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 10227,
+    "w": 221,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10249,
+    "w": 272,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10271,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10294,
+    "w": 68,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10217,
+    "w": 226,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 10241,
+    "w": 60,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 10308,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10330,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10352,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10298,
+    "w": 244,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 10322,
+    "w": 134,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 10392,
+    "w": 29,
+    "h": 17
+   },
+   {
+    "x": 53,
+    "y": 10392,
+    "w": 52,
+    "h": 17
+   },
+   {
+    "x": 106,
+    "y": 10392,
+    "w": 38,
+    "h": 17
+   },
+   {
+    "x": 144,
+    "y": 10392,
+    "w": 8,
+    "h": 17
+   },
+   {
+    "x": 152,
+    "y": 10392,
+    "w": 127,
+    "h": 17
+   },
+   {
+    "x": 24,
+    "y": 10414,
+    "w": 59,
+    "h": 17
+   },
+   {
+    "x": 83,
+    "y": 10414,
+    "w": 4,
+    "h": 17
+   },
+   {
+    "x": 92,
+    "y": 10414,
+    "w": 28,
+    "h": 17
+   },
+   {
+    "x": 120,
+    "y": 10414,
+    "w": 91,
+    "h": 17
+   },
+   {
+    "x": 24,
+    "y": 10437,
+    "w": 29,
+    "h": 17
+   },
+   {
+    "x": 53,
+    "y": 10437,
+    "w": 60,
+    "h": 17
+   },
+   {
+    "x": 113,
+    "y": 10437,
+    "w": 185,
+    "h": 17
+   },
+   {
+    "x": 24,
+    "y": 10460,
+    "w": 48,
+    "h": 17
+   },
+   {
+    "x": 24,
+    "y": 10379,
+    "w": 229,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 10450,
+    "w": 251,
+    "h": 17
+   },
+   {
+    "x": 24,
+    "y": 10472,
+    "w": 195,
+    "h": 17
+   },
+   {
+    "x": 219,
+    "y": 10472,
+    "w": 19,
+    "h": 17
+   },
+   {
+    "x": 239,
+    "y": 10472,
+    "w": 78,
+    "h": 17
+   },
+   {
+    "x": 24,
+    "y": 10495,
+    "w": 278,
+    "h": 17
+   },
+   {
+    "x": 24,
+    "y": 10518,
+    "w": 61,
+    "h": 17
+   },
+   {
+    "x": 24,
+    "y": 10437,
+    "w": 221,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 10461,
+    "w": 60,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 10531,
+    "w": 264,
+    "h": 17
+   },
+   {
+    "x": 24,
+    "y": 10553,
+    "w": 298,
+    "h": 17
+   },
+   {
+    "x": 24,
+    "y": 10576,
+    "w": 170,
+    "h": 17
+   },
+   {
+    "x": 16,
+    "y": 10650,
+    "w": 43,
+    "h": 21
+   },
+   {
+    "x": 226,
+    "y": 10650,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10690,
+    "w": 50,
+    "h": 21
+   },
+   {
+    "x": 226,
+    "y": 10690,
+    "w": 87,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10870,
+    "w": 90,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 10911,
+    "w": 111,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 10952,
+    "w": 83,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 10993,
+    "w": 79,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 11034,
+    "w": 80,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 11075,
+    "w": 149,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 24,
+    "y": 75,
+    "w": 41,
+    "h": 21
+   },
+   {
+    "x": 78,
+    "y": 75,
+    "w": 148,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 497,
+    "w": 300,
+    "h": 35
+   },
+   {
+    "x": 24,
+    "y": 525,
+    "w": 152,
+    "h": 35
+   },
+   {
+    "x": 24,
+    "y": 576,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 599,
+    "w": 293,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 621,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 644,
+    "w": 293,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 666,
+    "w": 187,
+    "h": 21
+   },
+   {
+    "x": 86,
+    "y": 730,
+    "w": 189,
+    "h": 23
+   },
+   {
+    "x": 131,
+    "y": 757,
+    "w": 99,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 845,
+    "w": 217,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 879,
+    "w": 203,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 913,
+    "w": 254,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 965,
+    "w": 251,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 988,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1010,
+    "w": 262,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1045,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1067,
+    "w": 254,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1090,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1112,
+    "w": 309,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1135,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1170,
+    "w": 301,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1192,
+    "w": 84,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1227,
+    "w": 194,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1250,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1272,
+    "w": 276,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1295,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1317,
+    "w": 283,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1339,
+    "w": 74,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1375,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1397,
+    "w": 257,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1419,
+    "w": 67,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1482,
+    "w": 201,
+    "h": 39
+   },
+   {
+    "x": 40,
+    "y": 1553,
+    "w": 129,
+    "h": 45
+   },
+   {
+    "x": 44,
+    "y": 1691,
+    "w": 240,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1714,
+    "w": 163,
+    "h": 21
+   },
+   {
+    "x": 352,
+    "y": 1553,
+    "w": 218,
+    "h": 45
+   },
+   {
+    "x": 356,
+    "y": 1680,
+    "w": 176,
+    "h": 21
+   },
+   {
+    "x": 356,
+    "y": 1703,
+    "w": 216,
+    "h": 21
+   },
+   {
+    "x": 356,
+    "y": 1725,
+    "w": 168,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1930,
+    "w": 226,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 1963,
+    "w": 206,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 1997,
+    "w": 185,
+    "h": 39
+   },
+   {
+    "x": 69,
+    "y": 2132,
+    "w": 196,
+    "h": 34
+   },
+   {
+    "x": 69,
+    "y": 2160,
+    "w": 238,
+    "h": 34
+   },
+   {
+    "x": 69,
+    "y": 2201,
+    "w": 252,
+    "h": 21
+   },
+   {
+    "x": 69,
+    "y": 2225,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 69,
+    "y": 2249,
+    "w": 181,
+    "h": 21
+   },
+   {
+    "x": 69,
+    "y": 2370,
+    "w": 231,
+    "h": 34
+   },
+   {
+    "x": 69,
+    "y": 2399,
+    "w": 102,
+    "h": 34
+   },
+   {
+    "x": 69,
+    "y": 2440,
+    "w": 274,
+    "h": 21
+   },
+   {
+    "x": 69,
+    "y": 2464,
+    "w": 268,
+    "h": 21
+   },
+   {
+    "x": 69,
+    "y": 2585,
+    "w": 248,
+    "h": 34
+   },
+   {
+    "x": 69,
+    "y": 2614,
+    "w": 111,
+    "h": 34
+   },
+   {
+    "x": 69,
+    "y": 2654,
+    "w": 261,
+    "h": 21
+   },
+   {
+    "x": 69,
+    "y": 2678,
+    "w": 196,
+    "h": 21
+   },
+   {
+    "x": 69,
+    "y": 2702,
+    "w": 240,
+    "h": 21
+   },
+   {
+    "x": 69,
+    "y": 2726,
+    "w": 114,
+    "h": 21
+   },
+   {
+    "x": 69,
+    "y": 2847,
+    "w": 205,
+    "h": 34
+   },
+   {
+    "x": 69,
+    "y": 2876,
+    "w": 218,
+    "h": 34
+   },
+   {
+    "x": 69,
+    "y": 2917,
+    "w": 274,
+    "h": 21
+   },
+   {
+    "x": 69,
+    "y": 2941,
+    "w": 217,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3280,
+    "w": 233,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 3314,
+    "w": 224,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 3366,
+    "w": 273,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3389,
+    "w": 289,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3411,
+    "w": 283,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3434,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3456,
+    "w": 260,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 3502,
+    "w": 228,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 3523,
+    "w": 229,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 3560,
+    "w": 96,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 3581,
+    "w": 266,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 3602,
+    "w": 73,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 3639,
+    "w": 212,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 3660,
+    "w": 176,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 3697,
+    "w": 235,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 3718,
+    "w": 98,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 3755,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 3776,
+    "w": 238,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4066,
+    "w": 233,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 4118,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4141,
+    "w": 232,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4187,
+    "w": 260,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4208,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4245,
+    "w": 262,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4266,
+    "w": 65,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4303,
+    "w": 254,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4324,
+    "w": 122,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4361,
+    "w": 192,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4382,
+    "w": 254,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4419,
+    "w": 240,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4440,
+    "w": 92,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4729,
+    "w": 164,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 4782,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4804,
+    "w": 40,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4851,
+    "w": 246,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4872,
+    "w": 88,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4909,
+    "w": 264,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4946,
+    "w": 185,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 4983,
+    "w": 241,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 5004,
+    "w": 33,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 5041,
+    "w": 247,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 5062,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5351,
+    "w": 111,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 5385,
+    "w": 211,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 5437,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5459,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5482,
+    "w": 244,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 5528,
+    "w": 232,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 5565,
+    "w": 238,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 5602,
+    "w": 263,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 5639,
+    "w": 251,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 5660,
+    "w": 77,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 5697,
+    "w": 268,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 5718,
+    "w": 158,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5755,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5778,
+    "w": 234,
+    "h": 21
+   },
+   {
+    "x": 114,
+    "y": 5834,
+    "w": 131,
+    "h": 23
+   },
+   {
+    "x": 102,
+    "y": 5861,
+    "w": 156,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 6655,
+    "w": 254,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 6689,
+    "w": 181,
+    "h": 39
+   },
+   {
+    "x": 126,
+    "y": 6893,
+    "w": 107,
+    "h": 23
+   },
+   {
+    "x": 46,
+    "y": 6926,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 150,
+    "y": 6947,
+    "w": 60,
+    "h": 21
+   },
+   {
+    "x": 126,
+    "y": 7182,
+    "w": 107,
+    "h": 23
+   },
+   {
+    "x": 114,
+    "y": 7215,
+    "w": 131,
+    "h": 21
+   },
+   {
+    "x": 129,
+    "y": 7449,
+    "w": 103,
+    "h": 23
+   },
+   {
+    "x": 115,
+    "y": 7482,
+    "w": 131,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7665,
+    "w": 248,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 7699,
+    "w": 255,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 7733,
+    "w": 91,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 7794,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7818,
+    "w": 275,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7842,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7866,
+    "w": 309,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7890,
+    "w": 132,
+    "h": 21
+   },
+   {
+    "x": 42,
+    "y": 7949,
+    "w": 119,
+    "h": 23
+   },
+   {
+    "x": 22,
+    "y": 8096,
+    "w": 7,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 8096,
+    "w": 240,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 8117,
+    "w": 227,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 8176,
+    "w": 78,
+    "h": 21
+   },
+   {
+    "x": 99,
+    "y": 8178,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 8244,
+    "w": 77,
+    "h": 21
+   },
+   {
+    "x": 98,
+    "y": 8246,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 8312,
+    "w": 60,
+    "h": 21
+   },
+   {
+    "x": 82,
+    "y": 8314,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 8380,
+    "w": 80,
+    "h": 21
+   },
+   {
+    "x": 102,
+    "y": 8382,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 8448,
+    "w": 114,
+    "h": 21
+   },
+   {
+    "x": 136,
+    "y": 8450,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 8516,
+    "w": 59,
+    "h": 21
+   },
+   {
+    "x": 81,
+    "y": 8518,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 8584,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 79,
+    "y": 8586,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 8649,
+    "w": 156,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 8900,
+    "w": 260,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 8921,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 8942,
+    "w": 283,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 8963,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 8984,
+    "w": 56,
+    "h": 21
+   },
+   {
+    "x": 103,
+    "y": 8984,
+    "w": 102,
+    "h": 21
+   },
+   {
+    "x": 205,
+    "y": 8984,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 209,
+    "y": 8986,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 9036,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 9057,
+    "w": 120,
+    "h": 21
+   },
+   {
+    "x": 145,
+    "y": 9057,
+    "w": 98,
+    "h": 21
+   },
+   {
+    "x": 243,
+    "y": 9057,
+    "w": 34,
+    "h": 21
+   },
+   {
+    "x": 277,
+    "y": 9057,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 9080,
+    "w": 28,
+    "h": 21
+   },
+   {
+    "x": 49,
+    "y": 9080,
+    "w": 45,
+    "h": 21
+   },
+   {
+    "x": 127,
+    "y": 9180,
+    "w": 106,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 9268,
+    "w": 213,
+    "h": 39
+   },
+   {
+    "x": 72,
+    "y": 9332,
+    "w": 35,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 9638,
+    "w": 149,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 9638,
+    "w": 179,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 9841,
+    "w": 68,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 9908,
+    "w": 232,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 9932,
+    "w": 62,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 9999,
+    "w": 300,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10022,
+    "w": 228,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10044,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10066,
+    "w": 247,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10141,
+    "w": 231,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 10165,
+    "w": 195,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 10232,
+    "w": 221,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10254,
+    "w": 272,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10276,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10299,
+    "w": 66,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10222,
+    "w": 226,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 10246,
+    "w": 60,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 10313,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10335,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10357,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10303,
+    "w": 244,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 10327,
+    "w": 134,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 10394,
+    "w": 253,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10416,
+    "w": 184,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10438,
+    "w": 272,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10461,
+    "w": 48,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10384,
+    "w": 229,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 10452,
+    "w": 250,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10474,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10496,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10519,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10442,
+    "w": 221,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 10466,
+    "w": 60,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 10533,
+    "w": 261,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10555,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 10577,
+    "w": 169,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10655,
+    "w": 43,
+    "h": 21
+   },
+   {
+    "x": 226,
+    "y": 10655,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10695,
+    "w": 50,
+    "h": 21
+   },
+   {
+    "x": 226,
+    "y": 10695,
+    "w": 87,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10875,
+    "w": 90,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 10916,
+    "w": 111,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 10957,
+    "w": 83,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 10998,
+    "w": 79,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 11039,
+    "w": 80,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 11080,
+    "w": 149,
+    "h": 18
+   }
+  ]
+ }
+}

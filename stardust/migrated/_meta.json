@@ -1,0 +1,414 @@
+{
+  "slug": "index",
+  "type": "landing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "hero-block",
+    "quote-block",
+    "homepage-cta-block",
+    "featured-verticals-block"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "hero-block",
+    "quote-block",
+    "featured-case-study",
+    "homepage-cta-block",
+    "partners-block",
+    "featured-verticals-block",
+    "homepage-cta-block"
+  ],
+  "canonShas": {
+    "header": "1bfd2ab0825f",
+    "footer": "d79a5792f65e",
+    "css": "8876c0e8d8d1"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "The experience innovation company",
+    "description": "At Valtech, we offer solutions designed to achieve the exceptional, helping our clients leap beyond sameness and maximize their full potential.",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "The experience innovation company",
+    "description": "At Valtech, we offer solutions designed to achieve the exceptional, helping our clients leap beyond sameness and maximize their full potential.",
+    "url": "https://www.valtech.com/"
+  },
+  "migratedAt": "2026-11-13T15:07:43Z",
+  "designMdSha": "9dc5e8267a4e",
+  "designJsonSha": "ec9a36425b28",
+  "sourceCurrentSha": "990eafc80fe7",
+  "sourceProposedSha": "6b35499abb68",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "published / (content/index.html): every prototype heading, CTA and body text authored (block-roundtrip --ew: hero 16/16, quote 1/1, featured-case-study 13/13, homepage-cta x2 3/3, partners 7/7, featured-verticals 45/45, contact-form 8/8 editable, 0 dead/duplicated); gate-all content-presence 360 MISSING 0 / HIDDEN 0; 1440 MISSING only the time-variable carousel heading (residual); 44 images rehosted to DA media/landing (media-reconcile 44 hosted)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 69,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/work/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/partners/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offerings/experience-elevation/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offerings/commerce-acceleration/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offerings/enterprise-transformation/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offerings/marketing-creativity-performance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offerings/data-and-ai-revolution/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/career/jobs/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/valtech-as-workplace/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/diversity-inclusion/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/podcasts/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/whitepapers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content-hub/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blog/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/the-intelligent-enterprise/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/newsroom/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about/offices/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about/contact-us/keep-in-touch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-dk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr-fr/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de-de/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nl-nl/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/sv-se/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-gb/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ca/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-ar/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt-br/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-mx/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-cn/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-in/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-sg/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/the-intelligent-enterprise/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/offerings/data-and-ai-revolution/valtech-one/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/work/lexus-europe/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/newsroom/valtech-joins-fast-companys-best-workplaces-for-innovators/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/work/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/work/eton/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/work/discover/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/work/lexus-europe/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/work/mandarin-oriental/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/work/mars/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/partners/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/partners/adobe/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/partners/google/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/partners/microsoft/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/partners/optimizely/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/mobility/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/mobility/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/luxury/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/luxury/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/retail/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/retail/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/consumer-packaged-goods/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/consumer-packaged-goods/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/financial-services/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/financial-services/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/health/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/health/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/manufacturing-distribution/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/manufacturing-distribution/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/travel-hospitality/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/travel-hospitality/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/agriculture/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/agriculture/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/new-space/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/new-space/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/public-sector/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/public-sector/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/career/jobs/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.valtech.com/privacy-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.valtech.com/privacy-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about/offices/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/career/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privacy-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/cookie-statement/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/legal-notices/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about/accessibility/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about/stay-in-touch/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "index.html",
+  "outputPathDefault": null,
+  "sidecar": "_meta.json",
+  "driverVersion": "1"
+}

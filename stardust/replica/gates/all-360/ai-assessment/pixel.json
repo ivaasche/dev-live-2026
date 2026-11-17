@@ -1,0 +1,61 @@
+{
+  "a": "stardust/replica/gates/all-360/ai-assessment/origin.png",
+  "b": "stardust/replica/gates/all-360/ai-assessment/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3222,
+    "mode": "overlap"
+  },
+  "heightDelta": -1,
+  "differingPixels": 13355,
+  "pct": 1.15,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/ai-assessment/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 2.2,
+  "textBoxes": 71,
+  "textPixels": 230765,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1.8
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.9
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 1.1
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 2.9
+    },
+    {
+      "y0": 3000,
+      "y1": 3222,
+      "pct": 1.1
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--c87ac39f--aemcoder.aem.page/ai-assessment"
+  }
+}

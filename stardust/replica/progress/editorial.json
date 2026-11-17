@@ -1,0 +1,54 @@
+{
+  "type": "editorial",
+  "slug": "digital-media-performance-marketing",
+  "liveUrl": "https://www.valtech.com/digital-media-performance-marketing/",
+  "prototype": "stardust/prototypes/digital-media-performance-marketing-proposed.html",
+  "css": ["stardust/prototypes/css/canon.css", "stardust/prototypes/css/editorial.css"],
+  "js": ["stardust/prototypes/js/chrome.js", "stardust/prototypes/js/editorial.js"],
+  "regime": "prototype",
+  "iterations": { "1440": 3, "360": 2 },
+  "gates": {
+    "1440": { "pixel": "0.30%", "heightDelta": -1, "contentDiff": "none — content + roles match (0 🔴 · 0 nothing-lost 🟡 · 0 advisory)", "visualDiff": "0 flags", "clip": 0, "overflow": "ok", "chromeParity": "✓", "chromeCrops": { "header": "100.00%", "footer": "100.00%" }, "units": "PASS 3 units, 27 elements within 4 px (units-iter3b.json, --force; gate.sh's in-round unit-geometry reused the slug-keyed 360 live cache)", "evidence": "stardust/replica/gates/digital-media-performance-marketing-1440/verdict-iter3.json" },
+    "360": { "pixel": "0.33%", "heightDelta": -1, "contentDiff": "none — content + roles match (0 🔴 · 0 nothing-lost 🟡 · 0 advisory)", "visualDiff": "0 flags", "clip": 0, "overflow": "ok", "chromeParity": "✓", "chromeCrops": { "header": "100.00%", "footer": "100.00%" }, "units": "PASS 3 units, 27 elements Δ0 (units-iter2b.json, --force; in-round run reused the 1440 live cache)", "evidence": "stardust/replica/gates/digital-media-performance-marketing-360/verdict-iter2.json" }
+  },
+  "capProbe": "PASS (2560: 0 of 11 rows failed)",
+  "residuals": [
+    {
+      "zone": "unit-geometry in-round rows (both widths)",
+      "cause": "instrument",
+      "evidence": "gate.sh's unit-geometry reads the slug-keyed live cache regardless of width (1440 iter3 used the 360 cache, 360 iter1/iter2 the 1440 cache) → 'off 27'; direct --force runs at each width: Δ0 on every element (units-iter3b.json, units-iter1b.json, units-iter2b.json)",
+      "permanent": true
+    }
+  ],
+  "captureState": [
+    { "zone": "contact band Marketo form (mktoForm_3404)", "gate": "rendered static, final state (canon .mkto-form, same as index)", "restoreAtDelivery": "source loads the Marketo forms2 embed (dummy skeleton rows then 1 s opacity/visibility fade-in); the marketo-form block mounts the embed on EDS", "implementedInPrototype": false }
+  ],
+  "liftNotes": [
+    "chrome = index-proposed.html English nav, side 'Contact us' tab, contact band (Let's connect, form 3404), footer, slopes and redirect modals verbatim — live page HAS both the side tab and the contact band (verified in the capture)",
+    "masthead-services @80714–85126: flex row ≥58.75rem, content/media calc(50% - 10px), title ValtechNeue 4rem/150% (2rem/2.3125rem <58.75rem), description Soehne 1.5rem/150%; media min-height 19.5rem/13.75rem; video-block base @132492–134017 + .video-block__container .video-block__image width:100% @134357 (height:auto added — the source img has no height attr, the prototype's does)",
+    "masthead image: 1x renditions per <source> rehosted under media/digital-media-performance-marketing/ (masthead-1920/1500/1024/768 → 1920×1338, 1500×1045, 1024×713, 768×535)",
+    "text-content @32907–34416 incl. @33453 'ol|p|ul + h2…h6 { margin-top: 3.75rem }' (the trailing nbsp <h4> gets 60 px top — iter1 was 44 px short without it); rte-block @195216–196097 (810 px centred column)",
+    "image-block @137743–138057: picture stays inline (its 100vw/100vh is inert), img width 100% at natural ratio; orientation-switched renditions (landscape 1600×900 max → 1593×900 / 1513×900, portrait 768×1024 max → 768×434 / 768×457) rehosted",
+    "columns-rte @341839–346418: 2-col rows (calc(50% - 14px)), Soehne h2 3vw/1.2 (28–48 px), strong 1.5vw/700 (also inside the h2), p 1.5vw/150% margin .8rem; stacks <58.75rem",
+    "Amazon block: rte-block > .table-wrap > table/td (Confluence paste); base table/td rules @34479–34792 (td border-bottom 1px #ccc, padding .3125rem .390625rem); confluence classes dropped (no rules)",
+    "units.json declared: columns-rte-row ×3"
+  ],
+  "motion": {
+    "observed": ["image-block scroll reveal: .slide-fade-in gets .played on scroll (class only, no transition/animation)", "contact band Marketo hydration (opacity/visibility 1 s, mkto* / convertedField / singleCol classes)", "header fixed-menu / ready-to-fixed-menu + nav transform .3s"],
+    "implemented": ["scroll reveal (.slide-fade-in → .played via IntersectionObserver, js/editorial.js; no transition — the live blocks fire none) → motion-compare played parity", "header classes + transform via canon chrome.js (parity)"],
+    "dead": ["hover on .text-content a and breadcrumb links (no measured diff)", "header scroll-morph (static on both sides)", "Marketo embed-internal classes/transitions — delivered by the embed"]
+  },
+  "blocks": [
+    { "section": "nav.site-nav + side tab + modals", "block": "header (fragment)", "variant": "en" },
+    { "section": "div.site-breadcrumbs", "block": "breadcrumbs", "variant": "default" },
+    { "section": "section.masthead-services", "block": "masthead", "variant": "services (title + description left / image right)" },
+    { "section": "section.rte-block ×2", "block": "default content", "variant": "rich text (810 px column)" },
+    { "section": "div.image-block ×2", "block": "image", "variant": "full-width (scroll reveal)" },
+    { "section": "div.columns-rte ×3", "block": "columns", "variant": "rich text 2-up" },
+    { "section": "section.rte-block (table-wrap)", "block": "default content", "variant": "rich text in single-cell table (Confluence paste)" },
+    { "section": "div.contact-us-form", "block": "contact-form (marketo-form)", "variant": "band" },
+    { "section": "footer.site-footer", "block": "footer (fragment)", "variant": "default" }
+  ],
+  "canon": { "owner": false, "frozen": true, "doc": "stardust/prototypes/css/CANON.md", "requestsFiled": 0 },
+  "verdict": "pass"
+}

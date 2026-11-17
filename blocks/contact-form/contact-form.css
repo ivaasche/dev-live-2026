@@ -1,0 +1,26 @@
+/* contact-form — the band itself is canon (.contact-us-form* in styles.css); the title rules
+   are re-declared on a descendant selector because the heading is authored (EW2) */
+
+.contact-form .contact-us-form-heading :is(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: .75rem 0 2.5rem;
+}
+
+@media (width <= 933.3333px) {
+  .contact-form .contact-us-form-heading :is(h1, h2, h3) {
+    font-size: 28px;
+  }
+}
+
+.contact-form .contact-us-form-heading :is(h1, h2, h3):focus {
+  outline: none;
+}
+
+@media (width <= 58.749rem) {
+  .contact-form .contact-us-form-heading {
+    display: none;
+  }
+}

@@ -1,0 +1,17 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.valtech.com/es-es/aviso-legal/
+  shell      810px  max-width #valtech-content > section.rte-block > div.rte-block__container.text-content  (tier 2, holds 91% of the text)
+  other    2 capped box(es) outside the section tier (in the JSON) — e.g. 1408px #contact-us-form > div.contact-us-form__container.js-accordion
+  modules  3 sections: capped 760 ×1, 409 ×1 · full-bleed ×1
+  contentMaxWidth 810px (shell) · shellMaxWidth 810px · root #valtech-content
+build  http://localhost:8791/es-es-aviso-legal-proposed.html
+  shell      810px  max-width #valtech-content > section.rte-block > div.rte-block__container.text-content  (tier 2, holds 91% of the text)
+  other    1 capped box(es) outside the section tier (in the JSON) — e.g. 1408px #contact-us-form > div.contact-us-form__container.js-accordion
+  modules  3 sections: capped 760 ×1, 409 ×1 · full-bleed ×1
+  contentMaxWidth 810px (shell) · shellMaxWidth 810px · root #valtech-content
+rows
+  ✓ wrapper cap: live 810px = build 810px (±20)
+  ✓ module 1/3: full-bleed on both
+  ✓ module 2/3: 409px = 409px
+  ✓ module 3/3: 760px = 760px
+cap-probe: PASS at 2560 — 0 of 4 rows failed (evidence stardust/replica/gates/es-es-aviso-legal-2560/cap-iter.json)

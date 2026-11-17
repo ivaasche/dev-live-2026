@@ -1,0 +1,41 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-13T15:09:03.430Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.valtech.com/",
+    "da": {
+      "org": "aemcoder",
+      "site": "c87ac39f",
+      "ref": "main"
+    },
+    "liveHost": "main--c87ac39f--aemcoder.aem.live"
+  },
+  "scope": {
+    "pages": 100,
+    "discovered": 100,
+    "capped": false,
+    "pageCap": 100
+  },
+  "lastRun": {
+    "at": "2026-11-14T09:21:21.545Z",
+    "pages": {
+      "total": 100,
+      "verified": 100,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 17,
+      "converted": 17,
+      "pending": 0
+    },
+    "verifyFailures": 0
+  }
+}

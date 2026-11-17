@@ -1,0 +1,67 @@
+{
+ "url": "https://main--c87ac39f--aemcoder.aem.page/valtech-agentic-commerce-catalyst",
+ "at": "2026-11-14T07:36:53.817Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 4,
+  "offPage": 7,
+  "textNodes": 120,
+  "controls": 58,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.results-statistics.smaller-title",
+   "path": "div.results-statistics-item > div.results-statistics-item-container > div.results-statistics-item-title > p",
+   "text": "about 80% of ai",
+   "cutMin": 234,
+   "cutMax": 249
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.teaser-block-teaser",
+   "path": "div.flickity-viewport > div.flickity-slider > div.teaser-block-teaser > a.teaser-block-teaser-inner",
+   "text": "retail at the crossroads 2026 report",
+   "cutMin": 224,
+   "cutMax": 224
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.teaser-block-teaser",
+   "path": "div.teaser-block-teaser > a.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#retail-at-the-crossroads-2026-report",
+   "text": "retail at the crossroads 2026 report",
+   "cutMin": 189,
+   "cutMax": 189
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 4,
+   "offPage": 12,
+   "textNodes": 126,
+   "controls": 60,
+   "total": 0
+  }
+ }
+}

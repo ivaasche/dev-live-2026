@@ -1,0 +1,66 @@
+{
+  "a": "stardust/replica/gates/all-360/es-es-eventos-ai-in-retail-from-pilots-to-performanceexclusive/origin.png",
+  "b": "stardust/replica/gates/all-360/es-es-eventos-ai-in-retail-from-pilots-to-performanceexclusive/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3574,
+    "mode": "overlap"
+  },
+  "heightDelta": 22,
+  "differingPixels": 44543,
+  "pct": 3.46,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/es-es-eventos-ai-in-retail-from-pilots-to-performanceexclusive/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 4.93,
+  "textBoxes": 90,
+  "textPixels": 387862,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.9
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 7.4
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 9.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 6.2
+    },
+    {
+      "y0": 3500,
+      "y1": 3574,
+      "pct": 1
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/eventos/ai-in-retail-from-pilots-to-performanceexclusive"
+  }
+}

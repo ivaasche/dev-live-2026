@@ -1,0 +1,5462 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T06:40:42.884Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/es-es/la-empresa-inteligente/operar/",
+  "at": "2026-11-14T06:40:16.588Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6917,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.site-nav__menu-wrapper.site-nav__menu__labels > div.site-nav__logo > a.site-nav__logo__link",
+    "x": 24,
+    "y": 12,
+    "w": 159,
+    "h": 41,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 355,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "nuestro trabajo"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 355,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "label": "trigger",
+    "value": "nuestro trabajo",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 551,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "servicios"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 551,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "label": "trigger",
+    "value": "servicios",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 746,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "talento"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 746,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "label": "trigger",
+    "value": "talento",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item.active > button.site-nav__menu__title.active",
+    "x": 942,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "perspectivas"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item.active > button.site-nav__menu__title.active",
+    "x": 942,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "label": "trigger",
+    "value": "perspectivas",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 1138,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "sobre nosotros"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 1138,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "label": "trigger",
+    "value": "sobre nosotros",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.site-nav__menu-fixed > div.site-nav__icons > button.location-select.desktop",
+    "x": 1372,
+    "y": 16,
+    "w": 64,
+    "h": 40,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.site-nav__menu-fixed > div.site-nav__icons > button.location-select.desktop",
+    "x": 1372,
+    "y": 16,
+    "w": 64,
+    "h": 40,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.iehub-nav > nav.section__container.iehub-nav__container > a.iehub-nav__item",
+    "x": 595,
+    "y": 85,
+    "w": 114,
+    "h": 20,
+    "text": "visión general",
+    "href": "/es-es/la-empresa-inteligente/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.iehub-nav > nav.section__container.iehub-nav__container > span.iehub-nav__item.active",
+    "x": 748,
+    "y": 85,
+    "w": 56,
+    "h": 20,
+    "text": "Operar"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.iehub-nav > nav.section__container.iehub-nav__container > a.iehub-nav__item",
+    "x": 844,
+    "y": 85,
+    "w": 78,
+    "h": 20,
+    "text": "organizar",
+    "href": "/es-es/la-empresa-inteligente/organizar/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.iehub-nav > nav.section__container.iehub-nav__container > a.iehub-nav__item",
+    "x": 962,
+    "y": 85,
+    "w": 53,
+    "h": 20,
+    "text": "crecer",
+    "href": "/es-es/la-empresa-inteligente/crecer/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.iehub-nav > nav.section__container.iehub-nav__container > a.iehub-nav__item",
+    "x": 1055,
+    "y": 85,
+    "w": 57,
+    "h": 20,
+    "text": "liderar",
+    "href": "/es-es/la-empresa-inteligente/liderar/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.iehub-nav > nav.section__container.iehub-nav__container > a.btn--white.iehub-nav__item",
+    "x": 1152,
+    "y": 75,
+    "w": 264,
+    "h": 40,
+    "text": "reserva una sesión ejecutiva",
+    "href": "/es-es/la-empresa-inteligente/operar/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block__bg-image > picture > img",
+    "x": 0,
+    "y": 125,
+    "w": 1440,
+    "h": 720,
+    "text": "",
+    "file": "pillar_run_header_desktop"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block__item__text-adapter__wrapper > div.hero-block__item__title > h1",
+    "x": 179,
+    "y": 321,
+    "w": 541,
+    "h": 194,
+    "level": 1,
+    "text": "ia agéntica para it"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block__item__text-adapter.js-hero-block__item__text-adapter > div.hero-block__item__text-adapter__wrapper > p.hero-block__item__text",
+    "x": 179,
+    "y": 522,
+    "w": 460,
+    "h": 50,
+    "text": "Optimiza tu ecosistema digital con la combinación adecuada de personas y agentes"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block__item__text-adapter.js-hero-block__item__text-adapter > div.hero-block__item__text-adapter__wrapper > span.hero-block__item__tag",
+    "x": 179,
+    "y": 293,
+    "w": 1082,
+    "h": 20,
+    "text": "OPERAR"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block__item__wrapper > div.hero-block__item__link-wrapper > a.hero-block__item__link.btn--white",
+    "x": 179,
+    "y": 628,
+    "w": 185,
+    "h": 49,
+    "text": "descubre operar",
+    "href": "/es-es/la-empresa-inteligente/operar/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section__container.centralized > div.features-showcase__header > h2.features-showcase__header__title",
+    "x": 179,
+    "y": 965,
+    "w": 433,
+    "h": 56,
+    "level": 2,
+    "text": "lo que operar aporta a nuestros clientes"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.features-showcase__list > li.features-showcase__item > h3.features-showcase__item__title",
+    "x": 676,
+    "y": 1045,
+    "w": 274,
+    "h": 134,
+    "level": 3,
+    "text": "monitorización inteligente del rendimiento y la disponibilidad"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.features-showcase__item > div.features-showcase__item__description > p",
+    "x": 676,
+    "y": 1195,
+    "w": 274,
+    "h": 168,
+    "text": "Con clasificación de incidencias y análisis de causa raíz impulsados por IA, ace"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.features-showcase__list > li.features-showcase__item > h3.features-showcase__item__title",
+    "x": 987,
+    "y": 1045,
+    "w": 274,
+    "h": 101,
+    "level": 3,
+    "text": "reducir los costes de mantenimiento de aplicaciones"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.features-showcase__item > div.features-showcase__item__description > p",
+    "x": 987,
+    "y": 1162,
+    "w": 274,
+    "h": 140,
+    "text": "Los análisis automatizados de parches y dependencias mantienen sistemas seguros "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.features-showcase__list > li.features-showcase__item > h3.features-showcase__item__title",
+    "x": 676,
+    "y": 1503,
+    "w": 274,
+    "h": 67,
+    "level": 3,
+    "text": "reducir los costes de optimización"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flex.w-full > div.markdown.prose > p",
+    "x": 676,
+    "y": 1587,
+    "w": 274,
+    "h": 168,
+    "text": "Los flujos de trabajo impulsados por IA reducen la carga de planificación, desar"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.features-showcase__list > li.features-showcase__item > h3.features-showcase__item__title",
+    "x": 987,
+    "y": 1503,
+    "w": 274,
+    "h": 134,
+    "level": 3,
+    "text": "menos carga operativa y ciclos de lanzamiento más rápidos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.features-showcase__item > div.features-showcase__item__description > p",
+    "x": 987,
+    "y": 1654,
+    "w": 274,
+    "h": 196,
+    "text": "La IA basada en agentes en operaciones IT puede supervisar incidencias, planific"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.features-showcase__list > li.features-showcase__item > h3.features-showcase__item__title",
+    "x": 676,
+    "y": 1990,
+    "w": 274,
+    "h": 101,
+    "level": 3,
+    "text": "reducir los costes de continuidad del negocio"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.features-showcase__item > div.features-showcase__item__description > p",
+    "x": 676,
+    "y": 2107,
+    "w": 274,
+    "h": 224,
+    "text": "Las bases de conocimiento conversacionales y los agentes agilizan el soporte que"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.case-visual-side-by-side__panel.panel--first > picture.case-visual-side-by-side__picture > img.case-visual-side-by-side__image",
+    "x": 179,
+    "y": 2571,
+    "w": 529,
+    "h": 529,
+    "text": "",
+    "file": "a-proactive-production-engine"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.case-visual-side-by-side__panel.panel--second > div.case-visual-side-by-side__text-content > h3.case-visual-side-by-side__title",
+    "x": 732,
+    "y": 2601,
+    "w": 529,
+    "h": 88,
+    "level": 3,
+    "text": "optimización proactiva de la producción"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.case-visual-side-by-side__text-content > div.case-visual-side-by-side__copy > p",
+    "x": 732,
+    "y": 2721,
+    "w": 529,
+    "h": 324,
+    "text": "Operar coordina la capa de operaciones y gestión de IT de la empresa. Al integra"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.case-visual-side-by-side__panel.panel--first > picture.case-visual-side-by-side__picture > img.case-visual-side-by-side__image",
+    "x": 179,
+    "y": 3220,
+    "w": 529,
+    "h": 529,
+    "text": "",
+    "file": "orchestrating-humans"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.case-visual-side-by-side__panel.panel--second > div.case-visual-side-by-side__text-content > h3.case-visual-side-by-side__title",
+    "x": 732,
+    "y": 3246,
+    "w": 529,
+    "h": 132,
+    "level": 3,
+    "text": "coordinar personas y operaciones de it agénticas"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.case-visual-side-by-side__copy > p > span",
+    "x": 732,
+    "y": 3412,
+    "w": 524,
+    "h": 283,
+    "text": "Nuestro marco de coordinación conecta personas, procesos, tecnología y datos en "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section__container.centralized > div.related-cases__header > h2.related-cases__title",
+    "x": 179,
+    "y": 3869,
+    "w": 76,
+    "h": 28,
+    "level": 2,
+    "text": "casos"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.related-cases__list > li.related-cases__item > a.related-cases__item-link",
+    "x": 179,
+    "y": 3945,
+    "w": 529,
+    "h": 529,
+    "text": "global beauty brand",
+    "href": "/work/leading-beauty-brand/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.related-cases__item__image-block > picture.related-cases__item__image-block--static > img",
+    "x": 179,
+    "y": 3945,
+    "w": 529,
+    "h": 457,
+    "text": "global beauty brand",
+    "file": "retail---woman-using-beauty-blender---va"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.related-cases__item-content > div.related-cases__item-content-wrapper > h3.related-cases__item-title",
+    "x": 195,
+    "y": 4409,
+    "w": 414,
+    "h": 27,
+    "level": 3,
+    "text": "global beauty brand"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.related-cases__list > li.related-cases__item > a.related-cases__item-link",
+    "x": 732,
+    "y": 3945,
+    "w": 529,
+    "h": 529,
+    "text": "national veterinary associates",
+    "href": "/es-es/casos/national-veterinary-associates-accelerated-software-delivery/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.related-cases__item__image-block > picture.related-cases__item__image-block--static > img",
+    "x": 732,
+    "y": 3945,
+    "w": 529,
+    "h": 457,
+    "text": "national veterinary associates",
+    "file": "data-and-ai---nva-automation---valtech-h"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.related-cases__item-content > div.related-cases__item-content-wrapper > h3.related-cases__item-title",
+    "x": 748,
+    "y": 4409,
+    "w": 414,
+    "h": 27,
+    "level": 3,
+    "text": "national veterinary associates"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.section.ie-hub-page > div.section__container.centralized > h2.featured-verticals-block__title",
+    "x": 179,
+    "y": 4538,
+    "w": 1082,
+    "h": 28,
+    "level": 2,
+    "text": "cómo lo hacemos realidad"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__item__picture > picture > img.featured-verticals-block__item__image",
+    "x": 178,
+    "y": 4589,
+    "w": 437,
+    "h": 543,
+    "text": "",
+    "file": "operating-model-transformation-header"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__item__content > div.featured-verticals-block__item__header > span.featured-verticals-block__item__pretitle",
+    "x": 646,
+    "y": 4590,
+    "w": 101,
+    "h": 23,
+    "text": "Metodología"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__item__content > div.featured-verticals-block__item__header > h3.featured-verticals-block__item__title",
+    "x": 646,
+    "y": 4613,
+    "w": 519,
+    "h": 115,
+    "level": 3,
+    "text": "modelo operativo inteligente"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__item__content > div.featured-verticals-block__item__footer > p.featured-verticals-block__item__text",
+    "x": 646,
+    "y": 4924,
+    "w": 460,
+    "h": 134,
+    "text": "Nuestro enfoque de transformación del modelo operativo con IA desbloquea valor m"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__item__content > div.featured-verticals-block__item__footer > a.featured-verticals-block__item__link.btn--white",
+    "x": 646,
+    "y": 5083,
+    "w": 186,
+    "h": 49,
+    "text": "nuestro enfoque",
+    "href": "/es-es/la-empresa-inteligente/modelo-operativo/"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__item__picture > picture > img.featured-verticals-block__item__image",
+    "x": 1180,
+    "y": 4589,
+    "w": 495,
+    "h": 543,
+    "text": "an abstract image featuring smooth, overlapping curved shape",
+    "file": "enterprise-transformation-managed-servic"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__item__content > div.featured-verticals-block__item__header > h3.featured-verticals-block__item__title",
+    "x": -376,
+    "y": 4613,
+    "w": 539,
+    "h": 115,
+    "level": 3,
+    "text": "ia para gestión de expedientes"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__item__content > div.featured-verticals-block__item__footer > p.featured-verticals-block__item__text",
+    "x": -376,
+    "y": 4924,
+    "w": 460,
+    "h": 134,
+    "text": "Karl Hampson, CTO de Datos e IA de Valtech, explica cómo las tareas de gestión d"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__container > div.featured-verticals-block__content.js-fv-slider-content > button.flickity-button.flickity-prev-next-button",
+    "x": 1061,
+    "y": 5087,
+    "w": 40,
+    "h": 40,
+    "text": "previous"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block__container > div.featured-verticals-block__content.js-fv-slider-content > button.flickity-button.flickity-prev-next-button",
+    "x": 1125,
+    "y": 5087,
+    "w": 40,
+    "h": 40,
+    "text": "next"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.wrapper.section__container > div.podcast-speakers__wrapper > h2.podcast-speakers__title",
+    "x": 179,
+    "y": 5251,
+    "w": 234,
+    "h": 28,
+    "level": 2,
+    "text": "nuestros expertos"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > img.podcast-speakers__image",
+    "x": 179,
+    "y": 5319,
+    "w": 150,
+    "h": 152,
+    "text": "",
+    "file": "gabriel-laliberte"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__name",
+    "x": 179,
+    "y": 5495,
+    "w": 221,
+    "h": 80,
+    "text": "Gabriel Laliberte"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__company",
+    "x": 179,
+    "y": 5575,
+    "w": 120,
+    "h": 26,
+    "text": "EVP, Strategy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__info > div.podcast-speakers__social-links > a.podcast-speakers__link",
+    "x": 179,
+    "y": 5601,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/gabriel-laliberte-2ba42221/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > img.podcast-speakers__image",
+    "x": 449,
+    "y": 5319,
+    "w": 150,
+    "h": 152,
+    "text": "",
+    "file": "casper-aagaard-rasmussen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__name",
+    "x": 449,
+    "y": 5495,
+    "w": 221,
+    "h": 80,
+    "text": "Casper Rasmussen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__company",
+    "x": 449,
+    "y": 5575,
+    "w": 221,
+    "h": 78,
+    "text": "Director de Transformación del Grupo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__info > div.podcast-speakers__social-links > a.podcast-speakers__link",
+    "x": 449,
+    "y": 5653,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/casper-aagaard-rasmussen/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > img.podcast-speakers__image",
+    "x": 720,
+    "y": 5319,
+    "w": 150,
+    "h": 152,
+    "text": "",
+    "file": "matt_redman"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__name",
+    "x": 720,
+    "y": 5495,
+    "w": 192,
+    "h": 40,
+    "text": "Matt Redman"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__company",
+    "x": 720,
+    "y": 5535,
+    "w": 119,
+    "h": 26,
+    "text": "SVP, Strategy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__info > div.podcast-speakers__social-links > a.podcast-speakers__link",
+    "x": 720,
+    "y": 5561,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/mhredman/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > img.podcast-speakers__image",
+    "x": 991,
+    "y": 5319,
+    "w": 150,
+    "h": 152,
+    "text": "",
+    "file": "kristoffer-nielsen-refs"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__name",
+    "x": 991,
+    "y": 5495,
+    "w": 221,
+    "h": 80,
+    "text": "Kristoffer Nielsen-Refs"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__company",
+    "x": 991,
+    "y": 5575,
+    "w": 221,
+    "h": 52,
+    "text": "VP, Strategy & Consulting"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__info > div.podcast-speakers__social-links > a.podcast-speakers__link",
+    "x": 991,
+    "y": 5627,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/krisnielsenrefs/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.registration-form__header > div.registration-form__title > h2",
+    "x": 295,
+    "y": 5815,
+    "w": 587,
+    "h": 52,
+    "level": 2,
+    "text": "reserva una sesión ejecutiva"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldWrap.convertedField > div.mktoHtmlText.mktoHasWidth > span",
+    "x": 295,
+    "y": 5921,
+    "w": 577,
+    "h": 21,
+    "text": "Los campos marcados con un asterisco ( ) son obligatorios y deben completarse."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblFirstName",
+    "x": 295,
+    "y": 5983,
+    "w": 67,
+    "h": 16,
+    "text": "Nombre"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblLastName",
+    "x": 740,
+    "y": 5983,
+    "w": 76,
+    "h": 16,
+    "text": "Apellidos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblCompany",
+    "x": 295,
+    "y": 6051,
+    "w": 170,
+    "h": 16,
+    "text": "Nombre de la empresa"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#Industry",
+    "x": 740,
+    "y": 6040,
+    "w": 405,
+    "h": 38,
+    "label": "industria *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblIndustry",
+    "x": 740,
+    "y": 6051,
+    "w": 72,
+    "h": 16,
+    "text": "Industria"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#Lead_title__c",
+    "x": 295,
+    "y": 6108,
+    "w": 405,
+    "h": 38,
+    "label": "cargo *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblLead_title__c",
+    "x": 295,
+    "y": 6119,
+    "w": 52,
+    "h": 16,
+    "text": "Cargo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblEmail",
+    "x": 740,
+    "y": 6119,
+    "w": 224,
+    "h": 16,
+    "text": "Correo electrónico profesional"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#CountryCode",
+    "x": 295,
+    "y": 6176,
+    "w": 849,
+    "h": 38,
+    "label": "pais *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblCountryCode",
+    "x": 295,
+    "y": 6187,
+    "w": 39,
+    "h": 16,
+    "text": "Pais"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoLogicalField.mktoCheckboxList > label#LblmktoCheckbox_196484_0 > span",
+    "x": 321,
+    "y": 6244,
+    "w": 780,
+    "h": 42,
+    "text": "Acepto recibir noticias y comunicaciones de marketing relevantes por parte de Va"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoLogicalField.mktoCheckboxList > label#LblmktoCheckbox_196484_0 > a",
+    "x": 925,
+    "y": 6265,
+    "w": 152,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 295,
+    "y": 6317,
+    "w": 382,
+    "h": 21,
+    "text": "Este sitio está protegido por CAPTCHA y se aplican la"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893 > a",
+    "x": 677,
+    "y": 6317,
+    "w": 155,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/legal/privacy-end-users/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 832,
+    "y": 6317,
+    "w": 206,
+    "h": 21,
+    "text": "y los"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.NormalTextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893 > a",
+    "x": 867,
+    "y": 6317,
+    "w": 170,
+    "h": 21,
+    "text": "términos y condiciones",
+    "href": "/legal/terms/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 295,
+    "y": 6317,
+    "w": 811,
+    "h": 43,
+    "text": "de uso de Friendly Captcha."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoButtonRow > span.mktoButtonWrap.mktoInset > button.mktoButton.btn--white",
+    "x": 295,
+    "y": 6390,
+    "w": 282,
+    "h": 49,
+    "text": "reserva una sesión ejecutiva"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 402,
+    "y": 6668,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 514,
+    "y": 6668,
+    "w": 109,
+    "h": 21,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 699,
+    "y": 6668,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 831,
+    "y": 6668,
+    "w": 148,
+    "h": 21,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer__column.site-footer__stamp > picture > img",
+    "x": 1107,
+    "y": 6644,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "badge-no-outline"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 116,
+    "y": 6796,
+    "w": 153,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 320,
+    "y": 6796,
+    "w": 135,
+    "h": 21,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 548,
+    "y": 6796,
+    "w": 82,
+    "h": 21,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 678,
+    "y": 6796,
+    "w": 96,
+    "h": 21,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 116,
+    "y": 6837,
+    "w": 156,
+    "h": 21,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a.cookiebot-reset",
+    "x": 320,
+    "y": 6837,
+    "w": 180,
+    "h": 21,
+    "text": "configuración de cookies",
+    "href": "/es-es/la-empresa-inteligente/operar/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 994,
+    "y": 6801,
+    "w": 23,
+    "h": 21,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 1049,
+    "y": 6801,
+    "w": 23,
+    "h": 21,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 1104,
+    "y": 6801,
+    "w": 23,
+    "h": 21,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 1159,
+    "y": 6801,
+    "w": 23,
+    "h": 21,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 1214,
+    "y": 6801,
+    "w": 23,
+    "h": 21,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 1269,
+    "y": 6801,
+    "w": 23,
+    "h": 21,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 2,
+    "offPage": 14,
+    "textNodes": 98,
+    "controls": 50,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT X-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.featured-verticals-block__item__content",
+     "path": "div.featured-verticals-block__item__wrapper > div.featured-verticals-block__item__content > div.featured-verticals-block__item__header > h3.featured-verticals-block__item__title",
+     "text": "ia para gestión de expedientes",
+     "cutMin": 0,
+     "cutMax": 0
+    },
+    {
+     "kind": "TEXT X-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.featured-verticals-block__item__content",
+     "path": "div.featured-verticals-block__item__wrapper > div.featured-verticals-block__item__content > div.featured-verticals-block__item__footer > p.featured-verticals-block__item__text",
+     "text": "karl hampson, cto de datos e ia de valtech, explica cómo las",
+     "cutMin": 0,
+     "cutMax": 0
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/es-es/la-empresa-inteligente/operar",
+  "at": "2026-11-14T06:40:42.638Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6917,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-nav-menu-wrapper.site-nav-menu-labels > div.site-nav-logo > a.site-nav-logo-link",
+    "x": 24,
+    "y": 12,
+    "w": 159,
+    "h": 41,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu-list > li.site-nav-menu-item > button.site-nav-menu-title",
+    "x": 355,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "nuestro trabajo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu-list > li.site-nav-menu-item > button.site-nav-menu-title",
+    "x": 551,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "servicios"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu-list > li.site-nav-menu-item > button.site-nav-menu-title",
+    "x": 746,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "talento"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu-list > li.site-nav-menu-item > button.site-nav-menu-title.active",
+    "x": 942,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "perspectivas"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu-list > li.site-nav-menu-item > button.site-nav-menu-title",
+    "x": 1138,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "sobre nosotros"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.desktop",
+    "x": 1372,
+    "y": 16,
+    "w": 64,
+    "h": 40,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.desktop",
+    "x": 1372,
+    "y": 16,
+    "w": 64,
+    "h": 40,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.hub-nav-list > li > a.hub-nav-item",
+    "x": 595,
+    "y": 85,
+    "w": 114,
+    "h": 20,
+    "text": "visión general",
+    "href": "/es-es/la-empresa-inteligente/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.hub-nav-list > li > span.hub-nav-item.active",
+    "x": 748,
+    "y": 85,
+    "w": 56,
+    "h": 20,
+    "label": "current",
+    "value": "operar",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.hub-nav-list > li > span.hub-nav-item.active",
+    "x": 748,
+    "y": 85,
+    "w": 56,
+    "h": 20,
+    "text": "Operar"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.hub-nav-list > li > a.hub-nav-item",
+    "x": 844,
+    "y": 85,
+    "w": 78,
+    "h": 20,
+    "text": "organizar",
+    "href": "/es-es/la-empresa-inteligente/organizar/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.hub-nav-list > li > a.hub-nav-item",
+    "x": 962,
+    "y": 85,
+    "w": 53,
+    "h": 20,
+    "text": "crecer",
+    "href": "/es-es/la-empresa-inteligente/crecer/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.hub-nav-list > li > a.hub-nav-item",
+    "x": 1055,
+    "y": 85,
+    "w": 57,
+    "h": 20,
+    "text": "liderar",
+    "href": "/es-es/la-empresa-inteligente/liderar/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.hub-nav-container > p.hub-nav-cta > a.btn-white.hub-nav-item",
+    "x": 1152,
+    "y": 75,
+    "w": 264,
+    "h": 40,
+    "text": "reserva una sesión ejecutiva",
+    "href": "/es-es/la-empresa-inteligente/operar"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block-bg-image.is-selected > picture > img",
+    "x": 0,
+    "y": 125,
+    "w": 1440,
+    "h": 720,
+    "text": "",
+    "file": "media_14a4d0d37bbe669bf9cfb2f094c012f895"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block-item-text-adapter-wrapper > div.hero-block-item-title > h1#ia-agéntica-para-it",
+    "x": 140,
+    "y": 321,
+    "w": 580,
+    "h": 194,
+    "level": 1,
+    "text": "ia agéntica para it"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block-item-text-adapter-wrapper > div.hero-block-item-text > p",
+    "x": 140,
+    "y": 522,
+    "w": 460,
+    "h": 50,
+    "text": "Optimiza tu ecosistema digital con la combinación adecuada de personas y agentes"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block-item-text-adapter-wrapper > div.hero-block-item-tag > p",
+    "x": 140,
+    "y": 293,
+    "w": 1160,
+    "h": 20,
+    "text": "OPERAR"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-block-item-link-wrapper > p > a.hero-block-item-link.btn-white",
+    "x": 140,
+    "y": 628,
+    "w": 185,
+    "h": 49,
+    "text": "descubre operar",
+    "href": "/es-es/la-empresa-inteligente/operar"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.features-showcase-inner > div.features-showcase-header > h2#lo-que-operar-aporta-a-nuestros-clientes",
+    "x": 179,
+    "y": 965,
+    "w": 433,
+    "h": 56,
+    "level": 2,
+    "text": "lo que operar aporta a nuestros clientes"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span.icon.icon-feature-16543d > img",
+    "x": 676,
+    "y": 965,
+    "w": 40,
+    "h": 48,
+    "text": "",
+    "file": "feature-16543d"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.features-showcase-item > div.features-showcase-item-title > h3#monitorización-inteligente-del-rendimiento-y-la-disponibilidad",
+    "x": 676,
+    "y": 1045,
+    "w": 274,
+    "h": 134,
+    "level": 3,
+    "text": "monitorización inteligente del rendimiento y la disponibilidad"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.features-showcase-item > div.features-showcase-item-description > p",
+    "x": 676,
+    "y": 1195,
+    "w": 274,
+    "h": 168,
+    "text": "Con clasificación de incidencias y análisis de causa raíz impulsados por IA, ace"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span.icon.icon-feature-73ce39 > img",
+    "x": 987,
+    "y": 965,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "file": "feature-73ce39"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.features-showcase-item > div.features-showcase-item-title > h3#reducir-los-costes-de-mantenimiento-de-aplicaciones",
+    "x": 987,
+    "y": 1045,
+    "w": 274,
+    "h": 101,
+    "level": 3,
+    "text": "reducir los costes de mantenimiento de aplicaciones"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.features-showcase-item > div.features-showcase-item-description > p",
+    "x": 987,
+    "y": 1162,
+    "w": 274,
+    "h": 140,
+    "text": "Los análisis automatizados de parches y dependencias mantienen sistemas seguros "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span.icon.icon-feature-6867e5 > img",
+    "x": 676,
+    "y": 1423,
+    "w": 69,
+    "h": 48,
+    "text": "",
+    "file": "feature-6867e5"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.features-showcase-item > div.features-showcase-item-title > h3#reducir-los-costes-de-optimización",
+    "x": 676,
+    "y": 1503,
+    "w": 274,
+    "h": 67,
+    "level": 3,
+    "text": "reducir los costes de optimización"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.features-showcase-item > div.features-showcase-item-description > p",
+    "x": 676,
+    "y": 1587,
+    "w": 274,
+    "h": 168,
+    "text": "Los flujos de trabajo impulsados por IA reducen la carga de planificación, desar"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span.icon.icon-feature-fa8ce1 > img",
+    "x": 987,
+    "y": 1423,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "file": "feature-fa8ce1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.features-showcase-item > div.features-showcase-item-title > h3#menos-carga-operativa-y-ciclos-de-lanzamiento-más-rápidos",
+    "x": 987,
+    "y": 1503,
+    "w": 274,
+    "h": 134,
+    "level": 3,
+    "text": "menos carga operativa y ciclos de lanzamiento más rápidos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.features-showcase-item > div.features-showcase-item-description > p",
+    "x": 987,
+    "y": 1654,
+    "w": 274,
+    "h": 196,
+    "text": "La IA basada en agentes en operaciones IT puede supervisar incidencias, planific"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > span.icon.icon-feature-5b7667 > img",
+    "x": 676,
+    "y": 1910,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "file": "feature-5b7667"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.features-showcase-item > div.features-showcase-item-title > h3#reducir-los-costes-de-continuidad-del-negocio",
+    "x": 676,
+    "y": 1990,
+    "w": 274,
+    "h": 101,
+    "level": 3,
+    "text": "reducir los costes de continuidad del negocio"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.features-showcase-item > div.features-showcase-item-description > p",
+    "x": 676,
+    "y": 2107,
+    "w": 274,
+    "h": 224,
+    "text": "Las bases de conocimiento conversacionales y los agentes agilizan el soporte que"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.side-by-side-panel.panel-first > picture.side-by-side-picture > img",
+    "x": 179,
+    "y": 2571,
+    "w": 529,
+    "h": 529,
+    "text": "",
+    "file": "media_19e5fa44f01acca6bbad444fc138a3078e"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.side-by-side-panel.panel-second > div.side-by-side-text-content > h3#optimización-proactiva-de-la-producción",
+    "x": 732,
+    "y": 2601,
+    "w": 529,
+    "h": 88,
+    "level": 3,
+    "text": "optimización proactiva de la producción"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.side-by-side-text-content > div.side-by-side-copy > p",
+    "x": 732,
+    "y": 2721,
+    "w": 529,
+    "h": 324,
+    "text": "Operar coordina la capa de operaciones y gestión de IT de la empresa. Al integra"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.side-by-side-panel.panel-first > picture.side-by-side-picture > img",
+    "x": 179,
+    "y": 3220,
+    "w": 529,
+    "h": 529,
+    "text": "",
+    "file": "media_19e149b4e0e65102f35a1d0077400dbbdb"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.side-by-side-panel.panel-second > div.side-by-side-text-content > h3#coordinar-personas-y-operaciones-de-it-agénticas",
+    "x": 732,
+    "y": 3246,
+    "w": 529,
+    "h": 132,
+    "level": 3,
+    "text": "coordinar personas y operaciones de it agénticas"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.side-by-side-text-content > div.side-by-side-copy > p",
+    "x": 732,
+    "y": 3410,
+    "w": 529,
+    "h": 288,
+    "text": "Nuestro marco de coordinación conecta personas, procesos, tecnología y datos en "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.related-cases-container > div.related-cases-header > h2#casos",
+    "x": 179,
+    "y": 3869,
+    "w": 76,
+    "h": 28,
+    "level": 2,
+    "text": "casos"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.related-cases-list > li.related-cases-item > a.related-cases-item-link",
+    "x": 179,
+    "y": 3945,
+    "w": 529,
+    "h": 529,
+    "text": "global beauty brand",
+    "href": "/work/leading-beauty-brand/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.related-cases-item-image-block > picture.related-cases-item-image-block-static.desktop > img",
+    "x": 179,
+    "y": 3945,
+    "w": 529,
+    "h": 457,
+    "text": "global beauty brand",
+    "file": "media_1b792d25ae3cd3f2150eb3700fc76b34f4"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.related-cases-item-content > div.related-cases-item-content-wrapper > h3#global-beauty-brand",
+    "x": 195,
+    "y": 4409,
+    "w": 414,
+    "h": 27,
+    "level": 3,
+    "text": "global beauty brand"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.related-cases-list > li.related-cases-item > a.related-cases-item-link",
+    "x": 732,
+    "y": 3945,
+    "w": 529,
+    "h": 529,
+    "text": "national veterinary associates",
+    "href": "/es-es/casos/national-veterinary-associates-accelerated-software-delivery/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.related-cases-item-image-block > picture.related-cases-item-image-block-static.desktop > img",
+    "x": 732,
+    "y": 3945,
+    "w": 529,
+    "h": 457,
+    "text": "national veterinary associates",
+    "file": "media_15ca982f950bb0c4d33764f79d4e508ff0"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.related-cases-item-content > div.related-cases-item-content-wrapper > h3#national-veterinary-associates",
+    "x": 748,
+    "y": 4409,
+    "w": 414,
+    "h": 27,
+    "level": 3,
+    "text": "national veterinary associates"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block-inner > div.featured-verticals-block-title > h2#cómo-lo-hacemos-realidad",
+    "x": 179,
+    "y": 4538,
+    "w": 1082,
+    "h": 28,
+    "level": 2,
+    "text": "cómo lo hacemos realidad"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block-item-picture > picture.landscape > img",
+    "x": 178,
+    "y": 4589,
+    "w": 435,
+    "h": 543,
+    "text": "",
+    "file": "media_1ec5cce632e39a0e277f61df1ac05ba4b2"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block-item-header > div.featured-verticals-block-item-pretitle > p",
+    "x": 646,
+    "y": 4590,
+    "w": 101,
+    "h": 23,
+    "text": "Metodología"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block-item-header > div.featured-verticals-block-item-title > h3#modelo-operativo-inteligente",
+    "x": 646,
+    "y": 4613,
+    "w": 519,
+    "h": 115,
+    "level": 3,
+    "text": "modelo operativo inteligente"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block-item-footer > div.featured-verticals-block-item-text > p",
+    "x": 646,
+    "y": 4924,
+    "w": 460,
+    "h": 134,
+    "text": "Nuestro enfoque de transformación del modelo operativo con IA desbloquea valor m"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block-item-footer > p > a.featured-verticals-block-item-link.btn-white",
+    "x": 646,
+    "y": 5083,
+    "w": 186,
+    "h": 49,
+    "text": "nuestro enfoque",
+    "href": "/es-es/la-empresa-inteligente/modelo-operativo/"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block-item-picture > picture.landscape > img",
+    "x": 1180,
+    "y": 4589,
+    "w": 493,
+    "h": 543,
+    "text": "an abstract image featuring smooth, overlapping curved shape",
+    "file": "media_18d9696b32a1d185be47d5f0316a8123ac"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block-container > div.featured-verticals-block-content > button.carousel-btn.carousel-btn-long",
+    "x": 1061,
+    "y": 5087,
+    "w": 40,
+    "h": 40,
+    "text": "previous"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.featured-verticals-block-container > div.featured-verticals-block-content > button.carousel-btn.carousel-btn-long",
+    "x": 1125,
+    "y": 5087,
+    "w": 40,
+    "h": 40,
+    "text": "next"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-wrapper > div.podcast-speakers-title > h2#nuestros-expertos",
+    "x": 179,
+    "y": 5251,
+    "w": 234,
+    "h": 28,
+    "level": 2,
+    "text": "nuestros expertos"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-image > picture > img",
+    "x": 179,
+    "y": 5319,
+    "w": 150,
+    "h": 152,
+    "text": "",
+    "file": "media_12af1fca1c5b836762f939621a476380f0"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-name > p",
+    "x": 179,
+    "y": 5495,
+    "w": 221,
+    "h": 80,
+    "text": "Gabriel Laliberte"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-company > p",
+    "x": 179,
+    "y": 5575,
+    "w": 120,
+    "h": 26,
+    "text": "EVP, Strategy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-social-links > p > a.podcast-speakers-link",
+    "x": 179,
+    "y": 5601,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/gabriel-laliberte-2ba42221/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-image > picture > img",
+    "x": 449,
+    "y": 5319,
+    "w": 150,
+    "h": 152,
+    "text": "",
+    "file": "media_1ec3bde9002383edd946c7c45fc855aa79"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-name > p",
+    "x": 449,
+    "y": 5495,
+    "w": 221,
+    "h": 80,
+    "text": "Casper Rasmussen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-company > p",
+    "x": 449,
+    "y": 5575,
+    "w": 221,
+    "h": 78,
+    "text": "Director de Transformación del Grupo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-social-links > p > a.podcast-speakers-link",
+    "x": 449,
+    "y": 5653,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/casper-aagaard-rasmussen/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-image > picture > img",
+    "x": 720,
+    "y": 5319,
+    "w": 150,
+    "h": 152,
+    "text": "",
+    "file": "media_1b88cd34713dcc6a58ea6fa0bcae9731ad"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-name > p",
+    "x": 720,
+    "y": 5495,
+    "w": 192,
+    "h": 40,
+    "text": "Matt Redman"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-company > p",
+    "x": 720,
+    "y": 5535,
+    "w": 119,
+    "h": 26,
+    "text": "SVP, Strategy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-social-links > p > a.podcast-speakers-link",
+    "x": 720,
+    "y": 5561,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/mhredman/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-image > picture > img",
+    "x": 991,
+    "y": 5319,
+    "w": 150,
+    "h": 152,
+    "text": "",
+    "file": "media_186f43fd53733559b351a431972a40de67"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-name > p",
+    "x": 991,
+    "y": 5495,
+    "w": 221,
+    "h": 80,
+    "text": "Kristoffer Nielsen-Refs"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-company > p",
+    "x": 991,
+    "y": 5575,
+    "w": 221,
+    "h": 52,
+    "text": "VP, Strategy & Consulting"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-social-links > p > a.podcast-speakers-link",
+    "x": 991,
+    "y": 5627,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/krisnielsenrefs/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.registration-form-header > div.registration-form-title > h2#reserva-una-sesión-ejecutiva",
+    "x": 295,
+    "y": 5815,
+    "w": 587,
+    "h": 52,
+    "level": 2,
+    "text": "reserva una sesión ejecutiva"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-html > span",
+    "x": 295,
+    "y": 5921,
+    "w": 578,
+    "h": 21,
+    "text": "Los campos marcados con un asterisco ( ) son obligatorios y deben completarse."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 295,
+    "y": 5983,
+    "w": 67,
+    "h": 16,
+    "text": "Nombre"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 740,
+    "y": 5983,
+    "w": 76,
+    "h": 16,
+    "text": "Apellidos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 295,
+    "y": 6051,
+    "w": 170,
+    "h": 16,
+    "text": "Nombre de la empresa"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > select#Industry",
+    "x": 740,
+    "y": 6040,
+    "w": 405,
+    "h": 38,
+    "label": "industria *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 740,
+    "y": 6051,
+    "w": 72,
+    "h": 16,
+    "text": "Industria"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > select#Lead_title__c",
+    "x": 295,
+    "y": 6108,
+    "w": 405,
+    "h": 38,
+    "label": "cargo *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 295,
+    "y": 6119,
+    "w": 52,
+    "h": 16,
+    "text": "Cargo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 740,
+    "y": 6119,
+    "w": 224,
+    "h": 16,
+    "text": "Correo electrónico profesional"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-field.mkto-form-field-float > select#CountryCode",
+    "x": 295,
+    "y": 6176,
+    "w": 849,
+    "h": 38,
+    "label": "pais *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 295,
+    "y": 6187,
+    "w": 39,
+    "h": 16,
+    "text": "Pais"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-check > label > span",
+    "x": 321,
+    "y": 6244,
+    "w": 780,
+    "h": 42,
+    "text": "Acepto recibir noticias y comunicaciones de marketing relevantes por parte de Va"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-check > label > a",
+    "x": 925,
+    "y": 6265,
+    "w": 152,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 295,
+    "y": 6317,
+    "w": 382,
+    "h": 21,
+    "text": "Este sitio está protegido por CAPTCHA y se aplican la"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span > span > a",
+    "x": 677,
+    "y": 6317,
+    "w": 155,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/legal/privacy-end-users/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 832,
+    "y": 6317,
+    "w": 206,
+    "h": 21,
+    "text": "y los"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span > span > a",
+    "x": 867,
+    "y": 6317,
+    "w": 170,
+    "h": 21,
+    "text": "términos y condiciones",
+    "href": "/legal/terms/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 295,
+    "y": 6317,
+    "w": 811,
+    "h": 43,
+    "text": "de uso de Friendly Captcha."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-buttons > span.mkto-form-button-wrap > button.mktoButton.btn-white",
+    "x": 295,
+    "y": 6390,
+    "w": 282,
+    "h": 49,
+    "text": "reserva una sesión ejecutiva"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 402,
+    "y": 6668,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 514,
+    "y": 6668,
+    "w": 109,
+    "h": 21,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 699,
+    "y": 6668,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 831,
+    "y": 6668,
+    "w": 148,
+    "h": 21,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer-column.site-footer-stamp > picture > img",
+    "x": 1107,
+    "y": 6644,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "media_18686ce5d542e21460f5b9773dc388b150"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 116,
+    "y": 6796,
+    "w": 153,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 320,
+    "y": 6796,
+    "w": 135,
+    "h": 21,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 548,
+    "y": 6796,
+    "w": 82,
+    "h": 21,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 678,
+    "y": 6796,
+    "w": 96,
+    "h": 21,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 116,
+    "y": 6837,
+    "w": 156,
+    "h": 21,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a.cookiebot-reset",
+    "x": 320,
+    "y": 6837,
+    "w": 180,
+    "h": 21,
+    "text": "configuración de cookies",
+    "href": "/es-es/la-empresa-inteligente/operar"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 994,
+    "y": 6801,
+    "w": 23,
+    "h": 21,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 1049,
+    "y": 6801,
+    "w": 23,
+    "h": 21,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 1104,
+    "y": 6801,
+    "w": 23,
+    "h": 21,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 1159,
+    "y": 6801,
+    "w": 23,
+    "h": 21,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 1214,
+    "y": 6801,
+    "w": 23,
+    "h": 21,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 1269,
+    "y": 6801,
+    "w": 23,
+    "h": 21,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 11,
+    "textNodes": 94,
+    "controls": 48,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 5,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 5,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "ia agéntica para it",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "lo que operar aporta a nuestros clientes",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "monitorización inteligente del rendimiento y la disponibilidad",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "reducir los costes de mantenimiento de aplicaciones",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "reducir los costes de optimización",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "menos carga operativa y ciclos de lanzamiento más rápidos",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "reducir los costes de continuidad del negocio",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "optimización proactiva de la producción",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "coordinar personas y operaciones de it agénticas",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "casos",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 2
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "global beauty brand",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "national veterinary associates",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 13,
+   "heading": "cómo lo hacemos realidad",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 1
+   },
+   "findings": []
+  },
+  {
+   "index": 14,
+   "heading": "modelo operativo inteligente",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 2,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 15,
+   "heading": "nuestros expertos",
+   "variable": false,
+   "origin": {
+    "link": 4,
+    "button": 0,
+    "text": 8,
+    "image": 4
+   },
+   "eds": {
+    "link": 4,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 8,
+    "textHidden": 0,
+    "image": 4,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 16,
+   "heading": "reserva una sesión ejecutiva",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 1,
+    "text": 12,
+    "image": 0
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 12,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 355,
+    "y": 21,
+    "w": 125,
+    "h": 23
+   },
+   {
+    "x": 551,
+    "y": 21,
+    "w": 73,
+    "h": 23
+   },
+   {
+    "x": 746,
+    "y": 21,
+    "w": 59,
+    "h": 23
+   },
+   {
+    "x": 942,
+    "y": 21,
+    "w": 103,
+    "h": 23
+   },
+   {
+    "x": 1138,
+    "y": 21,
+    "w": 122,
+    "h": 23
+   },
+   {
+    "x": 595,
+    "y": 83,
+    "w": 114,
+    "h": 23
+   },
+   {
+    "x": 748,
+    "y": 83,
+    "w": 56,
+    "h": 23
+   },
+   {
+    "x": 844,
+    "y": 83,
+    "w": 78,
+    "h": 23
+   },
+   {
+    "x": 962,
+    "y": 83,
+    "w": 53,
+    "h": 23
+   },
+   {
+    "x": 1055,
+    "y": 83,
+    "w": 57,
+    "h": 23
+   },
+   {
+    "x": 1169,
+    "y": 83,
+    "w": 230,
+    "h": 23
+   },
+   {
+    "x": 179,
+    "y": 307,
+    "w": 459,
+    "h": 123
+   },
+   {
+    "x": 179,
+    "y": 404,
+    "w": 283,
+    "h": 123
+   },
+   {
+    "x": 179,
+    "y": 521,
+    "w": 444,
+    "h": 26
+   },
+   {
+    "x": 179,
+    "y": 546,
+    "w": 295,
+    "h": 26
+   },
+   {
+    "x": 179,
+    "y": 290,
+    "w": 79,
+    "h": 26
+   },
+   {
+    "x": 203,
+    "y": 640,
+    "w": 137,
+    "h": 23
+   },
+   {
+    "x": 190,
+    "y": 966,
+    "w": 239,
+    "h": 26
+   },
+   {
+    "x": 179,
+    "y": 994,
+    "w": 217,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 1042,
+    "w": 193,
+    "h": 39
+   },
+   {
+    "x": 676,
+    "y": 1076,
+    "w": 185,
+    "h": 39
+   },
+   {
+    "x": 676,
+    "y": 1109,
+    "w": 210,
+    "h": 39
+   },
+   {
+    "x": 676,
+    "y": 1143,
+    "w": 187,
+    "h": 39
+   },
+   {
+    "x": 676,
+    "y": 1196,
+    "w": 176,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 1224,
+    "w": 268,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 1252,
+    "w": 201,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 1280,
+    "w": 236,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 1308,
+    "w": 240,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 1336,
+    "w": 247,
+    "h": 26
+   },
+   {
+    "x": 987,
+    "y": 1042,
+    "w": 243,
+    "h": 39
+   },
+   {
+    "x": 987,
+    "y": 1076,
+    "w": 241,
+    "h": 39
+   },
+   {
+    "x": 987,
+    "y": 1109,
+    "w": 209,
+    "h": 39
+   },
+   {
+    "x": 987,
+    "y": 1163,
+    "w": 265,
+    "h": 26
+   },
+   {
+    "x": 987,
+    "y": 1191,
+    "w": 216,
+    "h": 26
+   },
+   {
+    "x": 987,
+    "y": 1219,
+    "w": 268,
+    "h": 26
+   },
+   {
+    "x": 987,
+    "y": 1247,
+    "w": 212,
+    "h": 26
+   },
+   {
+    "x": 987,
+    "y": 1275,
+    "w": 185,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 1500,
+    "w": 243,
+    "h": 39
+   },
+   {
+    "x": 676,
+    "y": 1534,
+    "w": 212,
+    "h": 39
+   },
+   {
+    "x": 676,
+    "y": 1588,
+    "w": 177,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 1616,
+    "w": 257,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 1644,
+    "w": 198,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 1672,
+    "w": 210,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 1700,
+    "w": 191,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 1728,
+    "w": 123,
+    "h": 26
+   },
+   {
+    "x": 987,
+    "y": 1500,
+    "w": 170,
+    "h": 39
+   },
+   {
+    "x": 987,
+    "y": 1534,
+    "w": 271,
+    "h": 39
+   },
+   {
+    "x": 987,
+    "y": 1568,
+    "w": 224,
+    "h": 39
+   },
+   {
+    "x": 987,
+    "y": 1601,
+    "w": 100,
+    "h": 39
+   },
+   {
+    "x": 987,
+    "y": 1655,
+    "w": 242,
+    "h": 26
+   },
+   {
+    "x": 987,
+    "y": 1683,
+    "w": 192,
+    "h": 26
+   },
+   {
+    "x": 987,
+    "y": 1711,
+    "w": 202,
+    "h": 26
+   },
+   {
+    "x": 987,
+    "y": 1739,
+    "w": 239,
+    "h": 26
+   },
+   {
+    "x": 987,
+    "y": 1767,
+    "w": 264,
+    "h": 26
+   },
+   {
+    "x": 987,
+    "y": 1795,
+    "w": 249,
+    "h": 26
+   },
+   {
+    "x": 987,
+    "y": 1823,
+    "w": 270,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 1987,
+    "w": 243,
+    "h": 39
+   },
+   {
+    "x": 676,
+    "y": 2020,
+    "w": 248,
+    "h": 39
+   },
+   {
+    "x": 676,
+    "y": 2054,
+    "w": 106,
+    "h": 39
+   },
+   {
+    "x": 676,
+    "y": 2108,
+    "w": 241,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 2136,
+    "w": 274,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 2164,
+    "w": 229,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 2192,
+    "w": 260,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 2220,
+    "w": 268,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 2248,
+    "w": 246,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 2276,
+    "w": 227,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 2304,
+    "w": 75,
+    "h": 26
+   },
+   {
+    "x": 732,
+    "y": 2595,
+    "w": 497,
+    "h": 56
+   },
+   {
+    "x": 732,
+    "y": 2639,
+    "w": 260,
+    "h": 56
+   },
+   {
+    "x": 732,
+    "y": 2723,
+    "w": 524,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2759,
+    "w": 510,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2795,
+    "w": 451,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2831,
+    "w": 458,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2867,
+    "w": 499,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2903,
+    "w": 490,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2939,
+    "w": 460,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2975,
+    "w": 501,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 3011,
+    "w": 203,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 3240,
+    "w": 406,
+    "h": 56
+   },
+   {
+    "x": 732,
+    "y": 3284,
+    "w": 338,
+    "h": 56
+   },
+   {
+    "x": 732,
+    "y": 3328,
+    "w": 185,
+    "h": 56
+   },
+   {
+    "x": 732,
+    "y": 3412,
+    "w": 426,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 3448,
+    "w": 523,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 3484,
+    "w": 419,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 3520,
+    "w": 418,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 3556,
+    "w": 522,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 3592,
+    "w": 464,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 3628,
+    "w": 524,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 3664,
+    "w": 452,
+    "h": 31
+   },
+   {
+    "x": 190,
+    "y": 3870,
+    "w": 65,
+    "h": 26
+   },
+   {
+    "x": 195,
+    "y": 4403,
+    "w": 262,
+    "h": 38
+   },
+   {
+    "x": 748,
+    "y": 4403,
+    "w": 393,
+    "h": 38
+   },
+   {
+    "x": 190,
+    "y": 4539,
+    "w": 289,
+    "h": 26
+   },
+   {
+    "x": 646,
+    "y": 4590,
+    "w": 101,
+    "h": 23
+   },
+   {
+    "x": 646,
+    "y": 4608,
+    "w": 398,
+    "h": 67
+   },
+   {
+    "x": 646,
+    "y": 4666,
+    "w": 236,
+    "h": 67
+   },
+   {
+    "x": 646,
+    "y": 4925,
+    "w": 416,
+    "h": 31
+   },
+   {
+    "x": 646,
+    "y": 4959,
+    "w": 447,
+    "h": 31
+   },
+   {
+    "x": 646,
+    "y": 4992,
+    "w": 371,
+    "h": 31
+   },
+   {
+    "x": 646,
+    "y": 5026,
+    "w": 232,
+    "h": 31
+   },
+   {
+    "x": 672,
+    "y": 5095,
+    "w": 134,
+    "h": 23
+   },
+   {
+    "x": -376,
+    "y": 4608,
+    "w": 407,
+    "h": 67
+   },
+   {
+    "x": -376,
+    "y": 4925,
+    "w": 386,
+    "h": 31
+   },
+   {
+    "x": -376,
+    "y": 4959,
+    "w": 454,
+    "h": 31
+   },
+   {
+    "x": -376,
+    "y": 4992,
+    "w": 438,
+    "h": 31
+   },
+   {
+    "x": 190,
+    "y": 5252,
+    "w": 207,
+    "h": 26
+   },
+   {
+    "x": 179,
+    "y": 5495,
+    "w": 102,
+    "h": 40
+   },
+   {
+    "x": 179,
+    "y": 5535,
+    "w": 126,
+    "h": 40
+   },
+   {
+    "x": 179,
+    "y": 5575,
+    "w": 120,
+    "h": 26
+   },
+   {
+    "x": 449,
+    "y": 5495,
+    "w": 101,
+    "h": 40
+   },
+   {
+    "x": 449,
+    "y": 5535,
+    "w": 165,
+    "h": 40
+   },
+   {
+    "x": 449,
+    "y": 5575,
+    "w": 99,
+    "h": 26
+   },
+   {
+    "x": 449,
+    "y": 5601,
+    "w": 171,
+    "h": 26
+   },
+   {
+    "x": 449,
+    "y": 5627,
+    "w": 56,
+    "h": 26
+   },
+   {
+    "x": 720,
+    "y": 5495,
+    "w": 192,
+    "h": 40
+   },
+   {
+    "x": 720,
+    "y": 5535,
+    "w": 119,
+    "h": 26
+   },
+   {
+    "x": 991,
+    "y": 5495,
+    "w": 132,
+    "h": 40
+   },
+   {
+    "x": 991,
+    "y": 5535,
+    "w": 181,
+    "h": 40
+   },
+   {
+    "x": 991,
+    "y": 5575,
+    "w": 126,
+    "h": 26
+   },
+   {
+    "x": 991,
+    "y": 5601,
+    "w": 96,
+    "h": 26
+   },
+   {
+    "x": 295,
+    "y": 5810,
+    "w": 587,
+    "h": 61
+   },
+   {
+    "x": 299,
+    "y": 5921,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 587,
+    "y": 5923,
+    "w": 6,
+    "h": 18
+   },
+   {
+    "x": 593,
+    "y": 5921,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 295,
+    "y": 5980,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 354,
+    "y": 5982,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 5980,
+    "w": 67,
+    "h": 21
+   },
+   {
+    "x": 807,
+    "y": 5982,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 295,
+    "y": 6048,
+    "w": 161,
+    "h": 21
+   },
+   {
+    "x": 457,
+    "y": 6050,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 6048,
+    "w": 63,
+    "h": 21
+   },
+   {
+    "x": 803,
+    "y": 6050,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 295,
+    "y": 6116,
+    "w": 43,
+    "h": 21
+   },
+   {
+    "x": 339,
+    "y": 6118,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 6116,
+    "w": 215,
+    "h": 21
+   },
+   {
+    "x": 955,
+    "y": 6118,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 295,
+    "y": 6184,
+    "w": 30,
+    "h": 21
+   },
+   {
+    "x": 325,
+    "y": 6186,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 321,
+    "y": 6244,
+    "w": 780,
+    "h": 21
+   },
+   {
+    "x": 321,
+    "y": 6265,
+    "w": 603,
+    "h": 21
+   },
+   {
+    "x": 925,
+    "y": 6265,
+    "w": 152,
+    "h": 21
+   },
+   {
+    "x": 1076,
+    "y": 6265,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 1080,
+    "y": 6267,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 295,
+    "y": 6317,
+    "w": 382,
+    "h": 21
+   },
+   {
+    "x": 677,
+    "y": 6317,
+    "w": 155,
+    "h": 21
+   },
+   {
+    "x": 832,
+    "y": 6317,
+    "w": 36,
+    "h": 21
+   },
+   {
+    "x": 867,
+    "y": 6317,
+    "w": 170,
+    "h": 21
+   },
+   {
+    "x": 1038,
+    "y": 6317,
+    "w": 69,
+    "h": 21
+   },
+   {
+    "x": 295,
+    "y": 6339,
+    "w": 124,
+    "h": 21
+   },
+   {
+    "x": 321,
+    "y": 6402,
+    "w": 230,
+    "h": 23
+   },
+   {
+    "x": 402,
+    "y": 6668,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 514,
+    "y": 6668,
+    "w": 109,
+    "h": 21
+   },
+   {
+    "x": 699,
+    "y": 6668,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 831,
+    "y": 6668,
+    "w": 148,
+    "h": 21
+   },
+   {
+    "x": 116,
+    "y": 6796,
+    "w": 153,
+    "h": 21
+   },
+   {
+    "x": 320,
+    "y": 6796,
+    "w": 135,
+    "h": 21
+   },
+   {
+    "x": 548,
+    "y": 6796,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 678,
+    "y": 6796,
+    "w": 96,
+    "h": 21
+   },
+   {
+    "x": 116,
+    "y": 6837,
+    "w": 156,
+    "h": 21
+   },
+   {
+    "x": 320,
+    "y": 6837,
+    "w": 180,
+    "h": 21
+   }
+  ],
+  "eds": [
+   {
+    "x": 355,
+    "y": 21,
+    "w": 125,
+    "h": 23
+   },
+   {
+    "x": 551,
+    "y": 21,
+    "w": 73,
+    "h": 23
+   },
+   {
+    "x": 746,
+    "y": 21,
+    "w": 59,
+    "h": 23
+   },
+   {
+    "x": 942,
+    "y": 21,
+    "w": 103,
+    "h": 23
+   },
+   {
+    "x": 1138,
+    "y": 21,
+    "w": 122,
+    "h": 23
+   },
+   {
+    "x": 595,
+    "y": 83,
+    "w": 114,
+    "h": 23
+   },
+   {
+    "x": 748,
+    "y": 83,
+    "w": 56,
+    "h": 23
+   },
+   {
+    "x": 844,
+    "y": 83,
+    "w": 78,
+    "h": 23
+   },
+   {
+    "x": 962,
+    "y": 83,
+    "w": 53,
+    "h": 23
+   },
+   {
+    "x": 1055,
+    "y": 83,
+    "w": 57,
+    "h": 23
+   },
+   {
+    "x": 1169,
+    "y": 83,
+    "w": 230,
+    "h": 23
+   },
+   {
+    "x": 140,
+    "y": 307,
+    "w": 459,
+    "h": 123
+   },
+   {
+    "x": 140,
+    "y": 404,
+    "w": 283,
+    "h": 123
+   },
+   {
+    "x": 140,
+    "y": 521,
+    "w": 444,
+    "h": 26
+   },
+   {
+    "x": 140,
+    "y": 546,
+    "w": 295,
+    "h": 26
+   },
+   {
+    "x": 140,
+    "y": 290,
+    "w": 79,
+    "h": 26
+   },
+   {
+    "x": 164,
+    "y": 640,
+    "w": 137,
+    "h": 23
+   },
+   {
+    "x": 190,
+    "y": 966,
+    "w": 235,
+    "h": 26
+   },
+   {
+    "x": 179,
+    "y": 994,
+    "w": 217,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 1042,
+    "w": 193,
+    "h": 39
+   },
+   {
+    "x": 676,
+    "y": 1076,
+    "w": 185,
+    "h": 39
+   },
+   {
+    "x": 676,
+    "y": 1109,
+    "w": 210,
+    "h": 39
+   },
+   {
+    "x": 676,
+    "y": 1143,
+    "w": 187,
+    "h": 39
+   },
+   {
+    "x": 676,
+    "y": 1196,
+    "w": 176,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 1224,
+    "w": 268,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 1252,
+    "w": 201,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 1280,
+    "w": 236,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 1308,
+    "w": 240,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 1336,
+    "w": 247,
+    "h": 26
+   },
+   {
+    "x": 987,
+    "y": 1042,
+    "w": 243,
+    "h": 39
+   },
+   {
+    "x": 987,
+    "y": 1076,
+    "w": 241,
+    "h": 39
+   },
+   {
+    "x": 987,
+    "y": 1109,
+    "w": 209,
+    "h": 39
+   },
+   {
+    "x": 987,
+    "y": 1163,
+    "w": 265,
+    "h": 26
+   },
+   {
+    "x": 987,
+    "y": 1191,
+    "w": 216,
+    "h": 26
+   },
+   {
+    "x": 987,
+    "y": 1219,
+    "w": 268,
+    "h": 26
+   },
+   {
+    "x": 987,
+    "y": 1247,
+    "w": 212,
+    "h": 26
+   },
+   {
+    "x": 987,
+    "y": 1275,
+    "w": 185,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 1500,
+    "w": 243,
+    "h": 39
+   },
+   {
+    "x": 676,
+    "y": 1534,
+    "w": 212,
+    "h": 39
+   },
+   {
+    "x": 676,
+    "y": 1588,
+    "w": 177,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 1616,
+    "w": 257,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 1644,
+    "w": 198,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 1672,
+    "w": 210,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 1700,
+    "w": 191,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 1728,
+    "w": 123,
+    "h": 26
+   },
+   {
+    "x": 987,
+    "y": 1500,
+    "w": 170,
+    "h": 39
+   },
+   {
+    "x": 987,
+    "y": 1534,
+    "w": 271,
+    "h": 39
+   },
+   {
+    "x": 987,
+    "y": 1568,
+    "w": 224,
+    "h": 39
+   },
+   {
+    "x": 987,
+    "y": 1601,
+    "w": 100,
+    "h": 39
+   },
+   {
+    "x": 987,
+    "y": 1655,
+    "w": 242,
+    "h": 26
+   },
+   {
+    "x": 987,
+    "y": 1683,
+    "w": 192,
+    "h": 26
+   },
+   {
+    "x": 987,
+    "y": 1711,
+    "w": 202,
+    "h": 26
+   },
+   {
+    "x": 987,
+    "y": 1739,
+    "w": 239,
+    "h": 26
+   },
+   {
+    "x": 987,
+    "y": 1767,
+    "w": 264,
+    "h": 26
+   },
+   {
+    "x": 987,
+    "y": 1795,
+    "w": 249,
+    "h": 26
+   },
+   {
+    "x": 987,
+    "y": 1823,
+    "w": 270,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 1987,
+    "w": 243,
+    "h": 39
+   },
+   {
+    "x": 676,
+    "y": 2020,
+    "w": 248,
+    "h": 39
+   },
+   {
+    "x": 676,
+    "y": 2054,
+    "w": 106,
+    "h": 39
+   },
+   {
+    "x": 676,
+    "y": 2108,
+    "w": 241,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 2136,
+    "w": 274,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 2164,
+    "w": 229,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 2192,
+    "w": 260,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 2220,
+    "w": 268,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 2248,
+    "w": 246,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 2276,
+    "w": 227,
+    "h": 26
+   },
+   {
+    "x": 676,
+    "y": 2304,
+    "w": 75,
+    "h": 26
+   },
+   {
+    "x": 732,
+    "y": 2595,
+    "w": 497,
+    "h": 56
+   },
+   {
+    "x": 732,
+    "y": 2639,
+    "w": 260,
+    "h": 56
+   },
+   {
+    "x": 732,
+    "y": 2723,
+    "w": 524,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2759,
+    "w": 510,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2795,
+    "w": 451,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2831,
+    "w": 458,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2867,
+    "w": 499,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2903,
+    "w": 490,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2939,
+    "w": 460,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 2975,
+    "w": 501,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 3011,
+    "w": 203,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 3240,
+    "w": 406,
+    "h": 56
+   },
+   {
+    "x": 732,
+    "y": 3284,
+    "w": 338,
+    "h": 56
+   },
+   {
+    "x": 732,
+    "y": 3328,
+    "w": 185,
+    "h": 56
+   },
+   {
+    "x": 732,
+    "y": 3412,
+    "w": 426,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 3448,
+    "w": 523,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 3484,
+    "w": 419,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 3520,
+    "w": 418,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 3556,
+    "w": 522,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 3592,
+    "w": 464,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 3628,
+    "w": 524,
+    "h": 31
+   },
+   {
+    "x": 732,
+    "y": 3664,
+    "w": 452,
+    "h": 31
+   },
+   {
+    "x": 190,
+    "y": 3870,
+    "w": 65,
+    "h": 26
+   },
+   {
+    "x": 195,
+    "y": 4403,
+    "w": 262,
+    "h": 38
+   },
+   {
+    "x": 748,
+    "y": 4403,
+    "w": 387,
+    "h": 38
+   },
+   {
+    "x": 190,
+    "y": 4539,
+    "w": 289,
+    "h": 26
+   },
+   {
+    "x": 646,
+    "y": 4590,
+    "w": 101,
+    "h": 23
+   },
+   {
+    "x": 646,
+    "y": 4608,
+    "w": 398,
+    "h": 67
+   },
+   {
+    "x": 646,
+    "y": 4666,
+    "w": 236,
+    "h": 67
+   },
+   {
+    "x": 646,
+    "y": 4925,
+    "w": 416,
+    "h": 31
+   },
+   {
+    "x": 646,
+    "y": 4959,
+    "w": 447,
+    "h": 31
+   },
+   {
+    "x": 646,
+    "y": 4992,
+    "w": 371,
+    "h": 31
+   },
+   {
+    "x": 646,
+    "y": 5026,
+    "w": 232,
+    "h": 31
+   },
+   {
+    "x": 672,
+    "y": 5095,
+    "w": 134,
+    "h": 23
+   },
+   {
+    "x": 190,
+    "y": 5252,
+    "w": 207,
+    "h": 26
+   },
+   {
+    "x": 179,
+    "y": 5495,
+    "w": 102,
+    "h": 40
+   },
+   {
+    "x": 179,
+    "y": 5535,
+    "w": 126,
+    "h": 40
+   },
+   {
+    "x": 179,
+    "y": 5575,
+    "w": 120,
+    "h": 26
+   },
+   {
+    "x": 449,
+    "y": 5495,
+    "w": 101,
+    "h": 40
+   },
+   {
+    "x": 449,
+    "y": 5535,
+    "w": 165,
+    "h": 40
+   },
+   {
+    "x": 449,
+    "y": 5575,
+    "w": 99,
+    "h": 26
+   },
+   {
+    "x": 449,
+    "y": 5601,
+    "w": 171,
+    "h": 26
+   },
+   {
+    "x": 449,
+    "y": 5627,
+    "w": 56,
+    "h": 26
+   },
+   {
+    "x": 720,
+    "y": 5495,
+    "w": 192,
+    "h": 40
+   },
+   {
+    "x": 720,
+    "y": 5535,
+    "w": 119,
+    "h": 26
+   },
+   {
+    "x": 991,
+    "y": 5495,
+    "w": 132,
+    "h": 40
+   },
+   {
+    "x": 991,
+    "y": 5535,
+    "w": 181,
+    "h": 40
+   },
+   {
+    "x": 991,
+    "y": 5575,
+    "w": 126,
+    "h": 26
+   },
+   {
+    "x": 991,
+    "y": 5601,
+    "w": 96,
+    "h": 26
+   },
+   {
+    "x": 295,
+    "y": 5810,
+    "w": 587,
+    "h": 61
+   },
+   {
+    "x": 299,
+    "y": 5921,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 587,
+    "y": 5921,
+    "w": 7,
+    "h": 21
+   },
+   {
+    "x": 594,
+    "y": 5921,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 295,
+    "y": 5980,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 354,
+    "y": 5982,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 5980,
+    "w": 67,
+    "h": 21
+   },
+   {
+    "x": 807,
+    "y": 5982,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 295,
+    "y": 6048,
+    "w": 161,
+    "h": 21
+   },
+   {
+    "x": 457,
+    "y": 6050,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 6048,
+    "w": 63,
+    "h": 21
+   },
+   {
+    "x": 803,
+    "y": 6050,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 295,
+    "y": 6116,
+    "w": 43,
+    "h": 21
+   },
+   {
+    "x": 339,
+    "y": 6118,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 740,
+    "y": 6116,
+    "w": 215,
+    "h": 21
+   },
+   {
+    "x": 955,
+    "y": 6118,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 295,
+    "y": 6184,
+    "w": 30,
+    "h": 21
+   },
+   {
+    "x": 325,
+    "y": 6186,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 321,
+    "y": 6244,
+    "w": 780,
+    "h": 21
+   },
+   {
+    "x": 321,
+    "y": 6265,
+    "w": 603,
+    "h": 21
+   },
+   {
+    "x": 925,
+    "y": 6265,
+    "w": 152,
+    "h": 21
+   },
+   {
+    "x": 1076,
+    "y": 6265,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 1080,
+    "y": 6267,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 295,
+    "y": 6317,
+    "w": 382,
+    "h": 21
+   },
+   {
+    "x": 677,
+    "y": 6317,
+    "w": 155,
+    "h": 21
+   },
+   {
+    "x": 832,
+    "y": 6317,
+    "w": 36,
+    "h": 21
+   },
+   {
+    "x": 867,
+    "y": 6317,
+    "w": 170,
+    "h": 21
+   },
+   {
+    "x": 1038,
+    "y": 6317,
+    "w": 69,
+    "h": 21
+   },
+   {
+    "x": 295,
+    "y": 6339,
+    "w": 124,
+    "h": 21
+   },
+   {
+    "x": 321,
+    "y": 6402,
+    "w": 230,
+    "h": 23
+   },
+   {
+    "x": 402,
+    "y": 6668,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 514,
+    "y": 6668,
+    "w": 109,
+    "h": 21
+   },
+   {
+    "x": 699,
+    "y": 6668,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 831,
+    "y": 6668,
+    "w": 148,
+    "h": 21
+   },
+   {
+    "x": 116,
+    "y": 6796,
+    "w": 153,
+    "h": 21
+   },
+   {
+    "x": 320,
+    "y": 6796,
+    "w": 135,
+    "h": 21
+   },
+   {
+    "x": 548,
+    "y": 6796,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 678,
+    "y": 6796,
+    "w": 96,
+    "h": 21
+   },
+   {
+    "x": 116,
+    "y": 6837,
+    "w": 156,
+    "h": 21
+   },
+   {
+    "x": 320,
+    "y": 6837,
+    "w": 180,
+    "h": 21
+   }
+  ]
+ }
+}

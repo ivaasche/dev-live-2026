@@ -1,0 +1,176 @@
+/* valtech.com replica — whitepaper archetype (/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2026/)
+   Imports canon.css first (tokens, chrome, type ramp, buttons, form structure, footer).
+   Every value below is lifted from the source's /public/dist/css/main.css (offsets in
+   stardust/replica/progress/whitepaper.json liftNotes); source rule order is kept per module.
+   Shared article modules (breadcrumbs, utilities, text-content, rte-block, hollow button) are
+   re-declared here from the same source rules — another archetype's file is never imported. */
+
+/* ---------- breadcrumbs ---------- */
+.site-breadcrumbs { padding-bottom: 1.5rem; padding-top: .5rem; position: relative; z-index: 2; }
+@media (min-width: 58.75rem) { .site-breadcrumbs { padding-bottom: 2.5rem; padding-top: 1.5rem; } }
+.site-breadcrumbs__container { padding: 0 1.5rem; }
+@media (min-width: 64rem) { .site-breadcrumbs__container { margin-right: 64px; } }
+@media (min-width: 120.001rem) { .site-breadcrumbs__container { margin: 0 auto; max-width: 84vw; padding: 0; } }
+.site-breadcrumbs__list { text-transform: lowercase; }
+.site-breadcrumbs__list ul { display: flex; flex-wrap: wrap; }
+.site-breadcrumbs__list__item { font-size: 1rem; }
+.site-breadcrumbs__list__item a { color: var(--c-ocean); text-decoration: underline; }
+.site-breadcrumbs__list__item a:hover { text-decoration: none; }
+.site-breadcrumbs__list__item a:focus { background-color: #000; color: #fff; outline: none; padding: .1875rem 0; text-decoration-thickness: .125rem; }
+.site-breadcrumbs__list__item a:focus:not(:focus-visible) { background-color: transparent; color: #000; padding: 0; text-decoration-thickness: .0625rem; }
+.site-breadcrumbs__list__item:not(:first-child)::before { content: "\00a0/"; } /* source @306548 is U+00A0 + "/" (not a plain space) */
+
+/* ---------- utilities ---------- */
+.base-top-indent { margin-top: 2.5rem; }
+@media (min-width: 58.75rem) { .base-top-indent { margin-top: 5rem; } }
+.base-bottom-indent { margin-bottom: 2.5rem; }
+@media (min-width: 58.75rem) { .base-bottom-indent { margin-bottom: 5rem; } }
+
+/* ---------- text-content (rich text) ---------- */
+.text-content h2 { margin-bottom: 1rem; }
+@media (min-width: 58.75rem) { .text-content h2 { margin-bottom: 2rem; } }
+.text-content h6, .text-content p { margin-bottom: .8em; }
+.text-content ol, .text-content p, .text-content ul { max-width: 38em; }
+.text-content ol + h2, .text-content p + h2, .text-content ul + h2 { margin-top: 3.75rem; }
+.text-content li { font-size: 1.5vw; font-weight: 300; line-height: 1.4; }
+@media (max-width: 1066.6666666667px) { .text-content li { font-size: 16px; } }
+@media (min-width: 1333.3333333333px) { .text-content li { font-size: 20px; } }
+.text-content a:not(.button) { text-decoration: underline; }
+.text-content a:not(.button):hover { text-decoration: none; }
+.text-content ol, .text-content ul { line-height: 1.4; margin: 0 0 .8em; padding-left: 1.25rem; }
+.text-content ol li + li, .text-content ul li + li { margin-top: .8rem; }
+
+/* ---------- masthead-two-columns-cta (whitepaper hero) @299254–303784 ---------- */
+@media (max-width: 58.749rem) { .masthead-two-columns-cta { margin-bottom: 1.25rem; } }
+@media (min-width: 58.75rem) { .masthead-two-columns-cta { margin-bottom: 2.5rem; padding: 0 1.5rem; } }
+@media (min-width: 64rem) { .masthead-two-columns-cta { margin-right: 64px; } }
+@media (min-width: 120.001rem) { .masthead-two-columns-cta { margin-left: auto; margin-right: auto; max-width: 84vw; padding: 0; } }
+.masthead-two-columns-cta__inner { position: relative; }
+.masthead-two-columns-cta__inner__wrap { display: flex; flex-direction: column; position: relative; }
+@media (min-width: 58.75rem) { .masthead-two-columns-cta__inner__wrap { flex-direction: row-reverse; } }
+.masthead-two-columns-cta__text { display: flex; flex-direction: column; justify-content: center; order: 2; padding: 1.25rem 1.5rem; position: relative; z-index: 2; }
+@media (min-width: 58.75rem) { .masthead-two-columns-cta__text { order: 1; padding: 1.25rem calc(2vw + 2.5rem); width: 50%; } }
+.masthead-two-columns-cta__text p { font-size: 1.5vw; }
+@media (max-width: 1066.6666666667px) { .masthead-two-columns-cta__text p { font-size: 16px; } }
+@media (min-width: 1333.3333333333px) { .masthead-two-columns-cta__text p { font-size: 20px; } }
+.masthead-two-columns-cta__hgroup { margin-bottom: 1.25rem; }
+@media (min-width: 58.75rem) { .masthead-two-columns-cta__hgroup { margin-bottom: 2.5rem; } }
+.masthead-two-columns-cta__hgroup__title { font-size: 3.5vw; margin: 0; }
+@media (max-width: 714.2857142857px) { .masthead-two-columns-cta__hgroup__title { font-size: 25px; } }
+@media (min-width: 2000px) { .masthead-two-columns-cta__hgroup__title { font-size: 70px; } }
+@media (min-width: 58.75rem) { .masthead-two-columns-cta__hgroup__title { white-space: pre-line; } }
+@media (min-width: 105rem) { .masthead-two-columns-cta__hgroup__title { font-size: clamp(2.5rem, 3.8vw, 5rem); } }
+.masthead-two-columns-cta__parameters { display: flex; flex-direction: row; }
+.masthead-two-columns-cta__parameter { margin-right: 1.25rem; }
+.masthead-two-columns-cta__value { font-size: 4vw; font-weight: 700; margin-right: .4375rem; }
+@media (max-width: 500px) { .masthead-two-columns-cta__value { font-size: 20px; } }
+@media (min-width: 1100px) { .masthead-two-columns-cta__value { font-size: 44px; } }
+/* @302100: the hollow CTA inside this masthead renders filled (ocean, white label) */
+.masthead-two-columns-cta__cta .button--primary-hollow { background-color: var(--c-ocean); box-shadow: inset 0 0 0 2px var(--c-ocean); color: #fff; }
+.masthead-two-columns-cta__media { order: 1; }
+@media (min-width: 58.75rem) { .masthead-two-columns-cta__media { height: calc(100vh - 15.4vw); min-height: 400px; order: 2; width: 50%; } }
+.masthead-two-columns-cta__media img { height: 100%; object-fit: cover; width: 100%; }
+
+/* ---------- rte-block ---------- */
+.rte-block:last-of-type { margin-bottom: 2.5rem; }
+@media (min-width: 58.75rem) { .rte-block:last-of-type { margin-bottom: 5rem; } }
+@media (max-width: 58.749rem) { .rte-block__container { padding: 0 1.5rem; } }
+@media (min-width: 58.75rem) { .rte-block__container { margin: 0 auto; max-width: 50.625rem; } }
+.rte-block__container:last-child p:not(.lead):last-child { margin-bottom: 0; }
+.rte-block ol, .rte-block p, .rte-block ul { font-size: 1.5vw; }
+@media (max-width: 1066.6666666667px) { .rte-block ol, .rte-block p, .rte-block ul { font-size: 16px; } }
+@media (min-width: 1333.3333333333px) { .rte-block ol, .rte-block p, .rte-block ul { font-size: 20px; } }
+
+/* ---------- hollow button ---------- */
+.button--primary-hollow { background-color: transparent; box-shadow: inset 0 0 0 2px var(--c-ocean); color: var(--c-ocean); }
+.button--primary-hollow:hover, .button--primary-hollow:focus-visible { background-color: var(--c-ocean); color: #fff; }
+
+/* ---------- pdf-view-block (pdf.js preview, static post-render state) @303861–304943 ---------- */
+.pdf-view-block { margin-bottom: 1.25rem; }
+@media (min-width: 58.75rem) { .pdf-view-block { margin-bottom: 7.5rem; } }
+.pdf-view-block__container { padding: 0 1.5rem; }
+@media (min-width: 64rem) { .pdf-view-block__container { margin-right: 64px; } }
+@media (min-width: 120.001rem) { .pdf-view-block__container { margin-left: auto; margin-right: auto; max-width: 84vw; padding: 0; } }
+.pdf-view-block__inner { display: flex; }
+.pdf-view-block__inner::before { display: none; }
+@media (min-width: 58.75rem) { .pdf-view-block__inner::before { background-color: #ff5959; content: ""; display: flex; flex-shrink: 0; height: 2px; margin-top: .3125rem; width: 2vw; } }
+.pdf-view-block__hgroup { padding: 0 6vw; }
+@media (min-width: 58.75rem) { .pdf-view-block__hgroup { margin-left: 2.1875rem; max-width: 800px; padding: 0; } }
+.pdf-view-block__viewer { background-color: #ccc; height: 12.5rem; position: relative; --viewer-h: 12.5rem; }
+@media (min-width: 33.75rem) { .pdf-view-block__viewer { height: 25rem; --viewer-h: 25rem; } }
+@media (min-width: 58.75rem) { .pdf-view-block__viewer { height: 37.5rem; --viewer-h: 37.5rem; } }
+.pdf-view-block__viewer #viewerContainer { height: 100%; overflow: auto; position: absolute; width: 100%; }
+/* pdf.js "auto" zoom on a 959.976 × 540 pt landscape page: min(fit width − 40 px, fit height), pages 5 px apart
+   (the first page's top margin is scrolled away by pdf.js on load) */
+.pdf-view-block__viewer .pdfViewer .page {
+  aspect-ratio: 1057 / 594; background-color: #fff; border: none; margin: 0 auto .3125rem; overflow: hidden; position: relative;
+  width: min(calc(100% - 40px), calc((var(--viewer-h) - 6px) * 1057 / 594));
+}
+.pdf-view-block__viewer .page__render { display: block; height: 100%; width: 100%; }
+.pdf-view-block__viewer .textLayer { inset: 0; line-height: 1; overflow: clip; position: absolute; --total-scale-factor: .2833; }
+@media (min-width: 33.75rem) { .pdf-view-block__viewer .textLayer { --total-scale-factor: .7296; } }
+@media (min-width: 58.75rem) { .pdf-view-block__viewer .textLayer { --total-scale-factor: 1.1; } }
+.pdf-view-block__viewer .textLayer span { color: transparent; cursor: text; position: absolute; transform-origin: 0 0; white-space: pre; }
+
+/* ---------- podcast-speakers (author band, blue) @357180–360118 ---------- */
+.podcast-speakers { margin: 2.5rem 0; }
+@media (min-width: 58.75rem) { .podcast-speakers { margin: 5rem 0; } }
+@media (min-width: 64rem) { .podcast-speakers { margin-right: 64px; } }
+@media (min-width: 120.001rem) { .podcast-speakers { margin-left: auto; margin-right: auto; max-width: 84vw; padding: 0; } }
+.podcast-speakers--default.blue { margin-block: 0; padding: 2.5rem 0; }
+@media (min-width: 58.75rem) { .podcast-speakers--default.blue { padding: 5rem 0; } }
+.podcast-speakers--default.blue { background-color: var(--c-ocean); color: #fff; }
+.podcast-speakers--default.blue svg { color: #fff; }
+.podcast-speakers .wrapper { display: flex; flex-direction: column; padding: 0 1.5rem; }
+.podcast-speakers__wrapper { display: flex; flex-direction: column; justify-content: space-between; margin-bottom: 2.5rem; row-gap: 1rem; }
+@media (min-width: 58.75rem) { .podcast-speakers__wrapper { flex-direction: row; } }
+@media (min-width: 88.5rem) { .podcast-speakers__wrapper { justify-content: flex-start; min-width: 50%; } }
+.podcast-speakers__title { display: block; font-weight: 300; margin-bottom: 0; padding-right: 1rem; }
+.podcast-speakers__container { align-items: flex-start; display: flex; flex-wrap: wrap; gap: 50px; }
+@media (max-width: 58.749rem) { .podcast-speakers__container { gap: 40px; justify-content: center; } }
+.podcast-speakers__info { align-items: flex-start; display: flex; flex-direction: column; justify-content: center; max-width: 25rem; width: calc(33.3% - 50px); }
+@media (min-width: 88.5rem) { .podcast-speakers__info { width: calc(25% - 50px); } }
+@media (max-width: 58.749rem) { .podcast-speakers__info { align-items: center; max-width: 21.5625rem; text-align: center; width: 90vw; } }
+.podcast-speakers__name { font-size: 2rem; font-weight: 300; }
+@media (max-width: 63.999rem) { .podcast-speakers__name { font-size: 1.125rem; margin-bottom: .625rem; } }
+.podcast-speakers__company { font-size: 1.25rem; font-weight: 300; }
+@media (max-width: 58.749rem) { .podcast-speakers__company { font-size: 1rem; } }
+.podcast-speakers__image { border-radius: 50%; height: 100%; margin-bottom: 1.5rem; max-height: 9.5rem; max-width: 9.5rem; object-fit: cover; }
+@media (max-width: 58.749rem) { .podcast-speakers__image { margin-bottom: .5rem; max-height: 7.5rem; max-width: 7.5rem; } }
+.podcast-speakers__social-links { display: flex; flex-direction: row; justify-content: flex-start; }
+.podcast-speakers__link { color: #000; margin-right: .3125rem; }
+.podcast-speakers__link svg { height: 1.5rem; margin-left: .125rem; margin-top: .5rem; width: 1.5rem; }
+.podcast-speakers__description { font-size: 1.25rem; margin-top: 1.5rem; }
+@media (max-width: 58.749rem) { .podcast-speakers__description { margin-top: .5rem; text-align: center; } }
+
+/* ---------- download form (marketo-form-block, white page, form 7718) @253073–260382, @36694 ---------- */
+@media (min-width: 1800px) { .marketo-form-block { font-size: 18px; } }
+@media (max-width: 58.749rem) { .marketo-form-block__container { padding: 0 6vw; } }
+@media (min-width: 58.75rem) { .marketo-form-block__container { margin: 0 auto; width: 84vw; } }
+@media (min-width: 58.75rem) { .marketo-form-block__container.narrow { width: 50.625rem; } }
+.marketo-form-block--download .mkto-form { color: #000; }
+.marketo-form-block--download .mkto-form__col { margin-top: 1.875rem; }
+.marketo-form-block--download .mkto-form__row--empty .mkto-form__col { margin-top: 0; }
+.marketo-form-block--download .mkto-form__html { font-weight: 400; }
+.marketo-form-block--download .required-control-mark { color: #ff5959; font-size: .875rem; }
+.marketo-form-block--download .mkto-form input, .marketo-form-block--download .mkto-form select {
+  border-color: #000; border-width: 0 0 1px; color: #000; font-size: 1rem; font-weight: 500; height: 38px; padding: .375rem 0;
+}
+.marketo-form-block--download .mkto-form select { line-height: normal; }
+.marketo-form-block--download .mkto-form input:focus, .marketo-form-block--download .mkto-form input:hover,
+.marketo-form-block--download .mkto-form select:focus, .marketo-form-block--download .mkto-form select:hover { border-bottom-width: 2px; }
+@media (min-width: 58.75rem) { .marketo-form-block--download .mkto-form__col--single input { max-width: 50%; } }
+.marketo-form-block--download .mkto-form__field--float label { color: #000; font-size: 1rem; font-weight: 400; top: 27px; }
+.marketo-form-block--download .mkto-form select ~ label { background-color: transparent; }
+.marketo-form-block--download .mkto-form__field--select::after {
+  border: solid #000; border-width: .125rem 0 0 .125rem; box-sizing: border-box; height: .4375rem; right: .3125rem; top: .8125rem;
+  transform: rotate(-135deg); width: .4375rem;
+}
+.marketo-form-block--download .mkto-form__check label { font-weight: 400; }
+.marketo-form-block--download .mkto-form__check .indicator { border-color: #000; }
+.marketo-form-block--download .mkto-form__check .indicator::after { border-color: #666; }
+.marketo-form-block--download .mkto-form__check input:focus ~ .indicator,
+.marketo-form-block--download .mkto-form__check:hover input ~ .indicator { border-color: #363636; }
+.marketo-form-block--download .mkto-form__check a { color: inherit; }
+.marketo-form-block--download .mkto-form__buttons { justify-content: center; }
+.pdf-view-block__viewer .pdfViewer .page--2 { background: #000 url("../media/es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026/pdf-page-2-272-top.png") no-repeat 0 0 / 100% auto; }

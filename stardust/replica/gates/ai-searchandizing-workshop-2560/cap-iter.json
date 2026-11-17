@@ -1,0 +1,824 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-13T13:38:11.382Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.valtech.com/ai-searchandizing-workshop/",
+      "http://localhost:8791/ai-searchandizing-workshop-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.valtech.com/ai-searchandizing-workshop/",
+    "http://localhost:8791/ai-searchandizing-workshop-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#valtech-content",
+      "isBody": false,
+      "leaves": 72,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 810,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content",
+        "tier": 2,
+        "share": 0.08,
+        "section": 2,
+        "w1": 810,
+        "maxWidth": "810px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.03,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 246,
+        "via": "fixed",
+        "selector": "section.rte-block > div.rte-block__container.text-content > p > strong",
+        "tier": 4,
+        "share": 0.01,
+        "section": 2,
+        "w1": 246,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 275,
+        "via": "other",
+        "selector": "div > p > span.TextRun.BCX0 > span.NormalTextRun.BCX0",
+        "tier": 8,
+        "share": 0.01,
+        "section": 3,
+        "w1": 271,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 424,
+        "via": "other",
+        "selector": "div > div > p > span.TextRun.BCX0",
+        "tier": 7,
+        "share": 0.04,
+        "section": 3,
+        "w1": 264,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 810,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content",
+        "tier": 2,
+        "share": 0.25,
+        "section": 4,
+        "w1": 810,
+        "maxWidth": "810px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 4,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 4,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > ul",
+        "tier": 3,
+        "share": 0.08,
+        "section": 4,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 4,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > ul",
+        "tier": 3,
+        "share": 0.06,
+        "section": 4,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 4,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 4,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "section.rte-block > div.rte-block__container.text-content > p > a.button.button--primary-hollow",
+        "tier": 4,
+        "share": 0.01,
+        "section": 4,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 286,
+        "via": "other",
+        "selector": "div.podcast-speakers.podcast-speakers--default > div.wrapper > div.podcast-speakers__wrapper > h2.podcast-speakers__title",
+        "tier": 4,
+        "share": 0.01,
+        "section": 5,
+        "w1": 259,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 400,
+        "via": "max-width",
+        "selector": "div.podcast-speakers.podcast-speakers--default > div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info",
+        "tier": 4,
+        "share": 0.03,
+        "section": 5,
+        "w1": 282,
+        "maxWidth": "400px"
+      },
+      {
+        "kind": "module",
+        "px": 400,
+        "via": "max-width",
+        "selector": "div.podcast-speakers.podcast-speakers--default > div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info",
+        "tier": 4,
+        "share": 0.03,
+        "section": 5,
+        "w1": 282,
+        "maxWidth": "400px"
+      },
+      {
+        "kind": "module",
+        "px": 810,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content",
+        "tier": 2,
+        "share": 0.01,
+        "section": 6,
+        "w1": 810,
+        "maxWidth": "810px"
+      },
+      {
+        "kind": "module",
+        "px": 810,
+        "via": "fixed",
+        "selector": "#basic-marketo-block",
+        "tier": 2,
+        "share": 0.36,
+        "section": 7,
+        "w1": 810,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "#basic-marketo-block > form.mktoForm.mktoHasWidth > div.mktoFormRow > div.mktoFieldDescriptor.mktoFormCol",
+        "tier": 5,
+        "share": 0.03,
+        "section": 7,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "#basic-marketo-block > form.mktoForm.mktoHasWidth > div.mktoFormRow > div.mktoFieldDescriptor.mktoFormCol",
+        "tier": 5,
+        "share": 0.03,
+        "section": 7,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "#basic-marketo-block > form.mktoForm.mktoHasWidth > div.mktoFormRow > div.mktoFieldDescriptor.mktoFormCol",
+        "tier": 5,
+        "share": 0.03,
+        "section": 7,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "#basic-marketo-block > form.mktoForm.mktoHasWidth > div.mktoFormRow > div.mktoFieldDescriptor.mktoFormCol",
+        "tier": 5,
+        "share": 0.03,
+        "section": 7,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "#basic-marketo-block > form.mktoForm.mktoHasWidth > div.mktoFormRow > div.mktoFieldDescriptor.mktoFormCol",
+        "tier": 5,
+        "share": 0.03,
+        "section": 7,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "#basic-marketo-block > form.mktoForm.mktoHasWidth > div.mktoFormRow > div.mktoFieldDescriptor.mktoFormCol",
+        "tier": 5,
+        "share": 0.03,
+        "section": 7,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 252,
+        "via": "fixed",
+        "selector": "#frCap-widget",
+        "tier": 3,
+        "share": 0,
+        "section": -1,
+        "w1": 252,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#valtech-content > div.site-breadcrumbs",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#valtech-content > section.masthead-primary",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 2,
+        "selector": "#valtech-content > section.rte-block",
+        "px": 810,
+        "capSelector": "#valtech-content > section.rte-block > div.rte-block__container.text-content"
+      },
+      {
+        "index": 3,
+        "selector": "#valtech-content > div.results-statistics-block",
+        "px": 424,
+        "capSelector": "div > div > p > span.TextRun.BCX0"
+      },
+      {
+        "index": 4,
+        "selector": "#valtech-content > section.rte-block",
+        "px": 810,
+        "capSelector": "#valtech-content > section.rte-block > div.rte-block__container.text-content"
+      },
+      {
+        "index": 5,
+        "selector": "#valtech-content > div.podcast-speakers.podcast-speakers--default",
+        "px": 400,
+        "capSelector": "div.podcast-speakers.podcast-speakers--default > div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+      },
+      {
+        "index": 6,
+        "selector": "#valtech-content > section.rte-block",
+        "px": 810,
+        "capSelector": "#valtech-content > section.rte-block > div.rte-block__container.text-content"
+      },
+      {
+        "index": 7,
+        "selector": "#valtech-content > div.marketo-form-block",
+        "px": 810,
+        "capSelector": "#basic-marketo-block"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 810,
+    "contentFrom": "module",
+    "maxCap": 810,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 156
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#valtech-content",
+      "isBody": false,
+      "leaves": 72,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 810,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content",
+        "tier": 2,
+        "share": 0.08,
+        "section": 2,
+        "w1": 810,
+        "maxWidth": "810px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.03,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 246,
+        "via": "fixed",
+        "selector": "section.rte-block > div.rte-block__container.text-content > p > strong",
+        "tier": 4,
+        "share": 0.01,
+        "section": 2,
+        "w1": 246,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 275,
+        "via": "other",
+        "selector": "div > p > span > span",
+        "tier": 10,
+        "share": 0.01,
+        "section": 3,
+        "w1": 271,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 424,
+        "via": "other",
+        "selector": "div > div > p > span",
+        "tier": 9,
+        "share": 0.04,
+        "section": 3,
+        "w1": 264,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 810,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content",
+        "tier": 2,
+        "share": 0.25,
+        "section": 4,
+        "w1": 810,
+        "maxWidth": "810px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 4,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 4,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > ul",
+        "tier": 3,
+        "share": 0.08,
+        "section": 4,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 4,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > ul",
+        "tier": 3,
+        "share": 0.06,
+        "section": 4,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 4,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 760,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content > p",
+        "tier": 3,
+        "share": 0.01,
+        "section": 4,
+        "w1": 760,
+        "maxWidth": "760px"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "section.rte-block > div.rte-block__container.text-content > p > a.button.button--primary-hollow",
+        "tier": 4,
+        "share": 0.01,
+        "section": 4,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 286,
+        "via": "other",
+        "selector": "div.podcast-speakers.podcast-speakers--default > div.wrapper > div.podcast-speakers__wrapper > h2.podcast-speakers__title",
+        "tier": 4,
+        "share": 0.01,
+        "section": 5,
+        "w1": 259,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 400,
+        "via": "max-width",
+        "selector": "div.podcast-speakers.podcast-speakers--default > div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info",
+        "tier": 4,
+        "share": 0.03,
+        "section": 5,
+        "w1": 282,
+        "maxWidth": "400px"
+      },
+      {
+        "kind": "module",
+        "px": 400,
+        "via": "max-width",
+        "selector": "div.podcast-speakers.podcast-speakers--default > div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info",
+        "tier": 4,
+        "share": 0.03,
+        "section": 5,
+        "w1": 282,
+        "maxWidth": "400px"
+      },
+      {
+        "kind": "module",
+        "px": 810,
+        "via": "max-width",
+        "selector": "#valtech-content > section.rte-block > div.rte-block__container.text-content",
+        "tier": 2,
+        "share": 0.01,
+        "section": 6,
+        "w1": 810,
+        "maxWidth": "810px"
+      },
+      {
+        "kind": "module",
+        "px": 810,
+        "via": "fixed",
+        "selector": "#basic-marketo-block",
+        "tier": 2,
+        "share": 0.36,
+        "section": 7,
+        "w1": 810,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "#basic-marketo-block > form.mkto-form > div.mkto-form__row > div.mkto-form__col",
+        "tier": 5,
+        "share": 0.03,
+        "section": 7,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "#basic-marketo-block > form.mkto-form > div.mkto-form__row > div.mkto-form__col",
+        "tier": 5,
+        "share": 0.03,
+        "section": 7,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "#basic-marketo-block > form.mkto-form > div.mkto-form__row > div.mkto-form__col",
+        "tier": 5,
+        "share": 0.03,
+        "section": 7,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "#basic-marketo-block > form.mkto-form > div.mkto-form__row > div.mkto-form__col",
+        "tier": 5,
+        "share": 0.03,
+        "section": 7,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "#basic-marketo-block > form.mkto-form > div.mkto-form__row > div.mkto-form__col",
+        "tier": 5,
+        "share": 0.03,
+        "section": 7,
+        "w1": 425,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 425,
+        "via": "fixed",
+        "selector": "#basic-marketo-block > form.mkto-form > div.mkto-form__row > div.mkto-form__col",
+        "tier": 5,
+        "share": 0.03,
+        "section": 7,
+        "w1": 425,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#valtech-content > div.site-breadcrumbs",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#valtech-content > section.masthead-primary",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 2,
+        "selector": "#valtech-content > section.rte-block",
+        "px": 810,
+        "capSelector": "#valtech-content > section.rte-block > div.rte-block__container.text-content"
+      },
+      {
+        "index": 3,
+        "selector": "#valtech-content > div.results-statistics-block",
+        "px": 424,
+        "capSelector": "div > div > p > span"
+      },
+      {
+        "index": 4,
+        "selector": "#valtech-content > section.rte-block",
+        "px": 810,
+        "capSelector": "#valtech-content > section.rte-block > div.rte-block__container.text-content"
+      },
+      {
+        "index": 5,
+        "selector": "#valtech-content > div.podcast-speakers.podcast-speakers--default",
+        "px": 400,
+        "capSelector": "div.podcast-speakers.podcast-speakers--default > div.wrapper > div.podcast-speakers__container > div.podcast-speakers__info"
+      },
+      {
+        "index": 6,
+        "selector": "#valtech-content > section.rte-block",
+        "px": 810,
+        "capSelector": "#valtech-content > section.rte-block > div.rte-block__container.text-content"
+      },
+      {
+        "index": 7,
+        "selector": "#valtech-content > div.marketo-form-block",
+        "px": 810,
+        "capSelector": "#basic-marketo-block"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 810,
+    "contentFrom": "module",
+    "maxCap": 810,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 155
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 810px = build 810px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/8",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/8",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/8",
+        "detail": "810px = 810px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 4/8",
+        "detail": "424px = 424px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 5/8",
+        "detail": "810px = 810px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 6/8",
+        "detail": "400px = 400px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 7/8",
+        "detail": "810px = 810px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 8/8",
+        "detail": "810px = 810px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/ai-searchandizing-workshop-2560/cap-iter.json"
+}

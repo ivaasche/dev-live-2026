@@ -1,0 +1,105 @@
+/* homepage-cta-block — section.homepage-cta-block (prototype css/landing.css, homepage.css),
+   values verbatim; authored heading / paragraphs styled through their slots (EW2) */
+
+.homepage-cta-block {
+  margin: 3rem 0;
+}
+
+@media (width >= 58.75rem) {
+  .homepage-cta-block {
+    margin: 6.5rem 0;
+  }
+}
+
+@media (width >= 64rem) {
+  .homepage-cta-block {
+    margin-right: var(--side-col);
+  }
+}
+
+@media (width >= 96rem) {
+  .homepage-cta-block {
+    margin-right: 0;
+  }
+}
+
+.homepage-cta-block .homepage-cta-block-container {
+  color: #fff;
+  padding: 0 1rem;
+}
+
+@media (width >= 58.75rem) {
+  .homepage-cta-block .homepage-cta-block-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--container);
+  }
+}
+
+@media screen and (width >= 58.75rem) and (width <= 81.25rem) and (hover: hover) {
+  .homepage-cta-block .homepage-cta-block-container {
+    max-width: 72%;
+  }
+}
+
+@media (width >= 96rem) {
+  .homepage-cta-block .homepage-cta-block-container {
+    max-width: var(--container-wide);
+  }
+}
+
+.homepage-cta-block .homepage-cta-block-title h2 {
+  color: #000;
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+@media (width >= 58.75rem) {
+  .homepage-cta-block .homepage-cta-block-title h2 {
+    font-size: 4rem;
+  }
+}
+
+.homepage-cta-block .homepage-cta-block-details {
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (width >= 58.75rem) {
+  .homepage-cta-block .homepage-cta-block-details {
+    align-items: center;
+    flex-direction: row;
+  }
+}
+
+.homepage-cta-block .homepage-cta-block-description p {
+  color: #000;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@media (width >= 58.75rem) {
+  .homepage-cta-block .homepage-cta-block-description p {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+}
+
+.homepage-cta-block .homepage-cta-block-action {
+  align-self: flex-start;
+  display: flex;
+}
+
+/* the link is the flex item, as the source anchor */
+.homepage-cta-block .homepage-cta-block-action p {
+  display: contents;
+}
+
+.homepage-cta-block .homepage-cta-block-action a {
+  font-weight: 400;
+}

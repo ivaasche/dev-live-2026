@@ -1,0 +1,909 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-13T14:46:50.325Z",
+  "tol": 4,
+  "n": 4,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/es-es/blog/la-era-de-los-agentes-de-ia/",
+  "at": "2026-11-13T14:46:12.897Z",
+  "docH": 20429
+ },
+ "eds": {
+  "url": "http://localhost:8791/es-es-blog-la-era-de-los-agentes-de-ia-proposed.html",
+  "at": "2026-11-13T14:46:49.946Z",
+  "docH": 20429
+ },
+ "results": [
+  {
+   "sel": ".features-showcase__item=.features-showcase__item",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "heading:agente personal",
+       "role": "heading",
+       "text": "agente personal",
+       "edsText": "agente personal",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 80,
+        "w": 348,
+        "h": 34
+       },
+       "eds": {
+        "x": 0,
+        "y": 80,
+        "w": 348,
+        "h": 34,
+        "sel": "h3.features-showcase__item__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "28/34/300",
+        "eds": "28/34/300"
+       }
+      },
+      {
+       "key": "text:agente de ia que actúa en nombre del cli",
+       "role": "text",
+       "text": "agente de ia que actúa en nombre del cliente, mantiene el co",
+       "edsText": "agente de ia que actúa en nombre del cliente, mantiene el co",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 131,
+        "w": 339,
+        "h": 166
+       },
+       "eds": {
+        "x": 0,
+        "y": 131,
+        "w": 339,
+        "h": 166,
+        "sel": "span",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/300",
+        "eds": "20/28/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 619,
+       "y": 2590,
+       "w": 348,
+       "h": 298
+      },
+      "eds": {
+       "x": 619,
+       "y": 2590,
+       "w": 348,
+       "h": 298
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "heading:agente de marca",
+       "role": "heading",
+       "text": "agente de marca",
+       "edsText": "agente de marca",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 80,
+        "w": 348,
+        "h": 34
+       },
+       "eds": {
+        "x": 0,
+        "y": 80,
+        "w": 348,
+        "h": 34,
+        "sel": "h3.features-showcase__item__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "28/34/300",
+        "eds": "28/34/300"
+       }
+      },
+      {
+       "key": "text:agente de ia que representa a la empresa",
+       "role": "text",
+       "text": "agente de ia que representa a la empresa y aporta conocimien",
+       "edsText": "agente de ia que representa a la empresa y aporta conocimien",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 131,
+        "w": 333,
+        "h": 138
+       },
+       "eds": {
+        "x": 0,
+        "y": 131,
+        "w": 333,
+        "h": 138,
+        "sel": "span",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/300",
+        "eds": "20/28/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1004,
+       "y": 2590,
+       "w": 348,
+       "h": 298
+      },
+      "eds": {
+       "x": 1004,
+       "y": 2590,
+       "w": 348,
+       "h": 298
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "heading:delegación con límites definidos",
+       "role": "heading",
+       "text": "delegación con límites definidos",
+       "edsText": "delegación con límites definidos",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 80,
+        "w": 348,
+        "h": 67
+       },
+       "eds": {
+        "x": 0,
+        "y": 80,
+        "w": 348,
+        "h": 67,
+        "sel": "h3.features-showcase__item__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "28/34/300",
+        "eds": "28/34/300"
+       }
+      },
+      {
+       "key": "text:modelo en el que el cliente define el ob",
+       "role": "text",
+       "text": "modelo en el que el cliente define el objetivo y los límites",
+       "edsText": "modelo en el que el cliente define el objetivo y los límites",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 164,
+        "w": 332,
+        "h": 138
+       },
+       "eds": {
+        "x": 0,
+        "y": 164,
+        "w": 332,
+        "h": 138,
+        "sel": "span",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/300",
+        "eds": "20/28/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 619,
+       "y": 2948,
+       "w": 348,
+       "h": 303
+      },
+      "eds": {
+       "x": 619,
+       "y": 2948,
+       "w": 348,
+       "h": 303
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "eds": {
+      "path": "div.features-showcase__container > ul.features-showcase__list > li.features-showcase__item"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "heading:ejecutable por agentes",
+       "role": "heading",
+       "text": "ejecutable por agentes",
+       "edsText": "ejecutable por agentes",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 80,
+        "w": 348,
+        "h": 34
+       },
+       "eds": {
+        "x": 0,
+        "y": 80,
+        "w": 348,
+        "h": 34,
+        "sel": "h3.features-showcase__item__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "28/34/300",
+        "eds": "28/34/300"
+       }
+      },
+      {
+       "key": "text:capacidad de un agente autorizado para r",
+       "role": "text",
+       "text": "capacidad de un agente autorizado para reservar, comprar, pa",
+       "edsText": "capacidad de un agente autorizado para reservar, comprar, pa",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 131,
+        "w": 344,
+        "h": 138
+       },
+       "eds": {
+        "x": 0,
+        "y": 131,
+        "w": 344,
+        "h": 138,
+        "sel": "span",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/300",
+        "eds": "20/28/300"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1004,
+       "y": 2948,
+       "w": 348,
+       "h": 303
+      },
+      "eds": {
+       "x": 1004,
+       "y": 2948,
+       "w": 348,
+       "h": 303
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".author-details=.author-details",
+   "family": null,
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "main#valtech-content > article.main-article > div.author-details"
+     },
+     "eds": {
+      "path": "main#valtech-content > article.main-article > div.author-details"
+     },
+     "rows": [
+      {
+       "key": "image:img#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1025,
+        "y": 0,
+        "w": 100,
+        "h": 100
+       },
+       "eds": {
+        "x": 1025,
+        "y": 0,
+        "w": 100,
+        "h": 100,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:david toma",
+       "role": "text",
+       "text": "david toma",
+       "edsText": "david toma",
+       "byPosition": false,
+       "origin": {
+        "x": 735,
+        "y": 45,
+        "w": 270,
+        "h": 14
+       },
+       "eds": {
+        "x": 735,
+        "y": 45,
+        "w": 270,
+        "h": 14,
+        "sel": "div.author-details__text__function",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/0/700",
+        "eds": "11/0/700"
+       }
+      },
+      {
+       "key": "text:vicepresidente de estrategia y consultor",
+       "role": "text",
+       "text": "vicepresidente de estrategia y consultoría para dach",
+       "edsText": "vicepresidente de estrategia y consultoría para dach",
+       "byPosition": false,
+       "origin": {
+        "x": 735,
+        "y": 61,
+        "w": 270,
+        "h": 14
+       },
+       "eds": {
+        "x": 735,
+        "y": 61,
+        "w": 270,
+        "h": 14,
+        "sel": "div.author-details__text__company",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/0/700",
+        "eds": "11/0/700"
+       }
+      },
+      {
+       "key": "link:david.toma@valtech.com",
+       "role": "link",
+       "text": "david.toma@valtech.com",
+       "edsText": "david.toma@valtech.com",
+       "byPosition": false,
+       "origin": {
+        "x": 879,
+        "y": 77,
+        "w": 126,
+        "h": 14
+       },
+       "eds": {
+        "x": 879,
+        "y": 77,
+        "w": 126,
+        "h": 14,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/700",
+        "eds": "11/15/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 972,
+       "w": 1440,
+       "h": 104
+      },
+      "eds": {
+       "x": 0,
+       "y": 972,
+       "w": 1440,
+       "h": 104
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "main#valtech-content > article.main-article > div.author-details"
+     },
+     "eds": {
+      "path": "main#valtech-content > article.main-article > div.author-details"
+     },
+     "rows": [
+      {
+       "key": "image:img#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1025,
+        "y": 0,
+        "w": 100,
+        "h": 100
+       },
+       "eds": {
+        "x": 1025,
+        "y": 0,
+        "w": 100,
+        "h": 100,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/0/400"
+       }
+      },
+      {
+       "key": "text:carsten riggelsen",
+       "role": "text",
+       "text": "carsten riggelsen",
+       "edsText": "carsten riggelsen",
+       "byPosition": false,
+       "origin": {
+        "x": 761,
+        "y": 45,
+        "w": 244,
+        "h": 14
+       },
+       "eds": {
+        "x": 761,
+        "y": 45,
+        "w": 244,
+        "h": 14,
+        "sel": "div.author-details__text__function",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/0/700",
+        "eds": "11/0/700"
+       }
+      },
+      {
+       "key": "text:responsable de datos e ia para dach en v",
+       "role": "text",
+       "text": "responsable de datos e ia para dach en valtech",
+       "edsText": "responsable de datos e ia para dach en valtech",
+       "byPosition": false,
+       "origin": {
+        "x": 761,
+        "y": 61,
+        "w": 244,
+        "h": 14
+       },
+       "eds": {
+        "x": 761,
+        "y": 61,
+        "w": 244,
+        "h": 14,
+        "sel": "div.author-details__text__company",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/0/700",
+        "eds": "11/0/700"
+       }
+      },
+      {
+       "key": "link:carsten.riggelsen@valtech.com",
+       "role": "link",
+       "text": "carsten.riggelsen@valtech.com",
+       "edsText": "carsten.riggelsen@valtech.com",
+       "byPosition": false,
+       "origin": {
+        "x": 848,
+        "y": 77,
+        "w": 157,
+        "h": 14
+       },
+       "eds": {
+        "x": 848,
+        "y": 77,
+        "w": 157,
+        "h": 14,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/15/700",
+        "eds": "11/15/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1076,
+       "w": 1440,
+       "h": 104
+      },
+      "eds": {
+       "x": 0,
+       "y": 1076,
+       "w": 1440,
+       "h": 104
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 6,
+  "within": 20,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

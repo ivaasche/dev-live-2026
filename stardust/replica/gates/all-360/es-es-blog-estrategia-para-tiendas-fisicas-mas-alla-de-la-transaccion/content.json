@@ -1,0 +1,5587 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T06:53:34.228Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/es-es/blog/estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion/",
+  "at": "2026-11-14T06:53:07.611Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 9315,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.site-nav__menu-wrapper.site-nav__menu__labels > div.site-nav__logo > a.site-nav__logo__link",
+    "x": 24,
+    "y": 25,
+    "w": 80,
+    "h": 21,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > a.search-select.mobile",
+    "x": 232,
+    "y": 24,
+    "w": 22,
+    "h": 23,
+    "text": "go to search page",
+    "href": "/es-es/search/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open main menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open main menu",
+    "value": "open main menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > a",
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > a",
+    "x": 75,
+    "y": 75,
+    "w": 32,
+    "h": 21,
+    "text": "blog",
+    "href": "/es-es/blog/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 24,
+    "y": 97,
+    "w": 311,
+    "h": 42,
+    "label": "current",
+    "value": "estrategia para tiendas físicas: más allá de latransacción",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 24,
+    "y": 97,
+    "w": 311,
+    "h": 42,
+    "text": "Estrategia para Tiendas Físicas: Más Allá de laTransacción"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-blurred__container > div.masthead-blurred__bg-visual > img",
+    "x": -36,
+    "y": 136,
+    "w": 432,
+    "h": 324,
+    "text": "",
+    "file": "tsk-8684-why-are-content-costs-rising-in"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-blurred__bg-visual > div.masthead-blurred__text.masthead-blurred__text--light > h1.masthead-blurred__text__title",
+    "x": 45,
+    "y": 218,
+    "w": 270,
+    "h": 83,
+    "level": 1,
+    "text": "por qué la redoute abre un showroom, no una tienda"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-blurred__visual > picture > img",
+    "x": 45,
+    "y": 335,
+    "w": 270,
+    "h": 196,
+    "text": "",
+    "file": "tsk-8684-why-are-content-costs-rising-in"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-blurred__container > div.masthead-blurred__visual > img",
+    "x": 59,
+    "y": 384,
+    "w": 243,
+    "h": 127,
+    "text": "",
+    "file": "tsk-8684-why-are-content-costs-rising-in"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary__text.masthead-primary__text--dark > hgroup.masthead-primary__hgroup > h2.masthead-primary__hgroup__subtitle",
+    "x": 46,
+    "y": 763,
+    "w": 269,
+    "h": 17,
+    "level": 2,
+    "text": "perspectiva"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary__text.masthead-primary__text--dark > hgroup.masthead-primary__hgroup > h1.masthead-primary__hgroup__title",
+    "x": 46,
+    "y": 800,
+    "w": 269,
+    "h": 83,
+    "level": 1,
+    "text": "por qué la redoute abre un showroom, no una tienda"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary__media > picture > img",
+    "x": 24,
+    "y": 545,
+    "w": 312,
+    "h": 178,
+    "text": "",
+    "file": "tsk-8684-why-are-content-costs-rising-in"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container > p > small",
+    "x": 24,
+    "y": 985,
+    "w": 96,
+    "h": 17,
+    "text": "agosto 04, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container > p.lead",
+    "x": 24,
+    "y": 1029,
+    "w": 312,
+    "h": 336,
+    "text": "Como continuación de nuestro informe \"Retail en la Encrucijada\", elaborado a par"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p.PDq2pG_selectionAnchorContainer",
+    "x": 24,
+    "y": 1389,
+    "w": 312,
+    "h": 202,
+    "text": "El retail ha dedicado la última década a perfeccionar la transacción. Este septi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 1603,
+    "w": 312,
+    "h": 224,
+    "text": "Poelhekke evita definirlo como una tienda. Es un espacio comercial donde vender "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > h2",
+    "x": 24,
+    "y": 1887,
+    "w": 312,
+    "h": 168,
+    "level": 2,
+    "text": "la tienda no ha muerto. simplemente ha evolucionado y ha dejado atrás su antiguo papel."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p.PDq2pG_selectionAnchorContainer",
+    "x": 24,
+    "y": 2071,
+    "w": 312,
+    "h": 224,
+    "text": "Durante años, se esperaba que la tienda hiciera una única cosa excepcionalmente "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 2308,
+    "w": 312,
+    "h": 358,
+    "text": "La tienda física puede ser el último espacio donde una marca controla su relato "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.tile-images__images-item > picture > img.tile-images__images-item-img",
+    "x": 24,
+    "y": 2706,
+    "w": 312,
+    "h": 312,
+    "text": "",
+    "file": "image-8"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.tile-images__images-item > picture > img.tile-images__images-item-img",
+    "x": 24,
+    "y": 3034,
+    "w": 148,
+    "h": 148,
+    "text": "",
+    "file": "image-12-1"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.tile-images__images-item > picture > img.tile-images__images-item-img",
+    "x": 188,
+    "y": 3034,
+    "w": 148,
+    "h": 148,
+    "text": "",
+    "file": "image-13-1-1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > h2",
+    "x": 24,
+    "y": 3222,
+    "w": 312,
+    "h": 67,
+    "level": 2,
+    "text": "del rendimiento a la presencia de marca"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p.PDq2pG_selectionAnchorContainer",
+    "x": 24,
+    "y": 3305,
+    "w": 312,
+    "h": 291,
+    "text": "Poelhekke habla con total franqueza sobre este cambio. Como la mayoría de los re"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 3609,
+    "w": 312,
+    "h": 224,
+    "text": "Muchas marcas confunden captar más clientes con construir una marca. Para Poelhe"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 3846,
+    "w": 312,
+    "h": 134,
+    "text": "Ese tipo de inversión requiere convicción. No es algo que pueda justificar un da"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 3993,
+    "w": 312,
+    "h": 381,
+    "text": "El proyecto de Barcelona responde a esa misma filosofía. No nació como un plan d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-unu.teaser-block-unu--dark > div.teaser-block-unu__container > a.teaser-block-unu__teaser",
+    "x": 0,
+    "y": 4413,
+    "w": 360,
+    "h": 552,
+    "text": "retail en la encrucijada 2026: lidera el futuro antes que tus competidores los r",
+    "href": "/es-es/whitepapers/retail-en-la-encrucijada-2026/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-unu_media > picture > img",
+    "x": 24,
+    "y": 4437,
+    "w": 312,
+    "h": 234,
+    "text": "collage of pages from the valtech \"retail at the crossroads\"",
+    "file": "tsk-5666-retail-report-retail-at-the-cro"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.teaser-block-unu__teaser > div.teaser-block-unu__teaser-description > h2.teaser-block-unu__teaser-description--title",
+    "x": 24,
+    "y": 4701,
+    "w": 312,
+    "h": 72,
+    "level": 2,
+    "text": "retail en la encrucijada 2026: lidera el futuro antes que tus competidores"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > h2",
+    "x": 24,
+    "y": 5006,
+    "w": 312,
+    "h": 67,
+    "level": 2,
+    "text": "hay productos que necesitan tocarse"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p.PDq2pG_selectionAnchorContainer",
+    "x": 24,
+    "y": 5089,
+    "w": 312,
+    "h": 202,
+    "text": "A medida que aumenta la competencia en el sector de la moda, La Redoute encuentr"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 5303,
+    "w": 312,
+    "h": 157,
+    "text": "«Cuando las personas tocan el producto, entienden su calidad y también entienden"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > h2",
+    "x": 24,
+    "y": 5520,
+    "w": 312,
+    "h": 67,
+    "level": 2,
+    "text": "la comunidad, antes que la conversión"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p.PDq2pG_selectionAnchorContainer",
+    "x": 24,
+    "y": 5603,
+    "w": 312,
+    "h": 336,
+    "text": "El espacio de Barcelona está concebido para un tipo de interacción diferente, y "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 5952,
+    "w": 312,
+    "h": 246,
+    "text": "La misma filosofía inspira La Redoute Business, la división que equipa hoteles, "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > h2",
+    "x": 24,
+    "y": 6258,
+    "w": 312,
+    "h": 101,
+    "level": 2,
+    "text": "la ia hace que la presencia física sea aún más valiosa"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p.PDq2pG_selectionAnchorContainer",
+    "x": 24,
+    "y": 6375,
+    "w": 312,
+    "h": 246,
+    "text": "A pesar de defender la importancia de la presencia física, Poelhekke no es escép"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 6634,
+    "w": 312,
+    "h": 157,
+    "text": "Esa tensión juega, precisamente, a favor de la presencia física. Cuanto más medi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 6804,
+    "w": 312,
+    "h": 246,
+    "text": "La captación sigue produciéndose online. El espacio físico pasa a convertirse en"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > h2",
+    "x": 24,
+    "y": 7110,
+    "w": 312,
+    "h": 67,
+    "level": 2,
+    "text": "un prototipo de la tienda del futuro"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p.PDq2pG_selectionAnchorContainer",
+    "x": 24,
+    "y": 7193,
+    "w": 312,
+    "h": 224,
+    "text": "Barcelona no es solo el primer showroom de La Redoute fuera de su modelo tradici"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 7430,
+    "w": 312,
+    "h": 269,
+    "text": "La paradoja ya no lo es tanto: la tienda que mejor vende es la que ha dejado de "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.wrapper > div.podcast-speakers__wrapper > h2.podcast-speakers__title",
+    "x": 24,
+    "y": 7778,
+    "w": 312,
+    "h": 67,
+    "level": 2,
+    "text": "contacta con los autores"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > img.podcast-speakers__image",
+    "x": 121,
+    "y": 7886,
+    "w": 118,
+    "h": 120,
+    "text": "",
+    "file": "emilie-robert"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__name",
+    "x": 126,
+    "y": 8014,
+    "w": 107,
+    "h": 23,
+    "text": "Emilie Robert"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__company",
+    "x": 24,
+    "y": 8047,
+    "w": 312,
+    "h": 42,
+    "text": "Global Vertical Retail Lead & Global Client Executive"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__info > div.podcast-speakers__social-links > a.podcast-speakers__link",
+    "x": 149,
+    "y": 8089,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/emilieerobert/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__info > div.podcast-speakers__social-links > a.podcast-speakers__link",
+    "x": 180,
+    "y": 8089,
+    "w": 26,
+    "h": 37,
+    "text": "email",
+    "href": "emilie.robert@valtech.com"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > img.podcast-speakers__image",
+    "x": 121,
+    "y": 8174,
+    "w": 118,
+    "h": 120,
+    "text": "",
+    "file": "pascalmalotti_jan23-11"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__name",
+    "x": 124,
+    "y": 8302,
+    "w": 111,
+    "h": 23,
+    "text": "Pascal Malotti"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__company",
+    "x": 24,
+    "y": 8335,
+    "w": 312,
+    "h": 42,
+    "text": "Global Retail Strategy Lead & Strategy Director at Valtech France"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__info > div.podcast-speakers__social-links > a.podcast-speakers__link",
+    "x": 149,
+    "y": 8377,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/pascal-malotti-4557021b/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__info > div.podcast-speakers__social-links > a.podcast-speakers__link",
+    "x": 180,
+    "y": 8377,
+    "w": 26,
+    "h": 37,
+    "text": "email",
+    "href": "pascal.malotti@valtech.com"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.contact-us-form__container.js-accordion > div.contact-us-form__column > button.contact-us-form__accordion-button.js-accordion-button",
+    "x": 0,
+    "y": 8462,
+    "w": 360,
+    "h": 89,
+    "text": "contáctanos"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.contact-us-form__container.js-accordion > div.contact-us-form__column > button.contact-us-form__accordion-button.js-accordion-button",
+    "x": 0,
+    "y": 8462,
+    "w": 360,
+    "h": 89,
+    "label": "trigger",
+    "value": "contáctanos",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 16,
+    "y": 8649,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 242,
+    "y": 8649,
+    "w": 58,
+    "h": 45,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 16,
+    "y": 8713,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 242,
+    "y": 8713,
+    "w": 82,
+    "h": 45,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer__column.site-footer__stamp > picture > img",
+    "x": 16,
+    "y": 8776,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "badge-no-outline"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 8917,
+    "w": 134,
+    "h": 18,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 8958,
+    "w": 118,
+    "h": 18,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 8999,
+    "w": 71,
+    "h": 18,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 9040,
+    "w": 84,
+    "h": 18,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 9081,
+    "w": 136,
+    "h": 18,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a.cookiebot-reset",
+    "x": 16,
+    "y": 9122,
+    "w": 158,
+    "h": 18,
+    "text": "configuración de cookies",
+    "href": "/es-es/blog/estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 16,
+    "y": 9203,
+    "w": 23,
+    "h": 18,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 87,
+    "y": 9203,
+    "w": 23,
+    "h": 18,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 158,
+    "y": 9203,
+    "w": 23,
+    "h": 18,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 229,
+    "y": 9203,
+    "w": 23,
+    "h": 18,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 16,
+    "y": 9248,
+    "w": 23,
+    "h": 18,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 87,
+    "y": 9248,
+    "w": 23,
+    "h": 18,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 6,
+    "textNodes": 55,
+    "controls": 31,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/es-es/blog/estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion",
+  "at": "2026-11-14T06:53:34.028Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 9323,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-nav-menu-wrapper.site-nav-menu-labels > div.site-nav-logo > a.site-nav-logo-link",
+    "x": 24,
+    "y": 25,
+    "w": 80,
+    "h": 21,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > a.search-select.mobile",
+    "x": 232,
+    "y": 24,
+    "w": 22,
+    "h": 23,
+    "text": "go to search page",
+    "href": "/es-es/search/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open main menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open main menu",
+    "value": "open main menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 75,
+    "y": 75,
+    "w": 32,
+    "h": 21,
+    "text": "blog",
+    "href": "/es-es/blog"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 24,
+    "y": 97,
+    "w": 312,
+    "h": 42,
+    "label": "current",
+    "value": "estrategia para tiendas físicas: más allá de latransacción",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 24,
+    "y": 97,
+    "w": 312,
+    "h": 42,
+    "text": "Estrategia para Tiendas Físicas: Más Allá de laTransacción"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-blurred-bg-visual > picture > img",
+    "x": -36,
+    "y": 136,
+    "w": 432,
+    "h": 324,
+    "text": "",
+    "file": "media_10e3e5162b433b65477d9ec0ea41f584be"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-blurred-bg-visual > div.masthead-blurred-text.masthead-blurred-text-light > h1#por-qué-la-redoute-abre-un-showroom-no-una-tienda",
+    "x": 45,
+    "y": 218,
+    "w": 270,
+    "h": 83,
+    "level": 1,
+    "text": "por qué la redoute abre un showroom, no una tienda"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-blurred-visual.has-narrow > picture.masthead-blurred-narrow > img",
+    "x": 45,
+    "y": 335,
+    "w": 270,
+    "h": 196,
+    "text": "",
+    "file": "media_1d61ec791ef1c1bcd1bc2567961d64bec0"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-blurred-visual.has-narrow > picture.masthead-blurred-shadow > img",
+    "x": 59,
+    "y": 384,
+    "w": 243,
+    "h": 127,
+    "text": "",
+    "file": "media_10e3e5162b433b65477d9ec0ea41f584be"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary-text.masthead-primary-text-dark > hgroup.masthead-primary-hgroup > h2#perspectiva",
+    "x": 46,
+    "y": 763,
+    "w": 269,
+    "h": 17,
+    "level": 2,
+    "text": "perspectiva"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary-text.masthead-primary-text-dark > hgroup.masthead-primary-hgroup > h2#por-qué-la-redoute-abre-un-showroom-no-una-tienda-1",
+    "x": 46,
+    "y": 800,
+    "w": 269,
+    "h": 90,
+    "level": 2,
+    "text": "por qué la redoute abre un showroom, no una tienda"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary-media > picture > img",
+    "x": 24,
+    "y": 545,
+    "w": 312,
+    "h": 178,
+    "text": "",
+    "file": "media_1fa4c55cad477255e1b4d19251e94a18a4"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.intro > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 990,
+    "w": 312,
+    "h": 22,
+    "text": "agosto 04, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > em",
+    "x": 24,
+    "y": 1036,
+    "w": 310,
+    "h": 334,
+    "text": "Como continuación de nuestro informe \"Retail en la Encrucijada\", elaborado a par"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 1396,
+    "w": 312,
+    "h": 202,
+    "text": "El retail ha dedicado la última década a perfeccionar la transacción. Este septi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 1610,
+    "w": 312,
+    "h": 224,
+    "text": "Poelhekke evita definirlo como una tienda. Es un espacio comercial donde vender "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > h2#la-tienda-no-ha-muerto-simplemente-ha-evolucionado-y-ha-dejado-atrás-su-antiguo-papel",
+    "x": 24,
+    "y": 1894,
+    "w": 312,
+    "h": 168,
+    "level": 2,
+    "text": "la tienda no ha muerto. simplemente ha evolucionado y ha dejado atrás su antiguo papel."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 2078,
+    "w": 312,
+    "h": 224,
+    "text": "Durante años, se esperaba que la tienda hiciera una única cosa excepcionalmente "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 2315,
+    "w": 312,
+    "h": 358,
+    "text": "La tienda física puede ser el último espacio donde una marca controla su relato "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.tile-images-images-item > picture > img.tile-images-images-item-img",
+    "x": 24,
+    "y": 2713,
+    "w": 312,
+    "h": 312,
+    "text": "",
+    "file": "media_1f28ffb4cd7254f3f08cb355cbe792b80e"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.tile-images-images-item > picture > img.tile-images-images-item-img",
+    "x": 24,
+    "y": 3041,
+    "w": 148,
+    "h": 148,
+    "text": "",
+    "file": "media_13548910898cac7c9502f232eae6b2b26c"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.tile-images-images-item > picture > img.tile-images-images-item-img",
+    "x": 188,
+    "y": 3041,
+    "w": 148,
+    "h": 148,
+    "text": "",
+    "file": "media_139d3f4d2e4e86dbe064459a85584ba69d"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > h2#del-rendimiento-a-la-presencia-de-marca",
+    "x": 24,
+    "y": 3229,
+    "w": 312,
+    "h": 67,
+    "level": 2,
+    "text": "del rendimiento a la presencia de marca"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 3312,
+    "w": 312,
+    "h": 291,
+    "text": "Poelhekke habla con total franqueza sobre este cambio. Como la mayoría de los re"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 3616,
+    "w": 312,
+    "h": 224,
+    "text": "Muchas marcas confunden captar más clientes con construir una marca. Para Poelhe"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 3853,
+    "w": 312,
+    "h": 134,
+    "text": "Ese tipo de inversión requiere convicción. No es algo que pueda justificar un da"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 4000,
+    "w": 312,
+    "h": 381,
+    "text": "El proyecto de Barcelona responde a esa misma filosofía. No nació como un plan d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-unu.dark > div.teaser-block-unu-inner > a.teaser-block-unu-teaser",
+    "x": 0,
+    "y": 4421,
+    "w": 360,
+    "h": 552,
+    "text": "retail en la encrucijada 2026: lidera el futuro antes que tus competidores los r",
+    "href": "/es-es/whitepapers/retail-en-la-encrucijada-2026/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-unu-media > picture > img",
+    "x": 24,
+    "y": 4445,
+    "w": 312,
+    "h": 234,
+    "text": "collage of pages from the valtech \"retail at the crossroads\"",
+    "file": "media_166c6ed985bbd59bd858477fc8212e3798"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-unu-description > div.teaser-block-unu-title > h2#retail-en-la-encrucijada-2026-lidera-el-futuro-antes-que-tus-competidores",
+    "x": 24,
+    "y": 4708,
+    "w": 312,
+    "h": 72,
+    "level": 2,
+    "text": "retail en la encrucijada 2026: lidera el futuro antes que tus competidores"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > h2#hay-productos-que-necesitan-tocarse",
+    "x": 24,
+    "y": 5013,
+    "w": 312,
+    "h": 67,
+    "level": 2,
+    "text": "hay productos que necesitan tocarse"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 5096,
+    "w": 312,
+    "h": 202,
+    "text": "A medida que aumenta la competencia en el sector de la moda, La Redoute encuentr"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 5311,
+    "w": 312,
+    "h": 157,
+    "text": "«Cuando las personas tocan el producto, entienden su calidad y también entienden"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > h2#la-comunidad-antes-que-la-conversión",
+    "x": 24,
+    "y": 5527,
+    "w": 312,
+    "h": 67,
+    "level": 2,
+    "text": "la comunidad, antes que la conversión"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 5611,
+    "w": 312,
+    "h": 336,
+    "text": "El espacio de Barcelona está concebido para un tipo de interacción diferente, y "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 5959,
+    "w": 312,
+    "h": 246,
+    "text": "La misma filosofía inspira La Redoute Business, la división que equipa hoteles, "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > h2#la-ia-hace-que-la-presencia-física-sea-aún-más-valiosa",
+    "x": 24,
+    "y": 6266,
+    "w": 312,
+    "h": 101,
+    "level": 2,
+    "text": "la ia hace que la presencia física sea aún más valiosa"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 6382,
+    "w": 312,
+    "h": 246,
+    "text": "A pesar de defender la importancia de la presencia física, Poelhekke no es escép"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 6641,
+    "w": 312,
+    "h": 157,
+    "text": "Esa tensión juega, precisamente, a favor de la presencia física. Cuanto más medi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 6811,
+    "w": 312,
+    "h": 246,
+    "text": "La captación sigue produciéndose online. El espacio físico pasa a convertirse en"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > h2#un-prototipo-de-la-tienda-del-futuro",
+    "x": 24,
+    "y": 7117,
+    "w": 312,
+    "h": 67,
+    "level": 2,
+    "text": "un prototipo de la tienda del futuro"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 7200,
+    "w": 312,
+    "h": 224,
+    "text": "Barcelona no es solo el primer showroom de La Redoute fuera de su modelo tradici"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 7437,
+    "w": 312,
+    "h": 269,
+    "text": "La paradoja ya no lo es tanto: la tienda que mejor vende es la que ha dejado de "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-wrapper > div.podcast-speakers-title > h2#contacta-con-los-autores",
+    "x": 24,
+    "y": 7786,
+    "w": 312,
+    "h": 67,
+    "level": 2,
+    "text": "contacta con los autores"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-image > picture > img",
+    "x": 121,
+    "y": 7893,
+    "w": 118,
+    "h": 120,
+    "text": "",
+    "file": "media_1f0f6471c3fbf108b637e199e9a295ef92"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-name > p",
+    "x": 126,
+    "y": 8021,
+    "w": 107,
+    "h": 23,
+    "text": "Emilie Robert"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-company > p",
+    "x": 24,
+    "y": 8054,
+    "w": 312,
+    "h": 42,
+    "text": "Global Vertical Retail Lead & Global Client Executive"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-social-links > p > a.podcast-speakers-link",
+    "x": 149,
+    "y": 8096,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/emilieerobert/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-social-links > p > a.podcast-speakers-link",
+    "x": 180,
+    "y": 8096,
+    "w": 26,
+    "h": 37,
+    "text": "email",
+    "href": "emilie.robert@valtech.com"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-image > picture > img",
+    "x": 121,
+    "y": 8181,
+    "w": 118,
+    "h": 120,
+    "text": "",
+    "file": "media_15d6658ec848e5c6d2356198f4345b8c50"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-name > p",
+    "x": 124,
+    "y": 8309,
+    "w": 111,
+    "h": 23,
+    "text": "Pascal Malotti"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-company > p",
+    "x": 24,
+    "y": 8342,
+    "w": 312,
+    "h": 42,
+    "text": "Global Retail Strategy Lead & Strategy Director at Valtech France"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-social-links > p > a.podcast-speakers-link",
+    "x": 149,
+    "y": 8384,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/pascal-malotti-4557021b/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-social-links > p > a.podcast-speakers-link",
+    "x": 180,
+    "y": 8384,
+    "w": 26,
+    "h": 37,
+    "text": "email",
+    "href": "pascal.malotti@valtech.com"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-us-form-container.js-accordion > div.contact-us-form-column > button.contact-us-form-accordion-button",
+    "x": 0,
+    "y": 8470,
+    "w": 360,
+    "h": 89,
+    "text": "contáctanos"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-us-form-container.js-accordion > div.contact-us-form-column > button.contact-us-form-accordion-button",
+    "x": 0,
+    "y": 8470,
+    "w": 360,
+    "h": 89,
+    "label": "trigger",
+    "value": "contáctanos",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 16,
+    "y": 8657,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 242,
+    "y": 8657,
+    "w": 58,
+    "h": 45,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 16,
+    "y": 8721,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 242,
+    "y": 8721,
+    "w": 82,
+    "h": 45,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer-column.site-footer-stamp > picture > img",
+    "x": 16,
+    "y": 8784,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "media_18686ce5d542e21460f5b9773dc388b150"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 8925,
+    "w": 134,
+    "h": 18,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 8966,
+    "w": 118,
+    "h": 18,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 9007,
+    "w": 71,
+    "h": 18,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 9048,
+    "w": 84,
+    "h": 18,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 9089,
+    "w": 136,
+    "h": 18,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a.cookiebot-reset",
+    "x": 16,
+    "y": 9130,
+    "w": 158,
+    "h": 18,
+    "text": "configuración de cookies",
+    "href": "/es-es/blog/estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 16,
+    "y": 9211,
+    "w": 23,
+    "h": 18,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 87,
+    "y": 9211,
+    "w": 23,
+    "h": 18,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 158,
+    "y": 9211,
+    "w": 23,
+    "h": 18,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 229,
+    "y": 9211,
+    "w": 23,
+    "h": 18,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 16,
+    "y": 9256,
+    "w": 23,
+    "h": 18,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 87,
+    "y": 9256,
+    "w": 23,
+    "h": 18,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 1,
+    "textNodes": 51,
+    "controls": 29,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "por qué la redoute abre un showroom, no una tienda",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 3
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "perspectiva",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "por qué la redoute abre un showroom, no una tienda",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 4,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "la tienda no ha muerto. simplemente ha evolucionado y ha dejado atrás su antiguo papel.",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 3
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "del rendimiento a la presencia de marca",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 4,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "retail en la encrucijada 2026: lidera el futuro antes que tus competidores",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "hay productos que necesitan tocarse",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "la comunidad, antes que la conversión",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "la ia hace que la presencia física sea aún más valiosa",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "un prototipo de la tienda del futuro",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "contacta con los autores",
+   "variable": false,
+   "origin": {
+    "link": 4,
+    "button": 0,
+    "text": 4,
+    "image": 2
+   },
+   "eds": {
+    "link": 4,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"contáctanos\" served in band \"contacta con los autores\", no origin link or button",
+   "band": 11,
+   "n": 1,
+   "text": "contáctanos"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 1,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 1,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 75,
+    "y": 75,
+    "w": 32,
+    "h": 21
+   },
+   {
+    "x": 37,
+    "y": 97,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 118,
+    "w": 96,
+    "h": 21
+   },
+   {
+    "x": 45,
+    "y": 214,
+    "w": 232,
+    "h": 35
+   },
+   {
+    "x": 45,
+    "y": 242,
+    "w": 260,
+    "h": 35
+   },
+   {
+    "x": 45,
+    "y": 269,
+    "w": 126,
+    "h": 35
+   },
+   {
+    "x": 46,
+    "y": 761,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 46,
+    "y": 796,
+    "w": 232,
+    "h": 35
+   },
+   {
+    "x": 46,
+    "y": 823,
+    "w": 260,
+    "h": 35
+   },
+   {
+    "x": 46,
+    "y": 851,
+    "w": 126,
+    "h": 35
+   },
+   {
+    "x": 24,
+    "y": 985,
+    "w": 96,
+    "h": 17
+   },
+   {
+    "x": 24,
+    "y": 1029,
+    "w": 275,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1051,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1074,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1096,
+    "w": 300,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1118,
+    "w": 283,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1141,
+    "w": 301,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1163,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1186,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1208,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1230,
+    "w": 248,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1253,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1275,
+    "w": 303,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1298,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1320,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1342,
+    "w": 137,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1389,
+    "w": 274,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1411,
+    "w": 230,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1433,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1456,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1478,
+    "w": 268,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1501,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1523,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1545,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1568,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1603,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1625,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1648,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1670,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1693,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1715,
+    "w": 262,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1737,
+    "w": 311,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1760,
+    "w": 252,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1782,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1805,
+    "w": 74,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1884,
+    "w": 310,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1917,
+    "w": 215,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1951,
+    "w": 239,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1985,
+    "w": 310,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 2018,
+    "w": 81,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 2071,
+    "w": 282,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2093,
+    "w": 290,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2116,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2138,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2160,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2183,
+    "w": 290,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2205,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2228,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2250,
+    "w": 282,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2272,
+    "w": 173,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2308,
+    "w": 303,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2330,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2352,
+    "w": 291,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2375,
+    "w": 239,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2397,
+    "w": 246,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2420,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2442,
+    "w": 257,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2464,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2487,
+    "w": 223,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2509,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2531,
+    "w": 268,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2554,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2576,
+    "w": 230,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2599,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2621,
+    "w": 301,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2643,
+    "w": 85,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3219,
+    "w": 261,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 3252,
+    "w": 263,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 3305,
+    "w": 300,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3327,
+    "w": 257,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3350,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3372,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3395,
+    "w": 266,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3417,
+    "w": 246,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3439,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3462,
+    "w": 258,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3484,
+    "w": 276,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3507,
+    "w": 248,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3529,
+    "w": 244,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3551,
+    "w": 232,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3574,
+    "w": 293,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3609,
+    "w": 275,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3631,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3654,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3676,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3698,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3721,
+    "w": 264,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3743,
+    "w": 268,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3766,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3788,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3810,
+    "w": 99,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3846,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3868,
+    "w": 239,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3890,
+    "w": 239,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3913,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3935,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3958,
+    "w": 283,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3993,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4015,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4038,
+    "w": 309,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4060,
+    "w": 263,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4082,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4105,
+    "w": 272,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4127,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4149,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4172,
+    "w": 300,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4194,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4217,
+    "w": 301,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4239,
+    "w": 267,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4261,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4284,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4306,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4329,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4351,
+    "w": 68,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4700,
+    "w": 265,
+    "h": 26
+   },
+   {
+    "x": 24,
+    "y": 4724,
+    "w": 256,
+    "h": 26
+   },
+   {
+    "x": 24,
+    "y": 4748,
+    "w": 126,
+    "h": 26
+   },
+   {
+    "x": 24,
+    "y": 4790,
+    "w": 311,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4814,
+    "w": 218,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4838,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4862,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4886,
+    "w": 226,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4924,
+    "w": 104,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 5003,
+    "w": 252,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 5036,
+    "w": 240,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 5089,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5111,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5134,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5156,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5179,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5201,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5223,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5246,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5268,
+    "w": 120,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5303,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5326,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5348,
+    "w": 256,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5370,
+    "w": 312,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5393,
+    "w": 254,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5415,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5438,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5517,
+    "w": 273,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 5551,
+    "w": 232,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 5603,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5626,
+    "w": 300,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5648,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5670,
+    "w": 312,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5693,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5715,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5738,
+    "w": 276,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5760,
+    "w": 274,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5782,
+    "w": 312,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5805,
+    "w": 300,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5827,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5849,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5872,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5894,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5917,
+    "w": 117,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5952,
+    "w": 263,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5974,
+    "w": 282,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5997,
+    "w": 273,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6019,
+    "w": 293,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6041,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6064,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6086,
+    "w": 277,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6109,
+    "w": 254,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6131,
+    "w": 311,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6153,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6176,
+    "w": 138,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6255,
+    "w": 220,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 6289,
+    "w": 260,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 6322,
+    "w": 210,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 6375,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6397,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6420,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6442,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6464,
+    "w": 274,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6487,
+    "w": 289,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6509,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6532,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6554,
+    "w": 300,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6576,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6599,
+    "w": 107,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6634,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6656,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6679,
+    "w": 249,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6701,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6724,
+    "w": 291,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6746,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6768,
+    "w": 266,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6804,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6826,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6848,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6871,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6893,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6915,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6938,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6960,
+    "w": 256,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6983,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7005,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7027,
+    "w": 244,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7107,
+    "w": 238,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 7140,
+    "w": 219,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 7193,
+    "w": 312,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7215,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7238,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7260,
+    "w": 268,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7283,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7305,
+    "w": 260,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7327,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7350,
+    "w": 250,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7372,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7395,
+    "w": 240,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7430,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7452,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7475,
+    "w": 232,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7497,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7519,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7542,
+    "w": 303,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7564,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7586,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7609,
+    "w": 282,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7631,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7654,
+    "w": 301,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7676,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7775,
+    "w": 227,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 7809,
+    "w": 101,
+    "h": 39
+   },
+   {
+    "x": 126,
+    "y": 8014,
+    "w": 107,
+    "h": 23
+   },
+   {
+    "x": 33,
+    "y": 8047,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 146,
+    "y": 8068,
+    "w": 69,
+    "h": 21
+   },
+   {
+    "x": 124,
+    "y": 8302,
+    "w": 111,
+    "h": 23
+   },
+   {
+    "x": 45,
+    "y": 8335,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 88,
+    "y": 8356,
+    "w": 184,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8486,
+    "w": 173,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 8649,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 8649,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 8673,
+    "w": 47,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8713,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 8713,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 8737,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8917,
+    "w": 134,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 8958,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 8999,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 9040,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 9081,
+    "w": 136,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 9122,
+    "w": 158,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 75,
+    "y": 75,
+    "w": 32,
+    "h": 21
+   },
+   {
+    "x": 37,
+    "y": 97,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 118,
+    "w": 96,
+    "h": 21
+   },
+   {
+    "x": 45,
+    "y": 214,
+    "w": 232,
+    "h": 35
+   },
+   {
+    "x": 45,
+    "y": 242,
+    "w": 260,
+    "h": 35
+   },
+   {
+    "x": 45,
+    "y": 269,
+    "w": 126,
+    "h": 35
+   },
+   {
+    "x": 46,
+    "y": 761,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 46,
+    "y": 797,
+    "w": 232,
+    "h": 35
+   },
+   {
+    "x": 46,
+    "y": 827,
+    "w": 260,
+    "h": 35
+   },
+   {
+    "x": 46,
+    "y": 857,
+    "w": 126,
+    "h": 35
+   },
+   {
+    "x": 24,
+    "y": 990,
+    "w": 115,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1036,
+    "w": 275,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1059,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1081,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1103,
+    "w": 300,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1126,
+    "w": 283,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1148,
+    "w": 301,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1171,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1193,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1215,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1238,
+    "w": 248,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1260,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1283,
+    "w": 303,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1305,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1327,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1350,
+    "w": 137,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1396,
+    "w": 274,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1418,
+    "w": 230,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1441,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1463,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1486,
+    "w": 268,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1508,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1530,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1553,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1575,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1610,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1633,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1655,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1678,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1700,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1722,
+    "w": 262,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1745,
+    "w": 311,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1767,
+    "w": 252,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1790,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1812,
+    "w": 74,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1891,
+    "w": 310,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1925,
+    "w": 215,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1958,
+    "w": 239,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1992,
+    "w": 310,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 2026,
+    "w": 81,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 2078,
+    "w": 282,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2101,
+    "w": 290,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2123,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2145,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2168,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2190,
+    "w": 290,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2213,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2235,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2257,
+    "w": 282,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2280,
+    "w": 173,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2315,
+    "w": 303,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2337,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2360,
+    "w": 291,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2382,
+    "w": 239,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2405,
+    "w": 246,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2427,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2449,
+    "w": 257,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2472,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2494,
+    "w": 223,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2516,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2539,
+    "w": 268,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2561,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2584,
+    "w": 230,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2606,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2628,
+    "w": 301,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2651,
+    "w": 85,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3226,
+    "w": 261,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 3260,
+    "w": 263,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 3312,
+    "w": 300,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3335,
+    "w": 257,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3357,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3380,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3402,
+    "w": 266,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3424,
+    "w": 246,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3447,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3469,
+    "w": 258,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3492,
+    "w": 276,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3514,
+    "w": 248,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3536,
+    "w": 244,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3559,
+    "w": 232,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3581,
+    "w": 293,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3616,
+    "w": 275,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3639,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3661,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3683,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3706,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3728,
+    "w": 264,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3751,
+    "w": 268,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3773,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3795,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3818,
+    "w": 99,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3853,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3875,
+    "w": 239,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3898,
+    "w": 239,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3920,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3943,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3965,
+    "w": 283,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4000,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4023,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4045,
+    "w": 309,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4067,
+    "w": 263,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4090,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4112,
+    "w": 272,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4134,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4157,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4179,
+    "w": 300,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4202,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4224,
+    "w": 301,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4246,
+    "w": 267,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4269,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4291,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4314,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4336,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4358,
+    "w": 68,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4707,
+    "w": 265,
+    "h": 26
+   },
+   {
+    "x": 24,
+    "y": 4731,
+    "w": 256,
+    "h": 26
+   },
+   {
+    "x": 24,
+    "y": 4755,
+    "w": 126,
+    "h": 26
+   },
+   {
+    "x": 24,
+    "y": 4797,
+    "w": 311,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4821,
+    "w": 218,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4845,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4869,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4893,
+    "w": 226,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4931,
+    "w": 104,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 5010,
+    "w": 252,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 5044,
+    "w": 240,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 5096,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5119,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5141,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5164,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5186,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5208,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5231,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5253,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5275,
+    "w": 120,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5311,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5333,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5355,
+    "w": 256,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5378,
+    "w": 312,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5400,
+    "w": 254,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5423,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5445,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5524,
+    "w": 273,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 5558,
+    "w": 232,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 5611,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5633,
+    "w": 300,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5655,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5678,
+    "w": 312,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5700,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5723,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5745,
+    "w": 276,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5767,
+    "w": 274,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5790,
+    "w": 312,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5812,
+    "w": 300,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5834,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5857,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5879,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5902,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5924,
+    "w": 117,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5959,
+    "w": 263,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 5982,
+    "w": 282,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6004,
+    "w": 273,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6026,
+    "w": 293,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6049,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6071,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6094,
+    "w": 277,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6116,
+    "w": 254,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6138,
+    "w": 311,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6161,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6183,
+    "w": 138,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6263,
+    "w": 220,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 6296,
+    "w": 260,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 6330,
+    "w": 210,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 6382,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6405,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6427,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6449,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6472,
+    "w": 274,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6494,
+    "w": 289,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6517,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6539,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6561,
+    "w": 300,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6584,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6606,
+    "w": 107,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6641,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6664,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6686,
+    "w": 249,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6709,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6731,
+    "w": 291,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6753,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6776,
+    "w": 266,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6811,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6833,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6856,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6878,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6900,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6923,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6945,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6968,
+    "w": 256,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 6990,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7012,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7035,
+    "w": 244,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7114,
+    "w": 238,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 7148,
+    "w": 219,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 7200,
+    "w": 312,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7223,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7245,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7268,
+    "w": 268,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7290,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7312,
+    "w": 260,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7335,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7357,
+    "w": 250,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7380,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7402,
+    "w": 240,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7437,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7460,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7482,
+    "w": 232,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7504,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7527,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7549,
+    "w": 303,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7571,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7594,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7616,
+    "w": 282,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7639,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7661,
+    "w": 301,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7683,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 7783,
+    "w": 227,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 7816,
+    "w": 101,
+    "h": 39
+   },
+   {
+    "x": 126,
+    "y": 8021,
+    "w": 107,
+    "h": 23
+   },
+   {
+    "x": 33,
+    "y": 8054,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 146,
+    "y": 8075,
+    "w": 69,
+    "h": 21
+   },
+   {
+    "x": 124,
+    "y": 8309,
+    "w": 111,
+    "h": 23
+   },
+   {
+    "x": 45,
+    "y": 8342,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 88,
+    "y": 8363,
+    "w": 184,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8494,
+    "w": 173,
+    "h": 39
+   },
+   {
+    "x": 16,
+    "y": 8657,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 8657,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 8681,
+    "w": 47,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8721,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 8721,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 8745,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8925,
+    "w": 134,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 8966,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 9007,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 9048,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 9089,
+    "w": 136,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 9130,
+    "w": 158,
+    "h": 18
+   }
+  ]
+ }
+}

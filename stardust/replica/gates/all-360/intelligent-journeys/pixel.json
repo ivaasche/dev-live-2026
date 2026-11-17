@@ -1,0 +1,61 @@
+{
+  "a": "stardust/replica/gates/all-360/intelligent-journeys/origin.png",
+  "b": "stardust/replica/gates/all-360/intelligent-journeys/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3279,
+    "mode": "overlap"
+  },
+  "heightDelta": 4,
+  "differingPixels": 47697,
+  "pct": 4.04,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/intelligent-journeys/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 12.24,
+  "textBoxes": 77,
+  "textPixels": 250962,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 5.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 4.7
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 3.7
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 5.4
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 6.3
+    },
+    {
+      "y0": 3000,
+      "y1": 3279,
+      "pct": 2.1
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--c87ac39f--aemcoder.aem.page/intelligent-journeys"
+  }
+}

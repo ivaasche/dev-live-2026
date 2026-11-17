@@ -1,0 +1,4943 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T07:35:05.103Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/leap-into-composable-commerce/",
+  "at": "2026-11-14T07:34:39.670Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 7649,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.site-nav__menu-wrapper.site-nav__menu__labels > div.site-nav__logo > a.site-nav__logo__link",
+    "x": 24,
+    "y": 25,
+    "w": 80,
+    "h": 21,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > a.search-select.mobile",
+    "x": 232,
+    "y": 24,
+    "w": 22,
+    "h": 23,
+    "text": "go to search page",
+    "href": "/search/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open main menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open main menu",
+    "value": "open main menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > a",
+    "x": 24,
+    "y": 75,
+    "w": 41,
+    "h": 21,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 24,
+    "y": 97,
+    "w": 261,
+    "h": 42,
+    "label": "current",
+    "value": "leap into composable commerce: accelerating your digital exp",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 24,
+    "y": 97,
+    "w": 261,
+    "h": 42,
+    "text": "LEAP into Composable Commerce: Accelerating Your Digital Experiences"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary__text.masthead-primary__text--light > hgroup.masthead-primary__hgroup > h2.masthead-primary__hgroup__subtitle",
+    "x": 46,
+    "y": 367,
+    "w": 269,
+    "h": 17,
+    "level": 2,
+    "text": "leap accelerator"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary__text.masthead-primary__text--light > hgroup.masthead-primary__hgroup > h1.masthead-primary__hgroup__title",
+    "x": 46,
+    "y": 403,
+    "w": 269,
+    "h": 55,
+    "level": 1,
+    "text": "leap into composable commerce"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary__text.masthead-primary__text--light > div.masthead-primary__lead > p",
+    "x": 46,
+    "y": 478,
+    "w": 269,
+    "h": 22,
+    "text": "Accelerating your digital experiences"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary__media > picture > img",
+    "x": 24,
+    "y": 163,
+    "w": 312,
+    "h": 163,
+    "text": "",
+    "file": "leap-landing-page-header-mobile"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-rte > div.columns-rte__container.text-content > h2",
+    "x": 24,
+    "y": 581,
+    "w": 312,
+    "h": 68,
+    "level": 2,
+    "text": "adapting to a shifting landscape"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-rte__content-row > div.columns-rte__content_left-column > p",
+    "x": 24,
+    "y": 665,
+    "w": 312,
+    "h": 168,
+    "text": "is an advanced, enterprise-grade composable commerce accelerator created in part"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-rte__content-row > div.columns-rte__content_right-column > p",
+    "x": 24,
+    "y": 857,
+    "w": 312,
+    "h": 168,
+    "text": "We have designed to be not just an accelerator, but also a unique and powerful t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "blockquote > p > span",
+    "x": 61,
+    "y": 1167,
+    "w": 82,
+    "h": 21,
+    "text": "According to"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "blockquote > p > a",
+    "x": 142,
+    "y": 1167,
+    "w": 115,
+    "h": 21,
+    "text": "the mach alliance",
+    "href": "/insights/the-new-approach-to-tco-for-digital-commerce"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "blockquote > p > span",
+    "x": 95,
+    "y": 1167,
+    "w": 209,
+    "h": 88,
+    "text": ", 85% of organizations that have invested in MACH cite reduced costs and an incr"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.tile-images__images-item > picture > img.tile-images__images-item-img",
+    "x": 24,
+    "y": 1359,
+    "w": 312,
+    "h": 175,
+    "text": "",
+    "file": "leap-secondary-image-grid-top-left"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.tile-images__images-item > picture > img.tile-images__images-item-img",
+    "x": 24,
+    "y": 1550,
+    "w": 312,
+    "h": 175,
+    "text": "",
+    "file": "leap-secondary-image-grid-bottom-left1"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.tile-images__images-item > picture > img.tile-images__images-item-img",
+    "x": 24,
+    "y": 1740,
+    "w": 148,
+    "h": 148,
+    "text": "",
+    "file": "leap-secondary-image-grid-middle1"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.tile-images__images-item > picture > img.tile-images__images-item-img",
+    "x": 188,
+    "y": 1740,
+    "w": 148,
+    "h": 148,
+    "text": "",
+    "file": "leap-secondary-image-grid-right"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > img",
+    "x": 30,
+    "y": 1981,
+    "w": 92,
+    "h": 33,
+    "text": "commercetools-logo.png",
+    "file": "commercetools-logo"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > img",
+    "x": 134,
+    "y": 1986,
+    "w": 92,
+    "h": 27,
+    "text": "logo 1.png",
+    "file": "logo-1"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > img",
+    "x": 238,
+    "y": 1975,
+    "w": 92,
+    "h": 50,
+    "text": "valtech_logo_black 2.png",
+    "file": "valtech_logo_black-2"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-unu.teaser-block-unu--dark > div.teaser-block-unu__header > h4.teaser-block-unu__header__title",
+    "x": 24,
+    "y": 2119,
+    "w": 336,
+    "h": 144,
+    "level": 4,
+    "text": "mars' success story"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-unu.teaser-block-unu--dark > div.teaser-block-unu__container.teaser-block-unu__first-item-wider > a.teaser-block-unu__teaser",
+    "x": 0,
+    "y": 2279,
+    "w": 360,
+    "h": 600,
+    "text": "m&m's leaps past the competition when mars wanted to elevate their customers exp",
+    "href": "/podcasts/how-mars-is-driving-growth-with-ecommerce/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-unu_media > picture > img",
+    "x": 24,
+    "y": 2303,
+    "w": 312,
+    "h": 234,
+    "text": "",
+    "file": "mars-header-desktop-half-width"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.teaser-block-unu__teaser > div.teaser-block-unu__teaser-description > h2.teaser-block-unu__teaser-description--title",
+    "x": 24,
+    "y": 2567,
+    "w": 312,
+    "h": 48,
+    "level": 2,
+    "text": "m&m's leaps past the competition"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.column-block__inner > hgroup.column-block__hgroup > h2.column-block__hgroup__title.slide-fade-in",
+    "x": 24,
+    "y": 2920,
+    "w": 312,
+    "h": 34,
+    "level": 2,
+    "text": "1. making mach simple"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.column-block__inner > div.slide-fade-in.played > p",
+    "x": 24,
+    "y": 2977,
+    "w": 312,
+    "h": 224,
+    "text": "Moving to a MACH/Composable architecture can present challenges due to its incre"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.column-block__inner > div.slide-fade-in.played > p",
+    "x": 24,
+    "y": 3223,
+    "w": 312,
+    "h": 224,
+    "text": "LEAP provides solutions to these challenges, combining the advantages of composa"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.column-block__inner > hgroup.column-block__hgroup > h2.column-block__hgroup__title.slide-fade-in",
+    "x": 24,
+    "y": 3487,
+    "w": 312,
+    "h": 101,
+    "level": 2,
+    "text": "2. deliver an omnichannel experience"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.column-block__inner > div.slide-fade-in.played > p",
+    "x": 24,
+    "y": 3612,
+    "w": 312,
+    "h": 179,
+    "text": "Today’s customers are very digitally savvy. It is important to enable transactio"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image-block__container > picture > img",
+    "x": 24,
+    "y": 3831,
+    "w": 312,
+    "h": 156,
+    "text": "",
+    "file": "leap-landing-page-body-image-1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.column-block__inner > hgroup.column-block__hgroup > h2.column-block__hgroup__title.slide-fade-in",
+    "x": 24,
+    "y": 4111,
+    "w": 312,
+    "h": 67,
+    "level": 2,
+    "text": "3. create a future-proof technology stack"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.column-block__inner > div.slide-fade-in.played > p",
+    "x": 24,
+    "y": 4202,
+    "w": 312,
+    "h": 358,
+    "text": "The accelerator’s functionalities and architecture have been carefully crafted w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.column-block__inner > hgroup.column-block__hgroup > h2.column-block__hgroup__title.slide-fade-in",
+    "x": 24,
+    "y": 4601,
+    "w": 312,
+    "h": 67,
+    "level": 2,
+    "text": "4. be repeatable and adaptable"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.column-block__inner > div.slide-fade-in.played > p",
+    "x": 24,
+    "y": 4692,
+    "w": 312,
+    "h": 269,
+    "text": "LEAP is not a cookie cutter solution, which means brands can expect two simultan"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.detail-text-block__inner > hgroup.detail-text-block__hgroup > h2.detail-text-block__hgroup__title.slide-fade-in",
+    "x": 24,
+    "y": 5001,
+    "w": 312,
+    "h": 30,
+    "level": 2,
+    "text": "contact us for details"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.detail-text-block__rte.text-content > p > span",
+    "x": 24,
+    "y": 5055,
+    "w": 275,
+    "h": 57,
+    "text": "Want to know more about ? Leave your details below and we'll get in touch with y"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldWrap.convertedField > div.mktoHtmlText.mktoHasWidth > span",
+    "x": 22,
+    "y": 5175,
+    "w": 250,
+    "h": 42,
+    "text": "Fields marked with an asterisk are mandatory and must be filled in."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblFirstName",
+    "x": 22,
+    "y": 5258,
+    "w": 87,
+    "h": 16,
+    "text": "First Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblLastName",
+    "x": 22,
+    "y": 5326,
+    "w": 86,
+    "h": 16,
+    "text": "Last Name"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#Lead_title__c",
+    "x": 22,
+    "y": 5383,
+    "w": 317,
+    "h": 38,
+    "label": "job title *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblLead_title__c",
+    "x": 22,
+    "y": 5394,
+    "w": 69,
+    "h": 16,
+    "text": "Job Title"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblEmail",
+    "x": 22,
+    "y": 5462,
+    "w": 89,
+    "h": 16,
+    "text": "Work Email"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblCompany",
+    "x": 22,
+    "y": 5530,
+    "w": 124,
+    "h": 16,
+    "text": "Company Name"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#Industry",
+    "x": 22,
+    "y": 5587,
+    "w": 317,
+    "h": 38,
+    "label": "industry *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblIndustry",
+    "x": 22,
+    "y": 5598,
+    "w": 68,
+    "h": 16,
+    "text": "Industry"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#CountryCode",
+    "x": 22,
+    "y": 5655,
+    "w": 317,
+    "h": 38,
+    "label": "country *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblCountryCode",
+    "x": 22,
+    "y": 5666,
+    "w": 66,
+    "h": 16,
+    "text": "Country"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mkto-input-group > label#LblPhone",
+    "x": 22,
+    "y": 5734,
+    "w": 108,
+    "h": 16,
+    "text": "Phone Number"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.convertedField > label#LblcommentCapture",
+    "x": 22,
+    "y": 5791,
+    "w": 317,
+    "h": 42,
+    "text": "Share your comments"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldWrap.mktoRequiredField > div.mktoLogicalField.mktoCheckboxList > label#LblmktoCheckbox_195303_0",
+    "x": 48,
+    "y": 6047,
+    "w": 291,
+    "h": 106,
+    "text": "I accept to receive relevant news and marketing communication from Valtech and I"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoLogicalField.mktoCheckboxList > label#LblmktoCheckbox_195303_0 > a",
+    "x": 103,
+    "y": 6131,
+    "w": 102,
+    "h": 21,
+    "text": "privacy notice",
+    "href": "/privacy-notice/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 22,
+    "y": 6183,
+    "w": 302,
+    "h": 42,
+    "text": "This site is protected by CAPTCHA and the Friendly Captcha"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893 > a",
+    "x": 145,
+    "y": 6204,
+    "w": 98,
+    "h": 21,
+    "text": "privacy policy",
+    "href": "/legal/privacy-end-users/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 22,
+    "y": 6204,
+    "w": 316,
+    "h": 43,
+    "text": "and"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.NormalTextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893 > a",
+    "x": 22,
+    "y": 6204,
+    "w": 316,
+    "h": 43,
+    "text": "terms of use",
+    "href": "/legal/terms/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 49,
+    "y": 6226,
+    "w": 45,
+    "h": 21,
+    "text": "apply."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoButtonRow > span.mktoButtonWrap.mktoShadow > button.mktoButton.button",
+    "x": 85,
+    "y": 6309,
+    "w": 190,
+    "h": 59,
+    "text": "send request"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flickity-slider > div.teaser-block__teaser.is-selected > a.teaser-block__teaser__inner",
+    "x": 24,
+    "y": 6418,
+    "w": 270,
+    "h": 420,
+    "text": "news mars leads the way for multi-brand commerce",
+    "href": "/newsroom/mars-leads-the-way-for-multi-brand-commerce-with-d2c-transformation-with-valtech-and-commercetools/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block__teaser.is-selected > a.teaser-block__teaser__inner > h2.teaser-block__teaser__pretitle.news",
+    "x": 24,
+    "y": 6418,
+    "w": 113,
+    "h": 43,
+    "level": 2,
+    "text": "news"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.teaser-block__teaser__inner > hgroup.teaser-block__teaser__hgroup > h5.teaser-block__teaser__title",
+    "x": 48,
+    "y": 6736,
+    "w": 212,
+    "h": 40,
+    "level": 5,
+    "text": "mars leads the way for multi-brand commerce"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block__teaser.is-selected > picture > img",
+    "x": -124,
+    "y": 6416,
+    "w": 566,
+    "h": 424,
+    "text": "",
+    "file": "gl-2023-blog-mars-webinar-article-header"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flickity-slider > div.teaser-block__teaser > a.teaser-block__teaser__inner",
+    "x": 314,
+    "y": 6418,
+    "w": 270,
+    "h": 420,
+    "text": "news valtech announces new commerce accelerator",
+    "href": "/newsroom/valtech-launches-commerce-accelerator-with-commercetools-inspired-by-work-with-mars/"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block__teaser > a.teaser-block__teaser__inner > h2.teaser-block__teaser__pretitle.news",
+    "x": 314,
+    "y": 6418,
+    "w": 113,
+    "h": 43,
+    "level": 2,
+    "text": "news"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.teaser-block__teaser__inner > hgroup.teaser-block__teaser__hgroup > h5.teaser-block__teaser__title",
+    "x": 338,
+    "y": 6736,
+    "w": 212,
+    "h": 40,
+    "level": 5,
+    "text": "valtech announces new commerce accelerator"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block__teaser > picture > img",
+    "x": 166,
+    "y": 6416,
+    "w": 566,
+    "h": 424,
+    "text": "",
+    "file": "leap-news-header-navigation"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block__container.js-flickity-teaser > ol.flickity-page-dots > li.dot.is-selected",
+    "x": 24,
+    "y": 6870,
+    "w": 23,
+    "h": 4,
+    "label": "current",
+    "value": "slide 1",
+    "via": "aria-current"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block > div.teaser-block__container.js-flickity-teaser > button.flickity-button.flickity-prev-next-button",
+    "x": 240,
+    "y": 6852,
+    "w": 40,
+    "h": 40,
+    "text": "previous"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block > div.teaser-block__container.js-flickity-teaser > button.flickity-button.flickity-prev-next-button",
+    "x": 296,
+    "y": 6852,
+    "w": 40,
+    "h": 40,
+    "text": "next"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 16,
+    "y": 7031,
+    "w": 43,
+    "h": 21,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 226,
+    "y": 7031,
+    "w": 44,
+    "h": 21,
+    "text": "about",
+    "href": "/about/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 16,
+    "y": 7071,
+    "w": 50,
+    "h": 21,
+    "text": "offices",
+    "href": "/about/offices/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 226,
+    "y": 7071,
+    "w": 87,
+    "h": 21,
+    "text": "who we are",
+    "href": "/career/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer__column.site-footer__stamp > picture > img",
+    "x": 16,
+    "y": 7110,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "badge-no-outline"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer__links > aside.site-footer__column.site-footer__stamp > a",
+    "x": 274,
+    "y": 7110,
+    "w": 64,
+    "h": 70,
+    "text": "sustainability stamp",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 274,
+    "y": 7110,
+    "w": 64,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "cdp_discloser_2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 7251,
+    "w": 90,
+    "h": 18,
+    "text": "privacy notice",
+    "href": "/privacy-notice/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 7292,
+    "w": 111,
+    "h": 18,
+    "text": "cookie statement",
+    "href": "/cookie-statement/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 7333,
+    "w": 83,
+    "h": 18,
+    "text": "legal notices",
+    "href": "/legal-notices/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 7374,
+    "w": 79,
+    "h": 18,
+    "text": "accessibility",
+    "href": "/about/accessibility/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 7415,
+    "w": 80,
+    "h": 18,
+    "text": "stay in touch",
+    "href": "/about/stay-in-touch/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a.cookiebot-reset",
+    "x": 16,
+    "y": 7456,
+    "w": 149,
+    "h": 18,
+    "text": "change cookie settings",
+    "href": "/leap-into-composable-commerce/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 16,
+    "y": 7537,
+    "w": 23,
+    "h": 18,
+    "text": "linkedin footer",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 87,
+    "y": 7537,
+    "w": 23,
+    "h": 18,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 158,
+    "y": 7537,
+    "w": 23,
+    "h": 18,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 229,
+    "y": 7537,
+    "w": 23,
+    "h": 18,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 16,
+    "y": 7582,
+    "w": 23,
+    "h": 18,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 87,
+    "y": 7582,
+    "w": 23,
+    "h": 18,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 2,
+    "offPage": 13,
+    "textNodes": 82,
+    "controls": 40,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.teaser-block__teaser",
+     "path": "div.flickity-viewport > div.flickity-slider > div.teaser-block__teaser > a.teaser-block__teaser__inner",
+     "text": "news valtech announces new commerce accelerator",
+     "cutMin": 224,
+     "cutMax": 224
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.teaser-block__teaser",
+     "path": "div.teaser-block__teaser > a.teaser-block__teaser__inner > hgroup.teaser-block__teaser__hgroup > h5.teaser-block__teaser__title",
+     "text": "valtech announces new commerce accelerator",
+     "cutMin": 154,
+     "cutMax": 154
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/leap-into-composable-commerce",
+  "at": "2026-11-14T07:35:04.956Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 7620,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-nav-menu-wrapper.site-nav-menu-labels > div.site-nav-logo > a.site-nav-logo-link",
+    "x": 24,
+    "y": 25,
+    "w": 80,
+    "h": 21,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > a.search-select.mobile",
+    "x": 232,
+    "y": 24,
+    "w": 22,
+    "h": 23,
+    "text": "go to search page",
+    "href": "/search/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open main menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open main menu",
+    "value": "open main menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 24,
+    "y": 75,
+    "w": 41,
+    "h": 21,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 24,
+    "y": 97,
+    "w": 312,
+    "h": 42,
+    "label": "current",
+    "value": "leap into composable commerce: accelerating your digital exp",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 24,
+    "y": 97,
+    "w": 312,
+    "h": 42,
+    "text": "LEAP into Composable Commerce: Accelerating Your Digital Experiences"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary-text.masthead-primary-text-light > hgroup.masthead-primary-hgroup > h2#leap-accelerator",
+    "x": 46,
+    "y": 367,
+    "w": 269,
+    "h": 17,
+    "level": 2,
+    "text": "leap accelerator"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary-text.masthead-primary-text-light > hgroup.masthead-primary-hgroup > h1#leap-into-composable-commerce",
+    "x": 46,
+    "y": 404,
+    "w": 269,
+    "h": 55,
+    "level": 1,
+    "text": "leap into composable commerce"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary-text.masthead-primary-text-light > div.masthead-primary-lead > p",
+    "x": 46,
+    "y": 479,
+    "w": 269,
+    "h": 22,
+    "text": "Accelerating your digital experiences"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary-media > picture.masthead-primary-narrow > img",
+    "x": 24,
+    "y": 163,
+    "w": 312,
+    "h": 163,
+    "text": "",
+    "file": "media_17b246892c0b053e4306bf3d8ab519ce57"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-rte.block > div.columns-rte-container.text-content > h2#adapting-to-a-shifting-landscape",
+    "x": 24,
+    "y": 581,
+    "w": 312,
+    "h": 68,
+    "level": 2,
+    "text": "adapting to a shifting landscape"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-rte-content-row > div.columns-rte-content-left-column > p",
+    "x": 24,
+    "y": 665,
+    "w": 312,
+    "h": 168,
+    "text": "is an advanced, enterprise-grade composable commerce accelerator created in part"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-rte-content-row > div.columns-rte-content-right-column > p",
+    "x": 24,
+    "y": 857,
+    "w": 312,
+    "h": 168,
+    "text": "We have designed to be not just an accelerator, but also a unique and powerful t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > blockquote > p",
+    "x": 54,
+    "y": 1167,
+    "w": 250,
+    "h": 90,
+    "text": "According to , 85% of organizations that have invested in MACH cite reduced cost"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "blockquote > p > a",
+    "x": 142,
+    "y": 1167,
+    "w": 115,
+    "h": 21,
+    "text": "the mach alliance",
+    "href": "/insights/the-new-approach-to-tco-for-digital-commerce"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.tile-images-images-item > picture > img.tile-images-images-item-img",
+    "x": 24,
+    "y": 1359,
+    "w": 312,
+    "h": 175,
+    "text": "",
+    "file": "media_16731bf5cff187a61c8d4cdcbde38e4cdf"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.tile-images-images-item > picture > img.tile-images-images-item-img",
+    "x": 24,
+    "y": 1550,
+    "w": 312,
+    "h": 175,
+    "text": "",
+    "file": "media_1b4a6926a60a844990c67b1b1bbcedb666"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.tile-images-images-item > picture > img.tile-images-images-item-img",
+    "x": 24,
+    "y": 1741,
+    "w": 148,
+    "h": 148,
+    "text": "",
+    "file": "media_1b5ec2c1787375421ad08b889a1c2ad2fb"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.tile-images-images-item > picture > img.tile-images-images-item-img",
+    "x": 188,
+    "y": 1741,
+    "w": 148,
+    "h": 148,
+    "text": "",
+    "file": "media_1ba7d7f3a9a44de55b7c6099ed5efbab20"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "th > picture > img",
+    "x": 30,
+    "y": 1982,
+    "w": 92,
+    "h": 33,
+    "text": "commercetools-logo.png",
+    "file": "media_1e8ed27121392db77ac8d18a06dde376a2"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "th > picture > img",
+    "x": 134,
+    "y": 1976,
+    "w": 92,
+    "h": 27,
+    "text": "logo 1.png",
+    "file": "media_1343af6efb71d4dbc9411bb898391fab1a"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "th > picture > img",
+    "x": 238,
+    "y": 1965,
+    "w": 92,
+    "h": 50,
+    "text": "valtech_logo_black 2.png",
+    "file": "media_1208a6063478e20b9d8aedf40aa7711f59"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-unu.dark > div.teaser-block-unu-header > h4#mars-success-story",
+    "x": 24,
+    "y": 2091,
+    "w": 336,
+    "h": 144,
+    "level": 4,
+    "text": "mars' success story"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-unu.dark > div.teaser-block-unu-inner > a.teaser-block-unu-teaser",
+    "x": 0,
+    "y": 2251,
+    "w": 360,
+    "h": 600,
+    "text": "m&m's leaps past the competition when mars wanted to elevate their customers exp",
+    "href": "/podcasts/how-mars-is-driving-growth-with-ecommerce/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-unu-media > picture > img",
+    "x": 24,
+    "y": 2275,
+    "w": 312,
+    "h": 234,
+    "text": "",
+    "file": "media_1ed2cbd516c5ee6287a9ded70059a67642"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-unu-description > div.teaser-block-unu-title > h2#mms-leaps-past-the-competition",
+    "x": 24,
+    "y": 2538,
+    "w": 312,
+    "h": 48,
+    "level": 2,
+    "text": "m&m's leaps past the competition"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.column-block-inner > hgroup.column-block-hgroup > h2#making-mach-simple",
+    "x": 24,
+    "y": 2891,
+    "w": 312,
+    "h": 34,
+    "level": 2,
+    "text": "1. making mach simple"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.column-block-inner > div.column-block-text > p",
+    "x": 24,
+    "y": 2949,
+    "w": 312,
+    "h": 224,
+    "text": "Moving to a MACH/Composable architecture can present challenges due to its incre"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.column-block-inner > div.column-block-text > p",
+    "x": 24,
+    "y": 3195,
+    "w": 312,
+    "h": 224,
+    "text": "LEAP provides solutions to these challenges, combining the advantages of composa"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.column-block-inner > hgroup.column-block-hgroup > h2#deliver-an-omnichannel-experience",
+    "x": 24,
+    "y": 3459,
+    "w": 312,
+    "h": 101,
+    "level": 2,
+    "text": "2. deliver an omnichannel experience"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.column-block-inner > div.column-block-text > p",
+    "x": 24,
+    "y": 3584,
+    "w": 312,
+    "h": 179,
+    "text": "Today’s customers are very digitally savvy. It is important to enable transactio"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image-block-inner > picture > img",
+    "x": 24,
+    "y": 3803,
+    "w": 312,
+    "h": 156,
+    "text": "",
+    "file": "media_15089f58868f751cb436c50ca88bdcf0d2"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.column-block-inner > hgroup.column-block-hgroup > h2#create-a-future-proof-technology-stack",
+    "x": 24,
+    "y": 4083,
+    "w": 312,
+    "h": 67,
+    "level": 2,
+    "text": "3. create a future-proof technology stack"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.column-block-inner > div.column-block-text > p",
+    "x": 24,
+    "y": 4174,
+    "w": 312,
+    "h": 358,
+    "text": "The accelerator’s functionalities and architecture have been carefully crafted w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.column-block-inner > hgroup.column-block-hgroup > h2#be-repeatable-and-adaptable",
+    "x": 24,
+    "y": 4572,
+    "w": 312,
+    "h": 67,
+    "level": 2,
+    "text": "4. be repeatable and adaptable"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.column-block-inner > div.column-block-text > p",
+    "x": 24,
+    "y": 4663,
+    "w": 312,
+    "h": 269,
+    "text": "LEAP is not a cookie cutter solution, which means brands can expect two simultan"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.detail-text-block-inner > hgroup.detail-text-block-hgroup > h2#contact-us-for-details",
+    "x": 24,
+    "y": 4972,
+    "w": 312,
+    "h": 30,
+    "level": 2,
+    "text": "contact us for details"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.detail-text-block-inner > div.detail-text-block-rte.text-content > p",
+    "x": 24,
+    "y": 5026,
+    "w": 312,
+    "h": 59,
+    "text": "Want to know more about ? Leave your details below and we'll get in touch with y"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-html > span",
+    "x": 22,
+    "y": 5146,
+    "w": 251,
+    "h": 42,
+    "text": "Fields marked with an asterisk are mandatory and must be filled in."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 5229,
+    "w": 87,
+    "h": 16,
+    "text": "First Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 5297,
+    "w": 86,
+    "h": 16,
+    "text": "Last Name"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > select#Lead_title__c",
+    "x": 22,
+    "y": 5354,
+    "w": 317,
+    "h": 38,
+    "label": "job title *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 5365,
+    "w": 69,
+    "h": 16,
+    "text": "Job Title"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 5433,
+    "w": 89,
+    "h": 16,
+    "text": "Work Email"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 5501,
+    "w": 124,
+    "h": 16,
+    "text": "Company Name"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > select#Industry",
+    "x": 22,
+    "y": 5558,
+    "w": 317,
+    "h": 38,
+    "label": "industry *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 5569,
+    "w": 68,
+    "h": 16,
+    "text": "Industry"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > select#CountryCode",
+    "x": 22,
+    "y": 5626,
+    "w": 317,
+    "h": 38,
+    "label": "country *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 5637,
+    "w": 66,
+    "h": 16,
+    "text": "Country"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 5705,
+    "w": 108,
+    "h": 16,
+    "text": "Phone Number"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-field > label.mkto-form-textlabel",
+    "x": 22,
+    "y": 5762,
+    "w": 317,
+    "h": 42,
+    "text": "Share your comments"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-check > label",
+    "x": 48,
+    "y": 6018,
+    "w": 291,
+    "h": 106,
+    "text": "I accept to receive relevant news and marketing communication from Valtech and I"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-check > label > a",
+    "x": 103,
+    "y": 6102,
+    "w": 102,
+    "h": 21,
+    "text": "privacy notice",
+    "href": "/privacy-notice/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 22,
+    "y": 6154,
+    "w": 302,
+    "h": 42,
+    "text": "This site is protected by CAPTCHA and the Friendly Captcha"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span > span > a",
+    "x": 145,
+    "y": 6175,
+    "w": 98,
+    "h": 21,
+    "text": "privacy policy",
+    "href": "/legal/privacy-end-users/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 22,
+    "y": 6175,
+    "w": 316,
+    "h": 43,
+    "text": "and"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span > span > a",
+    "x": 22,
+    "y": 6175,
+    "w": 316,
+    "h": 43,
+    "text": "terms of use",
+    "href": "/legal/terms/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 49,
+    "y": 6198,
+    "w": 45,
+    "h": 21,
+    "text": "apply."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-buttons > span.mkto-form-button-wrap > button.mktoButton.button",
+    "x": 85,
+    "y": 6280,
+    "w": 190,
+    "h": 59,
+    "text": "send request"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flickity-slider > div.teaser-block-teaser.is-selected > a.teaser-block-teaser-inner",
+    "x": 24,
+    "y": 6389,
+    "w": 270,
+    "h": 420,
+    "text": "news mars leads the way for multi-brand commerce",
+    "href": "/newsroom/mars-leads-the-way-for-multi-brand-commerce-with-d2c-transformation-with-valtech-and-commercetools/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-teaser.is-selected > a.teaser-block-teaser-inner > h2#news",
+    "x": 24,
+    "y": 6389,
+    "w": 113,
+    "h": 43,
+    "level": 2,
+    "text": "news"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#mars-leads-the-way-for-multi-brand-commerce",
+    "x": 48,
+    "y": 6707,
+    "w": 215,
+    "h": 40,
+    "level": 5,
+    "text": "mars leads the way for multi-brand commerce"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-teaser-image-wrapper > picture > img",
+    "x": -124,
+    "y": 6387,
+    "w": 566,
+    "h": 424,
+    "text": "",
+    "file": "media_1185d2a14cfcbd383dbb42711bec8717b7"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.flickity-slider > div.teaser-block-teaser > a.teaser-block-teaser-inner",
+    "x": 314,
+    "y": 6389,
+    "w": 270,
+    "h": 420,
+    "text": "news valtech announces new commerce accelerator",
+    "href": "/newsroom/valtech-launches-commerce-accelerator-with-commercetools-inspired-by-work-with-mars/"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-teaser > a.teaser-block-teaser-inner > h2#news-1",
+    "x": 314,
+    "y": 6389,
+    "w": 113,
+    "h": 43,
+    "level": 2,
+    "text": "news"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#valtech-announces-new-commerce-accelerator",
+    "x": 338,
+    "y": 6707,
+    "w": 215,
+    "h": 40,
+    "level": 5,
+    "text": "valtech announces new commerce accelerator"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-teaser-image-wrapper > picture > img",
+    "x": 166,
+    "y": 6387,
+    "w": 566,
+    "h": 424,
+    "text": "",
+    "file": "media_1f18dde61d42e8e74bcb35160d94bdff34"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block.block > div.teaser-block-container.flickity-enabled > button.carousel-btn.carousel-btn-long",
+    "x": 240,
+    "y": 6823,
+    "w": 40,
+    "h": 40,
+    "text": "previous"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block.block > div.teaser-block-container.flickity-enabled > button.carousel-btn.carousel-btn-long",
+    "x": 296,
+    "y": 6823,
+    "w": 40,
+    "h": 40,
+    "text": "next"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 16,
+    "y": 7002,
+    "w": 43,
+    "h": 21,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 226,
+    "y": 7002,
+    "w": 44,
+    "h": 21,
+    "text": "about",
+    "href": "/about/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 16,
+    "y": 7042,
+    "w": 50,
+    "h": 21,
+    "text": "offices",
+    "href": "/about/offices/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 226,
+    "y": 7042,
+    "w": 87,
+    "h": 21,
+    "text": "who we are",
+    "href": "/career/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "p > picture > img",
+    "x": 16,
+    "y": 7081,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "media_18686ce5d542e21460f5b9773dc388b150"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer-column.site-footer-stamp > p > a",
+    "x": 274,
+    "y": 7081,
+    "w": 64,
+    "h": 70,
+    "text": "sustainability stamp",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 274,
+    "y": 7081,
+    "w": 64,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "media_147addfc96d6d3db8ad2ecb6422a634aed"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 7222,
+    "w": 90,
+    "h": 18,
+    "text": "privacy notice",
+    "href": "/privacy-notice/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 7263,
+    "w": 111,
+    "h": 18,
+    "text": "cookie statement",
+    "href": "/cookie-statement/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 7304,
+    "w": 83,
+    "h": 18,
+    "text": "legal notices",
+    "href": "/legal-notices/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 7345,
+    "w": 79,
+    "h": 18,
+    "text": "accessibility",
+    "href": "/about/accessibility/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 7386,
+    "w": 80,
+    "h": 18,
+    "text": "stay in touch",
+    "href": "/about/stay-in-touch/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a.cookiebot-reset",
+    "x": 16,
+    "y": 7427,
+    "w": 149,
+    "h": 18,
+    "text": "change cookie settings",
+    "href": "/leap-into-composable-commerce"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 16,
+    "y": 7508,
+    "w": 23,
+    "h": 18,
+    "text": "linkedin footer",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 87,
+    "y": 7508,
+    "w": 23,
+    "h": 18,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 158,
+    "y": 7508,
+    "w": 23,
+    "h": 18,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 229,
+    "y": 7508,
+    "w": 23,
+    "h": 18,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 16,
+    "y": 7553,
+    "w": 23,
+    "h": 18,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 87,
+    "y": 7553,
+    "w": 23,
+    "h": 18,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 2,
+    "offPage": 8,
+    "textNodes": 78,
+    "controls": 38,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.teaser-block-teaser",
+     "path": "div.flickity-viewport > div.flickity-slider > div.teaser-block-teaser > a.teaser-block-teaser-inner",
+     "text": "newsvaltech announces new commerce accelerator",
+     "cutMin": 224,
+     "cutMax": 224
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.teaser-block-teaser",
+     "path": "div.teaser-block-teaser > a.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#valtech-announces-new-commerce-accelerator",
+     "text": "valtech announces new commerce accelerator",
+     "cutMin": 154,
+     "cutMax": 154
+    }
+   ],
+   "findings": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 224,
+     "path": "div.flickity-viewport > div.flickity-slider > div.teaser-block-teaser > a.teaser-block-teaser-inner",
+     "text": "newsvaltech announces new commerce accelerator",
+     "clipper": "div.teaser-block-teaser",
+     "rect": {
+      "l": 314,
+      "t": 6389,
+      "r": 584,
+      "b": 6809,
+      "w": 270,
+      "h": 420
+     },
+     "clip": {
+      "l": 314,
+      "t": 6389,
+      "r": 584,
+      "b": 6809,
+      "w": 270,
+      "h": 420
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 154,
+     "path": "div.teaser-block-teaser > a.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#valtech-announces-new-commerce-accelerator",
+     "text": "valtech announces new commerce accelerator",
+     "clipper": "div.teaser-block-teaser",
+     "rect": {
+      "l": 341,
+      "t": 6706,
+      "r": 514,
+      "b": 6727,
+      "w": 173,
+      "h": 21
+     },
+     "clip": {
+      "l": 314,
+      "t": 6389,
+      "r": 584,
+      "b": 6809,
+      "w": 270,
+      "h": 420
+     },
+     "lines": 3
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "leap accelerator",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "leap into composable commerce",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "adapting to a shifting landscape",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 4,
+    "image": 8
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 8,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "m&m's leaps past the competition",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "1. making mach simple",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "2. deliver an omnichannel experience",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "3. create a future-proof technology stack",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "4. be repeatable and adaptable",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "contact us for details",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 1,
+    "text": 15,
+    "image": 0
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 15,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 2
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "news",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 2,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 1,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "CONTROL MISSING"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "CONTROL MISSING",
+   "msg": "current = \"slide 1\" (band \"news\") has no served counterpart",
+   "band": 10,
+   "label": "current",
+   "value": "slide 1"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 1,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 24,
+    "y": 75,
+    "w": 41,
+    "h": 21
+   },
+   {
+    "x": 37,
+    "y": 97,
+    "w": 236,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 118,
+    "w": 261,
+    "h": 21
+   },
+   {
+    "x": 46,
+    "y": 365,
+    "w": 132,
+    "h": 19
+   },
+   {
+    "x": 46,
+    "y": 399,
+    "w": 265,
+    "h": 35
+   },
+   {
+    "x": 46,
+    "y": 427,
+    "w": 129,
+    "h": 35
+   },
+   {
+    "x": 46,
+    "y": 478,
+    "w": 225,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 579,
+    "w": 266,
+    "h": 36
+   },
+   {
+    "x": 24,
+    "y": 613,
+    "w": 128,
+    "h": 36
+   },
+   {
+    "x": 24,
+    "y": 666,
+    "w": 40,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 666,
+    "w": 237,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 690,
+    "w": 309,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 714,
+    "w": 277,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 738,
+    "w": 289,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 762,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 786,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 810,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 858,
+    "w": 133,
+    "h": 21
+   },
+   {
+    "x": 157,
+    "y": 858,
+    "w": 40,
+    "h": 21
+   },
+   {
+    "x": 197,
+    "y": 858,
+    "w": 117,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 882,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 906,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 930,
+    "w": 219,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 954,
+    "w": 244,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 978,
+    "w": 268,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1002,
+    "w": 90,
+    "h": 21
+   },
+   {
+    "x": 61,
+    "y": 1167,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 142,
+    "y": 1167,
+    "w": 115,
+    "h": 21
+   },
+   {
+    "x": 257,
+    "y": 1167,
+    "w": 47,
+    "h": 21
+   },
+   {
+    "x": 95,
+    "y": 1189,
+    "w": 209,
+    "h": 21
+   },
+   {
+    "x": 104,
+    "y": 1212,
+    "w": 200,
+    "h": 21
+   },
+   {
+    "x": 202,
+    "y": 1234,
+    "w": 102,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2121,
+    "w": 318,
+    "h": 67
+   },
+   {
+    "x": 24,
+    "y": 2193,
+    "w": 115,
+    "h": 67
+   },
+   {
+    "x": 24,
+    "y": 2566,
+    "w": 204,
+    "h": 26
+   },
+   {
+    "x": 24,
+    "y": 2590,
+    "w": 110,
+    "h": 26
+   },
+   {
+    "x": 24,
+    "y": 2632,
+    "w": 245,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2656,
+    "w": 277,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2680,
+    "w": 241,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2704,
+    "w": 262,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2728,
+    "w": 290,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2752,
+    "w": 244,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2776,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2800,
+    "w": 205,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2838,
+    "w": 111,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 2917,
+    "w": 298,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 2977,
+    "w": 228,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3000,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3022,
+    "w": 277,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3044,
+    "w": 276,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3067,
+    "w": 291,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3089,
+    "w": 293,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3111,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3134,
+    "w": 233,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3156,
+    "w": 283,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3179,
+    "w": 116,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3223,
+    "w": 232,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3246,
+    "w": 290,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3268,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3291,
+    "w": 268,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3313,
+    "w": 311,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3335,
+    "w": 264,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3358,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3380,
+    "w": 257,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3403,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3425,
+    "w": 127,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3484,
+    "w": 159,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 3518,
+    "w": 171,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 3552,
+    "w": 150,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 3612,
+    "w": 309,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3634,
+    "w": 309,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3657,
+    "w": 282,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3679,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3702,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3724,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3746,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3769,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4108,
+    "w": 310,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 4142,
+    "w": 228,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 4202,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4225,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4247,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4270,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4292,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4314,
+    "w": 263,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4337,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4359,
+    "w": 263,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4382,
+    "w": 251,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4404,
+    "w": 282,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4426,
+    "w": 209,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4449,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4471,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4493,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4516,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4538,
+    "w": 130,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4598,
+    "w": 274,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 4631,
+    "w": 138,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 4692,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4714,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4737,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4759,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4781,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4804,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4826,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4849,
+    "w": 303,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4871,
+    "w": 236,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4893,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4916,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4938,
+    "w": 88,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4998,
+    "w": 253,
+    "h": 35
+   },
+   {
+    "x": 24,
+    "y": 5055,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 186,
+    "y": 5055,
+    "w": 35,
+    "h": 18
+   },
+   {
+    "x": 221,
+    "y": 5055,
+    "w": 78,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 5074,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 5094,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5177,
+    "w": 6,
+    "h": 18
+   },
+   {
+    "x": 31,
+    "y": 5175,
+    "w": 240,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 5196,
+    "w": 227,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 5255,
+    "w": 78,
+    "h": 21
+   },
+   {
+    "x": 99,
+    "y": 5257,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5323,
+    "w": 77,
+    "h": 21
+   },
+   {
+    "x": 98,
+    "y": 5325,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5391,
+    "w": 60,
+    "h": 21
+   },
+   {
+    "x": 82,
+    "y": 5393,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5459,
+    "w": 80,
+    "h": 21
+   },
+   {
+    "x": 102,
+    "y": 5461,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5527,
+    "w": 114,
+    "h": 21
+   },
+   {
+    "x": 136,
+    "y": 5529,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5595,
+    "w": 59,
+    "h": 21
+   },
+   {
+    "x": 81,
+    "y": 5597,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5663,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 79,
+    "y": 5665,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5731,
+    "w": 108,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 5796,
+    "w": 156,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 6047,
+    "w": 260,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 6068,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 6089,
+    "w": 283,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 6110,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 6131,
+    "w": 56,
+    "h": 21
+   },
+   {
+    "x": 103,
+    "y": 6131,
+    "w": 102,
+    "h": 21
+   },
+   {
+    "x": 205,
+    "y": 6131,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 209,
+    "y": 6133,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 6183,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 6204,
+    "w": 120,
+    "h": 21
+   },
+   {
+    "x": 145,
+    "y": 6204,
+    "w": 98,
+    "h": 21
+   },
+   {
+    "x": 243,
+    "y": 6204,
+    "w": 34,
+    "h": 21
+   },
+   {
+    "x": 277,
+    "y": 6204,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 6226,
+    "w": 28,
+    "h": 21
+   },
+   {
+    "x": 49,
+    "y": 6226,
+    "w": 45,
+    "h": 21
+   },
+   {
+    "x": 127,
+    "y": 6327,
+    "w": 106,
+    "h": 23
+   },
+   {
+    "x": 72,
+    "y": 6429,
+    "w": 39,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 6735,
+    "w": 203,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 6755,
+    "w": 122,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 6735,
+    "w": 173,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 6755,
+    "w": 164,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7031,
+    "w": 43,
+    "h": 21
+   },
+   {
+    "x": 226,
+    "y": 7031,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7071,
+    "w": 50,
+    "h": 21
+   },
+   {
+    "x": 226,
+    "y": 7071,
+    "w": 87,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7251,
+    "w": 90,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 7292,
+    "w": 111,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 7333,
+    "w": 83,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 7374,
+    "w": 79,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 7415,
+    "w": 80,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 7456,
+    "w": 149,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 24,
+    "y": 75,
+    "w": 41,
+    "h": 21
+   },
+   {
+    "x": 37,
+    "y": 97,
+    "w": 236,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 118,
+    "w": 261,
+    "h": 21
+   },
+   {
+    "x": 46,
+    "y": 365,
+    "w": 132,
+    "h": 19
+   },
+   {
+    "x": 46,
+    "y": 400,
+    "w": 265,
+    "h": 35
+   },
+   {
+    "x": 46,
+    "y": 427,
+    "w": 129,
+    "h": 35
+   },
+   {
+    "x": 46,
+    "y": 479,
+    "w": 225,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 579,
+    "w": 266,
+    "h": 36
+   },
+   {
+    "x": 24,
+    "y": 613,
+    "w": 128,
+    "h": 36
+   },
+   {
+    "x": 24,
+    "y": 666,
+    "w": 40,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 666,
+    "w": 237,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 690,
+    "w": 309,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 714,
+    "w": 277,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 738,
+    "w": 289,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 762,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 786,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 810,
+    "w": 55,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 858,
+    "w": 133,
+    "h": 21
+   },
+   {
+    "x": 157,
+    "y": 858,
+    "w": 40,
+    "h": 21
+   },
+   {
+    "x": 197,
+    "y": 858,
+    "w": 117,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 882,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 906,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 930,
+    "w": 219,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 954,
+    "w": 244,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 978,
+    "w": 268,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1002,
+    "w": 90,
+    "h": 21
+   },
+   {
+    "x": 61,
+    "y": 1167,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 142,
+    "y": 1167,
+    "w": 115,
+    "h": 21
+   },
+   {
+    "x": 257,
+    "y": 1167,
+    "w": 47,
+    "h": 21
+   },
+   {
+    "x": 95,
+    "y": 1190,
+    "w": 209,
+    "h": 21
+   },
+   {
+    "x": 104,
+    "y": 1212,
+    "w": 200,
+    "h": 21
+   },
+   {
+    "x": 205,
+    "y": 1234,
+    "w": 99,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2093,
+    "w": 318,
+    "h": 67
+   },
+   {
+    "x": 24,
+    "y": 2165,
+    "w": 115,
+    "h": 67
+   },
+   {
+    "x": 24,
+    "y": 2537,
+    "w": 204,
+    "h": 26
+   },
+   {
+    "x": 24,
+    "y": 2561,
+    "w": 110,
+    "h": 26
+   },
+   {
+    "x": 24,
+    "y": 2603,
+    "w": 245,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2627,
+    "w": 277,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2651,
+    "w": 241,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2675,
+    "w": 262,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2699,
+    "w": 290,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2723,
+    "w": 244,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2747,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2771,
+    "w": 205,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2809,
+    "w": 111,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 2888,
+    "w": 298,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 2949,
+    "w": 228,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2971,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2993,
+    "w": 277,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3016,
+    "w": 276,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3038,
+    "w": 291,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3061,
+    "w": 293,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3083,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3105,
+    "w": 233,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3128,
+    "w": 283,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3150,
+    "w": 116,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3195,
+    "w": 232,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3217,
+    "w": 290,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3240,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3262,
+    "w": 268,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3284,
+    "w": 311,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3307,
+    "w": 264,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3329,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3352,
+    "w": 257,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3374,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3396,
+    "w": 127,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3456,
+    "w": 159,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 3489,
+    "w": 171,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 3523,
+    "w": 150,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 3584,
+    "w": 309,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3606,
+    "w": 309,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3628,
+    "w": 282,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3651,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3673,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3696,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3718,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3740,
+    "w": 53,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4080,
+    "w": 310,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 4113,
+    "w": 228,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 4174,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4196,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4219,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4241,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4263,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4286,
+    "w": 263,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4308,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4331,
+    "w": 263,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4353,
+    "w": 251,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4375,
+    "w": 282,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4398,
+    "w": 209,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4420,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4443,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4465,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4487,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4510,
+    "w": 128,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4569,
+    "w": 274,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 4603,
+    "w": 138,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 4663,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4686,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4708,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4730,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4753,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4775,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4798,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4820,
+    "w": 303,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4842,
+    "w": 236,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4865,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4887,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4910,
+    "w": 88,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 4969,
+    "w": 253,
+    "h": 35
+   },
+   {
+    "x": 24,
+    "y": 5026,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 186,
+    "y": 5026,
+    "w": 35,
+    "h": 18
+   },
+   {
+    "x": 221,
+    "y": 5026,
+    "w": 78,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 5046,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 5065,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5146,
+    "w": 7,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 5146,
+    "w": 240,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 5167,
+    "w": 227,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 5226,
+    "w": 78,
+    "h": 21
+   },
+   {
+    "x": 99,
+    "y": 5228,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5294,
+    "w": 77,
+    "h": 21
+   },
+   {
+    "x": 98,
+    "y": 5296,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5362,
+    "w": 60,
+    "h": 21
+   },
+   {
+    "x": 82,
+    "y": 5364,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5430,
+    "w": 80,
+    "h": 21
+   },
+   {
+    "x": 102,
+    "y": 5432,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5498,
+    "w": 114,
+    "h": 21
+   },
+   {
+    "x": 136,
+    "y": 5500,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5566,
+    "w": 59,
+    "h": 21
+   },
+   {
+    "x": 81,
+    "y": 5568,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5634,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 79,
+    "y": 5636,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5702,
+    "w": 108,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 5767,
+    "w": 156,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 6018,
+    "w": 260,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 6039,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 6060,
+    "w": 283,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 6081,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 6102,
+    "w": 56,
+    "h": 21
+   },
+   {
+    "x": 103,
+    "y": 6102,
+    "w": 102,
+    "h": 21
+   },
+   {
+    "x": 205,
+    "y": 6102,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 209,
+    "y": 6104,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 6154,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 6175,
+    "w": 120,
+    "h": 21
+   },
+   {
+    "x": 145,
+    "y": 6175,
+    "w": 98,
+    "h": 21
+   },
+   {
+    "x": 243,
+    "y": 6175,
+    "w": 34,
+    "h": 21
+   },
+   {
+    "x": 277,
+    "y": 6175,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 6198,
+    "w": 28,
+    "h": 21
+   },
+   {
+    "x": 49,
+    "y": 6198,
+    "w": 45,
+    "h": 21
+   },
+   {
+    "x": 127,
+    "y": 6298,
+    "w": 106,
+    "h": 23
+   },
+   {
+    "x": 72,
+    "y": 6400,
+    "w": 39,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 6706,
+    "w": 203,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 6726,
+    "w": 122,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 6706,
+    "w": 173,
+    "h": 21
+   },
+   {
+    "x": 341,
+    "y": 6726,
+    "w": 164,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7002,
+    "w": 43,
+    "h": 21
+   },
+   {
+    "x": 226,
+    "y": 7002,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7042,
+    "w": 50,
+    "h": 21
+   },
+   {
+    "x": 226,
+    "y": 7042,
+    "w": 87,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7222,
+    "w": 90,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 7263,
+    "w": 111,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 7304,
+    "w": 83,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 7345,
+    "w": 79,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 7386,
+    "w": 80,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 7427,
+    "w": 149,
+    "h": 18
+   }
+  ]
+ }
+}

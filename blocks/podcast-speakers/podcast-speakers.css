@@ -1,0 +1,432 @@
+/* podcast-speakers — main.css @357180–360118 (prototype css/campaign.css), values verbatim;
+   authored heading / paragraphs / pictures styled through descendant selectors (EW2) */
+
+.podcast-speakers {
+  margin: 2.5rem 0;
+}
+
+@media (width >= 58.75rem) {
+  .podcast-speakers {
+    margin: 5rem 0;
+  }
+}
+
+@media (width >= 64rem) {
+  .podcast-speakers {
+    margin-right: 64px;
+  }
+}
+
+@media (width >= 120.001rem) {
+  .podcast-speakers {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 84vw;
+    padding: 0;
+  }
+}
+
+.podcast-speakers .podcast-speakers-inner {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.5rem;
+}
+
+.podcast-speakers .podcast-speakers-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+  row-gap: 1rem;
+}
+
+@media (width >= 58.75rem) {
+  .podcast-speakers .podcast-speakers-wrapper {
+    flex-direction: row;
+  }
+}
+
+@media (width >= 88.5rem) {
+  .podcast-speakers .podcast-speakers-wrapper {
+    justify-content: flex-start;
+    min-width: 50%;
+  }
+}
+
+.podcast-speakers .podcast-speakers-title :is(h1, h2, h3, h4) {
+  display: block;
+  font-weight: 300;
+  margin-bottom: 0;
+  padding-right: 1rem;
+}
+
+.podcast-speakers .podcast-speakers-container {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+@media (width <= 58.749rem) {
+  .podcast-speakers .podcast-speakers-container {
+    gap: 40px;
+    justify-content: center;
+  }
+}
+
+.podcast-speakers .podcast-speakers-info {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 25rem;
+  width: calc(33.3% - 50px);
+}
+
+@media (width >= 88.5rem) {
+  .podcast-speakers .podcast-speakers-info {
+    width: calc(25% - 50px);
+  }
+}
+
+@media (width <= 58.749rem) {
+  .podcast-speakers .podcast-speakers-info {
+    align-items: center;
+    max-width: 21.5625rem;
+    text-align: center;
+    width: 90vw;
+  }
+}
+
+.podcast-speakers .podcast-speakers-info p {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  margin: 0;
+}
+
+.podcast-speakers .podcast-speakers-image picture {
+  display: block;
+}
+
+.podcast-speakers .podcast-speakers-image img {
+  border-radius: 50%;
+  display: block;
+  height: 100%;
+  margin-bottom: 1.5rem;
+  max-height: 9.5rem;
+  max-width: 9.5rem;
+  object-fit: cover;
+  width: auto;
+}
+
+@media (width <= 58.749rem) {
+  .podcast-speakers .podcast-speakers-image img {
+    margin-bottom: .5rem;
+    max-height: 7.5rem;
+    max-width: 7.5rem;
+  }
+}
+
+.podcast-speakers .podcast-speakers-name {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+@media (width <= 63.999rem) {
+  .podcast-speakers .podcast-speakers-name {
+    font-size: 1.125rem;
+    margin-bottom: .625rem;
+  }
+}
+
+.podcast-speakers .podcast-speakers-company {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+@media (width <= 58.749rem) {
+  .podcast-speakers .podcast-speakers-company {
+    font-size: 1rem;
+  }
+}
+
+.podcast-speakers .podcast-speakers-social-links,
+.podcast-speakers .podcast-speakers-social-links p {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.podcast-speakers .podcast-speakers-social-links a {
+  color: #000;
+  line-height: 1.4;
+  margin-right: .3125rem;
+}
+
+.podcast-speakers .podcast-speakers-social-links svg {
+  fill: currentcolor;
+  height: 1.5rem;
+  margin-left: .125rem;
+  margin-top: .5rem;
+  width: 1.5rem;
+}
+
+.podcast-speakers .podcast-speakers-link-label {
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.podcast-speakers .podcast-speakers-description {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+@media (width <= 58.749rem) {
+  .podcast-speakers .podcast-speakers-description {
+    margin-top: .5rem;
+    text-align: center;
+  }
+}
+
+/* the description is source rich text (.podcast-speakers__description.text-content): its
+   paragraphs keep the global p metrics (main.css @30999–31107 font-size 1.5vw / 16px / 20px,
+   line-height 1.4) and the text-content p rules (margin-bottom .8em, max-width 38em) — not the
+   inherited 1.25rem / normal of the name and company lines (/geo-quick-start 360: 16px / 22.4px,
+   speaker rows were +31 / +57 / +8 px) */
+.podcast-speakers .podcast-speakers-info .podcast-speakers-description p {
+  font-size: 1.5vw;
+  line-height: 1.4;
+  margin: 0 0 .8em;
+  max-width: 38em;
+}
+
+@media (width <= 1066.6667px) {
+  .podcast-speakers .podcast-speakers-info .podcast-speakers-description p {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1333.3333px) {
+  .podcast-speakers .podcast-speakers-info .podcast-speakers-description p {
+    font-size: 20px;
+  }
+}
+
+/* variant `blue` — source .podcast-speakers.blue-theme (main.css .blue-theme +
+   .podcast-speakers.blue-theme rules, values verbatim) */
+.podcast-speakers.blue {
+  background-color: #002fa7;
+  color: #fff;
+  margin-block: 0;
+  padding: 2.5rem 0;
+}
+
+.podcast-speakers.blue svg {
+  color: #fff;
+}
+
+@media (width >= 58.75rem) {
+  .podcast-speakers.blue {
+    padding: 5rem 0;
+  }
+}
+
+/* variant `dark` — source .podcast-speakers.dark-theme (main.css .dark-theme +
+   .podcast-speakers.dark-theme rules, values verbatim; offering cluster) */
+.podcast-speakers.dark {
+  background-color: #000;
+  color: #fff;
+  margin-block: 0;
+  padding: 2.5rem 0;
+}
+
+.podcast-speakers.dark svg {
+  color: #fff;
+}
+
+@media (width >= 58.75rem) {
+  .podcast-speakers.dark {
+    padding: 5rem 0;
+  }
+}
+
+/* variant `ie-hub` — source div.podcast-speakers.podcast-speakers--section.ie-hub-page
+   .white-theme (hub pages, main.css @357180–362104, prototypes/css/microsite.css): white band,
+   no side-column margin, the .section__container.centralized column and a "/ TITLE" eyebrow */
+.podcast-speakers.ie-hub {
+  background-color: #fff;
+  color: #000;
+  margin-block: 0;
+  max-width: 100%;
+  padding: 2.5rem 0;
+}
+
+@media (width >= 58.75rem) {
+  .podcast-speakers.ie-hub {
+    margin-right: auto;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+}
+
+/* source `.white-theme + .white-theme` (@42520, @42570) across sections */
+main .section:has(> div:last-child > :is(.white-theme, .ie-hub.featured-verticals-block))
++ .section > div:first-child > .podcast-speakers.ie-hub {
+  padding-top: 0 !important;
+}
+
+.podcast-speakers.ie-hub .podcast-speakers-inner {
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (width >= 39rem) {
+  .podcast-speakers.ie-hub .podcast-speakers-inner {
+    gap: 0;
+    padding: 5rem 1.5rem 6.25rem;
+  }
+
+  main .section:has(> div:last-child > :is(.white-theme, .ie-hub.featured-verticals-block))
+  + .section > div:first-child > .podcast-speakers.ie-hub .podcast-speakers-inner {
+    padding-top: 0;
+  }
+}
+
+@media (width >= 52.125rem) {
+  .podcast-speakers.ie-hub .podcast-speakers-inner {
+    max-width: 77.5%;
+  }
+}
+
+@media (width >= 80rem) {
+  .podcast-speakers.ie-hub .podcast-speakers-inner {
+    max-width: 79.5%;
+  }
+}
+
+@media (width >= 90rem) {
+  .podcast-speakers.ie-hub .podcast-speakers-inner {
+    max-width: 78.5%;
+  }
+}
+
+@media (width >= 108rem) {
+  .podcast-speakers.ie-hub .podcast-speakers-inner {
+    max-width: 77%;
+  }
+}
+
+@media (width >= 120rem) {
+  .podcast-speakers.ie-hub .podcast-speakers-inner {
+    max-width: 1440px;
+  }
+}
+
+.podcast-speakers.ie-hub .podcast-speakers-title :is(h1, h2, h3, h4) {
+  font-family: var(--font-sans);
+  font-size: clamp(.75rem, .75rem + 2 * (100vw - 24.375rem) / 234, .875rem);
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.4;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+@media (width >= 52.125rem) {
+  .podcast-speakers.ie-hub .podcast-speakers-title :is(h1, h2, h3, h4) {
+    font-size: clamp(.875rem, .875rem + 6 * (100vw - 52.125rem) / 446, 1.25rem);
+  }
+}
+
+.podcast-speakers.ie-hub .podcast-speakers-title :is(h1, h2, h3, h4)::before {
+  color: #d1d3ca;
+  content: "/";
+  font-weight: 400;
+  margin-right: .1875rem;
+}
+
+/* pitch beside the title (source .podcast-speakers__pitch, main.css @358156–358628; offering sibling
+   /es-es/servicios/revolucion-del-dato-y-ia) */
+.podcast-speakers .podcast-speakers-pitch {
+  font-size: 1rem;
+  padding-right: 3.75rem;
+}
+
+.podcast-speakers .podcast-speakers-pitch p {
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+}
+
+@media (width >= 58.749rem) {
+  .podcast-speakers .podcast-speakers-pitch {
+    font-size: 1.25rem;
+    width: 440px;
+  }
+}
+
+@media (width >= 58.75rem) {
+  .podcast-speakers .podcast-speakers-wrapper:has(.podcast-speakers-pitch) .podcast-speakers-title {
+    max-width: 56.25rem;
+    width: 50%;
+  }
+}
+
+@media (width >= 88.5rem) {
+  .podcast-speakers .podcast-speakers-pitch {
+    max-width: 520px;
+  }
+}
+
+/* per-speaker CTA (source .podcast-speakers__button .button--tertiary, main.css @360118–361136) */
+.podcast-speakers .podcast-speakers-button p {
+  margin: 0;
+}
+
+.podcast-speakers .podcast-speakers-button .button {
+  background: none;
+  box-shadow: inset 0 0 0 2px #000;
+  color: #000;
+  font-size: 1.25rem;
+  font-weight: 350;
+  justify-content: center;
+  margin: 0;
+  min-width: 190px;
+  text-transform: none;
+}
+
+/* !important: the global mobile .button rule (styles.css, frozen) carries !important on font-size
+   and padding; the source's own block rule wins there (16px, 7.5px 40px — /es-es/servicios/
+   revolucion-del-dato-y-ia 360: CTA 39 px high, was 59 px) */
+@media (width <= 58.749rem) {
+  .podcast-speakers .podcast-speakers-button .button {
+    font-size: 1rem !important;
+    min-width: 173px;
+    padding: .46875rem 2.5rem !important;
+  }
+}
+
+.podcast-speakers .podcast-speakers-button .button :is(.after, .before) {
+  background: #000;
+  color: #fff;
+}
+
+.podcast-speakers:is(.blue, .dark) .podcast-speakers-button .button {
+  box-shadow: inset 0 0 0 2px #fff;
+  color: #fff;
+}
+
+.podcast-speakers.blue .podcast-speakers-button .button :is(.after, .before) {
+  background: #fff;
+  color: #002fa7;
+}
+
+.podcast-speakers.dark .podcast-speakers-button .button :is(.after, .before) {
+  color: #000;
+}

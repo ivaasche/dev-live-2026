@@ -1,0 +1,124 @@
+<body>
+  <header></header>
+  <main>
+    <div>
+      <div class="breadcrumbs">
+        <div><div><ul><li><a href="/">Home</a></li><li>Real-time intelligence with Microsoft Fabric</li></ul></div></div>
+      </div>
+    </div>
+    <div>
+      <div class="masthead-big-title">
+        <div><div><h1>Let&#8217;s&#8239;get real: Real business outcomes with Microsoft Fabric&#8217;s Real-Time Intelligence</h1></div></div>
+      </div>
+      <div class="author-details">
+        <div><div><p>Scott Hermes</p><p>VP - Azure Platform Architect for the Americas</p></div><div><picture><img src="https://content.da.live/aemcoder/c87ac39f/media/static/scott-hermes-150x150.webp" alt=""></picture></div></div>
+      </div>
+    </div>
+    <div>
+<p><em>Ever&#8239;wish&#8239;your dashboards could give you real answers, predict&#8239;what&#8217;s&#8239;next, or just show up-to-date information? Microsoft Fabric&#8217;s Real-Time Intelligence (RTI) is your new best friend. With new features and big Ignite announcements, RTI makes it easier than ever to turn live data into real decisions.&#8239;I&#8217;ll&#8239;cover&#8239;what&#8239;it is,&#8239;what&#8217;s&#8239;new,&#8239;what&#8217;s&#8239;coming, and why it matters.&#8239;&nbsp;</em></p>
+<p>RTI in Microsoft Fabric has made huge strides in 2025. With built-in anomaly detection, better event stream processing, and Copilot-powered queries,&#8239;it&#8217;s&#8239;now a powerful toolkit for building smart, responsive data systems. RTI means you can analyze and act on data as it happens. You can spot supply chain issues,&#8239;optimize&#8239;retail, or&#8239;monitor&#8239;infrastructure in real time, helping you make faster, smarter decisions.&#8239; &#8239;</p>
+<h2>Real-Time Intelligence, real quick&#8239;</h2>
+<p><picture><img src="https://content.da.live/aemcoder/c87ac39f/media/static/overview-of-fabric-rti.jpg" alt=""></picture></p>
+<p><em>Image courtesy of Microsoft &#8211; Real-Time Intelligence in a Day workshop&#8239; &#8239;</em></p>
+<p>For those of you unfamiliar with RTI, here is a crash course on the components:&#8239; &#8239; &#8239;</p>
+<ul>
+<li>
+<p><strong>Eventstream</strong>&#8239;&#8211; An ingestion and transformation tool that can handle to volume and scale of real time events whether they are machine signals or user actions on a website&#8239; &#8239;</p>
+</li>
+<li>
+<p><strong>Eventhouse</strong>&#8239;&#8211; Storage&#8239;optimized&#8239;for ingesting and analyzing real time data&#8239; &#8239;</p>
+</li>
+<li>
+<p><strong>KQL&#8239;Queryset</strong>&#8239;&#8211; A place to keep and share your Kusto Query Language (KQL) queries. KQL is designed to handle large data sets&#8239;quickly. FUN FACT: Kusto is&#8239;named after&#8239;the famous&#8239;explorer "Jacques Cousteau." You can explore data&#8239;in much the same way Cousteau&#8239;explored&#8239;the briny deep.&#8239; &#8239;</p>
+</li>
+<li>
+<p><strong>Activator&#8239;</strong>&#8211; Monitors data in real time and fires off&#8239;messages&#8239;to Teams or email when conditions are&#8239;met,&#8239;such as failed orders per user or customer calls in queue.&#8239; &#8239;</p>
+</li>
+<li>
+<p><strong>Real Time Dashboard</strong>&#8239;&#8211; Power BI designed to ingest and display real time data. Includes&#8239;auto-refresh&#8239;options&#8239;and tools such as&#8239;real-time&#8239;mapping of location data.&#8239; &#8239;</p>
+</li>
+</ul>
+<h2>What&#8217;s new?&#8239; &#8239;</h2>
+<p>The fun and headache of Microsoft Fabric is the speed at which new features are released. Yay! Something new! Crap! Something new to figure out!&#8239;Here are my favorite improvements to RTI that have been released over the past five months: &#8239;</p>
+<h3>Pause&#8239;and&#8239;resume for&#8239;eventstream&#8217;s&#8239;derived streams &#8239;</h3>
+<p>Managing Fabric capacity can be time consuming and frustrating; even more so when you cannot pause a resource that is eating up value CUs in your test and dev environments. Your only other&#8239;option&#8239;in the past was to&#8239;delete&#8239;when you were done. And who ever did that?&#8239;&#8239; &#8239;</p>
+<p>Good news! You can now pause your traffic for&#8239;your&#8239;derived stream. This capability gives&#8239;you&#8239;more&#8239;control and flexibility over their event-driven workflows.&#8239; &#8239;</p>
+<ul>
+<li>
+<p><strong>Save on Costs:</strong>&#8239;Pause event traffic during slow times or maintenance&#8212;no need to&#8239;delete&#8239;or rebuild streams.&#8239; &#8239;</p>
+</li>
+<li>
+<p><strong>Stay Up and Running:&#8239;</strong>Instantly resume traffic when&#8239;you&#8217;re&#8239;ready, so&#8239;there&#8217;s&#8239;less downtime and no complicated setup.&#8239; &#8239;</p>
+</li>
+<li>
+<p><strong>Use Resources Smarter:&#8239;</strong>Adjust throughput as your business needs&#8239;change, making your system more efficient.&#8239; &#8239;</p>
+</li>
+</ul>
+<p>Read all about it:<a href="https://learn.microsoft.com/en-us/fabric/real-time-intelligence/event-streams/pause-resume-data-streams?pivots=enhanced-capabilities" title="Pause and resume data streams&#8239;">&#8239;Pause and resume data streams&#8239;</a></p>
+<h3>Managed Private Endpoints&#8239;(MPE)&#8239;for&#8239;eventstream&#8239;</h3>
+<p>If you work in a highly regulated industry or are just&#8239;a big fan&#8239;of securing your data, you are going to be happy to use&#8239;MPE&#8239;for&#8239;Eventstream.</p>
+<p>You can&#8239;securely connect Azure Event Hubs and Azure IoT Hub to&#8239;Eventstream. All data&#8239;ingestion&#8239;goes&#8239;over a private&#8239;network. It helps you meet strict security and compliance requirements by keeping your data streaming and processing within a trusted boundary.&#8239;</p>
+<p>Get started today:&#8239;<a href="https://learn.microsoft.com/en-us/fabric/real-time-intelligence/event-streams/set-up-private-endpoint" title="&#8239;Connect to Azure resources securely using managed private endpoints.&#8239;">Connect to Azure resources securely using managed private endpoints.&#8239;</a></p>
+<h3>Use SQL to transform&#8239;eventstream&#8239;data&#8239;</h3>
+<p>Not ready to explore the depths of your data with KQL? Inwardly groaning and sighing at the prospect of learning yet another language (LYAL)? Then&#8239;you&#8239;will&#8239;be thrilled to know that your old&#8239;pal&#8239;SQL can be used to transform data&#8239;in&#8239;eventstream.</p>
+<p>You&#8217;re welcome!:<a href="https://learn.microsoft.com/en-us/fabric/real-time-intelligence/event-streams/process-events-using-sql-code-editor" title="Process events by using a SQL operator (preview)">&#8239;Process Events Using a SQL Operator&#8239;</a></p>
+<h3>Query Azure Monitor data in a KQL&#8239;queryset&#8239;</h3>
+<p>Your own Azure tenant is a fantastic candidate for RTI. Whether it is an unexpected spike in cost or&#8239;unexpected access, the sooner you can investigate it, the less the impact.&#8239;&#8239;</p>
+<p>Now, you can connect to Azure Monitor right from&#8239;a KQL&#8239;queryset. No need for manual connection strings. Just enter your Azure details and&#8239;you&#8217;re&#8239;good to go.&#8239;</p>
+<p><picture><img src="https://content.da.live/aemcoder/c87ac39f/media/static/azure-monitor-1.png" alt=""></picture></p>
+<p><picture><img src="https://content.da.live/aemcoder/c87ac39f/media/static/azure-monitor-2.png" alt=""></picture></p>
+<p>You enter the&#8239;details,&#8239;and Fabric makes the magic happen.&#8239;&#8239;</p>
+<h2>Who cares?&#8239;</h2>
+<p>You should!</p>
+<p>Unless your business model relies on you being the last to know something, I am sure there is a use case where you could&#8239;benefit&#8239;from getting more&#8239;accurate&#8239;data sooner.&#8239;&#8239;</p>
+<p>Still stumped? Here are some inspirational tales that should help you find some use cases in your own backyard:</p>
+<ul>
+<li>
+<p><strong>Unity Technologies</strong>&#8239;lost $110 million when its ad targeting engine relied on stale data, leading to poor predictions and a 37% stock drop.&#8239;&#8239;</p>
+</li>
+<li>
+<p><strong>British Airways</strong>&#8239;and a European e-commerce firm were fined millions for GDPR violations because they&#8239;couldn&#8217;t&#8239;detect threats in real time.&#8239;&#8239;</p>
+</li>
+<li>
+<p><strong>Uber</strong>&#8239;underpaid drivers by 2.6% over 2.5 years, resulting in a $45 million hit; all because of delayed data reconciliation.&#8239;</p>
+</li>
+</ul>
+<h2>What&#8217;s next?&#8239;</h2>
+<p>Here are some announcements we are hoping to hear at Microsoft Ignite, November 18&#8211;20.&#8239;&#8239; &#8239;</p>
+<h3>Azure Monitor DCR to&#8239;Eventhouse&#8239;&#8211; Public Preview&#8239;</h3>
+<p>Azure Monitor Data Collection Rules (DCRs) let you route data from the Azure Monitor agent (AMA) to various destinations, such as Azure Log Analytics and Event Hub. With the latest update, you can now send this data directly to a Fabric&#8239;Eventhouse&#8239;or an Azure Data Explorer cluster. When you do, destination tables are automatically created with the correct schema, making setup easier and ensuring your data is organized properly.&#8239; &#8239;</p>
+<h3>Eventhouse&#8239;Monitoring &#8211; General Availability&#8239;</h3>
+<p>You can use&#8239;Eventhouse&#8239;logs and metrics to&#8239;optimize&#8239;performance, resolve problems, and detect anomalies.&#8239;Eventhouse&#8239;provides detailed reports on query activity, data ingestion metrics, and any ingestion failures. All event and metric logs are stored in a read-only KQL database, which users can analyze using KQL&#8239;Querysets&#8239;and Real-Time Dashboards.&#8239; &#8239;</p>
+<h3>Eventstream&#8239;to Activator Destination &#8211; General Availability&#8239;</h3>
+<p>Activator&#8239;continuously watches real-time data as it flows into Microsoft Fabric via&#8239;Eventstream. When specific conditions or patterns are detected,&#8239;Activator&#8239;can automatically trigger actions, such as sending alerts, updating dashboards, or launching workflows&#8212;so you can respond instantly to important business events.&#8239; &#8239;</p>
+<h2>Ready to learn more?</h2>
+<p>I&#8239;didn&#8217;t&#8239;use the Magic 8 Ball or a predictive model. I just looked at the&#8239;<a href="https://roadmap.fabric.microsoft.com/?product=real-timeintelligence" title="Fabric Product Roadmap">Fabric Product Roadmap.&#8239; &#8239;</a></p>
+<p>Super excited for Real-Time Intelligence? Reach out to me at&#8239;<a href="mailto:scott.hermes@valtech.com">scott.hermes@valtech.com</a>&#8239;to find out how we can help you turn your real time data into&#8239;insights that lead to business value. &#8239;</p>
+<p>What are your predictions for the future of Fabric? What improvements are you looking forward to?&#8239;</p>
+      <div class="section-metadata">
+        <div><div>style</div><div>rte-block, base-top-indent</div></div>
+      </div>
+    </div>
+    <div>
+      <div class="contact-form">
+        <div><div><h2>Let&#8217;s connect</h2></div></div>
+        <div><div><p>Fill in your details and kickstart your transformation journey.<br><br>Should you need an alternative format and/or communication support to provide feedback please contact&nbsp;<a href="mailto:sheree.atcheson@valtech.com">Sheree Atcheson.</a></p></div></div>
+        <div><div>form</div><div>3404</div></div>
+        <div><div>munchkin</div><div>353-SAE-487</div></div>
+        <div><div>host</div><div>go.valtech.com</div></div>
+      </div>
+    </div>
+    <div>
+      <div class="metadata">
+        <div><div>Title</div><div>Real-time intelligence with Microsoft Fabric | Valtech</div></div>
+        <div><div>Description</div><div>Microsoft Fabric&#8217;s Real-Time Intelligence (RTI) makes it easier than ever to turn live data into real decisions.</div></div>
+        <div><div>og:title</div><div>Real-time intelligence with Microsoft Fabric</div></div>
+        <div><div>og:description</div><div>Microsoft Fabric&#8217;s Real-Time Intelligence (RTI) makes it easier than ever to turn live data into real decisions.</div></div>
+        <div><div>og:locale</div><div>en_US</div></div>
+        <div><div>twitter:title</div><div>Real-time intelligence with Microsoft Fabric</div></div>
+        <div><div>twitter:description</div><div>Microsoft Fabric&#8217;s Real-Time Intelligence (RTI) makes it easier than ever to turn live data into real decisions.</div></div>
+      </div>
+    </div>
+  </main>
+  <footer></footer>
+</body>

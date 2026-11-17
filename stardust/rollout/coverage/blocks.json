@@ -1,0 +1,579 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-13T15:09:10.788Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-14T09:21:21.545Z",
+  "blocks": [
+    {
+      "id": "expandable-faq-block",
+      "label": "expandable-faq-block",
+      "kind": "module",
+      "signature": "module:expandable-faq-block",
+      "source": null,
+      "usedByTemplates": [
+        "es-es-blog-la-era-de-los-agentes-de-ia"
+      ],
+      "usedByPages": [
+        "es-es-blog-asi-se-creo-valtech-concierge",
+        "es-es-blog-como-marcas-locales-escalan-de-forma-diferente",
+        "es-es-blog-el-geo-como-la-nueva-frontera-de-la-visibilidad-digital",
+        "es-es-blog-embedding-ai-in-government-case-management",
+        "es-es-blog-estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion",
+        "es-es-blog-ia-transforma-busquedas-y-webs-de-marca",
+        "es-es-blog-la-era-de-los-agentes-de-ia",
+        "es-es-blog-presentamos-el-muro-de-datos-b2b",
+        "es-es-casos-lexus-europa",
+        "es-es-eventos-ai-in-retail-from-pilots-to-performanceexclusive",
+        "es-es-eventos-google-cloud-and-valtech-roundtable",
+        "es-es-eventos-valtech-at-shoptalk-europe-2026",
+        "es-es-eventos-valtech-optimizely-at-resume-martech-2026",
+        "es-es-noticias-conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds",
+        "es-es-noticias-valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente",
+        "es-es-quienes-somos",
+        "leap-into-composable-commerce"
+      ],
+      "instanceCount": 17,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "expandable-faq-block",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "faq-block",
+      "label": "faq-block",
+      "kind": "module",
+      "signature": "module:faq-block",
+      "source": null,
+      "usedByTemplates": [
+        "valtech-conversion-engine"
+      ],
+      "usedByPages": [
+        "ai-first-product-operating-model",
+        "content-supply-chain",
+        "digital-consulting-discovery-call",
+        "enterprise-ai-foundations-financial-services",
+        "es-es-guia-para-la-empresa-inteligente",
+        "es-es-retail-en-la-encrucijada-2026",
+        "es-es-servicios-revolucion-del-dato-y-ia",
+        "es-es-whitepapers-el-ciclo-de-relevancia-de-las-marcas",
+        "experience-innovation3",
+        "geo-quick-start",
+        "is-your-adobe-investment-delivering",
+        "retail-at-the-crossroads-2026",
+        "valtech-agentic-commerce-catalyst",
+        "valtech-conversion-engine",
+        "valtech-enterprise-ai-foundations"
+      ],
+      "instanceCount": 15,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "faq-block",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "featured-verticals-block",
+      "label": "featured-verticals-block",
+      "kind": "module",
+      "signature": "module:featured-verticals-block",
+      "source": null,
+      "usedByTemplates": [
+        "es-es-la-empresa-inteligente-operar",
+        "index"
+      ],
+      "usedByPages": [
+        "es-es",
+        "es-es-la-empresa-inteligente",
+        "es-es-la-empresa-inteligente-crecer",
+        "es-es-la-empresa-inteligente-liderar",
+        "es-es-la-empresa-inteligente-modelo-operativo",
+        "es-es-la-empresa-inteligente-operar",
+        "es-es-la-empresa-inteligente-organizar",
+        "index",
+        "the-intelligent-enterprise"
+      ],
+      "instanceCount": 9,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "featured-verticals-block",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "features-showcase",
+      "label": "features-showcase",
+      "kind": "module",
+      "signature": "module:features-showcase",
+      "source": null,
+      "usedByTemplates": [
+        "es-es-blog-la-era-de-los-agentes-de-ia",
+        "es-es-la-empresa-inteligente-operar",
+        "valtech-conversion-engine"
+      ],
+      "usedByPages": [
+        "ai-first-product-operating-model",
+        "content-supply-chain",
+        "digital-consulting-discovery-call",
+        "enterprise-ai-foundations-financial-services",
+        "es-es-blog-asi-se-creo-valtech-concierge",
+        "es-es-blog-como-marcas-locales-escalan-de-forma-diferente",
+        "es-es-blog-el-geo-como-la-nueva-frontera-de-la-visibilidad-digital",
+        "es-es-blog-embedding-ai-in-government-case-management",
+        "es-es-blog-estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion",
+        "es-es-blog-ia-transforma-busquedas-y-webs-de-marca",
+        "es-es-blog-la-era-de-los-agentes-de-ia",
+        "es-es-blog-presentamos-el-muro-de-datos-b2b",
+        "es-es-casos-lexus-europa",
+        "es-es-eventos-ai-in-retail-from-pilots-to-performanceexclusive",
+        "es-es-eventos-google-cloud-and-valtech-roundtable",
+        "es-es-eventos-valtech-at-shoptalk-europe-2026",
+        "es-es-eventos-valtech-optimizely-at-resume-martech-2026",
+        "es-es-guia-para-la-empresa-inteligente",
+        "es-es-la-empresa-inteligente",
+        "es-es-la-empresa-inteligente-crecer",
+        "es-es-la-empresa-inteligente-liderar",
+        "es-es-la-empresa-inteligente-modelo-operativo",
+        "es-es-la-empresa-inteligente-operar",
+        "es-es-la-empresa-inteligente-organizar",
+        "es-es-noticias-conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds",
+        "es-es-noticias-valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente",
+        "es-es-quienes-somos",
+        "es-es-retail-en-la-encrucijada-2026",
+        "es-es-servicios-revolucion-del-dato-y-ia",
+        "es-es-whitepapers-el-ciclo-de-relevancia-de-las-marcas",
+        "experience-innovation3",
+        "geo-quick-start",
+        "is-your-adobe-investment-delivering",
+        "leap-into-composable-commerce",
+        "retail-at-the-crossroads-2026",
+        "the-intelligent-enterprise",
+        "valtech-agentic-commerce-catalyst",
+        "valtech-conversion-engine",
+        "valtech-enterprise-ai-foundations"
+      ],
+      "instanceCount": 39,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "features-showcase",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero-block",
+      "label": "hero-block",
+      "kind": "module",
+      "signature": "module:hero-block",
+      "source": null,
+      "usedByTemplates": [
+        "es-es-la-empresa-inteligente-operar",
+        "index"
+      ],
+      "usedByPages": [
+        "es-es",
+        "es-es-la-empresa-inteligente",
+        "es-es-la-empresa-inteligente-crecer",
+        "es-es-la-empresa-inteligente-liderar",
+        "es-es-la-empresa-inteligente-modelo-operativo",
+        "es-es-la-empresa-inteligente-operar",
+        "es-es-la-empresa-inteligente-organizar",
+        "index",
+        "the-intelligent-enterprise"
+      ],
+      "instanceCount": 9,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "hero-block",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "highlighted-cta-block",
+      "label": "highlighted-cta-block",
+      "kind": "module",
+      "signature": "module:highlighted-cta-block",
+      "source": null,
+      "usedByTemplates": [
+        "es-es-blog-la-era-de-los-agentes-de-ia",
+        "valtech-conversion-engine"
+      ],
+      "usedByPages": [
+        "ai-first-product-operating-model",
+        "content-supply-chain",
+        "digital-consulting-discovery-call",
+        "enterprise-ai-foundations-financial-services",
+        "es-es-blog-asi-se-creo-valtech-concierge",
+        "es-es-blog-como-marcas-locales-escalan-de-forma-diferente",
+        "es-es-blog-el-geo-como-la-nueva-frontera-de-la-visibilidad-digital",
+        "es-es-blog-embedding-ai-in-government-case-management",
+        "es-es-blog-estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion",
+        "es-es-blog-ia-transforma-busquedas-y-webs-de-marca",
+        "es-es-blog-la-era-de-los-agentes-de-ia",
+        "es-es-blog-presentamos-el-muro-de-datos-b2b",
+        "es-es-casos-lexus-europa",
+        "es-es-eventos-ai-in-retail-from-pilots-to-performanceexclusive",
+        "es-es-eventos-google-cloud-and-valtech-roundtable",
+        "es-es-eventos-valtech-at-shoptalk-europe-2026",
+        "es-es-eventos-valtech-optimizely-at-resume-martech-2026",
+        "es-es-guia-para-la-empresa-inteligente",
+        "es-es-noticias-conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds",
+        "es-es-noticias-valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente",
+        "es-es-quienes-somos",
+        "es-es-retail-en-la-encrucijada-2026",
+        "es-es-servicios-revolucion-del-dato-y-ia",
+        "es-es-whitepapers-el-ciclo-de-relevancia-de-las-marcas",
+        "experience-innovation3",
+        "geo-quick-start",
+        "is-your-adobe-investment-delivering",
+        "leap-into-composable-commerce",
+        "retail-at-the-crossroads-2026",
+        "valtech-agentic-commerce-catalyst",
+        "valtech-conversion-engine",
+        "valtech-enterprise-ai-foundations"
+      ],
+      "instanceCount": 32,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "highlighted-cta-block",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "homepage-cta-block",
+      "label": "homepage-cta-block",
+      "kind": "module",
+      "signature": "module:homepage-cta-block",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "es-es",
+        "index"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "homepage-cta-block",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "insight-header",
+      "label": "insight-header",
+      "kind": "module",
+      "signature": "module:insight-header",
+      "source": null,
+      "usedByTemplates": [
+        "es-es-blog"
+      ],
+      "usedByPages": [
+        "es-es-blog",
+        "es-es-casos",
+        "es-es-content-hub",
+        "es-es-eventos",
+        "es-es-noticias",
+        "es-es-podcasts",
+        "es-es-whitepapers"
+      ],
+      "instanceCount": 7,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "insight-header",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "insights-filter",
+      "label": "insights-filter",
+      "kind": "module",
+      "signature": "module:insights-filter",
+      "source": null,
+      "usedByTemplates": [
+        "es-es-blog"
+      ],
+      "usedByPages": [
+        "es-es-blog",
+        "es-es-casos",
+        "es-es-content-hub",
+        "es-es-eventos",
+        "es-es-noticias",
+        "es-es-podcasts",
+        "es-es-whitepapers"
+      ],
+      "instanceCount": 7,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "insights-filter",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "masthead-big-title",
+      "label": "masthead-big-title",
+      "kind": "module",
+      "signature": "module:masthead-big-title",
+      "source": null,
+      "usedByTemplates": [
+        "es-es-aviso-legal"
+      ],
+      "usedByPages": [
+        "es-es-aviso-legal",
+        "es-es-politica-de-cookies",
+        "es-es-politica-privacidad",
+        "fabric-real-time-intelligence"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "masthead-big-title",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "masthead-blurred",
+      "label": "masthead-blurred",
+      "kind": "module",
+      "signature": "module:masthead-blurred",
+      "source": null,
+      "usedByTemplates": [
+        "es-es-blog-la-era-de-los-agentes-de-ia"
+      ],
+      "usedByPages": [
+        "es-es-blog-asi-se-creo-valtech-concierge",
+        "es-es-blog-como-marcas-locales-escalan-de-forma-diferente",
+        "es-es-blog-el-geo-como-la-nueva-frontera-de-la-visibilidad-digital",
+        "es-es-blog-embedding-ai-in-government-case-management",
+        "es-es-blog-estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion",
+        "es-es-blog-ia-transforma-busquedas-y-webs-de-marca",
+        "es-es-blog-la-era-de-los-agentes-de-ia",
+        "es-es-blog-presentamos-el-muro-de-datos-b2b",
+        "es-es-casos-lexus-europa",
+        "es-es-eventos-ai-in-retail-from-pilots-to-performanceexclusive",
+        "es-es-eventos-google-cloud-and-valtech-roundtable",
+        "es-es-eventos-valtech-at-shoptalk-europe-2026",
+        "es-es-eventos-valtech-optimizely-at-resume-martech-2026",
+        "es-es-noticias-conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds",
+        "es-es-noticias-valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente",
+        "es-es-quienes-somos",
+        "leap-into-composable-commerce"
+      ],
+      "instanceCount": 17,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "masthead-blurred",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "masthead-primary",
+      "label": "masthead-primary",
+      "kind": "module",
+      "signature": "module:masthead-primary",
+      "source": null,
+      "usedByTemplates": [
+        "ai-searchandizing-workshop"
+      ],
+      "usedByPages": [
+        "ai-assessment",
+        "ai-mythbusting",
+        "ai-readiness-starts-here",
+        "ai-searchandizing-workshop",
+        "b2b-portal-discovery-workshop",
+        "becoming-a-connected-manufacturer",
+        "composable-enterprise-assessment",
+        "digitalxelerate",
+        "enterprise-ai-foundations-vtiq",
+        "es-es-nuestros-partners",
+        "es-es-retail-maturity-assessment",
+        "es-es-thread-magazine",
+        "gear-accelerator",
+        "health-digital-leadership-roundtables",
+        "innovation-marathon-2027",
+        "intelligent-journeys",
+        "retail-maturity-assessment"
+      ],
+      "instanceCount": 17,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "masthead-primary",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "masthead-services",
+      "label": "masthead-services",
+      "kind": "module",
+      "signature": "module:masthead-services",
+      "source": null,
+      "usedByTemplates": [
+        "digital-media-performance-marketing"
+      ],
+      "usedByPages": [
+        "brand-strategy-design-agency",
+        "creative-content",
+        "dataprod",
+        "digital-media-performance-marketing",
+        "es-es-carrera",
+        "es-es-diversidad-e-inclusion",
+        "es-es-industrias",
+        "es-es-nuestros-partners-oracle",
+        "es-es-servicios",
+        "es-es-trabajar-en-valtech",
+        "experience-innovation",
+        "experience-innovation-on-azure",
+        "lead-scoring",
+        "meet-the-expert-vera-schnitzlein",
+        "next2025-highlights",
+        "valtech-and-salesforce",
+        "valtech-ukraine-in-media"
+      ],
+      "instanceCount": 17,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "masthead-services",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "masthead-two-columns-cta",
+      "label": "masthead-two-columns-cta",
+      "kind": "module",
+      "signature": "module:masthead-two-columns-cta",
+      "source": null,
+      "usedByTemplates": [
+        "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+        "valtech-conversion-engine"
+      ],
+      "usedByPages": [
+        "ai-first-product-operating-model",
+        "content-supply-chain",
+        "digital-consulting-discovery-call",
+        "enterprise-ai-foundations-financial-services",
+        "es-es-guia-para-la-empresa-inteligente",
+        "es-es-retail-en-la-encrucijada-2026",
+        "es-es-servicios-revolucion-del-dato-y-ia",
+        "es-es-thread-magazine-edition-10-the-experience-loop",
+        "es-es-whitepapers-el-ciclo-de-relevancia-de-las-marcas",
+        "es-es-whitepapers-el-giro-hacia-la-ia",
+        "es-es-whitepapers-experiencias-inteligentes",
+        "es-es-whitepapers-fidelizacion-digital-sector-sanitario",
+        "es-es-whitepapers-guia-estrategica-salud-digital-optimizely-2026",
+        "es-es-whitepapers-infome-la-era-del-comercio-conversacional-2026",
+        "es-es-whitepapers-informe-tendencias-cliente-movilidad-2026",
+        "es-es-whitepapers-la-era-agentica-tendencias-de-la-ia-empresarial-2026",
+        "es-es-whitepapers-la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software",
+        "es-es-whitepapers-la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026",
+        "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2025",
+        "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+        "es-es-whitepapers-retail-en-la-encrucijada-2026",
+        "es-es-whitepapers-transformar-los-servicios-financieros-la-inteligencia-a-gran-escala",
+        "experience-innovation3",
+        "geo-quick-start",
+        "is-your-adobe-investment-delivering",
+        "retail-at-the-crossroads-2026",
+        "valtech-agentic-commerce-catalyst",
+        "valtech-conversion-engine",
+        "valtech-enterprise-ai-foundations"
+      ],
+      "instanceCount": 29,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "masthead-two-columns-cta",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "quote-block",
+      "label": "quote-block",
+      "kind": "module",
+      "signature": "module:quote-block",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "es-es",
+        "index"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "quote-block",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "registration-form",
+      "label": "registration-form",
+      "kind": "module",
+      "signature": "module:registration-form",
+      "source": null,
+      "usedByTemplates": [
+        "es-es-la-empresa-inteligente-operar"
+      ],
+      "usedByPages": [
+        "es-es-la-empresa-inteligente",
+        "es-es-la-empresa-inteligente-crecer",
+        "es-es-la-empresa-inteligente-liderar",
+        "es-es-la-empresa-inteligente-modelo-operativo",
+        "es-es-la-empresa-inteligente-operar",
+        "es-es-la-empresa-inteligente-organizar",
+        "the-intelligent-enterprise"
+      ],
+      "instanceCount": 7,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "registration-form",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "related-cases",
+      "label": "related-cases",
+      "kind": "module",
+      "signature": "module:related-cases",
+      "source": null,
+      "usedByTemplates": [
+        "es-es-la-empresa-inteligente-operar"
+      ],
+      "usedByPages": [
+        "es-es-la-empresa-inteligente",
+        "es-es-la-empresa-inteligente-crecer",
+        "es-es-la-empresa-inteligente-liderar",
+        "es-es-la-empresa-inteligente-modelo-operativo",
+        "es-es-la-empresa-inteligente-operar",
+        "es-es-la-empresa-inteligente-organizar",
+        "the-intelligent-enterprise"
+      ],
+      "instanceCount": 7,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "related-cases",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

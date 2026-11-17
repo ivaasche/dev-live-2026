@@ -1,0 +1,66 @@
+{
+  "a": "stardust/replica/gates/all-360/es-es-whitepapers-informe-tendencias-cliente-movilidad-2026/origin.png",
+  "b": "stardust/replica/gates/all-360/es-es-whitepapers-informe-tendencias-cliente-movilidad-2026/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3794,
+    "mode": "overlap"
+  },
+  "heightDelta": -64,
+  "differingPixels": 83825,
+  "pct": 6.14,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/es-es-whitepapers-informe-tendencias-cliente-movilidad-2026/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 11.8,
+  "textBoxes": 102,
+  "textPixels": 322412,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 5.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 6.6
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 4.8
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 5.5
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 4.8
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 17.8
+    },
+    {
+      "y0": 3500,
+      "y1": 3794,
+      "pct": 2.8
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--c87ac39f--aemcoder.aem.page/es-es/whitepapers/informe-tendencias-cliente-movilidad-2026"
+  }
+}

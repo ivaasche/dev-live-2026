@@ -1,0 +1,328 @@
+{
+  "slug": "enterprise-ai-foundations-financial-services",
+  "type": "offering",
+  "renderBranch": "A'",
+  "template": "valtech-conversion-engine",
+  "modules": [
+    "breadcrumbs",
+    "masthead-two-columns-cta",
+    "features-showcase",
+    "offering-masthead",
+    "image-block",
+    "case-rte",
+    "podcast-speakers",
+    "partners-block",
+    "highlighted-cta-block",
+    "marketo-form",
+    "teaser-block",
+    "faq-block"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "site-breadcrumbs",
+    "masthead-two-columns-cta",
+    "rte-block",
+    "features-showcase",
+    "offering-masthead",
+    "image-block",
+    "section",
+    "section",
+    "section",
+    "podcast-speakers",
+    "partners-block",
+    "highlighted-cta-block",
+    "rte-block",
+    "marketo-form-block",
+    "teaser-block",
+    "faq-block",
+    "site-footer",
+    "site-slope",
+    "site-slope",
+    "site-slope",
+    "modal",
+    "modal",
+    "modal",
+    "modal"
+  ],
+  "canonShas": {
+    "header": "73cff066609b",
+    "footer": "738b73f132f6",
+    "css": "8876c0e8d8d1"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Enterprise AI Foundation for financial services | Valtech",
+    "description": "Scale AI without increasing risk. Valtech's Enterprise AI Foundation helps financial institutions govern, audit, and operationalize AI with confidence.",
+    "canonical": "https://www.valtech.com/enterprise-ai-foundations-financial-services/",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Enterprise AI Foundation for financial services | Valtech",
+    "description": "Scale AI without increasing risk. Valtech's Enterprise AI Foundation helps financial institutions govern, audit, and operationalize AI with confidence.",
+    "url": "https://www.valtech.com/enterprise-ai-foundations-financial-services/"
+  },
+  "migratedAt": "2026-11-13T22:56:16Z",
+  "designMdSha": "9dc5e8267a4e",
+  "designJsonSha": "ec9a36425b28",
+  "sourceCurrentSha": "43eb5801dc6f",
+  "sourceProposedSha": "f6a05debf6f4",
+  "fidelityTier": "sibling",
+  "archetypeSource": "valtech-conversion-engine",
+  "archetypeSha": "6faf444abaa7",
+  "variants": [
+    "table.plain offering-masthead.list-20 podcast-speakers.dark"
+  ],
+  "gatesPassed": [
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "verbatim sibling encode of stardust/current/pages/enterprise-ai-foundations-financial-services.html into content/enterprise-ai-foundations-financial-services.html (archetype valtech-conversion-engine shape, stardust/.work/cluster-offering/build-content.py); published-origin gate 1440 14.9 % Δh -148 FAIL / 360 15.34 % Δh -139 FAIL (residual, round cap)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "heading-level",
+      "source": "offering-masthead h1 \"What this unlocks for FSI institutions\"",
+      "target": "h2 (styled as the source h1)",
+      "reason": "second source <h1>; EDS delivery lint requires exactly one h1"
+    }
+  ],
+  "assetsBundled": 11,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/work/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/partners/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offerings/experience-elevation/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offerings/commerce-acceleration/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offerings/enterprise-transformation/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offerings/marketing-creativity-performance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offerings/data-and-ai-revolution/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/career/jobs/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/valtech-as-workplace/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/diversity-inclusion/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/podcasts/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/whitepapers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content-hub/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blog/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/newsroom/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about/offices/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about/contact-us/keep-in-touch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-dk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr-fr/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de-de/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nl-nl/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sv-se/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-gb/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ca/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-ar/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt-br/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-mx/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-cn/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-in/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-sg/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/partners/google/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/partners/microsoft/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/partners/sitecore/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/partners/databricks/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/partners/salesforce/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/partners/adobe/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/partners/optimizely/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.valtech.com/privacy-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/whitepapers/rewiring-financial-services/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/work/discover/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/whitepapers/ai-in-the-software-development-lifecycle/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/work/global-financial-asset-manager/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about/offices/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/career/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privacy-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/cookie-statement/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/legal-notices/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about/accessibility/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about/stay-in-touch/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "enterprise-ai-foundations-financial-services/index.html",
+  "outputPathDefault": null,
+  "sidecar": "enterprise-ai-foundations-financial-services/_meta.json",
+  "driverVersion": "1"
+}

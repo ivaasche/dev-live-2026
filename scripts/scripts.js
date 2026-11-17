@@ -10,7 +10,38 @@ import {
   loadSections,
   loadCSS,
   buildBlock,
+  getMetadata,
 } from './aem.js';
+
+/**
+ * Locale trees served by this site: path prefix -> html lang. Pages outside every prefix are
+ * the English (global) tree. Chrome documents live per locale: /nav + /footer (English),
+ * /<prefix>/nav + /<prefix>/footer (see stardust/runtime-contract.json "chrome").
+ */
+const LOCALES = { 'es-es': 'es' };
+
+/**
+ * Returns the locale prefix of the current page (e.g. "es-es"), or "" for the English tree.
+ * @param {string} [pathname] defaults to the current location
+ * @returns {string}
+ */
+export function getLocale(pathname = window.location.pathname) {
+  const first = pathname.split('/')[1] || '';
+  return Object.keys(LOCALES).includes(first) ? first : '';
+}
+
+/**
+ * Resolves the chrome document for this page: the `nav` / `footer` page metadata wins,
+ * else the locale default (/nav, /es-es/nav, ...).
+ * @param {string} name "nav" or "footer"
+ * @returns {string} the document path
+ */
+export function chromePath(name) {
+  const meta = getMetadata(name);
+  if (meta) return new URL(meta, window.location).pathname;
+  const locale = getLocale();
+  return locale ? `/${locale}/${name}` : `/${name}`;
+}
 
 if (window.trustedTypes && window.trustedTypes.createPolicy) {
   const innerTT = window.trustedTypes.createPolicy('tt-inner', {
@@ -143,6 +174,25 @@ function decorateButtons(main) {
 }
 
 /**
+ * Adds the source hover-wipe spans to every button (canon: .button .before / .after).
+ * The label is mirrored into a data attribute; the authored text node stays in the anchor.
+ * @param {Element} root The container element
+ */
+export function decorateButtonWipes(root) {
+  root.querySelectorAll('a.button').forEach((a) => {
+    if (a.querySelector(':scope > .before')) return;
+    const before = document.createElement('span');
+    before.className = 'before';
+    before.setAttribute('aria-hidden', 'true');
+    before.dataset.label = a.textContent.trim();
+    const after = document.createElement('span');
+    after.className = 'after';
+    after.setAttribute('aria-hidden', 'true');
+    a.append(before, after);
+  });
+}
+
+/**
  * Decorates the main element.
  * @param {Element} main The main element
  */
@@ -153,6 +203,7 @@ export function decorateMain(main) {
   decorateSections(main);
   decorateBlocks(main);
   decorateButtons(main);
+  decorateButtonWipes(main);
 }
 
 /**
@@ -160,7 +211,8 @@ export function decorateMain(main) {
  * @param {Element} doc The container element
  */
 async function loadEager(doc) {
-  document.documentElement.lang = 'en';
+  import('./martech.js').then((m) => m.loadConsent());
+  document.documentElement.lang = LOCALES[getLocale()] || 'en';
   decorateTemplateAndTheme();
   const main = doc.querySelector('main');
   if (main) {
@@ -204,6 +256,7 @@ async function loadLazy(doc) {
  * without impacting the user experience.
  */
 function loadDelayed() {
+  import('./martech.js').then((m) => m.loadTags());
   import('./consent-check.js');
   // load anything that can be postponed to the latest here
 }

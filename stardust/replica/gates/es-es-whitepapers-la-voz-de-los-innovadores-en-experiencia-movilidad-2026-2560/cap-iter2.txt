@@ -1,0 +1,18 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.valtech.com/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2026/
+  other    1 capped box(es) outside the section tier (in the JSON) — e.g. 252px #frCap-widget
+  modules  7 sections: capped 810 ×3, 1057 ×1, 400 ×1 · full-bleed ×2
+  contentMaxWidth 810px (module) · shellMaxWidth fluid · root #valtech-content
+build  http://localhost:8791/es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026-proposed.html
+  modules  7 sections: capped 810 ×3, 1057 ×1, 400 ×1 · full-bleed ×2
+  contentMaxWidth 810px (module) · shellMaxWidth fluid · root #valtech-content
+rows
+  ✓ content cap: live 810px = build 810px (±20, shared module cap)
+  ✓ module 1/7: full-bleed on both
+  ✓ module 2/7: full-bleed on both
+  ✓ module 3/7: 810px = 810px
+  ✓ module 4/7: 1057px = 1057px
+  ✓ module 5/7: 400px = 400px
+  ✓ module 6/7: 810px = 810px
+  ✓ module 7/7: 810px = 810px
+cap-probe: PASS at 2560 — 0 of 8 rows failed (evidence stardust/replica/gates/es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026-2560/cap-iter2.json)

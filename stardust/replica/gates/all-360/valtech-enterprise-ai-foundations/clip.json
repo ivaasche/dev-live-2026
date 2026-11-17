@@ -1,0 +1,67 @@
+{
+ "url": "https://main--c87ac39f--aemcoder.aem.page/valtech-enterprise-ai-foundations",
+ "at": "2026-11-14T07:39:31.017Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 4,
+  "offPage": 10,
+  "textNodes": 130,
+  "controls": 60,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.results-statistics.block",
+   "path": "div.results-statistics-item > div.results-statistics-item-container > div.results-statistics-item-title > p",
+   "text": "10–15%",
+   "cutMin": 197,
+   "cutMax": 239
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.teaser-block-teaser",
+   "path": "div.flickity-viewport > div.flickity-slider > div.teaser-block-teaser > a.teaser-block-teaser-inner",
+   "text": "caseaccelerated software delivery with ai",
+   "cutMin": 224,
+   "cutMax": 224
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.teaser-block-teaser",
+   "path": "div.teaser-block-teaser > a.teaser-block-teaser-inner > hgroup.teaser-block-teaser-hgroup > h5#accelerated-software-delivery-with-ai",
+   "text": "accelerated software delivery with ai",
+   "cutMin": 131,
+   "cutMax": 131
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 4,
+   "offPage": 15,
+   "textNodes": 141,
+   "controls": 62,
+   "total": 0
+  }
+ }
+}

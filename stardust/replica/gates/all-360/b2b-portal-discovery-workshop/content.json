@@ -1,0 +1,4614 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T07:43:45.640Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/b2b-portal-discovery-workshop/",
+  "at": "2026-11-14T07:41:59.679Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6008,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.site-nav__menu-wrapper.site-nav__menu__labels > div.site-nav__logo > a.site-nav__logo__link",
+    "x": 24,
+    "y": 25,
+    "w": 80,
+    "h": 21,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > a.search-select.mobile",
+    "x": 232,
+    "y": 24,
+    "w": 22,
+    "h": 23,
+    "text": "go to search page",
+    "href": "/search/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open main menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open main menu",
+    "value": "open main menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > a",
+    "x": 24,
+    "y": 75,
+    "w": 41,
+    "h": 21,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 37,
+    "y": 97,
+    "w": 274,
+    "h": 21,
+    "label": "current",
+    "value": "valtech b2b portal discovery workshop",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 37,
+    "y": 97,
+    "w": 274,
+    "h": 21,
+    "text": "Valtech B2B portal discovery workshop"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary__text.masthead-primary__text--dark > hgroup.masthead-primary__hgroup > h1.masthead-primary__hgroup__title",
+    "x": 46,
+    "y": 350,
+    "w": 269,
+    "h": 55,
+    "level": 1,
+    "text": "b2b portal discovery workshop"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary__text.masthead-primary__text--dark > div.masthead-primary__lead > p",
+    "x": 46,
+    "y": 425,
+    "w": 269,
+    "h": 67,
+    "text": "Transform your B2B portal into a high-performing revenue and customer-experience"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary__media > picture > img",
+    "x": 24,
+    "y": 142,
+    "w": 312,
+    "h": 167,
+    "text": "",
+    "file": "manufacturing-b2b-online-atlanta-worksho"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > h2",
+    "x": 24,
+    "y": 572,
+    "w": 312,
+    "h": 101,
+    "level": 2,
+    "text": "is your b2b portal delivering on its promise?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 689,
+    "w": 312,
+    "h": 157,
+    "text": "Today’s B2B buyers, distributors, partners and internal teams expect fast, intui"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 858,
+    "w": 312,
+    "h": 90,
+    "text": "Our B2B portal discovery workshop helps you identify what it will take to turn y"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > h2",
+    "x": 24,
+    "y": 1008,
+    "w": 312,
+    "h": 67,
+    "level": 2,
+    "text": "why b2b portal performance matters"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 1091,
+    "w": 312,
+    "h": 45,
+    "text": "Ecommerce portals are becoming the primary growth engine for B2B:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > ul > li",
+    "x": 44,
+    "y": 1148,
+    "w": 292,
+    "h": 67,
+    "text": "56% of all U.S. B2B revenue in 2025 will come from digital channels — up from 32"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > ul > li",
+    "x": 44,
+    "y": 1228,
+    "w": 292,
+    "h": 67,
+    "text": "85% of sales teams’ administrative work can be eliminated through effective cust"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > ul > li",
+    "x": 44,
+    "y": 1308,
+    "w": 292,
+    "h": 67,
+    "text": "66% of B2B organizations are increasing their investment in customer portals in "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > h3",
+    "x": 24,
+    "y": 1436,
+    "w": 312,
+    "h": 86,
+    "level": 3,
+    "text": "however, most b2b portals still fail to meet expectations:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > ul > li",
+    "x": 44,
+    "y": 1538,
+    "w": 292,
+    "h": 45,
+    "text": "70% of distributors say their online commerce initiatives are “unsuccessful”"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > ul > li",
+    "x": 44,
+    "y": 1596,
+    "w": 292,
+    "h": 90,
+    "text": "80% of B2B ecommerce portal projects underperform on key KPIs such as adoption, "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > ul > li",
+    "x": 44,
+    "y": 1698,
+    "w": 292,
+    "h": 45,
+    "text": "35% of B2B portals remain “closed” experiences with limited integration"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > h2",
+    "x": 24,
+    "y": 1803,
+    "w": 312,
+    "h": 67,
+    "level": 2,
+    "text": "what this workshop includes:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 1886,
+    "w": 312,
+    "h": 67,
+    "text": "A 3–4 hour interactive session designed to help B2B organizations modernize, sca"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > ul > li",
+    "x": 44,
+    "y": 1966,
+    "w": 292,
+    "h": 67,
+    "text": "Assess where your portal sits today and map the user journeys that drive or bloc"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > ul > li",
+    "x": 44,
+    "y": 2046,
+    "w": 292,
+    "h": 90,
+    "text": "Evaluate the strength of your ERP, CRM, PIM and middleware integrations to uncov"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > ul > li",
+    "x": 44,
+    "y": 2148,
+    "w": 292,
+    "h": 90,
+    "text": "Analyze current vs. target sales through the portal to uncover opportunities for"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > ul > li",
+    "x": 44,
+    "y": 2251,
+    "w": 292,
+    "h": 112,
+    "text": "Assess AI search, predictive recommendations, smart bundles and emerging AI use "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > ul > li",
+    "x": 44,
+    "y": 2375,
+    "w": 292,
+    "h": 67,
+    "text": "We identify where your organization sits relative to peers and highlight where t"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > h2",
+    "x": 24,
+    "y": 2502,
+    "w": 312,
+    "h": 34,
+    "level": 2,
+    "text": "what you'll receive"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 2552,
+    "w": 312,
+    "h": 22,
+    "text": "A custom action plan outlining:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > ul > li",
+    "x": 44,
+    "y": 2587,
+    "w": 292,
+    "h": 22,
+    "text": "Portal adoption accelerators"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > ul > li",
+    "x": 44,
+    "y": 2622,
+    "w": 292,
+    "h": 45,
+    "text": "Integration & data improvement priorities"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > ul > li",
+    "x": 44,
+    "y": 2680,
+    "w": 292,
+    "h": 22,
+    "text": "UX and workflow enhancements"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > ul > li",
+    "x": 44,
+    "y": 2715,
+    "w": 292,
+    "h": 45,
+    "text": "AI, search and personalization opportunities"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > ul > li",
+    "x": 44,
+    "y": 2773,
+    "w": 292,
+    "h": 22,
+    "text": "Revenue and efficiency levers"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > ul > li",
+    "x": 44,
+    "y": 2808,
+    "w": 292,
+    "h": 22,
+    "text": "A 12–18 month prioritized roadmap"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > h2",
+    "x": 24,
+    "y": 2890,
+    "w": 312,
+    "h": 34,
+    "level": 2,
+    "text": "who should attend"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 2940,
+    "w": 312,
+    "h": 67,
+    "text": "This workshop is ideal for teams responsible for your portal’s performance, incl"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > ul > li",
+    "x": 44,
+    "y": 3020,
+    "w": 292,
+    "h": 22,
+    "text": "Digital and ecommerce leaders"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > ul > li",
+    "x": 44,
+    "y": 3055,
+    "w": 292,
+    "h": 22,
+    "text": "Customer and partner experience teams"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > ul > li",
+    "x": 44,
+    "y": 3090,
+    "w": 292,
+    "h": 22,
+    "text": "IT, architecture and product owners"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > ul > li",
+    "x": 44,
+    "y": 3125,
+    "w": 292,
+    "h": 22,
+    "text": "Sales operations and enablement"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 3161,
+    "w": 312,
+    "h": 90,
+    "text": "If you’re involved in improving adoption, modernization, integration, or revenue"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > h2",
+    "x": 24,
+    "y": 3310,
+    "w": 312,
+    "h": 101,
+    "level": 2,
+    "text": "ready to unlock the full potential of your b2b portal?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 3427,
+    "w": 312,
+    "h": 112,
+    "text": "Let’s explore how the B2B portal discovery workshop can support your organizatio"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.wrapper > div.podcast-speakers__wrapper > h2.podcast-speakers__title",
+    "x": 24,
+    "y": 3619,
+    "w": 312,
+    "h": 34,
+    "level": 2,
+    "text": "our expert"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > img.podcast-speakers__image",
+    "x": 121,
+    "y": 3693,
+    "w": 118,
+    "h": 120,
+    "text": "portrait of jared r. johnson",
+    "file": "portrait-jared-johnson-valtech"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__name",
+    "x": 123,
+    "y": 3821,
+    "w": 114,
+    "h": 23,
+    "text": "Jared Johnson"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__container > div.podcast-speakers__info > div.podcast-speakers__company",
+    "x": 67,
+    "y": 3854,
+    "w": 225,
+    "h": 21,
+    "text": "Head of B2B Strategy, Americas"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers__info > div.podcast-speakers__social-links > a.podcast-speakers__link",
+    "x": 165,
+    "y": 3875,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/jaredrobertjohnson/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-top-indent > div.rte-block__container.text-content > h2#schedule-a-call",
+    "x": 24,
+    "y": 4000,
+    "w": 312,
+    "h": 67,
+    "level": 2,
+    "text": "schedule a discovery call"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldWrap.convertedField > div.mktoHtmlText.mktoHasWidth > span",
+    "x": 22,
+    "y": 4137,
+    "w": 250,
+    "h": 42,
+    "text": "Fields marked with an asterisk are mandatory and must be filled in."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblFirstName",
+    "x": 22,
+    "y": 4220,
+    "w": 87,
+    "h": 16,
+    "text": "First Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblLastName",
+    "x": 22,
+    "y": 4288,
+    "w": 86,
+    "h": 16,
+    "text": "Last Name"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#Lead_title__c",
+    "x": 22,
+    "y": 4345,
+    "w": 317,
+    "h": 38,
+    "label": "job title *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblLead_title__c",
+    "x": 22,
+    "y": 4356,
+    "w": 69,
+    "h": 16,
+    "text": "Job Title"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblEmail",
+    "x": 22,
+    "y": 4424,
+    "w": 89,
+    "h": 16,
+    "text": "Work Email"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblCompany",
+    "x": 22,
+    "y": 4492,
+    "w": 124,
+    "h": 16,
+    "text": "Company Name"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#Industry",
+    "x": 22,
+    "y": 4549,
+    "w": 317,
+    "h": 38,
+    "label": "industry *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblIndustry",
+    "x": 22,
+    "y": 4560,
+    "w": 68,
+    "h": 16,
+    "text": "Industry"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#CountryCode",
+    "x": 22,
+    "y": 4617,
+    "w": 317,
+    "h": 38,
+    "label": "country *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblCountryCode",
+    "x": 22,
+    "y": 4628,
+    "w": 66,
+    "h": 16,
+    "text": "Country"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.convertedField > label#LblcommentCapture",
+    "x": 22,
+    "y": 4685,
+    "w": 317,
+    "h": 42,
+    "text": "Share your comments"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldWrap.mktoRequiredField > div.mktoLogicalField.mktoCheckboxList > label#LblmktoCheckbox_195002_0",
+    "x": 48,
+    "y": 4941,
+    "w": 291,
+    "h": 106,
+    "text": "I accept to receive relevant news and marketing communication from Valtech and I"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoLogicalField.mktoCheckboxList > label#LblmktoCheckbox_195002_0 > a",
+    "x": 103,
+    "y": 5025,
+    "w": 102,
+    "h": 21,
+    "text": "privacy notice",
+    "href": "/privacy-notice/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 22,
+    "y": 5078,
+    "w": 302,
+    "h": 42,
+    "text": "This site is protected by CAPTCHA and the Friendly Captcha"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893 > a",
+    "x": 145,
+    "y": 5099,
+    "w": 98,
+    "h": 21,
+    "text": "privacy policy",
+    "href": "/legal/privacy-end-users/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 22,
+    "y": 5099,
+    "w": 316,
+    "h": 43,
+    "text": "and"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.NormalTextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893 > a",
+    "x": 22,
+    "y": 5099,
+    "w": 316,
+    "h": 43,
+    "text": "terms of use",
+    "href": "/legal/terms/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 49,
+    "y": 5121,
+    "w": 45,
+    "h": 21,
+    "text": "apply."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoButtonRow > span.mktoButtonWrap.mktoSimple > button.mktoButton.button",
+    "x": 85,
+    "y": 5203,
+    "w": 190,
+    "h": 59,
+    "text": "send request"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 16,
+    "y": 5390,
+    "w": 43,
+    "h": 21,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 226,
+    "y": 5390,
+    "w": 44,
+    "h": 21,
+    "text": "about",
+    "href": "/about/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 16,
+    "y": 5430,
+    "w": 50,
+    "h": 21,
+    "text": "offices",
+    "href": "/about/offices/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 226,
+    "y": 5430,
+    "w": 87,
+    "h": 21,
+    "text": "who we are",
+    "href": "/career/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer__column.site-footer__stamp > picture > img",
+    "x": 16,
+    "y": 5469,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "badge-no-outline"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer__links > aside.site-footer__column.site-footer__stamp > a",
+    "x": 274,
+    "y": 5469,
+    "w": 64,
+    "h": 70,
+    "text": "sustainability stamp",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 274,
+    "y": 5469,
+    "w": 64,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "cdp_discloser_2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 5610,
+    "w": 90,
+    "h": 18,
+    "text": "privacy notice",
+    "href": "/privacy-notice/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 5651,
+    "w": 111,
+    "h": 18,
+    "text": "cookie statement",
+    "href": "/cookie-statement/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 5692,
+    "w": 83,
+    "h": 18,
+    "text": "legal notices",
+    "href": "/legal-notices/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 5733,
+    "w": 79,
+    "h": 18,
+    "text": "accessibility",
+    "href": "/about/accessibility/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 5774,
+    "w": 80,
+    "h": 18,
+    "text": "stay in touch",
+    "href": "/about/stay-in-touch/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a.cookiebot-reset",
+    "x": 16,
+    "y": 5815,
+    "w": 149,
+    "h": 18,
+    "text": "change cookie settings",
+    "href": "/b2b-portal-discovery-workshop/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 16,
+    "y": 5896,
+    "w": 23,
+    "h": 18,
+    "text": "linkedin footer",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 87,
+    "y": 5896,
+    "w": 23,
+    "h": 18,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 158,
+    "y": 5896,
+    "w": 23,
+    "h": 18,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 229,
+    "y": 5896,
+    "w": 23,
+    "h": 18,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 16,
+    "y": 5941,
+    "w": 23,
+    "h": 18,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 87,
+    "y": 5941,
+    "w": 23,
+    "h": 18,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 6,
+    "textNodes": 86,
+    "controls": 33,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/b2b-portal-discovery-workshop",
+  "at": "2026-11-14T07:43:45.428Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5957,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-nav-menu-wrapper.site-nav-menu-labels > div.site-nav-logo > a.site-nav-logo-link",
+    "x": 24,
+    "y": 25,
+    "w": 80,
+    "h": 21,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > a.search-select.mobile",
+    "x": 232,
+    "y": 24,
+    "w": 22,
+    "h": 23,
+    "text": "go to search page",
+    "href": "/search/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open main menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open main menu",
+    "value": "open main menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 24,
+    "y": 75,
+    "w": 41,
+    "h": 21,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 24,
+    "y": 97,
+    "w": 287,
+    "h": 21,
+    "label": "current",
+    "value": "valtech b2b portal discovery workshop",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 24,
+    "y": 97,
+    "w": 287,
+    "h": 21,
+    "text": "Valtech B2B portal discovery workshop"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary-text.masthead-primary-text-dark > hgroup.masthead-primary-hgroup > h1#b2b-portal-discovery-workshop",
+    "x": 46,
+    "y": 350,
+    "w": 269,
+    "h": 55,
+    "level": 1,
+    "text": "b2b portal discovery workshop"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary-text.masthead-primary-text-dark > div.masthead-primary-lead > p",
+    "x": 46,
+    "y": 425,
+    "w": 269,
+    "h": 67,
+    "text": "Transform your B2B portal into a high-performing revenue and customer-experience"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-primary-media > picture.masthead-primary-narrow > img",
+    "x": 24,
+    "y": 142,
+    "w": 312,
+    "h": 167,
+    "text": "",
+    "file": "media_18ad9846226b7679fce1d9e5066a6cafe3"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > h2#is-your-b2b-portal-delivering-on-its-promise",
+    "x": 24,
+    "y": 572,
+    "w": 312,
+    "h": 101,
+    "level": 2,
+    "text": "is your b2b portal delivering on its promise?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 689,
+    "w": 312,
+    "h": 157,
+    "text": "Today’s B2B buyers, distributors, partners and internal teams expect fast, intui"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 858,
+    "w": 312,
+    "h": 90,
+    "text": "Our B2B portal discovery workshop helps you identify what it will take to turn y"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > h2#why-b2b-portal-performance-matters",
+    "x": 24,
+    "y": 1008,
+    "w": 312,
+    "h": 67,
+    "level": 2,
+    "text": "why b2b portal performance matters"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 1091,
+    "w": 312,
+    "h": 45,
+    "text": "Ecommerce portals are becoming the primary growth engine for B2B:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 1148,
+    "w": 292,
+    "h": 67,
+    "text": "56% of all U.S. B2B revenue in 2025 will come from digital channels — up from 32"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 1228,
+    "w": 292,
+    "h": 67,
+    "text": "85% of sales teams’ administrative work can be eliminated through effective cust"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 1308,
+    "w": 292,
+    "h": 67,
+    "text": "66% of B2B organizations are increasing their investment in customer portals in "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > h3#however-most-b2b-portals-still-fail-to-meet-expectations",
+    "x": 24,
+    "y": 1436,
+    "w": 312,
+    "h": 58,
+    "level": 3,
+    "text": "however, most b2b portals still fail to meet expectations:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 1509,
+    "w": 292,
+    "h": 45,
+    "text": "70% of distributors say their online commerce initiatives are “unsuccessful”"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 1567,
+    "w": 292,
+    "h": 90,
+    "text": "80% of B2B ecommerce portal projects underperform on key KPIs such as adoption, "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 1669,
+    "w": 292,
+    "h": 45,
+    "text": "35% of B2B portals remain “closed” experiences with limited integration"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > h2#what-this-workshop-includes",
+    "x": 24,
+    "y": 1774,
+    "w": 312,
+    "h": 67,
+    "level": 2,
+    "text": "what this workshop includes:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 1857,
+    "w": 312,
+    "h": 67,
+    "text": "A 3–4 hour interactive session designed to help B2B organizations modernize, sca"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 1937,
+    "w": 292,
+    "h": 67,
+    "text": "Assess where your portal sits today and map the user journeys that drive or bloc"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 2017,
+    "w": 292,
+    "h": 90,
+    "text": "Evaluate the strength of your ERP, CRM, PIM and middleware integrations to uncov"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 2119,
+    "w": 292,
+    "h": 90,
+    "text": "Analyze current vs. target sales through the portal to uncover opportunities for"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 2222,
+    "w": 292,
+    "h": 90,
+    "text": "Assess AI search, predictive recommendations, smart bundles and emerging AI use "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 2324,
+    "w": 292,
+    "h": 67,
+    "text": "We identify where your organization sits relative to peers and highlight where t"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > h2#what-youll-receive",
+    "x": 24,
+    "y": 2451,
+    "w": 312,
+    "h": 34,
+    "level": 2,
+    "text": "what you'll receive"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 2501,
+    "w": 312,
+    "h": 22,
+    "text": "A custom action plan outlining:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 2536,
+    "w": 292,
+    "h": 22,
+    "text": "Portal adoption accelerators"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 2571,
+    "w": 292,
+    "h": 45,
+    "text": "Integration & data improvement priorities"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 2629,
+    "w": 292,
+    "h": 22,
+    "text": "UX and workflow enhancements"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 2664,
+    "w": 292,
+    "h": 45,
+    "text": "AI, search and personalization opportunities"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 2722,
+    "w": 292,
+    "h": 22,
+    "text": "Revenue and efficiency levers"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 2757,
+    "w": 292,
+    "h": 22,
+    "text": "A 12–18 month prioritized roadmap"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > h2#who-should-attend",
+    "x": 24,
+    "y": 2839,
+    "w": 312,
+    "h": 34,
+    "level": 2,
+    "text": "who should attend"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 2889,
+    "w": 312,
+    "h": 67,
+    "text": "This workshop is ideal for teams responsible for your portal’s performance, incl"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 2969,
+    "w": 292,
+    "h": 22,
+    "text": "Digital and ecommerce leaders"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 3004,
+    "w": 292,
+    "h": 22,
+    "text": "Customer and partner experience teams"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 3039,
+    "w": 292,
+    "h": 22,
+    "text": "IT, architecture and product owners"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 3074,
+    "w": 292,
+    "h": 22,
+    "text": "Sales operations and enablement"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 3109,
+    "w": 312,
+    "h": 90,
+    "text": "If you’re involved in improving adoption, modernization, integration, or revenue"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > h2#ready-to-unlock-the-full-potential-of-your-b2b-portal",
+    "x": 24,
+    "y": 3259,
+    "w": 312,
+    "h": 101,
+    "level": 2,
+    "text": "ready to unlock the full potential of your b2b portal?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 3376,
+    "w": 312,
+    "h": 112,
+    "text": "Let’s explore how the B2B portal discovery workshop can support your organizatio"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-wrapper > div.podcast-speakers-title > h2#our-expert",
+    "x": 24,
+    "y": 3568,
+    "w": 312,
+    "h": 34,
+    "level": 2,
+    "text": "our expert"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-image > picture > img",
+    "x": 121,
+    "y": 3641,
+    "w": 118,
+    "h": 120,
+    "text": "portrait of jared r. johnson",
+    "file": "media_1e7a110bab630d556441fd6027cbe0b768"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-name > p",
+    "x": 123,
+    "y": 3769,
+    "w": 114,
+    "h": 23,
+    "text": "Jared Johnson"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-info > div.podcast-speakers-company > p",
+    "x": 67,
+    "y": 3802,
+    "w": 225,
+    "h": 21,
+    "text": "Head of B2B Strategy, Americas"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.podcast-speakers-social-links > p > a.podcast-speakers-link",
+    "x": 165,
+    "y": 3823,
+    "w": 26,
+    "h": 37,
+    "text": "linkedin",
+    "href": "/in/jaredrobertjohnson/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-top-indent > div.default-content-wrapper > h2#schedule-a-discovery-call",
+    "x": 24,
+    "y": 3949,
+    "w": 312,
+    "h": 67,
+    "level": 2,
+    "text": "schedule a discovery call"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-html > span",
+    "x": 22,
+    "y": 4086,
+    "w": 251,
+    "h": 42,
+    "text": "Fields marked with an asterisk are mandatory and must be filled in."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 4169,
+    "w": 87,
+    "h": 16,
+    "text": "First Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 4237,
+    "w": 86,
+    "h": 16,
+    "text": "Last Name"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > select#Lead_title__c",
+    "x": 22,
+    "y": 4294,
+    "w": 317,
+    "h": 38,
+    "label": "job title *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 4305,
+    "w": 69,
+    "h": 16,
+    "text": "Job Title"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 4373,
+    "w": 89,
+    "h": 16,
+    "text": "Work Email"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 4441,
+    "w": 124,
+    "h": 16,
+    "text": "Company Name"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > select#Industry",
+    "x": 22,
+    "y": 4498,
+    "w": 317,
+    "h": 38,
+    "label": "industry *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 4509,
+    "w": 68,
+    "h": 16,
+    "text": "Industry"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-field.mkto-form-field-float > select#CountryCode",
+    "x": 22,
+    "y": 4566,
+    "w": 317,
+    "h": 38,
+    "label": "country *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 4577,
+    "w": 66,
+    "h": 16,
+    "text": "Country"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-field > label.mkto-form-textlabel",
+    "x": 22,
+    "y": 4634,
+    "w": 317,
+    "h": 42,
+    "text": "Share your comments"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-check > label",
+    "x": 48,
+    "y": 4890,
+    "w": 291,
+    "h": 106,
+    "text": "I accept to receive relevant news and marketing communication from Valtech and I"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-check > label > a",
+    "x": 103,
+    "y": 4974,
+    "w": 102,
+    "h": 21,
+    "text": "privacy notice",
+    "href": "/privacy-notice/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 22,
+    "y": 5026,
+    "w": 302,
+    "h": 42,
+    "text": "This site is protected by CAPTCHA and the Friendly Captcha"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span > span > a",
+    "x": 145,
+    "y": 5047,
+    "w": 98,
+    "h": 21,
+    "text": "privacy policy",
+    "href": "/legal/privacy-end-users/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 22,
+    "y": 5047,
+    "w": 316,
+    "h": 43,
+    "text": "and"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span > span > a",
+    "x": 22,
+    "y": 5047,
+    "w": 316,
+    "h": 43,
+    "text": "terms of use",
+    "href": "/legal/terms/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 49,
+    "y": 5070,
+    "w": 45,
+    "h": 21,
+    "text": "apply."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-buttons > span.mkto-form-button-wrap > button.mktoButton.button",
+    "x": 85,
+    "y": 5152,
+    "w": 190,
+    "h": 59,
+    "text": "send request"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 16,
+    "y": 5339,
+    "w": 43,
+    "h": 21,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 226,
+    "y": 5339,
+    "w": 44,
+    "h": 21,
+    "text": "about",
+    "href": "/about/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 16,
+    "y": 5379,
+    "w": 50,
+    "h": 21,
+    "text": "offices",
+    "href": "/about/offices/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 226,
+    "y": 5379,
+    "w": 87,
+    "h": 21,
+    "text": "who we are",
+    "href": "/career/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "p > picture > img",
+    "x": 16,
+    "y": 5418,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "media_18686ce5d542e21460f5b9773dc388b150"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer-column.site-footer-stamp > p > a",
+    "x": 274,
+    "y": 5418,
+    "w": 64,
+    "h": 70,
+    "text": "sustainability stamp",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 274,
+    "y": 5418,
+    "w": 64,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "media_147addfc96d6d3db8ad2ecb6422a634aed"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 5559,
+    "w": 90,
+    "h": 18,
+    "text": "privacy notice",
+    "href": "/privacy-notice/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 5600,
+    "w": 111,
+    "h": 18,
+    "text": "cookie statement",
+    "href": "/cookie-statement/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 5641,
+    "w": 83,
+    "h": 18,
+    "text": "legal notices",
+    "href": "/legal-notices/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 5682,
+    "w": 79,
+    "h": 18,
+    "text": "accessibility",
+    "href": "/about/accessibility/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 5723,
+    "w": 80,
+    "h": 18,
+    "text": "stay in touch",
+    "href": "/about/stay-in-touch/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a.cookiebot-reset",
+    "x": 16,
+    "y": 5764,
+    "w": 149,
+    "h": 18,
+    "text": "change cookie settings",
+    "href": "/b2b-portal-discovery-workshop"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 16,
+    "y": 5845,
+    "w": 23,
+    "h": 18,
+    "text": "linkedin footer",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 87,
+    "y": 5845,
+    "w": 23,
+    "h": 18,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 158,
+    "y": 5845,
+    "w": 23,
+    "h": 18,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 229,
+    "y": 5845,
+    "w": 23,
+    "h": 18,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 16,
+    "y": 5890,
+    "w": 23,
+    "h": 18,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 87,
+    "y": 5890,
+    "w": 23,
+    "h": 18,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 1,
+    "textNodes": 82,
+    "controls": 31,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "b2b portal discovery workshop",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "is your b2b portal delivering on its promise?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "why b2b portal performance matters",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 4,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "however, most b2b portals still fail to meet expectations:",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "what this workshop includes:",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 6,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "what you'll receive",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 7,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 7,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "who should attend",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 6,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "ready to unlock the full potential of your b2b portal?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "our expert",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "schedule a discovery call",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 1,
+    "text": 13,
+    "image": 0
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 13,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 24,
+    "y": 75,
+    "w": 41,
+    "h": 21
+   },
+   {
+    "x": 37,
+    "y": 97,
+    "w": 274,
+    "h": 21
+   },
+   {
+    "x": 46,
+    "y": 346,
+    "w": 244,
+    "h": 35
+   },
+   {
+    "x": 46,
+    "y": 373,
+    "w": 114,
+    "h": 35
+   },
+   {
+    "x": 46,
+    "y": 425,
+    "w": 231,
+    "h": 21
+   },
+   {
+    "x": 46,
+    "y": 447,
+    "w": 216,
+    "h": 21
+   },
+   {
+    "x": 46,
+    "y": 469,
+    "w": 114,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 569,
+    "w": 231,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 602,
+    "w": 205,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 636,
+    "w": 123,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 689,
+    "w": 293,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 711,
+    "w": 311,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 733,
+    "w": 261,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 756,
+    "w": 290,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 778,
+    "w": 312,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 801,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 823,
+    "w": 301,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 858,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 881,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 903,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 925,
+    "w": 185,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1005,
+    "w": 201,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1038,
+    "w": 283,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1091,
+    "w": 266,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1113,
+    "w": 220,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1148,
+    "w": 273,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1171,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1193,
+    "w": 90,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1228,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1251,
+    "w": 250,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1273,
+    "w": 124,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1308,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1331,
+    "w": 272,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1353,
+    "w": 160,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1434,
+    "w": 287,
+    "h": 31
+   },
+   {
+    "x": 24,
+    "y": 1462,
+    "w": 160,
+    "h": 31
+   },
+   {
+    "x": 24,
+    "y": 1491,
+    "w": 148,
+    "h": 31
+   },
+   {
+    "x": 44,
+    "y": 1538,
+    "w": 244,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1560,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1596,
+    "w": 277,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1618,
+    "w": 241,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1640,
+    "w": 249,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1663,
+    "w": 151,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1698,
+    "w": 247,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1720,
+    "w": 253,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1800,
+    "w": 259,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1833,
+    "w": 123,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1886,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1908,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1931,
+    "w": 232,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1966,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1988,
+    "w": 289,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2011,
+    "w": 67,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2046,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2068,
+    "w": 251,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2091,
+    "w": 236,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2113,
+    "w": 231,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2148,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2171,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2193,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2215,
+    "w": 75,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2251,
+    "w": 197,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2273,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2295,
+    "w": 239,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2318,
+    "w": 204,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2340,
+    "w": 85,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2375,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2398,
+    "w": 275,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2420,
+    "w": 80,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2499,
+    "w": 250,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 2552,
+    "w": 219,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2587,
+    "w": 204,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2622,
+    "w": 226,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2645,
+    "w": 63,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2680,
+    "w": 228,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2715,
+    "w": 212,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2738,
+    "w": 96,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2773,
+    "w": 210,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2808,
+    "w": 246,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2887,
+    "w": 252,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 2940,
+    "w": 226,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2962,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2985,
+    "w": 69,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 3020,
+    "w": 220,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 3055,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 3090,
+    "w": 250,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 3125,
+    "w": 236,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3161,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3183,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3205,
+    "w": 311,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3228,
+    "w": 52,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3307,
+    "w": 308,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 3341,
+    "w": 275,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 3374,
+    "w": 95,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 3427,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3449,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3472,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3494,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3517,
+    "w": 94,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3616,
+    "w": 143,
+    "h": 39
+   },
+   {
+    "x": 123,
+    "y": 3821,
+    "w": 114,
+    "h": 23
+   },
+   {
+    "x": 67,
+    "y": 3854,
+    "w": 225,
+    "h": 21
+   },
+   {
+    "x": 38,
+    "y": 3997,
+    "w": 284,
+    "h": 39
+   },
+   {
+    "x": 155,
+    "y": 4031,
+    "w": 50,
+    "h": 39
+   },
+   {
+    "x": 22,
+    "y": 4139,
+    "w": 6,
+    "h": 18
+   },
+   {
+    "x": 31,
+    "y": 4137,
+    "w": 240,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 4158,
+    "w": 227,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 4217,
+    "w": 78,
+    "h": 21
+   },
+   {
+    "x": 99,
+    "y": 4219,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 4285,
+    "w": 77,
+    "h": 21
+   },
+   {
+    "x": 98,
+    "y": 4287,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 4353,
+    "w": 60,
+    "h": 21
+   },
+   {
+    "x": 82,
+    "y": 4355,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 4421,
+    "w": 80,
+    "h": 21
+   },
+   {
+    "x": 102,
+    "y": 4423,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 4489,
+    "w": 114,
+    "h": 21
+   },
+   {
+    "x": 136,
+    "y": 4491,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 4557,
+    "w": 59,
+    "h": 21
+   },
+   {
+    "x": 81,
+    "y": 4559,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 4625,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 79,
+    "y": 4627,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 4690,
+    "w": 156,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 4941,
+    "w": 260,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 4962,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 4983,
+    "w": 283,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 5004,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 5025,
+    "w": 56,
+    "h": 21
+   },
+   {
+    "x": 103,
+    "y": 5025,
+    "w": 102,
+    "h": 21
+   },
+   {
+    "x": 205,
+    "y": 5025,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 209,
+    "y": 5027,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5078,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 5099,
+    "w": 120,
+    "h": 21
+   },
+   {
+    "x": 145,
+    "y": 5099,
+    "w": 98,
+    "h": 21
+   },
+   {
+    "x": 243,
+    "y": 5099,
+    "w": 34,
+    "h": 21
+   },
+   {
+    "x": 277,
+    "y": 5099,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 5121,
+    "w": 28,
+    "h": 21
+   },
+   {
+    "x": 49,
+    "y": 5121,
+    "w": 45,
+    "h": 21
+   },
+   {
+    "x": 127,
+    "y": 5221,
+    "w": 106,
+    "h": 23
+   },
+   {
+    "x": 16,
+    "y": 5390,
+    "w": 43,
+    "h": 21
+   },
+   {
+    "x": 226,
+    "y": 5390,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5430,
+    "w": 50,
+    "h": 21
+   },
+   {
+    "x": 226,
+    "y": 5430,
+    "w": 87,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5610,
+    "w": 90,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 5651,
+    "w": 111,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 5692,
+    "w": 83,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 5733,
+    "w": 79,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 5774,
+    "w": 80,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 5815,
+    "w": 149,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 24,
+    "y": 75,
+    "w": 41,
+    "h": 21
+   },
+   {
+    "x": 37,
+    "y": 97,
+    "w": 274,
+    "h": 21
+   },
+   {
+    "x": 46,
+    "y": 346,
+    "w": 244,
+    "h": 35
+   },
+   {
+    "x": 46,
+    "y": 373,
+    "w": 114,
+    "h": 35
+   },
+   {
+    "x": 46,
+    "y": 425,
+    "w": 231,
+    "h": 21
+   },
+   {
+    "x": 46,
+    "y": 447,
+    "w": 216,
+    "h": 21
+   },
+   {
+    "x": 46,
+    "y": 469,
+    "w": 114,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 569,
+    "w": 231,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 602,
+    "w": 205,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 636,
+    "w": 123,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 689,
+    "w": 293,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 711,
+    "w": 311,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 733,
+    "w": 261,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 756,
+    "w": 290,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 778,
+    "w": 312,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 801,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 823,
+    "w": 301,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 858,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 881,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 903,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 925,
+    "w": 185,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1005,
+    "w": 201,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1038,
+    "w": 283,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1091,
+    "w": 266,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1113,
+    "w": 220,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1148,
+    "w": 273,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1171,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1193,
+    "w": 87,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1228,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1251,
+    "w": 250,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1273,
+    "w": 121,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1308,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1331,
+    "w": 272,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1353,
+    "w": 157,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1434,
+    "w": 287,
+    "h": 31
+   },
+   {
+    "x": 24,
+    "y": 1462,
+    "w": 309,
+    "h": 31
+   },
+   {
+    "x": 44,
+    "y": 1509,
+    "w": 244,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1532,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1567,
+    "w": 277,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1589,
+    "w": 241,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1612,
+    "w": 249,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1634,
+    "w": 148,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1669,
+    "w": 247,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1692,
+    "w": 253,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1771,
+    "w": 259,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1804,
+    "w": 117,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1857,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1879,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1902,
+    "w": 229,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1937,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1959,
+    "w": 289,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1982,
+    "w": 64,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2017,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2039,
+    "w": 251,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2062,
+    "w": 236,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2084,
+    "w": 227,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2119,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2142,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2164,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2187,
+    "w": 72,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2222,
+    "w": 197,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2244,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2267,
+    "w": 239,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2289,
+    "w": 290,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2324,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2346,
+    "w": 275,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2369,
+    "w": 77,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2448,
+    "w": 244,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 2501,
+    "w": 219,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2536,
+    "w": 200,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2571,
+    "w": 226,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2594,
+    "w": 63,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2629,
+    "w": 228,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2664,
+    "w": 212,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2686,
+    "w": 96,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2722,
+    "w": 210,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2757,
+    "w": 246,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2836,
+    "w": 252,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 2889,
+    "w": 226,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2911,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2934,
+    "w": 69,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2969,
+    "w": 220,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 3004,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 3039,
+    "w": 250,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 3074,
+    "w": 236,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3109,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3132,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3154,
+    "w": 311,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3177,
+    "w": 52,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3256,
+    "w": 308,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 3290,
+    "w": 275,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 3323,
+    "w": 95,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 3376,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3398,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3421,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3443,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3465,
+    "w": 90,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3565,
+    "w": 143,
+    "h": 39
+   },
+   {
+    "x": 123,
+    "y": 3769,
+    "w": 114,
+    "h": 23
+   },
+   {
+    "x": 67,
+    "y": 3802,
+    "w": 225,
+    "h": 21
+   },
+   {
+    "x": 38,
+    "y": 3946,
+    "w": 284,
+    "h": 39
+   },
+   {
+    "x": 155,
+    "y": 3979,
+    "w": 50,
+    "h": 39
+   },
+   {
+    "x": 22,
+    "y": 4086,
+    "w": 7,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 4086,
+    "w": 240,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 4107,
+    "w": 227,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 4166,
+    "w": 78,
+    "h": 21
+   },
+   {
+    "x": 99,
+    "y": 4168,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 4234,
+    "w": 77,
+    "h": 21
+   },
+   {
+    "x": 98,
+    "y": 4236,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 4302,
+    "w": 60,
+    "h": 21
+   },
+   {
+    "x": 82,
+    "y": 4304,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 4370,
+    "w": 80,
+    "h": 21
+   },
+   {
+    "x": 102,
+    "y": 4372,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 4438,
+    "w": 114,
+    "h": 21
+   },
+   {
+    "x": 136,
+    "y": 4440,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 4506,
+    "w": 59,
+    "h": 21
+   },
+   {
+    "x": 81,
+    "y": 4508,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 4574,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 79,
+    "y": 4576,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 4639,
+    "w": 156,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 4890,
+    "w": 260,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 4911,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 4932,
+    "w": 283,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 4953,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 4974,
+    "w": 56,
+    "h": 21
+   },
+   {
+    "x": 103,
+    "y": 4974,
+    "w": 102,
+    "h": 21
+   },
+   {
+    "x": 205,
+    "y": 4974,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 209,
+    "y": 4976,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 5026,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 5047,
+    "w": 120,
+    "h": 21
+   },
+   {
+    "x": 145,
+    "y": 5047,
+    "w": 98,
+    "h": 21
+   },
+   {
+    "x": 243,
+    "y": 5047,
+    "w": 34,
+    "h": 21
+   },
+   {
+    "x": 277,
+    "y": 5047,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 5070,
+    "w": 28,
+    "h": 21
+   },
+   {
+    "x": 49,
+    "y": 5070,
+    "w": 45,
+    "h": 21
+   },
+   {
+    "x": 127,
+    "y": 5170,
+    "w": 106,
+    "h": 23
+   },
+   {
+    "x": 16,
+    "y": 5339,
+    "w": 43,
+    "h": 21
+   },
+   {
+    "x": 226,
+    "y": 5339,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5379,
+    "w": 50,
+    "h": 21
+   },
+   {
+    "x": 226,
+    "y": 5379,
+    "w": 87,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5559,
+    "w": 90,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 5600,
+    "w": 111,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 5641,
+    "w": 83,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 5682,
+    "w": 79,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 5723,
+    "w": 80,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 5764,
+    "w": 149,
+    "h": 18
+   }
+  ]
+ }
+}

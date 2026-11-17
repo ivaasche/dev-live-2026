@@ -1,0 +1,60 @@
+/* quote-block — section.quote-block (prototype css/landing.css, homepage.css), values verbatim */
+
+.quote-block {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+@media (width >= 64rem) {
+  .quote-block {
+    margin-right: var(--side-col);
+  }
+}
+
+@media (width >= 96rem) {
+  .quote-block {
+    margin-right: 0;
+  }
+}
+
+.quote-block .quote-block-container {
+  color: #fff;
+  padding: 3rem 1rem;
+  width: 100%;
+}
+
+@media (width >= 58.75rem) {
+  .quote-block .quote-block-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--container);
+    padding: 6rem 1rem;
+  }
+}
+
+@media screen and (width >= 58.75rem) and (width <= 81.25rem) and (hover: hover) {
+  .quote-block .quote-block-container {
+    max-width: 72%;
+  }
+}
+
+@media (width >= 96rem) {
+  .quote-block .quote-block-container {
+    max-width: var(--container-wide);
+  }
+}
+
+.quote-block :is(h1, h2, p, span) {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  margin: 0;
+  text-wrap: pretty;
+}
+
+@media (width >= 58.75rem) {
+  .quote-block :is(h1, h2, p, span) {
+    font-size: 2.5rem;
+  }
+}

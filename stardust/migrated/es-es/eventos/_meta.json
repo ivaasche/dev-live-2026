@@ -1,0 +1,274 @@
+{
+  "slug": "es-es-eventos",
+  "type": "listing",
+  "renderBranch": "A'",
+  "template": "es-es-blog",
+  "modules": [
+    "masthead-big-title",
+    "text-block",
+    "insights-filter"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "site-breadcrumbs",
+    "masthead-big-title",
+    "text-block",
+    "react",
+    "site-footer",
+    "site-slope",
+    "site-slope",
+    "site-slope",
+    "modal",
+    "modal",
+    "modal",
+    "modal"
+  ],
+  "canonShas": {
+    "header": "73cff066609b",
+    "footer": "d3f0cc1ef9d5",
+    "css": "8876c0e8d8d1"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Eventos | Valtech",
+    "description": "Aprende de nuestros expertos",
+    "canonical": "https://www.valtech.com/es-es/eventos/",
+    "lang": "es"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Eventos | Valtech",
+    "description": "Aprende de nuestros expertos",
+    "url": "https://www.valtech.com/es-es/eventos/"
+  },
+  "migratedAt": "2026-11-13T18:29:58Z",
+  "designMdSha": "9dc5e8267a4e",
+  "designJsonSha": "ec9a36425b28",
+  "sourceCurrentSha": "382812c5e7e2",
+  "sourceProposedSha": "a68e52cd035d",
+  "fidelityTier": "sibling",
+  "archetypeSource": "es-es-blog",
+  "archetypeSha": "f3e7d7ac7d49",
+  "variants": [
+    "insights-filter.events"
+  ],
+  "gatesPassed": [
+    "content-fidelity",
+    "variance-probe"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "published-origin gate 2026-11-13 confirmation run: 1440/360 pixel% 0.04 Δh0 / 0.75 Δh2; clipped within allowance; MISSING 0",
+    "variance-probe": "sibling-variance.mjs vs es-es-blog @1440 exit 2 (stardust/.work/cluster-listing/variance.json); deltas budgeted as insights-filter variants + source-module blocks (eds-conversion-log ## listing cluster)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 11,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/industrias/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/nuestros-partners/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/servicios/elevacion-de-la-experiencia/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/aceleracion-comercio/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/transformacion-empresarial/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/servicios-creativos-de-marketing-performance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/revolucion-del-dato-y-ia/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/carrera/ofertas-de-empleo/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/trabajar-en-valtech/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/diversidad-e-inclusion/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/podcasts/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/content-hub/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/la-empresa-inteligente/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/noticias/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/oficinas/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/contacto/keep-in-touch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de-de/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-dk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/fr-fr/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nl-nl/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-gb/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sv-se/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ca/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-ar/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt-br/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-mx/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-sg/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/eventos/ai-bar-beyond-predictable-ai-stockholm/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/nrf-kickoff-at-printemps/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/b2b-online-eu-2026/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/mind-the-gap/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/geneva-intelligent-enterprise-live/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/stop-making-customers-search-closing-the-expectation-gap-dubai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/salesforce-world-tour-amsterdam-2026/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/eventos/tech-for-retail-2026/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/oficinas/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/carrera/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/accesibilidad/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/mantente-en-contacto/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "es-es/eventos/index.html",
+  "outputPathDefault": null,
+  "sidecar": "es-es/eventos/_meta.json",
+  "driverVersion": "1"
+}

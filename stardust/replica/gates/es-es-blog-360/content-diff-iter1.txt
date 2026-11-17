@@ -1,0 +1,26 @@
+[live-session] waiting to pace live navigations to www.valtech.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Content diff @ 360px (profile "generic", roots: main.site-content, header, footer)
+root "main.site-content"
+  source: 140 text nodes — 13 headings, 1 eyebrows, 1 CTAs, 125 body; 13 img
+  build: 140 text nodes — 13 headings, 1 eyebrows, 1 CTAs, 125 body; 13 img
+  editable texts (outermost h*/p/ul/ol): source 28 / build 28
+  attributes (placeholder/aria-label/title): source 11 / build 11; icons: source 8 / build 8
+root "header"
+  source: 1 text nodes — 1 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 1 text nodes — 1 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root "footer"
+  source: 11 text nodes — 0 headings, 0 eyebrows, 10 CTAs, 1 body; 1 img
+  build: 11 text nodes — 0 headings, 0 eyebrows, 10 CTAs, 1 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 2
+  attributes (placeholder/aria-label/title): source 6 / build 6; icons: source 7 / build 7
+
+Findings: 5 (5 structural 🔴)
+Tiers: looks-same 🔴 5 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 0
+  🔴 ICON DIFF [main.site-content]: source inline svg #icon-carret-down (10×150) vs build inline svg 0 0 15 8 / 1 shape(s) (10×10) at "todas las industrias". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main.site-content]: source inline svg #icon-carret-down (10×150) vs build inline svg 0 0 15 8 / 1 shape(s) (10×10) at "todos los servicios". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main.site-content]: source inline svg #icon-carret-down (10×150) vs build inline svg 0 0 15 8 / 1 shape(s) (10×10) at "todas las plataformas". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main.site-content]: source inline svg #icon-carret-down (10×150) vs build inline svg 0 0 15 8 / 1 shape(s) (10×10) at "todo sobre nosotros". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [footer]: source inline svg #icon-linkedin (23×23) vs build inline svg #icon-linkedin-footer (23×23) at "linkedin". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).

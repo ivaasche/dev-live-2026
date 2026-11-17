@@ -1,0 +1,746 @@
+[live-session] waiting to pace live navigations to www.valtech.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/es-es-la-empresa-inteligente-operar-360/vdiff-iter1/
+
+build red flags (advisory): 
+  • HEADING FACE: <h1> "IA agéntica para IT" is 48px ValtechNeue in build vs 44px ValtechNeue in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Solicitud recibida" is 28px ValtechNeue in build vs 20px ValtechNeue in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 7275,
+  "textLen": 6522,
+  "images": [
+   {
+    "src": "pillar_run_header_desktop.png?width=640&height=342&rmode=min&rsampler=bicubic&compand=true&format=jpg",
+    "natural": "547x342",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hub_run_mobile-2.png?width=440&height=316&rmode=min&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "440x616",
+    "rendered": "360x586",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "a-proactive-production-engine.jpg?width=1024&height=768&rmode=max&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "768x768",
+    "rendered": "328x328",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "orchestrating-humans.jpg?width=1024&height=768&rmode=max&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "768x768",
+    "rendered": "328x328",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "retail---woman-using-beauty-blender---valtech-nav.png?width=440&height=380&rmode=max&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "retail---woman-using-beauty-blender---valtech-nav.png?width=440&height=380&rmode=max&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "data-and-ai---nva-automation---valtech-header.png?width=440&height=380&rmode=max&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "387x380",
+    "rendered": "328x293",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "data-and-ai---nva-automation---valtech-header.png?width=440&height=380&rmode=max&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "387x380",
+    "rendered": "328x293",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "operating-model-transformation-header.png?width=880&height=880&rmode=min&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "1441x880",
+    "rendered": "268x268",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "enterprise-transformation-managed-services-abstract-shapes-valtech-header-mobile.jpg?width=880&height=880&rmode=min&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "1200x628",
+    "rendered": "268x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "piblic-blog-connected-octagon-flowchart-valtech-navigation.png?width=880&height=880&rmode=min&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "1173x880",
+    "rendered": "268x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "gabriel-laliberte.jpeg?width=152&height=154&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "152x154",
+    "rendered": "118x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "casper-aagaard-rasmussen.png?width=152&height=154&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "152x154",
+    "rendered": "118x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "matt_redman.jpeg?width=152&height=154&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "152x154",
+    "rendered": "118x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "kristoffer-nielsen-refs.png?width=152&height=154&rsampler=bicubic&compand=true&format=webp&quality=75",
+    "natural": "152x154",
+    "rendered": "118x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "badge-no-outline.png?width=442&height=128&rmode=max&rsampler=bicubic&compand=true&format=jpg",
+    "natural": "435x128",
+    "rendered": "218x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=1cd635ac-8450-4068-a19a-908617b6d2e3&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=8e7cde3b-7f44-4a6a-b11d-e79836cff040&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fes-es%2Fla-empresa-inteligente%2Foperar%2F&tw_engaged_ms=15&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=1cd635ac-8450-4068-a19a-908617b6d2e3&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=8e7cde3b-7f44-4a6a-b11d-e79836cff040&tw_document_href=https%3A%2F%2Fwww.valtech.com%2Fes-es%2Fla-empresa-inteligente%2Foperar%2F&tw_engaged_ms=15&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1794567989903-563272262&twpid=tw.1794567989903.713418830390778746&txn_id=nz5jm&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "IA agéntica para IT",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "44px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Lo que Operar aporta a nuestros ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "12px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Monitorización inteligente del r",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reducir los costes de mantenimie",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reducir los costes de optimizaci",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Menos carga operativa y ciclos d",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reducir los costes de continuida",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Optimización proactiva de la pro",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Coordinar personas y operaciones",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Casos",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "12px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Global beauty brand",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "National Veterinary Associates",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Cómo lo hacemos realidad",
+    "color": "rgb(76, 76, 73)",
+    "fontSize": "12px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Modelo operativo inteligente",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Servicios Gestionados",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "IA para gestión de expedientes",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Nuestros expertos",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "12px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Reserva una sesión ejecutiva",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Solicitud recibida",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [
+   {
+    "tag": "h3",
+    "text": "IA para gestión de expedient",
+    "left": -266
+   },
+   {
+    "tag": "p",
+    "text": "Karl Hampson, CTO de Datos e",
+    "left": -264
+   }
+  ],
+  "contentBoxes": [
+   {
+    "sel": "hero-block__item__title",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "features-showcase__header",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "features-showcase__item__description",
+    "width": 275,
+    "left": 69
+   },
+   {
+    "sel": "features-showcase__item__description",
+    "width": 275,
+    "left": 69
+   },
+   {
+    "sel": "markdown",
+    "width": 275,
+    "left": 69
+   },
+   {
+    "sel": "features-showcase__item__description",
+    "width": 275,
+    "left": 69
+   },
+   {
+    "sel": "features-showcase__item__description",
+    "width": 275,
+    "left": 69
+   },
+   {
+    "sel": "case-visual-side-by-side__copy",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "case-visual-side-by-side__copy",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "related-cases__header",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "related-cases__item-content-details",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "featured-verticals-block__item__header",
+    "width": 266,
+    "left": 16
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 7276,
+  "textLen": 6520,
+  "images": [
+   {
+    "src": "hero-640.jpg",
+    "natural": "547x342",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero-mobile-440.webp",
+    "natural": "440x616",
+    "rendered": "360x586",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "side-1.webp",
+    "natural": "768x768",
+    "rendered": "328x328",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "side-2.webp",
+    "natural": "768x768",
+    "rendered": "328x328",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "case-1-440.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "case-1-440.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "case-2-440.webp",
+    "natural": "387x380",
+    "rendered": "328x293",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "case-2-440.webp",
+    "natural": "387x380",
+    "rendered": "328x293",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fv-1-880.webp",
+    "natural": "1441x880",
+    "rendered": "268x268",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fv-2-880.webp",
+    "natural": "1200x628",
+    "rendered": "268x268",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fv-3-880.webp",
+    "natural": "1173x880",
+    "rendered": "268x268",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "sp-1.webp",
+    "natural": "152x154",
+    "rendered": "120x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "sp-2.webp",
+    "natural": "152x154",
+    "rendered": "120x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "sp-3.webp",
+    "natural": "152x154",
+    "rendered": "120x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "sp-4.webp",
+    "natural": "152x154",
+    "rendered": "120x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "badge-no-outline.png",
+    "natural": "435x128",
+    "rendered": "218x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "IA agéntica para IT",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "48px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Lo que Operar aporta a nuestros ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "12px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Monitorización inteligente del r",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reducir los costes de mantenimie",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reducir los costes de optimizaci",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Menos carga operativa y ciclos d",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reducir los costes de continuida",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Optimización proactiva de la pro",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Coordinar personas y operaciones",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Casos",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "12px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Global beauty brand",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "National Veterinary Associates",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Cómo lo hacemos realidad",
+    "color": "rgb(76, 76, 73)",
+    "fontSize": "12px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Modelo operativo inteligente",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Servicios Gestionados",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "IA para gestión de expedientes",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Nuestros expertos",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "12px",
+    "family": "Soehne",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Reserva una sesión ejecutiva",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Solicitud recibida",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "28px",
+    "family": "ValtechNeue",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "hero-block__item__title",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "features-showcase__header",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "features-showcase__item__description",
+    "width": 275,
+    "left": 69
+   },
+   {
+    "sel": "features-showcase__item__description",
+    "width": 275,
+    "left": 69
+   },
+   {
+    "sel": "features-showcase__item__description",
+    "width": 275,
+    "left": 69
+   },
+   {
+    "sel": "features-showcase__item__description",
+    "width": 275,
+    "left": 69
+   },
+   {
+    "sel": "features-showcase__item__description",
+    "width": 275,
+    "left": 69
+   },
+   {
+    "sel": "case-visual-side-by-side__copy",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "case-visual-side-by-side__copy",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "related-cases__header",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "related-cases__item-content-details",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "featured-verticals-block__item__header",
+    "width": 266,
+    "left": 16
+   }
+  ]
+ }
+}

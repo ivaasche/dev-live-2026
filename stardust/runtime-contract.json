@@ -1,0 +1,53 @@
+{
+  "runtime": "vanilla-eds",
+  "probedFrom": ["scripts/scripts.js", "scripts/aem.js"],
+  "blockWrapperClass": "block",
+  "blockScoping": "block CSS scoped under .<name> (decorateBlock adds .block + data-block-name, wraps in div.<name>-wrapper, section gains .<name>-container)",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "buttonMapping": {
+    "**link** (strong) -> a.button.primary": "source .button--primary-hollow (rich-text CTA: transparent, inset 2px ocean)",
+    "_link_ (em) -> a.button.secondary": "source .button--secondary (ocean pill)",
+    "**_link_** (strong+em) -> a.button.accent": "source .button--tertiary (canvas, inset ocean)",
+    "canon classes available to blocks": ".button-primary .button-secondary .button-tertiary .button-primary-hollow .btn-black .btn-white .btn-ocean",
+    "hoverWipe": "decorateButtonWipes(root) (exported from scripts.js, run in decorateMain) appends span.before[data-label] + span.after to every a.button; blocks that create .button anchors call it themselves"
+  },
+  "classNaming": "canon BEM class names in kebab-case: __ and -- become - (site-nav__menu__title -> site-nav-menu-title, button--primary -> button-primary, mkto-form__row--check -> mkto-form-row-check); stylelint selector-class-pattern is kebab-case",
+  "cellNormalization": "wrapTextNodes folds a cell whose first child is not P/PRE/UL/OL/PICTURE/TABLE/H1-6 (or a media-led cell) into one <p>",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "bodyGate": "body { display: none } / body.appear { display: flex } (the canon body is a flex column)",
+  "contentRoot": "the canon .site-content / #valtech-wrapper rules live on <main> (flex 1 0 auto, mobile padding-top var(--header-h-mobile) + main::before fixed strip); header.js gives <main> id valtech-content + tabindex -1 for the skip link",
+  "chromeReservation": "body > header { height: var(--nav-height) } with --nav-height 1px < 64rem, 65px >= 64rem; header/footer blocks hidden until data-block-status=loaded",
+  "breakpoints": "source own: 58.75rem (940) layout, 64rem (1024) chrome, 96rem (1536) wide; stylelint writes them in range notation (width >= 64rem)",
+  "fonts": "styles/fonts.css: Soehne 300/300i/400/700 + ValtechNeue 300/400 self-hosted (R-02, as the prototypes ship); LiberationFallback local() alias in styles.css; loaded by loadFonts() (eager >= 900px or session flag, always in loadLazy); no font preload in head.html",
+  "icons": {
+    "sprite": "/icons/sprite.svg — UI symbols (search, global, close, arrow-down, arrow-link, arrow-right, social, plus/minus(-thin), cross, location, chevron-left, carret-down, linkedin, linkedin-footer, email, insight, news, whitepaper, facebook)",
+    "flags": "/icons/flags.svg — 2-letter flags icon-xx (loaded on first location-chooser open)",
+    "logos": "/icons/valtech-logo.svg (header, inlined by header.js), /icons/valtech-logo-footer.svg (footer)",
+    "carousel": "/icons/arrow-strict-left.svg, /icons/arrow-link-long.svg (mask images of .carousel-btn)",
+    "usage": "<svg><use href=\"/icons/sprite.svg#icon-name\"></use></svg>"
+  },
+  "favicon": "/favicon.ico (captured source favicon, served from the repo root; no head.html line needed)",
+  "chrome": {
+    "locales": { "": "en (global tree)", "es-es": "es" },
+    "mechanism": "scripts.js chromePath(name): page metadata `nav` / `footer` wins; else a page under /es-es/ loads /es-es/nav + /es-es/footer, every other page /nav + /footer; scripts.js also sets <html lang> from the same prefix (es on /es-es/, else en)",
+    "documents": {
+      "/nav": "content/nav.html",
+      "/footer": "content/footer.html",
+      "/es-es/nav": "content/es-es/nav.html",
+      "/es-es/footer": "content/es-es/footer.html"
+    },
+    "robots": "every chrome document carries a metadata row Robots | noindex",
+    "navModel": "sections classified by content: brand (:valtech-logo: link) | menu (one list, top items = labels, nested list = links) | tools (search link -> icon aria-label, #-link -> side tab, other link -> mobile Contact Us bar) | locations (title p, global link p, list of regions with :xx: flag-led place links)",
+    "footerModel": "brand (:valtech-logo-footer:) | nav list | stamp images (a link-only paragraph after an image links it) | legal list (a # link = cookie-settings reset) | social list (links led by :icon-name: icons, text = link title)",
+    "pageMetadata": {
+      "nav-active": "label text of the top-level nav item marked active (coral marker + aria-current) — /es-es/ pages carry it per the source (mostly Perspectivas); English pages captured have none",
+      "theme": "ie-hub-page -> body.ie-hub-page: ie-hub chrome variant (icons in the top bar, search hidden, no side tab, footer without side column) for the /la-empresa-inteligente/ hub pages",
+      "nav / footer": "path of an alternate chrome document"
+    },
+    "behaviour": "stardust/chrome/header-contract.json (source): >= 64rem labels open the drop-down on hover and on click, outside click closes, leaving the nav closes a hover-opened drop-down; location chooser toggles with a wipe, aria-expanded, scroll lock, Escape closes + focus returns; < 64rem burger -> full-screen menu with accordions + fixed Contact Us bar; sticky bar slides in on scroll up (ready-to-fixed-menu / fixed-menu)"
+  },
+  "sharedCanonClasses": "styles.css carries the shared canon: type ramp, themes (.dark-theme .blue-theme .white-theme), buttons, skip link, breadcrumbs (.site-breadcrumbs*, separator nbsp+/), carousel controls (.carousel-btn*, .carousel-dots, .carousel-native), contact band (.contact-us-form*), Marketo form dark (in the band) + light (elsewhere, .marketo-form-block*/.mkto-form*)",
+  "notShipped": "the hidden acquired-brand redirect modals (div.modal-redirect) are not rendered — they never display without a redirected visit"
+}

@@ -1,0 +1,197 @@
+/* case-rte — source div.section.case-rte (main.css case-rte rules + the source .section /
+   .section__container.centralized utilities it carries; values verbatim) */
+
+.case-rte {
+  padding: clamp(5rem, 5rem + 28 * (100vw - 52.125rem) / 446, 6.75rem) 0;
+}
+
+@media (width >= 80rem) {
+  .case-rte {
+    padding: clamp(6.75rem, 6.75rem + 12 * (100vw - 80rem) / 160, 7.5rem) 0;
+  }
+}
+
+@media (width >= 90rem) {
+  .case-rte {
+    padding: clamp(7.5rem, 7.5rem + 24 * (100vw - 90rem) / 288, 9rem) 0;
+  }
+}
+
+@media (width >= 108rem) {
+  .case-rte {
+    padding: clamp(9rem, 9rem + 16 * (100vw - 108rem) / 192, 10rem) 0;
+  }
+}
+
+@media (width >= 64rem) {
+  .case-rte {
+    margin-right: 64px;
+  }
+}
+
+.case-rte .case-rte-container {
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (width >= 39rem) {
+  .case-rte .case-rte-container {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (width >= 52.125rem) {
+  .case-rte .case-rte-container {
+    max-width: 77.5%;
+  }
+}
+
+@media (width >= 80rem) {
+  .case-rte .case-rte-container {
+    max-width: 79.5%;
+  }
+}
+
+@media (width >= 90rem) {
+  .case-rte .case-rte-container {
+    max-width: 78.5%;
+  }
+}
+
+@media (width >= 108rem) {
+  .case-rte .case-rte-container {
+    max-width: 77%;
+  }
+}
+
+@media (width >= 120rem) {
+  .case-rte .case-rte-container {
+    max-width: 1440px;
+  }
+}
+
+@media (width >= 90rem) {
+  .case-rte .case-rte-container {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
+
+@media (width >= 39rem) {
+  .case-rte .case-rte-header {
+    grid-column: 1 / span 6;
+  }
+}
+
+.case-rte .case-rte-header-title {
+  font-family: var(--font-sans);
+  font-size: clamp(.75rem, .75rem + 2 * (100vw - 26.875rem) / 194, .875rem);
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0 0 .25rem;
+  text-transform: uppercase;
+}
+
+@media (width >= 39rem) {
+  .case-rte .case-rte-header-title {
+    margin-bottom: clamp(.25rem, .25rem + 4 * (100vw - 39rem) / 210, .5rem);
+  }
+}
+
+@media (width >= 52.125rem) {
+  .case-rte .case-rte-header-title {
+    font-size: clamp(.875rem, .875rem + 6 * (100vw - 52.125rem) / 446,1.25rem);
+  }
+}
+
+.case-rte .case-rte-header-title::before {
+  color: #d1d3ca;
+  content: "/";
+  margin-right: .25rem;
+}
+
+@media (width >= 90rem) {
+  .case-rte .case-rte-body {
+    grid-column: 7 / span 6;
+    margin-top: -.1875rem;
+  }
+}
+
+.case-rte .case-rte-body-title {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0 0 1.5rem;
+}
+
+@media (width >= 52.125rem) {
+  .case-rte .case-rte-body-title {
+    font-size: clamp(1.5rem,1.5rem + 24 * (100vw - 52.125rem) / 446,3rem);
+    margin-bottom: clamp(1rem,1rem + 8 * (100vw - 52.125rem) / 446,1.5rem);
+  }
+}
+
+@media (width >= 90rem) {
+  .case-rte .case-rte-body-title {
+    font-size: clamp(2.5rem,2.5rem + 8 * (100vw - 90rem) / 288,3rem);
+    margin-bottom: 2rem;
+  }
+}
+
+@media (width >= 120rem) {
+  .case-rte .case-rte-body-title {
+    line-height: 1.1;
+  }
+}
+
+.case-rte .case-rte-body li, .case-rte .case-rte-body p {
+  font-size: clamp(1rem,1rem + 8 * (100vw - 52.125rem) / 446,1.5rem);
+  line-height: 1.5;
+  max-width: 60ch;
+}
+
+@media (width >= 90rem) {
+  .case-rte .case-rte-body li, .case-rte .case-rte-body p {
+    font-size: clamp(1.25rem,1.25rem + 4 * (100vw - 90rem) / 288,1.5rem);
+  }
+}
+
+.case-rte .case-rte-body li a, .case-rte .case-rte-body p a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.case-rte .case-rte-body li a:hover, .case-rte .case-rte-body p a:hover {
+  text-decoration: none;
+}
+
+.case-rte .case-rte-body ol, .case-rte .case-rte-body ul {
+  padding-left: 1.5rem;
+}
+
+@media (width >= 80rem) {
+  .case-rte .case-rte-body ol, .case-rte .case-rte-body ul {
+    padding-left: 2.25rem;
+  }
+}
+
+.case-rte .case-rte-body li {
+  font-weight: 300;
+  margin: 0;
+}
+
+.case-rte .case-rte-body ol, .case-rte .case-rte-body p, .case-rte .case-rte-body ul {
+  margin: 0 0 1rem;
+}
+
+@media (width >= 52.125rem) {
+  .case-rte .case-rte-body ol, .case-rte .case-rte-body p, .case-rte .case-rte-body ul {
+    margin-bottom: clamp(1rem,1rem + 32 * (100vw - 52.125rem) / 446,3rem);
+  }
+}
+
+.case-rte .case-rte-body ol:last-child, .case-rte .case-rte-body p:last-child, .case-rte .case-rte-body ul:last-child {
+  margin-bottom: 0;
+}

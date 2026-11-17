@@ -1,0 +1,378 @@
+{
+  "slug": "es-es",
+  "type": "landing",
+  "renderBranch": "A'",
+  "template": "index",
+  "modules": [
+    "hero-block",
+    "quote-block",
+    "featured-case-study",
+    "homepage-cta-block",
+    "partners-block",
+    "featured-verticals-block",
+    "contact-form"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "hero-block",
+    "quote-block",
+    "featured-case-study",
+    "homepage-cta-block",
+    "partners-block",
+    "featured-verticals-block",
+    "homepage-cta-block",
+    "contact-us-form",
+    "site-footer",
+    "site-slope",
+    "site-slope",
+    "site-slope",
+    "modal",
+    "modal",
+    "modal",
+    "modal"
+  ],
+  "canonShas": {
+    "header": "73cff066609b",
+    "footer": "d3f0cc1ef9d5",
+    "css": "8876c0e8d8d1"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "La empresa de innovación en experiencia",
+    "description": "En Valtech, ofrecemos soluciones para alcanzar lo excepcional y ayudar a nuestros clientes a maximizar su potencial.",
+    "canonical": "https://www.valtech.com/es-es/",
+    "lang": "es"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "La empresa de innovación en experiencia",
+    "description": "En Valtech, ofrecemos soluciones para alcanzar lo excepcional y ayudar a nuestros clientes a maximizar su potencial.",
+    "url": "https://www.valtech.com/es-es/"
+  },
+  "migratedAt": "2026-11-13T19:10:44Z",
+  "designMdSha": "9dc5e8267a4e",
+  "designJsonSha": "ec9a36425b28",
+  "sourceCurrentSha": "90a0cef8cce4",
+  "sourceProposedSha": "194f3f10875d",
+  "fidelityTier": "sibling",
+  "archetypeSource": "index",
+  "archetypeSha": "6b35499abb68",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "content-fidelity",
+    "content-count",
+    "delivery-lint",
+    "media-reconcile",
+    "pixel-gate-1440",
+    "pixel-gate-360"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance vs https://www.valtech.com/ @1440 exit 2: hero h2 82→88px (runtime title-fit text-adapter, content-driven, handled by hero-block fit), verticals 1→2 style families (slider selected/unselected state) — no variant class; stardust/.work/cluster-landing/variance.json",
+    "content-fidelity": "verbatim from stardust/current/pages/es-es.html via stardust/.work/cluster-landing/gen-es.py (archetype shape content/index.html); published-origin gate content MISSING 0 / HIDDEN 0 at 1440 and 360",
+    "content-count": "headings 5 hero h2 + h1 + 2 h2 + 5 h3 + 3 h2 + hidden h2 + 11 h3 + 2 h2, 39 links, 47 images (DA media/landing) vs capture; gate-all content MISSING 0 / HIDDEN 0 both widths",
+    "delivery-lint": "0 P0 / 0 P1 (--path /es-es/index)",
+    "media-reconcile": "47 hosted (archetype-landing + cluster-landing media ledgers)",
+    "pixel-gate-1440": "gates/all-1440 es-es 4.67% dh 0 PASS",
+    "pixel-gate-360": "gates/all-360 es-es 0.3% dh 0 PASS"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 11,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/es-es/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/nuestros-partners/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/servicios/elevacion-de-la-experiencia/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/aceleracion-comercio/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/transformacion-empresarial/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/servicios-creativos-de-marketing-performance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/revolucion-del-dato-y-ia/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/carrera/ofertas-de-empleo/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/trabajar-en-valtech/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/diversidad-e-inclusion/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/la-empresa-inteligente/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/oficinas/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/contacto/keep-in-touch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de-de/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-dk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr-fr/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nl-nl/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-gb/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sv-se/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ca/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-ar/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt-br/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-mx/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-sg/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/la-empresa-inteligente/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/servicios/revolucion-del-dato-y-ia/valtech-one/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/casos/lexus-europa/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2025/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/noticias/valtech-joins-fast-companys-best-workplaces-for-innovators/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/casos/eton/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/casos/discover/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/casos/lexus-europa/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/casos/mandarin-oriental/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/casos/mars/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/nuestros-partners/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/nuestros-partners/adobe/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/nuestros-partners/google/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/nuestros-partners/salesforce/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/nuestros-partners/shopify/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/movilidad/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/movilidad/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/lujo/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/lujo/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/retail/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/retail/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/bienes-de-gran-consumo/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/bienes-de-gran-consumo/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/servicios-financieros/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/servicios-financieros/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/salud/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/salud/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/sector-industrial/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/sector-industrial/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/viajes-hosteleria/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/viajes-hosteleria/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/agricultura/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/agricultura/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/nuevo-horizonte-espacial/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/nuevo-horizonte-espacial/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/sector-publico/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/sector-publico/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/carrera/ofertas-de-empleo/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/oficinas/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/carrera/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/accesibilidad/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/mantente-en-contacto/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "es-es/index.html",
+  "outputPathDefault": null,
+  "sidecar": "es-es/_meta.json",
+  "driverVersion": "1"
+}

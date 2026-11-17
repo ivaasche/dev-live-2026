@@ -1,0 +1,63 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-11-14T09:21:41.771Z",
+ "source": "https://www.valtech.com/",
+ "build": "https://main--c87ac39f--aemcoder.aem.live/",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  390,
+  1440
+ ],
+ "counts": {
+  "error": 0,
+  "warn": 5,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "budget-truncated@390 (source)",
+   "width": 390,
+   "path": "(source)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the source record stopped at request-budget: raise --max-states/--max-depth for full coverage"
+  },
+  {
+   "key": "state-extra@1440 Our work [key]",
+   "width": 1440,
+   "path": "Our work",
+   "action": "key",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on key on the build only"
+  },
+  {
+   "key": "state-extra@1440 Careers [key]",
+   "width": 1440,
+   "path": "Careers",
+   "action": "key",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on key on the build only"
+  },
+  {
+   "key": "state-extra@1440 Our insights [key]",
+   "width": 1440,
+   "path": "Our insights",
+   "action": "key",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on key on the build only"
+  },
+  {
+   "key": "state-extra@1440 About us [key]",
+   "width": 1440,
+   "path": "About us",
+   "action": "key",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on key on the build only"
+  }
+ ]
+}

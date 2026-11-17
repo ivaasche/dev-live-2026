@@ -1,0 +1,262 @@
+{
+  "slug": "es-es-guia-para-la-empresa-inteligente",
+  "type": "offering",
+  "renderBranch": "A'",
+  "template": "valtech-conversion-engine",
+  "modules": [
+    "breadcrumbs",
+    "masthead-two-columns-cta",
+    "masthead-services",
+    "pdf-view-block",
+    "two-columns",
+    "results-statistics",
+    "podcast-speakers",
+    "faq-block"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "site-breadcrumbs",
+    "masthead-two-columns-cta",
+    "masthead-services",
+    "rte-block",
+    "pdf-view-block",
+    "rte-block",
+    "two-columns",
+    "two-columns",
+    "two-columns",
+    "two-columns",
+    "results-statistics-block",
+    "podcast-speakers",
+    "rte-block",
+    "faq-block",
+    "marketo-form-block",
+    "site-footer",
+    "site-slope",
+    "site-slope",
+    "site-slope",
+    "modal",
+    "modal",
+    "modal",
+    "modal"
+  ],
+  "canonShas": {
+    "header": "73cff066609b",
+    "footer": "d3f0cc1ef9d5",
+    "css": "8876c0e8d8d1"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Guía para la empresa inteligente | Valtech | Valtech",
+    "description": "La guía para la empresa inteligente de Valtech explica cómo reducir costes, crecer con eficiencia e impulsar el negocio y la toma de decisiones con IA.",
+    "canonical": "https://www.valtech.com/es-es/guia-para-la-empresa-inteligente/",
+    "lang": "es"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Report",
+    "headline": "Guía para la empresa inteligente | Valtech",
+    "description": "La guía para la empresa inteligente de Valtech explica cómo reducir costes, crecer con eficiencia e impulsar el negocio y la toma de decisiones con IA.",
+    "publisher": {
+      "@id": "https://www.valtech.com/#corporation"
+    },
+    "hasPart": {
+      "@type": "DigitalDocument",
+      "name": "Guía para la empresa inteligente | Valtech",
+      "encodingFormat": "application/pdf"
+    }
+  },
+  "migratedAt": "2026-11-13T22:56:17Z",
+  "designMdSha": "9dc5e8267a4e",
+  "designJsonSha": "ec9a36425b28",
+  "sourceCurrentSha": "335a11f59171",
+  "sourceProposedSha": "062164aad6da",
+  "fidelityTier": "sibling",
+  "archetypeSource": "valtech-conversion-engine",
+  "archetypeSha": "6faf444abaa7",
+  "variants": [
+    "masthead-services.linked.description masthead-services.video.(video-block.in.the.media.panel)"
+  ],
+  "gatesPassed": [
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "verbatim sibling encode of stardust/current/pages/es-es-guia-para-la-empresa-inteligente.html into content/es-es/guia-para-la-empresa-inteligente.html (archetype valtech-conversion-engine shape, stardust/.work/cluster-offering/build-content.py); published-origin gate 1440 5.89 % Δh 16 PASS / 360 9.9 % Δh 50 PASS"
+  },
+  "contentDeviations": [
+    {
+      "kind": "heading-level",
+      "source": "masthead-services h1 \"Gestionar. Operar. Crecer.\"",
+      "target": "h2 (styled as the source h1)",
+      "reason": "second source <h1>; EDS delivery lint requires exactly one h1"
+    },
+    {
+      "kind": "style",
+      "source": "mixed .smaller-title stat figures (36px) in one block",
+      "target": "all figures at the block size",
+      "reason": "smaller-title is a block variant; per-card size is not authorable"
+    },
+    {
+      "kind": "empty-module",
+      "source": "section.rte-block (no content)",
+      "target": "omitted",
+      "reason": "empty source module renders only its indents"
+    },
+    {
+      "kind": "empty-module",
+      "source": "div.marketo-form-block (no form id, empty form)",
+      "target": "omitted",
+      "reason": "empty source module renders nothing (0 px)"
+    },
+    {
+      "kind": "nav-active",
+      "source": "no active top-nav item in the source header",
+      "target": "no nav-active row",
+      "reason": "the source marks no section on this page (C0 rule: as the source shows it)"
+    }
+  ],
+  "assetsBundled": 11,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/es-es/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/search/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/industrias/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/servicios/elevacion-de-la-experiencia/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/aceleracion-comercio/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/transformacion-empresarial/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/servicios-creativos-de-marketing-performance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/servicios/revolucion-del-dato-y-ia/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/carrera/ofertas-de-empleo/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/trabajar-en-valtech/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/diversidad-e-inclusion/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/oficinas/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/contacto/keep-in-touch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de-de/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-dk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr-fr/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nl-nl/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-gb/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sv-se/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ch/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-ca/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-ar/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pt-br/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-mx/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-sg/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/oficinas/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/carrera/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es-es/quienes-somos/accesibilidad/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/es-es/quienes-somos/mantente-en-contacto/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.valtech.com/privacy-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.valtech.com/privacy-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.valtech.com/privacy-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.valtech.com/privacy-notice/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "es-es/guia-para-la-empresa-inteligente/index.html",
+  "outputPathDefault": null,
+  "sidecar": "es-es/guia-para-la-empresa-inteligente/_meta.json",
+  "driverVersion": "1"
+}

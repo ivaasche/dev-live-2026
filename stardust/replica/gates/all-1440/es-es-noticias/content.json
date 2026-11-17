@@ -1,0 +1,2778 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T06:41:54.186Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/es-es/noticias/",
+  "at": "2026-11-14T06:41:32.101Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4999,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.site-nav__menu-wrapper.site-nav__menu__labels > div.site-nav__logo > a.site-nav__logo__link",
+    "x": 24,
+    "y": 12,
+    "w": 159,
+    "h": 41,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 373,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "nuestro trabajo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 569,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "servicios"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 764,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "talento"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title",
+    "x": 960,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "perspectivas"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.site-nav__menu__list > li.site-nav__menu__item > button.site-nav__menu__title.active",
+    "x": 1156,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "sobre nosotros"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.desktop",
+    "x": 1376,
+    "y": 36,
+    "w": 64,
+    "h": 40,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.desktop",
+    "x": 1376,
+    "y": 36,
+    "w": 64,
+    "h": 40,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > a.search-select.desktop",
+    "x": 1376,
+    "y": 76,
+    "w": 64,
+    "h": 40,
+    "text": "go to search page",
+    "href": "/es-es/search/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > a",
+    "x": 24,
+    "y": 89,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 75,
+    "y": 89,
+    "w": 56,
+    "h": 21,
+    "label": "current",
+    "value": "noticias",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 75,
+    "y": 89,
+    "w": 56,
+    "h": 21,
+    "text": "Noticias"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.masthead-services > div.masthead-services_content > h1.masthead-services_content-title",
+    "x": 24,
+    "y": 247,
+    "w": 654,
+    "h": 96,
+    "level": 1,
+    "text": "noticias valtech"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-overview__result > div.news-overview__subheader > h2.news-overview__subheader-title",
+    "x": 54,
+    "y": 623,
+    "w": 1298,
+    "h": 113,
+    "level": 2,
+    "text": "2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-overview__subheader > h2.news-overview__subheader-title > span.news-overview__subheader-title-content",
+    "x": 54,
+    "y": 623,
+    "w": 271,
+    "h": 138,
+    "text": "2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 712,
+    "w": 1328,
+    "h": 136,
+    "text": "noviembre 11, 2026 valtech and bayer win a 2026 sitecore digital impact award",
+    "href": "/es-es/noticias/valtech-and-bayer-win-a-2026-sitecore-digital-impact-award/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 849,
+    "w": 1328,
+    "h": 136,
+    "text": "noviembre 10, 2026 roger lay on the future of valtech dach and ai",
+    "href": "/es-es/noticias/roger-lay-managing-director-dach/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 986,
+    "w": 1328,
+    "h": 136,
+    "text": "noviembre 5, 2026 lunendonk study 2026",
+    "href": "/es-es/noticias/lunendonk-study-2026/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 1123,
+    "w": 1328,
+    "h": 136,
+    "text": "octubre 20, 2026 perfect data can wait. progress can’t.",
+    "href": "/es-es/noticias/perfect-data-can-wait-progress-cant/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 1260,
+    "w": 1328,
+    "h": 136,
+    "text": "septiembre 28, 2026 valtech wins red dot design award for turning ericsson's ico",
+    "href": "/es-es/noticias/valtech-wins-red-dot-design-award-ericsson-econ/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 1397,
+    "w": 1328,
+    "h": 136,
+    "text": "septiembre 23, 2026 valtech agent factory: governed enterprise ai agents",
+    "href": "/es-es/noticias/valtech-agent-factory-launch-dmexco-2026/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 1534,
+    "w": 1328,
+    "h": 136,
+    "text": "agosto 25, 2026 valtech accelerates enterprise ai transformation with google clo",
+    "href": "/es-es/noticias/valtech-google-cloud-gemini-for-industries-launch-partner/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 1671,
+    "w": 1328,
+    "h": 136,
+    "text": "julio 10, 2026 enterprise ai study: employees are ready for agentic ai",
+    "href": "/es-es/noticias/agentic-ai-study/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 1808,
+    "w": 1328,
+    "h": 136,
+    "text": "junio 15, 2026 profeel taps valtech to support expansion",
+    "href": "/es-es/noticias/profeel-selects-valtech-to-support-global-brand-expansion/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 1945,
+    "w": 1328,
+    "h": 136,
+    "text": "junio 12, 2026 valtech and rfsu shortlisted for condom call campaign",
+    "href": "/es-es/noticias/valtech-rfsu-condom-call-shortlisted-at-new-york-festivals-advertising-awards/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 2082,
+    "w": 1328,
+    "h": 136,
+    "text": "junio 5, 2026 valtech and rfsu recognized at clio health awards with silver and ",
+    "href": "/es-es/noticias/valtech-rfsu-clio-health-awards-wins/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 2219,
+    "w": 1328,
+    "h": 136,
+    "text": "mayo 14, 2026 la ia conversacional se está convirtiendo en la nueva puerta de en",
+    "href": "/es-es/noticias/conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 2356,
+    "w": 1328,
+    "h": 136,
+    "text": "mayo 14, 2026 valtech, reconocida como strong performer en el informe commerce s",
+    "href": "/es-es/noticias/valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 2493,
+    "w": 1328,
+    "h": 136,
+    "text": "abril 20, 2026 valtech wins gold and silver at spinn awards for “condom call” ca",
+    "href": "/es-es/noticias/valtech-wins-at-spinn-awards/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 2630,
+    "w": 1328,
+    "h": 136,
+    "text": "abril 14, 2026 valtech named a finalist in postnl innovation & ai award",
+    "href": "/es-es/noticias/valtech-award-the-greenery/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 2767,
+    "w": 1328,
+    "h": 136,
+    "text": "abril 10, 2026 valtech earns bronze and two clio awards shortlist nominations fo",
+    "href": "/es-es/noticias/valtech-clio-awards-shortlist-rfsu-campaign/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 2904,
+    "w": 1328,
+    "h": 136,
+    "text": "abril 9, 2026 valtech singapore achieves premier tier status in the google cloud",
+    "href": "/es-es/noticias/valtech-premier-tier-in-google-cloud-co-sell-and-services-partner-paths/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 3041,
+    "w": 1328,
+    "h": 136,
+    "text": "abril 9, 2026 valtech strengthens data and ai capabilities with databricks",
+    "href": "/es-es/noticias/valtech-strengthens-data-ai-capabilities-with-databricks/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 3178,
+    "w": 1328,
+    "h": 136,
+    "text": "marzo 25, 2026 valtech selected by student awards agency scotland to deliver cor",
+    "href": "/es-es/noticias/valtech-selected-by-saas-for-core-systems-replacement/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 3315,
+    "w": 1328,
+    "h": 136,
+    "text": "marzo 24, 2026 valtech survey: automotive leaders lose confidence as digital rea",
+    "href": "/es-es/noticias/automotive-digital-confidence-declines-ai-sdv-valtech-2026/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 3452,
+    "w": 1328,
+    "h": 136,
+    "text": "marzo 23, 2026 valtech named a major player in idc marketscape for worldwide exp",
+    "href": "/es-es/noticias/valtech-named-a-major-player-in-idc-marketscape/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 3589,
+    "w": 1328,
+    "h": 136,
+    "text": "marzo 18, 2026 valtech appoints gijs vlaander managing director of valtech nethe",
+    "href": "/es-es/noticias/gijs-vlaander-appointed-managing-director-valtech-netherlands/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 3726,
+    "w": 1328,
+    "h": 136,
+    "text": "marzo 6, 2026 new global valtech report finds unclear data ownership is holding ",
+    "href": "/es-es/noticias/rewiring-financial-services-ai-data-ownership-report/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 3863,
+    "w": 1328,
+    "h": 136,
+    "text": "marzo 4, 2026 manufacturing leaders are redefining digital advantage under susta",
+    "href": "/es-es/noticias/manufacturing-leaders-redefining-digital-advantage/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 4000,
+    "w": 1328,
+    "h": 136,
+    "text": "febrero 13, 2026 valtech wins two swedish effies (100-wattaren) awards for busin",
+    "href": "/es-es/noticias/valtech-wins-two-swedish-effie-awards-100-wattaren/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 4137,
+    "w": 1328,
+    "h": 136,
+    "text": "febrero 5, 2026 valtech recognized as a 2026 google public sector data analytics",
+    "href": "/es-es/noticias/valtech-recognized-2026-google-public-sector-data-analytics-partner/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.u-list.news-overview__list > li.sc-gtcBCx.krua-DE > a",
+    "x": 24,
+    "y": 4274,
+    "w": 1328,
+    "h": 136,
+    "text": "enero 22, 2026 valtech recognized in salesforce consulting services landscape, q",
+    "href": "/es-es/noticias/valtech-recognized-in-forrester-salesforce-consulting-services-landscape-2025/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-overview__footer > div.sc-bdDsCe.jmYRXb > button.--large.--secondary-hollow",
+    "x": 602,
+    "y": 4491,
+    "w": 172,
+    "h": 60,
+    "text": "load more"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 370,
+    "y": 4750,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 482,
+    "y": 4750,
+    "w": 109,
+    "h": 21,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 667,
+    "y": 4750,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 799,
+    "y": 4750,
+    "w": 148,
+    "h": 21,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer__column.site-footer__stamp > picture > img",
+    "x": 1075,
+    "y": 4726,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "badge-no-outline"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 84,
+    "y": 4878,
+    "w": 153,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 288,
+    "y": 4878,
+    "w": 135,
+    "h": 21,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 516,
+    "y": 4878,
+    "w": 82,
+    "h": 21,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 646,
+    "y": 4878,
+    "w": 96,
+    "h": 21,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 84,
+    "y": 4919,
+    "w": 156,
+    "h": 21,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a.cookiebot-reset",
+    "x": 288,
+    "y": 4919,
+    "w": 180,
+    "h": 21,
+    "text": "configuración de cookies",
+    "href": "/es-es/noticias/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 962,
+    "y": 4883,
+    "w": 23,
+    "h": 21,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 1017,
+    "y": 4883,
+    "w": 23,
+    "h": 21,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 1072,
+    "y": 4883,
+    "w": 23,
+    "h": 21,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 1127,
+    "y": 4883,
+    "w": 23,
+    "h": 21,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 1182,
+    "y": 4883,
+    "w": 23,
+    "h": 21,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 1237,
+    "y": 4883,
+    "w": 23,
+    "h": 21,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 1,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 6,
+    "textNodes": 79,
+    "controls": 56,
+    "total": 1
+   },
+   "groups": [
+    {
+     "kind": "TEXT CLIPPED",
+     "advisory": false,
+     "n": 1,
+     "clipper": "div.news-overview__subheader",
+     "path": "div.news-overview__result > div.news-overview__subheader > h2.news-overview__subheader-title > span.news-overview__subheader-title-content",
+     "text": "2026",
+     "cutMin": 73,
+     "cutMax": 73
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/es-es/noticias",
+  "at": "2026-11-14T06:41:54.011Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4999,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-nav-menu-wrapper.site-nav-menu-labels > div.site-nav-logo > a.site-nav-logo-link",
+    "x": 24,
+    "y": 12,
+    "w": 159,
+    "h": 41,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu-list > li.site-nav-menu-item > button.site-nav-menu-title",
+    "x": 373,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "nuestro trabajo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu-list > li.site-nav-menu-item > button.site-nav-menu-title",
+    "x": 569,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "servicios"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu-list > li.site-nav-menu-item > button.site-nav-menu-title",
+    "x": 764,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "talento"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu-list > li.site-nav-menu-item > button.site-nav-menu-title.active",
+    "x": 960,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "perspectivas"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu-list > li.site-nav-menu-item > button.site-nav-menu-title",
+    "x": 1156,
+    "y": 21,
+    "w": 170,
+    "h": 24,
+    "text": "sobre nosotros"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.desktop",
+    "x": 1376,
+    "y": 36,
+    "w": 64,
+    "h": 40,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.desktop",
+    "x": 1376,
+    "y": 36,
+    "w": 64,
+    "h": 40,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > a.search-select.desktop",
+    "x": 1376,
+    "y": 76,
+    "w": 64,
+    "h": 40,
+    "text": "go to search page",
+    "href": "/es-es/search/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.side-button > p > a#side-button",
+    "x": 1392,
+    "y": 152,
+    "w": 28,
+    "h": 190,
+    "text": "contáctanos",
+    "href": "/es-es/noticias"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 24,
+    "y": 89,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 62,
+    "y": 89,
+    "w": 69,
+    "h": 22,
+    "label": "current",
+    "value": "noticias",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 62,
+    "y": 89,
+    "w": 69,
+    "h": 22,
+    "text": "Noticias"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-services.block > div.masthead-services-content > h1#noticias-valtech",
+    "x": 24,
+    "y": 247,
+    "w": 654,
+    "h": 96,
+    "level": 1,
+    "text": "noticias valtech"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-overview-result > div.news-overview-subheader > h2#2026",
+    "x": 54,
+    "y": 623,
+    "w": 1298,
+    "h": 113,
+    "level": 2,
+    "text": "2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-overview-subheader > h2#2026 > span.news-overview-year-content",
+    "x": 54,
+    "y": 623,
+    "w": 271,
+    "h": 138,
+    "text": "2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 712,
+    "w": 1328,
+    "h": 136,
+    "text": "noviembre 11, 2026 valtech and bayer win a 2026 sitecore digital impact award",
+    "href": "/es-es/noticias/valtech-and-bayer-win-a-2026-sitecore-digital-impact-award/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 849,
+    "w": 1328,
+    "h": 136,
+    "text": "noviembre 10, 2026 roger lay on the future of valtech dach and ai",
+    "href": "/es-es/noticias/roger-lay-managing-director-dach/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 986,
+    "w": 1328,
+    "h": 136,
+    "text": "noviembre 5, 2026 lunendonk study 2026",
+    "href": "/es-es/noticias/lunendonk-study-2026/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 1123,
+    "w": 1328,
+    "h": 136,
+    "text": "octubre 20, 2026 perfect data can wait. progress can’t.",
+    "href": "/es-es/noticias/perfect-data-can-wait-progress-cant/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 1260,
+    "w": 1328,
+    "h": 136,
+    "text": "septiembre 28, 2026 valtech wins red dot design award for turning ericsson's ico",
+    "href": "/es-es/noticias/valtech-wins-red-dot-design-award-ericsson-econ/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 1397,
+    "w": 1328,
+    "h": 136,
+    "text": "septiembre 23, 2026 valtech agent factory: governed enterprise ai agents",
+    "href": "/es-es/noticias/valtech-agent-factory-launch-dmexco-2026/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 1534,
+    "w": 1328,
+    "h": 136,
+    "text": "agosto 25, 2026 valtech accelerates enterprise ai transformation with google clo",
+    "href": "/es-es/noticias/valtech-google-cloud-gemini-for-industries-launch-partner/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 1671,
+    "w": 1328,
+    "h": 136,
+    "text": "julio 10, 2026 enterprise ai study: employees are ready for agentic ai",
+    "href": "/es-es/noticias/agentic-ai-study/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 1808,
+    "w": 1328,
+    "h": 136,
+    "text": "junio 15, 2026 profeel taps valtech to support expansion",
+    "href": "/es-es/noticias/profeel-selects-valtech-to-support-global-brand-expansion/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 1945,
+    "w": 1328,
+    "h": 136,
+    "text": "junio 12, 2026 valtech and rfsu shortlisted for condom call campaign",
+    "href": "/es-es/noticias/valtech-rfsu-condom-call-shortlisted-at-new-york-festivals-advertising-awards/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 2082,
+    "w": 1328,
+    "h": 136,
+    "text": "junio 5, 2026 valtech and rfsu recognized at clio health awards with silver and ",
+    "href": "/es-es/noticias/valtech-rfsu-clio-health-awards-wins/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 2219,
+    "w": 1328,
+    "h": 136,
+    "text": "mayo 14, 2026 la ia conversacional se está convirtiendo en la nueva puerta de en",
+    "href": "/es-es/noticias/conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 2356,
+    "w": 1328,
+    "h": 136,
+    "text": "mayo 14, 2026 valtech, reconocida como strong performer en el informe commerce s",
+    "href": "/es-es/noticias/valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 2493,
+    "w": 1328,
+    "h": 136,
+    "text": "abril 20, 2026 valtech wins gold and silver at spinn awards for “condom call” ca",
+    "href": "/es-es/noticias/valtech-wins-at-spinn-awards/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 2630,
+    "w": 1328,
+    "h": 136,
+    "text": "abril 14, 2026 valtech named a finalist in postnl innovation & ai award",
+    "href": "/es-es/noticias/valtech-award-the-greenery/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 2767,
+    "w": 1328,
+    "h": 136,
+    "text": "abril 10, 2026 valtech earns bronze and two clio awards shortlist nominations fo",
+    "href": "/es-es/noticias/valtech-clio-awards-shortlist-rfsu-campaign/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 2904,
+    "w": 1328,
+    "h": 136,
+    "text": "abril 9, 2026 valtech singapore achieves premier tier status in the google cloud",
+    "href": "/es-es/noticias/valtech-premier-tier-in-google-cloud-co-sell-and-services-partner-paths/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 3041,
+    "w": 1328,
+    "h": 136,
+    "text": "abril 9, 2026 valtech strengthens data and ai capabilities with databricks",
+    "href": "/es-es/noticias/valtech-strengthens-data-ai-capabilities-with-databricks/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 3178,
+    "w": 1328,
+    "h": 136,
+    "text": "marzo 25, 2026 valtech selected by student awards agency scotland to deliver cor",
+    "href": "/es-es/noticias/valtech-selected-by-saas-for-core-systems-replacement/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 3315,
+    "w": 1328,
+    "h": 136,
+    "text": "marzo 24, 2026 valtech survey: automotive leaders lose confidence as digital rea",
+    "href": "/es-es/noticias/automotive-digital-confidence-declines-ai-sdv-valtech-2026/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 3452,
+    "w": 1328,
+    "h": 136,
+    "text": "marzo 23, 2026 valtech named a major player in idc marketscape for worldwide exp",
+    "href": "/es-es/noticias/valtech-named-a-major-player-in-idc-marketscape/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 3589,
+    "w": 1328,
+    "h": 136,
+    "text": "marzo 18, 2026 valtech appoints gijs vlaander managing director of valtech nethe",
+    "href": "/es-es/noticias/gijs-vlaander-appointed-managing-director-valtech-netherlands/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 3726,
+    "w": 1328,
+    "h": 136,
+    "text": "marzo 6, 2026 new global valtech report finds unclear data ownership is holding ",
+    "href": "/es-es/noticias/rewiring-financial-services-ai-data-ownership-report/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 3863,
+    "w": 1328,
+    "h": 136,
+    "text": "marzo 4, 2026 manufacturing leaders are redefining digital advantage under susta",
+    "href": "/es-es/noticias/manufacturing-leaders-redefining-digital-advantage/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 4000,
+    "w": 1328,
+    "h": 136,
+    "text": "febrero 13, 2026 valtech wins two swedish effies (100-wattaren) awards for busin",
+    "href": "/es-es/noticias/valtech-wins-two-swedish-effie-awards-100-wattaren/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 4137,
+    "w": 1328,
+    "h": 136,
+    "text": "febrero 5, 2026 valtech recognized as a 2026 google public sector data analytics",
+    "href": "/es-es/noticias/valtech-recognized-2026-google-public-sector-data-analytics-partner/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.news-overview-list > li.news-item > a",
+    "x": 24,
+    "y": 4274,
+    "w": 1328,
+    "h": 136,
+    "text": "enero 22, 2026 valtech recognized in salesforce consulting services landscape, q",
+    "href": "/es-es/noticias/valtech-recognized-in-forrester-salesforce-consulting-services-landscape-2025/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-overview-inner > div.news-overview-footer > button.load-more",
+    "x": 602,
+    "y": 4491,
+    "w": 172,
+    "h": 60,
+    "text": "load more"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 370,
+    "y": 4750,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 482,
+    "y": 4750,
+    "w": 109,
+    "h": 21,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 667,
+    "y": 4750,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 799,
+    "y": 4750,
+    "w": 148,
+    "h": 21,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer-column.site-footer-stamp > picture > img",
+    "x": 1075,
+    "y": 4726,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "media_18686ce5d542e21460f5b9773dc388b150"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 84,
+    "y": 4878,
+    "w": 153,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 288,
+    "y": 4878,
+    "w": 135,
+    "h": 21,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 516,
+    "y": 4878,
+    "w": 82,
+    "h": 21,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 646,
+    "y": 4878,
+    "w": 96,
+    "h": 21,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 84,
+    "y": 4919,
+    "w": 156,
+    "h": 21,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a.cookiebot-reset",
+    "x": 288,
+    "y": 4919,
+    "w": 180,
+    "h": 21,
+    "text": "configuración de cookies",
+    "href": "/es-es/noticias"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 962,
+    "y": 4883,
+    "w": 23,
+    "h": 21,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 1017,
+    "y": 4883,
+    "w": 23,
+    "h": 21,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 1072,
+    "y": 4883,
+    "w": 23,
+    "h": 21,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 1127,
+    "y": 4883,
+    "w": 23,
+    "h": 21,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 1182,
+    "y": 4883,
+    "w": 23,
+    "h": 21,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 1237,
+    "y": 4883,
+    "w": 23,
+    "h": 21,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 1,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 1,
+    "textNodes": 76,
+    "controls": 55,
+    "total": 1
+   },
+   "groups": [
+    {
+     "kind": "TEXT CLIPPED",
+     "advisory": false,
+     "n": 1,
+     "clipper": "div.news-overview-subheader",
+     "path": "div.news-overview-result > div.news-overview-subheader > h2#2026 > span.news-overview-year-content",
+     "text": "2026",
+     "cutMin": 73,
+     "cutMax": 73
+    }
+   ],
+   "findings": [
+    {
+     "kind": "TEXT CLIPPED",
+     "cut": 73,
+     "hiddenLines": 0,
+     "path": "div.news-overview-result > div.news-overview-subheader > h2#2026 > span.news-overview-year-content",
+     "text": "2026",
+     "clipper": "div.news-overview-subheader",
+     "rect": {
+      "l": 54,
+      "t": 611,
+      "r": 325,
+      "b": 772,
+      "w": 271,
+      "h": 161
+     },
+     "clip": {
+      "l": 24,
+      "t": 623,
+      "r": 1352,
+      "b": 711,
+      "w": 1328,
+      "h": 88
+     },
+     "lines": 1
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "noticias valtech",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "2026",
+   "variable": false,
+   "origin": {
+    "link": 27,
+    "button": 1,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 27,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 373,
+    "y": 21,
+    "w": 125,
+    "h": 23
+   },
+   {
+    "x": 569,
+    "y": 21,
+    "w": 73,
+    "h": 23
+   },
+   {
+    "x": 764,
+    "y": 21,
+    "w": 59,
+    "h": 23
+   },
+   {
+    "x": 960,
+    "y": 21,
+    "w": 103,
+    "h": 23
+   },
+   {
+    "x": 1156,
+    "y": 21,
+    "w": 122,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 89,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 75,
+    "y": 89,
+    "w": 56,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 250,
+    "w": 487,
+    "h": 89
+   },
+   {
+    "x": 54,
+    "y": 611,
+    "w": 271,
+    "h": 161
+   },
+   {
+    "x": 54,
+    "y": 743,
+    "w": 191,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 791,
+    "w": 526,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 880,
+    "w": 195,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 928,
+    "w": 424,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1017,
+    "w": 186,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1065,
+    "w": 207,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1154,
+    "w": 176,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1202,
+    "w": 335,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1291,
+    "w": 205,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1339,
+    "w": 878,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1428,
+    "w": 205,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1476,
+    "w": 479,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1565,
+    "w": 163,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1613,
+    "w": 678,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1702,
+    "w": 133,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1750,
+    "w": 498,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1839,
+    "w": 136,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1887,
+    "w": 378,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1976,
+    "w": 137,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2024,
+    "w": 497,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2113,
+    "w": 128,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2161,
+    "w": 721,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2250,
+    "w": 137,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2298,
+    "w": 1172,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2387,
+    "w": 137,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2435,
+    "w": 1084,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2524,
+    "w": 141,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2572,
+    "w": 649,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2661,
+    "w": 137,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2709,
+    "w": 499,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2798,
+    "w": 137,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2846,
+    "w": 874,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2935,
+    "w": 128,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2983,
+    "w": 744,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3072,
+    "w": 128,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3120,
+    "w": 530,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3209,
+    "w": 154,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3257,
+    "w": 918,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3346,
+    "w": 155,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3394,
+    "w": 827,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3483,
+    "w": 154,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3531,
+    "w": 1143,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3620,
+    "w": 152,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3668,
+    "w": 647,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3757,
+    "w": 143,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3805,
+    "w": 960,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3894,
+    "w": 144,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3942,
+    "w": 990,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 4031,
+    "w": 169,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 4079,
+    "w": 852,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 4168,
+    "w": 161,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 4216,
+    "w": 741,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 4305,
+    "w": 150,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 4353,
+    "w": 654,
+    "h": 26
+   },
+   {
+    "x": 640,
+    "y": 4508,
+    "w": 95,
+    "h": 26
+   },
+   {
+    "x": 370,
+    "y": 4750,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 482,
+    "y": 4750,
+    "w": 109,
+    "h": 21
+   },
+   {
+    "x": 667,
+    "y": 4750,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 799,
+    "y": 4750,
+    "w": 148,
+    "h": 21
+   },
+   {
+    "x": 84,
+    "y": 4878,
+    "w": 153,
+    "h": 21
+   },
+   {
+    "x": 288,
+    "y": 4878,
+    "w": 135,
+    "h": 21
+   },
+   {
+    "x": 516,
+    "y": 4878,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 646,
+    "y": 4878,
+    "w": 96,
+    "h": 21
+   },
+   {
+    "x": 84,
+    "y": 4919,
+    "w": 156,
+    "h": 21
+   },
+   {
+    "x": 288,
+    "y": 4919,
+    "w": 180,
+    "h": 21
+   }
+  ],
+  "eds": [
+   {
+    "x": 373,
+    "y": 21,
+    "w": 125,
+    "h": 23
+   },
+   {
+    "x": 569,
+    "y": 21,
+    "w": 73,
+    "h": 23
+   },
+   {
+    "x": 764,
+    "y": 21,
+    "w": 59,
+    "h": 23
+   },
+   {
+    "x": 960,
+    "y": 21,
+    "w": 103,
+    "h": 23
+   },
+   {
+    "x": 1156,
+    "y": 21,
+    "w": 122,
+    "h": 23
+   },
+   {
+    "x": 1394,
+    "y": 196,
+    "w": 23,
+    "h": 101
+   },
+   {
+    "x": 24,
+    "y": 89,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 75,
+    "y": 89,
+    "w": 56,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 250,
+    "w": 487,
+    "h": 89
+   },
+   {
+    "x": 54,
+    "y": 611,
+    "w": 271,
+    "h": 161
+   },
+   {
+    "x": 54,
+    "y": 743,
+    "w": 191,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 791,
+    "w": 526,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 880,
+    "w": 195,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 928,
+    "w": 424,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1017,
+    "w": 186,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1065,
+    "w": 207,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1154,
+    "w": 176,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1202,
+    "w": 335,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1291,
+    "w": 205,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1339,
+    "w": 878,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1428,
+    "w": 205,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1476,
+    "w": 479,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1565,
+    "w": 163,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1613,
+    "w": 678,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1702,
+    "w": 133,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1750,
+    "w": 498,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1839,
+    "w": 136,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1887,
+    "w": 378,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 1976,
+    "w": 137,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2024,
+    "w": 497,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2113,
+    "w": 128,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2161,
+    "w": 721,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2250,
+    "w": 137,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2298,
+    "w": 1172,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2387,
+    "w": 137,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2435,
+    "w": 1084,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2524,
+    "w": 141,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2572,
+    "w": 649,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2661,
+    "w": 137,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2709,
+    "w": 499,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2798,
+    "w": 137,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2846,
+    "w": 874,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2935,
+    "w": 128,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 2983,
+    "w": 744,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3072,
+    "w": 128,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3120,
+    "w": 530,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3209,
+    "w": 154,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3257,
+    "w": 918,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3346,
+    "w": 155,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3394,
+    "w": 827,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3483,
+    "w": 154,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3531,
+    "w": 1143,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3620,
+    "w": 152,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3668,
+    "w": 647,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3757,
+    "w": 143,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3805,
+    "w": 960,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3894,
+    "w": 144,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 3942,
+    "w": 990,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 4031,
+    "w": 169,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 4079,
+    "w": 852,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 4168,
+    "w": 161,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 4216,
+    "w": 741,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 4305,
+    "w": 150,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 4353,
+    "w": 654,
+    "h": 26
+   },
+   {
+    "x": 640,
+    "y": 4508,
+    "w": 95,
+    "h": 26
+   },
+   {
+    "x": 370,
+    "y": 4750,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 482,
+    "y": 4750,
+    "w": 109,
+    "h": 21
+   },
+   {
+    "x": 667,
+    "y": 4750,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 799,
+    "y": 4750,
+    "w": 148,
+    "h": 21
+   },
+   {
+    "x": 84,
+    "y": 4878,
+    "w": 153,
+    "h": 21
+   },
+   {
+    "x": 288,
+    "y": 4878,
+    "w": 135,
+    "h": 21
+   },
+   {
+    "x": 516,
+    "y": 4878,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 646,
+    "y": 4878,
+    "w": 96,
+    "h": 21
+   },
+   {
+    "x": 84,
+    "y": 4919,
+    "w": 156,
+    "h": 21
+   },
+   {
+    "x": 288,
+    "y": 4919,
+    "w": 180,
+    "h": 21
+   }
+  ]
+ }
+}

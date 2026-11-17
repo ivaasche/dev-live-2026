@@ -1,0 +1,136 @@
+/* iehub-masthead — source section.section.iehub-masthead (main.css iehub-masthead rules, values
+   verbatim; the source .section margin-right utility it carries) */
+
+@media (width >= 64rem) {
+  .iehub-masthead {
+    margin-right: 64px;
+  }
+}
+
+.iehub-masthead {
+  background: #002fa7;
+  color: #fff;
+  padding: 0 0 1.375rem;
+  position: relative;
+  width: 100%;
+}
+
+.iehub-masthead .iehub-masthead-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: calc(100vh - 4.125rem);
+  position: relative;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}
+
+@media (width >= 58.75rem) {
+  .iehub-masthead .iehub-masthead-container {
+    min-height: calc(100dvh - 8.4375rem);
+  }
+}
+
+.iehub-masthead h1,
+.iehub-masthead .iehub-masthead-title {
+  color: inherit;
+  font-family: ValtechNeue,sans-serif;
+  font-size: clamp(3rem,6.8vw,7.25rem);
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0 0 clamp(1rem,1rem + 32*(100vw - 24.375rem)/1530,3rem);
+}
+
+@media (orientation:portrait) {
+  .iehub-masthead h1,
+  .iehub-masthead .iehub-masthead-title {
+    font-size: 7.29vw;
+  }
+}
+
+.iehub-masthead h1 h1,
+.iehub-masthead .iehub-masthead-title h1 {
+  margin: 0;
+}
+
+.iehub-masthead h1 blockquote,
+.iehub-masthead .iehub-masthead-title blockquote {
+  color: inherit;
+}
+
+@media (width >= 64rem) {
+  .iehub-masthead h1 ul,
+  .iehub-masthead .iehub-masthead-title ul {
+    margin: 0 2.5rem;
+  }
+}
+
+.iehub-masthead .iehub-masthead-description {
+  color: inherit;
+  font-family: Soehne,sans-serif;
+  font-size: clamp(1rem,1rem + 24*(100vw - 24.375rem)/1530,2.5rem);
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0 0 clamp(1.5rem,1.5rem + 40*(100vw - 24.375rem)/1530,4rem);
+  max-width: 55ch;
+}
+
+.iehub-masthead .iehub-masthead-cta {
+  background-color: #fff;
+  border: 2px solid #fff;
+  color: #000;
+  font-size: clamp(1rem,1rem + 2*(100vw - 24.375rem)/890,1.125rem);
+  font-weight: 400;
+  margin: 0;
+  padding: clamp(.4375rem,.4375rem + 3*(100vw - 24.375rem)/890,.625rem) clamp(.875rem,.875rem + 8*(100vw - 24.375rem)/890,1.375rem);
+}
+
+.iehub-masthead .iehub-masthead-cta:hover {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+
+@media (width >= 58.75rem) {
+  .iehub-masthead .iehub-masthead-cta {
+    font-weight: 300;
+  }
+}
+
+.iehub-masthead .iehub-masthead-bg-image {
+  height: 100%;
+  left: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.iehub-masthead .iehub-masthead-bg-image img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.iehub-masthead .iehub-masthead-bg-image picture {
+  display: block;
+  height: 100%;
+}
+
+.iehub-masthead .iehub-masthead-bg-image .iehub-masthead-portrait {
+  display: none;
+}
+
+/* source <picture>: the mobile rendition below 940px in portrait */
+@media (width < 940px) and (orientation: portrait) {
+  .iehub-masthead .iehub-masthead-bg-image:has(.iehub-masthead-portrait) .iehub-masthead-landscape {
+    display: none;
+  }
+
+  .iehub-masthead .iehub-masthead-bg-image .iehub-masthead-portrait {
+    display: block;
+  }
+}

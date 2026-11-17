@@ -1,0 +1,133 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-13T16:32:31.633Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.valtech.com",
+    "eds": "https://main--c87ac39f--aemcoder.aem.page",
+    "edsHostOverride": "https://main--c87ac39f--aemcoder.aem.page",
+    "only": [
+      "es-es-blog"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 0,
+    "overridePass": 0,
+    "fail": 1,
+    "error": 0,
+    "failPixel": 1,
+    "failHeight": 0,
+    "failClip": 1,
+    "failContent": 0,
+    "failUnits": 1,
+    "fontsNotLoaded": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "es-es-blog",
+      "path": "/es-es/blog",
+      "template": "listing",
+      "tier": "archetype",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 54.1,
+      "textPct": 69.3,
+      "heightDelta": -241,
+      "originH": 7303,
+      "edsH": 7544,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 10,
+      "clipPass": false,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 54.1% > 10%",
+        "clipped 10 (text 10, controls 0)",
+        "units off 0 hidden 0 missing 0"
+      ],
+      "clipGroups": [
+        {
+          "kind": "TEXT CLIPPED",
+          "advisory": false,
+          "n": 10,
+          "clipper": "p",
+          "path": "div.insights-overview-grid > a.insight-item > div.ii-excerpt > p",
+          "text": "durante décadas, los equipos de marketing han buscado mejora",
+          "cutMin": 21,
+          "cutMax": 21
+        }
+      ],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 1,
+        "variable": []
+      },
+      "units": {
+        "units": 0,
+        "within": 0,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 3,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [
+        "0-500:34.9%",
+        "500-1000:68%",
+        "1000-1500:88%",
+        "1500-2000:54.8%",
+        "2000-2500:59.8%",
+        "2500-3000:22.2%",
+        "3000-3500:64.5%",
+        "3500-4000:57.1%",
+        "4000-4500:69.5%",
+        "4500-5000:57.3%",
+        "5000-5500:57.3%",
+        "5500-6000:66.5%",
+        "6000-6500:44.4%",
+        "6500-7000:42.4%"
+      ],
+      "error": null
+    }
+  ]
+}

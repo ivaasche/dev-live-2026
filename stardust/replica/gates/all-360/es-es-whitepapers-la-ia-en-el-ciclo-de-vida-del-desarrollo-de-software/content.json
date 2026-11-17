@@ -1,0 +1,7711 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T07:25:20.077Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/es-es/whitepapers/la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software/",
+  "at": "2026-11-14T07:25:00.221Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4005,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.site-nav__menu-wrapper.site-nav__menu__labels > div.site-nav__logo > a.site-nav__logo__link",
+    "x": 24,
+    "y": 25,
+    "w": 80,
+    "h": 21,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > a.search-select.mobile",
+    "x": 232,
+    "y": 24,
+    "w": 22,
+    "h": 23,
+    "text": "go to search page",
+    "href": "/es-es/search/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open main menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open main menu",
+    "value": "open main menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > a",
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > a",
+    "x": 75,
+    "y": 75,
+    "w": 99,
+    "h": 21,
+    "text": "publicaciones",
+    "href": "/es-es/whitepapers/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 24,
+    "y": 97,
+    "w": 291,
+    "h": 42,
+    "label": "current",
+    "value": "la ia en el ciclo de vida del desarrollo de software",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 24,
+    "y": 97,
+    "w": 291,
+    "h": 42,
+    "text": "La IA en el ciclo de vida del desarrollo de software"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta__text > hgroup.masthead-two-columns-cta__hgroup > h1.masthead-two-columns-cta__hgroup__title",
+    "x": 24,
+    "y": 547,
+    "w": 312,
+    "h": 55,
+    "level": 1,
+    "text": "la ia en el ciclo de vida del desarrollo de software"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta__text > div.masthead-two-columns-cta__intro > p",
+    "x": 24,
+    "y": 622,
+    "w": 312,
+    "h": 45,
+    "text": "Guía práctica para la prestación de servicios financieros con un enfoque nativo "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta__parameters > p.masthead-two-columns-cta__parameter > span.masthead-two-columns-cta__label",
+    "x": 54,
+    "y": 696,
+    "w": 132,
+    "h": 21,
+    "text": "Minutos de lectura"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta__parameters > p.masthead-two-columns-cta__parameter > span.masthead-two-columns-cta__label",
+    "x": 240,
+    "y": 696,
+    "w": 56,
+    "h": 21,
+    "text": "Páginas"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta__text > div.masthead-two-columns-cta__cta > a.button.button--primary-hollow",
+    "x": 24,
+    "y": 743,
+    "w": 190,
+    "h": 59,
+    "text": "descargar",
+    "href": "/es-es/whitepapers/la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta__media > picture > img",
+    "x": 0,
+    "y": 163,
+    "w": 360,
+    "h": 360,
+    "text": "",
+    "file": "tsk--6880-guide-ai-in-the-software-deliv"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > h2",
+    "x": 24,
+    "y": 852,
+    "w": 312,
+    "h": 134,
+    "level": 2,
+    "text": "donde la ia se encuentra con la ingeniería de software regulada"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 1003,
+    "w": 312,
+    "h": 336,
+    "text": "La adopción de la IA en el sector de los servicios financieros se está acelerand"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > h2",
+    "x": 24,
+    "y": 1398,
+    "w": 312,
+    "h": 101,
+    "level": 2,
+    "text": "de la experimentación a la implementación a escala empresarial"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block.base-bottom-indent > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 1515,
+    "w": 312,
+    "h": 291,
+    "text": "La verdadera transformación va más allá de la implantación de herramientas. Requ"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p > a.button.button--primary-hollow",
+    "x": 85,
+    "y": 1854,
+    "w": 190,
+    "h": 59,
+    "text": "descargar",
+    "href": "/es-es/whitepapers/ai-in-the-software-development-lifecycle/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pdf-view-block__inner > hgroup.pdf-view-block__hgroup > h3.pdf-view-block__hgroup__pretitle",
+    "x": 46,
+    "y": 1963,
+    "w": 60,
+    "h": 17,
+    "level": 3,
+    "text": "preview"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 221,
+    "y": 2008,
+    "w": 91,
+    "h": 5,
+    "text": "An operating model shift for financial services"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 47,
+    "y": 2126,
+    "w": 92,
+    "h": 11,
+    "text": "AI in the Software"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 47,
+    "y": 2140,
+    "w": 119,
+    "h": 11,
+    "text": "Development Lifecycle"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 93,
+    "y": 2223,
+    "w": 83,
+    "h": 9,
+    "text": "Executive summary"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 93,
+    "y": 2237,
+    "w": 189,
+    "h": 9,
+    "text": "Redesigning engineering for AI-native delivery"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 93,
+    "y": 2252,
+    "w": 130,
+    "h": 9,
+    "text": "The AI-enabled SDLC playbook"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 93,
+    "y": 2266,
+    "w": 180,
+    "h": 9,
+    "text": "Executing AI-enabled SDLC transformation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 93,
+    "y": 2280,
+    "w": 74,
+    "h": 9,
+    "text": "Tracking progress"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 93,
+    "y": 2294,
+    "w": 90,
+    "h": 9,
+    "text": "How Valtech can help"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 116,
+    "y": 2167,
+    "w": 42,
+    "h": 2,
+    "text": "AI in the Software Development Lifecycle"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 115,
+    "y": 2357,
+    "w": 143,
+    "h": 16,
+    "text": "Executive summary"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page > div.textLayer > span",
+    "x": 116,
+    "y": 2325,
+    "w": 42,
+    "h": 2,
+    "text": "AI in the Software Development Lifecycle"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > h2",
+    "x": 24,
+    "y": 2224,
+    "w": 312,
+    "h": 34,
+    "level": 2,
+    "text": "descarga el informe"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldWrap.convertedField > div.mktoHtmlText.mktoHasWidth > span",
+    "x": 22,
+    "y": 2328,
+    "w": 303,
+    "h": 42,
+    "text": "Los campos marcados con un asterisco ( ) son obligatorios y deben completarse."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblFirstName",
+    "x": 22,
+    "y": 2411,
+    "w": 67,
+    "h": 16,
+    "text": "Nombre"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblLastName",
+    "x": 22,
+    "y": 2479,
+    "w": 76,
+    "h": 16,
+    "text": "Apellidos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblCompany",
+    "x": 22,
+    "y": 2547,
+    "w": 170,
+    "h": 16,
+    "text": "Nombre de la empresa"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#Industry",
+    "x": 22,
+    "y": 2604,
+    "w": 317,
+    "h": 38,
+    "label": "industria *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblIndustry",
+    "x": 22,
+    "y": 2615,
+    "w": 72,
+    "h": 16,
+    "text": "Industria"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#Lead_title__c",
+    "x": 22,
+    "y": 2672,
+    "w": 317,
+    "h": 38,
+    "label": "cargo *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblLead_title__c",
+    "x": 22,
+    "y": 2683,
+    "w": 52,
+    "h": 16,
+    "text": "Cargo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblEmail",
+    "x": 22,
+    "y": 2751,
+    "w": 224,
+    "h": 16,
+    "text": "Correo electrónico profesional"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#CountryCode",
+    "x": 22,
+    "y": 2808,
+    "w": 317,
+    "h": 38,
+    "label": "pais *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblCountryCode",
+    "x": 22,
+    "y": 2819,
+    "w": 39,
+    "h": 16,
+    "text": "Pais"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoLogicalField.mktoCheckboxList > label#LblmktoCheckbox_204830_0 > span",
+    "x": 48,
+    "y": 2876,
+    "w": 284,
+    "h": 126,
+    "text": "Acepto recibir noticias y comunicaciones de marketing relevantes por parte de Va"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoLogicalField.mktoCheckboxList > label#LblmktoCheckbox_204830_0 > a",
+    "x": 48,
+    "y": 2981,
+    "w": 287,
+    "h": 43,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 22,
+    "y": 3055,
+    "w": 308,
+    "h": 42,
+    "text": "Este sitio está protegido por CAPTCHA y se aplican la"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893 > a",
+    "x": 92,
+    "y": 3076,
+    "w": 155,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/legal/privacy-end-users/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 22,
+    "y": 3076,
+    "w": 258,
+    "h": 43,
+    "text": "y los"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.NormalTextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893 > a",
+    "x": 22,
+    "y": 3099,
+    "w": 170,
+    "h": 21,
+    "text": "términos y condiciones",
+    "href": "/legal/terms/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 22,
+    "y": 3099,
+    "w": 300,
+    "h": 43,
+    "text": "de uso de Friendly Captcha."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoButtonRow > span.mktoButtonWrap.mktoInset > button.mktoButton.btn--white",
+    "x": 112,
+    "y": 3172,
+    "w": 135,
+    "h": 49,
+    "text": "descargar"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 16,
+    "y": 3339,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 242,
+    "y": 3339,
+    "w": 58,
+    "h": 45,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 16,
+    "y": 3403,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 242,
+    "y": 3403,
+    "w": 82,
+    "h": 45,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer__column.site-footer__stamp > picture > img",
+    "x": 16,
+    "y": 3466,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "badge-no-outline"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 3607,
+    "w": 134,
+    "h": 18,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 3648,
+    "w": 118,
+    "h": 18,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 3689,
+    "w": 71,
+    "h": 18,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 3730,
+    "w": 84,
+    "h": 18,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 3771,
+    "w": 136,
+    "h": 18,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a.cookiebot-reset",
+    "x": 16,
+    "y": 3812,
+    "w": 158,
+    "h": 18,
+    "text": "configuración de cookies",
+    "href": "/es-es/whitepapers/la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 16,
+    "y": 3893,
+    "w": 23,
+    "h": 18,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 87,
+    "y": 3893,
+    "w": 23,
+    "h": 18,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 158,
+    "y": 3893,
+    "w": 23,
+    "h": 18,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 229,
+    "y": 3893,
+    "w": 23,
+    "h": 18,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 16,
+    "y": 3938,
+    "w": 23,
+    "h": 18,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 87,
+    "y": 3938,
+    "w": 23,
+    "h": 18,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 22,
+    "horizontal": 0,
+    "offPage": 6,
+    "textNodes": 88,
+    "controls": 34,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 22,
+     "clipper": "div#viewerContainer",
+     "path": "div#pdfViewer > div.page > div.textLayer > span",
+     "text": "executive summary",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/es-es/whitepapers/la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software",
+  "at": "2026-11-14T07:25:19.899Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4001,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-nav-menu-wrapper.site-nav-menu-labels > div.site-nav-logo > a.site-nav-logo-link",
+    "x": 24,
+    "y": 25,
+    "w": 80,
+    "h": 21,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > a.search-select.mobile",
+    "x": 232,
+    "y": 24,
+    "w": 22,
+    "h": 23,
+    "text": "go to search page",
+    "href": "/es-es/search/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open main menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open main menu",
+    "value": "open main menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 75,
+    "y": 75,
+    "w": 99,
+    "h": 21,
+    "text": "publicaciones",
+    "href": "/es-es/whitepapers"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 24,
+    "y": 97,
+    "w": 312,
+    "h": 42,
+    "label": "current",
+    "value": "la ia en el ciclo de vida del desarrollo de software",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 24,
+    "y": 97,
+    "w": 312,
+    "h": 42,
+    "text": "La IA en el ciclo de vida del desarrollo de software"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta-text > hgroup.masthead-two-columns-cta-hgroup > h1#la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software",
+    "x": 24,
+    "y": 543,
+    "w": 312,
+    "h": 55,
+    "level": 1,
+    "text": "la ia en el ciclo de vida del desarrollo de software"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta-text > div.masthead-two-columns-cta-intro > p",
+    "x": 24,
+    "y": 618,
+    "w": 312,
+    "h": 45,
+    "text": "Guía práctica para la prestación de servicios financieros con un enfoque nativo "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta-parameters > div.masthead-two-columns-cta-parameter > p.masthead-two-columns-cta-label",
+    "x": 50,
+    "y": 692,
+    "w": 132,
+    "h": 21,
+    "text": "Minutos de lectura"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta-parameters > div.masthead-two-columns-cta-parameter > p.masthead-two-columns-cta-label",
+    "x": 233,
+    "y": 692,
+    "w": 56,
+    "h": 21,
+    "text": "Páginas"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta-cta > p > a.button.button-primary-hollow",
+    "x": 24,
+    "y": 739,
+    "w": 190,
+    "h": 59,
+    "text": "descargar",
+    "href": "/es-es/whitepapers/la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta-media > picture.masthead-two-columns-cta-narrow > img",
+    "x": 0,
+    "y": 163,
+    "w": 360,
+    "h": 360,
+    "text": "",
+    "file": "media_17dce9d693582c624cb540b766d4854868"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > h2#donde-la-ia-se-encuentra-con-la-ingeniería-de-software-regulada",
+    "x": 24,
+    "y": 848,
+    "w": 312,
+    "h": 134,
+    "level": 2,
+    "text": "donde la ia se encuentra con la ingeniería de software regulada"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 999,
+    "w": 312,
+    "h": 336,
+    "text": "La adopción de la IA en el sector de los servicios financieros se está acelerand"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > h2#de-la-experimentación-a-la-implementación-a-escala-empresarial",
+    "x": 24,
+    "y": 1394,
+    "w": 312,
+    "h": 101,
+    "level": 2,
+    "text": "de la experimentación a la implementación a escala empresarial"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.base-bottom-indent > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 1511,
+    "w": 312,
+    "h": 291,
+    "text": "La verdadera transformación va más allá de la implantación de herramientas. Requ"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p.button-wrapper > a.button.primary",
+    "x": 85,
+    "y": 1850,
+    "w": 190,
+    "h": 59,
+    "text": "descargar",
+    "href": "/es-es/whitepapers/ai-in-the-software-development-lifecycle/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pdf-view-block-inner > hgroup.pdf-view-block-hgroup > h3#preview",
+    "x": 46,
+    "y": 1959,
+    "w": 60,
+    "h": 17,
+    "level": 3,
+    "text": "preview"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-1 > div.pdf-view-block-text-layer > span",
+    "x": 221,
+    "y": 2004,
+    "w": 91,
+    "h": 5,
+    "text": "An operating model shift for financial services"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-1 > div.pdf-view-block-text-layer > span",
+    "x": 47,
+    "y": 2122,
+    "w": 92,
+    "h": 11,
+    "text": "AI in the Software"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-1 > div.pdf-view-block-text-layer > span",
+    "x": 47,
+    "y": 2136,
+    "w": 119,
+    "h": 11,
+    "text": "Development Lifecycle"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-2 > div.pdf-view-block-text-layer > span",
+    "x": 93,
+    "y": 2219,
+    "w": 83,
+    "h": 9,
+    "text": "Executive summary"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-2 > div.pdf-view-block-text-layer > span",
+    "x": 93,
+    "y": 2233,
+    "w": 189,
+    "h": 9,
+    "text": "Redesigning engineering for AI-native delivery"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-2 > div.pdf-view-block-text-layer > span",
+    "x": 93,
+    "y": 2248,
+    "w": 130,
+    "h": 9,
+    "text": "The AI-enabled SDLC playbook"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-2 > div.pdf-view-block-text-layer > span",
+    "x": 93,
+    "y": 2262,
+    "w": 179,
+    "h": 9,
+    "text": "Executing AI-enabled SDLC transformation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-2 > div.pdf-view-block-text-layer > span",
+    "x": 93,
+    "y": 2276,
+    "w": 74,
+    "h": 9,
+    "text": "Tracking progress"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-2 > div.pdf-view-block-text-layer > span",
+    "x": 93,
+    "y": 2290,
+    "w": 90,
+    "h": 9,
+    "text": "How Valtech can help"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-2 > div.pdf-view-block-text-layer > span",
+    "x": 116,
+    "y": 2163,
+    "w": 42,
+    "h": 2,
+    "text": "AI in the Software Development Lifecycle"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-3 > div.pdf-view-block-text-layer > span",
+    "x": 115,
+    "y": 2353,
+    "w": 143,
+    "h": 16,
+    "text": "Executive summary"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-3 > div.pdf-view-block-text-layer > span",
+    "x": 116,
+    "y": 2321,
+    "w": 42,
+    "h": 2,
+    "text": "AI in the Software Development Lifecycle"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 47,
+    "y": 2534,
+    "w": 48,
+    "h": 6,
+    "text": "Financial Services"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 47,
+    "y": 2541,
+    "w": 45,
+    "h": 6,
+    "text": "Institutions (FSIs)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 47,
+    "y": 2549,
+    "w": 59,
+    "h": 6,
+    "text": "continue to face rising"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 47,
+    "y": 2556,
+    "w": 56,
+    "h": 6,
+    "text": "regulatory pressures,"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 47,
+    "y": 2563,
+    "w": 49,
+    "h": 6,
+    "text": "legacy technology"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 47,
+    "y": 2571,
+    "w": 42,
+    "h": 6,
+    "text": "constraints and"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 47,
+    "y": 2578,
+    "w": 60,
+    "h": 6,
+    "text": "elevated expectations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 47,
+    "y": 2586,
+    "w": 50,
+    "h": 6,
+    "text": "around speed and"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 47,
+    "y": 2593,
+    "w": 39,
+    "h": 6,
+    "text": "cost efficiency."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 115,
+    "y": 2535,
+    "w": 53,
+    "h": 3,
+    "text": "Unlike fintech organizations that can build"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 115,
+    "y": 2539,
+    "w": 53,
+    "h": 3,
+    "text": "products from the ground up with modern"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 115,
+    "y": 2543,
+    "w": 51,
+    "h": 3,
+    "text": "architectures, traditional FSIs are further"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 115,
+    "y": 2547,
+    "w": 54,
+    "h": 3,
+    "text": "constrained by fractured delivery pipelines"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 115,
+    "y": 2551,
+    "w": 58,
+    "h": 3,
+    "text": "and siloed IT functions. The result is structural"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 115,
+    "y": 2554,
+    "w": 52,
+    "h": 3,
+    "text": "friction across the Software Development"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 115,
+    "y": 2558,
+    "w": 56,
+    "h": 3,
+    "text": "Lifecycle, where complexity compounds and"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 115,
+    "y": 2562,
+    "w": 15,
+    "h": 3,
+    "text": "value slows."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2534,
+    "w": 46,
+    "h": 3,
+    "text": "AI now presents the most significant"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2538,
+    "w": 50,
+    "h": 3,
+    "text": "opportunity in decades to transform the"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2542,
+    "w": 61,
+    "h": 3,
+    "text": "Software Development Lifecycle (SDLC). Beyond"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2546,
+    "w": 56,
+    "h": 3,
+    "text": "simple cost‑efficiency gains, AI enables FSIs"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2550,
+    "w": 59,
+    "h": 3,
+    "text": "to reshape their operating model, creating new"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2554,
+    "w": 60,
+    "h": 3,
+    "text": "roles, new ways of working and a fundamentally"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2558,
+    "w": 34,
+    "h": 3,
+    "text": "different delivery dynamic."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2566,
+    "w": 60,
+    "h": 3,
+    "text": "The market is maturing rapidly. Since mid‑2025,"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2570,
+    "w": 56,
+    "h": 3,
+    "text": "engineering leaders have grown increasingly"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2574,
+    "w": 52,
+    "h": 3,
+    "text": "confident in AI tooling for SDLC activities,"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2578,
+    "w": 55,
+    "h": 3,
+    "text": "ranging from code generation to automated"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2582,
+    "w": 58,
+    "h": 3,
+    "text": "testing. Nearly every major FSI is now enabling"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2586,
+    "w": 50,
+    "h": 3,
+    "text": "AI tools, yet only a minority are doing so"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2590,
+    "w": 52,
+    "h": 3,
+    "text": "through structured, agile and measurable"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2594,
+    "w": 55,
+    "h": 3,
+    "text": "frameworks. This guide presents a practical"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2598,
+    "w": 54,
+    "h": 3,
+    "text": "and sustainable approach for FSIs to adopt"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2601,
+    "w": 52,
+    "h": 3,
+    "text": "AI in SDLC, grounded in experimentation,"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2605,
+    "w": 56,
+    "h": 3,
+    "text": "architectural thinking, measurable outcomes"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2609,
+    "w": 59,
+    "h": 3,
+    "text": "and a long‑term capability lens. It positions the"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2613,
+    "w": 55,
+    "h": 3,
+    "text": "SDLC as one of the most advanced domains"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2617,
+    "w": 53,
+    "h": 3,
+    "text": "of AI adoption within the enterprise, where"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2534,
+    "w": 54,
+    "h": 3,
+    "text": "structured experimentation must translate"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2538,
+    "w": 54,
+    "h": 3,
+    "text": "into disciplined, enterprise scale execution."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2546,
+    "w": 22,
+    "h": 3,
+    "text": "We define a three"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 274,
+    "y": 2546,
+    "w": 30,
+    "h": 3,
+    "text": "horizon model outlining"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2550,
+    "w": 52,
+    "h": 3,
+    "text": "how teams will evolve with AI capabilities."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2554,
+    "w": 57,
+    "h": 3,
+    "text": "These horizons form a staged transformation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2558,
+    "w": 47,
+    "h": 3,
+    "text": "sequence. Progression through them"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2562,
+    "w": 50,
+    "h": 3,
+    "text": "requires defined capability, governance"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2566,
+    "w": 46,
+    "h": 3,
+    "text": "and measurement at each stage. We"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2570,
+    "w": 51,
+    "h": 3,
+    "text": "then establish two foundational aspects:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2574,
+    "w": 51,
+    "h": 3,
+    "text": "Principles for AI‑enabled SDLC and an AI"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2578,
+    "w": 52,
+    "h": 3,
+    "text": "integration framework. Finally, we provide"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2582,
+    "w": 52,
+    "h": 3,
+    "text": "recommendations to sequence capability"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2586,
+    "w": 52,
+    "h": 3,
+    "text": "evolution and institutionalize measurable"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2590,
+    "w": 9,
+    "h": 3,
+    "text": "impact."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2598,
+    "w": 52,
+    "h": 3,
+    "text": "For CIOs, CTOs and heads of engineering,"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2601,
+    "w": 54,
+    "h": 3,
+    "text": "structural readiness within the engineering"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2605,
+    "w": 53,
+    "h": 3,
+    "text": "function will determine whether AI delivers"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2609,
+    "w": 51,
+    "h": 3,
+    "text": "incremental gains or establishes durable"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2613,
+    "w": 30,
+    "h": 3,
+    "text": "competitive advantage."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 115,
+    "y": 2586,
+    "w": 44,
+    "h": 6,
+    "text": "These pressures"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 115,
+    "y": 2593,
+    "w": 34,
+    "h": 6,
+    "text": "are exposing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 115,
+    "y": 2600,
+    "w": 38,
+    "h": 6,
+    "text": "the limitations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 115,
+    "y": 2608,
+    "w": 35,
+    "h": 6,
+    "text": "of traditional"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 115,
+    "y": 2615,
+    "w": 43,
+    "h": 6,
+    "text": "delivery models."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-4 > div.pdf-view-block-text-layer > span",
+    "x": 116,
+    "y": 2479,
+    "w": 42,
+    "h": 2,
+    "text": "AI in the Software Development Lifecycle"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2647,
+    "w": 56,
+    "h": 3,
+    "text": "Delivery processes across many FSIs remain"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2651,
+    "w": 48,
+    "h": 3,
+    "text": "slow, highly manual and dependent on"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2655,
+    "w": 55,
+    "h": 3,
+    "text": "specialized roles. Movements such as Agile,"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2659,
+    "w": 56,
+    "h": 3,
+    "text": "DevOps and engineering‑first practices have"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2663,
+    "w": 53,
+    "h": 3,
+    "text": "achieved pockets of success, but have not"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2667,
+    "w": 57,
+    "h": 3,
+    "text": "eliminated structural inefficiencies across the"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2671,
+    "w": 57,
+    "h": 3,
+    "text": "SDLC. The underlying delivery model remains"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2675,
+    "w": 37,
+    "h": 3,
+    "text": "fragmented and constrained."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2683,
+    "w": 54,
+    "h": 3,
+    "text": "AI is now being adopted within engineering"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2687,
+    "w": 55,
+    "h": 3,
+    "text": "teams — often through self‑service tools —"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2691,
+    "w": 53,
+    "h": 3,
+    "text": "but these efforts frequently lack structure,"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2695,
+    "w": 58,
+    "h": 3,
+    "text": "governance and alignment with organizational"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2699,
+    "w": 54,
+    "h": 3,
+    "text": "goals. In financial services, the challenge is"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2703,
+    "w": 54,
+    "h": 3,
+    "text": "amplified by governance requirements that"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2707,
+    "w": 50,
+    "h": 3,
+    "text": "cannot simply be bypassed in the name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 183,
+    "y": 2711,
+    "w": 12,
+    "h": 3,
+    "text": "of speed."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2731,
+    "w": 55,
+    "h": 6,
+    "text": "AI alone will not solve"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2738,
+    "w": 51,
+    "h": 6,
+    "text": "the SDLC efficiency"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2745,
+    "w": 26,
+    "h": 6,
+    "text": "challenge."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2756,
+    "w": 56,
+    "h": 3,
+    "text": "What is required is the deliberate integration"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2759,
+    "w": 59,
+    "h": 3,
+    "text": "of AI into the operating model itself, combining"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2763,
+    "w": 51,
+    "h": 3,
+    "text": "established software best practices with"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2767,
+    "w": 53,
+    "h": 3,
+    "text": "AI‑driven workflows that ultimately enable"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2771,
+    "w": 5,
+    "h": 3,
+    "text": "flow"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 258,
+    "y": 2771,
+    "w": 52,
+    "h": 3,
+    "text": "oriented, future‑ready engineering teams"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 251,
+    "y": 2775,
+    "w": 35,
+    "h": 3,
+    "text": "and enterprise‑scale agility."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-5 > div.pdf-view-block-text-layer > span",
+    "x": 116,
+    "y": 2637,
+    "w": 42,
+    "h": 2,
+    "text": "AI in the Software Development Lifecycle"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-6 > div.pdf-view-block-text-layer > span",
+    "x": 115,
+    "y": 2827,
+    "w": 176,
+    "h": 16,
+    "text": "Redesigning engineering"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-6 > div.pdf-view-block-text-layer > span",
+    "x": 115,
+    "y": 2848,
+    "w": 147,
+    "h": 16,
+    "text": "for AI-native delivery"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page.page-6 > div.pdf-view-block-text-layer > span",
+    "x": 116,
+    "y": 2795,
+    "w": 42,
+    "h": 2,
+    "text": "AI in the Software Development Lifecycle"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > h2#descarga-el-informe",
+    "x": 24,
+    "y": 2220,
+    "w": 312,
+    "h": 34,
+    "level": 2,
+    "text": "descarga el informe"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-html > span",
+    "x": 22,
+    "y": 2324,
+    "w": 304,
+    "h": 42,
+    "text": "Los campos marcados con un asterisco ( ) son obligatorios y deben completarse."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 2407,
+    "w": 67,
+    "h": 16,
+    "text": "Nombre"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 2475,
+    "w": 76,
+    "h": 16,
+    "text": "Apellidos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 2543,
+    "w": 170,
+    "h": 16,
+    "text": "Nombre de la empresa"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > select#Industry",
+    "x": 22,
+    "y": 2600,
+    "w": 317,
+    "h": 38,
+    "label": "industria *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 2611,
+    "w": 72,
+    "h": 16,
+    "text": "Industria"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > select#Lead_title__c",
+    "x": 22,
+    "y": 2668,
+    "w": 317,
+    "h": 38,
+    "label": "cargo *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 2679,
+    "w": 52,
+    "h": 16,
+    "text": "Cargo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 2747,
+    "w": 224,
+    "h": 16,
+    "text": "Correo electrónico profesional"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-field.mkto-form-field-float > select#CountryCode",
+    "x": 22,
+    "y": 2804,
+    "w": 317,
+    "h": 38,
+    "label": "pais *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 2815,
+    "w": 39,
+    "h": 16,
+    "text": "Pais"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-check > label > span",
+    "x": 48,
+    "y": 2872,
+    "w": 284,
+    "h": 126,
+    "text": "Acepto recibir noticias y comunicaciones de marketing relevantes por parte de Va"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-check > label > a",
+    "x": 48,
+    "y": 2977,
+    "w": 287,
+    "h": 43,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 22,
+    "y": 3051,
+    "w": 308,
+    "h": 42,
+    "text": "Este sitio está protegido por CAPTCHA y se aplican la"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span > span > a",
+    "x": 92,
+    "y": 3072,
+    "w": 155,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/legal/privacy-end-users/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 22,
+    "y": 3072,
+    "w": 258,
+    "h": 43,
+    "text": "y los"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span > span > a",
+    "x": 22,
+    "y": 3095,
+    "w": 170,
+    "h": 21,
+    "text": "términos y condiciones",
+    "href": "/legal/terms/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 22,
+    "y": 3095,
+    "w": 300,
+    "h": 43,
+    "text": "de uso de Friendly Captcha."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-buttons > span.mkto-form-button-wrap > button.mktoButton.btn-white",
+    "x": 112,
+    "y": 3168,
+    "w": 135,
+    "h": 49,
+    "text": "descargar"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 16,
+    "y": 3335,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 242,
+    "y": 3335,
+    "w": 58,
+    "h": 45,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 16,
+    "y": 3399,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 242,
+    "y": 3399,
+    "w": 82,
+    "h": 45,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer-column.site-footer-stamp > picture > img",
+    "x": 16,
+    "y": 3462,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "media_18686ce5d542e21460f5b9773dc388b150"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 3603,
+    "w": 134,
+    "h": 18,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 3644,
+    "w": 118,
+    "h": 18,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 3685,
+    "w": 71,
+    "h": 18,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 3726,
+    "w": 84,
+    "h": 18,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 3767,
+    "w": 136,
+    "h": 18,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a.cookiebot-reset",
+    "x": 16,
+    "y": 3808,
+    "w": 158,
+    "h": 18,
+    "text": "configuración de cookies",
+    "href": "/es-es/whitepapers/la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 16,
+    "y": 3889,
+    "w": 23,
+    "h": 18,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 87,
+    "y": 3889,
+    "w": 23,
+    "h": 18,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 158,
+    "y": 3889,
+    "w": 23,
+    "h": 18,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 229,
+    "y": 3889,
+    "w": 23,
+    "h": 18,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 16,
+    "y": 3934,
+    "w": 23,
+    "h": 18,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 87,
+    "y": 3934,
+    "w": 23,
+    "h": 18,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 122,
+    "horizontal": 0,
+    "offPage": 1,
+    "textNodes": 184,
+    "controls": 32,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 122,
+     "clipper": "div.pdf-view-block-scroller",
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "executive summary",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ],
+   "findings": [
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "executive summary",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 93,
+      "t": 2218,
+      "r": 175,
+      "b": 2228,
+      "w": 83,
+      "h": 10
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "redesigning engineering for ai-native delivery",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 93,
+      "t": 2232,
+      "r": 282,
+      "b": 2242,
+      "w": 189,
+      "h": 10
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "the ai-enabled sdlc playbook",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 93,
+      "t": 2247,
+      "r": 223,
+      "b": 2257,
+      "w": 130,
+      "h": 10
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "executing ai-enabled sdlc transformation",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 93,
+      "t": 2261,
+      "r": 272,
+      "b": 2271,
+      "w": 179,
+      "h": 10
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "tracking progress",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 93,
+      "t": 2275,
+      "r": 166,
+      "b": 2285,
+      "w": 74,
+      "h": 10
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "how valtech can help",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 93,
+      "t": 2289,
+      "r": 183,
+      "b": 2299,
+      "w": 90,
+      "h": 10
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "01",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 70,
+      "t": 2218,
+      "r": 79,
+      "b": 2228,
+      "w": 9,
+      "h": 10
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "02",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 70,
+      "t": 2232,
+      "r": 81,
+      "b": 2242,
+      "w": 11,
+      "h": 10
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "03",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 70,
+      "t": 2247,
+      "r": 81,
+      "b": 2257,
+      "w": 11,
+      "h": 10
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "04",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 70,
+      "t": 2261,
+      "r": 81,
+      "b": 2271,
+      "w": 11,
+      "h": 10
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "05",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 70,
+      "t": 2275,
+      "r": 81,
+      "b": 2285,
+      "w": 11,
+      "h": 10
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "06",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 70,
+      "t": 2289,
+      "r": 81,
+      "b": 2299,
+      "w": 11,
+      "h": 10
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "3",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 307,
+      "t": 2218,
+      "r": 312,
+      "b": 2228,
+      "w": 5,
+      "h": 10
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "6",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 307,
+      "t": 2232,
+      "r": 312,
+      "b": 2242,
+      "w": 5,
+      "h": 10
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "9",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 307,
+      "t": 2246,
+      "r": 312,
+      "b": 2256,
+      "w": 5,
+      "h": 10
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "15",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 304,
+      "t": 2261,
+      "r": 313,
+      "b": 2271,
+      "w": 8,
+      "h": 10
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "19",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 304,
+      "t": 2275,
+      "r": 313,
+      "b": 2285,
+      "w": 9,
+      "h": 10
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-2 > div.pdf-view-block-text-layer > span",
+     "text": "21",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 304,
+      "t": 2289,
+      "r": 313,
+      "b": 2299,
+      "w": 8,
+      "h": 10
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "executive summary",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 115,
+      "t": 2352,
+      "r": 258,
+      "b": 2369,
+      "w": 143,
+      "h": 17
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "01",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 47,
+      "t": 2352,
+      "r": 63,
+      "b": 2369,
+      "w": 15,
+      "h": 17
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "3",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 311,
+      "t": 2321,
+      "r": 313,
+      "b": 2323,
+      "w": 1,
+      "h": 2
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-3 > div.pdf-view-block-text-layer > span",
+     "text": "ai in the software development lifecycle",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 116,
+      "t": 2321,
+      "r": 157,
+      "b": 2323,
+      "w": 42,
+      "h": 2
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "financial services",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 47,
+      "t": 2533,
+      "r": 96,
+      "b": 2539,
+      "w": 48,
+      "h": 6
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "institutions (fsis)",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 47,
+      "t": 2540,
+      "r": 92,
+      "b": 2546,
+      "w": 45,
+      "h": 6
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "continue to face rising",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 47,
+      "t": 2548,
+      "r": 106,
+      "b": 2554,
+      "w": 59,
+      "h": 6
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "regulatory pressures,",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 47,
+      "t": 2555,
+      "r": 103,
+      "b": 2561,
+      "w": 56,
+      "h": 6
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "legacy technology",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 47,
+      "t": 2562,
+      "r": 96,
+      "b": 2568,
+      "w": 49,
+      "h": 6
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "constraints and",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 47,
+      "t": 2570,
+      "r": 90,
+      "b": 2576,
+      "w": 42,
+      "h": 6
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "elevated expectations",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 47,
+      "t": 2577,
+      "r": 108,
+      "b": 2583,
+      "w": 60,
+      "h": 6
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "around speed and",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 47,
+      "t": 2585,
+      "r": 97,
+      "b": 2591,
+      "w": 50,
+      "h": 6
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "cost efficiency.",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 47,
+      "t": 2592,
+      "r": 86,
+      "b": 2598,
+      "w": 39,
+      "h": 6
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "unlike fintech organizations that can build",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 115,
+      "t": 2534,
+      "r": 168,
+      "b": 2538,
+      "w": 53,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "products from the ground up with modern",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 115,
+      "t": 2538,
+      "r": 168,
+      "b": 2542,
+      "w": 53,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "architectures, traditional fsis are further",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 115,
+      "t": 2542,
+      "r": 166,
+      "b": 2546,
+      "w": 51,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "constrained by fractured delivery pipelines",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 115,
+      "t": 2546,
+      "r": 169,
+      "b": 2550,
+      "w": 54,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "and siloed it functions. the result is structural",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 115,
+      "t": 2550,
+      "r": 173,
+      "b": 2554,
+      "w": 58,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "friction across the software development",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 115,
+      "t": 2553,
+      "r": 168,
+      "b": 2557,
+      "w": 52,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "lifecycle, where complexity compounds and",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 115,
+      "t": 2557,
+      "r": 171,
+      "b": 2561,
+      "w": 56,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "value slows.",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 115,
+      "t": 2561,
+      "r": 130,
+      "b": 2565,
+      "w": 15,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "ai now presents the most significant",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2533,
+      "r": 229,
+      "b": 2537,
+      "w": 46,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "opportunity in decades to transform the",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2537,
+      "r": 234,
+      "b": 2541,
+      "w": 50,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "software development lifecycle (sdlc). beyond",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2541,
+      "r": 244,
+      "b": 2545,
+      "w": 61,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "simple cost‑efficiency gains, ai enables fsis",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2545,
+      "r": 239,
+      "b": 2549,
+      "w": 56,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "to reshape their operating model, creating new",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2549,
+      "r": 242,
+      "b": 2553,
+      "w": 59,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "roles, new ways of working and a fundamentally",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2553,
+      "r": 243,
+      "b": 2557,
+      "w": 60,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "different delivery dynamic.",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2557,
+      "r": 217,
+      "b": 2561,
+      "w": 34,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "the market is maturing rapidly. since mid‑2025,",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2565,
+      "r": 244,
+      "b": 2569,
+      "w": 60,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "engineering leaders have grown increasingly",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2569,
+      "r": 240,
+      "b": 2573,
+      "w": 56,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "confident in ai tooling for sdlc activities,",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2573,
+      "r": 235,
+      "b": 2577,
+      "w": 52,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "ranging from code generation to automated",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2577,
+      "r": 238,
+      "b": 2581,
+      "w": 55,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "testing. nearly every major fsi is now enabling",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2581,
+      "r": 242,
+      "b": 2585,
+      "w": 58,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "ai tools, yet only a minority are doing so",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2585,
+      "r": 233,
+      "b": 2589,
+      "w": 50,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "through structured, agile and measurable",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2589,
+      "r": 236,
+      "b": 2593,
+      "w": 52,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "frameworks. this guide presents a practical",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2593,
+      "r": 238,
+      "b": 2597,
+      "w": 55,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "and sustainable approach for fsis to adopt",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2597,
+      "r": 237,
+      "b": 2601,
+      "w": 54,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "ai in sdlc, grounded in experimentation,",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2600,
+      "r": 235,
+      "b": 2604,
+      "w": 52,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "architectural thinking, measurable outcomes",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2604,
+      "r": 240,
+      "b": 2608,
+      "w": 56,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "and a long‑term capability lens. it positions the",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2608,
+      "r": 242,
+      "b": 2612,
+      "w": 59,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "sdlc as one of the most advanced domains",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2612,
+      "r": 239,
+      "b": 2616,
+      "w": 55,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "of ai adoption within the enterprise, where",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2616,
+      "r": 236,
+      "b": 2620,
+      "w": 53,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "structured experimentation must translate",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2533,
+      "r": 305,
+      "b": 2537,
+      "w": 54,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "into disciplined, enterprise scale execution.",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2537,
+      "r": 306,
+      "b": 2541,
+      "w": 54,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "we define a three",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2545,
+      "r": 273,
+      "b": 2549,
+      "w": 22,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "‑",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 273,
+      "t": 2545,
+      "r": 274,
+      "b": 2549,
+      "w": 1,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "horizon model outlining",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 274,
+      "t": 2545,
+      "r": 304,
+      "b": 2549,
+      "w": 30,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "how teams will evolve with ai capabilities.",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2549,
+      "r": 303,
+      "b": 2553,
+      "w": 52,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "these horizons form a staged transformation",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2553,
+      "r": 308,
+      "b": 2557,
+      "w": 57,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "sequence. progression through them",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2557,
+      "r": 298,
+      "b": 2561,
+      "w": 47,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "requires defined capability, governance",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2561,
+      "r": 301,
+      "b": 2565,
+      "w": 50,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "and measurement at each stage. we",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2565,
+      "r": 297,
+      "b": 2569,
+      "w": 46,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "then establish two foundational aspects:",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2569,
+      "r": 302,
+      "b": 2573,
+      "w": 51,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "principles for ai‑enabled sdlc and an ai",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2573,
+      "r": 302,
+      "b": 2577,
+      "w": 51,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "integration framework. finally, we provide",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2577,
+      "r": 304,
+      "b": 2581,
+      "w": 52,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "recommendations to sequence capability",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2581,
+      "r": 304,
+      "b": 2585,
+      "w": 52,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "evolution and institutionalize measurable",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2585,
+      "r": 303,
+      "b": 2589,
+      "w": 52,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "impact.",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2589,
+      "r": 261,
+      "b": 2593,
+      "w": 9,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "for cios, ctos and heads of engineering,",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2597,
+      "r": 304,
+      "b": 2601,
+      "w": 52,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "structural readiness within the engineering",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2600,
+      "r": 305,
+      "b": 2604,
+      "w": 54,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "function will determine whether ai delivers",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2604,
+      "r": 305,
+      "b": 2608,
+      "w": 53,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "incremental gains or establishes durable",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2608,
+      "r": 303,
+      "b": 2612,
+      "w": 51,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "competitive advantage.",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2612,
+      "r": 281,
+      "b": 2616,
+      "w": 30,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "these pressures",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 115,
+      "t": 2585,
+      "r": 159,
+      "b": 2591,
+      "w": 44,
+      "h": 6
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "are exposing",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 115,
+      "t": 2592,
+      "r": 150,
+      "b": 2598,
+      "w": 34,
+      "h": 6
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "the limitations",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 115,
+      "t": 2599,
+      "r": 153,
+      "b": 2605,
+      "w": 38,
+      "h": 6
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "of traditional",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 115,
+      "t": 2607,
+      "r": 150,
+      "b": 2613,
+      "w": 35,
+      "h": 6
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "delivery models.",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 115,
+      "t": 2614,
+      "r": 158,
+      "b": 2620,
+      "w": 43,
+      "h": 6
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "4",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 311,
+      "t": 2479,
+      "r": 313,
+      "b": 2481,
+      "w": 1,
+      "h": 2
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-4 > div.pdf-view-block-text-layer > span",
+     "text": "ai in the software development lifecycle",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 116,
+      "t": 2479,
+      "r": 157,
+      "b": 2481,
+      "w": 42,
+      "h": 2
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "delivery processes across many fsis remain",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2646,
+      "r": 240,
+      "b": 2650,
+      "w": 56,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "slow, highly manual and dependent on",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2650,
+      "r": 231,
+      "b": 2654,
+      "w": 48,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "specialized roles. movements such as agile,",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2654,
+      "r": 238,
+      "b": 2658,
+      "w": 55,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "devops and engineering‑first practices have",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2658,
+      "r": 240,
+      "b": 2662,
+      "w": 56,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "achieved pockets of success, but have not",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2662,
+      "r": 236,
+      "b": 2666,
+      "w": 53,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "eliminated structural inefficiencies across the",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2666,
+      "r": 241,
+      "b": 2670,
+      "w": 57,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "sdlc. the underlying delivery model remains",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2670,
+      "r": 241,
+      "b": 2674,
+      "w": 57,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "fragmented and constrained.",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2674,
+      "r": 220,
+      "b": 2678,
+      "w": 37,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "ai is now being adopted within engineering",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2682,
+      "r": 237,
+      "b": 2686,
+      "w": 54,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "teams — often through self‑service tools —",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2686,
+      "r": 238,
+      "b": 2690,
+      "w": 55,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "but these efforts frequently lack structure,",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2690,
+      "r": 237,
+      "b": 2694,
+      "w": 53,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "governance and alignment with organizational",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2694,
+      "r": 241,
+      "b": 2698,
+      "w": 58,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "goals. in financial services, the challenge is",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2698,
+      "r": 237,
+      "b": 2702,
+      "w": 54,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "amplified by governance requirements that",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2702,
+      "r": 238,
+      "b": 2706,
+      "w": 54,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "cannot simply be bypassed in the name",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2706,
+      "r": 233,
+      "b": 2710,
+      "w": 50,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "of speed.",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 183,
+      "t": 2710,
+      "r": 195,
+      "b": 2714,
+      "w": 12,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "ai alone will not solve",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2730,
+      "r": 307,
+      "b": 2736,
+      "w": 55,
+      "h": 6
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "the sdlc efficiency",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2737,
+      "r": 302,
+      "b": 2743,
+      "w": 51,
+      "h": 6
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "challenge.",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2744,
+      "r": 278,
+      "b": 2750,
+      "w": 26,
+      "h": 6
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "what is required is the deliberate integration",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2755,
+      "r": 307,
+      "b": 2759,
+      "w": 56,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "of ai into the operating model itself, combining",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2758,
+      "r": 310,
+      "b": 2762,
+      "w": 59,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "established software best practices with",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2762,
+      "r": 302,
+      "b": 2766,
+      "w": 51,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "ai‑driven workflows that ultimately enable",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2766,
+      "r": 304,
+      "b": 2770,
+      "w": 53,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "flow",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2770,
+      "r": 257,
+      "b": 2774,
+      "w": 5,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "‑",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 257,
+      "t": 2770,
+      "r": 258,
+      "b": 2774,
+      "w": 1,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "oriented, future‑ready engineering teams",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 258,
+      "t": 2770,
+      "r": 310,
+      "b": 2774,
+      "w": 52,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "and enterprise‑scale agility.",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 251,
+      "t": 2774,
+      "r": 286,
+      "b": 2778,
+      "w": 35,
+      "h": 4
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "5",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 311,
+      "t": 2637,
+      "r": 313,
+      "b": 2639,
+      "w": 1,
+      "h": 2
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-5 > div.pdf-view-block-text-layer > span",
+     "text": "ai in the software development lifecycle",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 116,
+      "t": 2637,
+      "r": 157,
+      "b": 2639,
+      "w": 42,
+      "h": 2
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-6 > div.pdf-view-block-text-layer > span",
+     "text": "redesigning engineering",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 115,
+      "t": 2826,
+      "r": 291,
+      "b": 2843,
+      "w": 176,
+      "h": 17
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-6 > div.pdf-view-block-text-layer > span",
+     "text": "for ai-native delivery",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 115,
+      "t": 2847,
+      "r": 263,
+      "b": 2864,
+      "w": 147,
+      "h": 17
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-6 > div.pdf-view-block-text-layer > span",
+     "text": "02",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 47,
+      "t": 2826,
+      "r": 66,
+      "b": 2843,
+      "w": 18,
+      "h": 17
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-6 > div.pdf-view-block-text-layer > span",
+     "text": "6",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 311,
+      "t": 2795,
+      "r": 313,
+      "b": 2797,
+      "w": 1,
+      "h": 2
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "hiddenLines": 1,
+     "path": "div.pdf-view-block-pages > div.page.page-6 > div.pdf-view-block-text-layer > span",
+     "text": "ai in the software development lifecycle",
+     "clipper": "div.pdf-view-block-scroller",
+     "rect": {
+      "l": 116,
+      "t": 2795,
+      "r": 157,
+      "b": 2797,
+      "w": 42,
+      "h": 2
+     },
+     "clip": {
+      "l": 24,
+      "t": 2000,
+      "r": 336,
+      "b": 2200,
+      "w": 312,
+      "h": 200
+     },
+     "lines": 1
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "la ia en el ciclo de vida del desarrollo de software",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "donde la ia se encuentra con la ingeniería de software regulada",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "de la experimentación a la implementación a escala empresarial",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "preview",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 5,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 5,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "descarga el informe",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 1,
+    "text": 19,
+    "image": 0
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 113,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "COUNT TEXT"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "COUNT TEXT",
+   "msg": "band \"descarga el informe\": 19 origin → 113 served visible",
+   "band": 5,
+   "origin": 19,
+   "eds": 113,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 1,
+  "findings": 1,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 75,
+    "y": 75,
+    "w": 99,
+    "h": 21
+   },
+   {
+    "x": 37,
+    "y": 97,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 118,
+    "w": 61,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 543,
+    "w": 274,
+    "h": 35
+   },
+   {
+    "x": 24,
+    "y": 571,
+    "w": 310,
+    "h": 35
+   },
+   {
+    "x": 24,
+    "y": 622,
+    "w": 311,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 645,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 692,
+    "w": 19,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 696,
+    "w": 132,
+    "h": 21
+   },
+   {
+    "x": 206,
+    "y": 692,
+    "w": 23,
+    "h": 26
+   },
+   {
+    "x": 240,
+    "y": 696,
+    "w": 56,
+    "h": 21
+   },
+   {
+    "x": 78,
+    "y": 761,
+    "w": 83,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 849,
+    "w": 187,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 883,
+    "w": 222,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 916,
+    "w": 290,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 950,
+    "w": 115,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1003,
+    "w": 273,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1025,
+    "w": 309,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1047,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1070,
+    "w": 248,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1092,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1115,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1137,
+    "w": 256,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1159,
+    "w": 282,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1182,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1204,
+    "w": 268,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1226,
+    "w": 80,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1249,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1271,
+    "w": 276,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1294,
+    "w": 291,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1316,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1395,
+    "w": 297,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1429,
+    "w": 290,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1463,
+    "w": 249,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1515,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1538,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1560,
+    "w": 273,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1582,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1605,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1627,
+    "w": 260,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1650,
+    "w": 219,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1672,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1694,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1717,
+    "w": 250,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1739,
+    "w": 275,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1761,
+    "w": 227,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1784,
+    "w": 187,
+    "h": 21
+   },
+   {
+    "x": 139,
+    "y": 1872,
+    "w": 83,
+    "h": 23
+   },
+   {
+    "x": 46,
+    "y": 1962,
+    "w": 60,
+    "h": 18
+   },
+   {
+    "x": 221,
+    "y": 2007,
+    "w": 91,
+    "h": 5
+   },
+   {
+    "x": 47,
+    "y": 2125,
+    "w": 92,
+    "h": 12
+   },
+   {
+    "x": 47,
+    "y": 2139,
+    "w": 119,
+    "h": 12
+   },
+   {
+    "x": 311,
+    "y": 2167,
+    "w": 1,
+    "h": 2
+   },
+   {
+    "x": 116,
+    "y": 2167,
+    "w": 42,
+    "h": 2
+   },
+   {
+    "x": 24,
+    "y": 2221,
+    "w": 262,
+    "h": 39
+   },
+   {
+    "x": 25,
+    "y": 2328,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 313,
+    "y": 2330,
+    "w": 6,
+    "h": 18
+   },
+   {
+    "x": 319,
+    "y": 2328,
+    "w": 5,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 2349,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 2408,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 2410,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 2476,
+    "w": 67,
+    "h": 21
+   },
+   {
+    "x": 89,
+    "y": 2478,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 2544,
+    "w": 161,
+    "h": 21
+   },
+   {
+    "x": 183,
+    "y": 2546,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 2612,
+    "w": 63,
+    "h": 21
+   },
+   {
+    "x": 85,
+    "y": 2614,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 2680,
+    "w": 43,
+    "h": 21
+   },
+   {
+    "x": 65,
+    "y": 2682,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 2748,
+    "w": 215,
+    "h": 21
+   },
+   {
+    "x": 236,
+    "y": 2750,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 2816,
+    "w": 30,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 2818,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 48,
+    "y": 2876,
+    "w": 171,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 2897,
+    "w": 214,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 2918,
+    "w": 254,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 2939,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 2960,
+    "w": 232,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 2981,
+    "w": 214,
+    "h": 21
+   },
+   {
+    "x": 261,
+    "y": 2981,
+    "w": 73,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 3003,
+    "w": 75,
+    "h": 21
+   },
+   {
+    "x": 122,
+    "y": 3003,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 126,
+    "y": 3005,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 3055,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 3076,
+    "w": 70,
+    "h": 21
+   },
+   {
+    "x": 92,
+    "y": 3076,
+    "w": 155,
+    "h": 21
+   },
+   {
+    "x": 247,
+    "y": 3076,
+    "w": 32,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 3099,
+    "w": 170,
+    "h": 21
+   },
+   {
+    "x": 192,
+    "y": 3099,
+    "w": 130,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 3121,
+    "w": 63,
+    "h": 21
+   },
+   {
+    "x": 138,
+    "y": 3184,
+    "w": 83,
+    "h": 23
+   },
+   {
+    "x": 16,
+    "y": 3339,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 3339,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 3363,
+    "w": 47,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3403,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 3403,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 3427,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3607,
+    "w": 134,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 3648,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 3689,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 3730,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 3771,
+    "w": 136,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 3812,
+    "w": 158,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 75,
+    "y": 75,
+    "w": 99,
+    "h": 21
+   },
+   {
+    "x": 37,
+    "y": 97,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 118,
+    "w": 61,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 539,
+    "w": 274,
+    "h": 35
+   },
+   {
+    "x": 24,
+    "y": 567,
+    "w": 310,
+    "h": 35
+   },
+   {
+    "x": 24,
+    "y": 618,
+    "w": 311,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 641,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 688,
+    "w": 19,
+    "h": 26
+   },
+   {
+    "x": 50,
+    "y": 692,
+    "w": 132,
+    "h": 21
+   },
+   {
+    "x": 202,
+    "y": 688,
+    "w": 23,
+    "h": 26
+   },
+   {
+    "x": 233,
+    "y": 692,
+    "w": 56,
+    "h": 21
+   },
+   {
+    "x": 78,
+    "y": 757,
+    "w": 83,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 845,
+    "w": 187,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 879,
+    "w": 222,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 912,
+    "w": 290,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 946,
+    "w": 115,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 999,
+    "w": 273,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1021,
+    "w": 309,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1043,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1066,
+    "w": 248,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1088,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1111,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1133,
+    "w": 256,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1155,
+    "w": 282,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1178,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1200,
+    "w": 268,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1222,
+    "w": 80,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1245,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1267,
+    "w": 276,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1290,
+    "w": 291,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1312,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1391,
+    "w": 297,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1425,
+    "w": 290,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1459,
+    "w": 249,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1511,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1534,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1556,
+    "w": 273,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1578,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1601,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1623,
+    "w": 260,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1646,
+    "w": 219,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1668,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1690,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1713,
+    "w": 250,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1735,
+    "w": 275,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1757,
+    "w": 227,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1780,
+    "w": 187,
+    "h": 21
+   },
+   {
+    "x": 139,
+    "y": 1868,
+    "w": 83,
+    "h": 23
+   },
+   {
+    "x": 46,
+    "y": 1958,
+    "w": 60,
+    "h": 18
+   },
+   {
+    "x": 221,
+    "y": 2003,
+    "w": 91,
+    "h": 5
+   },
+   {
+    "x": 47,
+    "y": 2121,
+    "w": 92,
+    "h": 12
+   },
+   {
+    "x": 47,
+    "y": 2135,
+    "w": 119,
+    "h": 12
+   },
+   {
+    "x": 311,
+    "y": 2163,
+    "w": 1,
+    "h": 2
+   },
+   {
+    "x": 116,
+    "y": 2163,
+    "w": 42,
+    "h": 2
+   },
+   {
+    "x": 24,
+    "y": 2217,
+    "w": 262,
+    "h": 39
+   },
+   {
+    "x": 25,
+    "y": 2324,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 313,
+    "y": 2324,
+    "w": 7,
+    "h": 21
+   },
+   {
+    "x": 320,
+    "y": 2324,
+    "w": 5,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 2345,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 2404,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 2406,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 2472,
+    "w": 67,
+    "h": 21
+   },
+   {
+    "x": 89,
+    "y": 2474,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 2540,
+    "w": 161,
+    "h": 21
+   },
+   {
+    "x": 183,
+    "y": 2542,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 2608,
+    "w": 63,
+    "h": 21
+   },
+   {
+    "x": 85,
+    "y": 2610,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 2676,
+    "w": 43,
+    "h": 21
+   },
+   {
+    "x": 65,
+    "y": 2678,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 2744,
+    "w": 215,
+    "h": 21
+   },
+   {
+    "x": 236,
+    "y": 2746,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 2812,
+    "w": 30,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 2814,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 48,
+    "y": 2872,
+    "w": 171,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 2893,
+    "w": 214,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 2914,
+    "w": 254,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 2935,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 2956,
+    "w": 232,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 2977,
+    "w": 214,
+    "h": 21
+   },
+   {
+    "x": 261,
+    "y": 2977,
+    "w": 73,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 2999,
+    "w": 75,
+    "h": 21
+   },
+   {
+    "x": 122,
+    "y": 2999,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 126,
+    "y": 3001,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 3051,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 3072,
+    "w": 70,
+    "h": 21
+   },
+   {
+    "x": 92,
+    "y": 3072,
+    "w": 155,
+    "h": 21
+   },
+   {
+    "x": 247,
+    "y": 3072,
+    "w": 32,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 3095,
+    "w": 170,
+    "h": 21
+   },
+   {
+    "x": 192,
+    "y": 3095,
+    "w": 130,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 3117,
+    "w": 63,
+    "h": 21
+   },
+   {
+    "x": 138,
+    "y": 3180,
+    "w": 83,
+    "h": 23
+   },
+   {
+    "x": 16,
+    "y": 3335,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 3335,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 3359,
+    "w": 47,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3399,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 3399,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 3423,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3603,
+    "w": 134,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 3644,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 3685,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 3726,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 3767,
+    "w": 136,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 3808,
+    "w": 158,
+    "h": 18
+   }
+  ]
+ }
+}

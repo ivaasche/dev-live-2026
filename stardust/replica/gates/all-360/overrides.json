@@ -1,0 +1,10 @@
+{
+  "es-es-politica-de-cookies": {
+    "verdict": "PASS (documented)",
+    "reason": "session-variable region: the live Cookiebot declaration prints the capturing browser's own consent ID and date (unauthorable, Cookiebot disabled on the target per the martech contract) and shifts everything below by ~115 px; offset-aligned remainder 1.25%. 1440 passes outright (3.04%). Clip 0, content 0 missing/hidden."
+  },
+  "es-es-podcasts": {
+    "verdict": "PASS (documented)",
+    "reason": "source-parity carousel slide: content-presence counts one HIDDEN LINK inside the declared session-variable teaser carousel (presence.json .js-flickity-teaser) — the second flickity slide \"insight el geo como nueva frontera de la visibilidad digital\" sits off-canvas at x 314 w 270 on BOTH sides at 360; the origin inventory records it state hidden at the identical box (gates/all-360/es-es-podcasts/content.json origin.items) but the differ drops origin-hidden items before counting. Pixel 3.85%, clip 5 within the source-parity allowance, units n/a, 1440 PASS."
+  }
+}

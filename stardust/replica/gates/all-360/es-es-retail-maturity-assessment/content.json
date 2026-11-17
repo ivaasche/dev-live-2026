@@ -1,0 +1,3634 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T07:50:28.969Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.valtech.com/es-es/retail-maturity-assessment/",
+  "at": "2026-11-14T07:50:07.726Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5177,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.site-nav__menu-wrapper.site-nav__menu__labels > div.site-nav__logo > a.site-nav__logo__link",
+    "x": 24,
+    "y": 25,
+    "w": 80,
+    "h": 21,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > a.search-select.mobile",
+    "x": 232,
+    "y": 24,
+    "w": 22,
+    "h": 23,
+    "text": "go to search page",
+    "href": "/es-es/search/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open main menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav.site-nav > div.site-nav__icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open main menu",
+    "value": "open main menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > a",
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 75,
+    "y": 75,
+    "w": 188,
+    "h": 21,
+    "label": "current",
+    "value": "retail maturity assessment",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.site-breadcrumbs__list__item > span",
+    "x": 75,
+    "y": 75,
+    "w": 188,
+    "h": 21,
+    "text": "Retail Maturity Assessment"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta__text > hgroup.masthead-two-columns-cta__hgroup > h1.masthead-two-columns-cta__hgroup__title",
+    "x": 24,
+    "y": 505,
+    "w": 312,
+    "h": 83,
+    "level": 1,
+    "text": "¿está tu organización preparada para el retail del futuro?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta__text > div.masthead-two-columns-cta__intro > p",
+    "x": 24,
+    "y": 608,
+    "w": 312,
+    "h": 134,
+    "text": "Realiza el Retail Maturity Assessment de Valtech para conocer tu posición frente"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta__text > div.masthead-two-columns-cta__cta > a.button.button--primary-hollow",
+    "x": 24,
+    "y": 766,
+    "w": 269,
+    "h": 59,
+    "text": "comenzar la evaluación",
+    "href": "/es-es/retail-maturity-assessment/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta__media > picture > img",
+    "x": 0,
+    "y": 121,
+    "w": 360,
+    "h": 360,
+    "text": "close-up of a person's face, half obscured by textured glass",
+    "file": "retail-assesment-tool-headshot-with-glas"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > h2",
+    "x": 24,
+    "y": 875,
+    "w": 312,
+    "h": 101,
+    "level": 2,
+    "text": "¿por qué realizar el retail maturity assessment ?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > h2 > em",
+    "x": 24,
+    "y": 906,
+    "w": 189,
+    "h": 73,
+    "text": "Retail Maturity Assessment"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 992,
+    "w": 312,
+    "h": 291,
+    "text": "El retail está experimentando una transformación sin precedentes a escala global"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > h2",
+    "x": 24,
+    "y": 1343,
+    "w": 312,
+    "h": 34,
+    "level": 2,
+    "text": "qué recibirás"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > ul > li",
+    "x": 44,
+    "y": 1393,
+    "w": 292,
+    "h": 67,
+    "text": "Una puntuación de madurez basada en las capacidades que impulsan el crecimiento "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > ul > li",
+    "x": 44,
+    "y": 1473,
+    "w": 292,
+    "h": 45,
+    "text": "Comparativas con organizaciones de referencia del sector."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > ul > li",
+    "x": 44,
+    "y": 1530,
+    "w": 292,
+    "h": 67,
+    "text": "Una visión clara de tus fortalezas, las brechas de capacidad y las prioridades d"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > ul > li",
+    "x": 44,
+    "y": 1610,
+    "w": 292,
+    "h": 45,
+    "text": "Recomendaciones para orientar tus próximos pasos."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > ul > li",
+    "x": 44,
+    "y": 1668,
+    "w": 292,
+    "h": 45,
+    "text": "Un ejemplar de nuestro informe Retail at the Crossroads 2026."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > h2",
+    "x": 24,
+    "y": 1808,
+    "w": 312,
+    "h": 67,
+    "level": 2,
+    "text": "en qué consite la evaluación"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > p",
+    "x": 24,
+    "y": 1891,
+    "w": 312,
+    "h": 134,
+    "text": "Evalúa el rendimiento de tu organización en experiencia, tecnología, operaciones"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image-block__container > picture > img",
+    "x": 24,
+    "y": 2025,
+    "w": 312,
+    "h": 178,
+    "text": "bar chart comparing business challenges, led by supply chain",
+    "file": "retail-assessment-tool-sample-valtech-bo"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > h2",
+    "x": 24,
+    "y": 2287,
+    "w": 312,
+    "h": 34,
+    "level": 2,
+    "text": "próximos pasos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 44,
+    "y": 2336,
+    "w": 292,
+    "h": 22,
+    "text": "Completa la evaluación (5 minutos)."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 44,
+    "y": 2372,
+    "w": 292,
+    "h": 45,
+    "text": "Recibe al instante tus resultados personalizados y nuestro informe global."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 44,
+    "y": 2429,
+    "w": 292,
+    "h": 90,
+    "text": "Si lo deseas, reserva una sesión de trabajo con los expertos de Valtech para con"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-unu.teaser-block-unu--dark > div.teaser-block-unu__container > a.teaser-block-unu__teaser",
+    "x": 0,
+    "y": 2554,
+    "w": 360,
+    "h": 593,
+    "text": "el momento de la verdad para el retail: retail en la encrucijada 2026 los retail",
+    "href": "/es-es/retail-en-la-encrucijada-2026/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-unu_media > picture > img",
+    "x": 24,
+    "y": 2578,
+    "w": 312,
+    "h": 234,
+    "text": "",
+    "file": "retail-retail-report-pre-registration-re"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.teaser-block-unu__teaser > div.teaser-block-unu__teaser-description > h2.teaser-block-unu__teaser-description--title",
+    "x": 24,
+    "y": 2841,
+    "w": 312,
+    "h": 72,
+    "level": 2,
+    "text": "el momento de la verdad para el retail: retail en la encrucijada 2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.rte-block > div.rte-block__container.text-content > h2",
+    "x": 24,
+    "y": 3187,
+    "w": 312,
+    "h": 101,
+    "level": 2,
+    "text": "¿listo para conocer el nivel de madurez de tu organización?"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block__container.text-content > p > a.button.button--primary-hollow",
+    "x": 46,
+    "y": 3304,
+    "w": 269,
+    "h": 59,
+    "text": "comenzar la evaluación",
+    "href": "/es-es/retail-maturity-assessment/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldWrap.convertedField > div.mktoHtmlText.mktoHasWidth > span",
+    "x": 22,
+    "y": 3480,
+    "w": 303,
+    "h": 42,
+    "text": "Los campos marcados con un asterisco ( ) son obligatorios y deben completarse."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblFirstName",
+    "x": 22,
+    "y": 3563,
+    "w": 67,
+    "h": 16,
+    "text": "Nombre"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblLastName",
+    "x": 22,
+    "y": 3631,
+    "w": 76,
+    "h": 16,
+    "text": "Apellidos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblCompany",
+    "x": 22,
+    "y": 3699,
+    "w": 170,
+    "h": 16,
+    "text": "Nombre de la empresa"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#Industry",
+    "x": 22,
+    "y": 3756,
+    "w": 317,
+    "h": 38,
+    "label": "industria *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblIndustry",
+    "x": 22,
+    "y": 3767,
+    "w": 72,
+    "h": 16,
+    "text": "Industria"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#Lead_title__c",
+    "x": 22,
+    "y": 3824,
+    "w": 317,
+    "h": 38,
+    "label": "cargo *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblLead_title__c",
+    "x": 22,
+    "y": 3835,
+    "w": 52,
+    "h": 16,
+    "text": "Cargo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblEmail",
+    "x": 22,
+    "y": 3903,
+    "w": 224,
+    "h": 16,
+    "text": "Correo electrónico profesional"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > select#CountryCode",
+    "x": 22,
+    "y": 3960,
+    "w": 317,
+    "h": 38,
+    "label": "pais *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoFieldDescriptor.mktoFormCol > div.mktoFieldWrap.mktoRequiredField > label#LblCountryCode",
+    "x": 22,
+    "y": 3971,
+    "w": 39,
+    "h": 16,
+    "text": "Pais"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoLogicalField.mktoCheckboxList > label#LblmktoCheckbox_197557_0 > span",
+    "x": 48,
+    "y": 4028,
+    "w": 284,
+    "h": 126,
+    "text": "Acepto recibir noticias y comunicaciones de marketing relevantes por parte de Va"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoLogicalField.mktoCheckboxList > label#LblmktoCheckbox_197557_0 > a",
+    "x": 48,
+    "y": 4133,
+    "w": 287,
+    "h": 43,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 22,
+    "y": 4208,
+    "w": 308,
+    "h": 42,
+    "text": "Este sitio está protegido por CAPTCHA y se aplican la"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893 > a",
+    "x": 92,
+    "y": 4229,
+    "w": 155,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/legal/privacy-end-users/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 22,
+    "y": 4229,
+    "w": 258,
+    "h": 43,
+    "text": "y los"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.NormalTextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893 > a",
+    "x": 22,
+    "y": 4251,
+    "w": 170,
+    "h": 21,
+    "text": "términos y condiciones",
+    "href": "/legal/terms/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoHtmlText.mktoHasWidth > span.TextRun.SCXW160211893 > span.NormalTextRun.SCXW160211893",
+    "x": 22,
+    "y": 4251,
+    "w": 300,
+    "h": 43,
+    "text": "de uso de Friendly Captcha."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mktoButtonRow > span.mktoButtonWrap.mktoInset > button.mktoButton.button",
+    "x": 46,
+    "y": 4324,
+    "w": 269,
+    "h": 59,
+    "text": "comenzar la evaluación"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 16,
+    "y": 4511,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 242,
+    "y": 4511,
+    "w": 58,
+    "h": 45,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 16,
+    "y": 4575,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer__nav-link > a",
+    "x": 242,
+    "y": 4575,
+    "w": 82,
+    "h": 45,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer__column.site-footer__stamp > picture > img",
+    "x": 16,
+    "y": 4638,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "badge-no-outline"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 4779,
+    "w": 134,
+    "h": 18,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 4820,
+    "w": 118,
+    "h": 18,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 4861,
+    "w": 71,
+    "h": 18,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 4902,
+    "w": 84,
+    "h": 18,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a",
+    "x": 16,
+    "y": 4943,
+    "w": 136,
+    "h": 18,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__menu__list > li > a.cookiebot-reset",
+    "x": 16,
+    "y": 4984,
+    "w": 158,
+    "h": 18,
+    "text": "configuración de cookies",
+    "href": "/es-es/retail-maturity-assessment/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 16,
+    "y": 5065,
+    "w": 23,
+    "h": 18,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 87,
+    "y": 5065,
+    "w": 23,
+    "h": 18,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 158,
+    "y": 5065,
+    "w": 23,
+    "h": 18,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 229,
+    "y": 5065,
+    "w": 23,
+    "h": 18,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 16,
+    "y": 5110,
+    "w": 23,
+    "h": 18,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer__social > li > a",
+    "x": 87,
+    "y": 5110,
+    "w": 23,
+    "h": 18,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 6,
+    "textNodes": 68,
+    "controls": 34,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--c87ac39f--aemcoder.aem.page/es-es/retail-maturity-assessment",
+  "at": "2026-11-14T07:50:28.746Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5172,
+  "root": "main#valtech-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-nav-menu-wrapper.site-nav-menu-labels > div.site-nav-logo > a.site-nav-logo-link",
+    "x": 24,
+    "y": 25,
+    "w": 80,
+    "h": 21,
+    "text": "",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > a.search-select.mobile",
+    "x": 232,
+    "y": 24,
+    "w": 22,
+    "h": 23,
+    "text": "go to search page",
+    "href": "/es-es/search/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open location menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.location-select.mobile",
+    "x": 274,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open location menu",
+    "value": "open location menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "text": "open main menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-nav > div.site-nav-icons > button.icon-menu.mobile",
+    "x": 312,
+    "y": 24,
+    "w": 18,
+    "h": 23,
+    "label": "open main menu",
+    "value": "open main menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 62,
+    "y": 75,
+    "w": 201,
+    "h": 22,
+    "label": "current",
+    "value": "retail maturity assessment",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.site-breadcrumbs-list > ul > li",
+    "x": 62,
+    "y": 75,
+    "w": 201,
+    "h": 22,
+    "text": "Retail Maturity Assessment"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta-text > hgroup.masthead-two-columns-cta-hgroup > h1#está-tu-organización-preparada-para-el-retail-del-futuro",
+    "x": 24,
+    "y": 501,
+    "w": 312,
+    "h": 83,
+    "level": 1,
+    "text": "¿está tu organización preparada para el retail del futuro?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta-text > div.masthead-two-columns-cta-intro > p",
+    "x": 24,
+    "y": 604,
+    "w": 312,
+    "h": 134,
+    "text": "Realiza el Retail Maturity Assessment de Valtech para conocer tu posición frente"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta-cta > p > a.button.button-primary-hollow",
+    "x": 24,
+    "y": 762,
+    "w": 269,
+    "h": 59,
+    "text": "comenzar la evaluación",
+    "href": "/es-es/retail-maturity-assessment"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.masthead-two-columns-cta-media > picture.masthead-two-columns-cta-narrow > img",
+    "x": 0,
+    "y": 121,
+    "w": 360,
+    "h": 360,
+    "text": "close-up of a person's face, half obscured by textured glass",
+    "file": "media_102d2553859ba6156251cf412870c33a1d"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > h2#por-qué-realizar-el-retail-maturity-assessment",
+    "x": 24,
+    "y": 871,
+    "w": 312,
+    "h": 101,
+    "level": 2,
+    "text": "¿por qué realizar el retail maturity assessment ?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > h2#por-qué-realizar-el-retail-maturity-assessment > em",
+    "x": 24,
+    "y": 902,
+    "w": 189,
+    "h": 73,
+    "text": "Retail Maturity Assessment"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 988,
+    "w": 312,
+    "h": 291,
+    "text": "El retail está experimentando una transformación sin precedentes a escala global"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > h2#qué-recibirás",
+    "x": 24,
+    "y": 1339,
+    "w": 312,
+    "h": 34,
+    "level": 2,
+    "text": "qué recibirás"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 1389,
+    "w": 292,
+    "h": 67,
+    "text": "Una puntuación de madurez basada en las capacidades que impulsan el crecimiento "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 1469,
+    "w": 292,
+    "h": 45,
+    "text": "Comparativas con organizaciones de referencia del sector."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 1526,
+    "w": 292,
+    "h": 67,
+    "text": "Una visión clara de tus fortalezas, las brechas de capacidad y las prioridades d"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 1606,
+    "w": 292,
+    "h": 45,
+    "text": "Recomendaciones para orientar tus próximos pasos."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 1664,
+    "w": 292,
+    "h": 45,
+    "text": "Un ejemplar de nuestro informe Retail at the Crossroads 2026."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > h2#en-qué-consite-la-evaluación",
+    "x": 24,
+    "y": 1804,
+    "w": 312,
+    "h": 67,
+    "level": 2,
+    "text": "en qué consite la evaluación"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > p",
+    "x": 24,
+    "y": 1887,
+    "w": 312,
+    "h": 134,
+    "text": "Evalúa el rendimiento de tu organización en experiencia, tecnología, operaciones"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image-block-inner.has-portrait > picture.image-block-portrait > img",
+    "x": 24,
+    "y": 2021,
+    "w": 312,
+    "h": 178,
+    "text": "bar chart comparing business challenges, led by supply chain",
+    "file": "media_1c846e66139c31b0cd3da76104ca1ae654"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.section > div.default-content-wrapper > h2#próximos-pasos",
+    "x": 24,
+    "y": 2283,
+    "w": 312,
+    "h": 34,
+    "level": 2,
+    "text": "próximos pasos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 2333,
+    "w": 292,
+    "h": 22,
+    "text": "Completa la evaluación (5 minutos)."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 2368,
+    "w": 292,
+    "h": 45,
+    "text": "Recibe al instante tus resultados personalizados y nuestro informe global."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 44,
+    "y": 2425,
+    "w": 292,
+    "h": 90,
+    "text": "Si lo deseas, reserva una sesión de trabajo con los expertos de Valtech para con"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-unu.dark > div.teaser-block-unu-inner > a.teaser-block-unu-teaser",
+    "x": 0,
+    "y": 2550,
+    "w": 360,
+    "h": 593,
+    "text": "el momento de la verdad para el retail: retail en la encrucijada 2026 los retail",
+    "href": "/es-es/retail-en-la-encrucijada-2026"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-unu-media > picture > img",
+    "x": 24,
+    "y": 2574,
+    "w": 312,
+    "h": 234,
+    "text": "",
+    "file": "media_1dabc14cf1313ed9320effc6f8774cba9a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block-unu-description > div.teaser-block-unu-title > h2#el-momento-de-la-verdad-para-el-retail-retail-en-la-encrucijada-2026",
+    "x": 24,
+    "y": 2837,
+    "w": 312,
+    "h": 72,
+    "level": 2,
+    "text": "el momento de la verdad para el retail: retail en la encrucijada 2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte-block.cta-center > div.default-content-wrapper > h2#listo-para-conocer-el-nivel-de-madurez-de-tu-organización",
+    "x": 24,
+    "y": 3183,
+    "w": 312,
+    "h": 101,
+    "level": 2,
+    "text": "¿listo para conocer el nivel de madurez de tu organización?"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p.button-wrapper > a.button.primary",
+    "x": 46,
+    "y": 3300,
+    "w": 269,
+    "h": 59,
+    "text": "comenzar la evaluación",
+    "href": "/es-es/retail-maturity-assessment"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-html > span",
+    "x": 22,
+    "y": 3474,
+    "w": 304,
+    "h": 42,
+    "text": "Los campos marcados con un asterisco ( ) son obligatorios y deben completarse."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 3557,
+    "w": 67,
+    "h": 16,
+    "text": "Nombre"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 3625,
+    "w": 76,
+    "h": 16,
+    "text": "Apellidos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 3693,
+    "w": 170,
+    "h": 16,
+    "text": "Nombre de la empresa"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > select#Industry",
+    "x": 22,
+    "y": 3750,
+    "w": 317,
+    "h": 38,
+    "label": "industria *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 3761,
+    "w": 72,
+    "h": 16,
+    "text": "Industria"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > select#Lead_title__c",
+    "x": 22,
+    "y": 3818,
+    "w": 317,
+    "h": 38,
+    "label": "cargo *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 3829,
+    "w": 52,
+    "h": 16,
+    "text": "Cargo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 3897,
+    "w": 224,
+    "h": 16,
+    "text": "Correo electrónico profesional"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-field.mkto-form-field-float > select#CountryCode",
+    "x": 22,
+    "y": 3954,
+    "w": 317,
+    "h": 38,
+    "label": "pais *",
+    "value": "",
+    "via": "select"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-col.mkto-form-col-single > div.mkto-form-field.mkto-form-field-float > label",
+    "x": 22,
+    "y": 3965,
+    "w": 39,
+    "h": 16,
+    "text": "Pais"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-check > label > span",
+    "x": 48,
+    "y": 4022,
+    "w": 284,
+    "h": 126,
+    "text": "Acepto recibir noticias y comunicaciones de marketing relevantes por parte de Va"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-check > label > a",
+    "x": 48,
+    "y": 4127,
+    "w": 287,
+    "h": 43,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 22,
+    "y": 4202,
+    "w": 308,
+    "h": 42,
+    "text": "Este sitio está protegido por CAPTCHA y se aplican la"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span > span > a",
+    "x": 92,
+    "y": 4223,
+    "w": 155,
+    "h": 21,
+    "text": "política de privacidad",
+    "href": "/legal/privacy-end-users/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 22,
+    "y": 4223,
+    "w": 258,
+    "h": 43,
+    "text": "y los"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span > span > a",
+    "x": 22,
+    "y": 4246,
+    "w": 170,
+    "h": 21,
+    "text": "términos y condiciones",
+    "href": "/legal/terms/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-html > span > span",
+    "x": 22,
+    "y": 4246,
+    "w": 300,
+    "h": 43,
+    "text": "de uso de Friendly Captcha."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.mkto-form-buttons > span.mkto-form-button-wrap > button.mktoButton.button",
+    "x": 46,
+    "y": 4319,
+    "w": 269,
+    "h": 59,
+    "text": "comenzar la evaluación"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 16,
+    "y": 4506,
+    "w": 38,
+    "h": 21,
+    "text": "inicio",
+    "href": "/es-es/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 242,
+    "y": 4506,
+    "w": 58,
+    "h": 45,
+    "text": "quiénes somos",
+    "href": "/es-es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 16,
+    "y": 4570,
+    "w": 57,
+    "h": 21,
+    "text": "oficinas",
+    "href": "/es-es/quienes-somos/oficinas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.site-footer-nav-link > a",
+    "x": 242,
+    "y": 4570,
+    "w": 82,
+    "h": 45,
+    "text": "trabaja con nosotros",
+    "href": "/es-es/carrera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "aside.site-footer-column.site-footer-stamp > picture > img",
+    "x": 16,
+    "y": 4633,
+    "w": 218,
+    "h": 64,
+    "text": "sustainability stamp",
+    "file": "media_18686ce5d542e21460f5b9773dc388b150"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 4774,
+    "w": 134,
+    "h": 18,
+    "text": "política de privacidad",
+    "href": "/es-es/politica-privacidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 4815,
+    "w": 118,
+    "h": 18,
+    "text": "política de cookies",
+    "href": "/es-es/politica-de-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 4856,
+    "w": 71,
+    "h": 18,
+    "text": "aviso legal",
+    "href": "/es-es/aviso-legal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 4897,
+    "w": 84,
+    "h": 18,
+    "text": "accesibilidad",
+    "href": "/es-es/quienes-somos/accesibilidad/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a",
+    "x": 16,
+    "y": 4938,
+    "w": 136,
+    "h": 18,
+    "text": "mantente en contacto",
+    "href": "/es-es/quienes-somos/mantente-en-contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-menu-list > li > a.cookiebot-reset",
+    "x": 16,
+    "y": 4979,
+    "w": 158,
+    "h": 18,
+    "text": "configuración de cookies",
+    "href": "/es-es/retail-maturity-assessment"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 16,
+    "y": 5060,
+    "w": 23,
+    "h": 18,
+    "text": "linkedin",
+    "href": "/company/valtech"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 87,
+    "y": 5060,
+    "w": 23,
+    "h": 18,
+    "text": "youtube",
+    "href": "/c/ValtechOfficial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 158,
+    "y": 5060,
+    "w": 23,
+    "h": 18,
+    "text": "instagram",
+    "href": "/valtech_global/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 229,
+    "y": 5060,
+    "w": 23,
+    "h": 18,
+    "text": "apple podcasts",
+    "href": "/us/podcast/valtech-caf%C3%A9/id1497951359"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 16,
+    "y": 5105,
+    "w": 23,
+    "h": 18,
+    "text": "sound cloud",
+    "href": "/valtechcafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-footer-social > li > a",
+    "x": 87,
+    "y": 5105,
+    "w": 23,
+    "h": 18,
+    "text": "spotify",
+    "href": "/show/7oRV0j7kQvkSOCgiy1t7P5"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 1,
+    "textNodes": 64,
+    "controls": 32,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "¿está tu organización preparada para el retail del futuro?",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "¿por qué realizar el retail maturity assessment ?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "qué recibirás",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 5,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 5,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "en qué consite la evaluación",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "próximos pasos",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 3,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "el momento de la verdad para el retail: retail en la encrucijada 2026",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "¿listo para conocer el nivel de madurez de tu organización?",
+   "variable": false,
+   "origin": {
+    "link": 4,
+    "button": 1,
+    "text": 12,
+    "image": 0
+   },
+   "eds": {
+    "link": 4,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 12,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 75,
+    "y": 75,
+    "w": 188,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 501,
+    "w": 252,
+    "h": 35
+   },
+   {
+    "x": 24,
+    "y": 529,
+    "w": 275,
+    "h": 35
+   },
+   {
+    "x": 24,
+    "y": 556,
+    "w": 127,
+    "h": 35
+   },
+   {
+    "x": 24,
+    "y": 608,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 630,
+    "w": 289,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 653,
+    "w": 268,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 675,
+    "w": 254,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 697,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 720,
+    "w": 40,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 784,
+    "w": 189,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 872,
+    "w": 250,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 906,
+    "w": 189,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 939,
+    "w": 162,
+    "h": 39
+   },
+   {
+    "x": 186,
+    "y": 939,
+    "w": 17,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 992,
+    "w": 236,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1014,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1037,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1059,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1082,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1104,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1126,
+    "w": 282,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1149,
+    "w": 289,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1171,
+    "w": 242,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1194,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1216,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1238,
+    "w": 261,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1261,
+    "w": 87,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1340,
+    "w": 175,
+    "h": 39
+   },
+   {
+    "x": 44,
+    "y": 1393,
+    "w": 277,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1415,
+    "w": 228,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1437,
+    "w": 164,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1473,
+    "w": 261,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1495,
+    "w": 147,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1530,
+    "w": 258,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1553,
+    "w": 275,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1575,
+    "w": 95,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1610,
+    "w": 252,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1633,
+    "w": 115,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1668,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1690,
+    "w": 150,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1805,
+    "w": 224,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1838,
+    "w": 141,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1891,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1913,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1936,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1958,
+    "w": 249,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1981,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2003,
+    "w": 190,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2284,
+    "w": 210,
+    "h": 39
+   },
+   {
+    "x": 44,
+    "y": 2336,
+    "w": 251,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2372,
+    "w": 229,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2394,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2429,
+    "w": 243,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2452,
+    "w": 283,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2474,
+    "w": 282,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2496,
+    "w": 50,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2840,
+    "w": 288,
+    "h": 26
+   },
+   {
+    "x": 24,
+    "y": 2864,
+    "w": 265,
+    "h": 26
+   },
+   {
+    "x": 24,
+    "y": 2888,
+    "w": 47,
+    "h": 26
+   },
+   {
+    "x": 24,
+    "y": 2930,
+    "w": 311,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2954,
+    "w": 218,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2978,
+    "w": 301,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3002,
+    "w": 312,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3026,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3050,
+    "w": 40,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3088,
+    "w": 239,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 3105,
+    "w": 32,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 3184,
+    "w": 292,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 3218,
+    "w": 300,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 3252,
+    "w": 183,
+    "h": 39
+   },
+   {
+    "x": 86,
+    "y": 3322,
+    "w": 189,
+    "h": 23
+   },
+   {
+    "x": 25,
+    "y": 3480,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 313,
+    "y": 3482,
+    "w": 6,
+    "h": 18
+   },
+   {
+    "x": 319,
+    "y": 3480,
+    "w": 5,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 3501,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 3560,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 3562,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 3628,
+    "w": 67,
+    "h": 21
+   },
+   {
+    "x": 89,
+    "y": 3630,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 3696,
+    "w": 161,
+    "h": 21
+   },
+   {
+    "x": 183,
+    "y": 3698,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 3764,
+    "w": 63,
+    "h": 21
+   },
+   {
+    "x": 85,
+    "y": 3766,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 3832,
+    "w": 43,
+    "h": 21
+   },
+   {
+    "x": 65,
+    "y": 3834,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 3900,
+    "w": 215,
+    "h": 21
+   },
+   {
+    "x": 236,
+    "y": 3902,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 3968,
+    "w": 30,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 3970,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 48,
+    "y": 4028,
+    "w": 171,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 4049,
+    "w": 214,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 4070,
+    "w": 254,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 4091,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 4112,
+    "w": 232,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 4133,
+    "w": 214,
+    "h": 21
+   },
+   {
+    "x": 261,
+    "y": 4133,
+    "w": 73,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 4155,
+    "w": 75,
+    "h": 21
+   },
+   {
+    "x": 122,
+    "y": 4155,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 126,
+    "y": 4157,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 4208,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 4229,
+    "w": 70,
+    "h": 21
+   },
+   {
+    "x": 92,
+    "y": 4229,
+    "w": 155,
+    "h": 21
+   },
+   {
+    "x": 247,
+    "y": 4229,
+    "w": 32,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 4251,
+    "w": 170,
+    "h": 21
+   },
+   {
+    "x": 192,
+    "y": 4251,
+    "w": 130,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 4273,
+    "w": 63,
+    "h": 21
+   },
+   {
+    "x": 86,
+    "y": 4342,
+    "w": 189,
+    "h": 23
+   },
+   {
+    "x": 16,
+    "y": 4511,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 4511,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 4535,
+    "w": 47,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4575,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 4575,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 4599,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4779,
+    "w": 134,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4820,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4861,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4902,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4943,
+    "w": 136,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4984,
+    "w": 158,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 24,
+    "y": 75,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 75,
+    "y": 75,
+    "w": 188,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 497,
+    "w": 252,
+    "h": 35
+   },
+   {
+    "x": 24,
+    "y": 525,
+    "w": 275,
+    "h": 35
+   },
+   {
+    "x": 24,
+    "y": 552,
+    "w": 127,
+    "h": 35
+   },
+   {
+    "x": 24,
+    "y": 604,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 626,
+    "w": 289,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 649,
+    "w": 268,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 671,
+    "w": 254,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 693,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 716,
+    "w": 40,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 780,
+    "w": 189,
+    "h": 23
+   },
+   {
+    "x": 24,
+    "y": 868,
+    "w": 250,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 902,
+    "w": 189,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 935,
+    "w": 162,
+    "h": 39
+   },
+   {
+    "x": 186,
+    "y": 935,
+    "w": 17,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 988,
+    "w": 236,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1010,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1033,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1055,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1078,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1100,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1122,
+    "w": 282,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1145,
+    "w": 289,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1167,
+    "w": 242,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1190,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1212,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1234,
+    "w": 261,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1257,
+    "w": 87,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1336,
+    "w": 175,
+    "h": 39
+   },
+   {
+    "x": 44,
+    "y": 1389,
+    "w": 277,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1411,
+    "w": 228,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1433,
+    "w": 164,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1469,
+    "w": 261,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1491,
+    "w": 147,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1526,
+    "w": 258,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1549,
+    "w": 275,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1571,
+    "w": 95,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1606,
+    "w": 252,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1629,
+    "w": 115,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1664,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 1686,
+    "w": 150,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1801,
+    "w": 224,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1834,
+    "w": 141,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 1887,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1909,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1932,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1954,
+    "w": 249,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1977,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 1999,
+    "w": 190,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2280,
+    "w": 210,
+    "h": 39
+   },
+   {
+    "x": 44,
+    "y": 2333,
+    "w": 251,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2368,
+    "w": 229,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2390,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2425,
+    "w": 243,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2448,
+    "w": 283,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2470,
+    "w": 282,
+    "h": 21
+   },
+   {
+    "x": 44,
+    "y": 2492,
+    "w": 50,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2836,
+    "w": 288,
+    "h": 26
+   },
+   {
+    "x": 24,
+    "y": 2860,
+    "w": 265,
+    "h": 26
+   },
+   {
+    "x": 24,
+    "y": 2884,
+    "w": 47,
+    "h": 26
+   },
+   {
+    "x": 24,
+    "y": 2926,
+    "w": 311,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2950,
+    "w": 218,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2974,
+    "w": 301,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 2998,
+    "w": 312,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3022,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3046,
+    "w": 40,
+    "h": 21
+   },
+   {
+    "x": 24,
+    "y": 3084,
+    "w": 239,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 3101,
+    "w": 32,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 3180,
+    "w": 292,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 3214,
+    "w": 300,
+    "h": 39
+   },
+   {
+    "x": 24,
+    "y": 3248,
+    "w": 183,
+    "h": 39
+   },
+   {
+    "x": 86,
+    "y": 3318,
+    "w": 189,
+    "h": 23
+   },
+   {
+    "x": 25,
+    "y": 3474,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 313,
+    "y": 3474,
+    "w": 7,
+    "h": 21
+   },
+   {
+    "x": 320,
+    "y": 3474,
+    "w": 5,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 3495,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 3554,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 3556,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 3622,
+    "w": 67,
+    "h": 21
+   },
+   {
+    "x": 89,
+    "y": 3624,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 3690,
+    "w": 161,
+    "h": 21
+   },
+   {
+    "x": 183,
+    "y": 3692,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 3758,
+    "w": 63,
+    "h": 21
+   },
+   {
+    "x": 85,
+    "y": 3760,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 3826,
+    "w": 43,
+    "h": 21
+   },
+   {
+    "x": 65,
+    "y": 3828,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 3894,
+    "w": 215,
+    "h": 21
+   },
+   {
+    "x": 236,
+    "y": 3896,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 3962,
+    "w": 30,
+    "h": 21
+   },
+   {
+    "x": 51,
+    "y": 3964,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 48,
+    "y": 4022,
+    "w": 171,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 4043,
+    "w": 214,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 4064,
+    "w": 254,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 4085,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 4106,
+    "w": 232,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 4127,
+    "w": 214,
+    "h": 21
+   },
+   {
+    "x": 261,
+    "y": 4127,
+    "w": 73,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 4150,
+    "w": 75,
+    "h": 21
+   },
+   {
+    "x": 122,
+    "y": 4150,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 126,
+    "y": 4152,
+    "w": 9,
+    "h": 18
+   },
+   {
+    "x": 22,
+    "y": 4202,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 4223,
+    "w": 70,
+    "h": 21
+   },
+   {
+    "x": 92,
+    "y": 4223,
+    "w": 155,
+    "h": 21
+   },
+   {
+    "x": 247,
+    "y": 4223,
+    "w": 32,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 4246,
+    "w": 170,
+    "h": 21
+   },
+   {
+    "x": 192,
+    "y": 4246,
+    "w": 130,
+    "h": 21
+   },
+   {
+    "x": 22,
+    "y": 4268,
+    "w": 63,
+    "h": 21
+   },
+   {
+    "x": 86,
+    "y": 4337,
+    "w": 189,
+    "h": 23
+   },
+   {
+    "x": 16,
+    "y": 4506,
+    "w": 38,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 4506,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 4530,
+    "w": 47,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4570,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 4570,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 242,
+    "y": 4594,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4774,
+    "w": 134,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4815,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4856,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4897,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4938,
+    "w": 136,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4979,
+    "w": 158,
+    "h": 18
+   }
+  ]
+ }
+}

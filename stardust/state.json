@@ -1,0 +1,3939 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout",
+    "writtenAt": "2026-11-14T09:22:26Z",
+    "stardustVersion": "0.37.2"
+  },
+  "site": {
+    "originUrl": "https://www.valtech.com/",
+    "deployUrl": null,
+    "extractedAt": "2026-11-13T11:13:50.393Z",
+    "pageCap": 100,
+    "totalDiscovered": 100,
+    "crawled": 100,
+    "captureGaps": [
+      {
+        "root": "/es-es",
+        "slug": "es-es",
+        "linked": 51,
+        "uncaptured": [
+          "/es-es/carrera/ofertas-de-empleo",
+          "/es-es/casos/discover",
+          "/es-es/casos/eton",
+          "/es-es/casos/mandarin-oriental",
+          "/es-es/casos/mars",
+          "/es-es/industrias/agricultura",
+          "/es-es/industrias/bienes-de-gran-consumo",
+          "/es-es/industrias/lujo",
+          "/es-es/industrias/movilidad",
+          "/es-es/industrias/nuevo-horizonte-espacial",
+          "/es-es/industrias/retail",
+          "/es-es/industrias/salud",
+          "/es-es/industrias/sector-industrial",
+          "/es-es/industrias/sector-publico",
+          "/es-es/industrias/servicios-financieros",
+          "/es-es/industrias/viajes-hosteleria",
+          "/es-es/noticias/valtech-joins-fast-companys-best-workplaces-for-innovators",
+          "/es-es/nuestros-partners/adobe",
+          "/es-es/nuestros-partners/google",
+          "/es-es/nuestros-partners/salesforce",
+          "/es-es/nuestros-partners/shopify",
+          "/es-es/quienes-somos/accesibilidad",
+          "/es-es/quienes-somos/contacto/keep-in-touch",
+          "/es-es/quienes-somos/mantente-en-contacto",
+          "/es-es/quienes-somos/oficinas",
+          "/es-es/search",
+          "/es-es/servicios/aceleracion-comercio",
+          "/es-es/servicios/elevacion-de-la-experiencia",
+          "/es-es/servicios/revolucion-del-dato-y-ia/valtech-one",
+          "/es-es/servicios/servicios-creativos-de-marketing-performance",
+          "/es-es/servicios/transformacion-empresarial"
+        ]
+      }
+    ]
+  },
+  "direction": null,
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-11-13T11:13:50.393Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "ai-assessment",
+      "url": "https://www.valtech.com/ai-assessment/",
+      "title": "AI assessment | Valtech",
+      "type": "campaign",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:11:33.098Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ai-assessment.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ai-first-product-operating-model",
+      "url": "https://www.valtech.com/ai-first-product-operating-model/",
+      "title": "AI Operating Model for Enterprise Product Teams | Valtech",
+      "type": "offering",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:12:22.637Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ai-first-product-operating-model.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ai-mythbusting",
+      "url": "https://www.valtech.com/ai-mythbusting/",
+      "title": "What are the biggest AI myths? | Valtech",
+      "type": "campaign",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:11:29.316Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ai-mythbusting.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ai-readiness-starts-here",
+      "url": "https://www.valtech.com/ai-readiness-starts-here/",
+      "title": "AI readiness starts here | Valtech",
+      "type": "campaign",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:11:48.324Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ai-readiness-starts-here.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ai-searchandizing-workshop",
+      "url": "https://www.valtech.com/ai-searchandizing-workshop/",
+      "title": "AI Product Discovery Workshop | Valtech",
+      "type": "campaign",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:11:15.015Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-13T13:41:47Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ai-searchandizing-workshop.json",
+      "prototypePath": "stardust/prototypes/ai-searchandizing-workshop-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "b2b-portal-discovery-workshop",
+      "url": "https://www.valtech.com/b2b-portal-discovery-workshop/",
+      "title": "Valtech B2B portal discovery workshop | Valtech",
+      "type": "campaign",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:11:58.979Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/b2b-portal-discovery-workshop.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "becoming-a-connected-manufacturer",
+      "url": "https://www.valtech.com/becoming-a-connected-manufacturer/",
+      "title": "Becoming a connected manufacturer | Valtech",
+      "type": "campaign",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:10:57.488Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/becoming-a-connected-manufacturer.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "brand-strategy-design-agency",
+      "url": "https://www.valtech.com/brand-strategy-design-agency/",
+      "title": "Brand strategy & design Agency | Valtech",
+      "type": "editorial",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:12:52.018Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/brand-strategy-design-agency.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "composable-enterprise-assessment",
+      "url": "https://www.valtech.com/composable-enterprise-assessment/",
+      "title": "Composable Enterprise Assessment | Valtech",
+      "type": "campaign",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:11:10.131Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/composable-enterprise-assessment.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "content-supply-chain",
+      "url": "https://www.valtech.com/content-supply-chain/",
+      "title": "The Valtech Content Supply Chain | Valtech",
+      "type": "offering",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:12:10.181Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/content-supply-chain.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "creative-content",
+      "url": "https://www.valtech.com/creative-content/",
+      "title": "Creative & Content | Valtech",
+      "type": "editorial",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:12:43.857Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/creative-content.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "dataprod",
+      "url": "https://www.valtech.com/dataprod/",
+      "title": "How productisation transforms public sector data | Valtech",
+      "type": "editorial",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:12:55.004Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/dataprod.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "digital-consulting-discovery-call",
+      "url": "https://www.valtech.com/digital-consulting-discovery-call/",
+      "title": "Unlock the efficiency your business is missing | Valtech",
+      "type": "offering",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:11:05.616Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/digital-consulting-discovery-call.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "digital-media-performance-marketing",
+      "url": "https://www.valtech.com/digital-media-performance-marketing/",
+      "title": "Digital Media & Performance Marketing | Valtech",
+      "type": "editorial",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:12:43.859Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-13T13:57:51Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/digital-media-performance-marketing.json",
+      "prototypePath": "stardust/prototypes/digital-media-performance-marketing-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "digitalxelerate",
+      "url": "https://www.valtech.com/digitalxelerate/",
+      "title": "Accelerate your AI journey with DigitalXelerate | Valtech",
+      "type": "campaign",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:11:01.460Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/digitalxelerate.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "enterprise-ai-foundations-financial-services",
+      "url": "https://www.valtech.com/enterprise-ai-foundations-financial-services/",
+      "title": "Enterprise AI Foundation for financial services | Valtech",
+      "type": "offering",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:12:31.883Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/enterprise-ai-foundations-financial-services.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "enterprise-ai-foundations-vtiq",
+      "url": "https://www.valtech.com/enterprise-ai-foundations-vtiq/",
+      "title": "Turn enterprise data into AI-powered decisions | Valtech",
+      "type": "campaign",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:12:34.117Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/enterprise-ai-foundations-vtiq.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-aviso-legal",
+      "url": "https://www.valtech.com/es-es/aviso-legal/",
+      "title": "Aviso legal | Valtech",
+      "type": "static",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:08:19.362Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-13T14:02:02Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-aviso-legal.json",
+      "prototypePath": "stardust/prototypes/es-es-aviso-legal-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-blog-asi-se-creo-valtech-concierge",
+      "url": "https://www.valtech.com/es-es/blog/asi-se-creo-valtech-concierge/",
+      "title": "Así se creó Valtech Concierge | Valtech",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:09:14.288Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-blog-asi-se-creo-valtech-concierge.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-blog-como-marcas-locales-escalan-de-forma-diferente",
+      "url": "https://www.valtech.com/es-es/blog/como-marcas-locales-escalan-de-forma-diferente/",
+      "title": "Comercio barcelonés: cómo crecen las marcas. | Valtech",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:09:25.400Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-blog-como-marcas-locales-escalan-de-forma-diferente.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-blog-el-geo-como-la-nueva-frontera-de-la-visibilidad-digital",
+      "url": "https://www.valtech.com/es-es/blog/el-geo-como-la-nueva-frontera-de-la-visibilidad-digital/",
+      "title": "El GEO como nueva frontera de la visibilidad digital | Valtech",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:10:27.602Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-blog-el-geo-como-la-nueva-frontera-de-la-visibilidad-digital.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-blog-embedding-ai-in-government-case-management",
+      "url": "https://www.valtech.com/es-es/blog/embedding-ai-in-government-case-management/",
+      "title": "Embedding AI in government case management | Valtech",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:10:10.614Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-blog-embedding-ai-in-government-case-management.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-blog-estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion",
+      "url": "https://www.valtech.com/es-es/blog/estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion/",
+      "title": "Estrategia para tiendas físicas: más allá de la transacción | Valtech",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:09:15.558Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-blog-estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-blog-ia-transforma-busquedas-y-webs-de-marca",
+      "url": "https://www.valtech.com/es-es/blog/ia-transforma-busquedas-y-webs-de-marca/",
+      "title": "Cómo la IA transforma las búsquedas y las webs de marca | Valtech",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:09:03.487Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-blog-ia-transforma-busquedas-y-webs-de-marca.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-blog-la-era-de-los-agentes-de-ia",
+      "url": "https://www.valtech.com/es-es/blog/la-era-de-los-agentes-de-ia/",
+      "title": "La era de los agentes personales | Valtech",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:08:56.271Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-13T13:18:04Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-blog-la-era-de-los-agentes-de-ia.json",
+      "prototypePath": "stardust/prototypes/es-es-blog-la-era-de-los-agentes-de-ia-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-blog-presentamos-el-muro-de-datos-b2b",
+      "url": "https://www.valtech.com/es-es/blog/presentamos-el-muro-de-datos-b2b/",
+      "title": "Presentamos El Muro de Datos B2B | Valtech",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:09:27.808Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-blog-presentamos-el-muro-de-datos-b2b.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-blog",
+      "url": "https://www.valtech.com/es-es/blog/",
+      "title": "Blog | Valtech",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:07:50.911Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-13T13:24:09Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-blog.json",
+      "prototypePath": "stardust/prototypes/es-es-blog-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-carrera",
+      "url": "https://www.valtech.com/es-es/carrera/",
+      "title": "Quiénes somos | Valtech",
+      "type": "editorial",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:08:00.188Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-carrera.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-casos-lexus-europa",
+      "url": "https://www.valtech.com/es-es/casos/lexus-europa/",
+      "title": "Lexus Europa y la IA agéntica: a vuestro servicio | Valtech",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:10:56.813Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-casos-lexus-europa.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-casos",
+      "url": "https://www.valtech.com/es-es/casos/",
+      "title": "Casos de éxito | Valtech",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:08:09.419Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-casos.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-content-hub",
+      "url": "https://www.valtech.com/es-es/content-hub/",
+      "title": "Centro de contenidos | Valtech",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:08:30.964Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-content-hub.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-diversidad-e-inclusion",
+      "url": "https://www.valtech.com/es-es/diversidad-e-inclusion/",
+      "title": "Diversidad e Inclusión | Valtech",
+      "type": "editorial",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:08:33.262Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-diversidad-e-inclusion.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-eventos-ai-in-retail-from-pilots-to-performanceexclusive",
+      "url": "https://www.valtech.com/es-es/eventos/ai-in-retail-from-pilots-to-performanceexclusive/",
+      "title": "Unlock AI success in retail | Valtech",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:08:52.930Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-eventos-ai-in-retail-from-pilots-to-performanceexclusive.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-eventos-google-cloud-and-valtech-roundtable",
+      "url": "https://www.valtech.com/es-es/eventos/google-cloud-and-valtech-roundtable/",
+      "title": "Unlock AI success in retail: join Google Cloud & Valtech | Valtech",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:08:53.436Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-eventos-google-cloud-and-valtech-roundtable.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-eventos-valtech-at-shoptalk-europe-2026",
+      "url": "https://www.valtech.com/es-es/eventos/valtech-at-shoptalk-europe-2026/",
+      "title": "Valtech en Shoptalk Europe 2026 | Valtech",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:09:36.876Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-eventos-valtech-at-shoptalk-europe-2026.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-eventos-valtech-optimizely-at-resume-martech-2026",
+      "url": "https://www.valtech.com/es-es/eventos/valtech-optimizely-at-resume-martech-2026/",
+      "title": "Valtech & Optimizely at Resumé Martech 2026 | Valtech",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:09:05.649Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-eventos-valtech-optimizely-at-resume-martech-2026.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-eventos",
+      "url": "https://www.valtech.com/es-es/eventos/",
+      "title": "Eventos | Valtech",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:08:09.417Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-eventos.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-guia-para-la-empresa-inteligente",
+      "url": "https://www.valtech.com/es-es/guia-para-la-empresa-inteligente/",
+      "title": "Guía para la empresa inteligente | Valtech | Valtech",
+      "type": "offering",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:07:40.749Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-guia-para-la-empresa-inteligente.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-industrias",
+      "url": "https://www.valtech.com/es-es/industrias/",
+      "title": "Industrias | Valtech",
+      "type": "editorial",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:08:19.367Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-industrias.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente-crecer",
+      "url": "https://www.valtech.com/es-es/la-empresa-inteligente/crecer/",
+      "title": "IA generativa para la experiencia de cliente | Valtech",
+      "type": "microsite",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:09:47.508Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-la-empresa-inteligente-crecer.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente-liderar",
+      "url": "https://www.valtech.com/es-es/la-empresa-inteligente/liderar/",
+      "title": "Toma de decisiones impulsada por IA | Valtech",
+      "type": "microsite",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:09:47.505Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-la-empresa-inteligente-liderar.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente-modelo-operativo",
+      "url": "https://www.valtech.com/es-es/la-empresa-inteligente/modelo-operativo/",
+      "title": "Modelo operativo centrado en el crecimiento | Valtech",
+      "type": "microsite",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:09:26.101Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-la-empresa-inteligente-modelo-operativo.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente-operar",
+      "url": "https://www.valtech.com/es-es/la-empresa-inteligente/operar/",
+      "title": "IA agéntica en operaciones de IT | Valtech",
+      "type": "microsite",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:09:38.140Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-13T14:24:35Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-la-empresa-inteligente-operar.json",
+      "prototypePath": "stardust/prototypes/es-es-la-empresa-inteligente-operar-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente-organizar",
+      "url": "https://www.valtech.com/es-es/la-empresa-inteligente/organizar/",
+      "title": "IA agéntica para operaciones empresariales | Valtech",
+      "type": "microsite",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:09:49.690Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-la-empresa-inteligente-organizar.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-la-empresa-inteligente",
+      "url": "https://www.valtech.com/es-es/la-empresa-inteligente/",
+      "title": "Convierte la IA en ventaja empresarial | Valtech",
+      "type": "microsite",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:07:40.762Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-la-empresa-inteligente.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-noticias-conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds",
+      "url": "https://www.valtech.com/es-es/noticias/conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds/",
+      "title": "La IA conversacional, nueva puerta de entrada al comercio | Valtech",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:09:59.118Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-noticias-conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-noticias-valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente",
+      "url": "https://www.valtech.com/es-es/noticias/valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente/",
+      "title": "Valtech, Strong Performer en Forrester Wave 2026 | Valtech",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:10:17.691Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-noticias-valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-noticias",
+      "url": "https://www.valtech.com/es-es/noticias/",
+      "title": "Noticias | Valtech",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:08:00.803Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-noticias.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-nuestros-partners-oracle",
+      "url": "https://www.valtech.com/es-es/nuestros-partners/oracle/",
+      "title": "Alianza entre Valtech y Oracle | Valtech | Valtech",
+      "type": "editorial",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:10:47.590Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-nuestros-partners-oracle.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-nuestros-partners",
+      "url": "https://www.valtech.com/es-es/nuestros-partners/",
+      "title": "Partners | Valtech",
+      "type": "campaign",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:07:51.380Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-nuestros-partners.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-podcasts",
+      "url": "https://www.valtech.com/es-es/podcasts/",
+      "title": "Pódcasts | Valtech",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:08:33.230Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-podcasts.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-politica-de-cookies",
+      "url": "https://www.valtech.com/es-es/politica-de-cookies/",
+      "title": "Política de Cookies | Valtech",
+      "type": "static",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:08:46.367Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-politica-de-cookies.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-politica-privacidad",
+      "url": "https://www.valtech.com/es-es/politica-privacidad/",
+      "title": "Política de Privacidad - Valtech | Valtech",
+      "type": "static",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:08:43.131Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-politica-privacidad.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-quienes-somos",
+      "url": "https://www.valtech.com/es-es/quienes-somos/",
+      "title": "Quiénes somos | Valtech",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:07:49.660Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-quienes-somos.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-retail-en-la-encrucijada-2026",
+      "url": "https://www.valtech.com/es-es/retail-en-la-encrucijada-2026/",
+      "title": "Descubre en detalle el informe Retail 2026 de Valtech | Valtech",
+      "type": "offering",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:07:30.345Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-retail-en-la-encrucijada-2026.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-retail-maturity-assessment",
+      "url": "https://www.valtech.com/es-es/retail-maturity-assessment/",
+      "title": "Retail Maturity Assessment | Estudio de Valtech 2026 | Valtech",
+      "type": "campaign",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:07:40.747Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-retail-maturity-assessment.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-servicios-revolucion-del-dato-y-ia",
+      "url": "https://www.valtech.com/es-es/servicios/revolucion-del-dato-y-ia/",
+      "title": "Impulsa el crecimiento con consultoría en datos e IA. | Valtech",
+      "type": "offering",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:10:51.954Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-servicios-revolucion-del-dato-y-ia.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-servicios",
+      "url": "https://www.valtech.com/es-es/servicios/",
+      "title": "Servicios | Valtech",
+      "type": "editorial",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:08:18.571Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-servicios.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-thread-magazine-edition-10-the-experience-loop",
+      "url": "https://www.valtech.com/es-es/thread-magazine/edition-10-the-experience-loop/",
+      "title": "Edición número 10: The Experience Loop | Valtech",
+      "type": "whitepaper",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:10:42.660Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-thread-magazine-edition-10-the-experience-loop.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-thread-magazine",
+      "url": "https://www.valtech.com/es-es/thread-magazine/",
+      "title": "Revista Thread | Valtech",
+      "type": "campaign",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:08:11.138Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-thread-magazine.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-trabajar-en-valtech",
+      "url": "https://www.valtech.com/es-es/trabajar-en-valtech/",
+      "title": "Trabajar en Valtech | Valtech",
+      "type": "editorial",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:08:43.134Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-trabajar-en-valtech.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-whitepapers-el-ciclo-de-relevancia-de-las-marcas",
+      "url": "https://www.valtech.com/es-es/whitepapers/el-ciclo-de-relevancia-de-las-marcas/",
+      "title": "El ciclo de relevancia de las marcas | Valtech",
+      "type": "offering",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:09:05.656Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-whitepapers-el-ciclo-de-relevancia-de-las-marcas.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-whitepapers-el-giro-hacia-la-ia",
+      "url": "https://www.valtech.com/es-es/whitepapers/el-giro-hacia-la-ia/",
+      "title": "Cómo construir una empresa inteligente | Valtech",
+      "type": "whitepaper",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:10:38.802Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-whitepapers-el-giro-hacia-la-ia.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-whitepapers-experiencias-inteligentes",
+      "url": "https://www.valtech.com/es-es/whitepapers/experiencias-inteligentes/",
+      "title": "Experiencias inteligentes: cómo la IA transforma los viajes | Valtech",
+      "type": "whitepaper",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:10:37.629Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-whitepapers-experiencias-inteligentes.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-whitepapers-fidelizacion-digital-sector-sanitario",
+      "url": "https://www.valtech.com/es-es/whitepapers/fidelizacion-digital-sector-sanitario/",
+      "title": "Fidelización digital en el sector sanitario | Valtech",
+      "type": "whitepaper",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:10:09.508Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-whitepapers-fidelizacion-digital-sector-sanitario.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-whitepapers-guia-estrategica-salud-digital-optimizely-2026",
+      "url": "https://www.valtech.com/es-es/whitepapers/guia-estrategica-salud-digital-optimizely-2026/",
+      "title": "Guía estratégica para el sector sanitario | Valtech",
+      "type": "whitepaper",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:10:22.027Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-whitepapers-guia-estrategica-salud-digital-optimizely-2026.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-whitepapers-infome-la-era-del-comercio-conversacional-2026",
+      "url": "https://www.valtech.com/es-es/whitepapers/infome-la-era-del-comercio-conversacional-2026/",
+      "title": "Informe La Era del Comercio Conversacional 2026 | Valtech",
+      "type": "whitepaper",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:09:58.094Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-whitepapers-infome-la-era-del-comercio-conversacional-2026.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-whitepapers-informe-tendencias-cliente-movilidad-2026",
+      "url": "https://www.valtech.com/es-es/whitepapers/informe-tendencias-cliente-movilidad-2026/",
+      "title": "La odisea del cliente: tendencias de movilidad de Valtech | Valtech",
+      "type": "whitepaper",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:10:31.983Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-whitepapers-informe-tendencias-cliente-movilidad-2026.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-whitepapers-la-era-agentica-tendencias-de-la-ia-empresarial-2026",
+      "url": "https://www.valtech.com/es-es/whitepapers/la-era-agentica-tendencias-de-la-ia-empresarial-2026/",
+      "title": "La Era Agéntica: Tendencias de la IA Empresarial 2026. | Valtech",
+      "type": "whitepaper",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:09:16.616Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-whitepapers-la-era-agentica-tendencias-de-la-ia-empresarial-2026.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-whitepapers-la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software",
+      "url": "https://www.valtech.com/es-es/whitepapers/la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software/",
+      "title": "La IA en el ciclo de vida del desarrollo de software | Valtech",
+      "type": "whitepaper",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:09:36.089Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-whitepapers-la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-whitepapers-la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026",
+      "url": "https://www.valtech.com/es-es/whitepapers/la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026/",
+      "title": "La Voz de Líderes Digitales de la Industria Manufacturera | Valtech",
+      "type": "whitepaper",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:10:00.236Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-whitepapers-la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2025",
+      "url": "https://www.valtech.com/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2025/",
+      "title": "La Voz de los Innovadores en Experiencia: Movilidad 2025 | Valtech",
+      "type": "whitepaper",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:10:46.027Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2025.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+      "url": "https://www.valtech.com/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2026/",
+      "title": "La voz de los innovadores en experiencia: movilidad 2026 | Valtech",
+      "type": "whitepaper",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:10:09.515Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-13T13:33:21Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026.json",
+      "prototypePath": "stardust/prototypes/es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-whitepapers-retail-en-la-encrucijada-2026",
+      "url": "https://www.valtech.com/es-es/whitepapers/retail-en-la-encrucijada-2026/",
+      "title": "Descarga el informe Retail 2026 | Valtech",
+      "type": "whitepaper",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:10:29.031Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-whitepapers-retail-en-la-encrucijada-2026.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-whitepapers-transformar-los-servicios-financieros-la-inteligencia-a-gran-escala",
+      "url": "https://www.valtech.com/es-es/whitepapers/transformar-los-servicios-financieros-la-inteligencia-a-gran-escala/",
+      "title": "Transformar los servicios financieros | Valtech",
+      "type": "whitepaper",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:10:19.038Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-whitepapers-transformar-los-servicios-financieros-la-inteligencia-a-gran-escala.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es-whitepapers",
+      "url": "https://www.valtech.com/es-es/whitepapers/",
+      "title": "Publicaciones | Valtech",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:07:59.112Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es-whitepapers.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-es",
+      "url": "https://www.valtech.com/es-es/",
+      "title": "La empresa de innovación en experiencia",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:07:28.815Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-es.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "experience-innovation-on-azure",
+      "url": "https://www.valtech.com/experience-innovation-on-azure/",
+      "title": "Experience innovation on Azure | Valtech",
+      "type": "editorial",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:13:04.445Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/experience-innovation-on-azure.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "experience-innovation",
+      "url": "https://www.valtech.com/experience-innovation/",
+      "title": "Your bold next step | Valtech | Valtech",
+      "type": "editorial",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:11:41.969Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/experience-innovation.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "experience-innovation3",
+      "url": "https://www.valtech.com/experience-innovation3/",
+      "title": "Unlock business growth with data & AI consulting | Valtech",
+      "type": "offering",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:11:38.850Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/experience-innovation3.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "fabric-real-time-intelligence",
+      "url": "https://www.valtech.com/fabric-real-time-intelligence/",
+      "title": "Real-time intelligence with Microsoft Fabric | Valtech",
+      "type": "static",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:11:50.675Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/fabric-real-time-intelligence.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "gear-accelerator",
+      "url": "https://www.valtech.com/gear-accelerator/",
+      "title": "GEAR customer portal accelerator | Valtech",
+      "type": "campaign",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:11:21.555Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/gear-accelerator.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "geo-quick-start",
+      "url": "https://www.valtech.com/geo-quick-start/",
+      "title": "Generative Engine Optimization QuickStart | Valtech & Adobe | Valtech",
+      "type": "offering",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:12:20.159Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/geo-quick-start.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "health-digital-leadership-roundtables",
+      "url": "https://www.valtech.com/health-digital-leadership-roundtables/",
+      "title": "Digital Leadership Accelerator | Valtech",
+      "type": "campaign",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:11:24.887Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/health-digital-leadership-roundtables.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "index",
+      "url": "https://www.valtech.com/",
+      "title": "The experience innovation company",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:07:26.323Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:44Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-13T12:55:45Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-13T12:55:45Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "innovation-marathon-2027",
+      "url": "https://www.valtech.com/innovation-marathon-2027/",
+      "title": "Innovation Marathon 2027 | AI Co-Creation Program | Valtech",
+      "type": "campaign",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:11:09.095Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/innovation-marathon-2027.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "intelligent-journeys",
+      "url": "https://www.valtech.com/intelligent-journeys/",
+      "title": "Intelligent Journeys | Valtech",
+      "type": "campaign",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:11:30.208Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/intelligent-journeys.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "is-your-adobe-investment-delivering",
+      "url": "https://www.valtech.com/is-your-adobe-investment-delivering/",
+      "title": "Content at scale: Is your Adobe investment delivering? | Valtech",
+      "type": "offering",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:12:21.285Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/is-your-adobe-investment-delivering.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "lead-scoring",
+      "url": "https://www.valtech.com/lead-scoring/",
+      "title": "Lead scoring: When to engage a new lead | Valtech",
+      "type": "editorial",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:13:05.892Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/lead-scoring.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "leap-into-composable-commerce",
+      "url": "https://www.valtech.com/leap-into-composable-commerce/",
+      "title": "LEAP into composable commerce | Valtech",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:12:43.861Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/leap-into-composable-commerce.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "meet-the-expert-vera-schnitzlein",
+      "url": "https://www.valtech.com/meet-the-expert-vera-schnitzlein/",
+      "title": "Meet the Expert: Vera Schnitzlein on Industrial Innovation | Valtech",
+      "type": "editorial",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:11:49.400Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/meet-the-expert-vera-schnitzlein.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "next2025-highlights",
+      "url": "https://www.valtech.com/next2025-highlights/",
+      "title": "Best moments from Google Cloud Next 2025 | Valtech",
+      "type": "editorial",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:11:19.315Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/next2025-highlights.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "retail-at-the-crossroads-2026",
+      "url": "https://www.valtech.com/retail-at-the-crossroads-2026/",
+      "title": "Dive deeper into Valtech’s 2026 Retail report | Valtech",
+      "type": "offering",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:11:40.220Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/retail-at-the-crossroads-2026.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "retail-maturity-assessment",
+      "url": "https://www.valtech.com/retail-maturity-assessment/",
+      "title": "Retail Maturity Assessment | Valtech Research 2026 | Valtech",
+      "type": "campaign",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:12:11.545Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/retail-maturity-assessment.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "the-intelligent-enterprise",
+      "url": "https://www.valtech.com/the-intelligent-enterprise/",
+      "title": "Orchestrate AI into enterprise advantage | Valtech",
+      "type": "microsite",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:12:10.175Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/the-intelligent-enterprise.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "valtech-agentic-commerce-catalyst",
+      "url": "https://www.valtech.com/valtech-agentic-commerce-catalyst/",
+      "title": "Valtech Agentic Commerce Catalyst | Valtech",
+      "type": "offering",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:12:00.133Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/valtech-agentic-commerce-catalyst.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "valtech-and-salesforce",
+      "url": "https://www.valtech.com/valtech-and-salesforce/",
+      "title": "Business Transformation for Airlines | Valtech",
+      "type": "editorial",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:12:54.990Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/valtech-and-salesforce.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "valtech-conversion-engine",
+      "url": "https://www.valtech.com/valtech-conversion-engine/",
+      "title": "Turn Customer Intent Into Measurable Growth | Valtech",
+      "type": "offering",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:12:31.877Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-13T13:56:12Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/valtech-conversion-engine.json",
+      "prototypePath": "stardust/prototypes/valtech-conversion-engine-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "valtech-enterprise-ai-foundations",
+      "url": "https://www.valtech.com/valtech-enterprise-ai-foundations/",
+      "title": "Valtech Enterprise AI Foundations | Valtech",
+      "type": "offering",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:12:01.007Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/valtech-enterprise-ai-foundations.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "valtech-ukraine-in-media",
+      "url": "https://www.valtech.com/valtech-ukraine-in-media/",
+      "title": "Valtech Ukraine in media | Valtech",
+      "type": "editorial",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:13:02.830Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:55:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-14T09:22:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/valtech-ukraine-in-media.json",
+      "prototypePath": null,
+      "migratedPath": null
+    }
+  ],
+  "migrate": {
+    "at": "2026-11-14T00:25:23Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/ai-assessment/",
+        "outputPath": "ai-assessment/index.html",
+        "slug": "ai-assessment",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ai-first-product-operating-model/",
+        "outputPath": "ai-first-product-operating-model/index.html",
+        "slug": "ai-first-product-operating-model",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ai-mythbusting/",
+        "outputPath": "ai-mythbusting/index.html",
+        "slug": "ai-mythbusting",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ai-readiness-starts-here/",
+        "outputPath": "ai-readiness-starts-here/index.html",
+        "slug": "ai-readiness-starts-here",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ai-searchandizing-workshop/",
+        "outputPath": "ai-searchandizing-workshop/index.html",
+        "slug": "ai-searchandizing-workshop",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/b2b-portal-discovery-workshop/",
+        "outputPath": "b2b-portal-discovery-workshop/index.html",
+        "slug": "b2b-portal-discovery-workshop",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/becoming-a-connected-manufacturer/",
+        "outputPath": "becoming-a-connected-manufacturer/index.html",
+        "slug": "becoming-a-connected-manufacturer",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/brand-strategy-design-agency/",
+        "outputPath": "brand-strategy-design-agency/index.html",
+        "slug": "brand-strategy-design-agency",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/composable-enterprise-assessment/",
+        "outputPath": "composable-enterprise-assessment/index.html",
+        "slug": "composable-enterprise-assessment",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/content-supply-chain/",
+        "outputPath": "content-supply-chain/index.html",
+        "slug": "content-supply-chain",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/creative-content/",
+        "outputPath": "creative-content/index.html",
+        "slug": "creative-content",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/dataprod/",
+        "outputPath": "dataprod/index.html",
+        "slug": "dataprod",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/digital-consulting-discovery-call/",
+        "outputPath": "digital-consulting-discovery-call/index.html",
+        "slug": "digital-consulting-discovery-call",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/digital-media-performance-marketing/",
+        "outputPath": "digital-media-performance-marketing/index.html",
+        "slug": "digital-media-performance-marketing",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/digitalxelerate/",
+        "outputPath": "digitalxelerate/index.html",
+        "slug": "digitalxelerate",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/enterprise-ai-foundations-financial-services/",
+        "outputPath": "enterprise-ai-foundations-financial-services/index.html",
+        "slug": "enterprise-ai-foundations-financial-services",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/enterprise-ai-foundations-vtiq/",
+        "outputPath": "enterprise-ai-foundations-vtiq/index.html",
+        "slug": "enterprise-ai-foundations-vtiq",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/aviso-legal/",
+        "outputPath": "es-es/aviso-legal/index.html",
+        "slug": "es-es-aviso-legal",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/blog/asi-se-creo-valtech-concierge/",
+        "outputPath": "es-es/blog/asi-se-creo-valtech-concierge/index.html",
+        "slug": "es-es-blog-asi-se-creo-valtech-concierge",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/blog/como-marcas-locales-escalan-de-forma-diferente/",
+        "outputPath": "es-es/blog/como-marcas-locales-escalan-de-forma-diferente/index.html",
+        "slug": "es-es-blog-como-marcas-locales-escalan-de-forma-diferente",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/blog/el-geo-como-la-nueva-frontera-de-la-visibilidad-digital/",
+        "outputPath": "es-es/blog/el-geo-como-la-nueva-frontera-de-la-visibilidad-digital/index.html",
+        "slug": "es-es-blog-el-geo-como-la-nueva-frontera-de-la-visibilidad-digital",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/blog/embedding-ai-in-government-case-management/",
+        "outputPath": "es-es/blog/embedding-ai-in-government-case-management/index.html",
+        "slug": "es-es-blog-embedding-ai-in-government-case-management",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/blog/estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion/",
+        "outputPath": "es-es/blog/estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion/index.html",
+        "slug": "es-es-blog-estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/blog/ia-transforma-busquedas-y-webs-de-marca/",
+        "outputPath": "es-es/blog/ia-transforma-busquedas-y-webs-de-marca/index.html",
+        "slug": "es-es-blog-ia-transforma-busquedas-y-webs-de-marca",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/blog/la-era-de-los-agentes-de-ia/",
+        "outputPath": "es-es/blog/la-era-de-los-agentes-de-ia/index.html",
+        "slug": "es-es-blog-la-era-de-los-agentes-de-ia",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/blog/presentamos-el-muro-de-datos-b2b/",
+        "outputPath": "es-es/blog/presentamos-el-muro-de-datos-b2b/index.html",
+        "slug": "es-es-blog-presentamos-el-muro-de-datos-b2b",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/blog/",
+        "outputPath": "es-es/blog/index.html",
+        "slug": "es-es-blog",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/carrera/",
+        "outputPath": "es-es/carrera/index.html",
+        "slug": "es-es-carrera",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/casos/lexus-europa/",
+        "outputPath": "es-es/casos/lexus-europa/index.html",
+        "slug": "es-es-casos-lexus-europa",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/casos/",
+        "outputPath": "es-es/casos/index.html",
+        "slug": "es-es-casos",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/content-hub/",
+        "outputPath": "es-es/content-hub/index.html",
+        "slug": "es-es-content-hub",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/diversidad-e-inclusion/",
+        "outputPath": "es-es/diversidad-e-inclusion/index.html",
+        "slug": "es-es-diversidad-e-inclusion",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/eventos/ai-in-retail-from-pilots-to-performanceexclusive/",
+        "outputPath": "es-es/eventos/ai-in-retail-from-pilots-to-performanceexclusive/index.html",
+        "slug": "es-es-eventos-ai-in-retail-from-pilots-to-performanceexclusive",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/eventos/google-cloud-and-valtech-roundtable/",
+        "outputPath": "es-es/eventos/google-cloud-and-valtech-roundtable/index.html",
+        "slug": "es-es-eventos-google-cloud-and-valtech-roundtable",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/eventos/valtech-at-shoptalk-europe-2026/",
+        "outputPath": "es-es/eventos/valtech-at-shoptalk-europe-2026/index.html",
+        "slug": "es-es-eventos-valtech-at-shoptalk-europe-2026",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/eventos/valtech-optimizely-at-resume-martech-2026/",
+        "outputPath": "es-es/eventos/valtech-optimizely-at-resume-martech-2026/index.html",
+        "slug": "es-es-eventos-valtech-optimizely-at-resume-martech-2026",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/eventos/",
+        "outputPath": "es-es/eventos/index.html",
+        "slug": "es-es-eventos",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/guia-para-la-empresa-inteligente/",
+        "outputPath": "es-es/guia-para-la-empresa-inteligente/index.html",
+        "slug": "es-es-guia-para-la-empresa-inteligente",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/industrias/",
+        "outputPath": "es-es/industrias/index.html",
+        "slug": "es-es-industrias",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/la-empresa-inteligente/crecer/",
+        "outputPath": "es-es/la-empresa-inteligente/crecer/index.html",
+        "slug": "es-es-la-empresa-inteligente-crecer",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/la-empresa-inteligente/liderar/",
+        "outputPath": "es-es/la-empresa-inteligente/liderar/index.html",
+        "slug": "es-es-la-empresa-inteligente-liderar",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/la-empresa-inteligente/modelo-operativo/",
+        "outputPath": "es-es/la-empresa-inteligente/modelo-operativo/index.html",
+        "slug": "es-es-la-empresa-inteligente-modelo-operativo",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/la-empresa-inteligente/operar/",
+        "outputPath": "es-es/la-empresa-inteligente/operar/index.html",
+        "slug": "es-es-la-empresa-inteligente-operar",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/la-empresa-inteligente/organizar/",
+        "outputPath": "es-es/la-empresa-inteligente/organizar/index.html",
+        "slug": "es-es-la-empresa-inteligente-organizar",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/la-empresa-inteligente/",
+        "outputPath": "es-es/la-empresa-inteligente/index.html",
+        "slug": "es-es-la-empresa-inteligente",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/noticias/conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds/",
+        "outputPath": "es-es/noticias/conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds/index.html",
+        "slug": "es-es-noticias-conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/noticias/valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente/",
+        "outputPath": "es-es/noticias/valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente/index.html",
+        "slug": "es-es-noticias-valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/noticias/",
+        "outputPath": "es-es/noticias/index.html",
+        "slug": "es-es-noticias",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/nuestros-partners/oracle/",
+        "outputPath": "es-es/nuestros-partners/oracle/index.html",
+        "slug": "es-es-nuestros-partners-oracle",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/nuestros-partners/",
+        "outputPath": "es-es/nuestros-partners/index.html",
+        "slug": "es-es-nuestros-partners",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/podcasts/",
+        "outputPath": "es-es/podcasts/index.html",
+        "slug": "es-es-podcasts",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/politica-de-cookies/",
+        "outputPath": "es-es/politica-de-cookies/index.html",
+        "slug": "es-es-politica-de-cookies",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/politica-privacidad/",
+        "outputPath": "es-es/politica-privacidad/index.html",
+        "slug": "es-es-politica-privacidad",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/quienes-somos/",
+        "outputPath": "es-es/quienes-somos/index.html",
+        "slug": "es-es-quienes-somos",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/retail-en-la-encrucijada-2026/",
+        "outputPath": "es-es/retail-en-la-encrucijada-2026/index.html",
+        "slug": "es-es-retail-en-la-encrucijada-2026",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/retail-maturity-assessment/",
+        "outputPath": "es-es/retail-maturity-assessment/index.html",
+        "slug": "es-es-retail-maturity-assessment",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/servicios/revolucion-del-dato-y-ia/",
+        "outputPath": "es-es/servicios/revolucion-del-dato-y-ia/index.html",
+        "slug": "es-es-servicios-revolucion-del-dato-y-ia",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/servicios/",
+        "outputPath": "es-es/servicios/index.html",
+        "slug": "es-es-servicios",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/thread-magazine/edition-10-the-experience-loop/",
+        "outputPath": "es-es/thread-magazine/edition-10-the-experience-loop/index.html",
+        "slug": "es-es-thread-magazine-edition-10-the-experience-loop",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/thread-magazine/",
+        "outputPath": "es-es/thread-magazine/index.html",
+        "slug": "es-es-thread-magazine",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/trabajar-en-valtech/",
+        "outputPath": "es-es/trabajar-en-valtech/index.html",
+        "slug": "es-es-trabajar-en-valtech",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/whitepapers/el-ciclo-de-relevancia-de-las-marcas/",
+        "outputPath": "es-es/whitepapers/el-ciclo-de-relevancia-de-las-marcas/index.html",
+        "slug": "es-es-whitepapers-el-ciclo-de-relevancia-de-las-marcas",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/whitepapers/el-giro-hacia-la-ia/",
+        "outputPath": "es-es/whitepapers/el-giro-hacia-la-ia/index.html",
+        "slug": "es-es-whitepapers-el-giro-hacia-la-ia",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/whitepapers/experiencias-inteligentes/",
+        "outputPath": "es-es/whitepapers/experiencias-inteligentes/index.html",
+        "slug": "es-es-whitepapers-experiencias-inteligentes",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/whitepapers/fidelizacion-digital-sector-sanitario/",
+        "outputPath": "es-es/whitepapers/fidelizacion-digital-sector-sanitario/index.html",
+        "slug": "es-es-whitepapers-fidelizacion-digital-sector-sanitario",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/whitepapers/guia-estrategica-salud-digital-optimizely-2026/",
+        "outputPath": "es-es/whitepapers/guia-estrategica-salud-digital-optimizely-2026/index.html",
+        "slug": "es-es-whitepapers-guia-estrategica-salud-digital-optimizely-2026",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/whitepapers/infome-la-era-del-comercio-conversacional-2026/",
+        "outputPath": "es-es/whitepapers/infome-la-era-del-comercio-conversacional-2026/index.html",
+        "slug": "es-es-whitepapers-infome-la-era-del-comercio-conversacional-2026",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/whitepapers/informe-tendencias-cliente-movilidad-2026/",
+        "outputPath": "es-es/whitepapers/informe-tendencias-cliente-movilidad-2026/index.html",
+        "slug": "es-es-whitepapers-informe-tendencias-cliente-movilidad-2026",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/whitepapers/la-era-agentica-tendencias-de-la-ia-empresarial-2026/",
+        "outputPath": "es-es/whitepapers/la-era-agentica-tendencias-de-la-ia-empresarial-2026/index.html",
+        "slug": "es-es-whitepapers-la-era-agentica-tendencias-de-la-ia-empresarial-2026",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/whitepapers/la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software/",
+        "outputPath": "es-es/whitepapers/la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software/index.html",
+        "slug": "es-es-whitepapers-la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/whitepapers/la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026/",
+        "outputPath": "es-es/whitepapers/la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026/index.html",
+        "slug": "es-es-whitepapers-la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2025/",
+        "outputPath": "es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2025/index.html",
+        "slug": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2025",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2026/",
+        "outputPath": "es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2026/index.html",
+        "slug": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/whitepapers/retail-en-la-encrucijada-2026/",
+        "outputPath": "es-es/whitepapers/retail-en-la-encrucijada-2026/index.html",
+        "slug": "es-es-whitepapers-retail-en-la-encrucijada-2026",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/whitepapers/transformar-los-servicios-financieros-la-inteligencia-a-gran-escala/",
+        "outputPath": "es-es/whitepapers/transformar-los-servicios-financieros-la-inteligencia-a-gran-escala/index.html",
+        "slug": "es-es-whitepapers-transformar-los-servicios-financieros-la-inteligencia-a-gran-escala",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/whitepapers/",
+        "outputPath": "es-es/whitepapers/index.html",
+        "slug": "es-es-whitepapers",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es-es/",
+        "outputPath": "es-es/index.html",
+        "slug": "es-es",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/experience-innovation-on-azure/",
+        "outputPath": "experience-innovation-on-azure/index.html",
+        "slug": "experience-innovation-on-azure",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/experience-innovation/",
+        "outputPath": "experience-innovation/index.html",
+        "slug": "experience-innovation",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/experience-innovation3/",
+        "outputPath": "experience-innovation3/index.html",
+        "slug": "experience-innovation3",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/fabric-real-time-intelligence/",
+        "outputPath": "fabric-real-time-intelligence/index.html",
+        "slug": "fabric-real-time-intelligence",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/gear-accelerator/",
+        "outputPath": "gear-accelerator/index.html",
+        "slug": "gear-accelerator",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/geo-quick-start/",
+        "outputPath": "geo-quick-start/index.html",
+        "slug": "geo-quick-start",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/health-digital-leadership-roundtables/",
+        "outputPath": "health-digital-leadership-roundtables/index.html",
+        "slug": "health-digital-leadership-roundtables",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/innovation-marathon-2027/",
+        "outputPath": "innovation-marathon-2027/index.html",
+        "slug": "innovation-marathon-2027",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/intelligent-journeys/",
+        "outputPath": "intelligent-journeys/index.html",
+        "slug": "intelligent-journeys",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/is-your-adobe-investment-delivering/",
+        "outputPath": "is-your-adobe-investment-delivering/index.html",
+        "slug": "is-your-adobe-investment-delivering",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/lead-scoring/",
+        "outputPath": "lead-scoring/index.html",
+        "slug": "lead-scoring",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/leap-into-composable-commerce/",
+        "outputPath": "leap-into-composable-commerce/index.html",
+        "slug": "leap-into-composable-commerce",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/meet-the-expert-vera-schnitzlein/",
+        "outputPath": "meet-the-expert-vera-schnitzlein/index.html",
+        "slug": "meet-the-expert-vera-schnitzlein",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/next2025-highlights/",
+        "outputPath": "next2025-highlights/index.html",
+        "slug": "next2025-highlights",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/retail-at-the-crossroads-2026/",
+        "outputPath": "retail-at-the-crossroads-2026/index.html",
+        "slug": "retail-at-the-crossroads-2026",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/retail-maturity-assessment/",
+        "outputPath": "retail-maturity-assessment/index.html",
+        "slug": "retail-maturity-assessment",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/the-intelligent-enterprise/",
+        "outputPath": "the-intelligent-enterprise/index.html",
+        "slug": "the-intelligent-enterprise",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/valtech-agentic-commerce-catalyst/",
+        "outputPath": "valtech-agentic-commerce-catalyst/index.html",
+        "slug": "valtech-agentic-commerce-catalyst",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/valtech-and-salesforce/",
+        "outputPath": "valtech-and-salesforce/index.html",
+        "slug": "valtech-and-salesforce",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/valtech-conversion-engine/",
+        "outputPath": "valtech-conversion-engine/index.html",
+        "slug": "valtech-conversion-engine",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/valtech-enterprise-ai-foundations/",
+        "outputPath": "valtech-enterprise-ai-foundations/index.html",
+        "slug": "valtech-enterprise-ai-foundations",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/valtech-ukraine-in-media/",
+        "outputPath": "valtech-ukraine-in-media/index.html",
+        "slug": "valtech-ukraine-in-media",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 185,
+    "bundledAssets": [
+      "css/article.css",
+      "css/campaign.css",
+      "css/canon.css",
+      "css/editorial.css",
+      "css/landing.css",
+      "css/listing.css",
+      "css/microsite.css",
+      "css/offering.css",
+      "css/static.css",
+      "css/whitepaper.css",
+      "fonts/FFF-ValtechNeue-Book.woff",
+      "fonts/FFF-ValtechNeue-Book.woff2",
+      "fonts/FFF-ValtechNeue-Light.woff",
+      "fonts/FFF-ValtechNeue-Light.woff2",
+      "fonts/soehne-buch.woff2",
+      "fonts/soehne-halbfett.woff2",
+      "fonts/soehne-leicht-kursiv.woff2",
+      "fonts/soehne-leicht.woff2",
+      "img/article-sprite.svg",
+      "img/favicon.ico",
+      "img/icons/arrow-link--long.svg",
+      "img/icons/arrow-strict-left.svg",
+      "img/sprite.svg",
+      "img/static-sprite.svg",
+      "img/whitepaper-sprite.svg",
+      "js/article.js",
+      "js/campaign.js",
+      "js/chrome.js",
+      "js/editorial.js",
+      "js/landing.js",
+      "js/listing.js",
+      "js/microsite.js",
+      "js/offering.js",
+      "media/ai-searchandizing-workshop/gabriel-laliberte-152x154.webp",
+      "media/ai-searchandizing-workshop/masthead-1200x800.webp",
+      "media/ai-searchandizing-workshop/masthead-500x282.webp",
+      "media/ai-searchandizing-workshop/masthead-800x900.webp",
+      "media/ai-searchandizing-workshop/masthead-900x800.webp",
+      "media/ai-searchandizing-workshop/masthead-940x530.webp",
+      "media/ai-searchandizing-workshop/raphael-iscar-152x154.webp",
+      "media/ai-searchandizing-workshop/sprite.svg",
+      "media/digital-media-performance-marketing/image-01-landscape.webp",
+      "media/digital-media-performance-marketing/image-01-portrait.webp",
+      "media/digital-media-performance-marketing/image-02-landscape.webp",
+      "media/digital-media-performance-marketing/image-02-portrait.webp",
+      "media/digital-media-performance-marketing/masthead-1024.webp",
+      "media/digital-media-performance-marketing/masthead-1500.webp",
+      "media/digital-media-performance-marketing/masthead-1920.webp",
+      "media/digital-media-performance-marketing/masthead-768.webp",
+      "media/es-es-blog-la-era-de-los-agentes-de-ia/blog-post-agentic-era-report-valtech-body-image-320x240.webp",
+      "media/es-es-blog-la-era-de-los-agentes-de-ia/blog-post-agentic-era-report-valtech-body-image-480x360.webp",
+      "media/es-es-blog-la-era-de-los-agentes-de-ia/carsten-riggelsen-150x150.webp",
+      "media/es-es-blog-la-era-de-los-agentes-de-ia/david-toma-150x150.webp",
+      "media/es-es-blog-la-era-de-los-agentes-de-ia/the-agent-readines-ladder-1600x900.webp",
+      "media/es-es-blog-la-era-de-los-agentes-de-ia/the-agent-readines-ladder-768x1024.webp",
+      "media/es-es-blog-la-era-de-los-agentes-de-ia/tsk-9700-personal-agents--customer-relation-seo-1320x690.webp",
+      "media/es-es-blog-la-era-de-los-agentes-de-ia/tsk-9700-personal-agents--customer-relation-seo-1600x720.webp",
+      "media/es-es-blog-la-era-de-los-agentes-de-ia/tsk-9700-personal-agents--customer-relation-seo-440x230.webp",
+      "media/es-es-blog-la-era-de-los-agentes-de-ia/tsk-9700-personal-agents--customer-relation-seo-880x640.webp",
+      "media/es-es-blog/blog-munufacturing-mind-the-gap---moss-and-blue-gradient---v-580x384.webp",
+      "media/es-es-blog/blog-post-agentic-era-report-valtech-navigation-580x384.webp",
+      "media/es-es-blog/data-and-ai-blog---valet---valtech-nav-580x384.webp",
+      "media/es-es-blog/ie-event-utrecht-nl-header-580x384.webp",
+      "media/es-es-blog/listing-sprite.svg",
+      "media/es-es-blog/navigation--people-story-q4-diana-chavez-diana-s-photo-valte-1600x720.webp",
+      "media/es-es-blog/navigation--people-story-q4-diana-chavez-diana-s-photo-valte-940x530.webp",
+      "media/es-es-blog/navigation-ie-key-take-away-london-blog-image-from-event-val-580x384.webp",
+      "media/es-es-blog/tsk-7998-na---2026---event---b2b-online-chicago---post-event-580x384.webp",
+      "media/es-es-blog/tsk-8246-geo-blog-1-updates---adobe-navigation-580x384.webp",
+      "media/es-es-blog/tsk-8684-why-are-content-costs-rising-in-the-age-of-ai-hero--580x384.webp",
+      "media/es-es-blog/tsk-9241-google-ge-for-industries---1-580x384.webp",
+      "media/es-es-blog/tsk-9700-personal-agents--customer-relation-hero-1600x720.webp",
+      "media/es-es-blog/tsk-9700-personal-agents--customer-relation-hero-940x530.webp",
+      "media/es-es-blog/tsk-9757-agent-factory-blog-navigation-1600x720.webp",
+      "media/es-es-blog/tsk-9757-agent-factory-blog-navigation-940x530.webp",
+      "media/es-es-blog/tstsk-9376-people-story-anais-liu-ivan-jiao---nav-580x384.webp",
+      "media/es-es-la-empresa-inteligente-operar/case-1-440.webp",
+      "media/es-es-la-empresa-inteligente-operar/case-1-892.webp",
+      "media/es-es-la-empresa-inteligente-operar/case-2-440.webp",
+      "media/es-es-la-empresa-inteligente-operar/case-2-892.webp",
+      "media/es-es-la-empresa-inteligente-operar/fv-1-1320.webp",
+      "media/es-es-la-empresa-inteligente-operar/fv-1-880.webp",
+      "media/es-es-la-empresa-inteligente-operar/fv-2-1320.webp",
+      "media/es-es-la-empresa-inteligente-operar/fv-2-880.webp",
+      "media/es-es-la-empresa-inteligente-operar/fv-3-1320.webp",
+      "media/es-es-la-empresa-inteligente-operar/fv-3-880.webp",
+      "media/es-es-la-empresa-inteligente-operar/hero-1500.webp",
+      "media/es-es-la-empresa-inteligente-operar/hero-640.jpg",
+      "media/es-es-la-empresa-inteligente-operar/hero-mobile-440.webp",
+      "media/es-es-la-empresa-inteligente-operar/microsite-sprite.svg",
+      "media/es-es-la-empresa-inteligente-operar/side-1.webp",
+      "media/es-es-la-empresa-inteligente-operar/side-2.webp",
+      "media/es-es-la-empresa-inteligente-operar/sp-1.webp",
+      "media/es-es-la-empresa-inteligente-operar/sp-2.webp",
+      "media/es-es-la-empresa-inteligente-operar/sp-3.webp",
+      "media/es-es-la-empresa-inteligente-operar/sp-4.webp",
+      "media/es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026/mobility-sdv-offering-page-denny-pezi-152x154.webp",
+      "media/es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026/pdf-page-1-272.png",
+      "media/es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026/pdf-page-1.png",
+      "media/es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026/pdf-page-2-272-top.png",
+      "media/es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026/tsk-6717-voxi-2026-landing-page-valtech-header-1000x720.webp",
+      "media/es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026/tsk-6717-voxi-2026-landing-page-valtech-header-600x600.webp",
+      "media/es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026/tsk-6717-voxi-2026-landing-page-valtech-header-800x576.webp",
+      "media/index/agriculture-drone-1320x1320.webp",
+      "media/index/agriculture-drone-sm-880x640.webp",
+      "media/index/agriculture-drone-sm-880x880.webp",
+      "media/index/badge-no-outline.png",
+      "media/index/cdp_discloser_2026.png",
+      "media/index/cpg-danone-1320x1320.webp",
+      "media/index/cpg-danone-sm-880x640.webp",
+      "media/index/cpg-danone-sm-880x880.webp",
+      "media/index/finance-discover-1600x800.webp",
+      "media/index/finance-discover-mobile-600x350.webp",
+      "media/index/financial-services-visa-1320x1320.webp",
+      "media/index/financial-services-visa-sm-880x640.webp",
+      "media/index/financial-services-visa-sm-880x880.webp",
+      "media/index/health-industry_gsk-virtual-clinic-1320x1320.webp",
+      "media/index/health-industry_gsk-virtual-clinic-880x640.webp",
+      "media/index/health-industry_gsk-virtual-clinic-880x880.webp",
+      "media/index/hero-ai-as-the-differentiator-valtech-one-1920x800.webp",
+      "media/index/hero-ai-as-the-differentiator-valtech-one-mobile-440x316.webp",
+      "media/index/hero-ai-as-the-differentiator-valtech-one-tablet-sm-1500x800.webp",
+      "media/index/hero-ai-as-the-differentiator-valtech-one-tablet-sm-640x342.jpg",
+      "media/index/hero-awards-fast-company-1920x800.webp",
+      "media/index/hero-awards-fast-company-mobile-440x316.webp",
+      "media/index/hero-awards-fast-company-tablet-sm-1500x800.webp",
+      "media/index/hero-awards-fast-company-tablet-sm-640x342.jpg",
+      "media/index/hero-case-study-lexus-ai-concierge-1920x800.webp",
+      "media/index/hero-case-study-lexus-ai-concierge-mobile-440x316.webp",
+      "media/index/hero-case-study-lexus-ai-concierge-tablet-sm-1500x800.webp",
+      "media/index/hero-case-study-lexus-ai-concierge-tablet-sm-640x342.jpg",
+      "media/index/hero_intelligent_enterprise_1880-1500x800.webp",
+      "media/index/hero_intelligent_enterprise_1880-640x342.jpg",
+      "media/index/hero_intelligent_enterprise_3000-1920x800.webp",
+      "media/index/hero_intelligent_enterprise_866-440x316.webp",
+      "media/index/luxury-showroom-experience-1320x1320.webp",
+      "media/index/luxury-showroom-experience-sm-880x640.webp",
+      "media/index/luxury-showroom-experience-sm-880x880.webp",
+      "media/index/manufacturing-connected-warehouse-1320x1320.webp",
+      "media/index/manufacturing-connected-warehouse-sm-880x640.webp",
+      "media/index/manufacturing-connected-warehouse-sm-880x880.webp",
+      "media/index/mobility-audi-themes-1320x1320.webp",
+      "media/index/mobility-audi-themes-sm-880x640.webp",
+      "media/index/mobility-audi-themes-sm-880x880.webp",
+      "media/index/mobility-lexus-lbx-ai-concierge-1600x800.webp",
+      "media/index/mobility-lexus-lbx-ai-concierge-mobile-600x350.webp",
+      "media/index/new-space-1320x1320.webp",
+      "media/index/new-space-sm-880x640.webp",
+      "media/index/new-space-sm-880x880.webp",
+      "media/index/public-sector-1320x1320.webp",
+      "media/index/public-sector-sm-880x640.webp",
+      "media/index/public-sector-sm-880x880.webp",
+      "media/index/retail-eton-index-shirt-1600x800.webp",
+      "media/index/retail-eton-index-shirt-mobile-600x350.webp",
+      "media/index/retail-levis-tailor-shop-1320x1320.webp",
+      "media/index/retail-levis-tailor-shop-sm-880x640.webp",
+      "media/index/retail-levis-tailor-shop-sm-880x880.webp",
+      "media/index/retail-mars-mms-1600x800.webp",
+      "media/index/retail-mars-mms-custom-mobile-600x350.webp",
+      "media/index/travel-easyjet-airport-1320x1320.webp",
+      "media/index/travel-easyjet-airport-sm-880x640.webp",
+      "media/index/travel-easyjet-airport-sm-880x880.webp",
+      "media/index/travel-mandarin-oriental-1600x800.webp",
+      "media/index/travel-mandarin-oriental-mobile-600x350.webp",
+      "media/valtech-conversion-engine/bernd-munel-152x154.webp",
+      "media/valtech-conversion-engine/hero-1000x720.webp",
+      "media/valtech-conversion-engine/hero-600x600.webp",
+      "media/valtech-conversion-engine/hero-800x576.webp",
+      "media/valtech-conversion-engine/image1-350x230.webp",
+      "media/valtech-conversion-engine/image1-584x388.webp",
+      "media/valtech-conversion-engine/image2-350x230.webp",
+      "media/valtech-conversion-engine/image2-584x388.webp",
+      "media/valtech-conversion-engine/image3-350x230.webp",
+      "media/valtech-conversion-engine/image3-584x388.webp",
+      "media/valtech-conversion-engine/offering-sprite.svg",
+      "media/valtech-conversion-engine/paul-carysforth-152x154.webp",
+      "media/valtech-conversion-engine/sune-borsen-152x154.webp",
+      "media/valtech-conversion-engine/teaser1-320x240.webp",
+      "media/valtech-conversion-engine/teaser1-480x360.webp",
+      "media/valtech-conversion-engine/teaser2-320x240.webp",
+      "media/valtech-conversion-engine/teaser2-480x360.webp",
+      "media/valtech-conversion-engine/teaser3-320x240.webp",
+      "media/valtech-conversion-engine/teaser3-480x360.webp",
+      "media/valtech-conversion-engine/teaser4-320x240.webp",
+      "media/valtech-conversion-engine/teaser4-480x360.webp"
+    ],
+    "pages": [
+      {
+        "slug": "ai-searchandizing-workshop",
+        "file": "stardust/migrated/ai-searchandizing-workshop/index.html",
+        "assetsBundled": 26
+      },
+      {
+        "slug": "digital-media-performance-marketing",
+        "file": "stardust/migrated/digital-media-performance-marketing/index.html",
+        "assetsBundled": 18
+      },
+      {
+        "slug": "es-es-aviso-legal",
+        "file": "stardust/migrated/es-es/aviso-legal/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "es-es-blog-la-era-de-los-agentes-de-ia",
+        "file": "stardust/migrated/es-es/blog/la-era-de-los-agentes-de-ia/index.html",
+        "assetsBundled": 20
+      },
+      {
+        "slug": "es-es-blog",
+        "file": "stardust/migrated/es-es/blog/index.html",
+        "assetsBundled": 26
+      },
+      {
+        "slug": "es-es-la-empresa-inteligente-operar",
+        "file": "stardust/migrated/es-es/la-empresa-inteligente/operar/index.html",
+        "assetsBundled": 29
+      },
+      {
+        "slug": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2026",
+        "file": "stardust/migrated/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2026/index.html",
+        "assetsBundled": 16
+      },
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 69
+      },
+      {
+        "slug": "valtech-conversion-engine",
+        "file": "stardust/migrated/valtech-conversion-engine/index.html",
+        "assetsBundled": 31
+      },
+      {
+        "slug": "es-es-politica-de-cookies",
+        "file": "stardust/migrated/es-es/politica-de-cookies/index.html",
+        "assetsBundled": 17
+      },
+      {
+        "slug": "es-es-politica-privacidad",
+        "file": "stardust/migrated/es-es/politica-privacidad/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "fabric-real-time-intelligence",
+        "file": "stardust/migrated/fabric-real-time-intelligence/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "es-es-casos",
+        "file": "stardust/migrated/es-es/casos/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-whitepapers",
+        "file": "stardust/migrated/es-es/whitepapers/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-eventos",
+        "file": "stardust/migrated/es-es/eventos/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-noticias",
+        "file": "stardust/migrated/es-es/noticias/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-podcasts",
+        "file": "stardust/migrated/es-es/podcasts/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-content-hub",
+        "file": "stardust/migrated/es-es/content-hub/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es",
+        "file": "stardust/migrated/es-es/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-blog-asi-se-creo-valtech-concierge",
+        "file": "stardust/migrated/es-es/blog/asi-se-creo-valtech-concierge/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-blog-como-marcas-locales-escalan-de-forma-diferente",
+        "file": "stardust/migrated/es-es/blog/como-marcas-locales-escalan-de-forma-diferente/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-blog-el-geo-como-la-nueva-frontera-de-la-visibilidad-digital",
+        "file": "stardust/migrated/es-es/blog/el-geo-como-la-nueva-frontera-de-la-visibilidad-digital/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-blog-embedding-ai-in-government-case-management",
+        "file": "stardust/migrated/es-es/blog/embedding-ai-in-government-case-management/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-blog-estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion",
+        "file": "stardust/migrated/es-es/blog/estrategia-para-tiendas-fisicas-mas-alla-de-la-transaccion/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-blog-ia-transforma-busquedas-y-webs-de-marca",
+        "file": "stardust/migrated/es-es/blog/ia-transforma-busquedas-y-webs-de-marca/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-blog-presentamos-el-muro-de-datos-b2b",
+        "file": "stardust/migrated/es-es/blog/presentamos-el-muro-de-datos-b2b/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-casos-lexus-europa",
+        "file": "stardust/migrated/es-es/casos/lexus-europa/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-eventos-ai-in-retail-from-pilots-to-performanceexclusive",
+        "file": "stardust/migrated/es-es/eventos/ai-in-retail-from-pilots-to-performanceexclusive/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-eventos-google-cloud-and-valtech-roundtable",
+        "file": "stardust/migrated/es-es/eventos/google-cloud-and-valtech-roundtable/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-eventos-valtech-at-shoptalk-europe-2026",
+        "file": "stardust/migrated/es-es/eventos/valtech-at-shoptalk-europe-2026/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-eventos-valtech-optimizely-at-resume-martech-2026",
+        "file": "stardust/migrated/es-es/eventos/valtech-optimizely-at-resume-martech-2026/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-noticias-conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds",
+        "file": "stardust/migrated/es-es/noticias/conversational-ai-is-becoming-the-new-front-door-to-commerce-new-global-valtech-study-finds/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-noticias-valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente",
+        "file": "stardust/migrated/es-es/noticias/valtech-reconocida-como-strong-performer-en-el-informe-commerce-services-2026-de-una-firma-de-analisis-independiente/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-quienes-somos",
+        "file": "stardust/migrated/es-es/quienes-somos/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "leap-into-composable-commerce",
+        "file": "stardust/migrated/leap-into-composable-commerce/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-thread-magazine-edition-10-the-experience-loop",
+        "file": "stardust/migrated/es-es/thread-magazine/edition-10-the-experience-loop/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-whitepapers-el-giro-hacia-la-ia",
+        "file": "stardust/migrated/es-es/whitepapers/el-giro-hacia-la-ia/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "es-es-whitepapers-experiencias-inteligentes",
+        "file": "stardust/migrated/es-es/whitepapers/experiencias-inteligentes/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "es-es-whitepapers-fidelizacion-digital-sector-sanitario",
+        "file": "stardust/migrated/es-es/whitepapers/fidelizacion-digital-sector-sanitario/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "es-es-whitepapers-guia-estrategica-salud-digital-optimizely-2026",
+        "file": "stardust/migrated/es-es/whitepapers/guia-estrategica-salud-digital-optimizely-2026/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "es-es-whitepapers-infome-la-era-del-comercio-conversacional-2026",
+        "file": "stardust/migrated/es-es/whitepapers/infome-la-era-del-comercio-conversacional-2026/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "es-es-whitepapers-informe-tendencias-cliente-movilidad-2026",
+        "file": "stardust/migrated/es-es/whitepapers/informe-tendencias-cliente-movilidad-2026/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "es-es-whitepapers-la-era-agentica-tendencias-de-la-ia-empresarial-2026",
+        "file": "stardust/migrated/es-es/whitepapers/la-era-agentica-tendencias-de-la-ia-empresarial-2026/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "es-es-whitepapers-la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software",
+        "file": "stardust/migrated/es-es/whitepapers/la-ia-en-el-ciclo-de-vida-del-desarrollo-de-software/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "es-es-whitepapers-la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026",
+        "file": "stardust/migrated/es-es/whitepapers/la-voz-de-lideres-digitales-de-la-industria-manufacturera-informe-2026/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "es-es-whitepapers-la-voz-de-los-innovadores-en-experiencia-movilidad-2025",
+        "file": "stardust/migrated/es-es/whitepapers/la-voz-de-los-innovadores-en-experiencia-movilidad-2025/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "es-es-whitepapers-retail-en-la-encrucijada-2026",
+        "file": "stardust/migrated/es-es/whitepapers/retail-en-la-encrucijada-2026/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "es-es-whitepapers-transformar-los-servicios-financieros-la-inteligencia-a-gran-escala",
+        "file": "stardust/migrated/es-es/whitepapers/transformar-los-servicios-financieros-la-inteligencia-a-gran-escala/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "es-es-la-empresa-inteligente-organizar",
+        "file": "stardust/migrated/es-es/la-empresa-inteligente/organizar/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "geo-quick-start",
+        "file": "stardust/migrated/geo-quick-start/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-la-empresa-inteligente-crecer",
+        "file": "stardust/migrated/es-es/la-empresa-inteligente/crecer/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-la-empresa-inteligente-liderar",
+        "file": "stardust/migrated/es-es/la-empresa-inteligente/liderar/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-la-empresa-inteligente-modelo-operativo",
+        "file": "stardust/migrated/es-es/la-empresa-inteligente/modelo-operativo/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-la-empresa-inteligente",
+        "file": "stardust/migrated/es-es/la-empresa-inteligente/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "the-intelligent-enterprise",
+        "file": "stardust/migrated/the-intelligent-enterprise/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "ai-first-product-operating-model",
+        "file": "stardust/migrated/ai-first-product-operating-model/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "content-supply-chain",
+        "file": "stardust/migrated/content-supply-chain/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "digital-consulting-discovery-call",
+        "file": "stardust/migrated/digital-consulting-discovery-call/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "enterprise-ai-foundations-financial-services",
+        "file": "stardust/migrated/enterprise-ai-foundations-financial-services/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-guia-para-la-empresa-inteligente",
+        "file": "stardust/migrated/es-es/guia-para-la-empresa-inteligente/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-retail-en-la-encrucijada-2026",
+        "file": "stardust/migrated/es-es/retail-en-la-encrucijada-2026/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-servicios-revolucion-del-dato-y-ia",
+        "file": "stardust/migrated/es-es/servicios/revolucion-del-dato-y-ia/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-whitepapers-el-ciclo-de-relevancia-de-las-marcas",
+        "file": "stardust/migrated/es-es/whitepapers/el-ciclo-de-relevancia-de-las-marcas/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "experience-innovation3",
+        "file": "stardust/migrated/experience-innovation3/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "is-your-adobe-investment-delivering",
+        "file": "stardust/migrated/is-your-adobe-investment-delivering/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "retail-at-the-crossroads-2026",
+        "file": "stardust/migrated/retail-at-the-crossroads-2026/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "valtech-agentic-commerce-catalyst",
+        "file": "stardust/migrated/valtech-agentic-commerce-catalyst/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "valtech-enterprise-ai-foundations",
+        "file": "stardust/migrated/valtech-enterprise-ai-foundations/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "brand-strategy-design-agency",
+        "file": "stardust/migrated/brand-strategy-design-agency/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "creative-content",
+        "file": "stardust/migrated/creative-content/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "dataprod",
+        "file": "stardust/migrated/dataprod/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-carrera",
+        "file": "stardust/migrated/es-es/carrera/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-diversidad-e-inclusion",
+        "file": "stardust/migrated/es-es/diversidad-e-inclusion/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-industrias",
+        "file": "stardust/migrated/es-es/industrias/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-nuestros-partners-oracle",
+        "file": "stardust/migrated/es-es/nuestros-partners/oracle/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-servicios",
+        "file": "stardust/migrated/es-es/servicios/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-es-trabajar-en-valtech",
+        "file": "stardust/migrated/es-es/trabajar-en-valtech/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "experience-innovation",
+        "file": "stardust/migrated/experience-innovation/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "experience-innovation-on-azure",
+        "file": "stardust/migrated/experience-innovation-on-azure/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "lead-scoring",
+        "file": "stardust/migrated/lead-scoring/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "meet-the-expert-vera-schnitzlein",
+        "file": "stardust/migrated/meet-the-expert-vera-schnitzlein/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "next2025-highlights",
+        "file": "stardust/migrated/next2025-highlights/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "valtech-and-salesforce",
+        "file": "stardust/migrated/valtech-and-salesforce/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "valtech-ukraine-in-media",
+        "file": "stardust/migrated/valtech-ukraine-in-media/index.html",
+        "assetsBundled": 11
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-11-14T00:25:23Z",
+      "rendered": [
+        "valtech-ukraine-in-media"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}
